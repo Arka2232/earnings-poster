@@ -403,15 +403,22 @@ def render_actions_image(week_label, by_day, out_path):
 
 def render_ipo_image(company, symbol, price_band, open_label,
                      close_label, listing_label, lot_label,
-                     subscription, gmp_label, est_listing, out_path):
-    """One IPO card. price_band / dates / subscription come from
-    NSE; lot size, listing date and GMP come from public IPO
-    trackers and are labelled unofficial — never presented as
+                     subscription, gmp_label, est_listing, out_path,
+                     issue_size=None, fresh_issue=None, ofs=None):
+    """One IPO card, full details. Price band / dates /
+    subscription come from NSE; issue size, fresh issue and OFS
+    come from chittorgarh.com's IPO detail page (labelled), or
+    issue size alone from gmptoday.in when the split is
+    unavailable; lot size, listing date and GMP come from public
+    IPO trackers and are labelled unofficial — never presented as
     exchange data. Fields that are unavailable are omitted by the
     caller (pass None)."""
     width, margin = 1600, 48
     header_h, footer_h = 210, 90
-    rows = [("Price Band", price_band),
+    rows = [("Issue Size", issue_size),
+            ("Fresh Issue", fresh_issue),
+            ("OFS", ofs),
+            ("Price Band", price_band),
             ("Open", open_label),
             ("Close", close_label),
             ("Listing", listing_label),
@@ -434,7 +441,9 @@ def render_ipo_image(company, symbol, price_band, open_label,
         d.text((margin, y), key,
                font=card_font(bold=True, size=34), fill=GREY)
         d.text((margin + 420, y), val,
-               font=card_font(bold=True, size=34), fill=NAVY)
+               font=_fit_font(d, val, 34, bold=True,
+                              max_w=width - 2 * margin - 420),
+               fill=NAVY)
         y += 62
     _footer(d, width, height)
     img.save(out_path)

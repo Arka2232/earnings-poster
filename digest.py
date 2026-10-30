@@ -33,6 +33,7 @@ Honest limits baked into the posts:
 - Every post ends with the education-only disclaimer.
 """
 
+import html
 import json
 import os
 import re
@@ -380,6 +381,156 @@ def _match_gmp(company, gmp_rows):
     return None
 
 
+def _strip_html(page):
+    """Strip fetched HTML down to visible text for table parsing."""
+    t = re.sub(r"<script.*?</script>", " ", page, flags=re.S)
+    t = re.sub(r"<style.*?</style>", " ", t, flags=re.S)
+    t = re.sub(r"<[^>]+>", "|", t)
+    t = html.unescape(t)
+    return re.sub(r"\|+", " | ", t)
+
+
+def _cr(amount):
+    """Format a rupee-crore figure: whole numbers without decimals."""
+    try:
+        x = float(amount)
+    except (TypeError, ValueError):
+        return None
+    if x == int(x):
+        return f"₹{x:,.0f} Cr"
+    return f"₹{x:,.2f} Cr"
+
+
+def _chg_slug_variants(company):
+    """Chittorgarh detail-page slugs for a company name. The site
+    redirects a slug-only URL to the full slug+id URL, which is
+    what makes discovery work without knowing the numeric id."""
+    name = (company or "").lower().replace("&", " and ")
+    name = re.sub(r"\b(limited|ltd|private|pvt|company|co)\b", " ",
+                  name)
+    slug = re.sub(r"-+", "-",
+                  re.sub(r"[^a-z0-9]+", "-", name)).strip("-")
+    variants = [slug]
+    no_and = slug.replace("-and-", "-").strip("-")
+    if no_and and no_and != slug:
+        variants.append(no_and)
+    return [v for v in variants if v]
+
+
+def _chg_shares_after(text, label, window=120):
+    """First '<number> shares' after a label, else None."""
+    i = text.find(label)
+    if i < 0:
+        return None
+    m = re.search(r"([\d,]+)(?:\s*\|)*\s*shares", text[i:i + window])
+    if not m:
+        return None
+    try:
+        return int(m.group(1).replace(",", ""))
+    except ValueError:
+        return None
+
+
+def _chg_mm_shares(text):
+    """Market-maker share count: the 'Market Maker' occurrence
+    whose following text starts with a number (the name row, e.g.
+    'Hem Finlease', is skipped). None when there is no such row."""
+    for m in re.finditer(r"Market Maker", text):
+        seg = text[m.end():m.end() + 40]
+        n = re.match(r"\s*\|?\s*([\d,]{4,})", seg)
+        if n:
+            try:
+                return int(n.group(1).replace(",", ""))
+            except ValueError:
+                continue
+    return None
+
+
+def _chg_parse_split(text):
+    """Parse one chittorgarh details-table window. The split is
+    accepted only when its parts sum EXACTLY to the total share
+    count (fresh ex-market-maker + market maker + OFS == total);
+    rupee figures are shares x upper band from the same page.
+    Returns the split dict or None."""
+    for anchor in re.finditer(r"Total Issue Size", text):
+        win = text[anchor.start():anchor.start() + 1500]
+        total = _chg_shares_after(win, "Total Issue Size")
+        fresh = _chg_shares_after(win, "Fresh Issue")
+        if total is None or fresh is None:
+            continue
+        mm = _chg_mm_shares(win) or 0
+        ofs = _chg_shares_after(win, "Offer for Sale")
+        if ofs is None:
+            seg = ""
+            j = win.find("Offer for Sale")
+            if j >= 0:
+                seg = win[j:j + 80]
+            if ("Not Applicable" in seg or "not applicable" in seg
+                    or fresh + mm == total):
+                ofs = 0
+            else:
+                continue
+        if fresh + mm + ofs != total:
+            continue
+        band = re.search(r"Price Band(?:\s*\|)*\s*₹\s*([\d,]+)\s*to\s*"
+                         r"₹\s*([\d,]+)", text)
+        lot = re.search(r"Lot Size(?:\s*\|)*\s*([\d,]+)(?:\s*\|)*\s*"
+                        r"Shares", text)
+        if not band:
+            continue
+        try:
+            low = float(band.group(1).replace(",", ""))
+            high = float(band.group(2).replace(",", ""))
+        except ValueError:
+            continue
+        if high <= 0:
+            continue
+        fresh_total = fresh + mm
+        return {
+            "total": _cr(total * high / 1e7),
+            "fresh": _cr(fresh_total * high / 1e7),
+            "ofs": _cr(ofs * high / 1e7) if ofs else None,
+            "price_low": low,
+            "price_high": high,
+            "lot": f"{lot.group(1)} shares" if lot else None,
+        }
+    return None
+
+
+def fetch_chittorgarh_split(company):
+    """Fresh-issue / OFS split from chittorgarh.com's IPO detail
+    page. Returns None on ANY failure — a failed fetch, a page
+    that is not this company's, or a failed consistency check
+    omits the split rows, it never invents them. Never raises."""
+    try:
+        words = [w for w in re.split(r"[^A-Za-z0-9]+",
+                                     company or "")
+                 if w.lower() not in ("limited", "ltd", "private",
+                                      "pvt", "company", "co")]
+        check = [w.lower() for w in words[:2]]
+        if len(check) < 2:
+            return None
+        headers = {"User-Agent": HEADERS["User-Agent"]}
+        for slug in _chg_slug_variants(company):
+            try:
+                r = requests.get(
+                    f"https://www.chittorgarh.com/ipo/{slug}-ipo/",
+                    headers=headers, timeout=20)
+                if r.status_code != 200:
+                    continue
+                text = _strip_html(r.text)
+                if not all(w in text.lower() for w in check):
+                    continue
+                split = _chg_parse_split(text)
+                if split:
+                    return split
+            except Exception:
+                continue
+        return None
+    except Exception:
+        return None
+
+
 def _upper_price(text):
     try:
         nums = [float(x) for x in re.findall(r"\d+(?:\.\d+)?",
@@ -649,9 +800,15 @@ def maybe_run_digests(token, chat_id, state, save_fn, now=None):
                 company = ipo.get("companyName") or sym
                 g = _match_gmp(company, gmp_rows)
                 price = ipo.get("issuePrice")
+                split = fetch_chittorgarh_split(company)
                 cap = _upper_price(price)
-                if not price and g and g.get("price_band") is not None:
-                    price = f"₹{float(g['price_band']):,.0f}"
+                if split and split.get("price_low") \
+                        and split.get("price_high"):
+                    price = (f"₹{split['price_low']:,.0f} to "
+                             f"₹{split['price_high']:,.0f}")
+                    cap = float(split["price_high"])
+                elif not price and g and g.get("price_band") is not None:
+                    price = f"up to ₹{float(g['price_band']):,.0f}"
                     cap = float(g["price_band"])
                 open_lbl = fmt_date(parse_nse_date(
                     ipo.get("issueStartDate"))) \
@@ -663,12 +820,14 @@ def maybe_run_digests(token, chat_id, state, save_fn, now=None):
                 lot_lbl = None
                 gmp_lbl = None
                 est_lbl = None
+                if split and split.get("lot"):
+                    lot_lbl = f"{split['lot']} (chittorgarh.com)"
                 if g:
                     if g.get("listing_date"):
                         listing_lbl = (_fmt_iso_date(g["listing_date"])
                                        or g["listing_date"]) \
                             + " (gmptoday.in)"
-                    if g.get("lot_size") is not None:
+                    if lot_lbl is None and g.get("lot_size") is not None:
                         lot_lbl = (f"{float(g['lot_size']):,.0f} shares "
                                    "(gmptoday.in)")
                     if g.get("gmp_median") is not None:
@@ -678,6 +837,15 @@ def maybe_run_digests(token, chat_id, state, save_fn, now=None):
                             est_lbl = (f"₹{cap + float(g['gmp_median']):,.0f} "
                                        f"(₹{cap:,.0f} + "
                                        f"₹{float(g['gmp_median']):,.0f})")
+                issue_lbl = None
+                fresh_lbl = None
+                ofs_lbl = None
+                if split:
+                    issue_lbl = f"{split['total']} (chittorgarh.com)"
+                    fresh_lbl = f"{split['fresh']} (chittorgarh.com)"
+                    ofs_lbl = split["ofs"] if split["ofs"] else "None"
+                elif g and g.get("issue_size"):
+                    issue_lbl = f"{g['issue_size']} (gmptoday.in)"
                 try:
                     sub = float(ipo.get("noOfTime"))
                     sub_lbl = f"{sub:.2f}x (NSE)"
@@ -687,12 +855,17 @@ def maybe_run_digests(token, chat_id, state, save_fn, now=None):
                     token, chat_id,
                     lambda p, _c=company, _s=sym, _pr=price, _o=open_lbl,
                     _cl=close_lbl, _li=listing_lbl, _lo=lot_lbl,
-                    _su=sub_lbl, _g=gmp_lbl, _e=est_lbl: render_ipo_image(
-                        _c, _s, _pr, _o, _cl, _li, _lo, _su, _g, _e, p),
+                    _su=sub_lbl, _g=gmp_lbl, _e=est_lbl,
+                    _i=issue_lbl, _f=fresh_lbl, _of=ofs_lbl: render_ipo_image(
+                        _c, _s, _pr, _o, _cl, _li, _lo, _su, _g, _e, p,
+                        issue_size=_i, fresh_issue=_f, ofs=_of),
                     f"{company} ({sym}) IPO is open — {price or 'price not disclosed'}"
                     f" — {ipo.get('issueStartDate')} to "
                     f"{ipo.get('issueEndDate')}"
                     f" — subscribed {sub_lbl or 'n/a'}."
+                    + (f" Issue size {issue_lbl}." if issue_lbl else "")
+                    + (f" Fresh {fresh_lbl}, OFS {ofs_lbl}."
+                       if fresh_lbl else "")
                     + (f" GMP {gmp_lbl}." if gmp_lbl else "")
                     + f"\n\n{IPO_DISCLAIMER}")
                 posted.add(sym)
