@@ -79,12 +79,15 @@ def ist_today():
 
 
 def record_archive(state, symbol, company, rating, basis, quarter_label,
-                   sales, pat, eps, filing_url):
+                   sales, pat, eps, filing_url, filing_time=""):
     """Append one posted item to state["archive"] (capped at 300).
 
     The archive page reads state.json, which the workflow already
     commits, so no workflow change is needed. Entries are channel
     posts — already public — so storing them in the repo is fine.
+    "t" is the filing's NSE timestamp (an_dt); the night recap uses
+    it for the During/After Market split, and entries without it
+    fall back to After Market.
     """
     from telegram_post import tradingview_url
     entries = state.setdefault("archive", [])
@@ -93,6 +96,7 @@ def record_archive(state, symbol, company, rating, basis, quarter_label,
         "b": basis or "", "q": quarter_label or "",
         "sales": sales, "pat": pat, "eps": eps,
         "filing": filing_url, "chart": tradingview_url(symbol),
+        "t": filing_time or "",
     })
     del entries[:-300]
 
@@ -165,53 +169,6 @@ def extract_layout_text(pdf_bytes):
         return None
 
 
-def extract_logo(pdf_bytes):
-    """Best logo-like image from the filing's first page, as PNG
-    bytes, or None. The logo comes from the company's own filing
-    (letterhead), so no external logo library or symbol->domain
-    mapping is needed. Strict shape rules keep the wrong images out:
-    full-page scans (tall images) are skipped, as are signatures
-    and address-text blocks; only wide letterhead banners or
-    near-square logo marks pass. When nothing passes, the caller
-    falls back to the initials badge, so a missing logo never
-    breaks a card. A seal or mark that passes the shape test is
-    still the company's own artwork, not another company's logo.
-    """
-    try:
-        from pypdf import PdfReader
-        from PIL import Image as _Im
-        import io as _io
-        reader = PdfReader(_io.BytesIO(pdf_bytes))
-        if not reader.pages:
-            return None
-        best, best_area = None, 0
-        for im in reader.pages[0].images:
-            try:
-                img = _Im.open(_io.BytesIO(im.data))
-                img.load()
-            except Exception:
-                continue
-            w, h = img.size
-            if h > 1000:
-                continue
-            aspect = w / h if h else 0
-            banner = (w >= 400 and 60 <= h <= 500
-                      and 2.0 <= aspect <= 9.0)
-            mark = (120 <= w <= 450 and 120 <= h <= 450
-                    and 0.75 <= aspect <= 1.33)
-            if not (banner or mark):
-                continue
-            if w * h > best_area:
-                best, best_area = img, w * h
-        if best is None:
-            return None
-        buf = _io.BytesIO()
-        best.convert("RGBA").save(buf, format="PNG")
-        return buf.getvalue()
-    except Exception:
-        return None
-
-
 def filing_age_days(item):
     raw = item.get("an_dt") or ""
     for fmt in ("%d-%b-%Y %H:%M:%S", "%d-%b-%Y"):
@@ -261,6 +218,7 @@ def process_item(item, token, chat_id, state):
     company = item.get("sm_name") or symbol
     url = pdf_url(item)
     key = filing_key(item)
+    filing_time = (item.get("an_dt") or "").strip()
     print(f"[{symbol}] {url}")
     try:
         r = requests.get(url, headers=HEADERS, timeout=60)
@@ -313,21 +271,14 @@ def process_item(item, token, chat_id, state):
               f"(unparsed: {results_parser.LAST_REFUSAL})")
         state["seen"].append(key)
         record_archive(state, symbol, company, "Results Filed", "", "",
-                       None, None, None, url)
+                       None, None, None, url, filing_time)
         save_state(state)
         return True
 
-    filing_time = (item.get("an_dt") or "").strip()
     q_labels = quarter_month_labels(parsed["quarter_label"])
     with tempfile.TemporaryDirectory() as td:
-        logo_path = None
-        logo_bytes = extract_logo(pdf)
-        if logo_bytes:
-            logo_path = os.path.join(td, "logo.png")
-            with open(logo_path, "wb") as fh:
-                fh.write(logo_bytes)
         data = card_data_from_parse(company, symbol, parsed, filing_time,
-                                    q_labels, logo_path=logo_path)
+                                    q_labels)
         img = os.path.join(td, f"{symbol}.png")
         render_card(data, img)
         send_photo(token, chat_id, img,
@@ -337,7 +288,8 @@ def process_item(item, token, chat_id, state):
     eps = parsed["eps"] or (None, None, None)
     record_archive(state, symbol, company, parsed["rating"],
                    parsed.get("basis", ""), parsed["quarter_label"],
-                   parsed["sales"][0], parsed["pat"][0], eps[0], url)
+                   parsed["sales"][0], parsed["pat"][0], eps[0], url,
+                   filing_time)
     save_state(state)
     return True
 
