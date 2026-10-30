@@ -38,6 +38,20 @@ MONEY_MAX = 5000000.0  # Rs Cr: no real quarterly figure is this big;
 # a parse above it is mangled text (SJVN consolidated once read
 # Sales as 1,032,403,638 Cr), so the parse is refused outright.
 
+LAST_REFUSAL = None  # reason the latest segment parse refused, if any
+
+
+def _refuse(reason):
+    """Record why a segment refused, then return None.
+
+    Behaviour-neutral: callers still see None; the watcher logs the
+    reason so a "Results Filed" text post can be diagnosed instead
+    of guessed at.
+    """
+    global LAST_REFUSAL
+    LAST_REFUSAL = reason
+    return None
+
 
 def _normalize_mangled(s):
     """Undo systematic pypdf misreads inside a numeric token/chunk.
@@ -59,6 +73,7 @@ def _repair_numeric_tokens(tokens):
     """Repair mangled numeric tokens inside a table row's value section."""
     out = []
     for tok in tokens:
+        tok = tok.strip("_—–~*=").rstrip("];")
         tok = _normalize_mangled(tok)
         neg = False
         if tok.startswith("(") and tok.endswith(")"):
@@ -99,6 +114,14 @@ def _parse_chunk(chunk):
     numbers whose decimal part lost its dot ("5411512" -> 54115.12).
     """
     s = chunk.replace(" ", "").replace("|", "")
+    if not s:
+        return None
+    # OCR junk attached to a value (stray _, dashes, brackets, stars,
+    # semicolons from bad OCR layers). Strip only this safe set; the
+    # minus sign and parentheses are handled below, so signs survive.
+    s = s.strip("_—–~*=")
+    s = s.rstrip("];")
+    s = s.lstrip("_—–~*=")
     if not s:
         return None
     s = _normalize_mangled(s)
@@ -209,9 +232,15 @@ def _row_values(line):
 
 
 def _find_unit_factor(text, revenue_pos):
-    """Units from the header above the revenue row."""
+    """Units from the header above the revenue row.
+
+    OCR-batch fix: "lacs" is a real unit spelling (Rs. in Lacs) and
+    does NOT contain "lakh", so the old substring check missed it
+    and read lakh figures as crore (100x too big). The word-boundary
+    regex below catches lakhs/lakh/lacs/lac.
+    """
     head = text[max(0, revenue_pos - 3000):revenue_pos].lower()
-    if "lakh" in head:
+    if re.search(r"\blakhs?\b|\blacs?\b", head):
         return 0.01
     if "million" in head:
         return 0.1
@@ -374,7 +403,7 @@ def _parse_segment(text):
         if rev_idx is not None:
             break
     if rev_idx is None:
-        return None
+        return _refuse("no-revenue-row")
     rev_pos = sum(len(l) + 1 for l in lines[:rev_idx])
     factor = _find_unit_factor(text, rev_pos)
     if factor == 1.0:
@@ -382,14 +411,15 @@ def _parse_segment(text):
         # table body, outside the window above. Fall back to the
         # document's unit title line ("(Rs. in Lakhs ...)") when
         # one exists; prose mentions do not match that pattern.
-        m = re.search(r"rs\.?\s+in\s+(lakhs?|millions?)", text,
+        m = re.search(r"rs\.?\s+in\s+(lakhs?|lacs|millions?)", text,
                       re.IGNORECASE)
         if m:
-            factor = 0.01 if "lakh" in m.group(1).lower() else 0.1
+            factor = 0.01 if ("lakh" in m.group(1).lower()
+                              or "lac" in m.group(1).lower()) else 0.1
 
     rev = _row_values(lines[rev_idx])
     if len(rev) < 3:
-        return None
+        return _refuse("revenue-row-short")
     sales, sales_prev, sales_ly = rev[0] * factor, rev[1] * factor, rev[2] * factor
 
     oi_idx = _first_match_line(lines, rev_idx + 1, r"other income")
@@ -415,10 +445,10 @@ def _parse_segment(text):
     if total is None and other is not None:
         total = (sales + other[0], sales_prev + other[1], sales_ly + other[2])
     if other is None or total is None:
-        return None
+        return _refuse("no-other-no-total-row")
     # Cross-check: Total Income must equal Revenue + Other Income.
     if abs(total[0] - (sales + other[0])) > max(MONEY_TOL, 0.005 * total[0]):
-        return None
+        return _refuse("cross-check-mismatch")
 
     # PAT label varies by filing: "Profit/(Loss) For the Period",
     # "Net Profit/(Loss) after tax", "Profit after tax". Try the
@@ -449,10 +479,13 @@ def _parse_segment(text):
             if pat_idx is not None:
                 break
     if pat_idx is None:
-        return None
+        return _refuse("no-pat-row")
     pat = _row_values(lines[pat_idx])
+    if len(pat) < 3 and pat_idx + 1 < len(lines):
+        # Label wrapped: values sit on the following line (MALU OCR).
+        pat = _row_values(lines[pat_idx + 1])
     if len(pat) < 3:
-        return None
+        return _refuse("pat-row-short")
     pat_c, pat_p, pat_l = pat[0] * factor, pat[1] * factor, pat[2] * factor
     # Magnitude guard: mangled text can pass the cross-check with
     # absurd figures (SJVN consolidated once read Sales as
@@ -462,7 +495,7 @@ def _parse_segment(text):
     for v in (sales, sales_prev, sales_ly, other[0], other[1], other[2],
               total[0], total[1], total[2], pat_c, pat_p, pat_l):
         if abs(v) > MONEY_MAX:
-            return None
+            return _refuse("magnitude-guard")
     # Sign comes from the value itself (parentheses or a leading
     # minus in the value chunk). Do NOT scan the whole line for a
     # minus: labels like "(9-10)" are row arithmetic, not a loss
@@ -485,6 +518,14 @@ def _parse_segment(text):
             hdr_vals = _row_values(lines[eps_hdr].replace("*", ""))
             if len(hdr_vals) >= 3:
                 eps = (hdr_vals[0], hdr_vals[1], hdr_vals[2])
+
+    # EPS<->PAT sign check: EPS = PAT / shares, so their signs must
+    # agree for the same period. A mismatch means the EPS row came
+    # from a different basis or row than the PAT row (basis-mixing),
+    # so refuse rather than show a contradictory card.
+    if (eps is not None and eps[0] is not None and pat_c != 0
+            and eps[0] != 0 and (eps[0] > 0) != (pat_c > 0)):
+        return _refuse("eps-pat-sign-mismatch")
 
     sales_yoy = _pct(sales, sales_ly)
     sales_qoq = _pct(sales, sales_prev)
@@ -512,12 +553,12 @@ def _parse_segment(text):
             sales_hy = rev[3] * factor
             if abs((sales + sales_prev) - sales_hy) > max(
                     MONEY_TOL, 0.005 * abs(sales_hy)):
-                return None
+                return _refuse("hy-sales-mismatch")
         if len(pat) >= 4:
             pat_hy = pat[3] * factor
             if abs((pat_c + pat_p) - pat_hy) > max(
                     MONEY_TOL, 0.005 * abs(pat_hy)):
-                return None
+                return _refuse("hy-pat-mismatch")
 
     return {
         "sales": (sales, sales_prev, sales_ly),
@@ -570,8 +611,10 @@ def parse_results(text, layout_text=None):
     Only then falls back to the standalone table. Returns the parsed
     dict with "basis" set to "Consolidated" or "Standalone", or None
     when no table parses (watcher then posts "Results Filed" text
-    only).
+    only). LAST_REFUSAL holds the last segment's refusal reason.
     """
+    global LAST_REFUSAL
+    LAST_REFUSAL = None
     lines = text.splitlines()
     ci = _consolidated_heading(lines)
     if ci is not None:
