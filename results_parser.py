@@ -361,8 +361,8 @@ def _parse_segment(text):
     # revenue row that actually carries at least 3 values, so prose
     # mentions of revenue without a table are skipped.
     rev_idx = None
-    for pattern in (r"revenue from operations|income from operations",
-                    r"from operations"):
+    for pattern in (r"revenue\s+from\s+operations|income\s+from\s+operations",
+                    r"from\s+operations"):
         # Second pass is for labels pypdf mangled beyond recognition
         # (IGL consolidated: "RcYcnuc from operations"); the >=3
         # values guard keeps prose mentions out either way.
@@ -496,6 +496,29 @@ def _parse_segment(text):
         return (p / s * 100.0) if s else None
 
     m_c, m_p, m_l = margin(pat_c, sales), margin(pat_p, sales_prev), margin(pat_l, sales_ly)
+    # Half-year guard (Q2 filings only, standard column order
+    # [Q_cur, Q_prev, Q_ly, HY_cur, ...]): Q_cur + Q_prev must equal
+    # the HY column. Layout-mode extraction can shred a two-block
+    # table into plausible-looking rows (RESPONIND: sales 204.89 /
+    # 1.93 / 0.16 with a 51% HY mismatch) that pass the Total cross-
+    # check because Other is derived; the HY sum catches those.
+    # Restated comparatives can make a true HY differ slightly, so
+    # the tolerance mirrors the Total cross-check (0.5% relative).
+    # Rows without a 4th value simply skip the check.
+    ql = (_quarter_label_from_header(lines, rev_idx)
+          or _quarter_label(text))
+    if ql is not None and ql.startswith("Q2"):
+        if len(rev) >= 4:
+            sales_hy = rev[3] * factor
+            if abs((sales + sales_prev) - sales_hy) > max(
+                    MONEY_TOL, 0.005 * abs(sales_hy)):
+                return None
+        if len(pat) >= 4:
+            pat_hy = pat[3] * factor
+            if abs((pat_c + pat_p) - pat_hy) > max(
+                    MONEY_TOL, 0.005 * abs(pat_hy)):
+                return None
+
     return {
         "sales": (sales, sales_prev, sales_ly),
         "other": other,
@@ -522,22 +545,32 @@ def _consolidated_heading(lines):
     Consolidated ... Financial Results") starting with "Statement",
     so covering-letter mentions and auditor reports ("We have
     reviewed the accompanying statement of ... consolidated ...")
-    do not match.
+    do not match. Lines mentioning "standalone" are skipped: a
+    combined cover line ("Statements of ... Financial Results
+    (Standalone and Consolidated)") is not the consolidated table's
+    own heading, and starting the segment there would parse the
+    standalone table first and mislabel it Consolidated.
     """
     for i, ln in enumerate(lines):
         low = ln.strip().lower()
         if (low.startswith("statement") and "consolidated" in low
-                and "result" in low):
+                and "result" in low and "standalone" not in low):
             return i
     return None
 
 
-def parse_results(text):
+def parse_results(text, layout_text=None):
     """Parse one filing, consolidated-first with standalone fallback.
 
-    Returns the parsed dict with "basis" set to "Consolidated" or
-    "Standalone", or None when no table parses (watcher then posts
-    "Results Filed" text only).
+    Tries the consolidated segment in the default extraction first;
+    if that fails and layout-mode text is supplied, retries the
+    consolidated segment there (layout mode keeps table columns on
+    one line, which recovers column-block filings such as LICHSGFIN
+    and GABRIEL whose default extraction scatters the table).
+    Only then falls back to the standalone table. Returns the parsed
+    dict with "basis" set to "Consolidated" or "Standalone", or None
+    when no table parses (watcher then posts "Results Filed" text
+    only).
     """
     lines = text.splitlines()
     ci = _consolidated_heading(lines)
@@ -546,6 +579,14 @@ def parse_results(text):
         if parsed is not None:
             parsed["basis"] = "Consolidated"
             return parsed
+    if layout_text is not None:
+        llines = layout_text.splitlines()
+        li = _consolidated_heading(llines)
+        if li is not None:
+            parsed = _parse_segment("\n".join(llines[li:]))
+            if parsed is not None:
+                parsed["basis"] = "Consolidated"
+                return parsed
     parsed = _parse_segment(text)
     if parsed is not None:
         parsed["basis"] = "Standalone"

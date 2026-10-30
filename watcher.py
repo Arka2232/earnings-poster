@@ -120,6 +120,26 @@ def extract_text(pdf_bytes):
     raise RuntimeError("no PDF text extractor available")
 
 
+def extract_layout_text(pdf_bytes):
+    """PDF -> layout-mode text (pypdf), or None on any failure.
+
+    Layout mode keeps each table row's columns on one line, which
+    recovers column-block consolidated tables that the default
+    extraction scatters. Only used as a retry when the default parse
+    did not yield a Consolidated card, so it never changes the path
+    for filings that already parse; a failure here just keeps the
+    original result.
+    """
+    try:
+        from pypdf import PdfReader
+        import io
+        reader = PdfReader(io.BytesIO(pdf_bytes))
+        return "\n".join((p.extract_text(extraction_mode="layout") or "")
+                         for p in reader.pages)
+    except Exception:
+        return None
+
+
 def filing_age_days(item):
     raw = item.get("an_dt") or ""
     for fmt in ("%d-%b-%Y %H:%M:%S", "%d-%b-%Y"):
@@ -196,6 +216,16 @@ def process_item(item, token, chat_id, state):
     try:
         text = extract_text(pdf)
         parsed = parse_results(text)
+        if parsed is None or parsed.get("basis") == "Standalone":
+            # Consolidated table may still be recoverable from
+            # layout-mode text (column-block filings). Accept the
+            # retry only when it actually yields Consolidated, so
+            # this never downgrades or changes an existing result.
+            layout = extract_layout_text(pdf)
+            if layout:
+                retry = parse_results(text, layout_text=layout)
+                if retry is not None and retry.get("basis") == "Consolidated":
+                    parsed = retry
     except Exception as exc:
         print(f"[{symbol}] extraction failed ({exc})")
         parsed = None
