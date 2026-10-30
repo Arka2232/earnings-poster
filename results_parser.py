@@ -1,8 +1,17 @@
 """Parse Indian quarterly results PDFs into structured numbers.
 
 Proven lessons baked in (all from real NSE filings):
-- The standalone table precedes the consolidated table, so the FIRST
-  results table found is used (standalone-first).
+- CONSOLIDATED-FIRST (from 30-Oct-2026, user decision): a filing's
+  consolidated results table is parsed when present, because that is
+  what the market and other channels report. The consolidated
+  statement heading is found first; if it is absent or its table
+  refuses to parse, the parse falls back to the first table in the
+  document (standalone). The returned dict carries "basis" so the
+  card always labels which one it shows.
+- The quarter label comes from the LATEST quarter-end date in the
+  chosen table's own header block, never from the first month
+  mentioned anywhere in the document (that mislabelled IGL's Q2
+  FY27 card as "Q1 FY27").
 - pdftotext/pypdf mangle numbers: split numbers ("2 1,759.40"),
   dropped decimal points ("94203" for 942.03, "063" for 0.63), and
   "(" sometimes read as "1". The numeric-section repair below handles
@@ -25,14 +34,43 @@ Proven lessons baked in (all from real NSE filings):
 import re
 
 MONEY_TOL = 1.0  # Rs Cr tolerance for the Total Income cross-check
+MONEY_MAX = 5000000.0  # Rs Cr: no real quarterly figure is this big;
+# a parse above it is mangled text (SJVN consolidated once read
+# Sales as 1,032,403,638 Cr), so the parse is refused outright.
+
+
+def _normalize_mangled(s):
+    """Undo systematic pypdf misreads inside a numeric token/chunk.
+
+    Observed in real filings (IGL consolidated, pypdf text):
+    - "I" for "1": "I0,658.82" is 10,658.82.
+    - "4" for "-1": "5,043.-14" is 5,043.44 and "4,-145.96" is
+      4,445.96 (in both cases "44" came out as "-14").
+    A dot- or comma-followed "-1" is never a valid number, so the
+    replacement cannot corrupt a genuine value; the Total Income
+    cross-check still guards the current quarter.
+    """
+    if any(c.isdigit() for c in s):
+        s = s.replace("I", "1").replace("l", "1")
+    return s.replace(".-1", ".4").replace(",-1", ",4")
 
 
 def _repair_numeric_tokens(tokens):
     """Repair mangled numeric tokens inside a table row's value section."""
     out = []
     for tok in tokens:
-        neg = tok.startswith("-")
+        tok = _normalize_mangled(tok)
+        neg = False
+        if tok.startswith("(") and tok.endswith(")"):
+            # "(184.04)" is a loss: parentheses are the minus sign.
+            neg = True
+            tok = tok[1:-1]
+        elif tok.startswith("-"):
+            neg = True
         t = tok.lstrip("-").replace(",", "")
+        if re.fullmatch(r"\d\.\d{3}\.\d+", t):
+            # "1.394.38" is 1,394.38 with a dot as thousands separator.
+            t = t.replace(".", "", 1)
         if re.fullmatch(r"\d+\.\d+", t):
             v = float(t)
         elif re.fullmatch(r"0\d\d", t):
@@ -63,6 +101,7 @@ def _parse_chunk(chunk):
     s = chunk.replace(" ", "").replace("|", "")
     if not s:
         return None
+    s = _normalize_mangled(s)
     neg = False
     if s.startswith("(") and s.endswith(")"):
         neg = True
@@ -73,6 +112,9 @@ def _parse_chunk(chunk):
     # Hyphen between digits is OCR noise, not a minus sign.
     s = re.sub(r"(?<=\d)-(?=\d)", "", s)
     t = s.replace(",", "")
+    if re.fullmatch(r"\d\.\d{3}\.\d+", t):
+        # "1.394.38" is 1,394.38 with a dot as thousands separator.
+        t = t.replace(".", "", 1)
     if re.fullmatch(r"\d+\.\d+", t):
         v = float(t)
     elif re.fullmatch(r"0\d\d", t):
@@ -103,12 +145,13 @@ def _row_values_tokens(line):
     i = 0
     while i < len(toks):
         tok = toks[i]
+        stripped = tok.lstrip("-").replace(",", "")
         if (i + 1 < len(toks)
                 and re.fullmatch(r"-?\d[\d,]*", tok)
                 and "." not in tok
                 and re.fullmatch(r"-?\d[\d,]*\.\d+", toks[i + 1])
-                and ("," in tok or (len(tok.lstrip("-")) <= 2
-                                    and not tok.lstrip("-").startswith("0")))):
+                and len(stripped) <= 3
+                and not stripped.startswith("0")):
             joined.append(tok + toks[i + 1])
             i += 2
         else:
@@ -116,7 +159,14 @@ def _row_values_tokens(line):
             i += 1
     start = None
     for i, tok in enumerate(joined):
-        if re.fullmatch(r"-?\d[\d,]*\.\d+", tok):
+        stripped = tok.lstrip("-").replace(",", "")
+        if (re.fullmatch(r"-?\d[\d,]*\.\d+", tok)
+                or (re.fullmatch(r"-?\d[\d,]*", tok)
+                    and len(stripped) >= 4)):
+            # Decimal token, or a bare integer of 4+ digits: the
+            # latter is a value whose decimal point was dropped
+            # ("224432" is 2,244.32, "3,44658" is 3,446.58). Row
+            # serials are 1-2 digits, so they never start the section.
             start = i
             break
     if start is None:
@@ -138,6 +188,17 @@ def _row_values(line):
     parts = re.split(r"\s{2,}", line.strip())
     if len(parts) >= 4:
         vals = []
+        # pypdf often glues the first value to the label with a
+        # single space ("1 Revenue from operations 8,917.85"), so
+        # the label part itself ends with a value. Recover it: a
+        # trailing decimal or comma-grouped integer is a value, a
+        # bare year ("2026") is not.
+        m = re.search(r"(\(?-?[\d,]*\.\d+\)?|-?\d{1,3}(?:,\d{3})+)\s*$",
+                      parts[0])
+        if m:
+            v = _parse_chunk(m.group(1))
+            if v is not None:
+                vals.append(v)
         for chunk in parts[1:]:
             v = _parse_chunk(chunk)
             if v is not None:
@@ -162,6 +223,23 @@ def _first_match_line(lines, start, pattern, exclude=None):
     for i in range(start, min(len(lines), start + 60)):
         if rx.search(lines[i]):
             if exclude and any(e in lines[i].lower() for e in exclude):
+                continue
+            return i
+    return None
+
+
+def _sq(line):
+    return re.sub(r"\s+", "", line.lower())
+
+
+def _first_match_line_sq(lines, start, needles, exclude=None):
+    """Whitespace-insensitive line search (fallback for mangled
+    labels like "Tota l income" or "Profit for th e period", where
+    pypdf split a word with a space)."""
+    for i in range(start, min(len(lines), start + 60)):
+        s = _sq(lines[i])
+        if all(n in s for n in needles):
+            if exclude and any(e in s for e in exclude):
                 continue
             return i
     return None
@@ -218,7 +296,62 @@ def _quarter_label(text):
     return f"{q} FY{fy % 100:02d}"
 
 
-def parse_results(text):
+_MONTHS = {"january": 1, "february": 2, "march": 3, "april": 4,
+           "may": 5, "june": 6, "july": 7, "august": 8, "september": 9,
+           "october": 10, "november": 11, "december": 12,
+           "jan": 1, "feb": 2, "mar": 3, "apr": 4, "jun": 6, "jul": 7,
+           "aug": 8, "sep": 9, "sept": 9, "oct": 10, "nov": 11, "dec": 12}
+_MONTH_RX = ("January|February|March|April|May|June|July|August|"
+             "September|October|November|December|"
+             "Jan\\.?|Feb\\.?|Mar\\.?|Apr\\.?|Jun\\.?|Jul\\.?|Aug\\.?|"
+             "Sep\\.?|Sept\\.?|Oct\\.?|Nov\\.?|Dec\\.?")
+
+
+def _quarter_label_from_header(lines, rev_idx):
+    """Quarter label from the chosen table's own header block.
+
+    The header block (heading + column headers above the revenue
+    row) lists several dates: current quarter, preceding quarter,
+    year-ago quarter, half-year ends, year end. The LATEST
+    quarter-end month in that block is the current quarter, no
+    matter what order extraction emitted the columns in (IGL's
+    layout order puts June 2026 before September 2026, which is
+    what broke the old whole-document first-match approach).
+    Returns None when the block holds no usable date.
+    """
+    block = "\n".join(lines[max(0, rev_idx - 80):rev_idx])
+    dates = []
+    for rx in (rf"(\d{{1,2}})(?:st|nd|rd|th)?\s+({_MONTH_RX})\s*,?\s+(\d{{4}})",
+               rf"({_MONTH_RX})\s+(\d{{1,2}})(?:st|nd|rd|th)?\s*,?\s+(\d{{4}})",
+               rf"({_MONTH_RX})\s*,?\s+(\d{{4}})"):
+        for m in re.finditer(rx, block, re.IGNORECASE):
+            groups = m.groups()
+            if len(groups) == 3 and groups[0].isdigit():
+                month = _MONTHS[groups[1].lower().rstrip(".")]
+                year = int(groups[2])
+            elif len(groups) == 3:
+                month = _MONTHS[groups[0].lower().rstrip(".")]
+                year = int(groups[2])
+            else:
+                month = _MONTHS[groups[0].lower().rstrip(".")]
+                year = int(groups[1])
+            dates.append((year, month))
+    if not dates:
+        return None
+    qends = [(y, mo) for (y, mo) in dates if mo in (3, 6, 9, 12)]
+    year, month = max(qends) if qends else max(dates)
+    if 4 <= month <= 6:
+        q, fy = "Q1", year + 1
+    elif 7 <= month <= 9:
+        q, fy = "Q2", year + 1
+    elif 10 <= month <= 12:
+        q, fy = "Q3", year + 1
+    else:
+        q, fy = "Q4", year
+    return f"{q} FY{fy % 100:02d}"
+
+
+def _parse_segment(text):
     """Parse one results filing's text. Returns dict or None (refused)."""
     lines = text.splitlines()
     # The results table usually sits AFTER a covering letter, so the
@@ -228,16 +361,31 @@ def parse_results(text):
     # revenue row that actually carries at least 3 values, so prose
     # mentions of revenue without a table are skipped.
     rev_idx = None
-    for i, ln in enumerate(lines):
-        if re.search(r"revenue from operations|income from operations",
-                     ln, re.IGNORECASE):
-            if len(_row_values(ln)) >= 3:
-                rev_idx = i
-                break
+    for pattern in (r"revenue from operations|income from operations",
+                    r"from operations"):
+        # Second pass is for labels pypdf mangled beyond recognition
+        # (IGL consolidated: "RcYcnuc from operations"); the >=3
+        # values guard keeps prose mentions out either way.
+        for i, ln in enumerate(lines):
+            if re.search(pattern, ln, re.IGNORECASE):
+                if len(_row_values(ln)) >= 3:
+                    rev_idx = i
+                    break
+        if rev_idx is not None:
+            break
     if rev_idx is None:
         return None
     rev_pos = sum(len(l) + 1 for l in lines[:rev_idx])
     factor = _find_unit_factor(text, rev_pos)
+    if factor == 1.0:
+        # pypdf sometimes orders a table's unit title after the
+        # table body, outside the window above. Fall back to the
+        # document's unit title line ("(Rs. in Lakhs ...)") when
+        # one exists; prose mentions do not match that pattern.
+        m = re.search(r"rs\.?\s+in\s+(lakhs?|millions?)", text,
+                      re.IGNORECASE)
+        if m:
+            factor = 0.01 if "lakh" in m.group(1).lower() else 0.1
 
     rev = _row_values(lines[rev_idx])
     if len(rev) < 3:
@@ -245,6 +393,8 @@ def parse_results(text):
     sales, sales_prev, sales_ly = rev[0] * factor, rev[1] * factor, rev[2] * factor
 
     oi_idx = _first_match_line(lines, rev_idx + 1, r"other income")
+    if oi_idx is None:
+        oi_idx = _first_match_line_sq(lines, rev_idx + 1, ["otherincome"])
     other = None
     if oi_idx is not None:
         vals = _row_values(lines[oi_idx])
@@ -252,6 +402,8 @@ def parse_results(text):
             other = (vals[0] * factor, vals[1] * factor, vals[2] * factor)
 
     ti_idx = _first_match_line(lines, rev_idx + 1, r"total income")
+    if ti_idx is None:
+        ti_idx = _first_match_line_sq(lines, rev_idx + 1, ["totalincome"])
     total = None
     if ti_idx is not None:
         vals = _row_values(lines[ti_idx])
@@ -284,11 +436,33 @@ def parse_results(text):
         if pat_idx is not None:
             break
     if pat_idx is None:
+        # Whitespace-mangled labels ("Profit for th e period").
+        for needles in (["profit", "fortheperiod"],
+                        ["loss", "fortheperiod"],
+                        ["netprofit", "aftertax"],
+                        ["profit", "aftertax"],
+                        ["netprofit"]):
+            pat_idx = _first_match_line_sq(
+                lines, rev_idx + 1, needles,
+                exclude=["beforetax", "comprehensive", "attributable",
+                         "noncontrolling", "discontinu"])
+            if pat_idx is not None:
+                break
+    if pat_idx is None:
         return None
     pat = _row_values(lines[pat_idx])
     if len(pat) < 3:
         return None
     pat_c, pat_p, pat_l = pat[0] * factor, pat[1] * factor, pat[2] * factor
+    # Magnitude guard: mangled text can pass the cross-check with
+    # absurd figures (SJVN consolidated once read Sales as
+    # 1,032,403,638 Cr). No real quarterly figure is anywhere near
+    # MONEY_MAX, so refuse the whole parse and let the caller fall
+    # back (standalone) or post text only.
+    for v in (sales, sales_prev, sales_ly, other[0], other[1], other[2],
+              total[0], total[1], total[2], pat_c, pat_p, pat_l):
+        if abs(v) > MONEY_MAX:
+            return None
     # Sign comes from the value itself (parentheses or a leading
     # minus in the value chunk). Do NOT scan the whole line for a
     # minus: labels like "(9-10)" are row arithmetic, not a loss
@@ -304,6 +478,13 @@ def parse_results(text):
             vals = _row_values(lines[e_idx])
             if len(vals) >= 3:
                 eps = (vals[0], vals[1], vals[2])
+        if eps is None:
+            # Some filings (IGL) put the EPS values on the header
+            # line itself ("Earnings per share ... 0.15* 1.33*
+            # 2.66*") and leave the Basic line valueless.
+            hdr_vals = _row_values(lines[eps_hdr].replace("*", ""))
+            if len(hdr_vals) >= 3:
+                eps = (hdr_vals[0], hdr_vals[1], hdr_vals[2])
 
     sales_yoy = _pct(sales, sales_ly)
     sales_qoq = _pct(sales, sales_prev)
@@ -329,5 +510,43 @@ def parse_results(text):
         "eps_qoq": _pct(eps[0], eps[1]) if eps else None,
         "eps_yoy": _pct(eps[0], eps[2]) if eps else None,
         "rating": rating, "reason": reason,
-        "quarter_label": _quarter_label(text),
+        "quarter_label": (_quarter_label_from_header(lines, rev_idx)
+                          or _quarter_label(text)),
     }
+
+
+def _consolidated_heading(lines):
+    """Index of the consolidated results statement heading, or None.
+
+    Requires all three words on one line ("Statement of
+    Consolidated ... Financial Results") starting with "Statement",
+    so covering-letter mentions and auditor reports ("We have
+    reviewed the accompanying statement of ... consolidated ...")
+    do not match.
+    """
+    for i, ln in enumerate(lines):
+        low = ln.strip().lower()
+        if (low.startswith("statement") and "consolidated" in low
+                and "result" in low):
+            return i
+    return None
+
+
+def parse_results(text):
+    """Parse one filing, consolidated-first with standalone fallback.
+
+    Returns the parsed dict with "basis" set to "Consolidated" or
+    "Standalone", or None when no table parses (watcher then posts
+    "Results Filed" text only).
+    """
+    lines = text.splitlines()
+    ci = _consolidated_heading(lines)
+    if ci is not None:
+        parsed = _parse_segment("\n".join(lines[ci:]))
+        if parsed is not None:
+            parsed["basis"] = "Consolidated"
+            return parsed
+    parsed = _parse_segment(text)
+    if parsed is not None:
+        parsed["basis"] = "Standalone"
+    return parsed

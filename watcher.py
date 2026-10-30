@@ -18,8 +18,10 @@ Safety rules:
   Total Income cross-check, gets a "Results Filed" text post + link
   only, and is then marked seen. Numbers are never invented.
 - Filings older than 7 days are skipped (marked seen, not posted).
-- The first table in a filing is used: standalone when present,
-  otherwise consolidated. PAT Margin = PAT / Revenue, as in filings.
+- The consolidated table in a filing is used when present (user
+  decision, 30-Oct-2026); otherwise the standalone table is used as
+  a fallback. The card labels which basis it shows. PAT Margin =
+  PAT / Revenue, as in filings.
 """
 
 import argparse

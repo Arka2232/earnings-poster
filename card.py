@@ -192,7 +192,8 @@ def card_data_from_parse(company, ticker, parsed, filing_time, q_labels):
          col(parsed["eps_qoq"]), col(parsed["eps_yoy"])),
     ]
     return {
-        "company": company, "ticker": ticker, "basis": "Standalone",
+        "company": company, "ticker": ticker,
+        "basis": parsed.get("basis", "Standalone"),
         "quarter_label": parsed["quarter_label"] or "Results",
         "rating": parsed["rating"], "rows": rows, "q_labels": q_labels,
         "charts": {"revenue": [sl, sp, s], "pat": [pl, pp, p],
