@@ -138,36 +138,24 @@ def render_card(data, out_path):
     img = Image.new("RGB", (W, H), WHITE)
     d = ImageDraw.Draw(img)
 
-    # Header band.
+    # Header band. NAME ONLY (global rule, 31-Oct-2026): no company
+    # logo of any kind is drawn here, and no initials badge either —
+    # the company name text is the header. The name auto-fits so a
+    # long name never collides with the ticker badge.
     d.rectangle([0, 0, W, 150], fill=NAVY)
-    name_x = 140
-    logo_path = data.get("logo_path")
-    if logo_path and os.path.exists(logo_path):
-        try:
-            from PIL import Image as _Im
-            lg = _Im.open(logo_path).convert("RGBA")
-            lg.thumbnail((300, 96))
-            lw, lh = lg.size
-            bx0, by0 = 30, (150 - (lh + 24)) // 2
-            d.rounded_rectangle([bx0, by0, bx0 + lw + 24, by0 + lh + 24],
-                                radius=14, fill=WHITE)
-            img.paste(lg, (bx0 + 12, by0 + 12), lg)
-            name_x = bx0 + lw + 24 + 20
-        except Exception:
-            logo_path = None
-    if not logo_path:
-        initials = re.sub(r"[^A-Z]", "", data["ticker"].upper())[:2] or "?"
-        d.ellipse([40, 35, 120, 115], fill=WHITE)
-        fi = font(True, 36)
-        tb = d.textbbox((0, 0), initials, font=fi)
-        d.text((80 - (tb[2] - tb[0]) / 2, 75 - (tb[3] - tb[1]) / 2 - tb[1]),
-               initials, font=fi, fill=NAVY)
-    d.text((name_x, 38), data["company"], font=font(True, 44), fill=WHITE)
-    d.text((name_x, 98), f"NSE filing · {data['basis']}",
-           font=font(False, 27), fill=(203, 213, 225))
+    name_x = 40
     badge = f" {data['ticker']} "
     fb = font(True, 30)
     bw = d.textlength(badge, font=fb) + 24
+    name_size = 44
+    name_fnt = font(True, name_size)
+    while (name_size > 24 and d.textlength(data["company"], font=name_fnt)
+           > W - 80 - bw - name_x):
+        name_size -= 2
+        name_fnt = font(True, name_size)
+    d.text((name_x, 38), data["company"], font=name_fnt, fill=WHITE)
+    d.text((name_x, 98), f"NSE filing · {data['basis']}",
+           font=font(False, 27), fill=(203, 213, 225))
     d.rounded_rectangle([W - 40 - bw, 40, W - 40, 92], radius=12,
                         outline=WHITE, width=3)
     d.text((W - 40 - bw / 2, 66), badge, font=fb, fill=WHITE, anchor="mm")
@@ -231,8 +219,7 @@ def render_card(data, out_path):
     return out_path
 
 
-def card_data_from_parse(company, ticker, parsed, filing_time, q_labels,
-                         logo_path=None):
+def card_data_from_parse(company, ticker, parsed, filing_time, q_labels):
     """Build render_card input from a parsed filing."""
     s, sp, sl = parsed["sales"]
     o = parsed["other"]
@@ -276,7 +263,6 @@ def card_data_from_parse(company, ticker, parsed, filing_time, q_labels,
         "basis": parsed.get("basis", "Standalone"),
         "quarter_label": parsed["quarter_label"] or "Results",
         "rating": parsed["rating"], "reason": parsed.get("reason"),
-        "logo_path": logo_path,
         "rows": rows, "q_labels": q_labels,
         "charts": {"revenue": [sl, sp, s], "pat": [pl, pp, p],
                    "eps": [e[2] or 0, e[1] or 0, e[0] or 0]},

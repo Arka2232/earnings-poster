@@ -150,28 +150,45 @@ def render_morning_image(date_label, tickers, out_path):
     return out_path
 
 
-def _draw_dark_chips(d, names, x, y, max_w):
-    """Name-only chips on the dark recap table. Returns the height
-    used (a grey dash when the column is empty). No logos."""
+def _draw_dark_chips(d, names, x, y, max_w, dot_color, cap=12):
+    """Name-only chips on the dark recap table: a rating-coloured
+    dot + the ticker name, no logos. At most `cap` chips per column;
+    anything beyond that is shown as a "+N" chip, so a 100-result
+    day stays compact instead of exploding the image height.
+    Returns the height used (a grey dash when the column is empty)."""
     row_h = 56
     if not names:
         d.text((x, y + 8), "—", font=card_font(bold=False, size=30),
                fill=DARK_GREY)
         return row_h
+    shown = names[:cap]
+    extra = len(names) - len(shown)
     gap_x, gap_y = 12, 12
     cx, cy = x, y
-    for name in names:
-        fnt = _fit_font(d, name, 28, bold=True, max_w=300)
-        w, _ = _text_size(d, name, fnt)
-        chip_w = w + 32
+
+    def _chip(label, dot=True):
+        nonlocal cx, cy
+        fnt = _fit_font(d, label, 28, bold=True, max_w=300)
+        w, _ = _text_size(d, label, fnt)
+        chip_w = (30 if dot else 16) + w + 16
         if cx + chip_w > x + max_w and cx > x:
             cx = x
             cy += row_h + gap_y
         d.rounded_rectangle([cx, cy, cx + chip_w, cy + row_h],
                             radius=14, fill=DARK_CARD,
                             outline=DARK_LINE, width=2)
-        d.text((cx + 16, cy + 12), name, font=fnt, fill=DARK_TEXT)
+        if dot:
+            d.ellipse([cx + 12, cy + 20, cx + 28, cy + 36],
+                      fill=dot_color)
+            d.text((cx + 38, cy + 12), label, font=fnt, fill=DARK_TEXT)
+        else:
+            d.text((cx + 16, cy + 12), label, font=fnt, fill=DARK_GREY)
         cx += chip_w + gap_x
+
+    for name in shown:
+        _chip(name)
+    if extra > 0:
+        _chip(f"+{extra}", dot=False)
     return cy - y + row_h
 
 
@@ -180,6 +197,9 @@ def render_recap_image(date_label, by_rating, out_path):
     After Market columns, in the style Arka pointed at — but with
     Share Market Charts branding, our own 6-level ratings and
     name-only chips (no company logos, no other channel's marks).
+    Rating labels carry counts ("EXCELLENT (12)"), chips carry a
+    rating-coloured dot, and columns longer than 12 names show a
+    "+N" chip so a 100-result day stays compact.
     by_rating maps a rating to (during_names, after_names). Ratings
     with no companies are omitted. Unparsed filings appear under the
     "Filed" row with no rating — never a guessed rating."""
@@ -190,7 +210,7 @@ def render_recap_image(date_label, by_rating, out_path):
         rows.append(("Filed", by_rating["Filed"]))
     margin = 48
     width = 1600
-    rating_w = 260
+    rating_w = 300
     col_gap = 24
     col_w = (width - 2 * margin - rating_w - 2 * col_gap) // 2
     header_h, footer_h = 210, 90
@@ -198,8 +218,9 @@ def render_recap_image(date_label, by_rating, out_path):
     pd = ImageDraw.Draw(probe)
     heights = []
     for rating, (during, after) in rows:
-        hd = _draw_dark_chips(pd, during, 0, 0, col_w)
-        ha = _draw_dark_chips(pd, after, 0, 0, col_w)
+        color = RATING_DARK.get(rating, DARK_GREY)
+        hd = _draw_dark_chips(pd, during, 0, 0, col_w, color)
+        ha = _draw_dark_chips(pd, after, 0, 0, col_w, color)
         heights.append(max(hd, ha, 56) + 32)
     col_head_h = 56
     body_h = col_head_h + sum(heights)
@@ -234,11 +255,13 @@ def render_recap_image(date_label, by_rating, out_path):
     y = ty0 + col_head_h
     for (rating, (during, after)), h in zip(rows, heights):
         color = RATING_DARK.get(rating, DARK_GREY)
-        d.text((margin + 16, y + 16), rating.upper(),
-               font=card_font(bold=True, size=30), fill=color)
-        _draw_dark_chips(d, during, col_x, y + 16, col_w)
+        label = f"{rating.upper()} ({len(during) + len(after)})"
+        d.text((margin + 16, y + 16), label,
+               font=_fit_font(d, label, 30, bold=True,
+                              max_w=rating_w - 32), fill=color)
+        _draw_dark_chips(d, during, col_x, y + 16, col_w, color)
         _draw_dark_chips(d, after, col_x + col_w + col_gap, y + 16,
-                         col_w)
+                         col_w, color)
         y += h
         if y < ty1:
             d.line([(tx0, y), (tx1, y)], fill=DARK_LINE, width=2)
@@ -287,15 +310,17 @@ def render_wrap_image(date_label, nifty, breadth, sectors_up,
     d.text((margin, y), "Sectors up",
            font=card_font(bold=True, size=32), fill=GREEN)
     if sectors_up:
-        d.text((margin, y + 44),
-               ", ".join(f"{n} {p:+.2f}%" for n, p in sectors_up),
-               font=card_font(bold=False, size=32), fill=NAVY)
+        up_txt = ", ".join(f"{n} {p:+.2f}%" for n, p in sectors_up)
+        d.text((margin, y + 44), up_txt,
+               font=_fit_font(d, up_txt, 32, bold=False, max_w=col_w),
+               fill=NAVY)
     d.text((margin + col_w + 32, y), "Sectors down",
            font=card_font(bold=True, size=32), fill=RED)
     if sectors_down:
-        d.text((margin + col_w + 32, y + 44),
-               ", ".join(f"{n} {p:+.2f}%" for n, p in sectors_down),
-               font=card_font(bold=False, size=32), fill=NAVY)
+        down_txt = ", ".join(f"{n} {p:+.2f}%" for n, p in sectors_down)
+        d.text((margin + col_w + 32, y + 44), down_txt,
+               font=_fit_font(d, down_txt, 32, bold=False,
+                              max_w=col_w), fill=NAVY)
     y += 120
     d.text((margin, y),
            f"FII net {fii_net}  •  DII net {dii_net}  (provisional)",
