@@ -65,7 +65,70 @@
       "filing": "https://nsearchives.nseindia.com/corporate/FINPIPE2_30102026222631_BM_Outcome.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:FINPIPE"
     }
-  ]
-,
-  "digest": {"next_results": {"date": "2026-10-31", "symbols": ["ABLBL", "ADVENZYMES", "ATLANTAELE", "ATULAUTO", "AURIONPRO", "BIRLACORPN", "CDSL", "CLEAN", "CPL", "DLINKINDIA", "DOLPHIN", "ESSENTIA", "EVEREADY", "EXXARO", "GANECOS", "GANGOTRI", "GEMAROMA", "GHCL", "IITL", "KANANIIND", "LATENTVIEW", "LGBBROSLTD", "MASKINVEST", "MEIL", "MERCURYEV", "MHLXMIRU", "MUTHOOTFIN", "NEOGEN", "NEUEON", "NILAINFRA", "NITINSPIN", "NTPC", "NUCLEUS", "OMPOWER", "PACEDIGITK", "PAKKA", "PODDARMENT", "PRIORITY", "QPOWER", "RAINBOW", "RAMBHAJO", "SAHYADRI", "SARDAEN", "SHYAMMETL", "SIGACHI", "STUDDS", "SUMEETINDS", "SURAJEST", "TTL", "UTTAMSUGAR", "VISHNU", "ZENTEC"]}}
+  ],
+  "digest": {
+    "next_results": {
+      "date": "2026-10-31",
+      "symbols": [
+        "ABLBL",
+        "ADVENZYMES",
+        "ATLANTAELE",
+        "ATULAUTO",
+        "AURIONPRO",
+        "BIRLACORPN",
+        "CDSL",
+        "CLEAN",
+        "CPL",
+        "DLINKINDIA",
+        "DOLPHIN",
+        "ESSENTIA",
+        "EVEREADY",
+        "EXXARO",
+        "GANECOS",
+        "GANGOTRI",
+        "GEMAROMA",
+        "GHCL",
+        "IITL",
+        "KANANIIND",
+        "LATENTVIEW",
+        "LGBBROSLTD",
+        "MASKINVEST",
+        "MEIL",
+        "MERCURYEV",
+        "MHLXMIRU",
+        "MUTHOOTFIN",
+        "NEOGEN",
+        "NEUEON",
+        "NILAINFRA",
+        "NITINSPIN",
+        "NTPC",
+        "NUCLEUS",
+        "OMPOWER",
+        "PACEDIGITK",
+        "PAKKA",
+        "PODDARMENT",
+        "PRIORITY",
+        "QPOWER",
+        "RAINBOW",
+        "RAMBHAJO",
+        "SAHYADRI",
+        "SARDAEN",
+        "SHYAMMETL",
+        "SIGACHI",
+        "STUDDS",
+        "SUMEETINDS",
+        "SURAJEST",
+        "TTL",
+        "UTTAMSUGAR",
+        "VISHNU",
+        "ZENTEC"
+      ]
+    },
+    "ipo_posted": [
+      "BCSSL",
+      "HGSINDIALT",
+      "MAXENGS"
+    ],
+    "ipo_check": "2026-10-31 00"
+  }
 }
