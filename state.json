@@ -35,7 +35,8 @@
     "106837503",
     "106837502",
     "106837551",
-    "106837546"
+    "106837546",
+    "106837598"
   ],
   "archive": [
     {
@@ -48,6 +49,19 @@
       "sales": 1093.96,
       "pat": 115.02,
       "eps": 1852.0,
+      "filing": "https://nsearchives.nseindia.com/corporate/FINPIPE2_30102026222631_BM_Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:FINPIPE"
+    },
+    {
+      "d": "2026-10-30",
+      "s": "FINPIPE",
+      "c": "Finolex Industries Limited",
+      "r": "Positive",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 1093.96,
+      "pat": 115.02,
+      "eps": null,
       "filing": "https://nsearchives.nseindia.com/corporate/FINPIPE2_30102026222631_BM_Outcome.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:FINPIPE"
     }
