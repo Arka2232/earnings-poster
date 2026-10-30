@@ -140,6 +140,53 @@ def extract_layout_text(pdf_bytes):
         return None
 
 
+def extract_logo(pdf_bytes):
+    """Best logo-like image from the filing's first page, as PNG
+    bytes, or None. The logo comes from the company's own filing
+    (letterhead), so no external logo library or symbol->domain
+    mapping is needed. Strict shape rules keep the wrong images out:
+    full-page scans (tall images) are skipped, as are signatures
+    and address-text blocks; only wide letterhead banners or
+    near-square logo marks pass. When nothing passes, the caller
+    falls back to the initials badge, so a missing logo never
+    breaks a card. A seal or mark that passes the shape test is
+    still the company's own artwork, not another company's logo.
+    """
+    try:
+        from pypdf import PdfReader
+        from PIL import Image as _Im
+        import io as _io
+        reader = PdfReader(_io.BytesIO(pdf_bytes))
+        if not reader.pages:
+            return None
+        best, best_area = None, 0
+        for im in reader.pages[0].images:
+            try:
+                img = _Im.open(_io.BytesIO(im.data))
+                img.load()
+            except Exception:
+                continue
+            w, h = img.size
+            if h > 1000:
+                continue
+            aspect = w / h if h else 0
+            banner = (w >= 400 and 60 <= h <= 500
+                      and 2.0 <= aspect <= 9.0)
+            mark = (120 <= w <= 450 and 120 <= h <= 450
+                    and 0.75 <= aspect <= 1.33)
+            if not (banner or mark):
+                continue
+            if w * h > best_area:
+                best, best_area = img, w * h
+        if best is None:
+            return None
+        buf = _io.BytesIO()
+        best.convert("RGBA").save(buf, format="PNG")
+        return buf.getvalue()
+    except Exception:
+        return None
+
+
 def filing_age_days(item):
     raw = item.get("an_dt") or ""
     for fmt in ("%d-%b-%Y %H:%M:%S", "%d-%b-%Y"):
@@ -152,29 +199,13 @@ def filing_age_days(item):
 
 
 def build_caption(symbol, company, parsed, filing_url):
-    s, _sp, _sl = parsed["sales"]
-    p, _pp, _pl = parsed["pat"]
-    e = parsed["eps"]
+    """One short caption line, SMT-style: all detail lives on the
+    image itself (table, reason, disclaimer), so nothing is repeated
+    below it. The Result/Chart buttons are attached separately by
+    send_photo. No alert-time claim: the 5-minute trigger cannot
+    honestly promise seconds."""
     emoji = EMOJI.get(parsed["rating"], "📋")
-    lines = [
-        f"#{symbol} — {emoji} {parsed['rating']} Results",
-        f"Sales Rs {s:,.0f} Cr "
-        f"(QoQ {parsed['sales_qoq']:+.1f}%, YoY {parsed['sales_yoy']:+.1f}%)"
-        if parsed["sales_qoq"] is not None and parsed["sales_yoy"] is not None
-        else f"Sales Rs {s:,.0f} Cr",
-        f"PAT Rs {p:,.0f} Cr "
-        f"(QoQ {parsed['pat_qoq']:+.1f}%, YoY {parsed['pat_yoy']:+.1f}%)"
-        if parsed["pat_qoq"] is not None and parsed["pat_yoy"] is not None
-        else f"PAT Rs {p:,.0f} Cr",
-    ]
-    if e:
-        lines.append(f"EPS Rs {e[0]:.2f}")
-    lines.append(f"Reason: {parsed['reason']}")
-    ql = parsed["quarter_label"]
-    lines.append(f"Quarter ended ({ql})" if ql else "Latest quarterly results")
-    lines.append("For education only — not investment advice. "
-                 "I am not SEBI-registered.")
-    return "\n".join(lines)
+    return f"#{symbol} — {emoji} {parsed['rating']} Results"
 
 
 def quarter_month_labels(ql):
@@ -243,8 +274,15 @@ def process_item(item, token, chat_id, state):
 
     filing_time = (item.get("an_dt") or "").strip()
     q_labels = quarter_month_labels(parsed["quarter_label"])
-    data = card_data_from_parse(company, symbol, parsed, filing_time, q_labels)
     with tempfile.TemporaryDirectory() as td:
+        logo_path = None
+        logo_bytes = extract_logo(pdf)
+        if logo_bytes:
+            logo_path = os.path.join(td, "logo.png")
+            with open(logo_path, "wb") as fh:
+                fh.write(logo_bytes)
+        data = card_data_from_parse(company, symbol, parsed, filing_time,
+                                    q_labels, logo_path=logo_path)
         img = os.path.join(td, f"{symbol}.png")
         render_card(data, img)
         send_photo(token, chat_id, img,
