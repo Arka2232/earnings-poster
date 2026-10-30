@@ -9,6 +9,14 @@ Proven lessons baked in (all from real NSE filings):
   the split and decimal-drop cases.
 - Units come from the header above the revenue row (lakhs /100,
   millions /10, crore x1) and apply to money rows, never to EPS.
+- The results table can sit hundreds of lines in, after a covering
+  letter (CHEMBOND line 175, RESPONIND line 446), so the revenue row
+  is searched across the whole document, not just the first 60 lines.
+- Layout columns (2+ spaces apart) rebuild split numbers
+  ("14 ,827 .89" -> 14,827.89); parentheses mean negative ("(71.93)"
+  -> -71.93). PAT labels vary ("For the Period", "Net Profit after
+  tax") and EPS headers vary ("Earning Per Share", "Earnings per
+  share") -- all are tried.
 - Total Income must equal Revenue + Other Income (within tolerance).
   On mismatch the parse is REFUSED -- the watcher then posts
   "Results Filed" with a link only, and never invents numbers.
@@ -44,15 +52,50 @@ def _repair_numeric_tokens(tokens):
     return out
 
 
-def _row_values(line):
-    """Extract the value section of a table row as floats.
+def _parse_chunk(chunk):
+    """Parse one column chunk into a float, or None if not a number.
 
-    Split fragments are joined first, on TOKEN boundaries only:
-    a bare token joins the following decimal token only when it
-    contains a comma ("22,4" + "17.29") or is at most 2 digits
-    ("2" + "1,759.40"). A 3-digit token like "063" is a complete
-    mangled value (0.63), not a fragment, so it is never joined.
-    The value section then starts at the first decimal token.
+    Handles parentheses negatives "(71.93)", leading minus, internal
+    hyphen noise from bad OCR ("20,0-37.19" -> 20,037.19), dropped
+    decimal points ("94203" -> 942.03, "063" -> 0.63), and grouped
+    numbers whose decimal part lost its dot ("5411512" -> 54115.12).
+    """
+    s = chunk.replace(" ", "").replace("|", "")
+    if not s:
+        return None
+    neg = False
+    if s.startswith("(") and s.endswith(")"):
+        neg = True
+        s = s[1:-1]
+    elif s.startswith("-"):
+        neg = True
+        s = s[1:]
+    # Hyphen between digits is OCR noise, not a minus sign.
+    s = re.sub(r"(?<=\d)-(?=\d)", "", s)
+    t = s.replace(",", "")
+    if re.fullmatch(r"\d+\.\d+", t):
+        v = float(t)
+    elif re.fullmatch(r"0\d\d", t):
+        # "063" -> 0.63 (decimal point dropped, leading zero kept)
+        v = float(t[0] + "." + t[1:])
+    elif re.fullmatch(r"\d{4,}", t):
+        # "94203" -> 942.03, "217582" -> 2175.82
+        v = float(t[:-2] + "." + t[-2:])
+    elif re.fullmatch(r"\d+", t):
+        v = float(t)
+    else:
+        return None
+    return -v if neg else v
+
+
+def _row_values_tokens(line):
+    """Legacy token-based value extraction (fallback for pypdf text
+    without layout columns). Split fragments are joined first, on
+    TOKEN boundaries only: a bare token joins the following decimal
+    token only when it contains a comma ("22,4" + "17.29") or is at
+    most 2 digits ("2" + "1,759.40"). A 3-digit token like "063" is
+    a complete mangled value (0.63), not a fragment, so it is never
+    joined. The value section then starts at the first decimal token.
     """
     line = line.replace("|", " ")
     toks = line.split()
@@ -79,6 +122,29 @@ def _row_values(line):
     if start is None:
         return []
     return _repair_numeric_tokens(joined[start:])
+
+
+def _row_values(line):
+    """Extract the value section of a table row as floats.
+
+    Layout text (pdftotext -layout) separates table columns with
+    two or more spaces, while mangled numbers split on single
+    spaces ("14 ,827 .89", "31,872. 17", "54 ,115 12"). Splitting
+    on 2+ spaces first keeps each column intact, then removing the
+    single spaces inside a column rebuilds the number. Falls back
+    to the legacy token repair when the line has no layout columns
+    (e.g. pypdf text).
+    """
+    parts = re.split(r"\s{2,}", line.strip())
+    if len(parts) >= 4:
+        vals = []
+        for chunk in parts[1:]:
+            v = _parse_chunk(chunk)
+            if v is not None:
+                vals.append(v)
+        if len(vals) >= 3:
+            return vals
+    return _row_values_tokens(line)
 
 
 def _find_unit_factor(text, revenue_pos):
@@ -134,7 +200,7 @@ def _pct_signed(cur, base):
 def _quarter_label(text):
     m = re.search(
         r"(January|February|March|April|May|June|July|August|September|"
-        r"October|November|December)\s+(\d{4})", text)
+        r"October|November|December)\s*,?\s+(\d{4})", text)
     if not m:
         return None
     months = ["January", "February", "March", "April", "May", "June", "July",
@@ -155,9 +221,19 @@ def _quarter_label(text):
 def parse_results(text):
     """Parse one results filing's text. Returns dict or None (refused)."""
     lines = text.splitlines()
-    rev_idx = _first_match_line(lines, 0, r"revenue from operations")
-    if rev_idx is None:
-        rev_idx = _first_match_line(lines, 0, r"income from operations")
+    # The results table usually sits AFTER a covering letter, so the
+    # revenue row can be hundreds of lines in (CHEMBOND: line 175,
+    # RESPONIND: line 446) -- searching only the first 60 lines
+    # missed it entirely. Scan the whole document and take the first
+    # revenue row that actually carries at least 3 values, so prose
+    # mentions of revenue without a table are skipped.
+    rev_idx = None
+    for i, ln in enumerate(lines):
+        if re.search(r"revenue from operations|income from operations",
+                     ln, re.IGNORECASE):
+            if len(_row_values(ln)) >= 3:
+                rev_idx = i
+                break
     if rev_idx is None:
         return None
     rev_pos = sum(len(l) + 1 for l in lines[:rev_idx])
@@ -192,23 +268,36 @@ def parse_results(text):
     if abs(total[0] - (sales + other[0])) > max(MONEY_TOL, 0.005 * total[0]):
         return None
 
-    pat_idx = _first_match_line(
-        lines, rev_idx + 1, r"(profit|loss).*for the period",
-        exclude=["before tax", "comprehensive", "attributable",
-                 "non-controlling", "discontinu"])
+    # PAT label varies by filing: "Profit/(Loss) For the Period",
+    # "Net Profit/(Loss) after tax", "Profit after tax". Try the
+    # most specific first; exclusions keep "before tax" and
+    # comprehensive-income rows out.
+    pat_idx = None
+    for pat_pat in (r"(profit|loss).*for the period",
+                    r"net profit.*after tax",
+                    r"(profit|loss).*after tax",
+                    r"net profit"):
+        pat_idx = _first_match_line(
+            lines, rev_idx + 1, pat_pat,
+            exclude=["before tax", "comprehensive", "attributable",
+                     "non-controlling", "discontinu"])
+        if pat_idx is not None:
+            break
     if pat_idx is None:
         return None
     pat = _row_values(lines[pat_idx])
     if len(pat) < 3:
         return None
     pat_c, pat_p, pat_l = pat[0] * factor, pat[1] * factor, pat[2] * factor
-    # A leading minus in the raw row marks a loss.
-    if re.search(r"-\s*\d", lines[pat_idx]):
-        pat_c = -abs(pat_c)
+    # Sign comes from the value itself (parentheses or a leading
+    # minus in the value chunk). Do NOT scan the whole line for a
+    # minus: labels like "(9-10)" are row arithmetic, not a loss
+    # sign, and that false negative flipped CHEMBOND's PAT to -4.30
+    # when the filing shows a 430.06 profit.
 
     eps = None
     eps_hdr = _first_match_line(lines, rev_idx + 1,
-                                r"earnings per equity share")
+                                r"earning[s]? per (equity )?share")
     if eps_hdr is not None:
         e_idx = _first_match_line(lines, eps_hdr + 1, r"basic")
         if e_idx is not None:
