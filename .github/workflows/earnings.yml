@@ -16,6 +16,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+      - run: sudo apt-get update && sudo apt-get install -y tesseract-ocr poppler-utils || echo "OCR deps install failed; OCR fallback will skip"
       - run: pip install -r requirements.txt
       - run: python watcher.py
         env:
