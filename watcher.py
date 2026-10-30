@@ -31,7 +31,7 @@ import re
 import subprocess
 import sys
 import tempfile
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 import requests
 
@@ -70,6 +70,31 @@ def save_state(state):
 
 def filing_key(item):
     return item.get("seq_id") or f"{item.get('symbol')}|{item.get('an_dt')}"
+
+
+def ist_today():
+    """Today's date in IST (UTC+5:30), no tzdata dependency."""
+    return (datetime.now(timezone.utc)
+            + timedelta(hours=5, minutes=30)).date().isoformat()
+
+
+def record_archive(state, symbol, company, rating, basis, quarter_label,
+                   sales, pat, eps, filing_url):
+    """Append one posted item to state["archive"] (capped at 300).
+
+    The archive page reads state.json, which the workflow already
+    commits, so no workflow change is needed. Entries are channel
+    posts — already public — so storing them in the repo is fine.
+    """
+    from telegram_post import tradingview_url
+    entries = state.setdefault("archive", [])
+    entries.append({
+        "d": ist_today(), "s": symbol, "c": company, "r": rating,
+        "b": basis or "", "q": quarter_label or "",
+        "sales": sales, "pat": pat, "eps": eps,
+        "filing": filing_url, "chart": tradingview_url(symbol),
+    })
+    del entries[:-300]
 
 
 def fetch_feed():
@@ -269,6 +294,8 @@ def process_item(item, token, chat_id, state):
                   "I am not SEBI-registered.")
         print(f"[{symbol}] posted Results Filed (unparsed)")
         state["seen"].append(key)
+        record_archive(state, symbol, company, "Results Filed", "", "",
+                       None, None, None, url)
         save_state(state)
         return True
 
@@ -289,6 +316,10 @@ def process_item(item, token, chat_id, state):
                    build_caption(symbol, company, parsed, url), url, symbol)
     print(f"[{symbol}] posted {parsed['rating']} card")
     state["seen"].append(key)
+    eps = parsed["eps"] or (None, None, None)
+    record_archive(state, symbol, company, parsed["rating"],
+                   parsed.get("basis", ""), parsed["quarter_label"],
+                   parsed["sales"][0], parsed["pat"][0], eps[0], url)
     save_state(state)
     return True
 
@@ -337,6 +368,12 @@ def main():
             save_state(state)
             continue
         process_item(it, token, chat_id, state)
+    try:
+        # Lazy import: a digest bug must never break results posting.
+        from digest import maybe_run_digests
+        maybe_run_digests(token, chat_id, state, save_state)
+    except Exception as exc:
+        print(f"[digest] skipped ({exc})")
     return 0
 
 
