@@ -282,6 +282,22 @@ def process_item(item, token, chat_id, state):
                 retry = parse_results(text, layout_text=layout)
                 if retry is not None and retry.get("basis") == "Consolidated":
                     parsed = retry
+        if parsed is None:
+            # OCR fallback (OCR batch): fresh OCR bypasses a garbled
+            # embedded text layer (FINPIPE, MALUPAPER, BALKRISHNA).
+            # Only for refusals — never for filings that already
+            # parse — and only a fully guarded parse is accepted.
+            try:
+                from ocr_fallback import ocr_parse
+                ocr = ocr_parse(pdf)
+                if ocr is not None:
+                    parsed = ocr
+                    print(f"[{symbol}] OCR recovered "
+                          f"{ocr.get('basis')} card")
+                else:
+                    print(f"[{symbol}] OCR fallback found nothing usable")
+            except Exception as exc:
+                print(f"[{symbol}] OCR fallback failed ({exc})")
     except Exception as exc:
         print(f"[{symbol}] extraction failed ({exc})")
         parsed = None
@@ -292,7 +308,9 @@ def process_item(item, token, chat_id, state):
                   f"Filing: {url}\n"
                   "For education only — not investment advice. "
                   "I am not SEBI-registered.")
-        print(f"[{symbol}] posted Results Filed (unparsed)")
+        import results_parser
+        print(f"[{symbol}] posted Results Filed "
+              f"(unparsed: {results_parser.LAST_REFUSAL})")
         state["seen"].append(key)
         record_archive(state, symbol, company, "Results Filed", "", "",
                        None, None, None, url)
