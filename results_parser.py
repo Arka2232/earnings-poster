@@ -527,6 +527,26 @@ def _parse_segment(text):
             and eps[0] != 0 and (eps[0] > 0) != (pat_c > 0)):
         return _refuse("eps-pat-sign-mismatch")
 
+    # EPS<->PAT ratio guard: the share count barely moves quarter
+    # to quarter, so implied shares (PAT / EPS) must agree across
+    # the three periods. OCR can mangle one EPS value beyond
+    # recognition while the sign check still passes (FINPIPE OCR
+    # read 1852.0 for a true 1.86, with the other two periods
+    # landing on the half-year column's 3.71/3.59). When the implied
+    # share counts spread more than 2x, the EPS row is
+    # untrustworthy: blank the EPS (BALKRISHNA precedent) rather
+    # than show a wrong figure or refuse a card whose money numbers
+    # all verify exactly. Skipped when any PAT is near zero (ratios
+    # unstable) or any EPS is zero.
+    if (eps is not None
+            and all(p != 0 and abs(p) >= 1.0
+                    for p in (pat_c, pat_p, pat_l))
+            and all(e is not None and e != 0 for e in eps)):
+        shares = [abs(p / e) for p, e in
+                  zip((pat_c, pat_p, pat_l), eps)]
+        if max(shares) > 2.0 * min(shares):
+            eps = None
+
     sales_yoy = _pct(sales, sales_ly)
     sales_qoq = _pct(sales, sales_prev)
     pat_yoy = _pct_signed(pat_c, pat_l)
