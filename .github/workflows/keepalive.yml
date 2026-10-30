@@ -1,0 +1,15 @@
+name: Keepalive
+
+# GitHub disables scheduled workflows after 60 days of repo inactivity.
+# This monthly run keeps the earnings schedule enabled.
+on:
+  schedule:
+    - cron: "0 0 1 * *"
+  workflow_dispatch:
+
+jobs:
+  keepalive:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: echo "keepalive"
