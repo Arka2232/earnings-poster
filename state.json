@@ -36,7 +36,8 @@
     "106837502",
     "106837551",
     "106837546",
-    "106837598"
+    "106837598",
+    "106837946"
   ],
   "archive": [
     {
@@ -64,6 +65,20 @@
       "eps": null,
       "filing": "https://nsearchives.nseindia.com/corporate/FINPIPE2_30102026222631_BM_Outcome.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:FINPIPE"
+    },
+    {
+      "d": "2026-10-31",
+      "s": "SHYAMMETL",
+      "c": "Shyam Metalics and Energy Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 5960.19,
+      "pat": 510.99,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/SHYAMMETL_31102026130218_outcomeofBM.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SHYAMMETL",
+      "t": "31-Oct-2026 13:04:49"
     }
   ],
   "digest": {
@@ -129,7 +144,7 @@
       "HGSINDIALT",
       "MAXENGS"
     ],
-    "ipo_check": "2026-10-31 08",
+    "ipo_check": "2026-10-31 13",
     "calendar": "2026-10-31"
   }
 }
