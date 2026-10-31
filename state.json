@@ -44,7 +44,9 @@
     "106838015",
     "106838022",
     "106837912",
-    "106838021"
+    "106838021",
+    "106838033",
+    "106838031"
   ],
   "archive": [
     {
@@ -184,6 +186,34 @@
       "filing": "https://nsearchives.nseindia.com/corporate/NITINSPIN_31102026142230_RESULTS.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:NITINSPIN",
       "t": "31-Oct-2026 14:24:48"
+    },
+    {
+      "d": "2026-10-31",
+      "s": "GHCL",
+      "c": "GHCL Limited",
+      "r": "Good",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 808.03,
+      "pat": 127.42,
+      "eps": 14.02,
+      "filing": "https://nsearchives.nseindia.com/corporate/GHCL_31102026143350_GHCL_219th_Outcome_Board_Meeting_October31_2026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GHCL",
+      "t": "31-Oct-2026 14:35:14"
+    },
+    {
+      "d": "2026-10-31",
+      "s": "CLEAN",
+      "c": "Clean Science and Technology Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/CLEAN_31102026143234_Outcome_BM_31102026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CLEAN",
+      "t": "31-Oct-2026 14:33:48"
     }
   ],
   "digest": {
@@ -286,6 +316,15 @@
         "company": "Nitin Spinners Limited",
         "url": "https://nsearchives.nseindia.com/corporate/NITINSPIN_31102026142230_RESULTS.pdf",
         "an_dt": "31-Oct-2026 14:24:48",
+        "date": "2026-10-31"
+      },
+      {
+        "key": "106838031",
+        "seq_id": "106838031",
+        "symbol": "CLEAN",
+        "company": "Clean Science and Technology Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/CLEAN_31102026143234_Outcome_BM_31102026.pdf",
+        "an_dt": "31-Oct-2026 14:33:48",
         "date": "2026-10-31"
       }
     ]
