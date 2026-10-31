@@ -61,7 +61,9 @@
     "106838219",
     "106838217",
     "106838208",
-    "106838246"
+    "106838246",
+    "106838312",
+    "106838311"
   ],
   "archive": [
     {
@@ -439,6 +441,34 @@
       "filing": "https://nsearchives.nseindia.com/corporate/MANGALS_31102026164103_BM_Outcome.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:MEIL",
       "t": "31-Oct-2026 16:43:19"
+    },
+    {
+      "d": "2026-10-31",
+      "s": "BKMINDST",
+      "c": "Bkm Industries Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/BKMINDST_31102026172026_BKM_Consolidated_Results_with_Intimation_31-10-2026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BKMINDST",
+      "t": "31-Oct-2026 17:23:24"
+    },
+    {
+      "d": "2026-10-31",
+      "s": "BKMINDST",
+      "c": "Bkm Industries Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/BKMINDST_31102026171733_BKM_Standalone_Results_with_Intimation_31-10-2026-S.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BKMINDST",
+      "t": "31-Oct-2026 17:23:24"
     }
   ],
   "digest": {
@@ -613,6 +643,24 @@
         "company": "Birla Corporation Limited",
         "url": "https://nsearchives.nseindia.com/corporate/BIRLACORP1_31102026161144_Outcome_of_BM_30092026_BCL.pdf",
         "an_dt": "31-Oct-2026 16:18:21",
+        "date": "2026-10-31"
+      },
+      {
+        "key": "106838312",
+        "seq_id": "106838312",
+        "symbol": "BKMINDST",
+        "company": "Bkm Industries Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/BKMINDST_31102026172026_BKM_Consolidated_Results_with_Intimation_31-10-2026.pdf",
+        "an_dt": "31-Oct-2026 17:23:24",
+        "date": "2026-10-31"
+      },
+      {
+        "key": "106838311",
+        "seq_id": "106838311",
+        "symbol": "BKMINDST",
+        "company": "Bkm Industries Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/BKMINDST_31102026171733_BKM_Standalone_Results_with_Intimation_31-10-2026-S.pdf",
+        "an_dt": "31-Oct-2026 17:23:24",
         "date": "2026-10-31"
       }
     ]
