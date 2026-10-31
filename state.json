@@ -77,7 +77,9 @@
     "106838474",
     "106838521",
     "106838527",
-    "106838524"
+    "106838524",
+    "106838561",
+    "106838550"
   ],
   "archive": [
     {
@@ -679,6 +681,34 @@
       "filing": "https://nsearchives.nseindia.com/corporate/LGBBROSLTD_31102026192508_LGB_Outcome_Financials30092026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:LGBBROSLTD",
       "t": "31-Oct-2026 19:26:46"
+    },
+    {
+      "d": "2026-10-31",
+      "s": "MHLXMIRU",
+      "c": "Mahalaxmi Rubtech Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/MHLXMIRU_31102026200118_Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MHLXMIRU",
+      "t": "31-Oct-2026 20:02:15"
+    },
+    {
+      "d": "2026-10-31",
+      "s": "NEOGEN",
+      "c": "Neogen Chemicals Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 295.96,
+      "pat": 8.23,
+      "eps": 2.96,
+      "filing": "https://nsearchives.nseindia.com/corporate/NEOGEN_31102026195238_BMOutcome_31102026_Final.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:NEOGEN",
+      "t": "31-Oct-2026 19:53:51"
     }
   ],
   "digest": {
@@ -744,7 +774,7 @@
       "HGSINDIALT",
       "MAXENGS"
     ],
-    "ipo_check": "2026-10-31 19",
+    "ipo_check": "2026-10-31 20",
     "calendar": "2026-10-31",
     "text_posts": [
       {
@@ -925,6 +955,15 @@
         "company": "LG Balakrishnan & Bros Limited",
         "url": "https://nsearchives.nseindia.com/corporate/LGBBROSLTD_31102026192508_LGB_Outcome_Financials30092026.pdf",
         "an_dt": "31-Oct-2026 19:26:46",
+        "date": "2026-10-31"
+      },
+      {
+        "key": "106838561",
+        "seq_id": "106838561",
+        "symbol": "MHLXMIRU",
+        "company": "Mahalaxmi Rubtech Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/MHLXMIRU_31102026200118_Outcome.pdf",
+        "an_dt": "31-Oct-2026 20:02:15",
         "date": "2026-10-31"
       }
     ]
