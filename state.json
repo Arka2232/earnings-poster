@@ -55,7 +55,9 @@
     "106838107",
     "106838128",
     "106838141",
-    "106838169"
+    "106838169",
+    "106838207",
+    "106838206"
   ],
   "archive": [
     {
@@ -349,6 +351,34 @@
       "filing": "https://nsearchives.nseindia.com/corporate/Nucleus_31102026155846_OUTCOME.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:NUCLEUS",
       "t": "31-Oct-2026 15:59:32"
+    },
+    {
+      "d": "2026-10-31",
+      "s": "RAMBHAJO",
+      "c": "Advit Jewels Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/ADVIT_31102026161631_OUTCOME_OF_BOARD_MEETING.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:RAMBHAJO",
+      "t": "31-Oct-2026 16:17:57"
+    },
+    {
+      "d": "2026-10-31",
+      "s": "MASKINVEST",
+      "c": "Mask Investments Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/MASKINVEST_31102026161337_MASKBMOUTCOME31102026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MASKINVEST",
+      "t": "31-Oct-2026 16:17:08"
     }
   ],
   "digest": {
@@ -487,6 +517,24 @@
         "company": "Kanani Industries Limited",
         "url": "https://nsearchives.nseindia.com/corporate/KANANIIND_31102026154006_KILBMOC31102026.pdf",
         "an_dt": "31-Oct-2026 15:41:08",
+        "date": "2026-10-31"
+      },
+      {
+        "key": "106838207",
+        "seq_id": "106838207",
+        "symbol": "RAMBHAJO",
+        "company": "Advit Jewels Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/ADVIT_31102026161631_OUTCOME_OF_BOARD_MEETING.pdf",
+        "an_dt": "31-Oct-2026 16:17:57",
+        "date": "2026-10-31"
+      },
+      {
+        "key": "106838206",
+        "seq_id": "106838206",
+        "symbol": "MASKINVEST",
+        "company": "Mask Investments Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/MASKINVEST_31102026161337_MASKBMOUTCOME31102026.pdf",
+        "an_dt": "31-Oct-2026 16:17:08",
         "date": "2026-10-31"
       }
     ]
