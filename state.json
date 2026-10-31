@@ -83,7 +83,8 @@
     "106838568",
     "106838586",
     "106838597",
-    "106838606"
+    "106838606",
+    "106838684"
   ],
   "archive": [
     {
@@ -769,6 +770,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/LATENTVIEW_31102026211027_SE_Intimation_BM_Outcome_31-10-2026_Signed.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:LATENTVIEW",
       "t": "31-Oct-2026 21:13:10"
+    },
+    {
+      "d": "2026-10-31",
+      "s": "MERCURYEV",
+      "c": "Mercury Ev-Tech Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 24.1347,
+      "pat": 1.6571,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/MERCURYEV_31102026220738_Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MERCURYEV",
+      "t": "31-Oct-2026 22:09:10"
     }
   ],
   "digest": {
