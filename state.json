@@ -51,7 +51,8 @@
     "106838046",
     "106838093",
     "106838087",
-    "106838084"
+    "106838084",
+    "106838107"
   ],
   "archive": [
     {
@@ -289,6 +290,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/DLINKLEGAL_31102026151204_Results_20260930_0001.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:DLINKINDIA",
       "t": "31-Oct-2026 15:14:03"
+    },
+    {
+      "d": "2026-10-31",
+      "s": "ATLANTAELE",
+      "c": "Atlanta Electricals Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/ATLANTAIPO123_31102026152520_Outcome_of_BM_31102026_Final.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ATLANTAELE",
+      "t": "31-Oct-2026 15:27:36"
     }
   ],
   "digest": {
@@ -409,6 +424,15 @@
         "company": "NTPC Limited",
         "url": "https://nsearchives.nseindia.com/corporate/9425178051_31102026144738_QFRQ2FY27_Final.pdf",
         "an_dt": "31-Oct-2026 14:50:38",
+        "date": "2026-10-31"
+      },
+      {
+        "key": "106838107",
+        "seq_id": "106838107",
+        "symbol": "ATLANTAELE",
+        "company": "Atlanta Electricals Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/ATLANTAIPO123_31102026152520_Outcome_of_BM_31102026_Final.pdf",
+        "an_dt": "31-Oct-2026 15:27:36",
         "date": "2026-10-31"
       }
     ]
