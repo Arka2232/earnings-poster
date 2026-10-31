@@ -28,8 +28,11 @@ Safety rules:
 - A filing whose PDF cannot be downloaded is NOT marked seen, so the
   next run retries it (delayed, never lost).
 - A filing whose numbers cannot be parsed, or which fails the
-  Total Income cross-check, gets a "Results Filed" text post + link
-  only, and is then marked seen. Numbers are never invented.
+  Total Income cross-check, first tries a screenshot of the
+  filing's own results-table page (cropped to the table, unedited
+  pixels — no retyped numbers, no rating); if no table page is
+  found or rendering fails, it gets a "Results Filed" text post +
+  link only, and is then marked seen. Numbers are never invented.
 - Filings older than 7 days are skipped (marked seen, not posted).
 - The consolidated table in a filing is used when present (user
   decision, 30-Oct-2026); otherwise the standalone table is used as
@@ -38,6 +41,7 @@ Safety rules:
 """
 
 import argparse
+import glob
 import json
 import os
 import re
@@ -255,6 +259,299 @@ def extract_layout_text(pdf_bytes):
         return None
 
 
+def _heading_match(line, consolidated, strict):
+    """A results-statement heading line, or False.
+
+    Requires 'financial results' (+ 'consolidated' when asked) on one
+    line. Strict mode additionally requires the line to start with
+    'statement' (the parser's own guard against covering letters).
+    Lines mentioning a review ('We have reviewed the accompanying
+    Statement ...') are auditor prose, never a table heading, so
+    they are excluded at every strictness — otherwise the loose
+    pass would pick an auditor-report page (NILAINFRA p11) over the
+    real table.
+    """
+    low = line.strip().lower()
+    if "review" in low or "accompanying" in low:
+        return False
+    if "financial results" not in low:
+        return False
+    if consolidated and "consolidated" not in low:
+        return False
+    if strict and not low.startswith("statement"):
+        return False
+    if not strict and "statement" not in low:
+        return False
+    return True
+
+
+def find_results_page(pdf_bytes):
+    """0-based index of the page holding the results table, or None.
+
+    Preference: consolidated statement heading page, then any
+    statement heading page, then the first page with a revenue row.
+    Strictness degrades (heading must start the line, then the
+    words may sit anywhere on the line) to survive extraction
+    quirks. None means "not confidently identified" and the caller
+    falls back to the text post.
+    """
+    try:
+        from pypdf import PdfReader
+        import io
+        reader = PdfReader(io.BytesIO(pdf_bytes))
+        pages = [(p.extract_text() or "") for p in reader.pages]
+    except Exception:
+        return None
+    for strict in (True, False):
+        for consolidated in (True, False):
+            for i, text in enumerate(pages):
+                if any(_heading_match(ln, consolidated, strict)
+                       for ln in text.splitlines()):
+                    return i
+    rev_rx = re.compile(
+        r"revenue\s+from\s+operations|income\s+from\s+operations",
+        re.IGNORECASE)
+    for i, text in enumerate(pages):
+        if any(rev_rx.search(ln) for ln in text.splitlines()):
+            return i
+    return None
+
+
+def render_page_png(pdf_bytes, page_index, out_dir):
+    """Render one page (0-based) to PNG with pdftoppm at 200 DPI.
+
+    Returns the PNG path, or None when pdftoppm is missing, the
+    render fails, or no output appears. Never raises.
+    """
+    pdf_path = None
+    try:
+        with tempfile.NamedTemporaryFile(suffix=".pdf",
+                                         delete=False) as fh:
+            fh.write(pdf_bytes)
+            pdf_path = fh.name
+        prefix = os.path.join(out_dir, "page")
+        out = subprocess.run(
+            ["pdftoppm", "-png", "-r", "200",
+             "-f", str(page_index + 1), "-l", str(page_index + 1),
+             pdf_path, prefix],
+            capture_output=True, timeout=180)
+        if out.returncode != 0:
+            return None
+        cands = sorted(glob.glob(prefix + "*.png"))
+        if not cands:
+            return None
+        path = cands[0]
+        if os.path.getsize(path) == 0:
+            return None
+        return path
+    except Exception:
+        return None
+    finally:
+        if pdf_path:
+            try:
+                os.unlink(pdf_path)
+            except OSError:
+                pass
+
+
+def _tsv_lines(png_path):
+    """OCR line boxes via tesseract TSV: [(text, top, bottom)].
+
+    Words (level 5) are grouped by (block, par, line); a line's box
+    spans its words. Returns [] when tesseract is missing/fails.
+    """
+    try:
+        out = subprocess.run(["tesseract", png_path, "stdout", "tsv"],
+                             capture_output=True, timeout=180)
+    except Exception:
+        return []
+    if out.returncode != 0:
+        return []
+    import csv
+    import io as _io
+    lines = {}
+    order = []
+    reader = csv.DictReader(
+        _io.StringIO(out.stdout.decode("utf-8", "replace")),
+        delimiter="\t", quoting=csv.QUOTE_NONE)
+    for row in reader:
+        try:
+            if int(row.get("level", 0)) != 5:
+                continue
+            key = (row.get("block_num"), row.get("par_num"),
+                   row.get("line_num"))
+            left = int(row["left"])
+            top = int(row["top"])
+            right = left + int(row["width"])
+            bottom = top + int(row["height"])
+            word = (row.get("text") or "").strip()
+        except (ValueError, TypeError, KeyError):
+            continue
+        if key not in lines:
+            lines[key] = {"words": [], "top": top, "bottom": bottom}
+            order.append(key)
+        if word:
+            lines[key]["words"].append(word)
+        lines[key]["top"] = min(lines[key]["top"], top)
+        lines[key]["bottom"] = max(lines[key]["bottom"], bottom)
+    result = []
+    for key in order:
+        entry = lines[key]
+        if entry["words"]:
+            result.append((" ".join(entry["words"]),
+                           entry["top"], entry["bottom"]))
+    return result
+
+
+def _line_words(text):
+    words = set()
+    for w in text.lower().split():
+        words.add(w.strip(".,;:()[]\"'"))
+    return words
+
+
+def _first_token(text):
+    stripped = text.strip()
+    if not stripped:
+        return ""
+    return stripped.lower().split(None, 1)[0].strip(".,;:()[]\"'")
+
+
+def crop_table_bounds(png_path):
+    """Vertical crop (top, bottom) for the results table, or None.
+
+    Top = the 'Statement of ... Financial Results' heading line;
+    bottom = the last Basic/Diluted row of the EPS block (or the EPS
+    header line itself), else the last table row before the Notes
+    section or the signature block. None means "not confidently
+    located" — the caller posts the full page instead. The bounds
+    always include the whole table (over-inclusion beats a cut
+    table); a wrong crop is never returned. Never raises.
+    """
+    try:
+        lines = _tsv_lines(png_path)
+        if not lines:
+            return None
+        head_idx = None
+        for i, (text, _top, _bottom) in enumerate(lines):
+            if _first_token(text) == "statement":
+                words = _line_words(text)
+                if "financial" in words and "results" in words:
+                    head_idx = i
+                    break
+        if head_idx is None:
+            for i, (text, _top, _bottom) in enumerate(lines):
+                words = _line_words(text)
+                if ("statement" in words and "financial" in words
+                        and "results" in words):
+                    head_idx = i
+                    break
+        if head_idx is None:
+            return None
+        eps_idx = None
+        for i in range(head_idx + 1, len(lines)):
+            words = _line_words(lines[i][0])
+            if (any(w.startswith("earning") for w in words)
+                    and "share" in words):
+                eps_idx = i
+                break
+        if eps_idx is not None:
+            # EPS can span several blocks (EXXARO: continuing,
+            # discontinued, then combined) — take the LAST
+            # Basic/Diluted row, stopping at Notes/signature
+            # markers so notes prose never extends the crop.
+            bottom_idx = eps_idx
+            for i in range(eps_idx + 1, min(len(lines), eps_idx + 41)):
+                text = lines[i][0]
+                words = _line_words(text)
+                first = _first_token(text)
+                if (first in ("notes", "note", "place", "date")
+                        or "on behalf of" in text.lower()
+                        or "din" in words):
+                    break
+                if (any(w.startswith("basic") for w in words)
+                        or any(w.startswith("diluted") for w in words)):
+                    bottom_idx = i
+        else:
+            bottom_idx = None
+            for i in range(head_idx + 1, len(lines)):
+                text = lines[i][0]
+                words = _line_words(text)
+                first = _first_token(text)
+                if (first in ("notes", "note", "place", "date")
+                        or "on behalf of" in text.lower()
+                        or "din" in words):
+                    break
+                nums = [tok for tok in text.split()
+                        if any(ch.isdigit() for ch in tok)]
+                if len(nums) >= 2:
+                    bottom_idx = i
+            if bottom_idx is None or bottom_idx <= head_idx:
+                return None
+        top = lines[head_idx][1]
+        bottom = lines[bottom_idx][2]
+        if bottom <= top:
+            return None
+        return (top, bottom)
+    except Exception:
+        return None
+
+
+def crop_table_image(png_path):
+    """Crop the rendered page to the table (heading..EPS/last row).
+
+    Returns True when the image was cropped, False when it is left
+    as the full page (boundaries unconfident or any step failed).
+    The original file is never clobbered: the crop is written to a
+    side file and moved over only on success. Never raises.
+    """
+    try:
+        bounds = crop_table_bounds(png_path)
+        if bounds is None:
+            return False
+        from PIL import Image
+        im = Image.open(png_path)
+        im.load()
+        w, h = im.size
+        top = max(0, bounds[0] - 12)
+        bottom = min(h, bounds[1] + 12)
+        if bottom - top < 0.08 * h or top >= bottom:
+            return False
+        tmp_path = png_path + ".crop.png"
+        im.crop((0, top, w, bottom)).save(tmp_path)
+        if os.path.getsize(tmp_path) == 0:
+            try:
+                os.unlink(tmp_path)
+            except OSError:
+                pass
+            return False
+        os.replace(tmp_path, png_path)
+        return True
+    except Exception:
+        return False
+
+
+def results_screenshot_path(pdf_bytes, out_dir):
+    """Path to a results-table screenshot PNG, or None.
+
+    Finds the table page, renders it at 200 DPI, and crops it
+    vertically to the table. A crop failure leaves the full page;
+    a page-find or render failure returns None (caller posts text).
+    Never raises.
+    """
+    try:
+        page = find_results_page(pdf_bytes)
+        if page is None:
+            return None
+        path = render_page_png(pdf_bytes, page, out_dir)
+        if path is None:
+            return None
+        crop_table_image(path)  # False = keep full page
+        return path
+    except Exception:
+        return None
+
+
 def filing_age_days(item):
     raw = item.get("an_dt") or ""
     for fmt in ("%d-%b-%Y %H:%M:%S", "%d-%b-%Y"):
@@ -353,6 +650,38 @@ def process_item(item, token, chat_id, state, text_fallback=True):
             print(f"[{symbol}] nightly retry still unparsed; "
                   "original text post stands, nothing re-posted")
             return False
+        # Screenshot fallback: the filing's own results-table page,
+        # cropped vertically to the table. Unedited source pixels —
+        # no retyped numbers, no rating, no branding added. Any
+        # failure here degrades to the text post below; a
+        # screenshot failure never breaks posting. The filing is
+        # recorded in text_posts exactly like a text post, so the
+        # nightly retry still tries it as a card.
+        with tempfile.TemporaryDirectory() as td:
+            shot = results_screenshot_path(pdf, td)
+            if shot is not None:
+                send_photo(token, chat_id, shot,
+                           f"#{symbol} — 📋 Results Filed\n"
+                           f"{company} has filed its quarterly results. "
+                           "The structured card follows once this filing "
+                           "can be read.\n"
+                           "For education only — not investment advice. "
+                           "I am not SEBI-registered.",
+                           url, symbol)
+                import results_parser
+                print(f"[{symbol}] posted Results Filed screenshot "
+                      f"(unparsed: {results_parser.LAST_REFUSAL})")
+                state.setdefault("digest", {}).setdefault(
+                    "text_posts", []).append({
+                        "key": key, "seq_id": item.get("seq_id"),
+                        "symbol": symbol, "company": company, "url": url,
+                        "an_dt": filing_time, "date": ist_today()})
+                if key not in state["seen"]:
+                    state["seen"].append(key)
+                record_archive(state, symbol, company, "Results Filed",
+                               "", "", None, None, None, url, filing_time)
+                save_state(state)
+                return True
         send_text(token, chat_id,
                   f"#{symbol} — 📋 Results Filed\n"
                   f"{company} has filed its quarterly results.\n"
