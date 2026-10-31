@@ -57,7 +57,10 @@
     "106838141",
     "106838169",
     "106838207",
-    "106838206"
+    "106838206",
+    "106838219",
+    "106838217",
+    "106838208"
   ],
   "archive": [
     {
@@ -379,6 +382,48 @@
       "filing": "https://nsearchives.nseindia.com/corporate/MASKINVEST_31102026161337_MASKBMOUTCOME31102026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:MASKINVEST",
       "t": "31-Oct-2026 16:17:08"
+    },
+    {
+      "d": "2026-10-31",
+      "s": "ZENTEC",
+      "c": "Zen Technologies Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 345.1326,
+      "pat": 101.8833,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/ZENTEC_31102026162542_BM_OC_UFR_Q2FY26.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ZENTEC",
+      "t": "31-Oct-2026 16:25:55"
+    },
+    {
+      "d": "2026-10-31",
+      "s": "PODDARMENT",
+      "c": "Poddar Pigments Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/PODDARMENT_31102026162448_Outcome_of_Board_Meeting.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PODDARMENT",
+      "t": "31-Oct-2026 16:25:17"
+    },
+    {
+      "d": "2026-10-31",
+      "s": "BIRLACORPN",
+      "c": "Birla Corporation Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/BIRLACORP1_31102026161144_Outcome_of_BM_30092026_BCL.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BIRLACORPN",
+      "t": "31-Oct-2026 16:18:21"
     }
   ],
   "digest": {
@@ -535,6 +580,24 @@
         "company": "Mask Investments Limited",
         "url": "https://nsearchives.nseindia.com/corporate/MASKINVEST_31102026161337_MASKBMOUTCOME31102026.pdf",
         "an_dt": "31-Oct-2026 16:17:08",
+        "date": "2026-10-31"
+      },
+      {
+        "key": "106838217",
+        "seq_id": "106838217",
+        "symbol": "PODDARMENT",
+        "company": "Poddar Pigments Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/PODDARMENT_31102026162448_Outcome_of_Board_Meeting.pdf",
+        "an_dt": "31-Oct-2026 16:25:17",
+        "date": "2026-10-31"
+      },
+      {
+        "key": "106838208",
+        "seq_id": "106838208",
+        "symbol": "BIRLACORPN",
+        "company": "Birla Corporation Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/BIRLACORP1_31102026161144_Outcome_of_BM_30092026_BCL.pdf",
+        "an_dt": "31-Oct-2026 16:18:21",
         "date": "2026-10-31"
       }
     ]
