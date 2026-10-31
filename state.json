@@ -80,7 +80,8 @@
     "106838524",
     "106838561",
     "106838550",
-    "106838568"
+    "106838568",
+    "106838586"
   ],
   "archive": [
     {
@@ -724,6 +725,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/AURIONPRO_31102026200551_ASL_Outcome_of_the_Board_Meeting_31102026Final_sd.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:AURIONPRO",
       "t": "31-Oct-2026 20:08:18"
+    },
+    {
+      "d": "2026-10-31",
+      "s": "NEOGEN",
+      "c": "Neogen Chemicals Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 295.96,
+      "pat": 8.23,
+      "eps": 2.96,
+      "filing": "https://nsearchives.nseindia.com/corporate/NEOGEN_31102026203209_BMOutcome_31102026_Final.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:NEOGEN",
+      "t": "31-Oct-2026 20:32:34"
     }
   ],
   "digest": {
