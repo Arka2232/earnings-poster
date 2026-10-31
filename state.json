@@ -74,7 +74,8 @@
     "106838414",
     "106838457",
     "106838484",
-    "106838474"
+    "106838474",
+    "106838521"
   ],
   "archive": [
     {
@@ -634,6 +635,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/IITL1_31102026184300_Results.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:IITL",
       "t": "31-Oct-2026 18:45:40"
+    },
+    {
+      "d": "2026-10-31",
+      "s": "QPOWER",
+      "c": "Quality Power Electrical Equipments Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/QPOWER1234_31102026192100_OutcomeofBM31102026Sign.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:QPOWER",
+      "t": "31-Oct-2026 19:22:52"
     }
   ],
   "digest": {
@@ -862,6 +877,15 @@
         "company": "Industrial Investment Trust Limited",
         "url": "https://nsearchives.nseindia.com/corporate/IITL1_31102026184300_Results.pdf",
         "an_dt": "31-Oct-2026 18:45:40",
+        "date": "2026-10-31"
+      },
+      {
+        "key": "106838521",
+        "seq_id": "106838521",
+        "symbol": "QPOWER",
+        "company": "Quality Power Electrical Equipments Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/QPOWER1234_31102026192100_OutcomeofBM31102026Sign.pdf",
+        "an_dt": "31-Oct-2026 19:22:52",
         "date": "2026-10-31"
       }
     ]
