@@ -85,7 +85,8 @@
     "106838597",
     "106838606",
     "106838684",
-    "106838686"
+    "106838686",
+    "106838701"
   ],
   "archive": [
     {
@@ -799,6 +800,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/INTEGRA_31102026221142_IELotcom.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:ESSENTIA",
       "t": "31-Oct-2026 22:12:57"
+    },
+    {
+      "d": "2026-10-31",
+      "s": "PRIORITY",
+      "c": "Priority Jewels Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/PRIORITY_31102026224301_Outcome_of_BM_with_financials.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PRIORITY",
+      "t": "31-Oct-2026 22:50:43"
     }
   ],
   "digest": {
@@ -1004,6 +1019,15 @@
         "company": "Mahalaxmi Rubtech Limited",
         "url": "https://nsearchives.nseindia.com/corporate/MHLXMIRU_31102026200118_Outcome.pdf",
         "an_dt": "31-Oct-2026 20:02:15",
+        "date": "2026-10-31"
+      },
+      {
+        "key": "106838701",
+        "seq_id": "106838701",
+        "symbol": "PRIORITY",
+        "company": "Priority Jewels Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/PRIORITY_31102026224301_Outcome_of_BM_with_financials.pdf",
+        "an_dt": "31-Oct-2026 22:50:43",
         "date": "2026-10-31"
       }
     ],
