@@ -66,7 +66,10 @@
     "106838311",
     "106838333",
     "106838329",
-    "106838354"
+    "106838354",
+    "106838376",
+    "106838373",
+    "106838368"
   ],
   "archive": [
     {
@@ -514,6 +517,48 @@
       "filing": "https://nsearchives.nseindia.com/corporate/NTL_31102026174051_e.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:NEUEON",
       "t": "31-Oct-2026 17:42:12"
+    },
+    {
+      "d": "2026-10-31",
+      "s": "VISHNU",
+      "c": "Vishnu Chemicals Limited",
+      "r": "Good",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 429.5255,
+      "pat": 35.5662,
+      "eps": 5.28,
+      "filing": "https://nsearchives.nseindia.com/corporate/VISHNU_31102026174855_Outcome_BM_Sept_2026_Final_signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:VISHNU",
+      "t": "31-Oct-2026 17:51:04"
+    },
+    {
+      "d": "2026-10-31",
+      "s": "GANECOS",
+      "c": "Ganesha Ecosphere Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 512.9307,
+      "pat": 28.0757,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/GANECOS_31102026174622_financial_results.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GANECOS",
+      "t": "31-Oct-2026 17:50:05"
+    },
+    {
+      "d": "2026-10-31",
+      "s": "SURAJEST",
+      "c": "Suraj Estate Developers Limited",
+      "r": "Bad",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 170.04410000000001,
+      "pat": 23.069899999999997,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/SURAJ_31102026174652_Financials.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SURAJEST",
+      "t": "31-Oct-2026 17:48:48"
     }
   ],
   "digest": {
