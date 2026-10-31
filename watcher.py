@@ -11,6 +11,19 @@ Modes:
   --seed    mark all current results filings seen, post nothing
   (default) post new results filings (image card + buttons)
 
+  BACKFILL_SYMBOLS (env, comma-separated) — before the normal feed
+  check, sweep each symbol's own announcement history for today's
+  results filings the latest-20 feed may have missed (e.g. after a
+  scheduler outage). Same filter, same pipeline, same seen-list
+  rules; already-seen filings are skipped. Empty = no backfill.
+
+  Nightly final pass (23:30–23:45 IST, after the 22:30 recap) —
+  retries today's text-posted filings as cards (digest["text_posts"]
+  holds key + PDF URL + date) and sweeps digest["today_results"]
+  (saved by the morning gate) for missed results. A retry posts a
+  NEW card only on a clean parse; anything still failing posts
+  nothing. Silent-safe: a gate failure never breaks posting.
+
 Safety rules:
 - A filing whose PDF cannot be downloaded is NOT marked seen, so the
   next run retries it (delayed, never lost).
@@ -31,6 +44,7 @@ import re
 import subprocess
 import sys
 import tempfile
+import time
 from datetime import datetime, timedelta, timezone
 
 import requests
@@ -78,6 +92,11 @@ def ist_today():
             + timedelta(hours=5, minutes=30)).date().isoformat()
 
 
+def ist_now():
+    """Current datetime in IST (UTC+5:30), no tzdata dependency."""
+    return datetime.now(timezone.utc) + timedelta(hours=5, minutes=30)
+
+
 def record_archive(state, symbol, company, rating, basis, quarter_label,
                    sales, pat, eps, filing_url, filing_time=""):
     """Append one posted item to state["archive"] (capped at 300).
@@ -108,6 +127,73 @@ def fetch_feed():
     if isinstance(data, dict):
         data = data.get("data") or data.get("announcements") or []
     return data
+
+
+SYMBOL_FEED_URL = ("https://www.nseindia.com/api/corporate-announcements"
+                   "?index=equities&symbol={symbol}")
+
+
+def fetch_symbol_feed(symbol, attempts=4):
+    """One symbol's full announcement history from NSE.
+
+    NSE 403s intermittently, so retry a few times. A symbol whose
+    feed cannot be fetched at all returns [] (skipped, never
+    guessed); the caller still runs the normal feed check.
+    """
+    url = SYMBOL_FEED_URL.format(symbol=symbol)
+    last_exc = None
+    for _ in range(attempts):
+        try:
+            r = requests.get(url, headers=HEADERS, timeout=30)
+            r.raise_for_status()
+            data = r.json()
+            if isinstance(data, dict):
+                data = data.get("data") or data.get("announcements") or []
+            return data
+        except Exception as exc:
+            last_exc = exc
+            time.sleep(5)
+    print(f"[{symbol}] symbol feed unavailable after {attempts} "
+          f"attempts ({last_exc})")
+    return []
+
+
+def filed_today(item):
+    """True when the filing's an_dt date is today in IST.
+
+    an_dt looks like "31-Oct-2026 13:04:49" (NSE timestamps are
+    IST); only the date part is compared, against ist_today().
+    """
+    raw = (item.get("an_dt") or "").strip()
+    for fmt in ("%d-%b-%Y %H:%M:%S", "%d-%b-%Y"):
+        try:
+            return datetime.strptime(raw, fmt).date().isoformat() \
+                == ist_today()
+        except ValueError:
+            continue
+    return False
+
+
+def collect_backfill_items(symbols, state):
+    """Today-results filings per symbol, minus already-seen keys.
+
+    Uses the watcher's exact results filter (is_results_filing) and
+    exact key construction (filing_key); nothing is broadened.
+    """
+    seen = set(state.get("seen", []))
+    items = []
+    for raw_symbol in symbols:
+        symbol = raw_symbol.strip().upper()
+        if not symbol:
+            continue
+        rows = fetch_symbol_feed(symbol)
+        found = [it for it in rows
+                 if is_results_filing(it) and filed_today(it)]
+        new = [it for it in found if filing_key(it) not in seen]
+        print(f"[{symbol}] today results filings: {len(found)}; "
+              f"new: {len(new)}")
+        items.extend(new)
+    return items
 
 
 def is_results_filing(item):
@@ -213,7 +299,7 @@ def quarter_month_labels(ql):
     return [f"{mon}'{yr % 100:02d}" for mon, yr in (cur, prev, ly)]
 
 
-def process_item(item, token, chat_id, state):
+def process_item(item, token, chat_id, state, text_fallback=True):
     symbol = item.get("symbol") or "?"
     company = item.get("sm_name") or symbol
     url = pdf_url(item)
@@ -260,6 +346,13 @@ def process_item(item, token, chat_id, state):
         print(f"[{symbol}] extraction failed ({exc})")
         parsed = None
     if parsed is None:
+        if not text_fallback:
+            # Nightly retry path: a filing that still fails posts
+            # nothing — the original text post stands, never
+            # duplicated, never a guessed card.
+            print(f"[{symbol}] nightly retry still unparsed; "
+                  "original text post stands, nothing re-posted")
+            return False
         send_text(token, chat_id,
                   f"#{symbol} — 📋 Results Filed\n"
                   f"{company} has filed its quarterly results.\n"
@@ -269,7 +362,14 @@ def process_item(item, token, chat_id, state):
         import results_parser
         print(f"[{symbol}] posted Results Filed "
               f"(unparsed: {results_parser.LAST_REFUSAL})")
-        state["seen"].append(key)
+        # Nightly final pass needs the filing key to re-attempt
+        # exactly this filing (the archive entry has no key).
+        state.setdefault("digest", {}).setdefault("text_posts", []).append({
+            "key": key, "seq_id": item.get("seq_id"),
+            "symbol": symbol, "company": company, "url": url,
+            "an_dt": filing_time, "date": ist_today()})
+        if key not in state["seen"]:
+            state["seen"].append(key)
         record_archive(state, symbol, company, "Results Filed", "", "",
                        None, None, None, url, filing_time)
         save_state(state)
@@ -284,7 +384,8 @@ def process_item(item, token, chat_id, state):
         send_photo(token, chat_id, img,
                    build_caption(symbol, company, parsed, url), url, symbol)
     print(f"[{symbol}] posted {parsed['rating']} card")
-    state["seen"].append(key)
+    if key not in state["seen"]:
+        state["seen"].append(key)
     eps = parsed["eps"] or (None, None, None)
     record_archive(state, symbol, company, parsed["rating"],
                    parsed.get("basis", ""), parsed["quarter_label"],
@@ -294,11 +395,97 @@ def process_item(item, token, chat_id, state):
     return True
 
 
+def _nightly_retry_entries(token, chat_id, state, entries):
+    """Retry text-posted filings through the full pipeline.
+
+    Returns the set of keys that posted as cards. A filing that
+    still fails posts nothing (original text post stands).
+    Per-item guards: one failure never aborts the rest.
+    """
+    posted = set()
+    for e in entries:
+        item = {"symbol": e.get("symbol"),
+                "sm_name": e.get("company") or e.get("symbol"),
+                "attchmntFile": e.get("url"),
+                "an_dt": e.get("an_dt") or "",
+                "seq_id": e.get("seq_id")}
+        try:
+            if filing_age_days(item) > MAX_AGE_DAYS:
+                continue
+            if process_item(item, token, chat_id, state,
+                            text_fallback=False):
+                posted.add(e.get("key"))
+        except Exception as exc:
+            print(f"[{e.get('symbol')}] nightly retry failed ({exc})")
+    return posted
+
+
+def maybe_nightly_pass(token, chat_id, state, save_state):
+    """23:30–23:45 IST final pass (after the 22:30 recap, never
+    overlapping it): (1) retry today's text-posted filings as
+    cards; (2) sweep today's symbols for missed results filings.
+    Runs once per day (digest["nightly_pass"] flag, set only on
+    completion, so a crashed pass retries at the next run inside
+    the window). Silent-safe: per-item guards plus the caller's
+    try/except mean a gate failure can never break results
+    posting. A retry posts a NEW card message only on a clean
+    parse; anything still failing posts nothing.
+    """
+    dg = state.setdefault("digest", {})
+    today = ist_today()
+    if dg.get("nightly_pass") == today:
+        return
+    now = ist_now()
+    if not (now.hour == 23 and 30 <= now.minute < 45):
+        return
+    print(f"[nightly] final pass for {today}")
+    # (1) Retry today's text-posted filings.
+    entries = [e for e in dg.get("text_posts", [])
+               if e.get("date") == today]
+    posted = _nightly_retry_entries(token, chat_id, state, entries)
+    # (2) Sweep today's symbols for missed results filings.
+    saved = dg.get("today_results") or {}
+    symbols = saved.get("symbols", []) \
+        if saved.get("date") == today else []
+    before_keys = {e.get("key") for e in dg.get("text_posts", [])}
+    if symbols:
+        try:
+            items = collect_backfill_items(symbols, state)
+            for it in items:
+                if filing_key(it) in state["seen"]:
+                    continue
+                try:
+                    process_item(it, token, chat_id, state)
+                except Exception as exc:
+                    print(f"[{it.get('symbol')}] nightly sweep "
+                          f"failed ({exc})")
+        except Exception as exc:
+            print(f"[nightly] sweep failed ({exc})")
+    # Retry text posts created by the sweep itself.
+    fresh = [e for e in dg.get("text_posts", [])
+             if e.get("key") not in before_keys
+             and e.get("date") == today]
+    if fresh:
+        posted |= _nightly_retry_entries(token, chat_id, state, fresh)
+    # Drop retried-as-cards entries and stale entries.
+    dg["text_posts"] = [
+        e for e in dg.get("text_posts", [])
+        if e.get("key") not in posted and e.get("date") == today]
+    dg["nightly_pass"] = today
+    save_state(state)
+    print(f"[nightly] final pass done for {today}")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--check", action="store_true")
     ap.add_argument("--seed", action="store_true")
     args = ap.parse_args()
+
+    # Backfill mode: only when BACKFILL_SYMBOLS is non-empty.
+    backfill_symbols = [s.strip() for s in
+                        os.environ.get("BACKFILL_SYMBOLS", "").split(",")]
+    backfill_symbols = [s for s in backfill_symbols if s]
 
     try:
         feed = fetch_feed()
@@ -306,23 +493,31 @@ def main():
         # NSE blocks intermittently (403s come and go). Nothing is
         # written, so the next scheduled run simply retries.
         print(f"NSE feed unavailable ({exc}); will retry next run")
-        return 0
+        if not backfill_symbols:
+            return 0
+        feed = []
     results = [it for it in feed if is_results_filing(it)]
     state = load_state()
     seen = set(state.get("seen", []))
     new = [it for it in results if filing_key(it) not in seen]
     print(f"results filings in feed: {len(results)}; new: {len(new)}")
 
+    backfill = []
+    if backfill_symbols:
+        print(f"backfill symbols: {', '.join(backfill_symbols)}")
+        backfill = collect_backfill_items(backfill_symbols, state)
+        print(f"backfill new filings: {len(backfill)}")
+
     if args.check:
-        for it in new:
+        for it in backfill + new:
             print(f"{it.get('symbol')} | {it.get('sm_name')} | "
                   f"filed {it.get('an_dt')} | {pdf_url(it)}")
         return 0
     if args.seed:
-        for it in new:
+        for it in backfill + new:
             state["seen"].append(filing_key(it))
         save_state(state)
-        print(f"seeded {len(new)} filings; posted nothing")
+        print(f"seeded {len(backfill) + len(new)} filings; posted nothing")
         return 0
 
     token = os.environ.get("TELEGRAM_BOT_TOKEN")
@@ -331,7 +526,11 @@ def main():
         print("TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID must be set",
               file=sys.stderr)
         return 2
-    for it in new:
+    for it in backfill + new:
+        # Live re-check: a filing seen via the backfill pass must
+        # not post again from the feed pass (or vice versa).
+        if filing_key(it) in state["seen"]:
+            continue
         if filing_age_days(it) > MAX_AGE_DAYS:
             print(f"[{it.get('symbol')}] older than {MAX_AGE_DAYS}d, skipping")
             state["seen"].append(filing_key(it))
@@ -344,6 +543,10 @@ def main():
         maybe_run_digests(token, chat_id, state, save_state)
     except Exception as exc:
         print(f"[digest] skipped ({exc})")
+    try:
+        maybe_nightly_pass(token, chat_id, state, save_state)
+    except Exception as exc:
+        print(f"[nightly] skipped ({exc})")
     return 0
 
 

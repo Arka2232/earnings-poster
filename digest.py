@@ -591,7 +591,8 @@ def maybe_run_digests(token, chat_id, state, save_fn, now=None):
     - Evening cache 22:00–22:30: snapshot tomorrow's results list,
       because the event-calendar drops today's rows after midnight.
     - Morning 08:00–08:30: Today Earnings image + caption (text only
-      on a genuinely empty day).
+      on a genuinely empty day). Also saves digest["today_results"]
+      (today's own symbol list) for the nightly final pass.
     - Wrap + FII/DII 19:30–20:00 daily: post ONLY when the day's own
       market data is present (NIFTY timestamp dated today AND
       FII/DII dated today) — this is the traded-day rule, not
@@ -639,6 +640,11 @@ def maybe_run_digests(token, chat_id, state, save_fn, now=None):
                     build_morning_post(today, events, ipos,
                                        today_rows=[]))
             dg["calendar"] = today.isoformat()
+            # Nightly final pass needs today's own symbol list: the
+            # evening cache overwrites next_results with tomorrow's
+            # symbols, so keep today's list under its own key.
+            dg["today_results"] = {"date": today.isoformat(),
+                                   "symbols": list(today_rows)}
             save_fn(state)
             print(f"[digest] morning calendar posted for {today} "
                   f"({len(today_rows)} results)")
