@@ -773,60 +773,10 @@
   ],
   "digest": {
     "next_results": {
-      "date": "2026-10-31",
+      "date": "2026-11-01",
       "symbols": [
-        "ABLBL",
-        "ADVENZYMES",
-        "ATLANTAELE",
-        "ATULAUTO",
-        "AURIONPRO",
-        "BIRLACORPN",
-        "CDSL",
-        "CLEAN",
-        "CPL",
-        "DLINKINDIA",
-        "DOLPHIN",
-        "ESSENTIA",
-        "EVEREADY",
-        "EXXARO",
-        "GANECOS",
-        "GANGOTRI",
-        "GEMAROMA",
-        "GHCL",
-        "IITL",
-        "KANANIIND",
-        "LATENTVIEW",
-        "LGBBROSLTD",
-        "MASKINVEST",
-        "MEIL",
-        "MERCURYEV",
-        "MHLXMIRU",
-        "MUTHOOTFIN",
-        "NEOGEN",
-        "NEUEON",
-        "NILAINFRA",
-        "NITINSPIN",
-        "NTPC",
-        "NUCLEUS",
-        "OMPOWER",
-        "PACEDIGITK",
-        "PAKKA",
-        "PODDARMENT",
-        "PRIORITY",
-        "QPOWER",
-        "RAINBOW",
-        "RAMBHAJO",
-        "SAHYADRI",
-        "SARDAEN",
-        "SHYAMMETL",
-        "SIGACHI",
-        "STUDDS",
-        "SUMEETINDS",
-        "SURAJEST",
-        "TTL",
-        "UTTAMSUGAR",
-        "VISHNU",
-        "ZENTEC"
+        "POWERGRID",
+        "SAIPARENT"
       ]
     },
     "ipo_posted": [
@@ -834,7 +784,7 @@
       "HGSINDIALT",
       "MAXENGS"
     ],
-    "ipo_check": "2026-10-31 21",
+    "ipo_check": "2026-10-31 22",
     "calendar": "2026-10-31",
     "text_posts": [
       {
@@ -1026,6 +976,7 @@
         "an_dt": "31-Oct-2026 20:02:15",
         "date": "2026-10-31"
       }
-    ]
+    ],
+    "next_cache": "2026-10-31"
   }
 }
