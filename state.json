@@ -79,7 +79,8 @@
     "106838527",
     "106838524",
     "106838561",
-    "106838550"
+    "106838550",
+    "106838568"
   ],
   "archive": [
     {
@@ -709,6 +710,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/NEOGEN_31102026195238_BMOutcome_31102026_Final.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:NEOGEN",
       "t": "31-Oct-2026 19:53:51"
+    },
+    {
+      "d": "2026-10-31",
+      "s": "AURIONPRO",
+      "c": "Aurionpro Solutions Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "",
+      "sales": 414.98150000000004,
+      "pat": 150.2041,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/AURIONPRO_31102026200551_ASL_Outcome_of_the_Board_Meeting_31102026Final_sd.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:AURIONPRO",
+      "t": "31-Oct-2026 20:08:18"
     }
   ],
   "digest": {
