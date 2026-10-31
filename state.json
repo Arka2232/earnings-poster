@@ -54,7 +54,8 @@
     "106838084",
     "106838107",
     "106838128",
-    "106838141"
+    "106838141",
+    "106838169"
   ],
   "archive": [
     {
@@ -334,6 +335,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/SIGACHI_31102026154510_OutcomeofBoardmeeting311026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SIGACHI",
       "t": "31-Oct-2026 15:46:25"
+    },
+    {
+      "d": "2026-10-31",
+      "s": "NUCLEUS",
+      "c": "Nucleus Software Exports Limited",
+      "r": "Bad",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 2.277,
+      "pat": 0.2867,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/Nucleus_31102026155846_OUTCOME.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:NUCLEUS",
+      "t": "31-Oct-2026 15:59:32"
     }
   ],
   "digest": {
@@ -399,7 +414,7 @@
       "HGSINDIALT",
       "MAXENGS"
     ],
-    "ipo_check": "2026-10-31 15",
+    "ipo_check": "2026-10-31 16",
     "calendar": "2026-10-31",
     "text_posts": [
       {
