@@ -81,7 +81,8 @@
     "106838561",
     "106838550",
     "106838568",
-    "106838586"
+    "106838586",
+    "106838597"
   ],
   "archive": [
     {
@@ -739,6 +740,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/NEOGEN_31102026203209_BMOutcome_31102026_Final.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:NEOGEN",
       "t": "31-Oct-2026 20:32:34"
+    },
+    {
+      "d": "2026-10-31",
+      "s": "PACEDIGITK",
+      "c": "Pace Digitek Limited",
+      "r": "Positive",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 594.551,
+      "pat": 58.24400000000001,
+      "eps": 2.7,
+      "filing": "https://nsearchives.nseindia.com/corporate/PACE_31102026204622_Intimation__Board_Meeting_Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PACEDIGITK",
+      "t": "31-Oct-2026 20:47:58"
     }
   ],
   "digest": {
