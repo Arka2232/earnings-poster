@@ -46,7 +46,9 @@
     "106837912",
     "106838021",
     "106838033",
-    "106838031"
+    "106838031",
+    "106838053",
+    "106838046"
   ],
   "archive": [
     {
@@ -214,6 +216,34 @@
       "filing": "https://nsearchives.nseindia.com/corporate/CLEAN_31102026143234_Outcome_BM_31102026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:CLEAN",
       "t": "31-Oct-2026 14:33:48"
+    },
+    {
+      "d": "2026-10-31",
+      "s": "NTPC",
+      "c": "NTPC Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/9425178051_31102026144738_QFRQ2FY27_Final.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:NTPC",
+      "t": "31-Oct-2026 14:50:38"
+    },
+    {
+      "d": "2026-10-31",
+      "s": "EVEREADY",
+      "c": "Eveready Industries India Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 427.77,
+      "pat": 31.77,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/EVEREADY_31102026144446_SEIntimation_BM_Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:EVEREADY",
+      "t": "31-Oct-2026 14:46:58"
     }
   ],
   "digest": {
@@ -279,7 +309,7 @@
       "HGSINDIALT",
       "MAXENGS"
     ],
-    "ipo_check": "2026-10-31 14",
+    "ipo_check": "2026-10-31 15",
     "calendar": "2026-10-31",
     "text_posts": [
       {
@@ -325,6 +355,15 @@
         "company": "Clean Science and Technology Limited",
         "url": "https://nsearchives.nseindia.com/corporate/CLEAN_31102026143234_Outcome_BM_31102026.pdf",
         "an_dt": "31-Oct-2026 14:33:48",
+        "date": "2026-10-31"
+      },
+      {
+        "key": "106838053",
+        "seq_id": "106838053",
+        "symbol": "NTPC",
+        "company": "NTPC Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/9425178051_31102026144738_QFRQ2FY27_Final.pdf",
+        "an_dt": "31-Oct-2026 14:50:38",
         "date": "2026-10-31"
       }
     ]
