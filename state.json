@@ -52,7 +52,8 @@
     "106838093",
     "106838087",
     "106838084",
-    "106838107"
+    "106838107",
+    "106838128"
   ],
   "archive": [
     {
@@ -304,6 +305,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/ATLANTAIPO123_31102026152520_Outcome_of_BM_31102026_Final.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:ATLANTAELE",
       "t": "31-Oct-2026 15:27:36"
+    },
+    {
+      "d": "2026-10-31",
+      "s": "KANANIIND",
+      "c": "Kanani Industries Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/KANANIIND_31102026154006_KILBMOC31102026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:KANANIIND",
+      "t": "31-Oct-2026 15:41:08"
     }
   ],
   "digest": {
@@ -433,6 +448,15 @@
         "company": "Atlanta Electricals Limited",
         "url": "https://nsearchives.nseindia.com/corporate/ATLANTAIPO123_31102026152520_Outcome_of_BM_31102026_Final.pdf",
         "an_dt": "31-Oct-2026 15:27:36",
+        "date": "2026-10-31"
+      },
+      {
+        "key": "106838128",
+        "seq_id": "106838128",
+        "symbol": "KANANIIND",
+        "company": "Kanani Industries Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/KANANIIND_31102026154006_KILBMOC31102026.pdf",
+        "an_dt": "31-Oct-2026 15:41:08",
         "date": "2026-10-31"
       }
     ]
