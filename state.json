@@ -63,7 +63,9 @@
     "106838208",
     "106838246",
     "106838312",
-    "106838311"
+    "106838311",
+    "106838333",
+    "106838329"
   ],
   "archive": [
     {
@@ -469,6 +471,34 @@
       "filing": "https://nsearchives.nseindia.com/corporate/BKMINDST_31102026171733_BKM_Standalone_Results_with_Intimation_31-10-2026-S.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:BKMINDST",
       "t": "31-Oct-2026 17:23:24"
+    },
+    {
+      "d": "2026-10-31",
+      "s": "GEMAROMA",
+      "c": "Gem Aromatics Limited",
+      "r": "Positive",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 92.38,
+      "pat": 8.903,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/GEMAROMATICS2024_31102026172816_Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GEMAROMA",
+      "t": "31-Oct-2026 17:31:19"
+    },
+    {
+      "d": "2026-10-31",
+      "s": "OMPOWER",
+      "c": "Om Power Transmission Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 128.29410000000001,
+      "pat": 13.847999999999999,
+      "eps": 4.04,
+      "filing": "https://nsearchives.nseindia.com/corporate/OMPOWER_31102026172721_Outcome_31102026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:OMPOWER",
+      "t": "31-Oct-2026 17:29:29"
     }
   ],
   "digest": {
