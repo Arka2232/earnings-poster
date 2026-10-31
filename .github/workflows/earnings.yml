@@ -2,8 +2,13 @@ name: Earnings poster
 
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "*/10 * * * *"
   workflow_dispatch:
+    inputs:
+      symbols:
+        description: "Comma-separated symbols to backfill (empty = normal run)"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -22,6 +27,7 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          BACKFILL_SYMBOLS: ${{ inputs.symbols }}
       - name: Save state
         run: |
           git config user.name "earnings-poster"
