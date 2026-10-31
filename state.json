@@ -48,7 +48,10 @@
     "106838033",
     "106838031",
     "106838053",
-    "106838046"
+    "106838046",
+    "106838093",
+    "106838087",
+    "106838084"
   ],
   "archive": [
     {
@@ -244,6 +247,48 @@
       "filing": "https://nsearchives.nseindia.com/corporate/EVEREADY_31102026144446_SEIntimation_BM_Outcome.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:EVEREADY",
       "t": "31-Oct-2026 14:46:58"
+    },
+    {
+      "d": "2026-10-31",
+      "s": "MUTHOOTFIN",
+      "c": "Muthoot Finance Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 9997.769,
+      "pat": 3278.002,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/MUTHOOTFIN_31102026151723_MFIN_BM_Outcome_Cover_Final-sd.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MUTHOOTFIN",
+      "t": "31-Oct-2026 15:19:14"
+    },
+    {
+      "d": "2026-10-31",
+      "s": "ABLBL",
+      "c": "Aditya Birla Lifestyle Brands Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 2265.61,
+      "pat": 53.05,
+      "eps": 0.44,
+      "filing": "https://nsearchives.nseindia.com/corporate/ABLBL_31102026151419_SEIntimationOutcomeFinancialsQ2FY27.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ABLBL",
+      "t": "31-Oct-2026 15:15:33"
+    },
+    {
+      "d": "2026-10-31",
+      "s": "DLINKINDIA",
+      "c": "D-Link (India) Limited",
+      "r": "Good",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 450.7068,
+      "pat": 28.1616,
+      "eps": 7.93,
+      "filing": "https://nsearchives.nseindia.com/corporate/DLINKLEGAL_31102026151204_Results_20260930_0001.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:DLINKINDIA",
+      "t": "31-Oct-2026 15:14:03"
     }
   ],
   "digest": {
