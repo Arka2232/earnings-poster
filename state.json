@@ -71,7 +71,8 @@
     "106838373",
     "106838368",
     "106838400",
-    "106838414"
+    "106838414",
+    "106838457"
   ],
   "archive": [
     {
@@ -589,6 +590,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/SAHYADRI_31102026175545_OutcomeofBMFRQ2FY27.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SAHYADRI",
       "t": "31-Oct-2026 18:07:42"
+    },
+    {
+      "d": "2026-10-31",
+      "s": "UTTAMSUGAR",
+      "c": "Uttam Sugar Mills Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/UTTAMSUGAR_31102026183616_OutcomeofBoardMeetingSigned.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:UTTAMSUGAR",
+      "t": "31-Oct-2026 18:37:33"
     }
   ],
   "digest": {
@@ -799,6 +814,15 @@
         "company": "PAKKA LIMITED",
         "url": "https://nsearchives.nseindia.com/corporate/yashpakka_31102026180218_Outcome_of_Board_Meeting_31102026.pdf",
         "an_dt": "31-Oct-2026 18:04:51",
+        "date": "2026-10-31"
+      },
+      {
+        "key": "106838457",
+        "seq_id": "106838457",
+        "symbol": "UTTAMSUGAR",
+        "company": "Uttam Sugar Mills Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/UTTAMSUGAR_31102026183616_OutcomeofBoardMeetingSigned.pdf",
+        "an_dt": "31-Oct-2026 18:37:33",
         "date": "2026-10-31"
       }
     ]
