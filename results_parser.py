@@ -453,31 +453,43 @@ def _parse_segment(text):
     # PAT label varies by filing: "Profit/(Loss) For the Period",
     # "Net Profit/(Loss) after tax", "Profit after tax". Try the
     # most specific first; exclusions keep "before tax" and
-    # comprehensive-income rows out.
-    pat_idx = None
-    for pat_pat in (r"(profit|loss).*for the period",
-                    r"net profit.*after tax",
-                    r"(profit|loss).*after tax",
-                    r"net profit"):
-        pat_idx = _first_match_line(
-            lines, rev_idx + 1, pat_pat,
-            exclude=["before tax", "comprehensive", "attributable",
-                     "non-controlling", "discontinu"])
-        if pat_idx is not None:
-            break
-    if pat_idx is None:
+    # comprehensive-income rows out. Continuing-operations rows
+    # are subtotals, not the period total: prefer a plain total
+    # row first (EXXARO's continuing row is mangled and fails the
+    # half-year guard while its total row parses clean), but fall
+    # back to the continuing row when it is the only PAT row the
+    # filing offers (MALU OCR has no separate total row).
+    def _find_pat(exclude_continuing):
+        excl = ["before tax", "comprehensive", "attributable",
+                "non-controlling", "discontinu"]
+        excl_sq = ["beforetax", "comprehensive", "attributable",
+                   "noncontrolling", "discontinu"]
+        if exclude_continuing:
+            excl = excl + ["continuing"]
+            excl_sq = excl_sq + ["continuing"]
+        for pat_pat in (r"(profit|loss).*for the period",
+                        r"net profit.*after tax",
+                        r"(profit|loss).*after tax",
+                        r"net profit"):
+            idx = _first_match_line(lines, rev_idx + 1, pat_pat,
+                                    exclude=excl)
+            if idx is not None:
+                return idx
         # Whitespace-mangled labels ("Profit for th e period").
         for needles in (["profit", "fortheperiod"],
                         ["loss", "fortheperiod"],
                         ["netprofit", "aftertax"],
                         ["profit", "aftertax"],
                         ["netprofit"]):
-            pat_idx = _first_match_line_sq(
-                lines, rev_idx + 1, needles,
-                exclude=["beforetax", "comprehensive", "attributable",
-                         "noncontrolling", "discontinu"])
-            if pat_idx is not None:
-                break
+            idx = _first_match_line_sq(lines, rev_idx + 1, needles,
+                                       exclude=excl_sq)
+            if idx is not None:
+                return idx
+        return None
+
+    pat_idx = _find_pat(True)
+    if pat_idx is None:
+        pat_idx = _find_pat(False)
     if pat_idx is None:
         return _refuse("no-pat-row")
     pat = _row_values(lines[pat_idx])
