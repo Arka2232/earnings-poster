@@ -75,7 +75,9 @@
     "106838457",
     "106838484",
     "106838474",
-    "106838521"
+    "106838521",
+    "106838527",
+    "106838524"
   ],
   "archive": [
     {
@@ -649,6 +651,34 @@
       "filing": "https://nsearchives.nseindia.com/corporate/QPOWER1234_31102026192100_OutcomeofBM31102026Sign.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:QPOWER",
       "t": "31-Oct-2026 19:22:52"
+    },
+    {
+      "d": "2026-10-31",
+      "s": "STUDDS",
+      "c": "Studds Accessories Limited",
+      "r": "Bad",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 182.46400000000003,
+      "pat": 15.502000000000002,
+      "eps": 3.94,
+      "filing": "https://nsearchives.nseindia.com/corporate/Studds1983_31102026192811_Outcome_FR_31102026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:STUDDS",
+      "t": "31-Oct-2026 19:30:15"
+    },
+    {
+      "d": "2026-10-31",
+      "s": "LGBBROSLTD",
+      "c": "LG Balakrishnan & Bros Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/LGBBROSLTD_31102026192508_LGB_Outcome_Financials30092026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:LGBBROSLTD",
+      "t": "31-Oct-2026 19:26:46"
     }
   ],
   "digest": {
@@ -886,6 +916,15 @@
         "company": "Quality Power Electrical Equipments Limited",
         "url": "https://nsearchives.nseindia.com/corporate/QPOWER1234_31102026192100_OutcomeofBM31102026Sign.pdf",
         "an_dt": "31-Oct-2026 19:22:52",
+        "date": "2026-10-31"
+      },
+      {
+        "key": "106838524",
+        "seq_id": "106838524",
+        "symbol": "LGBBROSLTD",
+        "company": "LG Balakrishnan & Bros Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/LGBBROSLTD_31102026192508_LGB_Outcome_Financials30092026.pdf",
+        "an_dt": "31-Oct-2026 19:26:46",
         "date": "2026-10-31"
       }
     ]
