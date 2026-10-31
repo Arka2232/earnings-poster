@@ -65,7 +65,8 @@
     "106838312",
     "106838311",
     "106838333",
-    "106838329"
+    "106838329",
+    "106838354"
   ],
   "archive": [
     {
@@ -499,6 +500,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/OMPOWER_31102026172721_Outcome_31102026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:OMPOWER",
       "t": "31-Oct-2026 17:29:29"
+    },
+    {
+      "d": "2026-10-31",
+      "s": "NEUEON",
+      "c": "Neueon Corporation Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/NTL_31102026174051_e.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:NEUEON",
+      "t": "31-Oct-2026 17:42:12"
     }
   ],
   "digest": {
@@ -691,6 +706,15 @@
         "company": "Bkm Industries Limited",
         "url": "https://nsearchives.nseindia.com/corporate/BKMINDST_31102026171733_BKM_Standalone_Results_with_Intimation_31-10-2026-S.pdf",
         "an_dt": "31-Oct-2026 17:23:24",
+        "date": "2026-10-31"
+      },
+      {
+        "key": "106838354",
+        "seq_id": "106838354",
+        "symbol": "NEUEON",
+        "company": "Neueon Corporation Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/NTL_31102026174051_e.pdf",
+        "an_dt": "31-Oct-2026 17:42:12",
         "date": "2026-10-31"
       }
     ]
