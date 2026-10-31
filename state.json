@@ -53,7 +53,8 @@
     "106838087",
     "106838084",
     "106838107",
-    "106838128"
+    "106838128",
+    "106838141"
   ],
   "archive": [
     {
@@ -319,6 +320,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/KANANIIND_31102026154006_KILBMOC31102026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:KANANIIND",
       "t": "31-Oct-2026 15:41:08"
+    },
+    {
+      "d": "2026-10-31",
+      "s": "SIGACHI",
+      "c": "Sigachi Industries Limited",
+      "r": "Weak",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 113.4849,
+      "pat": 8.9778,
+      "eps": 0.23,
+      "filing": "https://nsearchives.nseindia.com/corporate/SIGACHI_31102026154510_OutcomeofBoardmeeting311026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SIGACHI",
+      "t": "31-Oct-2026 15:46:25"
     }
   ],
   "digest": {
