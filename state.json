@@ -84,7 +84,8 @@
     "106838586",
     "106838597",
     "106838606",
-    "106838684"
+    "106838684",
+    "106838686"
   ],
   "archive": [
     {
@@ -784,6 +785,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/MERCURYEV_31102026220738_Outcome.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:MERCURYEV",
       "t": "31-Oct-2026 22:09:10"
+    },
+    {
+      "d": "2026-10-31",
+      "s": "ESSENTIA",
+      "c": "Integra Essentia Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 141.9702,
+      "pat": -0.0226,
+      "eps": -0.0,
+      "filing": "https://nsearchives.nseindia.com/corporate/INTEGRA_31102026221142_IELotcom.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ESSENTIA",
+      "t": "31-Oct-2026 22:12:57"
     }
   ],
   "digest": {
@@ -992,6 +1007,7 @@
         "date": "2026-10-31"
       }
     ],
-    "next_cache": "2026-10-31"
+    "next_cache": "2026-10-31",
+    "recap": "2026-10-31"
   }
 }
