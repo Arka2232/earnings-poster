@@ -69,7 +69,8 @@
     "106838354",
     "106838376",
     "106838373",
-    "106838368"
+    "106838368",
+    "106838400"
   ],
   "archive": [
     {
@@ -559,6 +560,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/SURAJ_31102026174652_Financials.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SURAJEST",
       "t": "31-Oct-2026 17:48:48"
+    },
+    {
+      "d": "2026-10-31",
+      "s": "PAKKA",
+      "c": "PAKKA LIMITED",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/yashpakka_31102026180218_Outcome_of_Board_Meeting_31102026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PAKKA",
+      "t": "31-Oct-2026 18:04:51"
     }
   ],
   "digest": {
@@ -624,7 +639,7 @@
       "HGSINDIALT",
       "MAXENGS"
     ],
-    "ipo_check": "2026-10-31 17",
+    "ipo_check": "2026-10-31 18",
     "calendar": "2026-10-31",
     "text_posts": [
       {
@@ -760,6 +775,15 @@
         "company": "Neueon Corporation Limited",
         "url": "https://nsearchives.nseindia.com/corporate/NTL_31102026174051_e.pdf",
         "an_dt": "31-Oct-2026 17:42:12",
+        "date": "2026-10-31"
+      },
+      {
+        "key": "106838400",
+        "seq_id": "106838400",
+        "symbol": "PAKKA",
+        "company": "PAKKA LIMITED",
+        "url": "https://nsearchives.nseindia.com/corporate/yashpakka_31102026180218_Outcome_of_Board_Meeting_31102026.pdf",
+        "an_dt": "31-Oct-2026 18:04:51",
         "date": "2026-10-31"
       }
     ]
