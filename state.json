@@ -60,7 +60,8 @@
     "106838206",
     "106838219",
     "106838217",
-    "106838208"
+    "106838208",
+    "106838246"
   ],
   "archive": [
     {
@@ -424,6 +425,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/BIRLACORP1_31102026161144_Outcome_of_BM_30092026_BCL.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:BIRLACORPN",
       "t": "31-Oct-2026 16:18:21"
+    },
+    {
+      "d": "2026-10-31",
+      "s": "MEIL",
+      "c": "Mangal Electrical Industries Limited",
+      "r": "Weak",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 168.5789,
+      "pat": 10.9745,
+      "eps": 3.97,
+      "filing": "https://nsearchives.nseindia.com/corporate/MANGALS_31102026164103_BM_Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MEIL",
+      "t": "31-Oct-2026 16:43:19"
     }
   ],
   "digest": {
