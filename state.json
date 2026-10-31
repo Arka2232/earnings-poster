@@ -38,7 +38,8 @@
     "106837546",
     "106837598",
     "106837946",
-    "106837990"
+    "106837990",
+    "106838013"
   ],
   "archive": [
     {
@@ -94,6 +95,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/CPL_31102026133757_CAPTAINPOLYPLASTOUTCOME31102026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:CPL",
       "t": "31-Oct-2026 13:42:10"
+    },
+    {
+      "d": "2026-10-31",
+      "s": "SARDAEN",
+      "c": "Sarda Energy & Minerals Limited",
+      "r": "Bad",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 1056.72,
+      "pat": 175.49,
+      "eps": 4.98,
+      "filing": "https://nsearchives.nseindia.com/corporate/SARDAEN_31102026141311_SEML.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SARDAEN",
+      "t": "31-Oct-2026 14:14:59"
     }
   ],
   "digest": {
@@ -159,7 +174,7 @@
       "HGSINDIALT",
       "MAXENGS"
     ],
-    "ipo_check": "2026-10-31 13",
+    "ipo_check": "2026-10-31 14",
     "calendar": "2026-10-31"
   }
 }
