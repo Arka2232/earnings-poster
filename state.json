@@ -82,7 +82,8 @@
     "106838550",
     "106838568",
     "106838586",
-    "106838597"
+    "106838597",
+    "106838606"
   ],
   "archive": [
     {
@@ -754,6 +755,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/PACE_31102026204622_Intimation__Board_Meeting_Outcome.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:PACEDIGITK",
       "t": "31-Oct-2026 20:47:58"
+    },
+    {
+      "d": "2026-10-31",
+      "s": "LATENTVIEW",
+      "c": "Latent View Analytics Limited",
+      "r": "Good",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 294.068,
+      "pat": 48.468,
+      "eps": 2.35,
+      "filing": "https://nsearchives.nseindia.com/corporate/LATENTVIEW_31102026211027_SE_Intimation_BM_Outcome_31-10-2026_Signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:LATENTVIEW",
+      "t": "31-Oct-2026 21:13:10"
     }
   ],
   "digest": {
