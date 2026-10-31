@@ -39,7 +39,12 @@
     "106837598",
     "106837946",
     "106837990",
-    "106838013"
+    "106838013",
+    "106837918",
+    "106838015",
+    "106838022",
+    "106837912",
+    "106838021"
   ],
   "archive": [
     {
@@ -109,6 +114,76 @@
       "filing": "https://nsearchives.nseindia.com/corporate/SARDAEN_31102026141311_SEML.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SARDAEN",
       "t": "31-Oct-2026 14:14:59"
+    },
+    {
+      "d": "2026-10-31",
+      "s": "ADVENZYMES",
+      "c": "Advanced Enzyme Technologies Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/AETL_31102026124414_Intimation.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ADVENZYMES",
+      "t": "31-Oct-2026 12:46:54"
+    },
+    {
+      "d": "2026-10-31",
+      "s": "CDSL",
+      "c": "Central Depository Services (India) Limited",
+      "r": "Good",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 394.48,
+      "pat": 173.3,
+      "eps": 8.32,
+      "filing": "https://nsearchives.nseindia.com/corporate/CDSL_31102026141138_OutcomeBM31102026_Signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CDSL",
+      "t": "31-Oct-2026 14:16:32"
+    },
+    {
+      "d": "2026-10-31",
+      "s": "EXXARO",
+      "c": "Exxaro Tiles Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/EXXARO_31102026142359_RESULT.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:EXXARO",
+      "t": "31-Oct-2026 14:26:15"
+    },
+    {
+      "d": "2026-10-31",
+      "s": "NILAINFRA",
+      "c": "Nila Infrastructures Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/NILAINFRA_31102026124301_530377OutcomeBMResults30092026NILA.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:NILAINFRA",
+      "t": "31-Oct-2026 12:44:01"
+    },
+    {
+      "d": "2026-10-31",
+      "s": "NITINSPIN",
+      "c": "Nitin Spinners Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/NITINSPIN_31102026142230_RESULTS.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:NITINSPIN",
+      "t": "31-Oct-2026 14:24:48"
     }
   ],
   "digest": {
@@ -175,6 +250,44 @@
       "MAXENGS"
     ],
     "ipo_check": "2026-10-31 14",
-    "calendar": "2026-10-31"
+    "calendar": "2026-10-31",
+    "text_posts": [
+      {
+        "key": "106837918",
+        "seq_id": "106837918",
+        "symbol": "ADVENZYMES",
+        "company": "Advanced Enzyme Technologies Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/AETL_31102026124414_Intimation.pdf",
+        "an_dt": "31-Oct-2026 12:46:54",
+        "date": "2026-10-31"
+      },
+      {
+        "key": "106838022",
+        "seq_id": "106838022",
+        "symbol": "EXXARO",
+        "company": "Exxaro Tiles Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/EXXARO_31102026142359_RESULT.pdf",
+        "an_dt": "31-Oct-2026 14:26:15",
+        "date": "2026-10-31"
+      },
+      {
+        "key": "106837912",
+        "seq_id": "106837912",
+        "symbol": "NILAINFRA",
+        "company": "Nila Infrastructures Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/NILAINFRA_31102026124301_530377OutcomeBMResults30092026NILA.pdf",
+        "an_dt": "31-Oct-2026 12:44:01",
+        "date": "2026-10-31"
+      },
+      {
+        "key": "106838021",
+        "seq_id": "106838021",
+        "symbol": "NITINSPIN",
+        "company": "Nitin Spinners Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/NITINSPIN_31102026142230_RESULTS.pdf",
+        "an_dt": "31-Oct-2026 14:24:48",
+        "date": "2026-10-31"
+      }
+    ]
   }
 }
