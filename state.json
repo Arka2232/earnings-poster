@@ -87,7 +87,8 @@
     "106838684",
     "106838686",
     "106838701",
-    "106838793"
+    "106838793",
+    "106838847"
   ],
   "archive": [
     {
@@ -829,6 +830,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/SAIPARENTERALS_01112026150410_OutcomeOfTheBoarMeetingSigned.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SAIPARENT",
       "t": "01-Nov-2026 15:09:11"
+    },
+    {
+      "d": "2026-11-01",
+      "s": "POWERGRID",
+      "c": "Power Grid Corporation of India Limited",
+      "r": "Good",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 11816.22,
+      "pat": 3866.16,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/POWERGRID1_01112026200821_BSENSEReg30FileFinal.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:POWERGRID",
+      "t": "01-Nov-2026 20:11:02"
     }
   ],
   "digest": {
