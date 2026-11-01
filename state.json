@@ -88,7 +88,8 @@
     "106838686",
     "106838701",
     "106838793",
-    "106838847"
+    "106838847",
+    "106838893"
   ],
   "archive": [
     {
@@ -844,6 +845,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/POWERGRID1_01112026200821_BSENSEReg30FileFinal.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:POWERGRID",
       "t": "01-Nov-2026 20:11:02"
+    },
+    {
+      "d": "2026-11-01",
+      "s": "AVL",
+      "c": "Aditya Vision Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/ADITYAVISION_01112026225517_Uploaddd.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:AVL",
+      "t": "01-Nov-2026 23:01:59"
     }
   ],
   "digest": {
@@ -990,7 +1005,7 @@
       "HGSINDIALT",
       "MAXENGS"
     ],
-    "ipo_check": "2026-11-01 22",
+    "ipo_check": "2026-11-01 23",
     "calendar": "2026-10-31",
     "text_posts": [
       {
@@ -1190,6 +1205,15 @@
         "url": "https://nsearchives.nseindia.com/corporate/PRIORITY_31102026224301_Outcome_of_BM_with_financials.pdf",
         "an_dt": "31-Oct-2026 22:50:43",
         "date": "2026-10-31"
+      },
+      {
+        "key": "106838893",
+        "seq_id": "106838893",
+        "symbol": "AVL",
+        "company": "Aditya Vision Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/ADITYAVISION_01112026225517_Uploaddd.pdf",
+        "an_dt": "01-Nov-2026 23:01:59",
+        "date": "2026-11-01"
       }
     ],
     "next_cache": "2026-11-01",
