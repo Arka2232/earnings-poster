@@ -86,7 +86,8 @@
     "106838606",
     "106838684",
     "106838686",
-    "106838701"
+    "106838701",
+    "106838793"
   ],
   "archive": [
     {
@@ -814,6 +815,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/PRIORITY_31102026224301_Outcome_of_BM_with_financials.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:PRIORITY",
       "t": "31-Oct-2026 22:50:43"
+    },
+    {
+      "d": "2026-11-01",
+      "s": "SAIPARENT",
+      "c": "Sai Parenterals Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 194.918,
+      "pat": 10.51,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/SAIPARENTERALS_01112026150410_OutcomeOfTheBoarMeetingSigned.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SAIPARENT",
+      "t": "01-Nov-2026 15:09:11"
     }
   ],
   "digest": {
