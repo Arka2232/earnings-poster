@@ -125,7 +125,11 @@
     "106839665",
     "106839674",
     "106839692",
-    "106839703"
+    "106839703",
+    "106839743",
+    "106839739",
+    "106839722",
+    "106839719"
   ],
   "archive": [
     {
@@ -1399,6 +1403,92 @@
       "filing": "https://nsearchives.nseindia.com/corporate/MEGASTAR_02112026160232_new_outcome_signed.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:MEGASTAR",
       "t": "02-Nov-2026 16:05:09"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "MOIL",
+      "c": "MOIL Limited",
+      "r": "Weak",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 369.1328,
+      "pat": 61.7746,
+      "eps": 3.04,
+      "filing": "https://nsearchives.nseindia.com/corporate/MOIL_02112026161132_Q2_Results_2026-27.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MOIL",
+      "t": "02-Nov-2026 16:16:57"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "AAKASH",
+      "c": "Aakash Exploration Services Limited",
+      "r": "Bad",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 27.069000000000003,
+      "pat": -0.2811,
+      "eps": -0.03,
+      "filing": "https://nsearchives.nseindia.com/corporate/AAKASH_02112026161245_Outcome_02112026_Signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:AAKASH",
+      "t": "02-Nov-2026 16:14:49"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "HLEGLAS",
+      "c": "HLE Glascoat Limited",
+      "r": "Positive",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 346.6542,
+      "pat": 16.0197,
+      "eps": 2.06,
+      "filing": "https://nsearchives.nseindia.com/corporate/HLEGLASCOAT_02112026160152_522215_UFR_sd_F.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:HLEGLAS",
+      "t": "02-Nov-2026 16:10:36"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "PRIMO",
+      "c": "Primo Chemicals Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/PRIMO607_02112026160657_UFR30092026Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PRIMO",
+      "t": "02-Nov-2026 16:09:47"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "PKTEA",
+      "c": "The Peria Karamalai Tea & Produce Company Limited",
+      "r": "Positive",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 9.8863,
+      "pat": -3.1771,
+      "eps": -10.26,
+      "filing": "https://nsearchives.nseindia.com/corporate/PKTEA_02112026122248_BMOUTCOME02112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PKTEA",
+      "t": "02-Nov-2026 12:26:04",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1750961_02112026123819_WEB.xml"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "ZUARI",
+      "c": "Zuari Agro Chemicals Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 397.71999999999997,
+      "pat": 37.37,
+      "eps": 8.87,
+      "filing": "https://nsearchives.nseindia.com/corporate/ZUARI_02112026134909_zaclboardmeetingoutcome02112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ZUARI",
+      "t": "02-Nov-2026 13:50:24",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751009_02112026024925_WEB.xml"
     }
   ],
   "digest": {
@@ -1556,7 +1646,9 @@
         "company": "Aditya Vision Limited",
         "url": "https://nsearchives.nseindia.com/corporate/ADITYAVISION_01112026225517_Uploaddd.pdf",
         "an_dt": "01-Nov-2026 23:01:59",
-        "date": "2026-11-01"
+        "date": "2026-11-01",
+        "xbrl_blocked": "revision-differs",
+        "xbrl_try": "2026-11-02T16:22:46.657510+00:00"
       },
       {
         "key": "106839211",
@@ -1565,16 +1657,8 @@
         "company": "Indogulf Cropsciences Limited",
         "url": "https://nsearchives.nseindia.com/corporate/INDOGULF_02112026115457_Final_Outcome.pdf",
         "an_dt": "02-Nov-2026 11:57:18",
-        "date": "2026-11-02"
-      },
-      {
-        "key": "106839269",
-        "seq_id": "106839269",
-        "symbol": "PKTEA",
-        "company": "The Peria Karamalai Tea & Produce Company Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/PKTEA_02112026122248_BMOUTCOME02112026.pdf",
-        "an_dt": "02-Nov-2026 12:26:04",
-        "date": "2026-11-02"
+        "date": "2026-11-02",
+        "xbrl_try": "2026-11-02T16:22:47.562871+00:00"
       },
       {
         "key": "106839306",
@@ -1583,7 +1667,8 @@
         "company": "JTL INDUSTRIES LIMITED",
         "url": "https://nsearchives.nseindia.com/corporate/JTLIND_02112026123402_OutcomeOfBMJTL02112026.pdf",
         "an_dt": "02-Nov-2026 12:35:54",
-        "date": "2026-11-02"
+        "date": "2026-11-02",
+        "xbrl_try": "2026-11-02T16:22:53.758243+00:00"
       },
       {
         "key": "106839439",
@@ -1592,7 +1677,8 @@
         "company": "Mold-Tek Packaging Limited",
         "url": "https://nsearchives.nseindia.com/corporate/MOLDTKPAC_02112026135557_Final_outcome.pdf",
         "an_dt": "02-Nov-2026 13:56:33",
-        "date": "2026-11-02"
+        "date": "2026-11-02",
+        "xbrl_try": "2026-11-02T16:22:54.159391+00:00"
       },
       {
         "key": "106839437",
@@ -1601,16 +1687,8 @@
         "company": "Bcl Industries Limited",
         "url": "https://nsearchives.nseindia.com/corporate/BCLIND_02112026135252_Q2_FY27_Results.pdf",
         "an_dt": "02-Nov-2026 13:56:10",
-        "date": "2026-11-02"
-      },
-      {
-        "key": "106839429",
-        "seq_id": "106839429",
-        "symbol": "ZUARI",
-        "company": "Zuari Agro Chemicals Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/ZUARI_02112026134909_zaclboardmeetingoutcome02112026.pdf",
-        "an_dt": "02-Nov-2026 13:50:24",
-        "date": "2026-11-02"
+        "date": "2026-11-02",
+        "xbrl_try": "2026-11-02T16:22:55.061328+00:00"
       },
       {
         "key": "106839476",
@@ -1619,7 +1697,8 @@
         "company": "Cineline India Limited",
         "url": "https://nsearchives.nseindia.com/corporate/CINELINE_02112026143231_Outcome_BM_Financial.pdf",
         "an_dt": "02-Nov-2026 14:36:42",
-        "date": "2026-11-02"
+        "date": "2026-11-02",
+        "xbrl_try": "2026-11-02T16:23:02.268261+00:00"
       },
       {
         "key": "106839484",
@@ -1628,7 +1707,8 @@
         "company": "Procter & Gamble Health Limited",
         "url": "https://nsearchives.nseindia.com/corporate/PGHL_02112026144157_PGHLOutcome.pdf",
         "an_dt": "02-Nov-2026 14:45:12",
-        "date": "2026-11-02"
+        "date": "2026-11-02",
+        "xbrl_try": "2026-11-02T16:23:03.060738+00:00"
       },
       {
         "key": "106839488",
@@ -1637,7 +1717,8 @@
         "company": "Hybrid Financial Services Limited",
         "url": "https://nsearchives.nseindia.com/corporate/HYBRIDFIN_02112026144417_OutcomewithUnauditedFinancialResultsfortheHYE30thSeptember2026.pdf",
         "an_dt": "02-Nov-2026 14:46:46",
-        "date": "2026-11-02"
+        "date": "2026-11-02",
+        "xbrl_try": "2026-11-02T16:23:04.171994+00:00"
       },
       {
         "key": "106839494",
@@ -1646,7 +1727,8 @@
         "company": "UPL Limited",
         "url": "https://nsearchives.nseindia.com/corporate/UPL_02112026144604_Results.pdf",
         "an_dt": "02-Nov-2026 14:48:28",
-        "date": "2026-11-02"
+        "date": "2026-11-02",
+        "xbrl_try": "2026-11-02T16:23:05.161743+00:00"
       },
       {
         "key": "106839515",
@@ -1655,7 +1737,8 @@
         "company": "PSP Projects Limited",
         "url": "https://nsearchives.nseindia.com/corporate/PSPPROJECT_02112026145347_20261102_Outcome_of_BM_38.pdf",
         "an_dt": "02-Nov-2026 14:54:59",
-        "date": "2026-11-02"
+        "date": "2026-11-02",
+        "xbrl_try": "2026-11-02T16:23:06.275981+00:00"
       },
       {
         "key": "106839532",
@@ -1664,7 +1747,8 @@
         "company": "Jay Bharat Maruti Limited",
         "url": "https://nsearchives.nseindia.com/corporate/JAYBARMARUT_02112026150152_SUBMISSION_OUTCOME.pdf",
         "an_dt": "02-Nov-2026 15:07:41",
-        "date": "2026-11-02"
+        "date": "2026-11-02",
+        "xbrl_try": "2026-11-02T16:23:06.669929+00:00"
       },
       {
         "key": "106839665",
@@ -1673,7 +1757,20 @@
         "company": "Patel Integrated Logistics Limited",
         "url": "https://nsearchives.nseindia.com/corporate/PATELINT_02112026155145_Outcome_of_BM_Sept2026_sd.pdf",
         "an_dt": "02-Nov-2026 15:53:28",
-        "date": "2026-11-02"
+        "date": "2026-11-02",
+        "xbrl_try": "2026-11-02T16:23:07.910447+00:00"
+      },
+      {
+        "key": "106839719",
+        "seq_id": "106839719",
+        "symbol": "PRIMO",
+        "company": "Primo Chemicals Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/PRIMO607_02112026160657_UFR30092026Outcome.pdf",
+        "an_dt": "02-Nov-2026 16:09:47",
+        "date": "2026-11-02",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-02T16:23:08.832800+00:00"
       }
     ],
     "next_cache": "2026-11-01",
@@ -1817,5 +1914,11 @@
         "ZUARI"
       ]
     }
-  }
+  },
+  "seen_urls": [
+    "moil_02112026161132_q2_results_2026-27.pdf",
+    "aakash_02112026161245_outcome_02112026_signed.pdf",
+    "hleglascoat_02112026160152_522215_ufr_sd_f.pdf",
+    "primo607_02112026160657_ufr30092026outcome.pdf"
+  ]
 }
