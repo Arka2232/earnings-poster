@@ -139,7 +139,9 @@
     "106839838",
     "106839835",
     "106839833",
-    "106839858"
+    "106839858",
+    "106839880",
+    "106839877"
   ],
   "archive": [
     {
@@ -1654,6 +1656,34 @@
       "filing": "https://nsearchives.nseindia.com/corporate/ESDS_02112026163013_ESDS_BM_Outcome_BSE_NSE_Intimation.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:ESDS",
       "t": "02-Nov-2026 16:53:51"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "FINEORG",
+      "c": "Fine Organic Industries Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/FINEORG_02112026165429_Outcomeofboardmeeting.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:FINEORG",
+      "t": "02-Nov-2026 16:58:17"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "HECPROJECT",
+      "c": "HEC Infra Projects Limited",
+      "r": "Good",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 43.635600000000004,
+      "pat": 2.2417,
+      "eps": 2.07,
+      "filing": "https://nsearchives.nseindia.com/corporate/HECPROJECT_02112026165501_OUTCOME_FINAL_02112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:HECPROJECT",
+      "t": "02-Nov-2026 16:57:15"
     }
   ],
   "digest": {
@@ -1801,7 +1831,7 @@
       "MAXENGS",
       "VPFL"
     ],
-    "ipo_check": "2026-11-02 16",
+    "ipo_check": "2026-11-02 17",
     "calendar": "2026-11-02",
     "text_posts": [
       {
@@ -1984,6 +2014,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-02T16:55:24.789409+00:00"
+      },
+      {
+        "key": "106839880",
+        "seq_id": "106839880",
+        "symbol": "FINEORG",
+        "company": "Fine Organic Industries Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/FINEORG_02112026165429_Outcomeofboardmeeting.pdf",
+        "an_dt": "02-Nov-2026 16:58:17",
+        "date": "2026-11-02",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-02T17:00:37.731566+00:00"
       }
     ],
     "next_cache": "2026-11-01",
@@ -2142,6 +2184,8 @@
     "nelcast_02112026164744_fr2q021126.pdf",
     "dangee_02112026164305_board_meeting_outcome_with_financial_results.pdf",
     "granules_02112026164630_nsebseoutcome.pdf",
-    "esds_02112026163013_esds_bm_outcome_bse_nse_intimation.pdf"
+    "esds_02112026163013_esds_bm_outcome_bse_nse_intimation.pdf",
+    "fineorg_02112026165429_outcomeofboardmeeting.pdf",
+    "hecproject_02112026165501_outcome_final_02112026.pdf"
   ]
 }
