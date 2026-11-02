@@ -133,7 +133,9 @@
     "106839752",
     "106839760",
     "106839796",
-    "106839805"
+    "106839805",
+    "106839827",
+    "106839824"
   ],
   "archive": [
     {
@@ -1549,6 +1551,49 @@
       "filing": "https://nsearchives.nseindia.com/corporate/NDL_02112026163806_result.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:NDL",
       "t": "02-Nov-2026 16:38:52"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "BPL",
+      "c": "BPL Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/BPL_02112026164124_Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BPL",
+      "t": "02-Nov-2026 16:46:37"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "BOSCH-HCIL",
+      "c": "BOSCH HOME COMFORT INDIA LIMITED",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/JCHAC_02112026164334_20261102Results.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BOSCH_HCIL",
+      "t": "02-Nov-2026 16:46:05"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "BPL",
+      "c": "BPL Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 24.4223,
+      "pat": -5.1902,
+      "eps": -1.06,
+      "filing": "https://nsearchives.nseindia.com/corporate/BPL_02112026164124_Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BPL",
+      "t": "02-Nov-2026 16:46:37",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751134_02112026044937_WEB.xml"
     }
   ],
   "digest": {
@@ -1855,6 +1900,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-02T16:37:30.955391+00:00"
+      },
+      {
+        "key": "106839824",
+        "seq_id": "106839824",
+        "symbol": "BOSCH-HCIL",
+        "company": "BOSCH HOME COMFORT INDIA LIMITED",
+        "url": "https://nsearchives.nseindia.com/corporate/JCHAC_02112026164334_20261102Results.pdf",
+        "an_dt": "02-Nov-2026 16:46:05",
+        "date": "2026-11-02",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-02T16:52:29.923362+00:00"
       }
     ],
     "next_cache": "2026-11-01",
@@ -2007,6 +2064,8 @@
     "wockpharma_02112026161333_bmoutcome02112026signed.pdf",
     "vrllogi_02112026161844_outcomebm02112026.pdf",
     "6358164770_02112026163024_rsloutcome_of_bm02112026.pdf",
-    "ndl_02112026163806_result.pdf"
+    "ndl_02112026163806_result.pdf",
+    "bpl_02112026164124_outcome.pdf",
+    "jchac_02112026164334_20261102results.pdf"
   ]
 }
