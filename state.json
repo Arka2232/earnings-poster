@@ -117,7 +117,8 @@
     "106839494",
     "106839515",
     "106839534",
-    "106839532"
+    "106839532",
+    "106839544"
   ],
   "archive": [
     {
@@ -1279,6 +1280,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/JAYBARMARUT_02112026150152_SUBMISSION_OUTCOME.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:JAYBARMARU",
       "t": "02-Nov-2026 15:07:41"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "BLSE",
+      "c": "BLS E-Services Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 42444.46,
+      "pat": 2054.49,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/PROJECTSEWA_02112026150629_BMOutcome_Final_250_SEF_Final_signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BLSE",
+      "t": "02-Nov-2026 15:10:52"
     }
   ],
   "digest": {
