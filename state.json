@@ -164,7 +164,10 @@
     "106840180",
     "106840189",
     "106840198",
-    "106840257"
+    "106840257",
+    "106840280",
+    "106840276",
+    "106840268"
   ],
   "archive": [
     {
@@ -2134,6 +2137,93 @@
       "filing": "https://nsearchives.nseindia.com/corporate/IFBAGRO_02112026181531_Results_021126.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:IFBAGRO",
       "t": "02-Nov-2026 18:17:18"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "GOYALALUM",
+      "c": "Goyal Aluminiums Limited",
+      "r": "Good",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 20.4223,
+      "pat": 0.3847,
+      "eps": 0.06,
+      "filing": "https://nsearchives.nseindia.com/corporate/GOYALALUM_02112026181722_Outcome_of_bm.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GOYALALUM",
+      "t": "02-Nov-2026 18:21:38"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "PERNIASPOP",
+      "c": "Purple Style Labs Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 22.212000000000003,
+      "pat": 1.553,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/PURPLESTYLE_02112026181939_PSL_-_Reg_30_-_Outcome_of_Board_Meeting_Financial_Results_Q2.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PERNIASPOP",
+      "t": "02-Nov-2026 18:21:09"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "ITC",
+      "c": "ITC Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/ITC_02112026181912_SE_Results_.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ITC",
+      "t": "02-Nov-2026 18:20:16"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "BCLIND",
+      "c": "Bcl Industries Limited",
+      "r": "OK",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 695.2785,
+      "pat": 29.2075,
+      "eps": 0.99,
+      "filing": "https://nsearchives.nseindia.com/corporate/BCLIND_02112026135252_Q2_FY27_Results.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BCLIND",
+      "t": "02-Nov-2026 13:56:10",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751243_02112026054940_WEB.xml"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "HYBRIDFIN",
+      "c": "Hybrid Financial Services Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 1.1493,
+      "pat": 1.1636,
+      "eps": 0.4,
+      "filing": "https://nsearchives.nseindia.com/corporate/HYBRIDFIN_02112026144417_OutcomewithUnauditedFinancialResultsfortheHYE30thSeptember2026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:HYBRIDFIN",
+      "t": "02-Nov-2026 14:46:46",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751196_02112026052745_WEB.xml"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "JKPAPER",
+      "c": "JK Paper Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 1939.04,
+      "pat": 103.03999999999999,
+      "eps": 5.59,
+      "filing": "https://nsearchives.nseindia.com/corporate/JKPAPER_02112026171829_Results_Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:JKPAPER",
+      "t": "02-Nov-2026 17:18:47",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751232_02112026054511_WEB.xml"
     }
   ],
   "digest": {
@@ -2303,7 +2393,7 @@
         "url": "https://nsearchives.nseindia.com/corporate/INDOGULF_02112026115457_Final_Outcome.pdf",
         "an_dt": "02-Nov-2026 11:57:18",
         "date": "2026-11-02",
-        "xbrl_try": "2026-11-02T17:22:55.825516+00:00"
+        "xbrl_try": "2026-11-02T18:27:14.531854+00:00"
       },
       {
         "key": "106839306",
@@ -2313,17 +2403,7 @@
         "url": "https://nsearchives.nseindia.com/corporate/JTLIND_02112026123402_OutcomeOfBMJTL02112026.pdf",
         "an_dt": "02-Nov-2026 12:35:54",
         "date": "2026-11-02",
-        "xbrl_try": "2026-11-02T17:22:56.292498+00:00"
-      },
-      {
-        "key": "106839437",
-        "seq_id": "106839437",
-        "symbol": "BCLIND",
-        "company": "Bcl Industries Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/BCLIND_02112026135252_Q2_FY27_Results.pdf",
-        "an_dt": "02-Nov-2026 13:56:10",
-        "date": "2026-11-02",
-        "xbrl_try": "2026-11-02T17:25:05.848325+00:00"
+        "xbrl_try": "2026-11-02T18:27:14.999257+00:00"
       },
       {
         "key": "106839484",
@@ -2333,17 +2413,7 @@
         "url": "https://nsearchives.nseindia.com/corporate/PGHL_02112026144157_PGHLOutcome.pdf",
         "an_dt": "02-Nov-2026 14:45:12",
         "date": "2026-11-02",
-        "xbrl_try": "2026-11-02T17:25:13.827512+00:00"
-      },
-      {
-        "key": "106839488",
-        "seq_id": "106839488",
-        "symbol": "HYBRIDFIN",
-        "company": "Hybrid Financial Services Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/HYBRIDFIN_02112026144417_OutcomewithUnauditedFinancialResultsfortheHYE30thSeptember2026.pdf",
-        "an_dt": "02-Nov-2026 14:46:46",
-        "date": "2026-11-02",
-        "xbrl_try": "2026-11-02T17:25:14.501944+00:00"
+        "xbrl_try": "2026-11-02T18:27:19.857791+00:00"
       },
       {
         "key": "106839515",
@@ -2353,7 +2423,7 @@
         "url": "https://nsearchives.nseindia.com/corporate/PSPPROJECT_02112026145347_20261102_Outcome_of_BM_38.pdf",
         "an_dt": "02-Nov-2026 14:54:59",
         "date": "2026-11-02",
-        "xbrl_try": "2026-11-02T17:25:24.473211+00:00"
+        "xbrl_try": "2026-11-02T18:27:25.265994+00:00"
       },
       {
         "key": "106839532",
@@ -2363,7 +2433,7 @@
         "url": "https://nsearchives.nseindia.com/corporate/JAYBARMARUT_02112026150152_SUBMISSION_OUTCOME.pdf",
         "an_dt": "02-Nov-2026 15:07:41",
         "date": "2026-11-02",
-        "xbrl_try": "2026-11-02T17:25:24.797000+00:00"
+        "xbrl_try": "2026-11-02T18:27:25.642781+00:00"
       },
       {
         "key": "106839665",
@@ -2373,7 +2443,7 @@
         "url": "https://nsearchives.nseindia.com/corporate/PATELINT_02112026155145_Outcome_of_BM_Sept2026_sd.pdf",
         "an_dt": "02-Nov-2026 15:53:28",
         "date": "2026-11-02",
-        "xbrl_try": "2026-11-02T17:25:25.431939+00:00"
+        "xbrl_try": "2026-11-02T18:27:26.648677+00:00"
       },
       {
         "key": "106839719",
@@ -2385,7 +2455,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-02T17:25:26.202223+00:00"
+        "xbrl_try": "2026-11-02T18:27:27.645390+00:00"
       },
       {
         "key": "106839752",
@@ -2397,7 +2467,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-02T17:25:26.515995+00:00"
+        "xbrl_try": "2026-11-02T18:27:28.065207+00:00"
       },
       {
         "key": "106839796",
@@ -2434,18 +2504,6 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-02T17:56:30.206942+00:00"
-      },
-      {
-        "key": "106839963",
-        "seq_id": "106839963",
-        "symbol": "JKPAPER",
-        "company": "JK Paper Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/JKPAPER_02112026171829_Results_Outcome.pdf",
-        "an_dt": "02-Nov-2026 17:18:47",
-        "date": "2026-11-02",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-02T17:21:52.720430+00:00"
       },
       {
         "key": "106840017",
@@ -2518,6 +2576,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-02T18:13:25.307738+00:00"
+      },
+      {
+        "key": "106840268",
+        "seq_id": "106840268",
+        "symbol": "ITC",
+        "company": "ITC Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/ITC_02112026181912_SE_Results_.pdf",
+        "an_dt": "02-Nov-2026 18:20:16",
+        "date": "2026-11-02",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-02T18:27:33.335361+00:00"
       }
     ],
     "next_cache": "2026-11-01",
@@ -2701,6 +2771,9 @@
     "purvigsfc_02112026180250_results.pdf",
     "mohitind_02112026180454_miloutcomebm02112026.pdf",
     "globalsurfaces_02112026180606_outcome_signed.pdf",
-    "ifbagro_02112026181531_results_021126.pdf"
+    "ifbagro_02112026181531_results_021126.pdf",
+    "goyalalum_02112026181722_outcome_of_bm.pdf",
+    "purplestyle_02112026181939_psl_-_reg_30_-_outcome_of_board_meeting_financial_results_q2.pdf",
+    "itc_02112026181912_se_results_.pdf"
   ]
 }
