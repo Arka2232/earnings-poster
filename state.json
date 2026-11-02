@@ -205,7 +205,8 @@
     "106840679",
     "106840691",
     "106840698",
-    "106840700"
+    "106840700",
+    "106840719"
   ],
   "archive": [
     {
@@ -3034,6 +3035,20 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SADBHIN",
       "t": "02-Nov-2026 21:20:01",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751521_02112026091753_WEB.xml"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "NATIONALUM",
+      "c": "National Aluminium Company Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 5419.44,
+      "pat": 1835.09,
+      "eps": 9.99,
+      "filing": "https://nsearchives.nseindia.com/corporate/bharatsahu_02112026213030_BM_OUTCOME.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:NATIONALUM",
+      "t": "02-Nov-2026 21:32:38"
     }
   ],
   "digest": {
@@ -3586,6 +3601,7 @@
     "choice_02112026205843_upload.pdf",
     "kec_02112026210430_se_intimation_bm_outcome_results.pdf",
     "flair2016_02112026211618_bse_nse_outcome_of_bm_q2_fy_26-27.pdf",
-    "sadbhin_02112026211647_siploutcomeofboardmeeting02112026signed.pdf"
+    "sadbhin_02112026211647_siploutcomeofboardmeeting02112026signed.pdf",
+    "bharatsahu_02112026213030_bm_outcome.pdf"
   ]
 }
