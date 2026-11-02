@@ -108,7 +108,8 @@
     "106839433",
     "106839429",
     "106839460",
-    "106839465"
+    "106839465",
+    "106839471"
   ],
   "archive": [
     {
@@ -1144,6 +1145,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/SANGHVIMOV_02112026142041_SE_Intimation_Outcome_02112026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SANGHVIMOV",
       "t": "02-Nov-2026 14:21:44"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "ESCORTS",
+      "c": "Escorts Kubota Limited",
+      "r": "Weak",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 3243.41,
+      "pat": 250.22,
+      "eps": 22.74,
+      "filing": "https://nsearchives.nseindia.com/corporate/ESCORTS2_02112026142643_EKL_2026_11_02_Outcome_signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ESCORTS",
+      "t": "02-Nov-2026 14:29:09"
     }
   ],
   "digest": {
