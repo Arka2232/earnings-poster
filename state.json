@@ -101,7 +101,8 @@
     "106839384",
     "106839401",
     "106839414",
-    "106839413"
+    "106839413",
+    "106839423"
   ],
   "archive": [
     {
@@ -1039,6 +1040,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/WONDERLA_02112026133905_outcomeofBM_Results_Signed.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:WONDERLA",
       "t": "02-Nov-2026 13:40:59"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "MMP",
+      "c": "MMP Industries Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 252.68099999999998,
+      "pat": 12.1055,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/MMP_02112026134457_MMPILBM02112026Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MMP",
+      "t": "02-Nov-2026 13:46:10"
     }
   ],
   "digest": {
