@@ -175,7 +175,8 @@
     "106840334",
     "106840311",
     "106840353",
-    "106840351"
+    "106840351",
+    "106840361"
   ],
   "archive": [
     {
@@ -2359,6 +2360,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/RAHULBS35_02112026183531_OutcomeOfBoardMeeting.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:DOMS",
       "t": "02-Nov-2026 18:37:15"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "BALAMINES",
+      "c": "Balaji Amines Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 427.7993,
+      "pat": 68.72970000000001,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/BALAMINES_02112026183657_Outcome_Final.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BALAMINES",
+      "t": "02-Nov-2026 18:39:33"
     }
   ],
   "digest": {
@@ -2953,6 +2968,7 @@
     "xtranet_02112026182803_outcome_of_meeting_of_board_021126.pdf",
     "jhs_02112026182640_outcome_final_lab.pdf",
     "amararaja_02112026183511_bmoutcomeq2fy27new.pdf",
-    "rahulbs35_02112026183531_outcomeofboardmeeting.pdf"
+    "rahulbs35_02112026183531_outcomeofboardmeeting.pdf",
+    "balamines_02112026183657_outcome_final.pdf"
   ]
 }
