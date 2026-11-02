@@ -167,7 +167,11 @@
     "106840257",
     "106840280",
     "106840276",
-    "106840268"
+    "106840268",
+    "106840301",
+    "106840298",
+    "106840295",
+    "106840287"
   ],
   "archive": [
     {
@@ -2224,6 +2228,62 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:JKPAPER",
       "t": "02-Nov-2026 17:18:47",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751232_02112026054511_WEB.xml"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "KHAITANLTD",
+      "c": "Khaitan (India) Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/KHAITANLTD_02112026182414_KIL_Result_Sep_26.PDF",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:KHAITANLTD",
+      "t": "02-Nov-2026 18:25:06"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "ORIENTTECH",
+      "c": "Orient Technologies Limited",
+      "r": "Bad",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 217.3542,
+      "pat": 13.6472,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/Orient97_02112026182027_Outcome_of_BM_02112026_Final_signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ORIENTTECH",
+      "t": "02-Nov-2026 18:24:53"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "AEROPLANE",
+      "c": "Amir Chand Jagdish Kumar (Exports) Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/ACJKEL12_02112026182122_Outcome_Q2_FY2627.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:AEROPLANE",
+      "t": "02-Nov-2026 18:24:04"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "GANESHCP",
+      "c": "Ganesh Consumer Products Limited",
+      "r": "Positive",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 226.7252,
+      "pat": 18.766199999999998,
+      "eps": 4.7,
+      "filing": "https://nsearchives.nseindia.com/corporate/GANESH_NSE_02112026181527_Outcome_of_Board_Meeting.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GANESHCP",
+      "t": "02-Nov-2026 18:22:51"
     }
   ],
   "digest": {
@@ -2588,6 +2648,30 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-02T18:27:33.335361+00:00"
+      },
+      {
+        "key": "106840301",
+        "seq_id": "106840301",
+        "symbol": "KHAITANLTD",
+        "company": "Khaitan (India) Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/KHAITANLTD_02112026182414_KIL_Result_Sep_26.PDF",
+        "an_dt": "02-Nov-2026 18:25:06",
+        "date": "2026-11-02",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-02T18:33:59.277593+00:00"
+      },
+      {
+        "key": "106840295",
+        "seq_id": "106840295",
+        "symbol": "AEROPLANE",
+        "company": "Amir Chand Jagdish Kumar (Exports) Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/ACJKEL12_02112026182122_Outcome_Q2_FY2627.pdf",
+        "an_dt": "02-Nov-2026 18:24:04",
+        "date": "2026-11-02",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-02T18:33:59.633274+00:00"
       }
     ],
     "next_cache": "2026-11-01",
@@ -2774,6 +2858,10 @@
     "ifbagro_02112026181531_results_021126.pdf",
     "goyalalum_02112026181722_outcome_of_bm.pdf",
     "purplestyle_02112026181939_psl_-_reg_30_-_outcome_of_board_meeting_financial_results_q2.pdf",
-    "itc_02112026181912_se_results_.pdf"
+    "itc_02112026181912_se_results_.pdf",
+    "khaitanltd_02112026182414_kil_result_sep_26.pdf",
+    "orient97_02112026182027_outcome_of_bm_02112026_final_signed.pdf",
+    "acjkel12_02112026182122_outcome_q2_fy2627.pdf",
+    "ganesh_nse_02112026181527_outcome_of_board_meeting.pdf"
   ]
 }
