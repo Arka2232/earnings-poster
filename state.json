@@ -163,7 +163,8 @@
     "106840187",
     "106840180",
     "106840189",
-    "106840198"
+    "106840198",
+    "106840257"
   ],
   "archive": [
     {
@@ -2119,6 +2120,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/GLOBALSURFACES_02112026180606_outcome_Signed.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:GSLSU",
       "t": "02-Nov-2026 18:08:44"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "IFBAGRO",
+      "c": "IFB Agro Industries Limited",
+      "r": "Good",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 6.186,
+      "pat": 0.265,
+      "eps": 28.29,
+      "filing": "https://nsearchives.nseindia.com/corporate/IFBAGRO_02112026181531_Results_021126.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:IFBAGRO",
+      "t": "02-Nov-2026 18:17:18"
     }
   ],
   "digest": {
@@ -2685,6 +2700,7 @@
     "kitex_02112026180551_kgl_fr_q2_fy26-27s.pdf",
     "purvigsfc_02112026180250_results.pdf",
     "mohitind_02112026180454_miloutcomebm02112026.pdf",
-    "globalsurfaces_02112026180606_outcome_signed.pdf"
+    "globalsurfaces_02112026180606_outcome_signed.pdf",
+    "ifbagro_02112026181531_results_021126.pdf"
   ]
 }
