@@ -193,7 +193,8 @@
     "106840550",
     "106840555",
     "106840592",
-    "106840612"
+    "106840612",
+    "106840621"
   ],
   "archive": [
     {
@@ -2764,6 +2765,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/PURVA_02112026201310_SE-intimation.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:PURVA",
       "t": "02-Nov-2026 20:15:16"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "NARMADA",
+      "c": "Narmada Agrobase Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/NARMADA_02112026202155_Outcome_of_Board_Meeting.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:NARMADA",
+      "t": "02-Nov-2026 20:23:30"
     }
   ],
   "digest": {
@@ -3081,7 +3096,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-02T19:26:42.654993+00:00"
+        "xbrl_try": "2026-11-02T20:27:12.116027+00:00"
       },
       {
         "key": "106840550",
@@ -3094,6 +3109,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-02T19:47:24.721556+00:00"
+      },
+      {
+        "key": "106840621",
+        "seq_id": "106840621",
+        "symbol": "NARMADA",
+        "company": "Narmada Agrobase Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/NARMADA_02112026202155_Outcome_of_Board_Meeting.pdf",
+        "an_dt": "02-Nov-2026 20:23:30",
+        "date": "2026-11-02",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-02T20:27:13.391084+00:00"
       }
     ],
     "next_cache": "2026-11-01",
@@ -3308,6 +3335,7 @@
     "kkcl_02112026193933_results.pdf",
     "sparc_02112026194504_outcomeofbm02112026.pdf",
     "viviana_02112026195946_outcome_bm_02112026.pdf",
-    "purva_02112026201310_se-intimation.pdf"
+    "purva_02112026201310_se-intimation.pdf",
+    "narmada_02112026202155_outcome_of_board_meeting.pdf"
   ]
 }
