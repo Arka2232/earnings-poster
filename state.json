@@ -203,7 +203,8 @@
     "106840667",
     "106840673",
     "106840679",
-    "106840691"
+    "106840691",
+    "106840698"
   ],
   "archive": [
     {
@@ -2989,6 +2990,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/KEC_02112026210430_SE_intimation_BM_outcome_Results.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:KEC",
       "t": "02-Nov-2026 21:09:59"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "FLAIR",
+      "c": "Flair Writing Industries Limited",
+      "r": "Weak",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 340.1221,
+      "pat": 42.2525,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/flair2016_02112026211618_BSE_NSE_Outcome_of_BM_Q2_FY_26-27.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:FLAIR",
+      "t": "02-Nov-2026 21:18:05"
     }
   ],
   "digest": {
@@ -3539,6 +3554,7 @@
     "walchannag_02112026205246_outcome_and_results_merged_of_bm_wil_02_11_2026.pdf",
     "ventive_02112026210029_vhl_bmoutcome_02112026.pdf",
     "choice_02112026205843_upload.pdf",
-    "kec_02112026210430_se_intimation_bm_outcome_results.pdf"
+    "kec_02112026210430_se_intimation_bm_outcome_results.pdf",
+    "flair2016_02112026211618_bse_nse_outcome_of_bm_q2_fy_26-27.pdf"
   ]
 }
