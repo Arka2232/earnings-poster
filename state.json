@@ -142,7 +142,8 @@
     "106839858",
     "106839880",
     "106839877",
-    "106839922"
+    "106839922",
+    "106839945"
   ],
   "archive": [
     {
@@ -1714,6 +1715,20 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:CONCOR",
       "t": "02-Nov-2026 17:10:50",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751152_02112026050302_WEB.xml"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "AKUMS",
+      "c": "Akums Drugs and Pharmaceuticals Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 1342.3870000000002,
+      "pat": 114.56500000000001,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/NSEAKUMS10_02112026171324_AKUMSBMOUTCOME.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:AKUMS",
+      "t": "02-Nov-2026 17:14:53"
     }
   ],
   "digest": {
@@ -2217,6 +2232,7 @@
     "esds_02112026163013_esds_bm_outcome_bse_nse_intimation.pdf",
     "fineorg_02112026165429_outcomeofboardmeeting.pdf",
     "hecproject_02112026165501_outcome_final_02112026.pdf",
-    "concor_02112026170759_concor_results_300926s.pdf"
+    "concor_02112026170759_concor_results_300926s.pdf",
+    "nseakums10_02112026171324_akumsbmoutcome.pdf"
   ]
 }
