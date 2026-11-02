@@ -129,7 +129,8 @@
     "106839743",
     "106839739",
     "106839722",
-    "106839719"
+    "106839719",
+    "106839752"
   ],
   "archive": [
     {
@@ -1489,6 +1490,20 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:ZUARI",
       "t": "02-Nov-2026 13:50:24",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751009_02112026024925_WEB.xml"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "WOCKPHARMA",
+      "c": "Wockhardt Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/WOCKPHARMA_02112026161333_BMOutcome02112026signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:WOCKPHARMA",
+      "t": "02-Nov-2026 16:22:04"
     }
   ],
   "digest": {
@@ -1771,6 +1786,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-02T16:23:08.832800+00:00"
+      },
+      {
+        "key": "106839752",
+        "seq_id": "106839752",
+        "symbol": "WOCKPHARMA",
+        "company": "Wockhardt Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/WOCKPHARMA_02112026161333_BMOutcome02112026signed.pdf",
+        "an_dt": "02-Nov-2026 16:22:04",
+        "date": "2026-11-02",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-02T16:24:32.808019+00:00"
       }
     ],
     "next_cache": "2026-11-01",
@@ -1919,6 +1946,7 @@
     "moil_02112026161132_q2_results_2026-27.pdf",
     "aakash_02112026161245_outcome_02112026_signed.pdf",
     "hleglascoat_02112026160152_522215_ufr_sd_f.pdf",
-    "primo607_02112026160657_ufr30092026outcome.pdf"
+    "primo607_02112026160657_ufr30092026outcome.pdf",
+    "wockpharma_02112026161333_bmoutcome02112026signed.pdf"
   ]
 }
