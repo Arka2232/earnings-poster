@@ -109,7 +109,8 @@
     "106839429",
     "106839460",
     "106839465",
-    "106839471"
+    "106839471",
+    "106839476"
   ],
   "archive": [
     {
@@ -1159,6 +1160,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/ESCORTS2_02112026142643_EKL_2026_11_02_Outcome_signed.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:ESCORTS",
       "t": "02-Nov-2026 14:29:09"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "CINELINE",
+      "c": "Cineline India Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/CINELINE_02112026143231_Outcome_BM_Financial.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CINELINE",
+      "t": "02-Nov-2026 14:36:42"
     }
   ],
   "digest": {
@@ -1370,6 +1385,15 @@
         "company": "Zuari Agro Chemicals Limited",
         "url": "https://nsearchives.nseindia.com/corporate/ZUARI_02112026134909_zaclboardmeetingoutcome02112026.pdf",
         "an_dt": "02-Nov-2026 13:50:24",
+        "date": "2026-11-02"
+      },
+      {
+        "key": "106839476",
+        "seq_id": "106839476",
+        "symbol": "CINELINE",
+        "company": "Cineline India Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/CINELINE_02112026143231_Outcome_BM_Financial.pdf",
+        "an_dt": "02-Nov-2026 14:36:42",
         "date": "2026-11-02"
       }
     ],
