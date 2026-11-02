@@ -444,18 +444,6 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-02T21:05:08.445675+00:00"
-      },
-      {
-        "key": "106840633",
-        "seq_id": "106840633",
-        "symbol": "VESUVIUS",
-        "company": "Vesuvius India Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/VESUVIUS_02112026203356_BM_Outcome_Q32026_Final.pdf",
-        "an_dt": "02-Nov-2026 20:35:34",
-        "date": "2026-11-02",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-02T20:37:08.326527+00:00"
       }
     ],
     "next_cache": "2026-11-01",
