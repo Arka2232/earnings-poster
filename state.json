@@ -93,7 +93,8 @@
     "106839211",
     "106839209",
     "106839269",
-    "106839253"
+    "106839253",
+    "106839341"
   ],
   "archive": [
     {
@@ -919,6 +920,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/CAPILLARY12_02112026121518_Intimation_Outcome_Board_Meeting.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:CAPILLARY",
       "t": "02-Nov-2026 12:17:07"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "UFBL",
+      "c": "United Foodbrands Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 429.345,
+      "pat": -6.438,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/BARBEQUE_02112026125231_OutcomeOfBM.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:UFBL",
+      "t": "02-Nov-2026 12:54:52"
     }
   ],
   "digest": {
@@ -1066,7 +1081,7 @@
       "MAXENGS",
       "VPFL"
     ],
-    "ipo_check": "2026-11-02 12",
+    "ipo_check": "2026-11-02 13",
     "calendar": "2026-11-02",
     "text_posts": [
       {
