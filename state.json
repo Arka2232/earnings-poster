@@ -120,7 +120,8 @@
     "106839532",
     "106839544",
     "106839573",
-    "106839584"
+    "106839584",
+    "106839589"
   ],
   "archive": [
     {
@@ -1324,6 +1325,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/GREENPANEL_02112026152241_Outcome_20261102.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:GREENPANEL",
       "t": "02-Nov-2026 15:24:12"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "CSLFINANCE",
+      "c": "CSL Finance Limited",
+      "r": "Good",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 76.7842,
+      "pat": 24.9542,
+      "eps": 10.95,
+      "filing": "https://nsearchives.nseindia.com/corporate/CSLFINANCELIMITED_02112026152504_FINALCOVERLETTERSIGNED.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CSLFINANCE",
+      "t": "02-Nov-2026 15:26:04"
     }
   ],
   "digest": {
