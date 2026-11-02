@@ -107,7 +107,8 @@
     "106839437",
     "106839433",
     "106839429",
-    "106839460"
+    "106839460",
+    "106839465"
   ],
   "archive": [
     {
@@ -1129,6 +1130,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/BANSWRAS_02112026141639_Intimation_Letter_Outcome_of_BM.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:BANSWRAS",
       "t": "02-Nov-2026 14:18:03"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "SANGHVIMOV",
+      "c": "Sanghvi Movers Limited",
+      "r": "Good",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 276.96790000000004,
+      "pat": 40.3385,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/SANGHVIMOV_02112026142041_SE_Intimation_Outcome_02112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SANGHVIMOV",
+      "t": "02-Nov-2026 14:21:44"
     }
   ],
   "digest": {
