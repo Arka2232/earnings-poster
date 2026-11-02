@@ -652,7 +652,8 @@
     "106840691",
     "106840698",
     "106840700",
-    "106840719"
+    "106840719",
+    "106840738"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -735,7 +736,8 @@
     "kec_02112026210430_se_intimation_bm_outcome_results.pdf",
     "flair2016_02112026211618_bse_nse_outcome_of_bm_q2_fy_26-27.pdf",
     "sadbhin_02112026211647_siploutcomeofboardmeeting02112026signed.pdf",
-    "bharatsahu_02112026213030_bm_outcome.pdf"
+    "bharatsahu_02112026213030_bm_outcome.pdf",
+    "lsil_02112026214210_financialsresultssigned.pdf"
   ],
   "archive": [
     {
@@ -3175,6 +3177,20 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:ARE_M",
       "t": "02-Nov-2026 18:37:37",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751508_02112026085848_WEB.xml"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "LLOYDSENGG",
+      "c": "LLOYDS ENGINEERING WORKS LIMITED",
+      "r": "Positive",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 593.55,
+      "pat": 43.38,
+      "eps": 0.38,
+      "filing": "https://nsearchives.nseindia.com/corporate/LSIL_02112026214210_FINANCIALSRESULTSSIGNED.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:LLOYDSENGG",
+      "t": "02-Nov-2026 21:46:31"
     }
   ]
 }
