@@ -130,7 +130,8 @@
     "106839739",
     "106839722",
     "106839719",
-    "106839752"
+    "106839752",
+    "106839760"
   ],
   "archive": [
     {
@@ -1504,6 +1505,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/WOCKPHARMA_02112026161333_BMOutcome02112026signed.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:WOCKPHARMA",
       "t": "02-Nov-2026 16:22:04"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "VRLLOG",
+      "c": "VRL Logistics Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 9.6192,
+      "pat": 1.0297,
+      "eps": 5.89,
+      "filing": "https://nsearchives.nseindia.com/corporate/VRLLOGI_02112026161844_OutcomeBM02112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:VRLLOG",
+      "t": "02-Nov-2026 16:25:35"
     }
   ],
   "digest": {
@@ -1947,6 +1962,7 @@
     "aakash_02112026161245_outcome_02112026_signed.pdf",
     "hleglascoat_02112026160152_522215_ufr_sd_f.pdf",
     "primo607_02112026160657_ufr30092026outcome.pdf",
-    "wockpharma_02112026161333_bmoutcome02112026signed.pdf"
+    "wockpharma_02112026161333_bmoutcome02112026signed.pdf",
+    "vrllogi_02112026161844_outcomebm02112026.pdf"
   ]
 }
