@@ -99,7 +99,9 @@
     "106839363",
     "106839306",
     "106839384",
-    "106839401"
+    "106839401",
+    "106839414",
+    "106839413"
   ],
   "archive": [
     {
@@ -1009,6 +1011,34 @@
       "filing": "https://nsearchives.nseindia.com/corporate/SHILPAJAIN_02112026133213_Outcomeofbmrev.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:EUREKAFORB",
       "t": "02-Nov-2026 13:32:48"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "AVONMORE",
+      "c": "Avonmore Capital & Management Services Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY29",
+      "sales": 0.4411,
+      "pat": 0.1091,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/AVONMORECAPITAL_02112026133948_resultsacms.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:AVONMORE",
+      "t": "02-Nov-2026 13:41:20"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "WONDERLA",
+      "c": "Wonderla Holidays Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 116.5702,
+      "pat": 0.0506,
+      "eps": 0.01,
+      "filing": "https://nsearchives.nseindia.com/corporate/WONDERLA_02112026133905_outcomeofBM_Results_Signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:WONDERLA",
+      "t": "02-Nov-2026 13:40:59"
     }
   ],
   "digest": {
