@@ -195,7 +195,9 @@
     "106840592",
     "106840612",
     "106840621",
-    "106840628"
+    "106840628",
+    "106840635",
+    "106840633"
   ],
   "archive": [
     {
@@ -2854,6 +2856,34 @@
       "filing": "https://nsearchives.nseindia.com/corporate/EPACKPREFAB_02112026202839_Outcome.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:EPACKPEB",
       "t": "02-Nov-2026 20:30:43"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "PRASOLCHEM",
+      "c": "Prasol Chemicals Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 412.56600000000003,
+      "pat": 37.975,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/8591996826_02112026203504_BMoutcome02112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PRASOLCHEM",
+      "t": "02-Nov-2026 20:36:30"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "VESUVIUS",
+      "c": "Vesuvius India Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/VESUVIUS_02112026203356_BM_Outcome_Q32026_Final.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:VESUVIUS",
+      "t": "02-Nov-2026 20:35:34"
     }
   ],
   "digest": {
@@ -3083,7 +3113,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-02T19:36:31.713259+00:00"
+        "xbrl_try": "2026-11-02T20:37:07.437314+00:00"
       },
       {
         "key": "106840295",
@@ -3095,7 +3125,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-02T19:36:32.297094+00:00"
+        "xbrl_try": "2026-11-02T20:37:07.883661+00:00"
       },
       {
         "key": "106840353",
@@ -3156,6 +3186,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-02T20:27:13.391084+00:00"
+      },
+      {
+        "key": "106840633",
+        "seq_id": "106840633",
+        "symbol": "VESUVIUS",
+        "company": "Vesuvius India Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/VESUVIUS_02112026203356_BM_Outcome_Q32026_Final.pdf",
+        "an_dt": "02-Nov-2026 20:35:34",
+        "date": "2026-11-02",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-02T20:37:08.326527+00:00"
       }
     ],
     "next_cache": "2026-11-01",
@@ -3372,6 +3414,8 @@
     "viviana_02112026195946_outcome_bm_02112026.pdf",
     "purva_02112026201310_se-intimation.pdf",
     "narmada_02112026202155_outcome_of_board_meeting.pdf",
-    "epackprefab_02112026202839_outcome.pdf"
+    "epackprefab_02112026202839_outcome.pdf",
+    "8591996826_02112026203504_bmoutcome02112026.pdf",
+    "vesuvius_02112026203356_bm_outcome_q32026_final.pdf"
   ]
 }
