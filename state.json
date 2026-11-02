@@ -89,7 +89,9 @@
     "106838701",
     "106838793",
     "106838847",
-    "106838893"
+    "106838893",
+    "106839211",
+    "106839209"
   ],
   "archive": [
     {
@@ -859,6 +861,34 @@
       "filing": "https://nsearchives.nseindia.com/corporate/ADITYAVISION_01112026225517_Uploaddd.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:AVL",
       "t": "01-Nov-2026 23:01:59"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "IGCL",
+      "c": "Indogulf Cropsciences Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/INDOGULF_02112026115457_Final_Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:IGCL",
+      "t": "02-Nov-2026 11:57:18"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "DEVYANI",
+      "c": "Devyani International Limited",
+      "r": "Positive",
+      "b": "Consolidated",
+      "q": "Q1 FY27",
+      "sales": 1519.4250000000002,
+      "pat": 3.4619999999999997,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/DEVYANI_02112026115337_Outcome_02112026_Results_sd.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:DEVYANI",
+      "t": "02-Nov-2026 11:55:49"
     }
   ],
   "digest": {
@@ -1006,7 +1036,7 @@
       "MAXENGS",
       "VPFL"
     ],
-    "ipo_check": "2026-11-02 11",
+    "ipo_check": "2026-11-02 12",
     "calendar": "2026-11-02",
     "text_posts": [
       {
@@ -1017,6 +1047,15 @@
         "url": "https://nsearchives.nseindia.com/corporate/ADITYAVISION_01112026225517_Uploaddd.pdf",
         "an_dt": "01-Nov-2026 23:01:59",
         "date": "2026-11-01"
+      },
+      {
+        "key": "106839211",
+        "seq_id": "106839211",
+        "symbol": "IGCL",
+        "company": "Indogulf Cropsciences Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/INDOGULF_02112026115457_Final_Outcome.pdf",
+        "an_dt": "02-Nov-2026 11:57:18",
+        "date": "2026-11-02"
       }
     ],
     "next_cache": "2026-11-01",
