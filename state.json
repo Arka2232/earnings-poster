@@ -122,7 +122,8 @@
     "106839573",
     "106839584",
     "106839589",
-    "106839665"
+    "106839665",
+    "106839674"
   ],
   "archive": [
     {
@@ -1354,6 +1355,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/PATELINT_02112026155145_Outcome_of_BM_Sept2026_sd.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:PATINTLOG",
       "t": "02-Nov-2026 15:53:28"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "PETRONET",
+      "c": "Petronet LNG Limited",
+      "r": "Positive",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 7202.22,
+      "pat": 1234.63,
+      "eps": 8.38,
+      "filing": "https://nsearchives.nseindia.com/corporate/PETRONET_02112026155446_OutcomeBoardMeeting02112026si.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PETRONET",
+      "t": "02-Nov-2026 15:55:04"
     }
   ],
   "digest": {
@@ -1501,7 +1516,7 @@
       "MAXENGS",
       "VPFL"
     ],
-    "ipo_check": "2026-11-02 15",
+    "ipo_check": "2026-11-02 16",
     "calendar": "2026-11-02",
     "text_posts": [
       {
