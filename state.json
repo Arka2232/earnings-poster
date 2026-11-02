@@ -158,7 +158,8 @@
     "106840096",
     "106840122",
     "106840139",
-    "106840152"
+    "106840152",
+    "106840157"
   ],
   "archive": [
     {
@@ -2044,6 +2045,20 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:FINEORG",
       "t": "02-Nov-2026 16:58:17",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751236_02112026054757_WEB.xml"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "ARVINDFASN",
+      "c": "Arvind Fashions Limited",
+      "r": "Good",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 1558.83,
+      "pat": 67.62,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/ARVINDFASN_02112026175809_BMOutcomeIntimation.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ARVINDFASN",
+      "t": "02-Nov-2026 18:00:45"
     }
   ],
   "digest": {
@@ -2569,6 +2584,7 @@
     "ptc_02112026174440_financialresultssep2026.pdf",
     "tvtoday_02112026175111_board_meeting_outcome_nov2026.pdf",
     "uyfincorp_02112026173301_uyfl_ufr_as_on_30092026.pdf",
-    "thomascook_02112026175735_resultssept2026.pdf"
+    "thomascook_02112026175735_resultssept2026.pdf",
+    "arvindfasn_02112026175809_bmoutcomeintimation.pdf"
   ]
 }
