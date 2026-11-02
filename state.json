@@ -198,7 +198,8 @@
     "106840628",
     "106840635",
     "106840633",
-    "106840645"
+    "106840645",
+    "106840662"
   ],
   "archive": [
     {
@@ -2914,6 +2915,20 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:KKCL",
       "t": "02-Nov-2026 19:43:25",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751447_02112026075620_WEB.xml"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "SIGNPOST",
+      "c": "Signpost India Limited",
+      "r": "Good",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 134.5425,
+      "pat": 15.798,
+      "eps": 2.96,
+      "filing": "https://nsearchives.nseindia.com/corporate/SIGNPOST_02112026205109_SIL_SE_BM_Outcome_02112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SIGNPOST",
+      "t": "02-Nov-2026 20:51:30"
     }
   ],
   "digest": {
@@ -3435,6 +3450,7 @@
     "epackprefab_02112026202839_outcome.pdf",
     "8591996826_02112026203504_bmoutcome02112026.pdf",
     "vesuvius_02112026203356_bm_outcome_q32026_final.pdf",
-    "ideaforge_02112026204301_outcome_02112026_fe.pdf"
+    "ideaforge_02112026204301_outcome_02112026_fe.pdf",
+    "signpost_02112026205109_sil_se_bm_outcome_02112026.pdf"
   ]
 }
