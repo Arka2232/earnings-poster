@@ -374,18 +374,6 @@
         "xbrl_try": "2026-11-02T21:38:44.785219+00:00"
       },
       {
-        "key": "106840353",
-        "seq_id": "106840353",
-        "symbol": "ARE&M",
-        "company": "Amara Raja Energy & Mobility Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/AMARARAJA_02112026183511_BMoutcomeQ2FY27New.pdf",
-        "an_dt": "02-Nov-2026 18:37:37",
-        "date": "2026-11-02",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-02T20:42:47.342528+00:00"
-      },
-      {
         "key": "106840386",
         "seq_id": "106840386",
         "symbol": "DIVGIITTS",
@@ -3172,6 +3160,21 @@
       "filing": "https://nsearchives.nseindia.com/corporate/bharatsahu_02112026213030_BM_OUTCOME.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:NATIONALUM",
       "t": "02-Nov-2026 21:32:38"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "ARE&M",
+      "c": "Amara Raja Energy & Mobility Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 4108.71,
+      "pat": 152.48,
+      "eps": 8.33,
+      "filing": "https://nsearchives.nseindia.com/corporate/AMARARAJA_02112026183511_BMoutcomeQ2FY27New.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ARE_M",
+      "t": "02-Nov-2026 18:37:37",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751508_02112026085848_WEB.xml"
     }
   ]
 }
