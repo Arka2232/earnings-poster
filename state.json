@@ -2779,6 +2779,66 @@
       "filing": "https://nsearchives.nseindia.com/corporate/NARMADA_02112026202155_Outcome_of_Board_Meeting.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:NARMADA",
       "t": "02-Nov-2026 20:23:30"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "IGCL",
+      "c": "Indogulf Cropsciences Limited",
+      "r": "Good",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 255.778,
+      "pat": 25.683999999999997,
+      "eps": 4.26,
+      "filing": "https://nsearchives.nseindia.com/corporate/INDOGULF_02112026115457_Final_Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:IGCL",
+      "t": "02-Nov-2026 11:57:18",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751459_02112026080837_WEB.xml"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "PGHL",
+      "c": "Procter & Gamble Health Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 382.49,
+      "pat": 111.50999999999999,
+      "eps": 67.18,
+      "filing": "https://nsearchives.nseindia.com/corporate/PGHL_02112026144157_PGHLOutcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PGHL",
+      "t": "02-Nov-2026 14:45:12",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751465_02112026081932_WEB.xml"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "PSPPROJECT",
+      "c": "PSP Projects Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 1113.2366,
+      "pat": 30.2393,
+      "eps": 7.63,
+      "filing": "https://nsearchives.nseindia.com/corporate/PSPPROJECT_02112026145347_20261102_Outcome_of_BM_38.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PSPPROJECT",
+      "t": "02-Nov-2026 14:54:59",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751452_02112026080256_WEB.xml"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "JAYBARMARU",
+      "c": "Jay Bharat Maruti Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 823.424,
+      "pat": 32.010999999999996,
+      "eps": 2.96,
+      "filing": "https://nsearchives.nseindia.com/corporate/JAYBARMARUT_02112026150152_SUBMISSION_OUTCOME.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:JAYBARMARU",
+      "t": "02-Nov-2026 15:07:41",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751434_02112026074753_WEB.xml"
     }
   ],
   "digest": {
@@ -2941,46 +3001,6 @@
         "xbrl_try": "2026-11-02T16:22:46.657510+00:00"
       },
       {
-        "key": "106839211",
-        "seq_id": "106839211",
-        "symbol": "IGCL",
-        "company": "Indogulf Cropsciences Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/INDOGULF_02112026115457_Final_Outcome.pdf",
-        "an_dt": "02-Nov-2026 11:57:18",
-        "date": "2026-11-02",
-        "xbrl_try": "2026-11-02T19:28:47.131616+00:00"
-      },
-      {
-        "key": "106839484",
-        "seq_id": "106839484",
-        "symbol": "PGHL",
-        "company": "Procter & Gamble Health Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/PGHL_02112026144157_PGHLOutcome.pdf",
-        "an_dt": "02-Nov-2026 14:45:12",
-        "date": "2026-11-02",
-        "xbrl_try": "2026-11-02T19:28:55.214475+00:00"
-      },
-      {
-        "key": "106839515",
-        "seq_id": "106839515",
-        "symbol": "PSPPROJECT",
-        "company": "PSP Projects Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/PSPPROJECT_02112026145347_20261102_Outcome_of_BM_38.pdf",
-        "an_dt": "02-Nov-2026 14:54:59",
-        "date": "2026-11-02",
-        "xbrl_try": "2026-11-02T19:28:56.066641+00:00"
-      },
-      {
-        "key": "106839532",
-        "seq_id": "106839532",
-        "symbol": "JAYBARMARU",
-        "company": "Jay Bharat Maruti Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/JAYBARMARUT_02112026150152_SUBMISSION_OUTCOME.pdf",
-        "an_dt": "02-Nov-2026 15:07:41",
-        "date": "2026-11-02",
-        "xbrl_try": "2026-11-02T19:28:56.465125+00:00"
-      },
-      {
         "key": "106839665",
         "seq_id": "106839665",
         "symbol": "PATINTLOG",
@@ -2988,7 +3008,7 @@
         "url": "https://nsearchives.nseindia.com/corporate/PATELINT_02112026155145_Outcome_of_BM_Sept2026_sd.pdf",
         "an_dt": "02-Nov-2026 15:53:28",
         "date": "2026-11-02",
-        "xbrl_try": "2026-11-02T19:28:57.542312+00:00"
+        "xbrl_try": "2026-11-02T20:31:17.031375+00:00"
       },
       {
         "key": "106839719",
@@ -3000,7 +3020,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-02T19:28:58.383612+00:00"
+        "xbrl_try": "2026-11-02T20:31:17.736549+00:00"
       },
       {
         "key": "106839796",
