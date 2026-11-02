@@ -176,7 +176,8 @@
     "106840311",
     "106840353",
     "106840351",
-    "106840361"
+    "106840361",
+    "106840386"
   ],
   "archive": [
     {
@@ -2374,6 +2375,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/BALAMINES_02112026183657_Outcome_Final.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:BALAMINES",
       "t": "02-Nov-2026 18:39:33"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "DIVGIITTS",
+      "c": "Divgi Torqtransfer Systems Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/DIVGITTS_02112026184454_DTTS_BM_Outcome_FinalSubmission_signed_Final.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:DIVGIITTS",
+      "t": "02-Nov-2026 18:47:07"
     }
   ],
   "digest": {
@@ -2774,6 +2789,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-02T18:40:38.348371+00:00"
+      },
+      {
+        "key": "106840386",
+        "seq_id": "106840386",
+        "symbol": "DIVGIITTS",
+        "company": "Divgi Torqtransfer Systems Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/DIVGITTS_02112026184454_DTTS_BM_Outcome_FinalSubmission_signed_Final.pdf",
+        "an_dt": "02-Nov-2026 18:47:07",
+        "date": "2026-11-02",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-02T18:49:57.785268+00:00"
       }
     ],
     "next_cache": "2026-11-01",
@@ -2969,6 +2996,7 @@
     "jhs_02112026182640_outcome_final_lab.pdf",
     "amararaja_02112026183511_bmoutcomeq2fy27new.pdf",
     "rahulbs35_02112026183531_outcomeofboardmeeting.pdf",
-    "balamines_02112026183657_outcome_final.pdf"
+    "balamines_02112026183657_outcome_final.pdf",
+    "divgitts_02112026184454_dtts_bm_outcome_finalsubmission_signed_final.pdf"
   ]
 }
