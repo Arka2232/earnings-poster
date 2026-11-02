@@ -115,7 +115,9 @@
     "106839488",
     "106839502",
     "106839494",
-    "106839515"
+    "106839515",
+    "106839534",
+    "106839532"
   ],
   "archive": [
     {
@@ -1249,6 +1251,34 @@
       "filing": "https://nsearchives.nseindia.com/corporate/PSPPROJECT_02112026145347_20261102_Outcome_of_BM_38.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:PSPPROJECT",
       "t": "02-Nov-2026 14:54:59"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "KRSNAA",
+      "c": "Krsnaa Diagnostics Limited",
+      "r": "Good",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 270.969,
+      "pat": 24.587000000000003,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/KRSNAA_02112026150758_543328_1_.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:KRSNAA",
+      "t": "02-Nov-2026 15:08:30"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "JAYBARMARU",
+      "c": "Jay Bharat Maruti Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/JAYBARMARUT_02112026150152_SUBMISSION_OUTCOME.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:JAYBARMARU",
+      "t": "02-Nov-2026 15:07:41"
     }
   ],
   "digest": {
@@ -1505,6 +1535,15 @@
         "company": "PSP Projects Limited",
         "url": "https://nsearchives.nseindia.com/corporate/PSPPROJECT_02112026145347_20261102_Outcome_of_BM_38.pdf",
         "an_dt": "02-Nov-2026 14:54:59",
+        "date": "2026-11-02"
+      },
+      {
+        "key": "106839532",
+        "seq_id": "106839532",
+        "symbol": "JAYBARMARU",
+        "company": "Jay Bharat Maruti Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/JAYBARMARUT_02112026150152_SUBMISSION_OUTCOME.pdf",
+        "an_dt": "02-Nov-2026 15:07:41",
         "date": "2026-11-02"
       }
     ],
