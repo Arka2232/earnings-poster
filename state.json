@@ -194,7 +194,8 @@
     "106840555",
     "106840592",
     "106840612",
-    "106840621"
+    "106840621",
+    "106840628"
   ],
   "archive": [
     {
@@ -2839,6 +2840,20 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:JAYBARMARU",
       "t": "02-Nov-2026 15:07:41",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751434_02112026074753_WEB.xml"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "EPACKPEB",
+      "c": "EPack Prefab Technologies Limited",
+      "r": "Good",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 501.1253,
+      "pat": 29.5795,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/EPACKPREFAB_02112026202839_Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:EPACKPEB",
+      "t": "02-Nov-2026 20:30:43"
     }
   ],
   "digest": {
@@ -3356,6 +3371,7 @@
     "sparc_02112026194504_outcomeofbm02112026.pdf",
     "viviana_02112026195946_outcome_bm_02112026.pdf",
     "purva_02112026201310_se-intimation.pdf",
-    "narmada_02112026202155_outcome_of_board_meeting.pdf"
+    "narmada_02112026202155_outcome_of_board_meeting.pdf",
+    "epackprefab_02112026202839_outcome.pdf"
   ]
 }
