@@ -155,7 +155,8 @@
     "106840059",
     "106840055",
     "106840081",
-    "106840096"
+    "106840096",
+    "106840122"
   ],
   "archive": [
     {
@@ -1969,6 +1970,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/PTC_02112026174440_Financialresultssep2026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:PTC",
       "t": "02-Nov-2026 17:48:05"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "TVTODAY",
+      "c": "TV Today Network Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/TVTODAY_02112026175111_Board_Meeting_Outcome_Nov2026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:TVTODAY",
+      "t": "02-Nov-2026 17:52:50"
     }
   ],
   "digest": {
@@ -2268,7 +2283,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-02T16:55:24.789409+00:00"
+        "xbrl_try": "2026-11-02T17:56:30.206942+00:00"
       },
       {
         "key": "106839880",
@@ -2317,6 +2332,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-02T17:42:21.403791+00:00"
+      },
+      {
+        "key": "106840122",
+        "seq_id": "106840122",
+        "symbol": "TVTODAY",
+        "company": "TV Today Network Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/TVTODAY_02112026175111_Board_Meeting_Outcome_Nov2026.pdf",
+        "an_dt": "02-Nov-2026 17:52:50",
+        "date": "2026-11-02",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-02T17:56:30.878941+00:00"
       }
     ],
     "next_cache": "2026-11-01",
@@ -2491,6 +2518,7 @@
     "trident_02112026173929_filing_financial.pdf",
     "spentex_bvr_02112026173746_outcomefs.pdf",
     "shemaroo_02112026173954_outcome02112026.pdf",
-    "ptc_02112026174440_financialresultssep2026.pdf"
+    "ptc_02112026174440_financialresultssep2026.pdf",
+    "tvtoday_02112026175111_board_meeting_outcome_nov2026.pdf"
   ]
 }
