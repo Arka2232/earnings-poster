@@ -131,7 +131,8 @@
     "106839722",
     "106839719",
     "106839752",
-    "106839760"
+    "106839760",
+    "106839796"
   ],
   "archive": [
     {
@@ -1519,6 +1520,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/VRLLOGI_02112026161844_OutcomeBM02112026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:VRLLOG",
       "t": "02-Nov-2026 16:25:35"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "RSL",
+      "c": "Rajputana Stainless Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/6358164770_02112026163024_RSLOutcome_of_BM02112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:RSL",
+      "t": "02-Nov-2026 16:35:39"
     }
   ],
   "digest": {
@@ -1813,6 +1828,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-02T16:24:32.808019+00:00"
+      },
+      {
+        "key": "106839796",
+        "seq_id": "106839796",
+        "symbol": "RSL",
+        "company": "Rajputana Stainless Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/6358164770_02112026163024_RSLOutcome_of_BM02112026.pdf",
+        "an_dt": "02-Nov-2026 16:35:39",
+        "date": "2026-11-02",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-02T16:37:30.955391+00:00"
       }
     ],
     "next_cache": "2026-11-01",
@@ -1963,6 +1990,7 @@
     "hleglascoat_02112026160152_522215_ufr_sd_f.pdf",
     "primo607_02112026160657_ufr30092026outcome.pdf",
     "wockpharma_02112026161333_bmoutcome02112026signed.pdf",
-    "vrllogi_02112026161844_outcomebm02112026.pdf"
+    "vrllogi_02112026161844_outcomebm02112026.pdf",
+    "6358164770_02112026163024_rsloutcome_of_bm02112026.pdf"
   ]
 }
