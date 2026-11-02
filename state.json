@@ -118,7 +118,8 @@
     "106839515",
     "106839534",
     "106839532",
-    "106839544"
+    "106839544",
+    "106839573"
   ],
   "archive": [
     {
@@ -1294,6 +1295,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/PROJECTSEWA_02112026150629_BMOutcome_Final_250_SEF_Final_signed.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:BLSE",
       "t": "02-Nov-2026 15:10:52"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "PASUPTAC",
+      "c": "Pasupati Acrylon Limited",
+      "r": "Positive",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 274.74,
+      "pat": 32.01,
+      "eps": 3.59,
+      "filing": "https://nsearchives.nseindia.com/corporate/PASUPTAC_02112026150846_Outcome_of_Board_Meeting.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PASUPTAC",
+      "t": "02-Nov-2026 15:20:36"
     }
   ],
   "digest": {
