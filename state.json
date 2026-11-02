@@ -98,7 +98,8 @@
     "106839371",
     "106839363",
     "106839306",
-    "106839384"
+    "106839384",
+    "106839401"
   ],
   "archive": [
     {
@@ -994,6 +995,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/PCBL_02112026131934_FinalBMOutcomeheldon2112026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:PCBL",
       "t": "02-Nov-2026 13:21:05"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "EUREKAFORB",
+      "c": "Eureka Forbes Limited",
+      "r": "Good",
+      "b": "Consolidated",
+      "q": "",
+      "sales": 888.47,
+      "pat": 74.0966,
+      "eps": 3.81,
+      "filing": "https://nsearchives.nseindia.com/corporate/SHILPAJAIN_02112026133213_Outcomeofbmrev.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:EUREKAFORB",
+      "t": "02-Nov-2026 13:32:48"
     }
   ],
   "digest": {
