@@ -1774,6 +1774,36 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:MOLDTKPAC",
       "t": "02-Nov-2026 13:56:33",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751153_02112026050308_WEB.xml"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "CINELINE",
+      "c": "Cineline India Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 70.6869,
+      "pat": 7.261699999999999,
+      "eps": 1.97,
+      "filing": "https://nsearchives.nseindia.com/corporate/CINELINE_02112026143231_Outcome_BM_Financial.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CINELINE",
+      "t": "02-Nov-2026 14:36:42",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751172_02112026051313_WEB.xml"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "UPL",
+      "c": "UPL Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 11860.0,
+      "pat": 452.0,
+      "eps": 4.99,
+      "filing": "https://nsearchives.nseindia.com/corporate/UPL_02112026144604_Results.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:UPL",
+      "t": "02-Nov-2026 14:48:28",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751155_02112026050321_WEB.xml"
     }
   ],
   "digest": {
@@ -1963,17 +1993,7 @@
         "url": "https://nsearchives.nseindia.com/corporate/BCLIND_02112026135252_Q2_FY27_Results.pdf",
         "an_dt": "02-Nov-2026 13:56:10",
         "date": "2026-11-02",
-        "xbrl_try": "2026-11-02T16:22:55.061328+00:00"
-      },
-      {
-        "key": "106839476",
-        "seq_id": "106839476",
-        "symbol": "CINELINE",
-        "company": "Cineline India Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/CINELINE_02112026143231_Outcome_BM_Financial.pdf",
-        "an_dt": "02-Nov-2026 14:36:42",
-        "date": "2026-11-02",
-        "xbrl_try": "2026-11-02T16:23:02.268261+00:00"
+        "xbrl_try": "2026-11-02T17:25:05.848325+00:00"
       },
       {
         "key": "106839484",
@@ -1983,7 +2003,7 @@
         "url": "https://nsearchives.nseindia.com/corporate/PGHL_02112026144157_PGHLOutcome.pdf",
         "an_dt": "02-Nov-2026 14:45:12",
         "date": "2026-11-02",
-        "xbrl_try": "2026-11-02T16:23:03.060738+00:00"
+        "xbrl_try": "2026-11-02T17:25:13.827512+00:00"
       },
       {
         "key": "106839488",
@@ -1993,17 +2013,7 @@
         "url": "https://nsearchives.nseindia.com/corporate/HYBRIDFIN_02112026144417_OutcomewithUnauditedFinancialResultsfortheHYE30thSeptember2026.pdf",
         "an_dt": "02-Nov-2026 14:46:46",
         "date": "2026-11-02",
-        "xbrl_try": "2026-11-02T16:23:04.171994+00:00"
-      },
-      {
-        "key": "106839494",
-        "seq_id": "106839494",
-        "symbol": "UPL",
-        "company": "UPL Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/UPL_02112026144604_Results.pdf",
-        "an_dt": "02-Nov-2026 14:48:28",
-        "date": "2026-11-02",
-        "xbrl_try": "2026-11-02T16:23:05.161743+00:00"
+        "xbrl_try": "2026-11-02T17:25:14.501944+00:00"
       },
       {
         "key": "106839515",
@@ -2013,7 +2023,7 @@
         "url": "https://nsearchives.nseindia.com/corporate/PSPPROJECT_02112026145347_20261102_Outcome_of_BM_38.pdf",
         "an_dt": "02-Nov-2026 14:54:59",
         "date": "2026-11-02",
-        "xbrl_try": "2026-11-02T16:23:06.275981+00:00"
+        "xbrl_try": "2026-11-02T17:25:24.473211+00:00"
       },
       {
         "key": "106839532",
@@ -2023,7 +2033,7 @@
         "url": "https://nsearchives.nseindia.com/corporate/JAYBARMARUT_02112026150152_SUBMISSION_OUTCOME.pdf",
         "an_dt": "02-Nov-2026 15:07:41",
         "date": "2026-11-02",
-        "xbrl_try": "2026-11-02T16:23:06.669929+00:00"
+        "xbrl_try": "2026-11-02T17:25:24.797000+00:00"
       },
       {
         "key": "106839665",
@@ -2033,7 +2043,7 @@
         "url": "https://nsearchives.nseindia.com/corporate/PATELINT_02112026155145_Outcome_of_BM_Sept2026_sd.pdf",
         "an_dt": "02-Nov-2026 15:53:28",
         "date": "2026-11-02",
-        "xbrl_try": "2026-11-02T16:23:07.910447+00:00"
+        "xbrl_try": "2026-11-02T17:25:25.431939+00:00"
       },
       {
         "key": "106839719",
@@ -2045,7 +2055,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-02T16:23:08.832800+00:00"
+        "xbrl_try": "2026-11-02T17:25:26.202223+00:00"
       },
       {
         "key": "106839752",
@@ -2057,7 +2067,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-02T16:24:32.808019+00:00"
+        "xbrl_try": "2026-11-02T17:25:26.515995+00:00"
       },
       {
         "key": "106839796",
