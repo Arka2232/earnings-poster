@@ -132,7 +132,8 @@
     "106839719",
     "106839752",
     "106839760",
-    "106839796"
+    "106839796",
+    "106839805"
   ],
   "archive": [
     {
@@ -1534,6 +1535,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/6358164770_02112026163024_RSLOutcome_of_BM02112026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:RSL",
       "t": "02-Nov-2026 16:35:39"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "NDL",
+      "c": "Nandan Denim Limited",
+      "r": "Positive",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 607.9818,
+      "pat": 11.474400000000001,
+      "eps": 0.08,
+      "filing": "https://nsearchives.nseindia.com/corporate/NDL_02112026163806_result.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:NDL",
+      "t": "02-Nov-2026 16:38:52"
     }
   ],
   "digest": {
@@ -1991,6 +2006,7 @@
     "primo607_02112026160657_ufr30092026outcome.pdf",
     "wockpharma_02112026161333_bmoutcome02112026signed.pdf",
     "vrllogi_02112026161844_outcomebm02112026.pdf",
-    "6358164770_02112026163024_rsloutcome_of_bm02112026.pdf"
+    "6358164770_02112026163024_rsloutcome_of_bm02112026.pdf",
+    "ndl_02112026163806_result.pdf"
   ]
 }
