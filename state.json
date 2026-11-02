@@ -114,7 +114,8 @@
     "106839484",
     "106839488",
     "106839502",
-    "106839494"
+    "106839494",
+    "106839515"
   ],
   "archive": [
     {
@@ -1234,6 +1235,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/UPL_02112026144604_Results.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:UPL",
       "t": "02-Nov-2026 14:48:28"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "PSPPROJECT",
+      "c": "PSP Projects Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/PSPPROJECT_02112026145347_20261102_Outcome_of_BM_38.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PSPPROJECT",
+      "t": "02-Nov-2026 14:54:59"
     }
   ],
   "digest": {
@@ -1481,6 +1496,15 @@
         "company": "UPL Limited",
         "url": "https://nsearchives.nseindia.com/corporate/UPL_02112026144604_Results.pdf",
         "an_dt": "02-Nov-2026 14:48:28",
+        "date": "2026-11-02"
+      },
+      {
+        "key": "106839515",
+        "seq_id": "106839515",
+        "symbol": "PSPPROJECT",
+        "company": "PSP Projects Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/PSPPROJECT_02112026145347_20261102_Outcome_of_BM_38.pdf",
+        "an_dt": "02-Nov-2026 14:54:59",
         "date": "2026-11-02"
       }
     ],
