@@ -24,15 +24,43 @@ Modes:
   NEW card only on a clean parse; anything still failing posts
   nothing. Silent-safe: a gate failure never breaks posting.
 
+  XBRL Phase 1 recovery — when a filing posts as text/screenshot
+  (the PDF chain failed), the filing is recorded for XBRL retry
+  (text_posts entries carry "qe", the inferred quarter-end, and
+  "basis", the basis attempted — "" when the PDF never yielded
+  one). Later runs (throttled to one attempt per hour per entry)
+  and the nightly pass (forced) query NSE's integrated-filing
+  results API, windowed around the filing date, and build the card
+  from the filing's own XBRL document under ALL the XBRL guards.
+  A recovered card posts as a NEW message below the original and
+  the text_posts entry is removed, so nightly never double-posts;
+  the archive entry keeps filing = the PDF URL (the "Result"
+  button still points at the PDF announcement) plus an "xbrl"
+  field with the XBRL URL. Entries expire after 7 days, the same
+  age rule as PDF retries. XBRL is recovery, NOT a replacement
+  for PDF-first posting (it lags the PDF by 0.1-6.2h). The iron
+  disagreement rule in attempt_xbrl_recovery governs every
+  XBRL-vs-PDF conflict; banking and non-Ind-AS taxonomies are
+  refused, never mapped by guesswork.
+
 Safety rules:
-- A filing whose PDF cannot be downloaded is NOT marked seen, so the
-  next run retries it (delayed, never lost).
+- A filing whose PDF cannot be downloaded — or whose download is
+  truncated/corrupt (no final %%EOF marker) — is NOT marked seen,
+  so the next run retries it (delayed, never lost). It is never
+  text-posted as a substitute for a download that failed.
 - A filing whose numbers cannot be parsed, or which fails the
-  Total Income cross-check, first tries a screenshot of the
-  filing's own results-table page (cropped to the table, unedited
-  pixels — no retyped numbers, no rating); if no table page is
-  found or rendering fails, it gets a "Results Filed" text post +
-  link only, and is then marked seen. Numbers are never invented.
+  Total Income cross-check, first tries a tight screenshot of the
+  filing's own results-table page (table only, unedited pixels —
+  no retyped numbers, no rating); if no confident tight crop is
+  found, it gets a clean "Results Filed" text post + link only,
+  never a messy full-page photo, and is then marked seen.
+  Numbers are never invented.
+- No duplicates, at any dispatch cadence: postings are deduped by
+  filing key AND by filing URL (same filing under a different
+  seq_id), each run resyncs state from origin before posting,
+  each post is pre-checked against the latest pushed state, and
+  the workflow's Save-state step semantically merges state on a
+  push conflict instead of losing the run's postings.
 - Filings older than 7 days are skipped (marked seen, not posted).
 - The consolidated table in a filing is used when present (user
   decision, 30-Oct-2026); otherwise the standalone table is used as
@@ -53,9 +81,13 @@ from datetime import datetime, timedelta, timezone
 
 import requests
 
-from results_parser import parse_results
+from results_parser import parse_results, verdict
 from card import render_card, card_data_from_parse
 from telegram_post import send_photo, send_text
+from xbrl_parser import (build_card as xbrl_build_card, select_xbrl_row,
+                         fetch_integrated_rows, download_xbrl,
+                         detect_taxonomy)
+import xbrl_parser
 
 FEED_URL = "https://www.nseindia.com/api/corporate-announcements?index=equities"
 ARCHIVE = "https://nsearchives.nseindia.com/corporate/"
@@ -90,6 +122,101 @@ def filing_key(item):
     return item.get("seq_id") or f"{item.get('symbol')}|{item.get('an_dt')}"
 
 
+def filing_url_key(url):
+    """Stable identity of a filing by its PDF file, independent of
+    seq_id. The same NSE filing can surface under a different
+    seq_id (re-listed, or feed vs per-symbol history disagreeing),
+    and a seq_id-only seen-list then posts it twice. The PDF
+    filename embeds symbol + filing timestamp, so its basename is
+    a content-stable key; lowercased and query-stripped so URL
+    form differences (full URL vs archive prefix) cannot split it.
+    """
+    if not url:
+        return ""
+    base = (url or "").split("?")[0].rstrip("/").rsplit("/", 1)[-1]
+    return base.lower()
+
+
+def archive_url_keys(state):
+    """urlkeys of every filing already recorded in the archive,
+    split by whether it was posted as a real card or only as a
+    'Results Filed' placeholder (text/screenshot). A card is the
+    final form: nothing further may post for that filing. A
+    placeholder does NOT block the nightly card retry — that
+    upgrade is the intended path, not a duplicate."""
+    cards, placeholders = set(), set()
+    for e in state.get("archive", []):
+        k = filing_url_key(e.get("filing") or "")
+        if not k:
+            continue
+        if (e.get("r") or "") == "Results Filed":
+            placeholders.add(k)
+        else:
+            cards.add(k)
+    for k in state.get("seen_urls", []) or []:
+        # seen_urls only records postings; a key there with no
+        # archive entry is treated as a placeholder, never a card,
+        # so a card retry is never blocked by it.
+        if k not in cards:
+            placeholders.add(k)
+    return cards, placeholders
+
+
+def resync_state_from_git(state):
+    """Best-effort: pull the latest pushed state before posting.
+
+    At 1-minute dispatch cadence runs queue and overlap; a run
+    that checked out state before a previous run pushed would
+    otherwise repost that run's filings. A `git pull --rebase`
+    at run start (the runner checkout has push credentials and
+    an unmodified state.json at this point, so the pull is
+    clean) plus reloading state.json closes that window for any
+    run that starts after the previous run pushed. Silent no-op
+    outside a git checkout (local runs, tests) or on any failure
+    — a failed resync must never block posting, it only means
+    the other guards (url dedup, pre-send remote check, push
+    retry in the workflow) carry the run.
+    """
+    try:
+        repo = os.path.dirname(os.path.abspath(STATE_FILE))
+        if not os.path.isdir(os.path.join(repo, ".git")):
+            return
+        out = subprocess.run(["git", "-C", repo, "pull", "--rebase"],
+                             capture_output=True, timeout=60)
+        if out.returncode != 0:
+            return
+        fresh = load_state()
+        state.clear()
+        state.update(fresh)
+        print("[dedup] state resynced from origin before posting")
+    except Exception as exc:
+        print(f"[dedup] git resync skipped ({exc})")
+
+
+REMOTE_STATE_URL = ("https://raw.githubusercontent.com/Arka2232/"
+                    "earnings-poster/main/state.json")
+
+
+def remote_card_url_keys():
+    """urlkeys of filings already posted as cards according to the
+    latest PUSHED state.json (raw.githubusercontent, no auth).
+    Best-effort pre-send check inside process_item: if an
+    overlapping run already pushed a card for this filing, this
+    run skips it instead of double-posting. Returns None when the
+    fetch/parsing fails — the caller then proceeds (a failed
+    check must never block a legitimate post).
+    """
+    try:
+        r = requests.get(REMOTE_STATE_URL, timeout=10)
+        r.raise_for_status()
+        data = r.json()
+        cards, _ = archive_url_keys(data if isinstance(data, dict)
+                                    else {})
+        return cards
+    except Exception:
+        return None
+
+
 def ist_today():
     """Today's date in IST (UTC+5:30), no tzdata dependency."""
     return (datetime.now(timezone.utc)
@@ -102,7 +229,8 @@ def ist_now():
 
 
 def record_archive(state, symbol, company, rating, basis, quarter_label,
-                   sales, pat, eps, filing_url, filing_time=""):
+                   sales, pat, eps, filing_url, filing_time="",
+                   xbrl=""):
     """Append one posted item to state["archive"] (capped at 300).
 
     The night recap reads state["archive"], which the workflow already
@@ -110,27 +238,68 @@ def record_archive(state, symbol, company, rating, basis, quarter_label,
     posts — already public — so storing them in the repo is fine.
     "t" is the filing's NSE timestamp (an_dt); the night recap uses
     it for the During/After Market split, and entries without it
-    fall back to After Market.
+    fall back to After Market. "xbrl" is set only for XBRL-recovered
+    cards (the filing's own XBRL URL); plain PDF cards carry no
+    "xbrl" key, so existing archive entries are byte-identical.
     """
     from telegram_post import tradingview_url
     entries = state.setdefault("archive", [])
-    entries.append({
+    entry = {
         "d": ist_today(), "s": symbol, "c": company, "r": rating,
         "b": basis or "", "q": quarter_label or "",
         "sales": sales, "pat": pat, "eps": eps,
         "filing": filing_url, "chart": tradingview_url(symbol),
         "t": filing_time or "",
-    })
+    }
+    if xbrl:
+        entry["xbrl"] = xbrl
+    entries.append(entry)
     del entries[:-300]
 
 
+def record_text_post(state, key, seq_id, symbol, company, url,
+                     filing_time):
+    """Append one text_posts entry (text OR screenshot fallback).
+
+    The nightly pass and the XBRL retry both read this shape.
+    "qe" is the quarter-end in NSE API format ("30-SEP-2026"),
+    inferred from the filing date as the last quarter-end
+    strictly before it (results are never filed the same day
+    the quarter ends, so a filing dated exactly on a quarter-end
+    belongs to the previous quarter); None when the filing date
+    does not parse, in which case the XBRL retry falls back to
+    broadcast-proximity selection. "basis" is the basis the PDF
+    path attempted — "" when the PDF never yielded one (the
+    normal fallback case); the XBRL retry applies its own
+    Consolidated-first policy regardless of this field.
+    """
+    state.setdefault("digest", {}).setdefault("text_posts", []).append({
+        "key": key, "seq_id": seq_id, "symbol": symbol,
+        "company": company, "url": url, "an_dt": filing_time,
+        "date": ist_today(), "qe": infer_qe_date(filing_time),
+        "basis": ""})
+
+
 def fetch_feed():
-    r = requests.get(FEED_URL, headers=HEADERS, timeout=30)
-    r.raise_for_status()
-    data = r.json()
-    if isinstance(data, dict):
-        data = data.get("data") or data.get("announcements") or []
-    return data
+    """Latest-20 feed, with retries: NSE 403s intermittently, and
+    a single-attempt failure used to lose the whole run (and, at
+    1-minute cadence, waste a dispatch). Retries are bounded
+    (3 attempts, short backoff) so a genuinely dead feed still
+    fails fast instead of hanging the run."""
+    last_exc = None
+    for attempt in range(3):
+        try:
+            r = requests.get(FEED_URL, headers=HEADERS, timeout=30)
+            r.raise_for_status()
+            data = r.json()
+            if isinstance(data, dict):
+                data = data.get("data") or data.get("announcements") or []
+            return data
+        except Exception as exc:
+            last_exc = exc
+            if attempt < 2:
+                time.sleep(2)
+    raise last_exc
 
 
 SYMBOL_FEED_URL = ("https://www.nseindia.com/api/corporate-announcements"
@@ -185,6 +354,8 @@ def collect_backfill_items(symbols, state):
     exact key construction (filing_key); nothing is broadened.
     """
     seen = set(state.get("seen", []))
+    cards, placeholders = archive_url_keys(state)
+    already = cards | placeholders
     items = []
     for raw_symbol in symbols:
         symbol = raw_symbol.strip().upper()
@@ -193,7 +364,9 @@ def collect_backfill_items(symbols, state):
         rows = fetch_symbol_feed(symbol)
         found = [it for it in rows
                  if is_results_filing(it) and filed_today(it)]
-        new = [it for it in found if filing_key(it) not in seen]
+        new = [it for it in found
+               if filing_key(it) not in seen
+               and filing_url_key(pdf_url(it)) not in already]
         print(f"[{symbol}] today results filings: {len(found)}; "
               f"new: {len(new)}")
         items.extend(new)
@@ -424,9 +597,10 @@ def crop_table_bounds(png_path):
     bottom = the last Basic/Diluted row of the EPS block (or the EPS
     header line itself), else the last table row before the Notes
     section or the signature block. None means "not confidently
-    located" — the caller posts the full page instead. The bounds
-    always include the whole table (over-inclusion beats a cut
-    table); a wrong crop is never returned. Never raises.
+    located" — the caller posts clean text instead (never a full
+    page). The bounds always include the whole table
+    (over-inclusion beats a cut table); a wrong crop is never
+    returned. Never raises.
     """
     try:
         lines = _tsv_lines(png_path)
@@ -500,8 +674,10 @@ def crop_table_bounds(png_path):
 def crop_table_image(png_path):
     """Crop the rendered page to the table (heading..EPS/last row).
 
-    Returns True when the image was cropped, False when it is left
-    as the full page (boundaries unconfident or any step failed).
+    Returns True when the image was cropped, False when it must be
+    left alone (boundaries unconfident, crop implausibly tall, or
+    any step failed) — the caller then drops the photo entirely
+    and posts text instead of a messy full page.
     The original file is never clobbered: the crop is written to a
     side file and moved over only on success. Never raises.
     """
@@ -516,6 +692,12 @@ def crop_table_image(png_path):
         top = max(0, bounds[0] - 12)
         bottom = min(h, bounds[1] + 12)
         if bottom - top < 0.08 * h or top >= bottom:
+            return False
+        if bottom - top > 0.92 * h:
+            # A crop spanning nearly the whole page is not a table
+            # crop at all — the bounds almost certainly swallowed
+            # the header band, notes, or signature/stamp blocks.
+            # Treat as unconfident: caller falls back to text.
             return False
         tmp_path = png_path + ".crop.png"
         im.crop((0, top, w, bottom)).save(tmp_path)
@@ -532,11 +714,16 @@ def crop_table_image(png_path):
 
 
 def results_screenshot_path(pdf_bytes, out_dir):
-    """Path to a results-table screenshot PNG, or None.
+    """Path to a tight results-table screenshot PNG, or None.
 
     Finds the table page, renders it at 200 DPI, and crops it
-    vertically to the table. A crop failure leaves the full page;
-    a page-find or render failure returns None (caller posts text).
+    vertically to the table (heading -> EPS row). PROFESSIONAL
+    RULE: only a tight, clean table crop is ever posted. A crop
+    failure returns None (caller posts clean text instead) —
+    NEVER a full page carrying the company header/logo band,
+    notes, or signature/stamp blocks; a messy full-page photo
+    looks like a failure and is worse than no photo. A
+    page-find or render failure likewise returns None.
     Never raises.
     """
     try:
@@ -546,10 +733,49 @@ def results_screenshot_path(pdf_bytes, out_dir):
         path = render_page_png(pdf_bytes, page, out_dir)
         if path is None:
             return None
-        crop_table_image(path)  # False = keep full page
+        if not crop_table_image(path):
+            # Fail LOUD in logs (not in the post): a missing
+            # tesseract binary makes every crop fail, which
+            # silently turns every screenshot fallback into text.
+            # That environment failure must be visible, since the
+            # crop-only rule means no photo is posted at all.
+            import shutil
+            if shutil.which("tesseract") is None:
+                print("[screenshot] tesseract missing: crop impossible, "
+                      "falling back to text post")
+            return None
         return path
     except Exception:
         return None
+
+
+def pdf_looks_valid(pdf_bytes):
+    """True when downloaded bytes look like a complete PDF.
+
+    CINELINE (run #348): NSE served a TRUNCATED PDF (missing
+    %%EOF); pypdf raised "EOF marker not found", extract_text
+    raised, and the filing fell through to a text post marked
+    seen — a transient download fault became a permanent
+    text-only post. A truncated download must instead be treated
+    as a download failure (no seen-mark, retried next run).
+    Checks: non-trivial size, %PDF header, and a %%EOF marker
+    as the file's final marker (trailing whitespace allowed).
+    The EOF marker is REQUIRED and ANCHORED at the end, not
+    merely present somewhere: pypdf tolerates a missing final
+    EOF (it still lists pages from a truncated file), and the
+    %%EOF byte string can also occur mid-file in an
+    incrementally updated PDF — both loopholes let the
+    truncated CINELINE file through in earlier drafts of this
+    check. A file whose last marker is not %%EOF is corrupt
+    even if some tool could squeeze partial text from it;
+    partial text is exactly how wrong cards happen, so it is
+    never parsed.
+    """
+    if not pdf_bytes or len(pdf_bytes) < 1024:
+        return False
+    if not pdf_bytes.lstrip()[:4] == b"%PDF":
+        return False
+    return pdf_bytes.rstrip()[-5:] == b"%%EOF"
 
 
 def filing_age_days(item):
@@ -601,6 +827,7 @@ def process_item(item, token, chat_id, state, text_fallback=True):
     company = item.get("sm_name") or symbol
     url = pdf_url(item)
     key = filing_key(item)
+    ukey = filing_url_key(url)
     filing_time = (item.get("an_dt") or "").strip()
     print(f"[{symbol}] {url}")
     try:
@@ -610,38 +837,64 @@ def process_item(item, token, chat_id, state, text_fallback=True):
     except Exception as exc:
         print(f"[{symbol}] download failed ({exc}); will retry next run")
         return False
+    if not pdf_looks_valid(pdf):
+        # Truncated/corrupt download (CINELINE): NOT marked seen,
+        # NOT text-posted — the next run re-downloads. A text post
+        # here would bury a filing whose real numbers never got a
+        # chance to parse.
+        print(f"[{symbol}] PDF invalid/truncated; will retry next run")
+        return False
+    # Extraction chain, each stage in its OWN try block (CINELINE
+    # lesson): the old single try block let an extract_text
+    # exception skip the layout retry AND the OCR fallback. Now
+    # an extraction failure still attempts OCR (which renders the
+    # PDF directly and does not depend on the text layer), and
+    # only when every stage fails does the filing fall through
+    # to screenshot/text below.
+    parsed = None
+    text = None
     try:
         text = extract_text(pdf)
-        parsed = parse_results(text)
+    except Exception as exc:
+        print(f"[{symbol}] extraction failed ({exc}); trying OCR")
+    if text is not None:
+        try:
+            parsed = parse_results(text)
+        except Exception as exc:
+            print(f"[{symbol}] parse failed ({exc})")
+            parsed = None
         if parsed is None or parsed.get("basis") == "Standalone":
             # Consolidated table may still be recoverable from
             # layout-mode text (column-block filings). Accept the
             # retry only when it actually yields Consolidated, so
             # this never downgrades or changes an existing result.
-            layout = extract_layout_text(pdf)
+            try:
+                layout = extract_layout_text(pdf)
+            except Exception:
+                layout = None
             if layout:
-                retry = parse_results(text, layout_text=layout)
+                try:
+                    retry = parse_results(text, layout_text=layout)
+                except Exception:
+                    retry = None
                 if retry is not None and retry.get("basis") == "Consolidated":
                     parsed = retry
-        if parsed is None:
-            # OCR fallback (OCR batch): fresh OCR bypasses a garbled
-            # embedded text layer (FINPIPE, MALUPAPER, BALKRISHNA).
-            # Only for refusals — never for filings that already
-            # parse — and only a fully guarded parse is accepted.
-            try:
-                from ocr_fallback import ocr_parse
-                ocr = ocr_parse(pdf)
-                if ocr is not None:
-                    parsed = ocr
-                    print(f"[{symbol}] OCR recovered "
-                          f"{ocr.get('basis')} card")
-                else:
-                    print(f"[{symbol}] OCR fallback found nothing usable")
-            except Exception as exc:
-                print(f"[{symbol}] OCR fallback failed ({exc})")
-    except Exception as exc:
-        print(f"[{symbol}] extraction failed ({exc})")
-        parsed = None
+    if parsed is None:
+        # OCR fallback (OCR batch): fresh OCR bypasses a garbled
+        # embedded text layer (FINPIPE, MALUPAPER, BALKRISHNA).
+        # Only for refusals — never for filings that already
+        # parse — and only a fully guarded parse is accepted.
+        try:
+            from ocr_fallback import ocr_parse
+            ocr = ocr_parse(pdf)
+            if ocr is not None:
+                parsed = ocr
+                print(f"[{symbol}] OCR recovered "
+                      f"{ocr.get('basis')} card")
+            else:
+                print(f"[{symbol}] OCR fallback found nothing usable")
+        except Exception as exc:
+            print(f"[{symbol}] OCR fallback failed ({exc})")
     if parsed is None:
         if not text_fallback:
             # Nightly retry path: a filing that still fails posts
@@ -650,13 +903,30 @@ def process_item(item, token, chat_id, state, text_fallback=True):
             print(f"[{symbol}] nightly retry still unparsed; "
                   "original text post stands, nothing re-posted")
             return False
+        # Duplicate guard (placeholder path): a filing that already
+        # has ANY archive entry (card or placeholder) never gets a
+        # second placeholder post — this is the same-filing-under-
+        # a-different-key case. Record the key locally and stop.
+        cards2, placeholders2 = archive_url_keys(state)
+        remote_cards2 = remote_card_url_keys()
+        if ukey and (ukey in cards2 or ukey in placeholders2
+                     or (remote_cards2 is not None
+                         and ukey in remote_cards2)):
+            print(f"[{symbol}] already posted for this filing; skipping")
+            if key not in state["seen"]:
+                state["seen"].append(key)
+            if ukey not in state.setdefault("seen_urls", []):
+                state["seen_urls"].append(ukey)
+            save_state(state)
+            return False
         # Screenshot fallback: the filing's own results-table page,
-        # cropped vertically to the table. Unedited source pixels —
-        # no retyped numbers, no rating, no branding added. Any
-        # failure here degrades to the text post below; a
-        # screenshot failure never breaks posting. The filing is
-        # recorded in text_posts exactly like a text post, so the
-        # nightly retry still tries it as a card.
+        # cropped tightly to the table only (heading -> EPS row).
+        # Unedited source pixels — no retyped numbers, no rating,
+        # no branding added. A crop failure posts the clean text
+        # post below instead of a messy full page; a screenshot
+        # failure never breaks posting. The filing is recorded in
+        # text_posts exactly like a text post, so the nightly
+        # retry still tries it as a card.
         with tempfile.TemporaryDirectory() as td:
             shot = results_screenshot_path(pdf, td)
             if shot is not None:
@@ -672,12 +942,13 @@ def process_item(item, token, chat_id, state, text_fallback=True):
                 print(f"[{symbol}] posted Results Filed screenshot "
                       f"(unparsed: {results_parser.LAST_REFUSAL})")
                 state.setdefault("digest", {}).setdefault(
-                    "text_posts", []).append({
-                        "key": key, "seq_id": item.get("seq_id"),
-                        "symbol": symbol, "company": company, "url": url,
-                        "an_dt": filing_time, "date": ist_today()})
+                    "text_posts", [])
+                record_text_post(state, key, item.get("seq_id"), symbol,
+                                 company, url, filing_time)
                 if key not in state["seen"]:
                     state["seen"].append(key)
+                if ukey and ukey not in state.setdefault("seen_urls", []):
+                    state["seen_urls"].append(ukey)
                 record_archive(state, symbol, company, "Results Filed",
                                "", "", None, None, None, url, filing_time)
                 save_state(state)
@@ -693,17 +964,36 @@ def process_item(item, token, chat_id, state, text_fallback=True):
               f"(unparsed: {results_parser.LAST_REFUSAL})")
         # Nightly final pass needs the filing key to re-attempt
         # exactly this filing (the archive entry has no key).
-        state.setdefault("digest", {}).setdefault("text_posts", []).append({
-            "key": key, "seq_id": item.get("seq_id"),
-            "symbol": symbol, "company": company, "url": url,
-            "an_dt": filing_time, "date": ist_today()})
+        record_text_post(state, key, item.get("seq_id"), symbol, company,
+                         url, filing_time)
         if key not in state["seen"]:
             state["seen"].append(key)
+        if ukey and ukey not in state.setdefault("seen_urls", []):
+            state["seen_urls"].append(ukey)
         record_archive(state, symbol, company, "Results Filed", "", "",
                        None, None, None, url, filing_time)
         save_state(state)
         return True
 
+    # Duplicate guard (card path): never post a second card for a
+    # filing that already has one — locally, or in the latest
+    # pushed state (an overlapping run may have posted + pushed
+    # after this run loaded state). A "Results Filed" placeholder
+    # does NOT block: the nightly card retry upgrades it. When
+    # blocked, record the key locally (no post, no archive entry)
+    # so this run's own state push converges instead of retrying
+    # the same filing forever.
+    cards, _ = archive_url_keys(state)
+    remote_cards = remote_card_url_keys()
+    if ukey and (ukey in cards
+                 or (remote_cards is not None and ukey in remote_cards)):
+        print(f"[{symbol}] card already posted for this filing; skipping")
+        if key not in state["seen"]:
+            state["seen"].append(key)
+        if ukey and ukey not in state.setdefault("seen_urls", []):
+            state["seen_urls"].append(ukey)
+        save_state(state)
+        return False
     q_labels = quarter_month_labels(parsed["quarter_label"])
     with tempfile.TemporaryDirectory() as td:
         data = card_data_from_parse(company, symbol, parsed, filing_time,
@@ -715,6 +1005,8 @@ def process_item(item, token, chat_id, state, text_fallback=True):
     print(f"[{symbol}] posted {parsed['rating']} card")
     if key not in state["seen"]:
         state["seen"].append(key)
+    if ukey and ukey not in state.setdefault("seen_urls", []):
+        state["seen_urls"].append(ukey)
     eps = parsed["eps"] or (None, None, None)
     record_archive(state, symbol, company, parsed["rating"],
                    parsed.get("basis", ""), parsed["quarter_label"],
@@ -722,6 +1014,609 @@ def process_item(item, token, chat_id, state, text_fallback=True):
                    filing_time)
     save_state(state)
     return True
+
+
+# ================= XBRL Phase 1 recovery =================
+# A filing that posts as text/screenshot (PDF chain failed) is
+# retried from its own XBRL document on later runs (throttled)
+# and in the nightly pass (forced). See the module docstring.
+# All network entry points are watcher-namespace names so tests
+# can mock them; no function here ever raises out of
+# maybe_xbrl_retry — a failed recovery is a pending entry, never
+# a broken run.
+
+_MONTH_ABBR = ("JAN", "FEB", "MAR", "APR", "MAY", "JUN",
+               "JUL", "AUG", "SEP", "OCT", "NOV", "DEC")
+_MONTH_NUM = {m: i + 1 for i, m in enumerate(_MONTH_ABBR)}
+XBRL_RETRY_MINUTES = 60
+XBRL_MONEY_TOL = 0.05  # Rs Cr; XBRL facts are exact, PDF is rounded
+XBRL_EPS_TOL = 0.01
+
+
+def parse_an_dt_date(raw):
+    """NSE an_dt -> date, or None (tries both known formats)."""
+    raw = (raw or "").strip()
+    for fmt in ("%d-%b-%Y %H:%M:%S", "%d-%b-%Y"):
+        try:
+            return datetime.strptime(raw, fmt).date()
+        except ValueError:
+            continue
+    return None
+
+
+def infer_qe_date(an_dt_raw):
+    """Filing date -> quarter-end in NSE API format ("30-SEP-2026").
+
+    The last quarter-end STRICTLY before the filing date: results
+    are never filed the same day the quarter ends, so a filing
+    dated exactly on a quarter-end belongs to the previous
+    quarter. None when the filing date does not parse.
+    """
+    d = parse_an_dt_date(an_dt_raw)
+    if d is None:
+        return None
+    cands = []
+    for month, day in ((3, 31), (6, 30), (9, 30), (12, 31)):
+        for year in (d.year, d.year - 1):
+            try:
+                q = datetime(year, month, day).date()
+            except ValueError:
+                continue
+            if q < d:
+                cands.append(q)
+    if not cands:
+        return None
+    q = max(cands)
+    return f"{q.day:02d}-{_MONTH_ABBR[q.month - 1]}-{q.year:04d}"
+
+
+def qe_api_to_iso(qe_api):
+    """'30-SEP-2026' -> '2026-09-30', or None on a bad value."""
+    try:
+        day, mon, year = (qe_api or "").strip().split("-")
+        return f"{int(year):04d}-{_MONTH_NUM[mon.upper()]:02d}" \
+               f"-{int(day):02d}"
+    except (ValueError, KeyError):
+        return None
+
+
+def iso_to_qe_api(iso):
+    """'2026-09-30' -> '30-SEP-2026', or None on a bad value."""
+    try:
+        year, month, day = (int(x) for x in (iso or "").split("-"))
+        return f"{day:02d}-{_MONTH_ABBR[month - 1]}-{year:04d}"
+    except (ValueError, IndexError):
+        return None
+
+
+def quarter_label_from_iso(iso):
+    """'2026-09-30' -> 'Q2 FY27' (same mapping as results_parser)."""
+    try:
+        year, month, _day = (int(x) for x in (iso or "").split("-"))
+    except ValueError:
+        return None
+    if 4 <= month <= 6:
+        q, fy = "Q1", year + 1
+    elif 7 <= month <= 9:
+        q, fy = "Q2", year + 1
+    elif 10 <= month <= 12:
+        q, fy = "Q3", year + 1
+    else:
+        q, fy = "Q4", year
+    return f"{q} FY{fy % 100:02d}"
+
+
+def prior_year_iso(iso):
+    """Same quarter-end one year earlier ('2026-09-30'->'2025-09-30')."""
+    try:
+        year, month, day = (int(x) for x in (iso or "").split("-"))
+        return f"{year - 1:04d}-{month:02d}-{day:02d}"
+    except ValueError:
+        return None
+
+
+def prev_quarter_end_iso(iso):
+    """Previous quarter-end ('2026-09-30'->'2026-06-30')."""
+    try:
+        year, month, _day = (int(x) for x in (iso or "").split("-"))
+    except ValueError:
+        return None
+    prev = {3: (year - 1, 12, 31), 6: (year, 3, 31),
+            9: (year, 6, 30), 12: (year, 9, 30)}.get(month)
+    if prev is None:
+        return None
+    py, pm, pd = prev
+    return f"{py:04d}-{pm:02d}-{pd:02d}"
+
+
+def xbrl_entry_age_days(entry):
+    """Entry age in days (an_dt first, posting date as fallback).
+
+    999 when neither date parses: an entry with no usable date is
+    corrupt and must expire rather than retry forever.
+    """
+    today = datetime.strptime(ist_today(), "%Y-%m-%d").date()
+    d = parse_an_dt_date(entry.get("an_dt") or "")
+    if d is not None:
+        return (today - d).days
+    try:
+        d = datetime.strptime(entry.get("date") or "", "%Y-%m-%d").date()
+        return (today - d).days
+    except ValueError:
+        return 999
+
+
+def xbrl_entry_date_stale(entry, today_str):
+    """True when the posting date is over 7 days old.
+
+    Checked BEFORE any network call, so stale entries (e.g. the
+    nightly prune's leftovers) never cost an API request. A
+    missing/unparseable posting date is not stale by itself —
+    the an_dt age check decides those.
+    """
+    try:
+        d = datetime.strptime(entry.get("date") or "",
+                              "%Y-%m-%d").date()
+        today = datetime.strptime(today_str, "%Y-%m-%d").date()
+        return (today - d).days > MAX_AGE_DAYS
+    except ValueError:
+        return False
+
+
+def xbrl_entry_due(entry, now):
+    """True when the entry may be attempted now (throttle).
+
+    One attempt per hour per entry on normal runs; the nightly
+    pass bypasses this with force=True. An unparseable stamp is
+    treated as due (a corrupt stamp must not block recovery).
+    """
+    raw = entry.get("xbrl_try")
+    if not raw:
+        return True
+    try:
+        last = datetime.fromisoformat(raw)
+    except ValueError:
+        return True
+    # ist_now() is tz-aware while a stored stamp may be naive (or
+    # vice versa after a code change): compare naive-vs-naive so
+    # a tz mismatch can never crash the gate (a crash here would
+    # silently skip every retry, as the gate swallows errors).
+    if last.tzinfo is not None:
+        last = last.replace(tzinfo=None)
+    if now.tzinfo is not None:
+        now = now.replace(tzinfo=None)
+    return (now - last).total_seconds() >= XBRL_RETRY_MINUTES * 60
+
+
+def _stamp_xbrl_try(entry):
+    entry["xbrl_try"] = ist_now().isoformat()
+
+
+def _integrated_rows(symbol, from_d, to_d):
+    """Windowed integrated-filing rows (equities, then SME fallback).
+
+    An empty equities window is retried once under index=sme:
+    SME filers use the same endpoint shape, and a genuinely
+    empty window costs one extra call, throttled per entry.
+    Raises on persistent failure (caller treats as pending).
+    """
+    rows = fetch_integrated_rows(symbol, from_date=from_d, to_date=to_d)
+    if not rows:
+        rows = fetch_integrated_rows(symbol, from_date=from_d,
+                                     to_date=to_d, index="sme")
+    return rows
+
+
+def pick_xbrl_row_for_entry(rows, entry):
+    """(row, basis) for one pending entry, or (None, None).
+
+    Basis policy, same as the PDF path: Consolidated first,
+    Standalone fallback. Selection is by the entry's recorded
+    quarter-end; when that yields nothing (e.g. the inferred
+    quarter-end was wrong for a delayed filing), the fallback
+    picks the Financials row whose broadcast is closest to the
+    filing's an_dt within 7 days and re-applies the basis
+    policy inside that row's quarter. Governance rows are never
+    selected (select_xbrl_row filters the type), and rows
+    without an XBRL URL are never selected either.
+    """
+    qe = entry.get("qe") or infer_qe_date(entry.get("an_dt") or "")
+    if qe:
+        for basis in ("Consolidated", "Standalone"):
+            row = select_xbrl_row(rows, qe, basis)
+            if row is not None:
+                return row, basis
+    an_dt = parse_an_dt_date(entry.get("an_dt") or "")
+    if an_dt is not None:
+        an_dt = datetime(an_dt.year, an_dt.month, an_dt.day)
+        best = []
+        for r in rows:
+            if r.get("type") != "Integrated Filing- Financials":
+                continue
+            if not r.get("xbrl"):
+                continue
+            try:
+                bc = datetime.strptime(r.get("broadcast_Date") or "",
+                                       "%d-%b-%Y %H:%M:%S")
+            except ValueError:
+                continue
+            gap = abs((bc - an_dt).total_seconds())
+            if gap <= 7 * 86400:
+                best.append((gap, r))
+        if best:
+            best.sort(key=lambda t: t[0])
+            qe2 = best[0][1].get("qe_Date")
+            for basis in ("Consolidated", "Standalone"):
+                row = select_xbrl_row(rows, qe2, basis)
+                if row is not None:
+                    return row, basis
+    return None, None
+
+
+def resolve_xbrl_row(rows, row, basis):
+    """(row, xml_bytes, refusal) for the selected row.
+
+    When both an Original and a Revision exist for the same
+    quarter+basis, BOTH downloads are compared: identical bytes
+    -> the Original is used; differing bytes -> refusal
+    ("revision-differs"), never a blind pick. A lone Revision
+    (no Original) is used as-is — there is nothing to compare
+    against. Download failures raise (caller treats as pending).
+    """
+    qe_api = row.get("qe_Date")
+    if row.get("type_Sub") == "Original":
+        revs = [r for r in rows
+                if r.get("type") == "Integrated Filing- Financials"
+                and r.get("qe_Date") == qe_api
+                and r.get("consolidated") == basis
+                and r.get("type_Sub") == "Revision"
+                and r.get("xbrl")]
+        orig_xml = download_xbrl(row["xbrl"])
+        for rev in revs:
+            if download_xbrl(rev["xbrl"]) != orig_xml:
+                return row, None, "revision-differs"
+        return row, orig_xml, None
+    return row, download_xbrl(row["xbrl"]), None
+
+
+def try_pdf_parse(pdf_url_):
+    """Best-effort PDF parse for the disagreement check, or None.
+
+    Re-downloads the filing's PDF and runs the embedded+layout
+    parse chain (mirroring process_item, minus OCR: OCR already
+    ran at original post time and failed, and re-running it per
+    XBRL attempt would cost minutes per entry). None means "no
+    PDF parse available" — download failure, invalid PDF, or
+    unparseable text — in which case the XBRL build stands
+    alone and no disagreement check is possible.
+    """
+    try:
+        r = requests.get(pdf_url_, headers=HEADERS, timeout=60)
+        r.raise_for_status()
+        pdf = r.content
+    except Exception:
+        return None
+    if not pdf_looks_valid(pdf):
+        return None
+    parsed = None
+    text = None
+    try:
+        text = extract_text(pdf)
+    except Exception:
+        text = None
+    if text is not None:
+        try:
+            parsed = parse_results(text)
+        except Exception:
+            parsed = None
+        if parsed is None or parsed.get("basis") == "Standalone":
+            try:
+                layout = extract_layout_text(pdf)
+            except Exception:
+                layout = None
+            if layout:
+                try:
+                    retry = parse_results(text, layout_text=layout)
+                except Exception:
+                    retry = None
+                if retry is not None and retry.get("basis") == "Consolidated":
+                    parsed = retry
+    return parsed
+
+
+def _pct_change(cur, base):
+    if cur is None or base is None or base == 0:
+        return None
+    return (cur / base - 1.0) * 100.0
+
+
+def _pct_signed_change(cur, base):
+    if cur is None or base is None or base == 0:
+        return None
+    return (cur - base) / abs(base) * 100.0
+
+
+def adopt_pdf_comparatives(xbrl_parsed, pdf_parsed):
+    """XBRL card with the PDF's printed comparatives, recomputed.
+
+    Only the comparative columns (previous, year-ago) are taken
+    from the PDF; the current-quarter triple stays 100% XBRL.
+    A PDF comparative is adopted only when it is non-None, so a
+    blanked PDF value never erases an XBRL one. All derived
+    fields (QoQ/YoY, PAT Margin, rating, reason) are recomputed
+    from the merged triple — the XBRL rating is never kept
+    alongside PDF comparatives.
+    """
+    out = dict(xbrl_parsed)
+    for key in ("sales", "other", "total", "pat", "eps"):
+        xv = xbrl_parsed.get(key)
+        pv = pdf_parsed.get(key)
+        if xv is None or pv is None:
+            continue
+        out[key] = (xv[0],
+                    pv[1] if pv[1] is not None else xv[1],
+                    pv[2] if pv[2] is not None else xv[2])
+    s, sp, sl = out["sales"]
+    o, op, ol = out["other"]
+    t, tp, tl = out["total"]
+    p, pp, pl = out["pat"]
+    e = out["eps"] or (None, None, None)
+    out["sales_qoq"] = _pct_change(s, sp)
+    out["sales_yoy"] = _pct_change(s, sl)
+    out["pat_qoq"] = _pct_signed_change(p, pp)
+    out["pat_yoy"] = _pct_signed_change(p, pl)
+    out["total_qoq"] = _pct_change(t, tp)
+    out["total_yoy"] = _pct_change(t, tl)
+    out["eps_qoq"] = _pct_change(e[0], e[1]) if out["eps"] else None
+    out["eps_yoy"] = _pct_change(e[0], e[2]) if out["eps"] else None
+
+    def margin(pat_v, sales_v):
+        return (pat_v / sales_v * 100.0) if sales_v else None
+
+    out["pat_margin"] = (margin(p, s),
+                         margin(pp, sp) if sp else None,
+                         margin(pl, sl) if sl else None)
+    rating, reason = verdict(out["sales_yoy"], out["pat_yoy"])
+    out["rating"] = rating
+    out["reason"] = reason
+    return out
+
+
+def xbrl_disagrees(xbrl_parsed, pdf_parsed):
+    """(True, detail) when the current-quarter values conflict.
+
+    Compared only where BOTH sources have a value: a blanked PDF
+    metric (e.g. EPS blanked by its ratio guard) is not a value
+    and cannot disagree. Money tolerance 0.05 Cr, EPS 0.01 —
+    XBRL facts are exact while PDF tables are rounded, so a
+    smaller tolerance would refuse on rounding alone.
+    """
+    for key in ("sales", "other", "total", "pat"):
+        a = xbrl_parsed[key][0]
+        b = pdf_parsed[key][0]
+        if a is not None and b is not None and abs(a - b) > XBRL_MONEY_TOL:
+            return True, f"{key} XBRL {a} vs PDF {b}"
+    ea = (xbrl_parsed["eps"] or (None, None, None))[0]
+    eb = (pdf_parsed["eps"] or (None, None, None))[0]
+    if ea is not None and eb is not None and abs(ea - eb) > XBRL_EPS_TOL:
+        return True, f"eps XBRL {ea} vs PDF {eb}"
+    return False, ""
+
+
+def attempt_xbrl_recovery(entry, token, chat_id, state):
+    """Try to recover one pending entry from its XBRL document.
+
+    Returns "posted" (card sent, caller removes the entry),
+    "already-card" (a card already exists for this filing, caller
+    removes the stale entry), "pending" (tried, keep retrying
+    under throttle until expiry), or "blocked" (a permanent
+    refusal — revision conflict, PDF disagreement, or a
+    taxonomy this code does not map — recorded on the entry so
+    future runs skip it without further API calls).
+    Network/parse exceptions propagate to the caller, which
+    treats them as "pending" (a transient failure is never a
+    permanent refusal).
+
+    IRON DISAGREEMENT RULE (XBRL Phase 1):
+    NEVER blend sources within one card's current-quarter triple
+    (all five metrics from one source). PDF comparatives (QoQ/YoY
+    columns as printed in the current filing) always win over
+    XBRL-derived comparatives. An XBRL build whose current-quarter
+    values disagree with an available PDF parse beyond 0.05 Cr
+    (money) / 0.01 (EPS) is REFUSED for that filing (log the
+    disagreement, keep the existing post standing). On
+    disagreement, NEVER guess: fall back to safe text/screenshot,
+    or keep the already-posted form standing — never post a
+    second, conflicting card.
+    """
+    symbol = entry.get("symbol") or "?"
+    company = entry.get("company") or symbol
+    pdf_url_ = entry.get("url") or ""
+    an_dt = entry.get("an_dt") or ""
+    ukey = filing_url_key(pdf_url_)
+    cards, _ = archive_url_keys(state)
+    if ukey and ukey in cards:
+        print(f"[{symbol}] XBRL: card already posted; dropping entry")
+        return "already-card"
+    an_date = parse_an_dt_date(an_dt)
+    if an_date is None:
+        an_date = datetime.strptime(ist_today(), "%Y-%m-%d").date()
+    from_d = (an_date - timedelta(days=7)).strftime("%d-%m-%Y")
+    to_d = (an_date + timedelta(days=7)).strftime("%d-%m-%Y")
+    rows = _integrated_rows(symbol, from_d, to_d)
+    row, basis = pick_xbrl_row_for_entry(rows, entry)
+    if row is None:
+        print(f"[{symbol}] XBRL: no row yet for this filing; keep pending")
+        _stamp_xbrl_try(entry)
+        return "pending"
+    qe_api = row.get("qe_Date")
+    qe_iso = qe_api_to_iso(qe_api)
+    if qe_iso is None:
+        print(f"[{symbol}] XBRL: unparseable qe_Date {qe_api!r}")
+        _stamp_xbrl_try(entry)
+        return "pending"
+    row, xml, refusal = resolve_xbrl_row(rows, row, basis)
+    if refusal == "revision-differs":
+        print(f"[{symbol}] XBRL: Original and Revision differ; refused")
+        entry["xbrl_blocked"] = "revision-differs"
+        _stamp_xbrl_try(entry)
+        return "blocked"
+    tax = detect_taxonomy(xml)
+    if tax in ("banking", "other"):
+        print(f"[{symbol}] XBRL: {tax} taxonomy refused, never guessed")
+        entry["xbrl_blocked"] = f"{tax}-taxonomy"
+        _stamp_xbrl_try(entry)
+        return "blocked"
+    if tax is None:
+        print(f"[{symbol}] XBRL: unparseable XML; keep pending")
+        _stamp_xbrl_try(entry)
+        return "pending"
+    # Prior-year document (same basis): REQUIRED for a real
+    # rating — without YoY, verdict() returns "Results Filed",
+    # which must never be posted as a card. Best-effort only
+    # in the sense that a missing prior-year row keeps the
+    # entry pending (the document is old; it should exist).
+    py_iso = prior_year_iso(qe_iso)
+    py_xml = None
+    if py_iso is not None:
+        py_date = datetime.strptime(py_iso, "%Y-%m-%d").date()
+        py_rows = _integrated_rows(
+            symbol, py_date.strftime("%d-%m-%Y"),
+            (py_date + timedelta(days=60)).strftime("%d-%m-%Y"))
+        py_row = select_xbrl_row(py_rows, iso_to_qe_api(py_iso),
+                                 basis)
+        if py_row is not None:
+            py_xml = download_xbrl(py_row["xbrl"])
+    # Previous-quarter document (best effort, non-Q2 only):
+    # Q2 derives the previous quarter exactly as HY - Q.
+    prev_xml = None
+    ql = quarter_label_from_iso(qe_iso)
+    if ql is not None and not ql.startswith("Q2"):
+        prev_iso = prev_quarter_end_iso(qe_iso)
+        if prev_iso is not None:
+            prev_date = datetime.strptime(prev_iso, "%Y-%m-%d").date()
+            prev_rows = _integrated_rows(
+                symbol, prev_date.strftime("%d-%m-%Y"),
+                (prev_date + timedelta(days=60)).strftime("%d-%m-%Y"))
+            prev_row = select_xbrl_row(prev_rows,
+                                       iso_to_qe_api(prev_iso), basis)
+            if prev_row is not None:
+                prev_xml = download_xbrl(prev_row["xbrl"])
+    parsed = xbrl_build_card(xml, qe_iso, basis,
+                             prior_year_xml=py_xml,
+                             prev_quarter_xml=prev_xml)
+    if parsed is None:
+        print(f"[{symbol}] XBRL: build refused "
+              f"({xbrl_parser.LAST_REFUSAL}); keep pending")
+        _stamp_xbrl_try(entry)
+        return "pending"
+    if parsed["rating"] == "Results Filed":
+        print(f"[{symbol}] XBRL: no YoY rating (prior-year doc missing); "
+              "keep pending")
+        _stamp_xbrl_try(entry)
+        return "pending"
+    pdf_parsed = try_pdf_parse(pdf_url_)
+    if pdf_parsed is not None:
+        bad, detail = xbrl_disagrees(parsed, pdf_parsed)
+        if bad:
+            print(f"[{symbol}] XBRL: PDF disagreement ({detail}); refused, "
+                  "existing post stands")
+            entry["xbrl_blocked"] = "pdf-xbrl-disagreement"
+            _stamp_xbrl_try(entry)
+            return "blocked"
+        if pdf_parsed.get("basis") == basis:
+            parsed = adopt_pdf_comparatives(parsed, pdf_parsed)
+            if parsed["rating"] == "Results Filed":
+                print(f"[{symbol}] XBRL: adoption lost the rating; "
+                      "keep pending")
+                _stamp_xbrl_try(entry)
+                return "pending"
+    remote_cards = remote_card_url_keys()
+    if ukey and remote_cards is not None and ukey in remote_cards:
+        print(f"[{symbol}] XBRL: remote card already posted; dropping entry")
+        return "already-card"
+    q_labels = quarter_month_labels(parsed["quarter_label"])
+    with tempfile.TemporaryDirectory() as td:
+        data = card_data_from_parse(company, symbol, parsed, an_dt,
+                                    q_labels)
+        img = os.path.join(td, f"{symbol}.png")
+        render_card(data, img)
+        send_photo(token, chat_id, img,
+                   build_caption(symbol, company, parsed, pdf_url_),
+                   pdf_url_, symbol)
+    print(f"[{symbol}] XBRL recovered {parsed['rating']} card "
+          f"({basis}, {parsed['quarter_label']})")
+    record_archive(state, symbol, company, parsed["rating"],
+                   parsed.get("basis", ""), parsed["quarter_label"],
+                   parsed["sales"][0], parsed["pat"][0],
+                   (parsed["eps"] or (None, None, None))[0],
+                   pdf_url_, an_dt, xbrl=row["xbrl"])
+    return "posted"
+
+
+def maybe_xbrl_retry(token, chat_id, state, force=False):
+    """Retry pending text_posts entries from XBRL (see module doc).
+
+    Returns the set of entry keys recovered (card posted, or a
+    card already existed) — the caller removes those entries.
+    Entries are skipped without any network call when blocked,
+    date-stale, expired (>7 days), or throttled (normal runs
+    only; force=True bypasses the throttle for the nightly
+    pass). State is saved once at the end when anything changed
+    (a recovery, a removal, or a try-stamp). Never raises: a
+    per-entry failure is logged and left pending, and a bug in
+    this gate must never break results posting.
+    """
+    try:
+        dg = state.get("digest", {})
+        entries = list(dg.get("text_posts", []))
+        if not entries:
+            return set()
+        now = ist_now()
+        today_str = ist_today()
+        cards, _ = archive_url_keys(state)
+        recovered = set()
+        changed = False
+        for e in entries:
+            key = e.get("key")
+            if key in recovered:
+                continue
+            if e.get("xbrl_blocked"):
+                continue
+            ukey = filing_url_key(e.get("url") or "")
+            if ukey and ukey in cards:
+                recovered.add(key)
+                changed = True
+                continue
+            if xbrl_entry_date_stale(e, today_str):
+                continue
+            if xbrl_entry_age_days(e) > MAX_AGE_DAYS:
+                continue
+            if not force and not xbrl_entry_due(e, now):
+                continue
+            try:
+                status = attempt_xbrl_recovery(e, token, chat_id, state)
+            except Exception as exc:
+                print(f"[{e.get('symbol')}] XBRL recovery failed ({exc})")
+                _stamp_xbrl_try(e)
+                changed = True
+                continue
+            if status in ("posted", "already-card"):
+                recovered.add(key)
+                changed = True
+            else:
+                changed = True
+        if recovered:
+            dg["text_posts"] = [e for e in entries
+                                if e.get("key") not in recovered]
+        if changed:
+            save_state(state)
+        return recovered
+    except Exception as exc:
+        print(f"[xbrl] retry gate failed ({exc})")
+        return set()
+
+# ================= end XBRL Phase 1 recovery =================
 
 
 def _nightly_retry_entries(token, chat_id, state, entries):
@@ -796,10 +1691,30 @@ def maybe_nightly_pass(token, chat_id, state, save_state):
              and e.get("date") == today]
     if fresh:
         posted |= _nightly_retry_entries(token, chat_id, state, fresh)
-    # Drop retried-as-cards entries and stale entries.
-    dg["text_posts"] = [
-        e for e in dg.get("text_posts", [])
-        if e.get("key") not in posted and e.get("date") == today]
+    # XBRL recovery (forced: the nightly pass ignores the hourly
+    # throttle) for every still-pending entry, not just today's:
+    # a filing whose XBRL landed late is recovered here even if
+    # its PDF retry already ran earlier in the day.
+    try:
+        posted |= maybe_xbrl_retry(token, chat_id, state, force=True)
+    except Exception as exc:
+        print(f"[nightly] XBRL retry skipped ({exc})")
+    # Drop retried-as-cards entries and entries older than the
+    # 7-day retry window. Entries from earlier in the window are
+    # KEPT (previous behaviour dropped every non-today entry,
+    # which would have killed the XBRL retry window for filings
+    # that failed on earlier days).
+    def _keep(e):
+        if e.get("key") in posted:
+            return False
+        try:
+            d = datetime.strptime(e.get("date") or "",
+                                  "%Y-%m-%d").date()
+            today_d = datetime.strptime(today, "%Y-%m-%d").date()
+            return 0 <= (today_d - d).days <= MAX_AGE_DAYS
+        except ValueError:
+            return False
+    dg["text_posts"] = [e for e in dg.get("text_posts", []) if _keep(e)]
     dg["nightly_pass"] = today
     save_state(state)
     print(f"[nightly] final pass done for {today}")
@@ -827,8 +1742,15 @@ def main():
         feed = []
     results = [it for it in feed if is_results_filing(it)]
     state = load_state()
+    # Queue/overlap guard: pick up any state pushed by a previous
+    # run after this run's checkout, before deciding what is new.
+    resync_state_from_git(state)
     seen = set(state.get("seen", []))
-    new = [it for it in results if filing_key(it) not in seen]
+    cards, placeholders = archive_url_keys(state)
+    already_posted = cards | placeholders
+    new = [it for it in results
+           if filing_key(it) not in seen
+           and filing_url_key(pdf_url(it)) not in already_posted]
     print(f"results filings in feed: {len(results)}; new: {len(new)}")
 
     backfill = []
@@ -857,8 +1779,13 @@ def main():
         return 2
     for it in backfill + new:
         # Live re-check: a filing seen via the backfill pass must
-        # not post again from the feed pass (or vice versa).
+        # not post again from the feed pass (or vice versa) — by
+        # key AND by filing URL, so the same filing under a
+        # different key cannot slip through either.
         if filing_key(it) in state["seen"]:
+            continue
+        _c, _p = archive_url_keys(state)
+        if filing_url_key(pdf_url(it)) in (_c | _p):
             continue
         if filing_age_days(it) > MAX_AGE_DAYS:
             print(f"[{it.get('symbol')}] older than {MAX_AGE_DAYS}d, skipping")
@@ -866,6 +1793,13 @@ def main():
             save_state(state)
             continue
         process_item(it, token, chat_id, state)
+    try:
+        # XBRL recovery for filings that posted as text/screenshot
+        # on earlier runs (throttled; a failure here never breaks
+        # posting — maybe_xbrl_retry itself never raises).
+        maybe_xbrl_retry(token, chat_id, state)
+    except Exception as exc:
+        print(f"[xbrl] retry skipped ({exc})")
     try:
         # Lazy import: a digest bug must never break results posting.
         from digest import maybe_run_digests

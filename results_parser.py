@@ -231,6 +231,19 @@ def _row_values(line):
     return _row_values_tokens(line)
 
 
+_UNIT_TITLE_RX = re.compile(
+    r"rs\.?\s+in\s+(crore|lakhs?|lacs?|millions?)", re.IGNORECASE)
+
+
+def _unit_from_title(title_word):
+    w = title_word.lower()
+    if "lakh" in w or "lac" in w:
+        return 0.01
+    if "million" in w:
+        return 0.1
+    return 1.0
+
+
 def _find_unit_factor(text, revenue_pos):
     """Units from the header above the revenue row.
 
@@ -238,11 +251,26 @@ def _find_unit_factor(text, revenue_pos):
     does NOT contain "lakh", so the old substring check missed it
     and read lakh figures as crore (100x too big). The word-boundary
     regex below catches lakhs/lakh/lacs/lac.
+
+    Title precedence (correctness fix): an explicit unit TITLE
+    ("(Rs. in Crore)") in the header window wins over any stray
+    unit word elsewhere in that window. A stray "lakhs" mention
+    (e.g. in a note or a prior table's header) used to beat the
+    table's own crore title and shrink every figure 100x, while
+    every scale-invariant guard (cross-check, half-year, EPS
+    ratio, magnitude) still passed. The LAST title match in the
+    window is the table's own title (titles sit just above their
+    table). Only when no title is present does the old bare-word
+    scan run.
     """
-    head = text[max(0, revenue_pos - 3000):revenue_pos].lower()
-    if re.search(r"\blakhs?\b|\blacs?\b", head):
+    head = text[max(0, revenue_pos - 3000):revenue_pos]
+    titles = _UNIT_TITLE_RX.findall(head)
+    if titles:
+        return _unit_from_title(titles[-1])
+    head_low = head.lower()
+    if re.search(r"\blakhs?\b|\blacs?\b", head_low):
         return 0.01
-    if "million" in head:
+    if "million" in head_low:
         return 0.1
     return 1.0
 
@@ -406,16 +434,26 @@ def _parse_segment(text):
         return _refuse("no-revenue-row")
     rev_pos = sum(len(l) + 1 for l in lines[:rev_idx])
     factor = _find_unit_factor(text, rev_pos)
-    if factor == 1.0:
+    if factor == 1.0 and not _UNIT_TITLE_RX.search(
+            text[max(0, rev_pos - 3000):rev_pos]):
         # pypdf sometimes orders a table's unit title after the
         # table body, outside the window above. Fall back to the
-        # document's unit title line ("(Rs. in Lakhs ...)") when
-        # one exists; prose mentions do not match that pattern.
-        m = re.search(r"rs\.?\s+in\s+(lakhs?|lacs|millions?)", text,
-                      re.IGNORECASE)
-        if m:
-            factor = 0.01 if ("lakh" in m.group(1).lower()
-                              or "lac" in m.group(1).lower()) else 0.1
+        # document's unit title lines ("(Rs. in Lakhs ...)") when
+        # they exist; prose mentions do not match that pattern.
+        # Same title-precedence rule as the window scan: when
+        # titles disagree, the one closest to the revenue row is
+        # the table's own title — a bare first-match scan could
+        # pick a stray lakhs title from another table and shrink
+        # crore figures 100x.
+        titles = [(m.start(), _unit_from_title(m.group(1)))
+                  for m in _UNIT_TITLE_RX.finditer(text)]
+        if titles:
+            units = {u for _, u in titles}
+            if len(units) == 1:
+                factor = titles[0][1]
+            else:
+                _, factor = min(titles,
+                                key=lambda t: abs(t[0] - rev_pos))
 
     rev = _row_values(lines[rev_idx])
     if len(rev) < 3:
@@ -440,8 +478,10 @@ def _parse_segment(text):
         if len(vals) >= 3:
             total = (vals[0] * factor, vals[1] * factor, vals[2] * factor)
 
+    other_derived = False
     if other is None and total is not None:
         other = (total[0] - sales, total[1] - sales_prev, total[2] - sales_ly)
+        other_derived = True
     if total is None and other is not None:
         total = (sales + other[0], sales_prev + other[1], sales_ly + other[2])
     if other is None or total is None:
@@ -449,6 +489,19 @@ def _parse_segment(text):
     # Cross-check: Total Income must equal Revenue + Other Income.
     if abs(total[0] - (sales + other[0])) > max(MONEY_TOL, 0.005 * total[0]):
         return _refuse("cross-check-mismatch")
+    if other_derived:
+        # The cross-check above is VACUOUS when Other Income was
+        # derived (total - sales == total by construction), so a
+        # shredded-layout sales/total pair would pass it. Derived
+        # Other is real income, so it must be non-negative and no
+        # larger than Total Income in every period; a derived
+        # value outside that range means at least one of the two
+        # rows is wrong, and the card is refused rather than
+        # shown with a fitted number. The Q2 half-year guard below
+        # remains the second line of defence for Q2 filings.
+        for o, t in zip(other, total):
+            if t > 0 and not (0.0 <= o <= t):
+                return _refuse("derived-other-implausible")
 
     # PAT label varies by filing: "Profit/(Loss) For the Period",
     # "Net Profit/(Loss) after tax", "Profit after tax". Try the
@@ -534,10 +587,16 @@ def _parse_segment(text):
     # EPS<->PAT sign check: EPS = PAT / shares, so their signs must
     # agree for the same period. A mismatch means the EPS row came
     # from a different basis or row than the PAT row (basis-mixing),
-    # so refuse rather than show a contradictory card.
-    if (eps is not None and eps[0] is not None and pat_c != 0
-            and eps[0] != 0 and (eps[0] > 0) != (pat_c > 0)):
-        return _refuse("eps-pat-sign-mismatch")
+    # so refuse rather than show a contradictory card. Checked for
+    # ALL three periods, not just the current one: the old
+    # current-only check let a wrong previous/ year-ago EPS (from
+    # a mangled or mixed row) onto a card whose current EPS looked
+    # fine. Zero on either side skips that period (sign undefined).
+    if eps is not None:
+        for e, p in zip(eps, (pat_c, pat_p, pat_l)):
+            if (e is not None and e != 0 and p != 0
+                    and (e > 0) != (p > 0)):
+                return _refuse("eps-pat-sign-mismatch")
 
     # EPS<->PAT ratio guard: the share count barely moves quarter
     # to quarter, so implied shares (PAT / EPS) must agree across
@@ -595,6 +654,7 @@ def _parse_segment(text):
     return {
         "sales": (sales, sales_prev, sales_ly),
         "other": other,
+        "other_derived": other_derived,
         "total": total,
         "pat": (pat_c, pat_p, pat_l),
         "eps": eps,

@@ -651,8 +651,14 @@ def maybe_run_digests(token, chat_id, state, save_fn, now=None):
         except Exception as exc:
             print(f"[digest] morning calendar failed ({exc})")
 
+    # Wrap and FII/DII carry SEPARATE flags: the old single-flag
+    # design reposted the wrap image when the FII/DII send failed
+    # after it (flag unset, both resent next run). Each image is
+    # now flagged + saved immediately after its own send, so a
+    # partial failure resumes with only the missing image.
     if (_in_window(now, 19, 30, 20, 0)
-            and dg.get("wrap") != today.isoformat()):
+            and (dg.get("wrap") != today.isoformat()
+                 or dg.get("fiidii") != today.isoformat())):
         try:
             indices, ts = fetch_indices()
             fiidii = fetch_nse_json(FIIDII_URL)
@@ -697,38 +703,41 @@ def maybe_run_digests(token, chat_id, state, save_fn, now=None):
                     dec = int(breadth.get("declines"))
                 except (TypeError, ValueError):
                     adv, dec = 0, 0
-                _post_image(
-                    token, chat_id,
-                    lambda p: render_wrap_image(
-                        fmt_date(today),
-                        (nifty_last, nifty_chg, nifty_pct), (adv, dec),
-                        ups, downs, fmt_cr(fii_net), fmt_cr(dii_net), p),
-                    f"📊 Market Wrap — {fmt_date(today)}\n"
-                    f"NIFTY 50: {nifty_last:,.2f} "
-                    f"({nifty_chg:+,.2f}, {nifty_pct:+.2f}%)\n"
-                    f"FII net {fmt_cr(fii_net)} • "
-                    f"DII net {fmt_cr(dii_net)} (provisional)\n\n"
-                    f"{DISCLAIMER}")
-                _post_image(
-                    token, chat_id,
-                    lambda p: render_fiidii_image(
-                        fmt_date(today),
-                        (_f(fii_row, "buyValue"),
-                         _f(fii_row, "sellValue"), fii_net),
-                        (_f(dii_row, "buyValue"),
-                         _f(dii_row, "sellValue"), dii_net), p),
-                    f"FII / DII — {fmt_date(today)} "
-                    "(provisional, cash market)\n"
-                    f"FII: net {fmt_cr(fii_net)} "
-                    f"(buy {fmt_cr(_f(fii_row, 'buyValue'))} / "
-                    f"sell {fmt_cr(_f(fii_row, 'sellValue'))})\n"
-                    f"DII: net {fmt_cr(dii_net)} "
-                    f"(buy {fmt_cr(_f(dii_row, 'buyValue'))} / "
-                    f"sell {fmt_cr(_f(dii_row, 'sellValue'))})\n\n"
-                    f"{DISCLAIMER}")
-                dg["wrap"] = today.isoformat()
-                dg["fiidii"] = today.isoformat()
-                save_fn(state)
+                if dg.get("wrap") != today.isoformat():
+                    _post_image(
+                        token, chat_id,
+                        lambda p: render_wrap_image(
+                            fmt_date(today),
+                            (nifty_last, nifty_chg, nifty_pct), (adv, dec),
+                            ups, downs, fmt_cr(fii_net), fmt_cr(dii_net), p),
+                        f"📊 Market Wrap — {fmt_date(today)}\n"
+                        f"NIFTY 50: {nifty_last:,.2f} "
+                        f"({nifty_chg:+,.2f}, {nifty_pct:+.2f}%)\n"
+                        f"FII net {fmt_cr(fii_net)} • "
+                        f"DII net {fmt_cr(dii_net)} (provisional)\n\n"
+                        f"{DISCLAIMER}")
+                    dg["wrap"] = today.isoformat()
+                    save_fn(state)
+                if dg.get("fiidii") != today.isoformat():
+                    _post_image(
+                        token, chat_id,
+                        lambda p: render_fiidii_image(
+                            fmt_date(today),
+                            (_f(fii_row, "buyValue"),
+                             _f(fii_row, "sellValue"), fii_net),
+                            (_f(dii_row, "buyValue"),
+                             _f(dii_row, "sellValue"), dii_net), p),
+                        f"FII / DII — {fmt_date(today)} "
+                        "(provisional, cash market)\n"
+                        f"FII: net {fmt_cr(fii_net)} "
+                        f"(buy {fmt_cr(_f(fii_row, 'buyValue'))} / "
+                        f"sell {fmt_cr(_f(fii_row, 'sellValue'))})\n"
+                        f"DII: net {fmt_cr(dii_net)} "
+                        f"(buy {fmt_cr(_f(dii_row, 'buyValue'))} / "
+                        f"sell {fmt_cr(_f(dii_row, 'sellValue'))})\n\n"
+                        f"{DISCLAIMER}")
+                    dg["fiidii"] = today.isoformat()
+                    save_fn(state)
                 print(f"[digest] market wrap + FII/DII posted for {today}")
         except Exception as exc:
             print(f"[digest] market wrap failed ({exc})")
@@ -875,6 +884,12 @@ def maybe_run_digests(token, chat_id, state, save_fn, now=None):
                     + (f" GMP {gmp_lbl}." if gmp_lbl else "")
                     + f"\n\n{IPO_DISCLAIMER}")
                 posted.add(sym)
+                # Checkpoint immediately: the old code saved
+                # ipo_posted only after ALL IPOs in the hour, so a
+                # failure on the second IPO reposted the first one
+                # next hour. Each card is now durable on its own.
+                dg["ipo_posted"] = sorted(posted)
+                save_fn(state)
                 print(f"[digest] IPO card posted for {sym}")
             dg["ipo_posted"] = sorted(posted)
             dg["ipo_check"] = hour_key

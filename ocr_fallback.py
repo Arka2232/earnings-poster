@@ -40,31 +40,51 @@ def _binaries_available():
     return shutil.which("pdftoppm") and shutil.which("tesseract")
 
 
+def _render_pages(pdf_bytes, td):
+    """Render up to MAX_PAGES pages once; return PNG paths (or []).
+
+    The old code rendered the whole PDF once per psm pass, so a
+    two-pass OCR paid the pdftoppm cost twice. Rendering once and
+    reusing the images for psm 6, psm 4, and any later pass is
+    output-identical (same pixels, same tesseract inputs) and
+    roughly halves OCR wall time on multi-page filings."""
+    pdf_path = os.path.join(td, "filing.pdf")
+    with open(pdf_path, "wb") as fh:
+        fh.write(pdf_bytes)
+    r = subprocess.run(
+        ["pdftoppm", "-png", "-r", "300", "-gray",
+         "-f", "1", "-l", str(MAX_PAGES), pdf_path,
+         os.path.join(td, "pg")],
+        capture_output=True, timeout=300)
+    if r.returncode != 0:
+        return []
+    return sorted(os.path.join(td, f) for f in os.listdir(td)
+                  if f.endswith(".png"))
+
+
+def _ocr_rendered(page_paths, psm):
+    """OCR already-rendered pages with one psm; joined text or None."""
+    texts = []
+    for pg in page_paths:
+        out = subprocess.run(
+            ["tesseract", pg, "stdout", "--psm", str(psm)],
+            capture_output=True, timeout=180)
+        if out.returncode == 0:
+            texts.append(out.stdout.decode("utf-8", "replace"))
+    if not texts:
+        return None
+    return "\n".join(texts)
+
+
 def _ocr_pages(pdf_bytes, psm):
-    """OCR up to MAX_PAGES pages of a PDF, return joined text or None."""
+    """OCR up to MAX_PAGES pages of a PDF, return joined text or None.
+
+    Kept for callers/tests: renders once, then OCRs with one psm."""
     with tempfile.TemporaryDirectory() as td:
-        pdf_path = os.path.join(td, "filing.pdf")
-        with open(pdf_path, "wb") as fh:
-            fh.write(pdf_bytes)
-        r = subprocess.run(
-            ["pdftoppm", "-png", "-r", "300", "-gray",
-             "-f", "1", "-l", str(MAX_PAGES), pdf_path,
-             os.path.join(td, "pg")],
-            capture_output=True, timeout=300)
-        if r.returncode != 0:
+        pages = _render_pages(pdf_bytes, td)
+        if not pages:
             return None
-        pages = sorted(f for f in os.listdir(td) if f.endswith(".png"))
-        texts = []
-        for pg in pages:
-            out = subprocess.run(
-                ["tesseract", os.path.join(td, pg), "stdout",
-                 "--psm", str(psm)],
-                capture_output=True, timeout=180)
-            if out.returncode == 0:
-                texts.append(out.stdout.decode("utf-8", "replace"))
-        if not texts:
-            return None
-        return "\n".join(texts)
+        return _ocr_rendered(pages, psm)
 
 
 def _value_count(line):
@@ -103,20 +123,24 @@ def ocr_parse(pdf_bytes):
     if not _binaries_available():
         return None
     try:
-        t6 = _ocr_pages(pdf_bytes, 6)
-        if t6:
-            parsed = parse_results(t6)
-            if parsed is not None:
-                return parsed
-        t4 = _ocr_pages(pdf_bytes, 4)
-        if t4:
-            parsed = parse_results(t4)
-            if parsed is not None:
-                return parsed
-        if t6 and t4:
-            parsed = parse_results(_merge_texts(t6, t4))
-            if parsed is not None:
-                return parsed
+        with tempfile.TemporaryDirectory() as td:
+            pages = _render_pages(pdf_bytes, td)
+            if not pages:
+                return None
+            t6 = _ocr_rendered(pages, 6)
+            if t6:
+                parsed = parse_results(t6)
+                if parsed is not None:
+                    return parsed
+            t4 = _ocr_rendered(pages, 4)
+            if t4:
+                parsed = parse_results(t4)
+                if parsed is not None:
+                    return parsed
+            if t6 and t4:
+                parsed = parse_results(_merge_texts(t6, t4))
+                if parsed is not None:
+                    return parsed
     except Exception as exc:
         print(f"[ocr] fallback failed ({exc})")
     return None
