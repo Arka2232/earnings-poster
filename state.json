@@ -197,7 +197,8 @@
     "106840621",
     "106840628",
     "106840635",
-    "106840633"
+    "106840633",
+    "106840645"
   ],
   "archive": [
     {
@@ -2884,6 +2885,35 @@
       "filing": "https://nsearchives.nseindia.com/corporate/VESUVIUS_02112026203356_BM_Outcome_Q32026_Final.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:VESUVIUS",
       "t": "02-Nov-2026 20:35:34"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "IDEAFORGE",
+      "c": "Ideaforge Technology Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 91.28500000000001,
+      "pat": 7.748000000000001,
+      "eps": 1.56,
+      "filing": "https://nsearchives.nseindia.com/corporate/IDEAFORGE_02112026204301_Outcome_02112026_FE.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:IDEAFORGE",
+      "t": "02-Nov-2026 20:44:31"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "KKCL",
+      "c": "Kewal Kiran Clothing Limited",
+      "r": "Good",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 373.0,
+      "pat": 54.0,
+      "eps": 7.84,
+      "filing": "https://nsearchives.nseindia.com/corporate/KKCL_02112026193933_Results.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:KKCL",
+      "t": "02-Nov-2026 19:43:25",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751447_02112026075620_WEB.xml"
     }
   ],
   "digest": {
@@ -3164,18 +3194,6 @@
         "xbrl_try": "2026-11-02T20:27:12.116027+00:00"
       },
       {
-        "key": "106840550",
-        "seq_id": "106840550",
-        "symbol": "KKCL",
-        "company": "Kewal Kiran Clothing Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/KKCL_02112026193933_Results.pdf",
-        "an_dt": "02-Nov-2026 19:43:25",
-        "date": "2026-11-02",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-02T19:47:24.721556+00:00"
-      },
-      {
         "key": "106840621",
         "seq_id": "106840621",
         "symbol": "NARMADA",
@@ -3416,6 +3434,7 @@
     "narmada_02112026202155_outcome_of_board_meeting.pdf",
     "epackprefab_02112026202839_outcome.pdf",
     "8591996826_02112026203504_bmoutcome02112026.pdf",
-    "vesuvius_02112026203356_bm_outcome_q32026_final.pdf"
+    "vesuvius_02112026203356_bm_outcome_q32026_final.pdf",
+    "ideaforge_02112026204301_outcome_02112026_fe.pdf"
   ]
 }
