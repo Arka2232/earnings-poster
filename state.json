@@ -192,7 +192,8 @@
     "106840546",
     "106840550",
     "106840555",
-    "106840592"
+    "106840592",
+    "106840612"
   ],
   "archive": [
     {
@@ -2749,6 +2750,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/VIVIANA_02112026195946_OUTCOME_BM_02112026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:VIVIANA",
       "t": "02-Nov-2026 20:01:35"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "PURVA",
+      "c": "Puravankara Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 1032.5,
+      "pat": 83.74,
+      "eps": 3.42,
+      "filing": "https://nsearchives.nseindia.com/corporate/PURVA_02112026201310_SE-intimation.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PURVA",
+      "t": "02-Nov-2026 20:15:16"
     }
   ],
   "digest": {
@@ -3292,6 +3307,7 @@
     "bharatwire_02112026194046_resultssd.pdf",
     "kkcl_02112026193933_results.pdf",
     "sparc_02112026194504_outcomeofbm02112026.pdf",
-    "viviana_02112026195946_outcome_bm_02112026.pdf"
+    "viviana_02112026195946_outcome_bm_02112026.pdf",
+    "purva_02112026201310_se-intimation.pdf"
   ]
 }
