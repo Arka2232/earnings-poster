@@ -153,7 +153,8 @@
     "106840044",
     "106840041",
     "106840059",
-    "106840055"
+    "106840055",
+    "106840081"
   ],
   "archive": [
     {
@@ -1939,6 +1940,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/SPENTEX_BVR_02112026173746_OutcomeFS.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:CLCIND",
       "t": "02-Nov-2026 17:39:13"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "SHEMAROO",
+      "c": "Shemaroo Entertainment Limited",
+      "r": "Positive",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 141.2485,
+      "pat": 0.2273,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/SHEMAROO_02112026173954_Outcome02112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SHEMAROO",
+      "t": "02-Nov-2026 17:44:43"
     }
   ],
   "digest": {
@@ -2459,6 +2474,7 @@
     "bajajindef_02112026173540_outcomeofbm02112025.pdf",
     "rupa_02112026173120_rupa_outcome_02112026.pdf",
     "trident_02112026173929_filing_financial.pdf",
-    "spentex_bvr_02112026173746_outcomefs.pdf"
+    "spentex_bvr_02112026173746_outcomefs.pdf",
+    "shemaroo_02112026173954_outcome02112026.pdf"
   ]
 }
