@@ -371,18 +371,6 @@
         "xbrl_try": "2026-11-02T21:42:48.748582+00:00"
       },
       {
-        "key": "106840198",
-        "seq_id": "106840198",
-        "symbol": "GSLSU",
-        "company": "Global Surfaces Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/GLOBALSURFACES_02112026180606_outcome_Signed.pdf",
-        "an_dt": "02-Nov-2026 18:08:44",
-        "date": "2026-11-02",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-02T21:16:50.506798+00:00"
-      },
-      {
         "key": "106840301",
         "seq_id": "106840301",
         "symbol": "KHAITANLTD",
@@ -3273,6 +3261,21 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:VENTIVE",
       "t": "02-Nov-2026 21:00:50",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751538_02112026094022_WEB.xml"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "GSLSU",
+      "c": "Global Surfaces Limited",
+      "r": "Weak",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 59.876,
+      "pat": -5.401,
+      "eps": -1.25,
+      "filing": "https://nsearchives.nseindia.com/corporate/GLOBALSURFACES_02112026180606_outcome_Signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GSLSU",
+      "t": "02-Nov-2026 18:08:44",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751545_02112026100428_WEB.xml"
     }
   ]
 }
