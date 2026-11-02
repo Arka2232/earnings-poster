@@ -34,9 +34,38 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           BACKFILL_SYMBOLS: ${{ inputs.symbols }}
       - name: Save state
+        # Retry with a semantic state merge on non-fast-forward:
+        # at 1-minute dispatch cadence another run (or a deploy
+        # commit) can land between this run's checkout and its
+        # push, and a single failed push used to mean the next run
+        # reposted everything this run had sent. A textual rebase
+        # of JSON would conflict on the appended arrays, so on
+        # failure we fetch origin, semantically merge our
+        # state.json with origin's (merge_state.py: union of seen
+        # / archive / flags, a card beats a placeholder for the
+        # same filing), re-commit on top of origin, and push
+        # again. After the final attempt still fails, the step
+        # fails LOUDLY (non-zero exit) instead of silently
+        # losing state.
         run: |
           git config user.name "earnings-poster"
           git config user.email "earnings-poster@users.noreply.github.com"
           git add state.json
           git diff --cached --quiet || git commit -m "update seen filings"
-          git push
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              echo "state pushed (attempt $attempt)"
+              exit 0
+            fi
+            echo "push failed (attempt $attempt); merging with origin state"
+            git fetch origin || true
+            cp state.json /tmp/our_state.json
+            git reset --hard origin/main || true
+            python merge_state.py /tmp/our_state.json state.json > /tmp/merged_state.json \
+              && mv /tmp/merged_state.json state.json
+            git add state.json
+            git diff --cached --quiet || git commit -m "update seen filings"
+            sleep $((attempt * 5))
+          done
+          echo "ERROR: state push failed after 5 attempts; posts from this run are NOT recorded and may repost — investigate immediately"
+          exit 1
