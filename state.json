@@ -191,7 +191,8 @@
     "106840547",
     "106840546",
     "106840550",
-    "106840555"
+    "106840555",
+    "106840592"
   ],
   "archive": [
     {
@@ -2734,6 +2735,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/SPARC_02112026194504_OutcomeofBM02112026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SPARC",
       "t": "02-Nov-2026 19:46:12"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "VIVIANA",
+      "c": "Viviana Power Tech Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 117.2081,
+      "pat": 11.679100000000002,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/VIVIANA_02112026195946_OUTCOME_BM_02112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:VIVIANA",
+      "t": "02-Nov-2026 20:01:35"
     }
   ],
   "digest": {
@@ -3276,6 +3291,7 @@
     "tplsectl_02112026193814_sdoutcomeofboardmeeting30092026.pdf",
     "bharatwire_02112026194046_resultssd.pdf",
     "kkcl_02112026193933_results.pdf",
-    "sparc_02112026194504_outcomeofbm02112026.pdf"
+    "sparc_02112026194504_outcomeofbm02112026.pdf",
+    "viviana_02112026195946_outcome_bm_02112026.pdf"
   ]
 }
