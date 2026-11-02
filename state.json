@@ -162,7 +162,8 @@
     "106840157",
     "106840187",
     "106840180",
-    "106840189"
+    "106840189",
+    "106840198"
   ],
   "archive": [
     {
@@ -2104,6 +2105,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/MOHITIND_02112026180454_MILOUTCOMEBM02112026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:MOHITIND",
       "t": "02-Nov-2026 18:07:11"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "GSLSU",
+      "c": "Global Surfaces Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/GLOBALSURFACES_02112026180606_outcome_Signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GSLSU",
+      "t": "02-Nov-2026 18:08:44"
     }
   ],
   "digest": {
@@ -2476,6 +2491,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-02T18:10:26.158756+00:00"
+      },
+      {
+        "key": "106840198",
+        "seq_id": "106840198",
+        "symbol": "GSLSU",
+        "company": "Global Surfaces Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/GLOBALSURFACES_02112026180606_outcome_Signed.pdf",
+        "an_dt": "02-Nov-2026 18:08:44",
+        "date": "2026-11-02",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-02T18:13:25.307738+00:00"
       }
     ],
     "next_cache": "2026-11-01",
@@ -2657,6 +2684,7 @@
     "arvindfasn_02112026175809_bmoutcomeintimation.pdf",
     "kitex_02112026180551_kgl_fr_q2_fy26-27s.pdf",
     "purvigsfc_02112026180250_results.pdf",
-    "mohitind_02112026180454_miloutcomebm02112026.pdf"
+    "mohitind_02112026180454_miloutcomebm02112026.pdf",
+    "globalsurfaces_02112026180606_outcome_signed.pdf"
   ]
 }
