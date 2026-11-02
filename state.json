@@ -185,7 +185,8 @@
     "106840467",
     "106840495",
     "106840493",
-    "106840497"
+    "106840497",
+    "106840511"
   ],
   "archive": [
     {
@@ -2569,6 +2570,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/TATAINVEST_02112026191907_SE_Int_Outcome.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:TATAINVEST",
       "t": "02-Nov-2026 19:19:22"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "DCMFINSERV",
+      "c": "DCM Financial Services Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/DCMFINSERV_02112026192033_Outcome_of_BM_signed_DCM.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:DCMFINSERV",
+      "t": "02-Nov-2026 19:23:29"
     }
   ],
   "digest": {
@@ -2933,6 +2948,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-02T18:49:57.785268+00:00"
+      },
+      {
+        "key": "106840511",
+        "seq_id": "106840511",
+        "symbol": "DCMFINSERV",
+        "company": "DCM Financial Services Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/DCMFINSERV_02112026192033_Outcome_of_BM_signed_DCM.pdf",
+        "an_dt": "02-Nov-2026 19:23:29",
+        "date": "2026-11-02",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-02T19:26:42.654993+00:00"
       }
     ],
     "next_cache": "2026-11-01",
@@ -3137,6 +3164,7 @@
     "kanoharnse2026_02112026190411_outcome_board_meeting_q2.pdf",
     "triveni_02112026191629_teil_result_sep26.pdf",
     "sfl_02112026191543_outcome_of_board_meeting.pdf",
-    "tatainvest_02112026191907_se_int_outcome.pdf"
+    "tatainvest_02112026191907_se_int_outcome.pdf",
+    "dcmfinserv_02112026192033_outcome_of_bm_signed_dcm.pdf"
   ]
 }
