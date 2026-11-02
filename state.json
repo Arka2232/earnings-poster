@@ -1759,6 +1759,21 @@
       "filing": "https://nsearchives.nseindia.com/corporate/JKPAPER_02112026171829_Results_Outcome.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:JKPAPER",
       "t": "02-Nov-2026 17:18:47"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "MOLDTKPAC",
+      "c": "Mold-Tek Packaging Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 274.2253,
+      "pat": 21.0689,
+      "eps": 3.17,
+      "filing": "https://nsearchives.nseindia.com/corporate/MOLDTKPAC_02112026135557_Final_outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MOLDTKPAC",
+      "t": "02-Nov-2026 13:56:33",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751153_02112026050308_WEB.xml"
     }
   ],
   "digest": {
@@ -1928,7 +1943,7 @@
         "url": "https://nsearchives.nseindia.com/corporate/INDOGULF_02112026115457_Final_Outcome.pdf",
         "an_dt": "02-Nov-2026 11:57:18",
         "date": "2026-11-02",
-        "xbrl_try": "2026-11-02T16:22:47.562871+00:00"
+        "xbrl_try": "2026-11-02T17:22:55.825516+00:00"
       },
       {
         "key": "106839306",
@@ -1938,17 +1953,7 @@
         "url": "https://nsearchives.nseindia.com/corporate/JTLIND_02112026123402_OutcomeOfBMJTL02112026.pdf",
         "an_dt": "02-Nov-2026 12:35:54",
         "date": "2026-11-02",
-        "xbrl_try": "2026-11-02T16:22:53.758243+00:00"
-      },
-      {
-        "key": "106839439",
-        "seq_id": "106839439",
-        "symbol": "MOLDTKPAC",
-        "company": "Mold-Tek Packaging Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/MOLDTKPAC_02112026135557_Final_outcome.pdf",
-        "an_dt": "02-Nov-2026 13:56:33",
-        "date": "2026-11-02",
-        "xbrl_try": "2026-11-02T16:22:54.159391+00:00"
+        "xbrl_try": "2026-11-02T17:22:56.292498+00:00"
       },
       {
         "key": "106839437",
