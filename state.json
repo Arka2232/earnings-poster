@@ -181,7 +181,8 @@
     "106840396",
     "106840431",
     "106840429",
-    "106840438"
+    "106840438",
+    "106840467"
   ],
   "archive": [
     {
@@ -2509,6 +2510,20 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:MOHITIND",
       "t": "02-Nov-2026 18:07:11",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751334_02112026063904_WEB.xml"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "KANOHAR",
+      "c": "Kanohar Electricals Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 208.5868,
+      "pat": 53.8691,
+      "eps": 7.14,
+      "filing": "https://nsearchives.nseindia.com/corporate/KANOHARNSE2026_02112026190411_Outcome_Board_Meeting_Q2.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:KANOHAR",
+      "t": "02-Nov-2026 19:11:08"
     }
   ],
   "digest": {
@@ -2812,7 +2827,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-02T18:13:25.307738+00:00"
+        "xbrl_try": "2026-11-02T19:13:52.916568+00:00"
       },
       {
         "key": "106840268",
@@ -3073,6 +3088,7 @@
     "shreepushk_02112026184934_spcfloutcomeofbm02112026focr.pdf",
     "valiant_02112026185842_bm_outcome_q2_final.pdf",
     "pnc_02112026185758_outcome_of_bm02112026ocr.pdf",
-    "balmlawrie_02112026185938_se_outcomeofbm02112026.pdf"
+    "balmlawrie_02112026185938_se_outcomeofbm02112026.pdf",
+    "kanoharnse2026_02112026190411_outcome_board_meeting_q2.pdf"
   ]
 }
