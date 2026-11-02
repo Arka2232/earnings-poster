@@ -202,7 +202,8 @@
     "106840662",
     "106840667",
     "106840673",
-    "106840679"
+    "106840679",
+    "106840691"
   ],
   "archive": [
     {
@@ -2974,6 +2975,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/CHOICE_02112026205843_upload.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:CHOICEIN",
       "t": "02-Nov-2026 21:05:23"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "KEC",
+      "c": "KEC International Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 5467.71,
+      "pat": 29.74,
+      "eps": 1.12,
+      "filing": "https://nsearchives.nseindia.com/corporate/KEC_02112026210430_SE_intimation_BM_outcome_Results.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:KEC",
+      "t": "02-Nov-2026 21:09:59"
     }
   ],
   "digest": {
@@ -3523,6 +3538,7 @@
     "signpost_02112026205109_sil_se_bm_outcome_02112026.pdf",
     "walchannag_02112026205246_outcome_and_results_merged_of_bm_wil_02_11_2026.pdf",
     "ventive_02112026210029_vhl_bmoutcome_02112026.pdf",
-    "choice_02112026205843_upload.pdf"
+    "choice_02112026205843_upload.pdf",
+    "kec_02112026210430_se_intimation_bm_outcome_results.pdf"
   ]
 }
