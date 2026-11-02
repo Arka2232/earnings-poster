@@ -147,7 +147,9 @@
     "106839964",
     "106839963",
     "106839999",
-    "106839993"
+    "106839993",
+    "106840025",
+    "106840017"
   ],
   "archive": [
     {
@@ -1849,6 +1851,34 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:GNFC",
       "t": "02-Nov-2026 17:27:32",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751187_02112026052043_WEB.xml"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "GINNIFILA",
+      "c": "Ginni Filaments Limited",
+      "r": "Positive",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 10121.25,
+      "pat": 933.35,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/GINNIFILA1_02112026172424_result.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GINNIFILA",
+      "t": "02-Nov-2026 17:34:01"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "FUSION",
+      "c": "Fusion Finance Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/FUSIONHO_02112026173100_Outcome_BoardMeeting_02112026SIGN.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:FUSION",
+      "t": "02-Nov-2026 17:32:16"
     }
   ],
   "digest": {
@@ -2173,6 +2203,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-02T17:21:52.720430+00:00"
+      },
+      {
+        "key": "106840017",
+        "seq_id": "106840017",
+        "symbol": "FUSION",
+        "company": "Fusion Finance Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/FUSIONHO_02112026173100_Outcome_BoardMeeting_02112026SIGN.pdf",
+        "an_dt": "02-Nov-2026 17:32:16",
+        "date": "2026-11-02",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-02T17:36:06.521736+00:00"
       }
     ],
     "next_cache": "2026-11-01",
@@ -2339,6 +2381,8 @@
     "kisl123_02112026171702_outcome_bm_02112026.pdf",
     "jkpaper_02112026171829_results_outcome.pdf",
     "rajeshpillai8741_02112026172634_ufrq2h12627sign.pdf",
-    "borana_02112026172459_reg_30_33_financial_result.pdf"
+    "borana_02112026172459_reg_30_33_financial_result.pdf",
+    "ginnifila1_02112026172424_result.pdf",
+    "fusionho_02112026173100_outcome_boardmeeting_02112026sign.pdf"
   ]
 }
