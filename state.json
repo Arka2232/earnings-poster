@@ -102,7 +102,11 @@
     "106839401",
     "106839414",
     "106839413",
-    "106839423"
+    "106839423",
+    "106839439",
+    "106839437",
+    "106839433",
+    "106839429"
   ],
   "archive": [
     {
@@ -1054,6 +1058,62 @@
       "filing": "https://nsearchives.nseindia.com/corporate/MMP_02112026134457_MMPILBM02112026Outcome.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:MMP",
       "t": "02-Nov-2026 13:46:10"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "MOLDTKPAC",
+      "c": "Mold-Tek Packaging Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/MOLDTKPAC_02112026135557_Final_outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MOLDTKPAC",
+      "t": "02-Nov-2026 13:56:33"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "BCLIND",
+      "c": "Bcl Industries Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/BCLIND_02112026135252_Q2_FY27_Results.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BCLIND",
+      "t": "02-Nov-2026 13:56:10"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "EPIGRAL",
+      "c": "Epigral Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 745.39,
+      "pat": 64.42,
+      "eps": 14.93,
+      "filing": "https://nsearchives.nseindia.com/corporate/EPIGRAL_02112026135146_OutcomeBM02112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:EPIGRAL",
+      "t": "02-Nov-2026 13:52:36"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "ZUARI",
+      "c": "Zuari Agro Chemicals Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/ZUARI_02112026134909_zaclboardmeetingoutcome02112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ZUARI",
+      "t": "02-Nov-2026 13:50:24"
     }
   ],
   "digest": {
@@ -1201,7 +1261,7 @@
       "MAXENGS",
       "VPFL"
     ],
-    "ipo_check": "2026-11-02 13",
+    "ipo_check": "2026-11-02 14",
     "calendar": "2026-11-02",
     "text_posts": [
       {
@@ -1238,6 +1298,33 @@
         "company": "JTL INDUSTRIES LIMITED",
         "url": "https://nsearchives.nseindia.com/corporate/JTLIND_02112026123402_OutcomeOfBMJTL02112026.pdf",
         "an_dt": "02-Nov-2026 12:35:54",
+        "date": "2026-11-02"
+      },
+      {
+        "key": "106839439",
+        "seq_id": "106839439",
+        "symbol": "MOLDTKPAC",
+        "company": "Mold-Tek Packaging Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/MOLDTKPAC_02112026135557_Final_outcome.pdf",
+        "an_dt": "02-Nov-2026 13:56:33",
+        "date": "2026-11-02"
+      },
+      {
+        "key": "106839437",
+        "seq_id": "106839437",
+        "symbol": "BCLIND",
+        "company": "Bcl Industries Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/BCLIND_02112026135252_Q2_FY27_Results.pdf",
+        "an_dt": "02-Nov-2026 13:56:10",
+        "date": "2026-11-02"
+      },
+      {
+        "key": "106839429",
+        "seq_id": "106839429",
+        "symbol": "ZUARI",
+        "company": "Zuari Agro Chemicals Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/ZUARI_02112026134909_zaclboardmeetingoutcome02112026.pdf",
+        "an_dt": "02-Nov-2026 13:50:24",
         "date": "2026-11-02"
       }
     ],
