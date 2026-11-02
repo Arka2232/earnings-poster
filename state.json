@@ -121,7 +121,8 @@
     "106839544",
     "106839573",
     "106839584",
-    "106839589"
+    "106839589",
+    "106839665"
   ],
   "archive": [
     {
@@ -1339,6 +1340,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/CSLFINANCELIMITED_02112026152504_FINALCOVERLETTERSIGNED.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:CSLFINANCE",
       "t": "02-Nov-2026 15:26:04"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "PATINTLOG",
+      "c": "Patel Integrated Logistics Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/PATELINT_02112026155145_Outcome_of_BM_Sept2026_sd.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PATINTLOG",
+      "t": "02-Nov-2026 15:53:28"
     }
   ],
   "digest": {
@@ -1604,6 +1619,15 @@
         "company": "Jay Bharat Maruti Limited",
         "url": "https://nsearchives.nseindia.com/corporate/JAYBARMARUT_02112026150152_SUBMISSION_OUTCOME.pdf",
         "an_dt": "02-Nov-2026 15:07:41",
+        "date": "2026-11-02"
+      },
+      {
+        "key": "106839665",
+        "seq_id": "106839665",
+        "symbol": "PATINTLOG",
+        "company": "Patel Integrated Logistics Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/PATELINT_02112026155145_Outcome_of_BM_Sept2026_sd.pdf",
+        "an_dt": "02-Nov-2026 15:53:28",
         "date": "2026-11-02"
       }
     ],
