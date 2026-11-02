@@ -145,7 +145,9 @@
     "106839922",
     "106839945",
     "106839964",
-    "106839963"
+    "106839963",
+    "106839999",
+    "106839993"
   ],
   "archive": [
     {
@@ -1804,6 +1806,49 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:UPL",
       "t": "02-Nov-2026 14:48:28",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751155_02112026050321_WEB.xml"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "GNFC",
+      "c": "Gujarat Narmada Valley Fertilizers and Chemicals Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/rajeshpillai8741_02112026172634_UFRQ2H12627sign.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GNFC",
+      "t": "02-Nov-2026 17:27:32"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "BORANA",
+      "c": "Borana Weaves Limited",
+      "r": "Positive",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 138.2013,
+      "pat": 16.1596,
+      "eps": 6.06,
+      "filing": "https://nsearchives.nseindia.com/corporate/BORANA_02112026172459_Reg_30_33_Financial_Result.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BORANA",
+      "t": "02-Nov-2026 17:26:48"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "GNFC",
+      "c": "Gujarat Narmada Valley Fertilizers and Chemicals Limited",
+      "r": "Good",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 2773.0,
+      "pat": 194.0,
+      "eps": 13.2,
+      "filing": "https://nsearchives.nseindia.com/corporate/rajeshpillai8741_02112026172634_UFRQ2H12627sign.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GNFC",
+      "t": "02-Nov-2026 17:27:32",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751187_02112026052043_WEB.xml"
     }
   ],
   "digest": {
@@ -2292,6 +2337,8 @@
     "concor_02112026170759_concor_results_300926s.pdf",
     "nseakums10_02112026171324_akumsbmoutcome.pdf",
     "kisl123_02112026171702_outcome_bm_02112026.pdf",
-    "jkpaper_02112026171829_results_outcome.pdf"
+    "jkpaper_02112026171829_results_outcome.pdf",
+    "rajeshpillai8741_02112026172634_ufrq2h12627sign.pdf",
+    "borana_02112026172459_reg_30_33_financial_result.pdf"
   ]
 }
