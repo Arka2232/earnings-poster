@@ -119,7 +119,8 @@
     "106839534",
     "106839532",
     "106839544",
-    "106839573"
+    "106839573",
+    "106839584"
   ],
   "archive": [
     {
@@ -1309,6 +1310,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/PASUPTAC_02112026150846_Outcome_of_Board_Meeting.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:PASUPTAC",
       "t": "02-Nov-2026 15:20:36"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "GREENPANEL",
+      "c": "Greenpanel Industries Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 411.7088,
+      "pat": 1.2292,
+      "eps": 0.1,
+      "filing": "https://nsearchives.nseindia.com/corporate/GREENPANEL_02112026152241_Outcome_20261102.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GREENPANEL",
+      "t": "02-Nov-2026 15:24:12"
     }
   ],
   "digest": {
