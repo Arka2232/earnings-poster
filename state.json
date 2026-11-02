@@ -200,7 +200,8 @@
     "106840633",
     "106840645",
     "106840662",
-    "106840667"
+    "106840667",
+    "106840673"
   ],
   "archive": [
     {
@@ -2944,6 +2945,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/WALCHANNAG_02112026205246_Outcome_and_results_merged_of_BM_WIL_02_11_2026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:WALCHANNAG",
       "t": "02-Nov-2026 20:56:40"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "VENTIVE",
+      "c": "Ventive Hospitality Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/VENTIVE_02112026210029_VHL_BMOutcome_02112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:VENTIVE",
+      "t": "02-Nov-2026 21:00:50"
     }
   ],
   "digest": {
@@ -3258,6 +3273,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-02T20:59:16.626704+00:00"
+      },
+      {
+        "key": "106840673",
+        "seq_id": "106840673",
+        "symbol": "VENTIVE",
+        "company": "Ventive Hospitality Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/VENTIVE_02112026210029_VHL_BMOutcome_02112026.pdf",
+        "an_dt": "02-Nov-2026 21:00:50",
+        "date": "2026-11-02",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-02T21:05:08.445675+00:00"
       }
     ],
     "next_cache": "2026-11-01",
@@ -3479,6 +3506,7 @@
     "vesuvius_02112026203356_bm_outcome_q32026_final.pdf",
     "ideaforge_02112026204301_outcome_02112026_fe.pdf",
     "signpost_02112026205109_sil_se_bm_outcome_02112026.pdf",
-    "walchannag_02112026205246_outcome_and_results_merged_of_bm_wil_02_11_2026.pdf"
+    "walchannag_02112026205246_outcome_and_results_merged_of_bm_wil_02_11_2026.pdf",
+    "ventive_02112026210029_vhl_bmoutcome_02112026.pdf"
   ]
 }
