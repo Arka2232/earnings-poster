@@ -201,7 +201,8 @@
     "106840645",
     "106840662",
     "106840667",
-    "106840673"
+    "106840673",
+    "106840679"
   ],
   "archive": [
     {
@@ -2959,6 +2960,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/VENTIVE_02112026210029_VHL_BMOutcome_02112026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:VENTIVE",
       "t": "02-Nov-2026 21:00:50"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "CHOICEIN",
+      "c": "Choice International Limited",
+      "r": "Good",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 372.867,
+      "pat": 69.47200000000001,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/CHOICE_02112026205843_upload.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CHOICEIN",
+      "t": "02-Nov-2026 21:05:23"
     }
   ],
   "digest": {
@@ -3507,6 +3522,7 @@
     "ideaforge_02112026204301_outcome_02112026_fe.pdf",
     "signpost_02112026205109_sil_se_bm_outcome_02112026.pdf",
     "walchannag_02112026205246_outcome_and_results_merged_of_bm_wil_02_11_2026.pdf",
-    "ventive_02112026210029_vhl_bmoutcome_02112026.pdf"
+    "ventive_02112026210029_vhl_bmoutcome_02112026.pdf",
+    "choice_02112026205843_upload.pdf"
   ]
 }
