@@ -96,7 +96,9 @@
     "106839253",
     "106839341",
     "106839371",
-    "106839363"
+    "106839363",
+    "106839306",
+    "106839384"
   ],
   "archive": [
     {
@@ -964,6 +966,34 @@
       "filing": "https://nsearchives.nseindia.com/corporate/MOBIKWIK_02112026130451_Outcome_of_Board_Meeting.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:MOBIKWIK",
       "t": "02-Nov-2026 13:06:16"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "JTLIND",
+      "c": "JTL INDUSTRIES LIMITED",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/JTLIND_02112026123402_OutcomeOfBMJTL02112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:JTLIND",
+      "t": "02-Nov-2026 12:35:54"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "PCBL",
+      "c": "PCBL Chemical Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 1694.65,
+      "pat": 80.01,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/PCBL_02112026131934_FinalBMOutcomeheldon2112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PCBL",
+      "t": "02-Nov-2026 13:21:05"
     }
   ],
   "digest": {
@@ -1139,6 +1169,15 @@
         "company": "The Peria Karamalai Tea & Produce Company Limited",
         "url": "https://nsearchives.nseindia.com/corporate/PKTEA_02112026122248_BMOUTCOME02112026.pdf",
         "an_dt": "02-Nov-2026 12:26:04",
+        "date": "2026-11-02"
+      },
+      {
+        "key": "106839306",
+        "seq_id": "106839306",
+        "symbol": "JTLIND",
+        "company": "JTL INDUSTRIES LIMITED",
+        "url": "https://nsearchives.nseindia.com/corporate/JTLIND_02112026123402_OutcomeOfBMJTL02112026.pdf",
+        "an_dt": "02-Nov-2026 12:35:54",
         "date": "2026-11-02"
       }
     ],
