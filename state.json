@@ -151,7 +151,9 @@
     "106840025",
     "106840017",
     "106840044",
-    "106840041"
+    "106840041",
+    "106840059",
+    "106840055"
   ],
   "archive": [
     {
@@ -1909,6 +1911,34 @@
       "filing": "https://nsearchives.nseindia.com/corporate/RUPA_02112026173120_Rupa_Outcome_02112026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:RUPA",
       "t": "02-Nov-2026 17:36:54"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "TRIDENT",
+      "c": "Trident Limited",
+      "r": "Positive",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 1719.48,
+      "pat": 175.58,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/TRIDENT_02112026173929_Filing_Financial.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:TRIDENT",
+      "t": "02-Nov-2026 17:39:43"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "CLCIND",
+      "c": "CLC Industries Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/SPENTEX_BVR_02112026173746_OutcomeFS.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CLCIND",
+      "t": "02-Nov-2026 17:39:13"
     }
   ],
   "digest": {
@@ -2245,6 +2275,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-02T17:36:06.521736+00:00"
+      },
+      {
+        "key": "106840055",
+        "seq_id": "106840055",
+        "symbol": "CLCIND",
+        "company": "CLC Industries Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/SPENTEX_BVR_02112026173746_OutcomeFS.pdf",
+        "an_dt": "02-Nov-2026 17:39:13",
+        "date": "2026-11-02",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-02T17:42:21.403791+00:00"
       }
     ],
     "next_cache": "2026-11-01",
@@ -2415,6 +2457,8 @@
     "ginnifila1_02112026172424_result.pdf",
     "fusionho_02112026173100_outcome_boardmeeting_02112026sign.pdf",
     "bajajindef_02112026173540_outcomeofbm02112025.pdf",
-    "rupa_02112026173120_rupa_outcome_02112026.pdf"
+    "rupa_02112026173120_rupa_outcome_02112026.pdf",
+    "trident_02112026173929_filing_financial.pdf",
+    "spentex_bvr_02112026173746_outcomefs.pdf"
   ]
 }
