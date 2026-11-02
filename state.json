@@ -2479,6 +2479,21 @@
       "filing": "https://nsearchives.nseindia.com/corporate/BALMLAWRIE_02112026185938_SE_OutcomeofBM02112026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:BALMLAWRIE",
       "t": "02-Nov-2026 19:03:22"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "KITEX",
+      "c": "Kitex Garments Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 203.0358,
+      "pat": 13.706,
+      "eps": 0.84,
+      "filing": "https://nsearchives.nseindia.com/corporate/KITEX_02112026180551_KGL_FR_Q2_FY26-27s.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:KITEX",
+      "t": "02-Nov-2026 18:06:08",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751356_02112026065555_WEB.xml"
     }
   ],
   "digest": {
@@ -2771,18 +2786,6 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-02T18:56:51.719935+00:00"
-      },
-      {
-        "key": "106840187",
-        "seq_id": "106840187",
-        "symbol": "KITEX",
-        "company": "Kitex Garments Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/KITEX_02112026180551_KGL_FR_Q2_FY26-27s.pdf",
-        "an_dt": "02-Nov-2026 18:06:08",
-        "date": "2026-11-02",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-02T18:08:25.665911+00:00"
       },
       {
         "key": "106840189",
