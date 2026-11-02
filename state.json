@@ -177,7 +177,8 @@
     "106840353",
     "106840351",
     "106840361",
-    "106840386"
+    "106840386",
+    "106840396"
   ],
   "archive": [
     {
@@ -2389,6 +2390,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/DIVGITTS_02112026184454_DTTS_BM_Outcome_FinalSubmission_signed_Final.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:DIVGIITTS",
       "t": "02-Nov-2026 18:47:07"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "SHREEPUSHK",
+      "c": "Shree Pushkar Chemicals & Fertilisers Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 403.48400000000004,
+      "pat": 35.717600000000004,
+      "eps": 11.05,
+      "filing": "https://nsearchives.nseindia.com/corporate/SHREEPUSHK_02112026184934_SPCFLOutcomeofBM02112026FOCR.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SHREEPUSHK",
+      "t": "02-Nov-2026 18:49:54"
     }
   ],
   "digest": {
@@ -2997,6 +3012,7 @@
     "amararaja_02112026183511_bmoutcomeq2fy27new.pdf",
     "rahulbs35_02112026183531_outcomeofboardmeeting.pdf",
     "balamines_02112026183657_outcome_final.pdf",
-    "divgitts_02112026184454_dtts_bm_outcome_finalsubmission_signed_final.pdf"
+    "divgitts_02112026184454_dtts_bm_outcome_finalsubmission_signed_final.pdf",
+    "shreepushk_02112026184934_spcfloutcomeofbm02112026focr.pdf"
   ]
 }
