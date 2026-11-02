@@ -663,7 +663,8 @@
     "106840700",
     "106840719",
     "106840738",
-    "106840747"
+    "106840747",
+    "106840824"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -748,7 +749,8 @@
     "sadbhin_02112026211647_siploutcomeofboardmeeting02112026signed.pdf",
     "bharatsahu_02112026213030_bm_outcome.pdf",
     "lsil_02112026214210_financialsresultssigned.pdf",
-    "digitide_02112026215817_digitide_outcome_02112026.pdf"
+    "digitide_02112026215817_digitide_outcome_02112026.pdf",
+    "suhask_02112026230534_reg30outcomewithudin02112026.pdf"
   ],
   "archive": [
     {
@@ -3276,6 +3278,20 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:GSLSU",
       "t": "02-Nov-2026 18:08:44",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751545_02112026100428_WEB.xml"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "HAPPSTMNDS",
+      "c": "Happiest Minds Technologies Limited",
+      "r": "Good",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 6.4543,
+      "pat": 0.6219,
+      "eps": 4.13,
+      "filing": "https://nsearchives.nseindia.com/corporate/suhask_02112026230534_Reg30OutcomewithUDIN02112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:HAPPSTMNDS",
+      "t": "02-Nov-2026 23:07:39"
     }
   ]
 }
