@@ -143,7 +143,9 @@
     "106839880",
     "106839877",
     "106839922",
-    "106839945"
+    "106839945",
+    "106839964",
+    "106839963"
   ],
   "archive": [
     {
@@ -1729,6 +1731,34 @@
       "filing": "https://nsearchives.nseindia.com/corporate/NSEAKUMS10_02112026171324_AKUMSBMOUTCOME.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:AKUMS",
       "t": "02-Nov-2026 17:14:53"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "KRYSTAL",
+      "c": "Krystal Integrated Services Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 4144.67,
+      "pat": 187.13,
+      "eps": 13.39,
+      "filing": "https://nsearchives.nseindia.com/corporate/KISL123_02112026171702_Outcome_BM_02112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:KRYSTAL",
+      "t": "02-Nov-2026 17:19:06"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "JKPAPER",
+      "c": "JK Paper Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/JKPAPER_02112026171829_Results_Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:JKPAPER",
+      "t": "02-Nov-2026 17:18:47"
     }
   ],
   "digest": {
@@ -2071,6 +2101,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-02T17:00:37.731566+00:00"
+      },
+      {
+        "key": "106839963",
+        "seq_id": "106839963",
+        "symbol": "JKPAPER",
+        "company": "JK Paper Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/JKPAPER_02112026171829_Results_Outcome.pdf",
+        "an_dt": "02-Nov-2026 17:18:47",
+        "date": "2026-11-02",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-02T17:21:52.720430+00:00"
       }
     ],
     "next_cache": "2026-11-01",
@@ -2233,6 +2275,8 @@
     "fineorg_02112026165429_outcomeofboardmeeting.pdf",
     "hecproject_02112026165501_outcome_final_02112026.pdf",
     "concor_02112026170759_concor_results_300926s.pdf",
-    "nseakums10_02112026171324_akumsbmoutcome.pdf"
+    "nseakums10_02112026171324_akumsbmoutcome.pdf",
+    "kisl123_02112026171702_outcome_bm_02112026.pdf",
+    "jkpaper_02112026171829_results_outcome.pdf"
   ]
 }
