@@ -173,7 +173,9 @@
     "106840295",
     "106840287",
     "106840334",
-    "106840311"
+    "106840311",
+    "106840353",
+    "106840351"
   ],
   "archive": [
     {
@@ -2329,6 +2331,34 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:JHS",
       "t": "02-Nov-2026 18:27:54",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751318_02112026063343_WEB.xml"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "ARE&M",
+      "c": "Amara Raja Energy & Mobility Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/AMARARAJA_02112026183511_BMoutcomeQ2FY27New.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ARE_M",
+      "t": "02-Nov-2026 18:37:37"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "DOMS",
+      "c": "DOMS Industries Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 667.7539999999999,
+      "pat": 38.3217,
+      "eps": 6.12,
+      "filing": "https://nsearchives.nseindia.com/corporate/RAHULBS35_02112026183531_OutcomeOfBoardMeeting.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:DOMS",
+      "t": "02-Nov-2026 18:37:15"
     }
   ],
   "digest": {
@@ -2584,7 +2614,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-02T17:39:43.550400+00:00"
+        "xbrl_try": "2026-11-02T18:40:37.515841+00:00"
       },
       {
         "key": "106839824",
@@ -2717,6 +2747,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-02T18:33:59.633274+00:00"
+      },
+      {
+        "key": "106840353",
+        "seq_id": "106840353",
+        "symbol": "ARE&M",
+        "company": "Amara Raja Energy & Mobility Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/AMARARAJA_02112026183511_BMoutcomeQ2FY27New.pdf",
+        "an_dt": "02-Nov-2026 18:37:37",
+        "date": "2026-11-02",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-02T18:40:38.348371+00:00"
       }
     ],
     "next_cache": "2026-11-01",
@@ -2909,6 +2951,8 @@
     "acjkel12_02112026182122_outcome_q2_fy2627.pdf",
     "ganesh_nse_02112026181527_outcome_of_board_meeting.pdf",
     "xtranet_02112026182803_outcome_of_meeting_of_board_021126.pdf",
-    "jhs_02112026182640_outcome_final_lab.pdf"
+    "jhs_02112026182640_outcome_final_lab.pdf",
+    "amararaja_02112026183511_bmoutcomeq2fy27new.pdf",
+    "rahulbs35_02112026183531_outcomeofboardmeeting.pdf"
   ]
 }
