@@ -187,7 +187,9 @@
     "106840493",
     "106840497",
     "106840511",
-    "106840532"
+    "106840532",
+    "106840547",
+    "106840546"
   ],
   "archive": [
     {
@@ -2659,6 +2661,49 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:FUSION",
       "t": "02-Nov-2026 17:32:16",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NBFC_INDAS_1751386_02112026071637_WEB.xml"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "TNPETRO",
+      "c": "Tamilnadu PetroProducts Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q3 FY27",
+      "sales": 934.37,
+      "pat": 65.03,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/TPLSECTL_02112026193814_sdOutcomeofBoardMeeting30092026.PDF",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:TNPETRO",
+      "t": "02-Nov-2026 19:41:36"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "BHARATWIRE",
+      "c": "Bharat Wire Ropes Limited",
+      "r": "Weak",
+      "b": "Standalone",
+      "q": "Q2 FY26",
+      "sales": 181.9091,
+      "pat": 17.4449,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/BHARATWIRE_02112026194046_ResultsSD.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BHARATWIRE",
+      "t": "02-Nov-2026 19:41:33"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "CLCIND",
+      "c": "CLC Industries Limited",
+      "r": "Positive",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 67.7453,
+      "pat": 0.8514999999999999,
+      "eps": 0.81,
+      "filing": "https://nsearchives.nseindia.com/corporate/SPENTEX_BVR_02112026173746_OutcomeFS.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CLCIND",
+      "t": "02-Nov-2026 17:39:13",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751339_02112026064450_WEB.xml"
     }
   ],
   "digest": {
@@ -2893,18 +2938,6 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-02T19:40:49.093384+00:00"
-      },
-      {
-        "key": "106840055",
-        "seq_id": "106840055",
-        "symbol": "CLCIND",
-        "company": "CLC Industries Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/SPENTEX_BVR_02112026173746_OutcomeFS.pdf",
-        "an_dt": "02-Nov-2026 17:39:13",
-        "date": "2026-11-02",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-02T18:42:42.904720+00:00"
       },
       {
         "key": "106840122",
@@ -3197,6 +3230,8 @@
     "sfl_02112026191543_outcome_of_board_meeting.pdf",
     "tatainvest_02112026191907_se_int_outcome.pdf",
     "dcmfinserv_02112026192033_outcome_of_bm_signed_dcm.pdf",
-    "9152077850_02112026193402_shkbmoutcome02112026signed.pdf"
+    "9152077850_02112026193402_shkbmoutcome02112026signed.pdf",
+    "tplsectl_02112026193814_sdoutcomeofboardmeeting30092026.pdf",
+    "bharatwire_02112026194046_resultssd.pdf"
   ]
 }
