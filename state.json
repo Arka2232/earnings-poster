@@ -123,7 +123,8 @@
     "106839584",
     "106839589",
     "106839665",
-    "106839674"
+    "106839674",
+    "106839692"
   ],
   "archive": [
     {
@@ -1369,6 +1370,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/PETRONET_02112026155446_OutcomeBoardMeeting02112026si.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:PETRONET",
       "t": "02-Nov-2026 15:55:04"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "KRBL",
+      "c": "KRBL Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 17.2736,
+      "pat": 2.5893,
+      "eps": 11.31,
+      "filing": "https://nsearchives.nseindia.com/corporate/BIBHU_02112026160131_STX_REG30_Outcome_of_BM_02-11-2026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:KRBL",
+      "t": "02-Nov-2026 16:03:15"
     }
   ],
   "digest": {
