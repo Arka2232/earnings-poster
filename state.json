@@ -159,7 +159,9 @@
     "106840122",
     "106840139",
     "106840152",
-    "106840157"
+    "106840157",
+    "106840187",
+    "106840180"
   ],
   "archive": [
     {
@@ -2059,6 +2061,34 @@
       "filing": "https://nsearchives.nseindia.com/corporate/ARVINDFASN_02112026175809_BMOutcomeIntimation.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:ARVINDFASN",
       "t": "02-Nov-2026 18:00:45"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "KITEX",
+      "c": "Kitex Garments Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/KITEX_02112026180551_KGL_FR_Q2_FY26-27s.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:KITEX",
+      "t": "02-Nov-2026 18:06:08"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "GSFC",
+      "c": "Gujarat State Fertilizers & Chemicals Limited",
+      "r": "Bad",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 4711.35,
+      "pat": 183.08,
+      "eps": 4.6,
+      "filing": "https://nsearchives.nseindia.com/corporate/PURVIGSFC_02112026180250_results.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GSFC",
+      "t": "02-Nov-2026 18:04:55"
     }
   ],
   "digest": {
@@ -2407,6 +2437,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-02T17:56:30.878941+00:00"
+      },
+      {
+        "key": "106840187",
+        "seq_id": "106840187",
+        "symbol": "KITEX",
+        "company": "Kitex Garments Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/KITEX_02112026180551_KGL_FR_Q2_FY26-27s.pdf",
+        "an_dt": "02-Nov-2026 18:06:08",
+        "date": "2026-11-02",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-02T18:08:25.665911+00:00"
       }
     ],
     "next_cache": "2026-11-01",
@@ -2585,6 +2627,8 @@
     "tvtoday_02112026175111_board_meeting_outcome_nov2026.pdf",
     "uyfincorp_02112026173301_uyfl_ufr_as_on_30092026.pdf",
     "thomascook_02112026175735_resultssept2026.pdf",
-    "arvindfasn_02112026175809_bmoutcomeintimation.pdf"
+    "arvindfasn_02112026175809_bmoutcomeintimation.pdf",
+    "kitex_02112026180551_kgl_fr_q2_fy26-27s.pdf",
+    "purvigsfc_02112026180250_results.pdf"
   ]
 }
