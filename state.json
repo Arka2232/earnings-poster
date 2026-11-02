@@ -2584,6 +2584,51 @@
       "filing": "https://nsearchives.nseindia.com/corporate/DCMFINSERV_02112026192033_Outcome_of_BM_signed_DCM.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:DCMFINSERV",
       "t": "02-Nov-2026 19:23:29"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "JTLIND",
+      "c": "JTL INDUSTRIES LIMITED",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 613.7911,
+      "pat": 28.967,
+      "eps": 0.64,
+      "filing": "https://nsearchives.nseindia.com/corporate/JTLIND_02112026123402_OutcomeOfBMJTL02112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:JTLIND",
+      "t": "02-Nov-2026 12:35:54",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751384_02112026071434_WEB.xml"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "WOCKPHARMA",
+      "c": "Wockhardt Limited",
+      "r": "Weak",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 969.0,
+      "pat": 73.0,
+      "eps": 4.85,
+      "filing": "https://nsearchives.nseindia.com/corporate/WOCKPHARMA_02112026161333_BMOutcome02112026signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:WOCKPHARMA",
+      "t": "02-Nov-2026 16:22:04",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751379_02112026071126_WEB.xml"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "ITC",
+      "c": "ITC Limited",
+      "r": "Weak",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 30578.399999999998,
+      "pat": 4229.33,
+      "eps": 3.32,
+      "filing": "https://nsearchives.nseindia.com/corporate/ITC_02112026181912_SE_Results_.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ITC",
+      "t": "02-Nov-2026 18:20:16",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751357_02112026065559_WEB.xml"
     }
   ],
   "digest": {
@@ -2753,17 +2798,7 @@
         "url": "https://nsearchives.nseindia.com/corporate/INDOGULF_02112026115457_Final_Outcome.pdf",
         "an_dt": "02-Nov-2026 11:57:18",
         "date": "2026-11-02",
-        "xbrl_try": "2026-11-02T18:27:14.531854+00:00"
-      },
-      {
-        "key": "106839306",
-        "seq_id": "106839306",
-        "symbol": "JTLIND",
-        "company": "JTL INDUSTRIES LIMITED",
-        "url": "https://nsearchives.nseindia.com/corporate/JTLIND_02112026123402_OutcomeOfBMJTL02112026.pdf",
-        "an_dt": "02-Nov-2026 12:35:54",
-        "date": "2026-11-02",
-        "xbrl_try": "2026-11-02T18:27:14.999257+00:00"
+        "xbrl_try": "2026-11-02T19:28:47.131616+00:00"
       },
       {
         "key": "106839484",
@@ -2773,7 +2808,7 @@
         "url": "https://nsearchives.nseindia.com/corporate/PGHL_02112026144157_PGHLOutcome.pdf",
         "an_dt": "02-Nov-2026 14:45:12",
         "date": "2026-11-02",
-        "xbrl_try": "2026-11-02T18:27:19.857791+00:00"
+        "xbrl_try": "2026-11-02T19:28:55.214475+00:00"
       },
       {
         "key": "106839515",
@@ -2783,7 +2818,7 @@
         "url": "https://nsearchives.nseindia.com/corporate/PSPPROJECT_02112026145347_20261102_Outcome_of_BM_38.pdf",
         "an_dt": "02-Nov-2026 14:54:59",
         "date": "2026-11-02",
-        "xbrl_try": "2026-11-02T18:27:25.265994+00:00"
+        "xbrl_try": "2026-11-02T19:28:56.066641+00:00"
       },
       {
         "key": "106839532",
@@ -2793,7 +2828,7 @@
         "url": "https://nsearchives.nseindia.com/corporate/JAYBARMARUT_02112026150152_SUBMISSION_OUTCOME.pdf",
         "an_dt": "02-Nov-2026 15:07:41",
         "date": "2026-11-02",
-        "xbrl_try": "2026-11-02T18:27:25.642781+00:00"
+        "xbrl_try": "2026-11-02T19:28:56.465125+00:00"
       },
       {
         "key": "106839665",
@@ -2803,7 +2838,7 @@
         "url": "https://nsearchives.nseindia.com/corporate/PATELINT_02112026155145_Outcome_of_BM_Sept2026_sd.pdf",
         "an_dt": "02-Nov-2026 15:53:28",
         "date": "2026-11-02",
-        "xbrl_try": "2026-11-02T18:27:26.648677+00:00"
+        "xbrl_try": "2026-11-02T19:28:57.542312+00:00"
       },
       {
         "key": "106839719",
@@ -2815,19 +2850,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-02T18:27:27.645390+00:00"
-      },
-      {
-        "key": "106839752",
-        "seq_id": "106839752",
-        "symbol": "WOCKPHARMA",
-        "company": "Wockhardt Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/WOCKPHARMA_02112026161333_BMOutcome02112026signed.pdf",
-        "an_dt": "02-Nov-2026 16:22:04",
-        "date": "2026-11-02",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-02T18:27:28.065207+00:00"
+        "xbrl_try": "2026-11-02T19:28:58.383612+00:00"
       },
       {
         "key": "106839796",
@@ -2888,18 +2911,6 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-02T19:13:52.916568+00:00"
-      },
-      {
-        "key": "106840268",
-        "seq_id": "106840268",
-        "symbol": "ITC",
-        "company": "ITC Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/ITC_02112026181912_SE_Results_.pdf",
-        "an_dt": "02-Nov-2026 18:20:16",
-        "date": "2026-11-02",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-02T18:27:33.335361+00:00"
       },
       {
         "key": "106840301",
