@@ -178,7 +178,9 @@
     "106840351",
     "106840361",
     "106840386",
-    "106840396"
+    "106840396",
+    "106840431",
+    "106840429"
   ],
   "archive": [
     {
@@ -2434,6 +2436,34 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:DANGEE",
       "t": "02-Nov-2026 16:48:56",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751268_02112026060446_WEB.xml"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "VALIANTLAB",
+      "c": "Valiant Laboratories Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 116.7732,
+      "pat": 0.41340000000000005,
+      "eps": 0.08,
+      "filing": "https://nsearchives.nseindia.com/corporate/VALIANT_02112026185842_BM_Outcome_Q2_FINAL.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:VALIANTLAB",
+      "t": "02-Nov-2026 18:59:44"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "PNC",
+      "c": "PNC Media and Entertainment Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 20.32,
+      "pat": 0.6990000000000001,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/PNC_02112026185758_Outcome_of_BM02112026ocr.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PNC",
+      "t": "02-Nov-2026 18:59:30"
     }
   ],
   "digest": {
@@ -2581,7 +2611,7 @@
       "MAXENGS",
       "VPFL"
     ],
-    "ipo_check": "2026-11-02 18",
+    "ipo_check": "2026-11-02 19",
     "calendar": "2026-11-02",
     "text_posts": [
       {
@@ -3019,6 +3049,8 @@
     "rahulbs35_02112026183531_outcomeofboardmeeting.pdf",
     "balamines_02112026183657_outcome_final.pdf",
     "divgitts_02112026184454_dtts_bm_outcome_finalsubmission_signed_final.pdf",
-    "shreepushk_02112026184934_spcfloutcomeofbm02112026focr.pdf"
+    "shreepushk_02112026184934_spcfloutcomeofbm02112026focr.pdf",
+    "valiant_02112026185842_bm_outcome_q2_final.pdf",
+    "pnc_02112026185758_outcome_of_bm02112026ocr.pdf"
   ]
 }
