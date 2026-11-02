@@ -156,7 +156,8 @@
     "106840055",
     "106840081",
     "106840096",
-    "106840122"
+    "106840122",
+    "106840139"
   ],
   "archive": [
     {
@@ -1984,6 +1985,35 @@
       "filing": "https://nsearchives.nseindia.com/corporate/TVTODAY_02112026175111_Board_Meeting_Outcome_Nov2026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:TVTODAY",
       "t": "02-Nov-2026 17:52:50"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "UYFINCORP",
+      "c": "U. Y. Fincorp Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/UYFINCORP_02112026173301_UYFL_UFR_as_on_30092026.PDF",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:UYFINCORP",
+      "t": "02-Nov-2026 17:57:07"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "UYFINCORP",
+      "c": "U. Y. Fincorp Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 66.587,
+      "pat": 22.125,
+      "eps": 1.16,
+      "filing": "https://nsearchives.nseindia.com/corporate/UYFINCORP_02112026173301_UYFL_UFR_as_on_30092026.PDF",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:UYFINCORP",
+      "t": "02-Nov-2026 17:57:07",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NBFC_INDAS_1751226_02112026054132_WEB.xml"
     }
   ],
   "digest": {
@@ -2519,6 +2549,7 @@
     "spentex_bvr_02112026173746_outcomefs.pdf",
     "shemaroo_02112026173954_outcome02112026.pdf",
     "ptc_02112026174440_financialresultssep2026.pdf",
-    "tvtoday_02112026175111_board_meeting_outcome_nov2026.pdf"
+    "tvtoday_02112026175111_board_meeting_outcome_nov2026.pdf",
+    "uyfincorp_02112026173301_uyfl_ufr_as_on_30092026.pdf"
   ]
 }
