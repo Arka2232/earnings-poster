@@ -204,7 +204,8 @@
     "106840673",
     "106840679",
     "106840691",
-    "106840698"
+    "106840698",
+    "106840700"
   ],
   "archive": [
     {
@@ -3004,6 +3005,35 @@
       "filing": "https://nsearchives.nseindia.com/corporate/flair2016_02112026211618_BSE_NSE_Outcome_of_BM_Q2_FY_26-27.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:FLAIR",
       "t": "02-Nov-2026 21:18:05"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "SADBHIN",
+      "c": "Sadbhav Infrastructure Project Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/SADBHIN_02112026211647_SIPLOutcomeofBoardMeeting02112026signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SADBHIN",
+      "t": "02-Nov-2026 21:20:01"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "SADBHIN",
+      "c": "Sadbhav Infrastructure Project Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 201.98999999999998,
+      "pat": 67.877,
+      "eps": 1.32,
+      "filing": "https://nsearchives.nseindia.com/corporate/SADBHIN_02112026211647_SIPLOutcomeofBoardMeeting02112026signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SADBHIN",
+      "t": "02-Nov-2026 21:20:01",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751521_02112026091753_WEB.xml"
     }
   ],
   "digest": {
@@ -3555,6 +3585,7 @@
     "ventive_02112026210029_vhl_bmoutcome_02112026.pdf",
     "choice_02112026205843_upload.pdf",
     "kec_02112026210430_se_intimation_bm_outcome_results.pdf",
-    "flair2016_02112026211618_bse_nse_outcome_of_bm_q2_fy_26-27.pdf"
+    "flair2016_02112026211618_bse_nse_outcome_of_bm_q2_fy_26-27.pdf",
+    "sadbhin_02112026211647_siploutcomeofboardmeeting02112026signed.pdf"
   ]
 }
