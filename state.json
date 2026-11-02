@@ -91,7 +91,9 @@
     "106838847",
     "106838893",
     "106839211",
-    "106839209"
+    "106839209",
+    "106839269",
+    "106839253"
   ],
   "archive": [
     {
@@ -889,6 +891,34 @@
       "filing": "https://nsearchives.nseindia.com/corporate/DEVYANI_02112026115337_Outcome_02112026_Results_sd.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:DEVYANI",
       "t": "02-Nov-2026 11:55:49"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "PKTEA",
+      "c": "The Peria Karamalai Tea & Produce Company Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/PKTEA_02112026122248_BMOUTCOME02112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PKTEA",
+      "t": "02-Nov-2026 12:26:04"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "CAPILLARY",
+      "c": "Capillary Technologies India Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 2713.55,
+      "pat": 219.16,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/CAPILLARY12_02112026121518_Intimation_Outcome_Board_Meeting.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CAPILLARY",
+      "t": "02-Nov-2026 12:17:07"
     }
   ],
   "digest": {
@@ -1055,6 +1085,15 @@
         "company": "Indogulf Cropsciences Limited",
         "url": "https://nsearchives.nseindia.com/corporate/INDOGULF_02112026115457_Final_Outcome.pdf",
         "an_dt": "02-Nov-2026 11:57:18",
+        "date": "2026-11-02"
+      },
+      {
+        "key": "106839269",
+        "seq_id": "106839269",
+        "symbol": "PKTEA",
+        "company": "The Peria Karamalai Tea & Produce Company Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/PKTEA_02112026122248_BMOUTCOME02112026.pdf",
+        "an_dt": "02-Nov-2026 12:26:04",
         "date": "2026-11-02"
       }
     ],
