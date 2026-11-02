@@ -106,7 +106,8 @@
     "106839439",
     "106839437",
     "106839433",
-    "106839429"
+    "106839429",
+    "106839460"
   ],
   "archive": [
     {
@@ -1114,6 +1115,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/ZUARI_02112026134909_zaclboardmeetingoutcome02112026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:ZUARI",
       "t": "02-Nov-2026 13:50:24"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "BANSWRAS",
+      "c": "Banswara Syntex Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 354.87160000000006,
+      "pat": 12.3523,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/BANSWRAS_02112026141639_Intimation_Letter_Outcome_of_BM.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BANSWRAS",
+      "t": "02-Nov-2026 14:18:03"
     }
   ],
   "digest": {
