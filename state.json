@@ -184,7 +184,8 @@
     "106840438",
     "106840467",
     "106840495",
-    "106840493"
+    "106840493",
+    "106840497"
   ],
   "archive": [
     {
@@ -2554,6 +2555,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/SFL_02112026191543_Outcome_of_Board_Meeting.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SFL",
       "t": "02-Nov-2026 19:17:10"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "TATAINVEST",
+      "c": "Tata Investment Corporation Limited",
+      "r": "Weak",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 122.3,
+      "pat": 115.92,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/TATAINVEST_02112026191907_SE_Int_Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:TATAINVEST",
+      "t": "02-Nov-2026 19:19:22"
     }
   ],
   "digest": {
@@ -3121,6 +3136,7 @@
     "balmlawrie_02112026185938_se_outcomeofbm02112026.pdf",
     "kanoharnse2026_02112026190411_outcome_board_meeting_q2.pdf",
     "triveni_02112026191629_teil_result_sep26.pdf",
-    "sfl_02112026191543_outcome_of_board_meeting.pdf"
+    "sfl_02112026191543_outcome_of_board_meeting.pdf",
+    "tatainvest_02112026191907_se_int_outcome.pdf"
   ]
 }
