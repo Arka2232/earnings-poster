@@ -110,7 +110,8 @@
     "106839460",
     "106839465",
     "106839471",
-    "106839476"
+    "106839476",
+    "106839484"
   ],
   "archive": [
     {
@@ -1174,6 +1175,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/CINELINE_02112026143231_Outcome_BM_Financial.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:CINELINE",
       "t": "02-Nov-2026 14:36:42"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "PGHL",
+      "c": "Procter & Gamble Health Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/PGHL_02112026144157_PGHLOutcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PGHL",
+      "t": "02-Nov-2026 14:45:12"
     }
   ],
   "digest": {
@@ -1394,6 +1409,15 @@
         "company": "Cineline India Limited",
         "url": "https://nsearchives.nseindia.com/corporate/CINELINE_02112026143231_Outcome_BM_Financial.pdf",
         "an_dt": "02-Nov-2026 14:36:42",
+        "date": "2026-11-02"
+      },
+      {
+        "key": "106839484",
+        "seq_id": "106839484",
+        "symbol": "PGHL",
+        "company": "Procter & Gamble Health Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/PGHL_02112026144157_PGHLOutcome.pdf",
+        "an_dt": "02-Nov-2026 14:45:12",
         "date": "2026-11-02"
       }
     ],
