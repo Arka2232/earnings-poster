@@ -189,7 +189,8 @@
     "106840511",
     "106840532",
     "106840547",
-    "106840546"
+    "106840546",
+    "106840550"
   ],
   "archive": [
     {
@@ -2704,6 +2705,20 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:CLCIND",
       "t": "02-Nov-2026 17:39:13",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751339_02112026064450_WEB.xml"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "KKCL",
+      "c": "Kewal Kiran Clothing Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/KKCL_02112026193933_Results.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:KKCL",
+      "t": "02-Nov-2026 19:43:25"
     }
   ],
   "digest": {
@@ -3022,6 +3037,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-02T19:26:42.654993+00:00"
+      },
+      {
+        "key": "106840550",
+        "seq_id": "106840550",
+        "symbol": "KKCL",
+        "company": "Kewal Kiran Clothing Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/KKCL_02112026193933_Results.pdf",
+        "an_dt": "02-Nov-2026 19:43:25",
+        "date": "2026-11-02",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-02T19:47:24.721556+00:00"
       }
     ],
     "next_cache": "2026-11-01",
@@ -3232,6 +3259,7 @@
     "dcmfinserv_02112026192033_outcome_of_bm_signed_dcm.pdf",
     "9152077850_02112026193402_shkbmoutcome02112026signed.pdf",
     "tplsectl_02112026193814_sdoutcomeofboardmeeting30092026.pdf",
-    "bharatwire_02112026194046_resultssd.pdf"
+    "bharatwire_02112026194046_resultssd.pdf",
+    "kkcl_02112026193933_results.pdf"
   ]
 }
