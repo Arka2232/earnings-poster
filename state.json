@@ -141,7 +141,8 @@
     "106839833",
     "106839858",
     "106839880",
-    "106839877"
+    "106839877",
+    "106839922"
   ],
   "archive": [
     {
@@ -1684,6 +1685,35 @@
       "filing": "https://nsearchives.nseindia.com/corporate/HECPROJECT_02112026165501_OUTCOME_FINAL_02112026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:HECPROJECT",
       "t": "02-Nov-2026 16:57:15"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "CONCOR",
+      "c": "Container Corporation of India Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/CONCOR_02112026170759_CONCOR_Results_300926S.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CONCOR",
+      "t": "02-Nov-2026 17:10:50"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "CONCOR",
+      "c": "Container Corporation of India Limited",
+      "r": "Positive",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 2378.5699999999997,
+      "pat": 353.65999999999997,
+      "eps": 4.64,
+      "filing": "https://nsearchives.nseindia.com/corporate/CONCOR_02112026170759_CONCOR_Results_300926S.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CONCOR",
+      "t": "02-Nov-2026 17:10:50",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751152_02112026050302_WEB.xml"
     }
   ],
   "digest": {
@@ -2186,6 +2216,7 @@
     "granules_02112026164630_nsebseoutcome.pdf",
     "esds_02112026163013_esds_bm_outcome_bse_nse_intimation.pdf",
     "fineorg_02112026165429_outcomeofboardmeeting.pdf",
-    "hecproject_02112026165501_outcome_final_02112026.pdf"
+    "hecproject_02112026165501_outcome_final_02112026.pdf",
+    "concor_02112026170759_concor_results_300926s.pdf"
   ]
 }
