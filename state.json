@@ -154,7 +154,8 @@
     "106840041",
     "106840059",
     "106840055",
-    "106840081"
+    "106840081",
+    "106840096"
   ],
   "archive": [
     {
@@ -1954,6 +1955,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/SHEMAROO_02112026173954_Outcome02112026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SHEMAROO",
       "t": "02-Nov-2026 17:44:43"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "PTC",
+      "c": "PTC India Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 57.625299999999996,
+      "pat": 1.591,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/PTC_02112026174440_Financialresultssep2026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PTC",
+      "t": "02-Nov-2026 17:48:05"
     }
   ],
   "digest": {
@@ -2475,6 +2490,7 @@
     "rupa_02112026173120_rupa_outcome_02112026.pdf",
     "trident_02112026173929_filing_financial.pdf",
     "spentex_bvr_02112026173746_outcomefs.pdf",
-    "shemaroo_02112026173954_outcome02112026.pdf"
+    "shemaroo_02112026173954_outcome02112026.pdf",
+    "ptc_02112026174440_financialresultssep2026.pdf"
   ]
 }
