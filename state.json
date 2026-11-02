@@ -182,7 +182,9 @@
     "106840431",
     "106840429",
     "106840438",
-    "106840467"
+    "106840467",
+    "106840495",
+    "106840493"
   ],
   "archive": [
     {
@@ -2524,6 +2526,34 @@
       "filing": "https://nsearchives.nseindia.com/corporate/KANOHARNSE2026_02112026190411_Outcome_Board_Meeting_Q2.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:KANOHAR",
       "t": "02-Nov-2026 19:11:08"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "TRIVENI",
+      "c": "Triveni Engineering & Industries Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 2048.95,
+      "pat": 30.05,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/TRIVENI_02112026191629_TEIL_RESULT_SEP26.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:TRIVENI",
+      "t": "02-Nov-2026 19:18:06"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "SFL",
+      "c": "Sheela Foam Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 781.27,
+      "pat": 30.84,
+      "eps": 2.82,
+      "filing": "https://nsearchives.nseindia.com/corporate/SFL_02112026191543_Outcome_of_Board_Meeting.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SFL",
+      "t": "02-Nov-2026 19:17:10"
     }
   ],
   "digest": {
@@ -3089,6 +3119,8 @@
     "valiant_02112026185842_bm_outcome_q2_final.pdf",
     "pnc_02112026185758_outcome_of_bm02112026ocr.pdf",
     "balmlawrie_02112026185938_se_outcomeofbm02112026.pdf",
-    "kanoharnse2026_02112026190411_outcome_board_meeting_q2.pdf"
+    "kanoharnse2026_02112026190411_outcome_board_meeting_q2.pdf",
+    "triveni_02112026191629_teil_result_sep26.pdf",
+    "sfl_02112026191543_outcome_of_board_meeting.pdf"
   ]
 }
