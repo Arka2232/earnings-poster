@@ -2419,6 +2419,21 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:BOSCH_HCIL",
       "t": "02-Nov-2026 16:46:05",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751293_02112026061848_WEB.xml"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "DANGEE",
+      "c": "Dangee Dums Limited",
+      "r": "Positive",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 7.9341,
+      "pat": -0.1304,
+      "eps": -0.01,
+      "filing": "https://nsearchives.nseindia.com/corporate/DANGEE_02112026164305_Board_Meeting_Outcome_with_Financial_Results.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:DANGEE",
+      "t": "02-Nov-2026 16:48:56",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751268_02112026060446_WEB.xml"
     }
   ],
   "digest": {
@@ -2677,18 +2692,6 @@
         "xbrl_try": "2026-11-02T18:40:37.515841+00:00"
       },
       {
-        "key": "106839835",
-        "seq_id": "106839835",
-        "symbol": "DANGEE",
-        "company": "Dangee Dums Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/DANGEE_02112026164305_Board_Meeting_Outcome_with_Financial_Results.pdf",
-        "an_dt": "02-Nov-2026 16:48:56",
-        "date": "2026-11-02",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-02T17:56:30.206942+00:00"
-      },
-      {
         "key": "106840017",
         "seq_id": "106840017",
         "symbol": "FUSION",
@@ -2722,7 +2725,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-02T17:56:30.878941+00:00"
+        "xbrl_try": "2026-11-02T18:56:51.719935+00:00"
       },
       {
         "key": "106840187",
