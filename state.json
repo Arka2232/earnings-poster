@@ -2404,6 +2404,21 @@
       "filing": "https://nsearchives.nseindia.com/corporate/SHREEPUSHK_02112026184934_SPCFLOutcomeofBM02112026FOCR.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SHREEPUSHK",
       "t": "02-Nov-2026 18:49:54"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "BOSCH-HCIL",
+      "c": "BOSCH HOME COMFORT INDIA LIMITED",
+      "r": "Bad",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 471.12,
+      "pat": -41.66,
+      "eps": -15.3,
+      "filing": "https://nsearchives.nseindia.com/corporate/JCHAC_02112026164334_20261102Results.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BOSCH_HCIL",
+      "t": "02-Nov-2026 16:46:05",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751293_02112026061848_WEB.xml"
     }
   ],
   "digest": {
@@ -2660,18 +2675,6 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-02T18:40:37.515841+00:00"
-      },
-      {
-        "key": "106839824",
-        "seq_id": "106839824",
-        "symbol": "BOSCH-HCIL",
-        "company": "BOSCH HOME COMFORT INDIA LIMITED",
-        "url": "https://nsearchives.nseindia.com/corporate/JCHAC_02112026164334_20261102Results.pdf",
-        "an_dt": "02-Nov-2026 16:46:05",
-        "date": "2026-11-02",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-02T17:52:54.457887+00:00"
       },
       {
         "key": "106839835",
