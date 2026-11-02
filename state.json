@@ -443,18 +443,6 @@
         "xbrl_try": "2026-11-02T21:27:18.787841+00:00"
       },
       {
-        "key": "106840673",
-        "seq_id": "106840673",
-        "symbol": "VENTIVE",
-        "company": "Ventive Hospitality Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/VENTIVE_02112026210029_VHL_BMOutcome_02112026.pdf",
-        "an_dt": "02-Nov-2026 21:00:50",
-        "date": "2026-11-02",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-02T21:05:08.445675+00:00"
-      },
-      {
         "key": "106840747",
         "seq_id": "106840747",
         "symbol": "DIGITIDE",
@@ -3270,6 +3258,21 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:WALCHANNAG",
       "t": "02-Nov-2026 20:56:40",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751518_02112026091126_WEB.xml"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "VENTIVE",
+      "c": "Ventive Hospitality Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 551.148,
+      "pat": 33.735,
+      "eps": 1.0,
+      "filing": "https://nsearchives.nseindia.com/corporate/VENTIVE_02112026210029_VHL_BMOutcome_02112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:VENTIVE",
+      "t": "02-Nov-2026 21:00:50",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751538_02112026094022_WEB.xml"
     }
   ]
 }
