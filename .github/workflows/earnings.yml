@@ -12,6 +12,9 @@ on:
 
 permissions:
   contents: write
+concurrency:
+  group: earnings-poster
+  cancel-in-progress: false
 
 jobs:
   post:
@@ -22,6 +25,8 @@ jobs:
         with:
           python-version: "3.11"
       - run: sudo apt-get update && sudo apt-get install -y tesseract-ocr poppler-utils || echo "OCR deps install failed; OCR fallback will skip"
+        timeout-minutes: 10
+        continue-on-error: true
       - run: pip install -r requirements.txt
       - run: python watcher.py
         env:
