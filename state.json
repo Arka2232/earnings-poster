@@ -344,7 +344,7 @@
         "url": "https://nsearchives.nseindia.com/corporate/PATELINT_02112026155145_Outcome_of_BM_Sept2026_sd.pdf",
         "an_dt": "02-Nov-2026 15:53:28",
         "date": "2026-11-02",
-        "xbrl_try": "2026-11-02T22:34:55.525598+00:00"
+        "xbrl_try": "2026-11-02T23:49:54.409897+00:00"
       },
       {
         "key": "106839719",
@@ -356,7 +356,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-02T22:34:56.811224+00:00"
+        "xbrl_try": "2026-11-02T23:49:55.859081+00:00"
       },
       {
         "key": "106839796",
@@ -368,7 +368,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-02T22:42:59.146131+00:00"
+        "xbrl_try": "2026-11-02T23:49:57.130111+00:00"
       },
       {
         "key": "106840301",
@@ -380,7 +380,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-02T22:38:48.594155+00:00"
+        "xbrl_try": "2026-11-02T23:49:58.188377+00:00"
       },
       {
         "key": "106840295",
@@ -392,7 +392,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-02T22:38:49.155052+00:00"
+        "xbrl_try": "2026-11-02T23:49:59.498610+00:00"
       },
       {
         "key": "106840386",
@@ -404,7 +404,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-02T22:53:27.990949+00:00"
+        "xbrl_try": "2026-11-02T23:50:00.667912+00:00"
       },
       {
         "key": "106840511",
@@ -416,7 +416,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-02T22:28:50.067199+00:00"
+        "xbrl_try": "2026-11-02T23:50:01.799979+00:00"
       },
       {
         "key": "106840621",
@@ -428,7 +428,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-02T22:28:51.384453+00:00"
+        "xbrl_try": "2026-11-02T23:50:02.725679+00:00"
       },
       {
         "key": "106840747",
@@ -440,11 +440,11 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-02T23:02:52.034414+00:00"
+        "xbrl_try": "2026-11-02T23:50:04.325367+00:00"
       }
     ],
     "next_cache": "2026-11-02",
-    "nightly_pass": "2026-11-01",
+    "nightly_pass": "2026-11-02",
     "calendar": "2026-11-02",
     "ipo_check": "2026-11-02 23",
     "ipo_posted": [
@@ -664,7 +664,8 @@
     "106840719",
     "106840738",
     "106840747",
-    "106840824"
+    "106840824",
+    "106839899"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -750,7 +751,8 @@
     "bharatsahu_02112026213030_bm_outcome.pdf",
     "lsil_02112026214210_financialsresultssigned.pdf",
     "digitide_02112026215817_digitide_outcome_02112026.pdf",
-    "suhask_02112026230534_reg30outcomewithudin02112026.pdf"
+    "suhask_02112026230534_reg30outcomewithudin02112026.pdf",
+    "sumedha_02112026170159_bmoutcome2112026signed.pdf"
   ],
   "archive": [
     {
@@ -3292,6 +3294,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/suhask_02112026230534_Reg30OutcomewithUDIN02112026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:HAPPSTMNDS",
       "t": "02-Nov-2026 23:07:39"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "BIRLANU",
+      "c": "BirlaNu Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 8.8452,
+      "pat": 0.25379999999999997,
+      "eps": 12.47,
+      "filing": "https://nsearchives.nseindia.com/corporate/sumedha_02112026170159_BMOutcome2112026signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BIRLANU",
+      "t": "02-Nov-2026 17:04:08"
     }
   ]
 }
