@@ -94,7 +94,9 @@
     "106839209",
     "106839269",
     "106839253",
-    "106839341"
+    "106839341",
+    "106839371",
+    "106839363"
   ],
   "archive": [
     {
@@ -934,6 +936,34 @@
       "filing": "https://nsearchives.nseindia.com/corporate/BARBEQUE_02112026125231_OutcomeOfBM.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:UFBL",
       "t": "02-Nov-2026 12:54:52"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "DGCONTENT",
+      "c": "Digicontent Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 1.3281,
+      "pat": 4.2700000000000005,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/DGCONTENT_02112026130902_Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:DGCONTENT",
+      "t": "02-Nov-2026 13:11:13"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "MOBIKWIK",
+      "c": "One Mobikwik Systems Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 295.702,
+      "pat": 11.832,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/MOBIKWIK_02112026130451_Outcome_of_Board_Meeting.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MOBIKWIK",
+      "t": "02-Nov-2026 13:06:16"
     }
   ],
   "digest": {
