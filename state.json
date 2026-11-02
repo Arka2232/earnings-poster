@@ -180,7 +180,8 @@
     "106840386",
     "106840396",
     "106840431",
-    "106840429"
+    "106840429",
+    "106840438"
   ],
   "archive": [
     {
@@ -2464,6 +2465,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/PNC_02112026185758_Outcome_of_BM02112026ocr.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:PNC",
       "t": "02-Nov-2026 18:59:30"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "BALMLAWRIE",
+      "c": "Balmer Lawrie & Company Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q1 FY27",
+      "sales": 800.3766,
+      "pat": 67.6597,
+      "eps": 3.96,
+      "filing": "https://nsearchives.nseindia.com/corporate/BALMLAWRIE_02112026185938_SE_OutcomeofBM02112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BALMLAWRIE",
+      "t": "02-Nov-2026 19:03:22"
     }
   ],
   "digest": {
@@ -3051,6 +3066,7 @@
     "divgitts_02112026184454_dtts_bm_outcome_finalsubmission_signed_final.pdf",
     "shreepushk_02112026184934_spcfloutcomeofbm02112026focr.pdf",
     "valiant_02112026185842_bm_outcome_q2_final.pdf",
-    "pnc_02112026185758_outcome_of_bm02112026ocr.pdf"
+    "pnc_02112026185758_outcome_of_bm02112026ocr.pdf",
+    "balmlawrie_02112026185938_se_outcomeofbm02112026.pdf"
   ]
 }
