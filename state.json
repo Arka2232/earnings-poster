@@ -149,7 +149,9 @@
     "106839999",
     "106839993",
     "106840025",
-    "106840017"
+    "106840017",
+    "106840044",
+    "106840041"
   ],
   "archive": [
     {
@@ -1879,6 +1881,34 @@
       "filing": "https://nsearchives.nseindia.com/corporate/FUSIONHO_02112026173100_Outcome_BoardMeeting_02112026SIGN.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:FUSION",
       "t": "02-Nov-2026 17:32:16"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "BAJAJINDEF",
+      "c": "Indef Manufacturing Limited",
+      "r": "Bad",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 48.1648,
+      "pat": 3.8454,
+      "eps": 1.2,
+      "filing": "https://nsearchives.nseindia.com/corporate/BAJAJINDEF_02112026173540_outcomeofBM02112025.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BAJAJINDEF",
+      "t": "02-Nov-2026 17:37:28"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "RUPA",
+      "c": "Rupa & Company Limited",
+      "r": "Good",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 320.4201,
+      "pat": 17.102,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/RUPA_02112026173120_Rupa_Outcome_02112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:RUPA",
+      "t": "02-Nov-2026 17:36:54"
     }
   ],
   "digest": {
@@ -2154,7 +2184,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-02T16:37:30.955391+00:00"
+        "xbrl_try": "2026-11-02T17:39:43.550400+00:00"
       },
       {
         "key": "106839824",
@@ -2383,6 +2413,8 @@
     "rajeshpillai8741_02112026172634_ufrq2h12627sign.pdf",
     "borana_02112026172459_reg_30_33_financial_result.pdf",
     "ginnifila1_02112026172424_result.pdf",
-    "fusionho_02112026173100_outcome_boardmeeting_02112026sign.pdf"
+    "fusionho_02112026173100_outcome_boardmeeting_02112026sign.pdf",
+    "bajajindef_02112026173540_outcomeofbm02112025.pdf",
+    "rupa_02112026173120_rupa_outcome_02112026.pdf"
   ]
 }
