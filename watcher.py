@@ -105,7 +105,7 @@ def record_archive(state, symbol, company, rating, basis, quarter_label,
                    sales, pat, eps, filing_url, filing_time=""):
     """Append one posted item to state["archive"] (capped at 300).
 
-    The archive page reads state.json, which the workflow already
+    The night recap reads state["archive"], which the workflow already
     commits, so no workflow change is needed. Entries are channel
     posts — already public — so storing them in the repo is fine.
     "t" is the filing's NSE timestamp (an_dt); the night recap uses
