@@ -111,7 +111,8 @@
     "106839465",
     "106839471",
     "106839476",
-    "106839484"
+    "106839484",
+    "106839488"
   ],
   "archive": [
     {
@@ -1189,6 +1190,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/PGHL_02112026144157_PGHLOutcome.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:PGHL",
       "t": "02-Nov-2026 14:45:12"
+    },
+    {
+      "d": "2026-11-02",
+      "s": "HYBRIDFIN",
+      "c": "Hybrid Financial Services Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/HYBRIDFIN_02112026144417_OutcomewithUnauditedFinancialResultsfortheHYE30thSeptember2026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:HYBRIDFIN",
+      "t": "02-Nov-2026 14:46:46"
     }
   ],
   "digest": {
@@ -1418,6 +1433,15 @@
         "company": "Procter & Gamble Health Limited",
         "url": "https://nsearchives.nseindia.com/corporate/PGHL_02112026144157_PGHLOutcome.pdf",
         "an_dt": "02-Nov-2026 14:45:12",
+        "date": "2026-11-02"
+      },
+      {
+        "key": "106839488",
+        "seq_id": "106839488",
+        "symbol": "HYBRIDFIN",
+        "company": "Hybrid Financial Services Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/HYBRIDFIN_02112026144417_OutcomewithUnauditedFinancialResultsfortheHYE30thSeptember2026.pdf",
+        "an_dt": "02-Nov-2026 14:46:46",
         "date": "2026-11-02"
       }
     ],
