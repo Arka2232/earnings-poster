@@ -1012,7 +1012,8 @@
     "106842012",
     "106842024",
     "106842042",
-    "106842036"
+    "106842036",
+    "106842056"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1160,7 +1161,8 @@
     "sedemac2007_03112026162947_20261103-outcomeofboardmeeting.pdf",
     "kotharipet_03112026163206_outcomeofboardmeeting_03112026.pdf",
     "dreamfolks24_03112026163624_dfsl_outcome_bm_november_03_2026_signed.pdf",
-    "yashikan_03112026163551_financial_results_30092026.pdf"
+    "yashikan_03112026163551_financial_results_30092026.pdf",
+    "rhetan_03112026164123_bmoutcome30092026.pdf"
   ],
   "archive": [
     {
@@ -4660,6 +4662,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/YASHIKAN_03112026163551_Financial_Results_30092026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:CHAMBLFERT",
       "t": "03-Nov-2026 16:36:56"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "RHETAN",
+      "c": "Rhetan TMT Limited",
+      "r": "Positive",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 3.6317000000000004,
+      "pat": 2.9192,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/RHETAN_03112026164123_BMoutcome30092026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:RHETAN",
+      "t": "03-Nov-2026 16:43:05"
     }
   ]
 }
