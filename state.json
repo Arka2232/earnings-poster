@@ -593,7 +593,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T14:26:50.355542+00:00"
+        "xbrl_try": "2026-11-03T15:27:28.594348+00:00"
       },
       {
         "key": "106841655",
@@ -690,6 +690,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-03T15:09:51.745314+00:00"
+      },
+      {
+        "key": "106841799",
+        "seq_id": "106841799",
+        "symbol": "MANGLMCEM",
+        "company": "Mangalam Cement Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/MANGLMCEM_03112026152332_NSE_BSE_OUTCOME_03_11_2026_S.pdf",
+        "an_dt": "03-Nov-2026 15:25:49",
+        "date": "2026-11-03",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-03T15:27:28.984585+00:00"
       }
     ],
     "next_cache": "2026-11-02",
@@ -957,7 +969,8 @@
     "106841742",
     "106841749",
     "106841766",
-    "106841772"
+    "106841772",
+    "106841799"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1087,7 +1100,8 @@
     "vasconeq_03112026150147_outcome_final_sd.pdf",
     "dtl_03112026150059_dhoot_bm_outcome_03112026_signed.pdf",
     "arihantsup_03112026151003_asl_outcome_bm_03112026.pdf",
-    "gencon_03112026151211_outcome.pdf"
+    "gencon_03112026151211_outcome.pdf",
+    "manglmcem_03112026152332_nse_bse_outcome_03_11_2026_s.pdf"
   ],
   "archive": [
     {
@@ -4260,6 +4274,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/GENCON_03112026151211_Outcome.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:GENCON",
       "t": "03-Nov-2026 15:13:46"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "MANGLMCEM",
+      "c": "Mangalam Cement Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/MANGLMCEM_03112026152332_NSE_BSE_OUTCOME_03_11_2026_S.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MANGLMCEM",
+      "t": "03-Nov-2026 15:25:49"
     }
   ]
 }
