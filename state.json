@@ -401,7 +401,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T11:04:54.216392+00:00"
+        "xbrl_try": "2026-11-03T12:06:52.337311+00:00"
       },
       {
         "key": "106839796",
@@ -413,7 +413,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T11:04:55.771370+00:00"
+        "xbrl_try": "2026-11-03T12:06:53.886251+00:00"
       },
       {
         "key": "106840301",
@@ -425,7 +425,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T11:04:56.521167+00:00"
+        "xbrl_try": "2026-11-03T12:06:54.724314+00:00"
       },
       {
         "key": "106840295",
@@ -437,7 +437,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T11:04:58.013346+00:00"
+        "xbrl_try": "2026-11-03T12:06:55.917172+00:00"
       },
       {
         "key": "106840386",
@@ -710,7 +710,8 @@
     "106840738",
     "106840747",
     "106840824",
-    "106839899"
+    "106839899",
+    "106841358"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -797,7 +798,8 @@
     "lsil_02112026214210_financialsresultssigned.pdf",
     "digitide_02112026215817_digitide_outcome_02112026.pdf",
     "suhask_02112026230534_reg30outcomewithudin02112026.pdf",
-    "sumedha_02112026170159_bmoutcome2112026signed.pdf"
+    "sumedha_02112026170159_bmoutcome2112026signed.pdf",
+    "jyoticnc_nse_03112026115810_outcome_of_bm_03112026.pdf"
   ],
   "archive": [
     {
@@ -3353,6 +3355,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/sumedha_02112026170159_BMOutcome2112026signed.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:BIRLANU",
       "t": "02-Nov-2026 17:04:08"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "JYOTICNC",
+      "c": "Jyoti CNC Automation Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 587.53,
+      "pat": 114.89,
+      "eps": 5.05,
+      "filing": "https://nsearchives.nseindia.com/corporate/JYOTICNC_NSE_03112026115810_Outcome_of_BM_03112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:JYOTICNC",
+      "t": "03-Nov-2026 12:04:51"
     }
   ]
 }
