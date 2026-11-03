@@ -654,7 +654,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T16:06:50.517472+00:00"
+        "xbrl_try": "2026-11-03T17:09:29.492348+00:00"
       },
       {
         "key": "106841799",
@@ -1054,7 +1054,8 @@
     "106842070",
     "106842076",
     "106842095",
-    "106842128"
+    "106842128",
+    "106842152"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1208,7 +1209,8 @@
     "ufo_03112026164542_outcomeofboardmeeting03112026.pdf",
     "vmart_03112026164834_finaloutcome.pdf",
     "lindeindia1_03112026165015_outcome_of_bm_03112026.pdf",
-    "bajajhldng_03112026165942_bm_intimation_signed_bhil.pdf"
+    "bajajhldng_03112026165942_bm_intimation_signed_bhil.pdf",
+    "surevin_03112026170540_bodoutcome03112026.pdf"
   ],
   "archive": [
     {
@@ -4792,6 +4794,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/BAJAJHLDNG_03112026165942_BM_intimation_signed_BHIL.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:BAJAJHLDNG",
       "t": "03-Nov-2026 17:02:36"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "WEWIN",
+      "c": "WE WIN LIMITED",
+      "r": "Bad",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 24.7296,
+      "pat": 0.0046,
+      "eps": 0.0,
+      "filing": "https://nsearchives.nseindia.com/corporate/SUREVIN_03112026170540_BODOutcome03112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:WEWIN",
+      "t": "03-Nov-2026 17:07:00"
     }
   ]
 }
