@@ -389,7 +389,7 @@
         "url": "https://nsearchives.nseindia.com/corporate/PATELINT_02112026155145_Outcome_of_BM_Sept2026_sd.pdf",
         "an_dt": "02-Nov-2026 15:53:28",
         "date": "2026-11-02",
-        "xbrl_try": "2026-11-03T15:09:46.444779+00:00"
+        "xbrl_try": "2026-11-03T16:11:44.559200+00:00"
       },
       {
         "key": "106839719",
@@ -401,7 +401,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T15:09:47.399994+00:00"
+        "xbrl_try": "2026-11-03T16:11:46.447931+00:00"
       },
       {
         "key": "106839796",
@@ -413,7 +413,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T15:09:48.884313+00:00"
+        "xbrl_try": "2026-11-03T16:11:48.015927+00:00"
       },
       {
         "key": "106840301",
@@ -425,7 +425,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T15:09:49.752879+00:00"
+        "xbrl_try": "2026-11-03T16:11:48.825938+00:00"
       },
       {
         "key": "106840295",
@@ -437,7 +437,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T15:09:50.982798+00:00"
+        "xbrl_try": "2026-11-03T16:11:50.127418+00:00"
       },
       {
         "key": "106840386",
@@ -533,7 +533,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T15:09:51.334116+00:00"
+        "xbrl_try": "2026-11-03T16:11:50.544113+00:00"
       },
       {
         "key": "106841577",
@@ -667,18 +667,6 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-03T16:06:50.517472+00:00"
-      },
-      {
-        "key": "106841742",
-        "seq_id": "106841742",
-        "symbol": "VASCONEQ",
-        "company": "Vascon Engineers Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/VASCONEQ_03112026150147_Outcome_Final_Sd.pdf",
-        "an_dt": "03-Nov-2026 15:03:33",
-        "date": "2026-11-03",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-03T15:09:51.745314+00:00"
       },
       {
         "key": "106841799",
@@ -988,7 +976,10 @@
     "106841859",
     "106841869",
     "106841873",
-    "106841886"
+    "106841886",
+    "106841914",
+    "106841913",
+    "106841905"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1124,7 +1115,10 @@
     "neulandlab_03112026154657_seoutcome_03112026.pdf",
     "8448091598_03112026155454_stxintimationoutcome03112026sd.pdf",
     "maxind_03112026155414_outcomenov2026milsigned.pdf",
-    "harsha_03112026160002_board_meeting_outcome_dated_3rd_november_2026.pdf"
+    "harsha_03112026160002_board_meeting_outcome_dated_3rd_november_2026.pdf",
+    "sigma_03112026160443_outcome_bm_03112026.pdf",
+    "seamecltd_03112026160546_outcomeofboardmeetingbsense03112026.pdf",
+    "medanta21_03112026160317_ghloutcomeofbmnov032026signed.pdf"
   ],
   "archive": [
     {
@@ -4396,6 +4390,78 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:AJMERA",
       "t": "03-Nov-2026 13:55:38",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751778_03112026035734_WEB.xml"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "SIGMA",
+      "c": "Sigma Solve Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/SIGMA_03112026160443_OUTCOME_BM_03112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SIGMA",
+      "t": "03-Nov-2026 16:07:45"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "SEAMECLTD",
+      "c": "Seamec Limited",
+      "r": "Positive",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 1.8362,
+      "pat": 0.8117000000000001,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/SEAMECLTD_03112026160546_OutcomeofBoardMeetingBSENSE03112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SEAMECLTD",
+      "t": "03-Nov-2026 16:07:31"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "MEDANTA",
+      "c": "Global Health Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 14690.43,
+      "pat": 2191.44,
+      "eps": 8.21,
+      "filing": "https://nsearchives.nseindia.com/corporate/MEDANTA21_03112026160317_GHLOUTCOMEOFBMNOV032026SIGNED.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MEDANTA",
+      "t": "03-Nov-2026 16:06:37"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "VASCONEQ",
+      "c": "Vascon Engineers Limited",
+      "r": "Good",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 252.08999999999997,
+      "pat": 13.02,
+      "eps": 0.56,
+      "filing": "https://nsearchives.nseindia.com/corporate/VASCONEQ_03112026150147_Outcome_Final_Sd.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:VASCONEQ",
+      "t": "03-Nov-2026 15:03:33",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751756_03112026032450_WEB.xml"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "SIGMA",
+      "c": "Sigma Solve Limited",
+      "r": "Bad",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 7.879099999999999,
+      "pat": 1.1267,
+      "eps": 0.11,
+      "filing": "https://nsearchives.nseindia.com/corporate/SIGMA_03112026160443_OUTCOME_BM_03112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SIGMA",
+      "t": "03-Nov-2026 16:07:45",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751781_03112026040309_WEB.xml"
     }
   ]
 }
