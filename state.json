@@ -983,7 +983,8 @@
     "106841766",
     "106841772",
     "106841799",
-    "106841852"
+    "106841852",
+    "106841859"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1115,7 +1116,8 @@
     "arihantsup_03112026151003_asl_outcome_bm_03112026.pdf",
     "gencon_03112026151211_outcome.pdf",
     "manglmcem_03112026152332_nse_bse_outcome_03_11_2026_s.pdf",
-    "camlinfine_03112026154559_outcome_of_bm_03112026.pdf"
+    "camlinfine_03112026154559_outcome_of_bm_03112026.pdf",
+    "neulandlab_03112026154657_seoutcome_03112026.pdf"
   ],
   "archive": [
     {
@@ -4316,6 +4318,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/CAMLINFINE_03112026154559_Outcome_of_BM_03112026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:CAMLINFINE",
       "t": "03-Nov-2026 15:47:20"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "NEULANDLAB",
+      "c": "Neuland Laboratories Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 449.6569,
+      "pat": 51.625,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/NEULANDLAB_03112026154657_SEOutcome_03112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:NEULANDLAB",
+      "t": "03-Nov-2026 15:50:00"
     }
   ]
 }
