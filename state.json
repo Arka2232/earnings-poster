@@ -594,6 +594,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-03T14:17:01.662069+00:00"
+      },
+      {
+        "key": "106841651",
+        "seq_id": "106841651",
+        "symbol": "NITCO",
+        "company": "Nitco Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/NITCO_03112026142208_SEoutcomeofboardmeeting.pdf",
+        "an_dt": "03-Nov-2026 14:23:44",
+        "date": "2026-11-03",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-03T14:26:50.355542+00:00"
       }
     ],
     "next_cache": "2026-11-02",
@@ -843,7 +855,8 @@
     "106841615",
     "106841613",
     "106841640",
-    "106841637"
+    "106841637",
+    "106841651"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -955,7 +968,8 @@
     "gilkolkata_03112026135910_result30092026f.pdf",
     "sikko_03112026140006_outcome.pdf",
     "pfizer_03112026141109_seintimation_frq22027.pdf",
-    "fluorochem_03112026141153_gfcl_financial_results.pdf"
+    "fluorochem_03112026141153_gfcl_financial_results.pdf",
+    "nitco_03112026142208_seoutcomeofboardmeeting.pdf"
   ],
   "archive": [
     {
@@ -3861,6 +3875,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/FLUOROCHEM_03112026141153_GFCL_Financial_Results.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:FLUOROCHEM",
       "t": "03-Nov-2026 14:13:33"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "NITCO",
+      "c": "Nitco Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/NITCO_03112026142208_SEoutcomeofboardmeeting.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:NITCO",
+      "t": "03-Nov-2026 14:23:44"
     }
   ]
 }
