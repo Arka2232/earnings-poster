@@ -570,7 +570,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T16:19:17.824963+00:00"
+        "xbrl_try": "2026-11-03T17:21:14.082777+00:00"
       },
       {
         "key": "106841651",
@@ -763,6 +763,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-03T17:16:03.457783+00:00"
+      },
+      {
+        "key": "106842183",
+        "seq_id": "106842183",
+        "symbol": "KALAMANDIR",
+        "company": "Sai Silks (Kalamandir) Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/SSKL_03112026170922_Outcome_of_BM_031126.pdf",
+        "an_dt": "03-Nov-2026 17:18:17",
+        "date": "2026-11-03",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-03T17:21:14.904434+00:00"
       }
     ],
     "next_cache": "2026-11-02",
@@ -1057,7 +1069,8 @@
     "106842128",
     "106842152",
     "106842168",
-    "106842179"
+    "106842179",
+    "106842183"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1214,7 +1227,8 @@
     "bajajhldng_03112026165942_bm_intimation_signed_bhil.pdf",
     "surevin_03112026170540_bodoutcome03112026.pdf",
     "adventhtl_03112026171215_adventoutcomeresults03112026.pdf",
-    "nacl2020_03112026171600_results_exchange_final_1.pdf"
+    "nacl2020_03112026171600_results_exchange_final_1.pdf",
+    "sskl_03112026170922_outcome_of_bm_031126.pdf"
   ],
   "archive": [
     {
@@ -4855,6 +4869,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/NACL2020_03112026171600_Results_Exchange_Final_1.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:NORTHARC",
       "t": "03-Nov-2026 17:17:00"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "KALAMANDIR",
+      "c": "Sai Silks (Kalamandir) Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/SSKL_03112026170922_Outcome_of_BM_031126.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:KALAMANDIR",
+      "t": "03-Nov-2026 17:18:17"
     }
   ]
 }
