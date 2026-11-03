@@ -690,7 +690,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T17:00:45.535867+00:00"
+        "xbrl_try": "2026-11-03T18:01:05.926634+00:00"
       },
       {
         "key": "106841928",
@@ -1074,7 +1074,8 @@
     "106842264",
     "106842317",
     "106842326",
-    "106842330"
+    "106842330",
+    "106842348"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1248,7 +1249,8 @@
     "pokarna_03112026173627_final_intimation_outcome_sep_2026.pdf",
     "compliance_abl1_03112026175122_outcome_of_bm_q2fy27__1_.pdf",
     "mastertrustnse_03112026175244_results_mtl_merged.pdf",
-    "adsl_03112026175552_finaloutcome.pdf"
+    "adsl_03112026175552_finaloutcome.pdf",
+    "nephrocare1_03112026175920_finaloutcomesigned.pdf"
   ],
   "archive": [
     {
@@ -5157,6 +5159,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/ADSL_03112026175552_FinalOutcome.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:ADSL",
       "t": "03-Nov-2026 17:57:36"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "NEPHROPLUS",
+      "c": "Nephrocare Health Services Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 303.398,
+      "pat": 33.531,
+      "eps": 3.34,
+      "filing": "https://nsearchives.nseindia.com/corporate/NEPHROCARE1_03112026175920_finaloutcomesigned.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:NEPHROPLUS",
+      "t": "03-Nov-2026 18:00:10"
     }
   ]
 }
