@@ -1075,7 +1075,8 @@
     "106842317",
     "106842326",
     "106842330",
-    "106842348"
+    "106842348",
+    "106842352"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1250,7 +1251,8 @@
     "compliance_abl1_03112026175122_outcome_of_bm_q2fy27__1_.pdf",
     "mastertrustnse_03112026175244_results_mtl_merged.pdf",
     "adsl_03112026175552_finaloutcome.pdf",
-    "nephrocare1_03112026175920_finaloutcomesigned.pdf"
+    "nephrocare1_03112026175920_finaloutcomesigned.pdf",
+    "lcal_03112026175951_financial_result_sept_26.pdf"
   ],
   "archive": [
     {
@@ -5173,6 +5175,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/NEPHROCARE1_03112026175920_finaloutcomesigned.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:NEPHROPLUS",
       "t": "03-Nov-2026 18:00:10"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "LORDSCHLO",
+      "c": "Lords Chloro Alkali Limited",
+      "r": "Positive",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 11540.35,
+      "pat": 901.52,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/LCAL_03112026175951_Financial_Result_sept_26.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:LORDSCHLO",
+      "t": "03-Nov-2026 18:01:03"
     }
   ]
 }
