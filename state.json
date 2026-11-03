@@ -389,7 +389,7 @@
         "url": "https://nsearchives.nseindia.com/corporate/PATELINT_02112026155145_Outcome_of_BM_Sept2026_sd.pdf",
         "an_dt": "02-Nov-2026 15:53:28",
         "date": "2026-11-02",
-        "xbrl_try": "2026-11-03T12:04:54.969805+00:00"
+        "xbrl_try": "2026-11-03T13:05:49.578266+00:00"
       },
       {
         "key": "106839719",
@@ -522,6 +522,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-03T12:45:48.448584+00:00"
+      },
+      {
+        "key": "106841503",
+        "seq_id": "106841503",
+        "symbol": "DIACABS",
+        "company": "Diamond Power Infrastructure Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/DIACABS_03112026125735_OutcomeofBM.pdf",
+        "an_dt": "03-Nov-2026 13:03:05",
+        "date": "2026-11-03",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-03T13:05:49.863686+00:00"
       }
     ],
     "next_cache": "2026-11-02",
@@ -753,7 +765,8 @@
     "106841447",
     "106841458",
     "106841454",
-    "106841475"
+    "106841475",
+    "106841503"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -847,7 +860,8 @@
     "geeceevc12345_03112026123836_bmoutcomeresults_signed.pdf",
     "suranat_p_03112026124044_outcome.pdf",
     "nextmedia_03112026124005_nmw_board_meeting_outcome_nov_2026.pdf",
-    "walimbelk_03112026124657_bfsseoutcomeofbm_3nov2026.pdf"
+    "walimbelk_03112026124657_bfsseoutcomeofbm_3nov2026.pdf",
+    "diacabs_03112026125735_outcomeofbm.pdf"
   ],
   "archive": [
     {
@@ -3501,6 +3515,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/walimbelk_03112026124657_BFSSEOUTCOMEOFBM_3NOV2026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:BAJAJFINSV",
       "t": "03-Nov-2026 12:48:27"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "DIACABS",
+      "c": "Diamond Power Infrastructure Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/DIACABS_03112026125735_OutcomeofBM.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:DIACABS",
+      "t": "03-Nov-2026 13:03:05"
     }
   ]
 }
