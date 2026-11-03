@@ -768,7 +768,8 @@
     "106841475",
     "106841503",
     "106841525",
-    "106841533"
+    "106841533",
+    "106841544"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -865,7 +866,8 @@
     "walimbelk_03112026124657_bfsseoutcomeofbm_3nov2026.pdf",
     "diacabs_03112026125735_outcomeofbm.pdf",
     "alkylamine_03112026131355_results.pdf",
-    "deepinds_03112026132142_outcome.pdf"
+    "deepinds_03112026132142_outcome.pdf",
+    "princepipe_03112026132925_se_outcome.pdf"
   ],
   "archive": [
     {
@@ -3561,6 +3563,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/DEEPINDS_03112026132142_Outcome.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:DEEPINDS",
       "t": "03-Nov-2026 13:22:40"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "PRINCEPIPE",
+      "c": "Prince Pipes And Fittings Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q3 FY27",
+      "sales": 820.814,
+      "pat": 47.764,
+      "eps": 4.32,
+      "filing": "https://nsearchives.nseindia.com/corporate/PRINCEPIPE_03112026132925_SE_Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PRINCEPIPE",
+      "t": "03-Nov-2026 13:32:02"
     }
   ]
 }
