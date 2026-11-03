@@ -509,7 +509,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T17:52:41.523107+00:00"
+        "xbrl_try": "2026-11-03T18:53:16.393181+00:00"
       },
       {
         "key": "106841454",
@@ -521,7 +521,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T17:52:43.094799+00:00"
+        "xbrl_try": "2026-11-03T18:53:18.128415+00:00"
       },
       {
         "key": "106841503",
@@ -630,7 +630,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T17:52:44.000138+00:00"
+        "xbrl_try": "2026-11-03T18:53:18.939788+00:00"
       },
       {
         "key": "106841873",
@@ -763,6 +763,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-03T18:41:20.176558+00:00"
+      },
+      {
+        "key": "106842583",
+        "seq_id": "106842583",
+        "symbol": "DENORA",
+        "company": "De Nora India Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/DENORA_03112026184817_Board_outcome_Sep2026.pdf",
+        "an_dt": "03-Nov-2026 18:51:00",
+        "date": "2026-11-03",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-03T18:53:19.351432+00:00"
       }
     ],
     "next_cache": "2026-11-02",
@@ -1091,7 +1103,8 @@
     "106842538",
     "106842553",
     "106842571",
-    "106842581"
+    "106842581",
+    "106842583"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1282,7 +1295,8 @@
     "servotech_03112026183537_financial_results.pdf",
     "v2retail_03112026183632_outcome.pdf",
     "arisinfra2024_03112026183854_outcome.pdf",
-    "glaxo1924_03112026184904_outcome_of_meeting.pdf"
+    "glaxo1924_03112026184904_outcome_of_meeting.pdf",
+    "denora_03112026184817_board_outcome_sep2026.pdf"
   ],
   "archive": [
     {
@@ -5504,6 +5518,20 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:UFO",
       "t": "03-Nov-2026 16:47:49",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752074_03112026064352_WEB.xml"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "DENORA",
+      "c": "De Nora India Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/DENORA_03112026184817_Board_outcome_Sep2026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:DENORA",
+      "t": "03-Nov-2026 18:51:00"
     }
   ]
 }
