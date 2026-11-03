@@ -389,7 +389,7 @@
         "url": "https://nsearchives.nseindia.com/corporate/PATELINT_02112026155145_Outcome_of_BM_Sept2026_sd.pdf",
         "an_dt": "02-Nov-2026 15:53:28",
         "date": "2026-11-02",
-        "xbrl_try": "2026-11-03T14:07:01.967470+00:00"
+        "xbrl_try": "2026-11-03T15:09:46.444779+00:00"
       },
       {
         "key": "106839719",
@@ -401,7 +401,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T14:08:54.284501+00:00"
+        "xbrl_try": "2026-11-03T15:09:47.399994+00:00"
       },
       {
         "key": "106839796",
@@ -413,7 +413,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T14:08:55.722016+00:00"
+        "xbrl_try": "2026-11-03T15:09:48.884313+00:00"
       },
       {
         "key": "106840301",
@@ -425,7 +425,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T14:08:56.569718+00:00"
+        "xbrl_try": "2026-11-03T15:09:49.752879+00:00"
       },
       {
         "key": "106840295",
@@ -437,7 +437,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T14:08:57.902361+00:00"
+        "xbrl_try": "2026-11-03T15:09:50.982798+00:00"
       },
       {
         "key": "106840386",
@@ -533,7 +533,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T14:07:02.279809+00:00"
+        "xbrl_try": "2026-11-03T15:09:51.334116+00:00"
       },
       {
         "key": "106841577",
@@ -678,6 +678,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-03T15:05:49.170968+00:00"
+      },
+      {
+        "key": "106841742",
+        "seq_id": "106841742",
+        "symbol": "VASCONEQ",
+        "company": "Vascon Engineers Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/VASCONEQ_03112026150147_Outcome_Final_Sd.pdf",
+        "an_dt": "03-Nov-2026 15:03:33",
+        "date": "2026-11-03",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-03T15:09:51.745314+00:00"
       }
     ],
     "next_cache": "2026-11-02",
@@ -940,7 +952,9 @@
     "106841727",
     "106841724",
     "106841720",
-    "106841736"
+    "106841736",
+    "106841747",
+    "106841742"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1065,7 +1079,9 @@
     "bhagchem_03112026145415_seintimation.pdf",
     "rtnindia_03112026145359_relresultsq2.pdf",
     "edutech_03112026145238_outcome_of_bm_edutech.pdf",
-    "mindacorp_03112026150024_bmoutcome.pdf"
+    "mindacorp_03112026150024_bmoutcome.pdf",
+    "inventure_03112026150257_outcome_kl.pdf",
+    "vasconeq_03112026150147_outcome_final_sd.pdf"
   ],
   "archive": [
     {
@@ -4168,6 +4184,34 @@
       "filing": "https://nsearchives.nseindia.com/corporate/MINDACORP_03112026150024_BMOutcome.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:MINDACORP",
       "t": "03-Nov-2026 15:00:40"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "INVENTURE",
+      "c": "Inventure Growth & Securities Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 18.1285,
+      "pat": 8.324,
+      "eps": 0.08,
+      "filing": "https://nsearchives.nseindia.com/corporate/INVENTURE_03112026150257_Outcome_KL.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:INVENTURE",
+      "t": "03-Nov-2026 15:05:23"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "VASCONEQ",
+      "c": "Vascon Engineers Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/VASCONEQ_03112026150147_Outcome_Final_Sd.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:VASCONEQ",
+      "t": "03-Nov-2026 15:03:33"
     }
   ]
 }
