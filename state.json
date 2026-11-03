@@ -668,6 +668,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-03T21:14:31.822144+00:00"
+      },
+      {
+        "key": "106842981",
+        "seq_id": "106842981",
+        "symbol": "ONIDA",
+        "company": "Onida Electronics Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/MIRCELECTR_03112026211111_OutcomeofBoardMeeting03112026signed.pdf",
+        "an_dt": "03-Nov-2026 21:15:10",
+        "date": "2026-11-03",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-03T21:20:25.863680+00:00"
       }
     ],
     "next_cache": "2026-11-02",
@@ -1033,7 +1045,8 @@
     "106842954",
     "106842961",
     "106842964",
-    "106842976"
+    "106842976",
+    "106842981"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1261,23 +1274,10 @@
     "authum123_03112026205231_outcomebm03112026.pdf",
     "digispice_03112026205704_intimationofoutcomeofboard_meetingfinancialresults.pdf",
     "icccsexecutive_03112026205749_icc_bm_outcome_november_3_26_final.pdf",
-    "rsystemspj_03112026211010_rsystems_sd.pdf"
+    "rsystemspj_03112026211010_rsystems_sd.pdf",
+    "mircelectr_03112026211111_outcomeofboardmeeting03112026signed.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-11-01",
-      "s": "AVL",
-      "c": "Aditya Vision Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/ADITYAVISION_01112026225517_Uploaddd.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:AVL",
-      "t": "01-Nov-2026 23:01:59"
-    },
     {
       "d": "2026-11-02",
       "s": "IGCL",
@@ -5530,6 +5530,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/RSYSTEMSPJ_03112026211010_RSYSTEMS_sd.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:RSYSTEMS",
       "t": "03-Nov-2026 21:11:09"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "ONIDA",
+      "c": "Onida Electronics Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/MIRCELECTR_03112026211111_OutcomeofBoardMeeting03112026signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ONIDA",
+      "t": "03-Nov-2026 21:15:10"
     }
   ]
 }
