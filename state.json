@@ -609,18 +609,6 @@
         "xbrl_try": "2026-11-03T18:45:38.088549+00:00"
       },
       {
-        "key": "106841727",
-        "seq_id": "106841727",
-        "symbol": "BHAGCHEM",
-        "company": "Bhagiradha Chemicals & Industries Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/BHAGCHEM_03112026145415_seintimation.pdf",
-        "an_dt": "03-Nov-2026 14:56:26",
-        "date": "2026-11-03",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-03T18:06:45.373984+00:00"
-      },
-      {
         "key": "106841852",
         "seq_id": "106841852",
         "symbol": "CAMLINFINE",
@@ -702,7 +690,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T18:10:06.934345+00:00"
+        "xbrl_try": "2026-11-03T19:12:35.221990+00:00"
       },
       {
         "key": "106842423",
@@ -751,6 +739,42 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-03T18:53:19.351432+00:00"
+      },
+      {
+        "key": "106842648",
+        "seq_id": "106842648",
+        "symbol": "INDIQUBE",
+        "company": "Indiqube Spaces Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/INDIQUBE_03112026190216_INDIQUBE.pdf",
+        "an_dt": "03-Nov-2026 19:05:53",
+        "date": "2026-11-03",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-03T19:12:35.571415+00:00"
+      },
+      {
+        "key": "106842647",
+        "seq_id": "106842647",
+        "symbol": "RUSHABEAR",
+        "company": "Rushabh Precision Bearings Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/RUSHABEAR_03112026190434_outcome_financials__2_.pdf",
+        "an_dt": "03-Nov-2026 19:05:34",
+        "date": "2026-11-03",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-03T19:12:36.274493+00:00"
+      },
+      {
+        "key": "106842637",
+        "seq_id": "106842637",
+        "symbol": "AARTIDRUGS",
+        "company": "Aarti Drugs Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/AARTIDRUGS_03112026190146_ADL.pdf",
+        "an_dt": "03-Nov-2026 19:03:44",
+        "date": "2026-11-03",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-03T19:12:37.018325+00:00"
       }
     ],
     "next_cache": "2026-11-02",
@@ -1086,7 +1110,11 @@
     "106842618",
     "106842606",
     "106842602",
-    "106842599"
+    "106842599",
+    "106842651",
+    "106842648",
+    "106842647",
+    "106842637"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1284,79 +1312,13 @@
     "arvee_03112026185622_out.pdf",
     "transrail_03112026185337_outcomebm03112026.pdf",
     "onepoint_03112026185040_onepoint.pdf",
-    "dalmiacem_03112026185216_outcome_of_bm.pdf"
+    "dalmiacem_03112026185216_outcome_of_bm.pdf",
+    "devacce_03112026190513_se_outcome_of_board_meeting.pdf",
+    "indiqube_03112026190216_indiqube.pdf",
+    "rushabear_03112026190434_outcome_financials__2_.pdf",
+    "aartidrugs_03112026190146_adl.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-10-31",
-      "s": "NILAINFRA",
-      "c": "Nila Infrastructures Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/NILAINFRA_31102026124301_530377OutcomeBMResults30092026NILA.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:NILAINFRA",
-      "t": "31-Oct-2026 12:44:01"
-    },
-    {
-      "d": "2026-10-31",
-      "s": "NITINSPIN",
-      "c": "Nitin Spinners Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/NITINSPIN_31102026142230_RESULTS.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:NITINSPIN",
-      "t": "31-Oct-2026 14:24:48"
-    },
-    {
-      "d": "2026-10-31",
-      "s": "GHCL",
-      "c": "GHCL Limited",
-      "r": "Good",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 808.03,
-      "pat": 127.42,
-      "eps": 14.02,
-      "filing": "https://nsearchives.nseindia.com/corporate/GHCL_31102026143350_GHCL_219th_Outcome_Board_Meeting_October31_2026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GHCL",
-      "t": "31-Oct-2026 14:35:14"
-    },
-    {
-      "d": "2026-10-31",
-      "s": "CLEAN",
-      "c": "Clean Science and Technology Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/CLEAN_31102026143234_Outcome_BM_31102026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CLEAN",
-      "t": "31-Oct-2026 14:33:48"
-    },
-    {
-      "d": "2026-10-31",
-      "s": "NTPC",
-      "c": "NTPC Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/9425178051_31102026144738_QFRQ2FY27_Final.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:NTPC",
-      "t": "31-Oct-2026 14:50:38"
-    },
     {
       "d": "2026-10-31",
       "s": "EVEREADY",
@@ -5537,6 +5499,77 @@
       "filing": "https://nsearchives.nseindia.com/corporate/DALMIACEM_03112026185216_Outcome_of_BM.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:DALMIASUG",
       "t": "03-Nov-2026 18:54:44"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "DEVX",
+      "c": "Dev Accelerator Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 80.22500000000001,
+      "pat": 5.4964,
+      "eps": 0.6,
+      "filing": "https://nsearchives.nseindia.com/corporate/DEVACCE_03112026190513_SE_Outcome_of_Board_Meeting.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:DEVX",
+      "t": "03-Nov-2026 19:06:11"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "INDIQUBE",
+      "c": "Indiqube Spaces Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/INDIQUBE_03112026190216_INDIQUBE.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:INDIQUBE",
+      "t": "03-Nov-2026 19:05:53"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "RUSHABEAR",
+      "c": "Rushabh Precision Bearings Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/RUSHABEAR_03112026190434_outcome_financials__2_.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:RUSHABEAR",
+      "t": "03-Nov-2026 19:05:34"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "AARTIDRUGS",
+      "c": "Aarti Drugs Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/AARTIDRUGS_03112026190146_ADL.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:AARTIDRUGS",
+      "t": "03-Nov-2026 19:03:44"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "BHAGCHEM",
+      "c": "Bhagiradha Chemicals & Industries Limited",
+      "r": "Positive",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 169.9159,
+      "pat": 5.4079999999999995,
+      "eps": 0.42,
+      "filing": "https://nsearchives.nseindia.com/corporate/BHAGCHEM_03112026145415_seintimation.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BHAGCHEM",
+      "t": "03-Nov-2026 14:56:26",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752121_03112026070858_WEB.xml"
     }
   ]
 }
