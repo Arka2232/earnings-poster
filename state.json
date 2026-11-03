@@ -594,7 +594,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T16:31:05.362365+00:00"
+        "xbrl_try": "2026-11-03T17:33:09.752784+00:00"
       },
       {
         "key": "106841662",
@@ -606,7 +606,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T16:32:50.577676+00:00"
+        "xbrl_try": "2026-11-03T17:33:10.288340+00:00"
       },
       {
         "key": "106841659",
@@ -618,7 +618,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T16:32:51.369482+00:00"
+        "xbrl_try": "2026-11-03T17:33:11.003676+00:00"
       },
       {
         "key": "106841685",
@@ -1064,7 +1064,8 @@
     "106842206",
     "106842204",
     "106842209",
-    "106842216"
+    "106842216",
+    "106842233"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1228,7 +1229,8 @@
     "sumeetinds_03112026172225_outcomeofbm03112026.pdf",
     "nrail_03112026172319_outcomeresults03112026.pdf",
     "awfis2014_03112026172224_bm_outcome_signed.pdf",
-    "gandhitube_03112026172354_outcome_of_bm_signed.pdf"
+    "gandhitube_03112026172354_outcome_of_bm_signed.pdf",
+    "asiantiles_03112026172833_seoutcomeofbm03112026.pdf"
   ],
   "archive": [
     {
@@ -4982,6 +4984,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/GANDHITUBE_03112026172354_Outcome_of_BM_signed.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:GANDHITUBE",
       "t": "03-Nov-2026 17:26:32"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "ASIANTILES",
+      "c": "Asian Granito India Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 528.504,
+      "pat": 5.216799999999999,
+      "eps": 0.2,
+      "filing": "https://nsearchives.nseindia.com/corporate/ASIANTILES_03112026172833_SEOutcomeofBM03112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ASIANTILES",
+      "t": "03-Nov-2026 17:30:10"
     }
   ]
 }
