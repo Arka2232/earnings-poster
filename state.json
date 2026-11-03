@@ -1061,7 +1061,8 @@
     "106842981",
     "106843007",
     "106843020",
-    "106843028"
+    "106843028",
+    "106843034"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1293,23 +1294,10 @@
     "mircelectr_03112026211111_outcomeofboardmeeting03112026signed.pdf",
     "cleanmax_03112026213525_outcome031126.pdf",
     "mpslimited_03112026215301_outcome03112026.pdf",
-    "ionexchange_03112026215436_iei_sep_2026_results_for_upload.pdf"
+    "ionexchange_03112026215436_iei_sep_2026_results_for_upload.pdf",
+    "aarnav_03112026220228_afl_results_30092026signeddsc1.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-11-02",
-      "s": "DGCONTENT",
-      "c": "Digicontent Limited",
-      "r": "Bad",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 1.3281,
-      "pat": 4.2700000000000005,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/DGCONTENT_02112026130902_Outcome.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:DGCONTENT",
-      "t": "02-Nov-2026 13:11:13"
-    },
     {
       "d": "2026-11-02",
       "s": "MOBIKWIK",
@@ -5562,6 +5550,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/IONEXCHANGE_03112026215436_IEI_Sep_2026_results_for_upload.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:IONEXCHANG",
       "t": "03-Nov-2026 21:58:14"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "AARNAV",
+      "c": "Aarnav Fashions Limited",
+      "r": "Bad",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 128.3651,
+      "pat": 1.6522999999999999,
+      "eps": 0.39,
+      "filing": "https://nsearchives.nseindia.com/corporate/AARNAV_03112026220228_AFL_Results_30092026signedDSC1.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:AARNAV",
+      "t": "03-Nov-2026 22:05:32"
     }
   ]
 }
