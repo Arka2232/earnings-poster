@@ -449,7 +449,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T18:19:29.750854+00:00"
+        "xbrl_try": "2026-11-03T19:20:47.254458+00:00"
       },
       {
         "key": "106840511",
@@ -461,7 +461,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T18:19:30.657675+00:00"
+        "xbrl_try": "2026-11-03T19:20:48.681145+00:00"
       },
       {
         "key": "106840621",
@@ -473,7 +473,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T18:19:31.535121+00:00"
+        "xbrl_try": "2026-11-03T19:20:49.831345+00:00"
       },
       {
         "key": "106840747",
@@ -485,7 +485,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T18:19:32.780840+00:00"
+        "xbrl_try": "2026-11-03T19:20:50.776298+00:00"
       },
       {
         "key": "106841447",
@@ -630,7 +630,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T18:19:33.150170+00:00"
+        "xbrl_try": "2026-11-03T19:20:51.134020+00:00"
       },
       {
         "key": "106842168",
@@ -642,7 +642,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T18:19:33.583542+00:00"
+        "xbrl_try": "2026-11-03T19:20:51.573107+00:00"
       },
       {
         "key": "106842183",
@@ -679,18 +679,6 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-03T19:12:35.221990+00:00"
-      },
-      {
-        "key": "106842423",
-        "seq_id": "106842423",
-        "symbol": "CLEDUCATE",
-        "company": "CL Educate Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/CLEDUCATE_03112026181038_CL_Outcome_of_Meeting_uploadSigned.pdf",
-        "an_dt": "03-Nov-2026 18:15:41",
-        "date": "2026-11-03",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-03T18:19:33.861777+00:00"
       },
       {
         "key": "106842453",
@@ -1313,20 +1301,6 @@
     "sagardeep_03112026191638_outcome_of_bm.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-10-31",
-      "s": "ATLANTAELE",
-      "c": "Atlanta Electricals Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/ATLANTAIPO123_31102026152520_Outcome_of_BM_31102026_Final.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ATLANTAELE",
-      "t": "31-Oct-2026 15:27:36"
-    },
     {
       "d": "2026-10-31",
       "s": "KANANIIND",
@@ -5565,6 +5539,21 @@
       "filing": "https://nsearchives.nseindia.com/corporate/SAGARDEEP_03112026191638_Outcome_of_BM.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SAGARDEEP",
       "t": "03-Nov-2026 19:17:23"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "CLEDUCATE",
+      "c": "CL Educate Limited",
+      "r": "Positive",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 169.6642,
+      "pat": 8.246,
+      "eps": 1.52,
+      "filing": "https://nsearchives.nseindia.com/corporate/CLEDUCATE_03112026181038_CL_Outcome_of_Meeting_uploadSigned.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CLEDUCATE",
+      "t": "03-Nov-2026 18:15:41",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752077_03112026064439_WEB.xml"
     }
   ]
 }
