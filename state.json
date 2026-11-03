@@ -558,7 +558,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T18:05:49.740695+00:00"
+        "xbrl_try": "2026-11-03T19:06:36.213355+00:00"
       },
       {
         "key": "106841637",
@@ -642,7 +642,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T18:01:05.926634+00:00"
+        "xbrl_try": "2026-11-03T19:06:36.721661+00:00"
       },
       {
         "key": "106841928",
@@ -690,7 +690,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T18:05:50.055862+00:00"
+        "xbrl_try": "2026-11-03T19:06:37.199803+00:00"
       },
       {
         "key": "106842383",
@@ -756,7 +756,7 @@
     "next_cache": "2026-11-02",
     "nightly_pass": "2026-11-02",
     "calendar": "2026-11-03",
-    "ipo_check": "2026-11-03 18",
+    "ipo_check": "2026-11-03 19",
     "ipo_posted": [
       "BCSSL",
       "HGSINDIALT",
@@ -1081,7 +1081,12 @@
     "106842571",
     "106842581",
     "106842583",
-    "106842594"
+    "106842594",
+    "106842619",
+    "106842618",
+    "106842606",
+    "106842602",
+    "106842599"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1274,79 +1279,14 @@
     "arisinfra2024_03112026183854_outcome.pdf",
     "glaxo1924_03112026184904_outcome_of_meeting.pdf",
     "denora_03112026184817_board_outcome_sep2026.pdf",
-    "mcfl_03112026184952_outcome.pdf"
+    "mcfl_03112026184952_outcome.pdf",
+    "kamleshs_03112026185527_outcomeofbm03112026signed.pdf",
+    "arvee_03112026185622_out.pdf",
+    "transrail_03112026185337_outcomebm03112026.pdf",
+    "onepoint_03112026185040_onepoint.pdf",
+    "dalmiacem_03112026185216_outcome_of_bm.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-10-31",
-      "s": "CPL",
-      "c": "Captain Polyplast Limited",
-      "r": "Good",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 105.93790000000001,
-      "pat": 4.3954,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/CPL_31102026133757_CAPTAINPOLYPLASTOUTCOME31102026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CPL",
-      "t": "31-Oct-2026 13:42:10"
-    },
-    {
-      "d": "2026-10-31",
-      "s": "SARDAEN",
-      "c": "Sarda Energy & Minerals Limited",
-      "r": "Bad",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 1056.72,
-      "pat": 175.49,
-      "eps": 4.98,
-      "filing": "https://nsearchives.nseindia.com/corporate/SARDAEN_31102026141311_SEML.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SARDAEN",
-      "t": "31-Oct-2026 14:14:59"
-    },
-    {
-      "d": "2026-10-31",
-      "s": "ADVENZYMES",
-      "c": "Advanced Enzyme Technologies Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/AETL_31102026124414_Intimation.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ADVENZYMES",
-      "t": "31-Oct-2026 12:46:54"
-    },
-    {
-      "d": "2026-10-31",
-      "s": "CDSL",
-      "c": "Central Depository Services (India) Limited",
-      "r": "Good",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 394.48,
-      "pat": 173.3,
-      "eps": 8.32,
-      "filing": "https://nsearchives.nseindia.com/corporate/CDSL_31102026141138_OutcomeBM31102026_Signed.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CDSL",
-      "t": "31-Oct-2026 14:16:32"
-    },
-    {
-      "d": "2026-10-31",
-      "s": "EXXARO",
-      "c": "Exxaro Tiles Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/EXXARO_31102026142359_RESULT.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:EXXARO",
-      "t": "31-Oct-2026 14:26:15"
-    },
     {
       "d": "2026-10-31",
       "s": "NILAINFRA",
@@ -5527,6 +5467,76 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:MASTERTR",
       "t": "03-Nov-2026 17:56:22",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NBFC_INDAS_1751984_03112026060427_WEB.xml"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "INOXINDIA",
+      "c": "INOX India Limited",
+      "r": "Good",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 456.48370000000006,
+      "pat": 66.5632,
+      "eps": 7.32,
+      "filing": "https://nsearchives.nseindia.com/corporate/KAMLESHS_03112026185527_OutcomeofBM03112026signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:INOXINDIA",
+      "t": "03-Nov-2026 18:59:25"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "ARVEE",
+      "c": "Arvee Laboratories (India) Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 24.9281,
+      "pat": 2.5561000000000003,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/ARVEE_03112026185622_out.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ARVEE",
+      "t": "03-Nov-2026 18:59:14"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "TRANSRAILL",
+      "c": "Transrail Lighting Limited",
+      "r": "Good",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 2030.22,
+      "pat": 103.94,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/TRANSRAIL_03112026185337_OutcomeBM03112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:TRANSRAILL",
+      "t": "03-Nov-2026 18:55:51"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "ONEPOINT",
+      "c": "One Point One Solutions Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 174.9559,
+      "pat": 18.408,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/ONEPOINT_03112026185040_ONEPOINT.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ONEPOINT",
+      "t": "03-Nov-2026 18:55:10"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "DALMIASUG",
+      "c": "Dalmia Bharat Sugar and Industries Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 1060.81,
+      "pat": 70.61,
+      "eps": 8.72,
+      "filing": "https://nsearchives.nseindia.com/corporate/DALMIACEM_03112026185216_Outcome_of_BM.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:DALMIASUG",
+      "t": "03-Nov-2026 18:54:44"
     }
   ]
 }
