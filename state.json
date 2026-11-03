@@ -582,7 +582,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T17:29:27.550760+00:00"
+        "xbrl_try": "2026-11-03T18:30:43.011754+00:00"
       },
       {
         "key": "106841655",
@@ -643,18 +643,6 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-03T18:06:45.373984+00:00"
-      },
-      {
-        "key": "106841799",
-        "seq_id": "106841799",
-        "symbol": "MANGLMCEM",
-        "company": "Mangalam Cement Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/MANGLMCEM_03112026152332_NSE_BSE_OUTCOME_03_11_2026_S.pdf",
-        "an_dt": "03-Nov-2026 15:25:49",
-        "date": "2026-11-03",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-03T17:29:28.010639+00:00"
       },
       {
         "key": "106841852",
@@ -5384,6 +5372,21 @@
       "filing": "https://nsearchives.nseindia.com/corporate/RUSHIL_03112026181535_FINALQFR.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:RUSHIL",
       "t": "03-Nov-2026 18:20:04"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "MANGLMCEM",
+      "c": "Mangalam Cement Limited",
+      "r": "Bad",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 433.3576,
+      "pat": 7.4072,
+      "eps": 2.7,
+      "filing": "https://nsearchives.nseindia.com/corporate/MANGLMCEM_03112026152332_NSE_BSE_OUTCOME_03_11_2026_S.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MANGLMCEM",
+      "t": "03-Nov-2026 15:25:49",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751971_03112026055637_WEB.xml"
     }
   ]
 }
