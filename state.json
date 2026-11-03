@@ -642,6 +642,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-03T14:31:57.305961+00:00"
+      },
+      {
+        "key": "106841671",
+        "seq_id": "106841671",
+        "symbol": "MONTECARLO",
+        "company": "Monte Carlo Fashions Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/MONTECARLO_03112026143232_Financial_Results.pdf",
+        "an_dt": "03-Nov-2026 14:34:10",
+        "date": "2026-11-03",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-03T14:36:17.644281+00:00"
       }
     ],
     "next_cache": "2026-11-02",
@@ -896,7 +908,8 @@
     "106841655",
     "106841662",
     "106841659",
-    "106841668"
+    "106841668",
+    "106841671"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1013,7 +1026,8 @@
     "tfciltd_03112026141930_tfcibmoutcome3112026signed.pdf",
     "luxind_03112026142650_outcome.pdf",
     "hikal_03112026142532_seintboardoutcomenov2026.pdf",
-    "radhika_03112026142844_outcomes26fr.pdf"
+    "radhika_03112026142844_outcomes26fr.pdf",
+    "montecarlo_03112026143232_financial_results.pdf"
   ],
   "archive": [
     {
@@ -3989,6 +4003,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/RADHIKA_03112026142844_outcomes26fr.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:RADHIKAJWE",
       "t": "03-Nov-2026 14:30:18"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "MONTECARLO",
+      "c": "Monte Carlo Fashions Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/MONTECARLO_03112026143232_Financial_Results.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MONTECARLO",
+      "t": "03-Nov-2026 14:34:10"
     }
   ]
 }
