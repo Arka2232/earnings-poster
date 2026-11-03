@@ -497,7 +497,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T17:48:57.098683+00:00"
+        "xbrl_try": "2026-11-03T18:51:58.032775+00:00"
       },
       {
         "key": "106841458",
@@ -655,18 +655,6 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-03T18:19:33.150170+00:00"
-      },
-      {
-        "key": "106842070",
-        "seq_id": "106842070",
-        "symbol": "UFO",
-        "company": "UFO Moviez India Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/UFO_03112026164542_OutcomeofBoardMeeting03112026.pdf",
-        "an_dt": "03-Nov-2026 16:47:49",
-        "date": "2026-11-03",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-03T17:50:46.282699+00:00"
       },
       {
         "key": "106842095",
@@ -1102,7 +1090,8 @@
     "106842542",
     "106842538",
     "106842553",
-    "106842571"
+    "106842571",
+    "106842581"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1292,7 +1281,8 @@
     "samhi_03112026183606_disclosure_bm_outcome03112026.pdf",
     "servotech_03112026183537_financial_results.pdf",
     "v2retail_03112026183632_outcome.pdf",
-    "arisinfra2024_03112026183854_outcome.pdf"
+    "arisinfra2024_03112026183854_outcome.pdf",
+    "glaxo1924_03112026184904_outcome_of_meeting.pdf"
   ],
   "archive": [
     {
@@ -5485,6 +5475,35 @@
       "filing": "https://nsearchives.nseindia.com/corporate/ARISINFRA2024_03112026183854_Outcome.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:ARIS",
       "t": "03-Nov-2026 18:44:49"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "GLAXO",
+      "c": "GlaxoSmithKline Pharmaceuticals Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 11.8357,
+      "pat": 3.3588,
+      "eps": 19.83,
+      "filing": "https://nsearchives.nseindia.com/corporate/GLAXO1924_03112026184904_Outcome_of_Meeting.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GLAXO",
+      "t": "03-Nov-2026 18:49:15"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "UFO",
+      "c": "UFO Moviez India Limited",
+      "r": "Weak",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 129.4,
+      "pat": 6.41,
+      "eps": 1.65,
+      "filing": "https://nsearchives.nseindia.com/corporate/UFO_03112026164542_OutcomeofBoardMeeting03112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:UFO",
+      "t": "03-Nov-2026 16:47:49",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752074_03112026064352_WEB.xml"
     }
   ]
 }
