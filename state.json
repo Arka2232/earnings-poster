@@ -570,7 +570,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T17:21:14.082777+00:00"
+        "xbrl_try": "2026-11-03T18:21:33.396177+00:00"
       },
       {
         "key": "106841651",
@@ -738,7 +738,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T17:21:14.904434+00:00"
+        "xbrl_try": "2026-11-03T18:21:34.076520+00:00"
       },
       {
         "key": "106842326",
@@ -1106,7 +1106,8 @@
     "106842395",
     "106842406",
     "106842404",
-    "106842423"
+    "106842423",
+    "106842439"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1288,7 +1289,8 @@
     "gspltrans_03112026180812_nsebsefinancialresults.pdf",
     "amrutanjan_03112026180931_outcome_of_bm_sd.pdf",
     "shalbyltd_03112026181002_66bmoutcome1.pdf",
-    "cleducate_03112026181038_cl_outcome_of_meeting_uploadsigned.pdf"
+    "cleducate_03112026181038_cl_outcome_of_meeting_uploadsigned.pdf",
+    "bmwventures2024_03112026181515_financials_merged.pdf"
   ],
   "archive": [
     {
@@ -5324,6 +5326,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/CLEDUCATE_03112026181038_CL_Outcome_of_Meeting_uploadSigned.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:CLEDUCATE",
       "t": "03-Nov-2026 18:15:41"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "BMWVENTLTD",
+      "c": "BMW Ventures Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 731.2628,
+      "pat": 10.536800000000001,
+      "eps": 1.22,
+      "filing": "https://nsearchives.nseindia.com/corporate/BMWVENTURES2024_03112026181515_Financials_merged.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BMWVENTLTD",
+      "t": "03-Nov-2026 18:18:57"
     }
   ]
 }
