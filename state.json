@@ -509,7 +509,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T15:50:07.782210+00:00"
+        "xbrl_try": "2026-11-03T16:51:38.687724+00:00"
       },
       {
         "key": "106841454",
@@ -521,7 +521,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T15:50:08.563016+00:00"
+        "xbrl_try": "2026-11-03T16:51:40.282333+00:00"
       },
       {
         "key": "106841503",
@@ -678,7 +678,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T15:50:09.318705+00:00"
+        "xbrl_try": "2026-11-03T16:51:41.027766+00:00"
       },
       {
         "key": "106841873",
@@ -739,6 +739,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-03T16:50:03.184555+00:00"
+      },
+      {
+        "key": "106842076",
+        "seq_id": "106842076",
+        "symbol": "VMART",
+        "company": "V-Mart Retail Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/VMART_03112026164834_FinalOutcome.pdf",
+        "an_dt": "03-Nov-2026 16:48:56",
+        "date": "2026-11-03",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-03T16:51:41.420108+00:00"
       }
     ],
     "next_cache": "2026-11-02",
@@ -1027,7 +1039,8 @@
     "106842036",
     "106842056",
     "106842059",
-    "106842070"
+    "106842070",
+    "106842076"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1178,7 +1191,8 @@
     "yashikan_03112026163551_financial_results_30092026.pdf",
     "rhetan_03112026164123_bmoutcome30092026.pdf",
     "xproindiaskd_03112026164347_results_outcome_of_bm_03112026_signed.pdf",
-    "ufo_03112026164542_outcomeofboardmeeting03112026.pdf"
+    "ufo_03112026164542_outcomeofboardmeeting03112026.pdf",
+    "vmart_03112026164834_finaloutcome.pdf"
   ],
   "archive": [
     {
@@ -4720,6 +4734,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/UFO_03112026164542_OutcomeofBoardMeeting03112026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:UFO",
       "t": "03-Nov-2026 16:47:49"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "VMART",
+      "c": "V-Mart Retail Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/VMART_03112026164834_FinalOutcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:VMART",
+      "t": "03-Nov-2026 16:48:56"
     }
   ]
 }
