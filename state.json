@@ -645,18 +645,6 @@
         "xbrl_try": "2026-11-03T18:06:45.373984+00:00"
       },
       {
-        "key": "106841736",
-        "seq_id": "106841736",
-        "symbol": "MINDACORP",
-        "company": "Minda Corporation Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/MINDACORP_03112026150024_BMOutcome.pdf",
-        "an_dt": "03-Nov-2026 15:00:40",
-        "date": "2026-11-03",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-03T17:09:29.492348+00:00"
-      },
-      {
         "key": "106841799",
         "seq_id": "106841799",
         "symbol": "MANGLMCEM",
@@ -775,6 +763,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-03T18:05:50.055862+00:00"
+      },
+      {
+        "key": "106842383",
+        "seq_id": "106842383",
+        "symbol": "LANDSMILL",
+        "company": "Landsmill Green Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/EXCEL_03112026180640_ilovepdf_merged__7_.pdf",
+        "an_dt": "03-Nov-2026 18:07:54",
+        "date": "2026-11-03",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-03T18:10:06.934345+00:00"
       }
     ],
     "next_cache": "2026-11-02",
@@ -1089,7 +1089,8 @@
     "106842330",
     "106842348",
     "106842352",
-    "106842368"
+    "106842368",
+    "106842383"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1266,7 +1267,8 @@
     "adsl_03112026175552_finaloutcome.pdf",
     "nephrocare1_03112026175920_finaloutcomesigned.pdf",
     "lcal_03112026175951_financial_result_sept_26.pdf",
-    "bataindia_03112026180005_bmoutcome_3112026_signed.pdf"
+    "bataindia_03112026180005_bmoutcome_3112026_signed.pdf",
+    "excel_03112026180640_ilovepdf_merged__7_.pdf"
   ],
   "archive": [
     {
@@ -5217,6 +5219,35 @@
       "filing": "https://nsearchives.nseindia.com/corporate/BATAINDIA_03112026180005_BMOutcome_3112026_Signed.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:BATAINDIA",
       "t": "03-Nov-2026 18:04:13"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "LANDSMILL",
+      "c": "Landsmill Green Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/EXCEL_03112026180640_ilovepdf_merged__7_.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:LANDSMILL",
+      "t": "03-Nov-2026 18:07:54"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "MINDACORP",
+      "c": "Minda Corporation Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 2189.2999999999997,
+      "pat": 142.97,
+      "eps": 6.08,
+      "filing": "https://nsearchives.nseindia.com/corporate/MINDACORP_03112026150024_BMOutcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MINDACORP",
+      "t": "03-Nov-2026 15:00:40",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751958_03112026055220_WEB.xml"
     }
   ]
 }
