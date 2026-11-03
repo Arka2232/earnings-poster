@@ -751,6 +751,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-03T16:51:41.420108+00:00"
+      },
+      {
+        "key": "106842095",
+        "seq_id": "106842095",
+        "symbol": "LINDEINDIA",
+        "company": "Linde India Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/LINDEINDIA1_03112026165015_Outcome_of_BM_03112026.pdf",
+        "an_dt": "03-Nov-2026 16:52:51",
+        "date": "2026-11-03",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-03T16:57:05.555732+00:00"
       }
     ],
     "next_cache": "2026-11-02",
@@ -1040,7 +1052,8 @@
     "106842056",
     "106842059",
     "106842070",
-    "106842076"
+    "106842076",
+    "106842095"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1192,7 +1205,8 @@
     "rhetan_03112026164123_bmoutcome30092026.pdf",
     "xproindiaskd_03112026164347_results_outcome_of_bm_03112026_signed.pdf",
     "ufo_03112026164542_outcomeofboardmeeting03112026.pdf",
-    "vmart_03112026164834_finaloutcome.pdf"
+    "vmart_03112026164834_finaloutcome.pdf",
+    "lindeindia1_03112026165015_outcome_of_bm_03112026.pdf"
   ],
   "archive": [
     {
@@ -4748,6 +4762,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/VMART_03112026164834_FinalOutcome.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:VMART",
       "t": "03-Nov-2026 16:48:56"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "LINDEINDIA",
+      "c": "Linde India Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/LINDEINDIA1_03112026165015_Outcome_of_BM_03112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:LINDEINDIA",
+      "t": "03-Nov-2026 16:52:51"
     }
   ]
 }
