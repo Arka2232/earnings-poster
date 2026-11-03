@@ -763,6 +763,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-03T18:24:05.710171+00:00"
+      },
+      {
+        "key": "106842538",
+        "seq_id": "106842538",
+        "symbol": "SERVOTECH",
+        "company": "Servotech Renewable Power System Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/SERVOTECH_03112026183537_Financial_results.pdf",
+        "an_dt": "03-Nov-2026 18:37:12",
+        "date": "2026-11-03",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-03T18:41:20.176558+00:00"
       }
     ],
     "next_cache": "2026-11-02",
@@ -1086,7 +1098,9 @@
     "106842439",
     "106842453",
     "106842447",
-    "106842532"
+    "106842532",
+    "106842542",
+    "106842538"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1272,7 +1286,9 @@
     "bmwventures2024_03112026181515_financials_merged.pdf",
     "sandesh_1_03112026181925_outcome.pdf",
     "rushil_03112026181535_finalqfr.pdf",
-    "9903318000_03112026183312_finaloutcomeofboardmeeting_jgcl_03112026.pdf"
+    "9903318000_03112026183312_finaloutcomeofboardmeeting_jgcl_03112026.pdf",
+    "samhi_03112026183606_disclosure_bm_outcome03112026.pdf",
+    "servotech_03112026183537_financial_results.pdf"
   ],
   "archive": [
     {
@@ -5409,6 +5425,34 @@
       "filing": "https://nsearchives.nseindia.com/corporate/9903318000_03112026183312_FinalOutcomeOfBoardMeeting_JGCL_03112026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:JGCHEM",
       "t": "03-Nov-2026 18:35:23"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "SAMHI",
+      "c": "Samhi Hotels Limited",
+      "r": "Positive",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 33.673,
+      "pat": 991.392,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/Samhi_03112026183606_Disclosure_BM_Outcome03112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SAMHI",
+      "t": "03-Nov-2026 18:38:03"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "SERVOTECH",
+      "c": "Servotech Renewable Power System Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/SERVOTECH_03112026183537_Financial_results.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SERVOTECH",
+      "t": "03-Nov-2026 18:37:12"
     }
   ]
 }
