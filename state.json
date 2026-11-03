@@ -488,18 +488,6 @@
         "xbrl_try": "2026-11-03T20:21:40.548942+00:00"
       },
       {
-        "key": "106841447",
-        "seq_id": "106841447",
-        "symbol": "GEECEE",
-        "company": "GeeCee Ventures Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/GEECEEVC12345_03112026123836_BMOUTCOMERESULTS_Signed.pdf",
-        "an_dt": "03-Nov-2026 12:38:48",
-        "date": "2026-11-03",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-03T19:52:43.549215+00:00"
-      },
-      {
         "key": "106841454",
         "seq_id": "106841454",
         "symbol": "NEXTMEDIA",
@@ -1255,20 +1243,6 @@
     "shantigold_03112026204437_bm_outcome_03112026_sgil.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-10-31",
-      "s": "LATENTVIEW",
-      "c": "Latent View Analytics Limited",
-      "r": "Good",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 294.068,
-      "pat": 48.468,
-      "eps": 2.35,
-      "filing": "https://nsearchives.nseindia.com/corporate/LATENTVIEW_31102026211027_SE_Intimation_BM_Outcome_31-10-2026_Signed.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:LATENTVIEW",
-      "t": "31-Oct-2026 21:13:10"
-    },
     {
       "d": "2026-10-31",
       "s": "MERCURYEV",
@@ -5519,6 +5493,21 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:BLS",
       "t": "03-Nov-2026 14:38:56",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752228_03112026082030_WEB.xml"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "GEECEE",
+      "c": "GeeCee Ventures Limited",
+      "r": "Weak",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 14.4513,
+      "pat": 10.196299999999999,
+      "eps": 4.88,
+      "filing": "https://nsearchives.nseindia.com/corporate/GEECEEVC12345_03112026123836_BMOUTCOMERESULTS_Signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GEECEE",
+      "t": "03-Nov-2026 12:38:48",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752241_03112026083940_WEB.xml"
     }
   ]
 }
