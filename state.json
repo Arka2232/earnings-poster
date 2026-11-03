@@ -498,6 +498,30 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-03T12:42:41.755907+00:00"
+      },
+      {
+        "key": "106841458",
+        "seq_id": "106841458",
+        "symbol": "SURANAT&P",
+        "company": "Surana Telecom and Power Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/SURANAT_P_03112026124044_OUTCOMe.pdf",
+        "an_dt": "03-Nov-2026 12:42:00",
+        "date": "2026-11-03",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-03T12:45:47.820443+00:00"
+      },
+      {
+        "key": "106841454",
+        "seq_id": "106841454",
+        "symbol": "NEXTMEDIA",
+        "company": "Next Mediaworks Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/NEXTMEDIA_03112026124005_NMW_Board_Meeting_Outcome_Nov_2026.pdf",
+        "an_dt": "03-Nov-2026 12:41:00",
+        "date": "2026-11-03",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-03T12:45:48.448584+00:00"
       }
     ],
     "next_cache": "2026-11-02",
@@ -726,7 +750,9 @@
     "106841358",
     "106841367",
     "106841417",
-    "106841447"
+    "106841447",
+    "106841458",
+    "106841454"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -817,7 +843,9 @@
     "jyoticnc_nse_03112026115810_outcome_of_bm_03112026.pdf",
     "jainmetal_03112026120820_nsebseout.pdf",
     "arfind_03112026123221_arfinoutcomeofboardmeetingsep26.pdf",
-    "geeceevc12345_03112026123836_bmoutcomeresults_signed.pdf"
+    "geeceevc12345_03112026123836_bmoutcomeresults_signed.pdf",
+    "suranat_p_03112026124044_outcome.pdf",
+    "nextmedia_03112026124005_nmw_board_meeting_outcome_nov_2026.pdf"
   ],
   "archive": [
     {
@@ -3429,6 +3457,34 @@
       "filing": "https://nsearchives.nseindia.com/corporate/GEECEEVC12345_03112026123836_BMOUTCOMERESULTS_Signed.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:GEECEE",
       "t": "03-Nov-2026 12:38:48"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "SURANAT&P",
+      "c": "Surana Telecom and Power Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/SURANAT_P_03112026124044_OUTCOMe.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SURANAT_P",
+      "t": "03-Nov-2026 12:42:00"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "NEXTMEDIA",
+      "c": "Next Mediaworks Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/NEXTMEDIA_03112026124005_NMW_Board_Meeting_Outcome_Nov_2026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:NEXTMEDIA",
+      "t": "03-Nov-2026 12:41:00"
     }
   ]
 }
