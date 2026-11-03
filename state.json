@@ -497,7 +497,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T12:42:41.755907+00:00"
+        "xbrl_try": "2026-11-03T13:42:56.714178+00:00"
       },
       {
         "key": "106841458",
@@ -783,7 +783,8 @@
     "106841533",
     "106841544",
     "106841557",
-    "106841556"
+    "106841556",
+    "106841553"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -883,7 +884,8 @@
     "deepinds_03112026132142_outcome.pdf",
     "princepipe_03112026132925_se_outcome.pdf",
     "sil_03112026133451_outcome_031126.pdf",
-    "punjab_03112026133110_outcome.pdf"
+    "punjab_03112026133110_outcome.pdf",
+    "asahiindia_03112026133628_outcomenovember2026.pdf"
   ],
   "archive": [
     {
@@ -3621,6 +3623,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/PUNJAB_03112026133110_Outcome.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:PUNJABCHEM",
       "t": "03-Nov-2026 13:37:59"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "ASAHIINDIA",
+      "c": "Asahi India Glass Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 14.658199999999999,
+      "pat": 1.7073,
+      "eps": 6.7,
+      "filing": "https://nsearchives.nseindia.com/corporate/ASAHIINDIA_03112026133628_OutcomeNovember2026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ASAHIINDIA",
+      "t": "03-Nov-2026 13:36:48"
     }
   ]
 }
