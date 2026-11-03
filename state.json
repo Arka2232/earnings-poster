@@ -449,7 +449,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T17:15:54.228536+00:00"
+        "xbrl_try": "2026-11-03T18:19:29.750854+00:00"
       },
       {
         "key": "106840511",
@@ -461,7 +461,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T17:15:55.993129+00:00"
+        "xbrl_try": "2026-11-03T18:19:30.657675+00:00"
       },
       {
         "key": "106840621",
@@ -473,7 +473,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T17:15:57.039809+00:00"
+        "xbrl_try": "2026-11-03T18:19:31.535121+00:00"
       },
       {
         "key": "106840747",
@@ -485,7 +485,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T17:15:58.543235+00:00"
+        "xbrl_try": "2026-11-03T18:19:32.780840+00:00"
       },
       {
         "key": "106841447",
@@ -690,7 +690,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T17:19:01.988224+00:00"
+        "xbrl_try": "2026-11-03T18:19:33.150170+00:00"
       },
       {
         "key": "106842070",
@@ -726,7 +726,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T17:16:03.457783+00:00"
+        "xbrl_try": "2026-11-03T18:19:33.583542+00:00"
       },
       {
         "key": "106842183",
@@ -775,6 +775,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-03T18:10:06.934345+00:00"
+      },
+      {
+        "key": "106842423",
+        "seq_id": "106842423",
+        "symbol": "CLEDUCATE",
+        "company": "CL Educate Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/CLEDUCATE_03112026181038_CL_Outcome_of_Meeting_uploadSigned.pdf",
+        "an_dt": "03-Nov-2026 18:15:41",
+        "date": "2026-11-03",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-03T18:19:33.861777+00:00"
       }
     ],
     "next_cache": "2026-11-02",
@@ -1093,7 +1105,8 @@
     "106842383",
     "106842395",
     "106842406",
-    "106842404"
+    "106842404",
+    "106842423"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1274,7 +1287,8 @@
     "excel_03112026180640_ilovepdf_merged__7_.pdf",
     "gspltrans_03112026180812_nsebsefinancialresults.pdf",
     "amrutanjan_03112026180931_outcome_of_bm_sd.pdf",
-    "shalbyltd_03112026181002_66bmoutcome1.pdf"
+    "shalbyltd_03112026181002_66bmoutcome1.pdf",
+    "cleducate_03112026181038_cl_outcome_of_meeting_uploadsigned.pdf"
   ],
   "archive": [
     {
@@ -5296,6 +5310,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/SHALBYLTD_03112026181002_66BMOutcome1.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SHALBY",
       "t": "03-Nov-2026 18:12:30"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "CLEDUCATE",
+      "c": "CL Educate Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/CLEDUCATE_03112026181038_CL_Outcome_of_Meeting_uploadSigned.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CLEDUCATE",
+      "t": "03-Nov-2026 18:15:41"
     }
   ]
 }
