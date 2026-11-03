@@ -389,7 +389,7 @@
         "url": "https://nsearchives.nseindia.com/corporate/PATELINT_02112026155145_Outcome_of_BM_Sept2026_sd.pdf",
         "an_dt": "02-Nov-2026 15:53:28",
         "date": "2026-11-02",
-        "xbrl_try": "2026-11-03T19:13:30.863854+00:00"
+        "xbrl_try": "2026-11-03T20:14:38.174616+00:00"
       },
       {
         "key": "106839719",
@@ -401,7 +401,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T19:13:31.909578+00:00"
+        "xbrl_try": "2026-11-03T20:14:39.111835+00:00"
       },
       {
         "key": "106839796",
@@ -413,7 +413,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T19:13:33.316637+00:00"
+        "xbrl_try": "2026-11-03T20:14:40.447813+00:00"
       },
       {
         "key": "106840301",
@@ -425,7 +425,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T19:13:34.139997+00:00"
+        "xbrl_try": "2026-11-03T20:14:41.219552+00:00"
       },
       {
         "key": "106840295",
@@ -437,7 +437,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T19:13:35.510690+00:00"
+        "xbrl_try": "2026-11-03T20:14:42.358367+00:00"
       },
       {
         "key": "106840386",
@@ -630,19 +630,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T19:12:35.221990+00:00"
-      },
-      {
-        "key": "106842648",
-        "seq_id": "106842648",
-        "symbol": "INDIQUBE",
-        "company": "Indiqube Spaces Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/INDIQUBE_03112026190216_INDIQUBE.pdf",
-        "an_dt": "03-Nov-2026 19:05:53",
-        "date": "2026-11-03",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-03T19:12:35.571415+00:00"
+        "xbrl_try": "2026-11-03T20:14:43.004781+00:00"
       },
       {
         "key": "106842647",
@@ -654,7 +642,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T19:12:36.274493+00:00"
+        "xbrl_try": "2026-11-03T20:14:51.472752+00:00"
       },
       {
         "key": "106842637",
@@ -666,7 +654,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T19:12:37.018325+00:00"
+        "xbrl_try": "2026-11-03T20:14:52.372313+00:00"
       },
       {
         "key": "106842742",
@@ -691,6 +679,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-03T20:11:08.635877+00:00"
+      },
+      {
+        "key": "106842850",
+        "seq_id": "106842850",
+        "symbol": "UTKARSHBNK",
+        "company": "Utkarsh Small Finance Bank Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/UTKARSHBANK_03112026200635_OutcomeofBM03112026.pdf",
+        "an_dt": "03-Nov-2026 20:07:55",
+        "date": "2026-11-03",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-03T20:14:53.167719+00:00"
       }
     ],
     "next_cache": "2026-11-02",
@@ -1044,7 +1044,9 @@
     "106842826",
     "106842824",
     "106842844",
-    "106842842"
+    "106842842",
+    "106842857",
+    "106842850"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1260,51 +1262,11 @@
     "laxmi_03112026195702_binder_2.pdf",
     "vijaya_03112026195557_vdcl_bm_ootcome_03112026.pdf",
     "koltepatil_03112026200441_outcomesept26signed.pdf",
-    "enil_03112026200200_enil20261103reg33results.pdf"
+    "enil_03112026200200_enil20261103reg33results.pdf",
+    "sarlapoly_03112026200752_seintimation_signed.pdf",
+    "utkarshbank_03112026200635_outcomeofbm03112026.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-10-31",
-      "s": "SAHYADRI",
-      "c": "Sahyadri Industries Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 146.65,
-      "pat": 12.28,
-      "eps": 11.22,
-      "filing": "https://nsearchives.nseindia.com/corporate/SAHYADRI_31102026175545_OutcomeofBMFRQ2FY27.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SAHYADRI",
-      "t": "31-Oct-2026 18:07:42"
-    },
-    {
-      "d": "2026-10-31",
-      "s": "UTTAMSUGAR",
-      "c": "Uttam Sugar Mills Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/UTTAMSUGAR_31102026183616_OutcomeofBoardMeetingSigned.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:UTTAMSUGAR",
-      "t": "31-Oct-2026 18:37:33"
-    },
-    {
-      "d": "2026-10-31",
-      "s": "RAINBOW",
-      "c": "Rainbow Childrens Medicare Limited",
-      "r": "Good",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 548.023,
-      "pat": 83.893,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/RAINBOWUSER_31102026184309_IntimationFR.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:RAINBOW",
-      "t": "31-Oct-2026 18:51:06"
-    },
     {
       "d": "2026-10-31",
       "s": "IITL",
@@ -5523,6 +5485,49 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:MAXIND",
       "t": "03-Nov-2026 15:57:07",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752128_03112026071103_WEB.xml"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "SARLAPOLY",
+      "c": "Sarla Performance Fibers Limited",
+      "r": "Bad",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 112.32620000000001,
+      "pat": 11.999400000000001,
+      "eps": 1.51,
+      "filing": "https://nsearchives.nseindia.com/corporate/SARLAPOLY_03112026200752_SEIntimation_Signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SARLAPOLY",
+      "t": "03-Nov-2026 20:09:45"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "UTKARSHBNK",
+      "c": "Utkarsh Small Finance Bank Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/UTKARSHBANK_03112026200635_OutcomeofBM03112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:UTKARSHBNK",
+      "t": "03-Nov-2026 20:07:55"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "INDIQUBE",
+      "c": "Indiqube Spaces Limited",
+      "r": "Positive",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 471.9,
+      "pat": -5.867999999999999,
+      "eps": -0.28,
+      "filing": "https://nsearchives.nseindia.com/corporate/INDIQUBE_03112026190216_INDIQUBE.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:INDIQUBE",
+      "t": "03-Nov-2026 19:05:53",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752214_03112026080410_WEB.xml"
     }
   ]
 }
