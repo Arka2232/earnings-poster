@@ -1070,7 +1070,9 @@
     "106842152",
     "106842168",
     "106842179",
-    "106842183"
+    "106842183",
+    "106842197",
+    "106842191"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1228,7 +1230,9 @@
     "surevin_03112026170540_bodoutcome03112026.pdf",
     "adventhtl_03112026171215_adventoutcomeresults03112026.pdf",
     "nacl2020_03112026171600_results_exchange_final_1.pdf",
-    "sskl_03112026170922_outcome_of_bm_031126.pdf"
+    "sskl_03112026170922_outcome_of_bm_031126.pdf",
+    "wealth_03112026172050_outcomeofbm.pdf",
+    "dgsl_03112026171630_seintimationbmoutcomeuploadedsd.pdf"
   ],
   "archive": [
     {
@@ -4883,6 +4887,34 @@
       "filing": "https://nsearchives.nseindia.com/corporate/SSKL_03112026170922_Outcome_of_BM_031126.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:KALAMANDIR",
       "t": "03-Nov-2026 17:18:17"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "WEALTH",
+      "c": "Wealth First Portfolio Managers Limited",
+      "r": "Bad",
+      "b": "Standalone",
+      "q": "Q3 FY27",
+      "sales": 15.2804,
+      "pat": 5.898300000000001,
+      "eps": 5.54,
+      "filing": "https://nsearchives.nseindia.com/corporate/WEALTH_03112026172050_OutcomeOfBM.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:WEALTH",
+      "t": "03-Nov-2026 17:21:16"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "DATAMATICS",
+      "c": "Datamatics Global Services Limited",
+      "r": "Good",
+      "b": "Standalone",
+      "q": "Q1 FY27",
+      "sales": 546.64,
+      "pat": 73.58,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/DGSL_03112026171630_SEIntimationBMoutcomeUploadedsd.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:DATAMATICS",
+      "t": "03-Nov-2026 17:19:53"
     }
   ]
 }
