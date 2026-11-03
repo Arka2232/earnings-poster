@@ -954,7 +954,8 @@
     "106841720",
     "106841736",
     "106841747",
-    "106841742"
+    "106841742",
+    "106841749"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1081,7 +1082,8 @@
     "edutech_03112026145238_outcome_of_bm_edutech.pdf",
     "mindacorp_03112026150024_bmoutcome.pdf",
     "inventure_03112026150257_outcome_kl.pdf",
-    "vasconeq_03112026150147_outcome_final_sd.pdf"
+    "vasconeq_03112026150147_outcome_final_sd.pdf",
+    "dtl_03112026150059_dhoot_bm_outcome_03112026_signed.pdf"
   ],
   "archive": [
     {
@@ -4212,6 +4214,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/VASCONEQ_03112026150147_Outcome_Final_Sd.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:VASCONEQ",
       "t": "03-Nov-2026 15:03:33"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "DHOOTTRANS",
+      "c": "Dhoot Transmission Limited",
+      "r": "Positive",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 1827.205,
+      "pat": 117.82400000000001,
+      "eps": 5.98,
+      "filing": "https://nsearchives.nseindia.com/corporate/DTL_03112026150059_Dhoot_BM_Outcome_03112026_signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:DHOOTTRANS",
+      "t": "03-Nov-2026 15:06:30"
     }
   ]
 }
