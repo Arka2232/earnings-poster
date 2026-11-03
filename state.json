@@ -582,6 +582,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-03T13:59:14.005747+00:00"
+      },
+      {
+        "key": "106841637",
+        "seq_id": "106841637",
+        "symbol": "FLUOROCHEM",
+        "company": "Gujarat Fluorochemicals Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/FLUOROCHEM_03112026141153_GFCL_Financial_Results.pdf",
+        "an_dt": "03-Nov-2026 14:13:33",
+        "date": "2026-11-03",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-03T14:17:01.662069+00:00"
       }
     ],
     "next_cache": "2026-11-02",
@@ -829,7 +841,9 @@
     "106841594",
     "106841592",
     "106841615",
-    "106841613"
+    "106841613",
+    "106841640",
+    "106841637"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -939,7 +953,9 @@
     "sgil_03112026135424_outcome_of_bm_03112026.pdf",
     "ajmera_03112026135429_intimation_sd.pdf",
     "gilkolkata_03112026135910_result30092026f.pdf",
-    "sikko_03112026140006_outcome.pdf"
+    "sikko_03112026140006_outcome.pdf",
+    "pfizer_03112026141109_seintimation_frq22027.pdf",
+    "fluorochem_03112026141153_gfcl_financial_results.pdf"
   ],
   "archive": [
     {
@@ -3817,6 +3833,34 @@
       "filing": "https://nsearchives.nseindia.com/corporate/SIKKO_03112026140006_Outcome.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SIKKO",
       "t": "03-Nov-2026 14:01:55"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "PFIZER",
+      "c": "Pfizer Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 726.86,
+      "pat": 313.25,
+      "eps": 47.09,
+      "filing": "https://nsearchives.nseindia.com/corporate/PFIZER_03112026141109_SEintimation_FRQ22027.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PFIZER",
+      "t": "03-Nov-2026 14:14:03"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "FLUOROCHEM",
+      "c": "Gujarat Fluorochemicals Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/FLUOROCHEM_03112026141153_GFCL_Financial_Results.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:FLUOROCHEM",
+      "t": "03-Nov-2026 14:13:33"
     }
   ]
 }
