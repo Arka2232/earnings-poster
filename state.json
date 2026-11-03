@@ -1087,7 +1087,8 @@
     "106842725",
     "106842747",
     "106842742",
-    "106842753"
+    "106842753",
+    "106842772"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1298,23 +1299,10 @@
     "subexltd_03112026192550_outcome_of_bm_03112026.pdf",
     "ipl_03112026193116_outcome_of_the_board_meeting.pdf",
     "damcapital_03112026193013_signed.pdf",
-    "skfindia25_03112026193154_nse.pdf"
+    "skfindia25_03112026193154_nse.pdf",
+    "embdl_03112026193144_edl_outcome_bm_0311226_.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-10-31",
-      "s": "MEIL",
-      "c": "Mangal Electrical Industries Limited",
-      "r": "Weak",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 168.5789,
-      "pat": 10.9745,
-      "eps": 3.97,
-      "filing": "https://nsearchives.nseindia.com/corporate/MANGALS_31102026164103_BM_Outcome.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MEIL",
-      "t": "31-Oct-2026 16:43:19"
-    },
     {
       "d": "2026-10-31",
       "s": "BKMINDST",
@@ -5556,6 +5544,20 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:HIKAL",
       "t": "03-Nov-2026 14:27:08",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752083_03112026064803_WEB.xml"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "EMBDL",
+      "c": "Embassy Developments Limited",
+      "r": "Positive",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 292.21,
+      "pat": 2.209,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/EMBDL_03112026193144_EDL_Outcome_BM_0311226_.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:EMBDL",
+      "t": "03-Nov-2026 19:37:39"
     }
   ]
 }
