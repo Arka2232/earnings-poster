@@ -1091,7 +1091,9 @@
     "106842352",
     "106842368",
     "106842383",
-    "106842395"
+    "106842395",
+    "106842406",
+    "106842404"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1270,7 +1272,9 @@
     "lcal_03112026175951_financial_result_sept_26.pdf",
     "bataindia_03112026180005_bmoutcome_3112026_signed.pdf",
     "excel_03112026180640_ilovepdf_merged__7_.pdf",
-    "gspltrans_03112026180812_nsebsefinancialresults.pdf"
+    "gspltrans_03112026180812_nsebsefinancialresults.pdf",
+    "amrutanjan_03112026180931_outcome_of_bm_sd.pdf",
+    "shalbyltd_03112026181002_66bmoutcome1.pdf"
   ],
   "archive": [
     {
@@ -5264,6 +5268,34 @@
       "filing": "https://nsearchives.nseindia.com/corporate/GSPLTRANS_03112026180812_NSEBSEFinancialResults.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:GSPLTRANS",
       "t": "03-Nov-2026 18:10:46"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "AMRUTANJAN",
+      "c": "Amrutanjan Health Care Limited",
+      "r": "Good",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 13517.89,
+      "pat": 1727.99,
+      "eps": 5.98,
+      "filing": "https://nsearchives.nseindia.com/corporate/AMRUTANJAN_03112026180931_Outcome_of_Bm_Sd.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:AMRUTANJAN",
+      "t": "03-Nov-2026 18:12:47"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "SHALBY",
+      "c": "Shalby Limited",
+      "r": "Good",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 245.31900000000002,
+      "pat": 23.504,
+      "eps": 2.19,
+      "filing": "https://nsearchives.nseindia.com/corporate/SHALBYLTD_03112026181002_66BMOutcome1.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SHALBY",
+      "t": "03-Nov-2026 18:12:30"
     }
   ]
 }
