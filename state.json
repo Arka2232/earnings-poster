@@ -558,6 +558,30 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-03T13:53:12.017326+00:00"
+      },
+      {
+        "key": "106841594",
+        "seq_id": "106841594",
+        "symbol": "SGIL",
+        "company": "Synergy Green Industries Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/SGIL_03112026135424_Outcome_of_BM_03112026.pdf",
+        "an_dt": "03-Nov-2026 13:56:07",
+        "date": "2026-11-03",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-03T13:59:13.715399+00:00"
+      },
+      {
+        "key": "106841592",
+        "seq_id": "106841592",
+        "symbol": "AJMERA",
+        "company": "Ajmera Realty & Infra India Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/AJMERA_03112026135429_Intimation_sd.pdf",
+        "an_dt": "03-Nov-2026 13:55:38",
+        "date": "2026-11-03",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-03T13:59:14.005747+00:00"
       }
     ],
     "next_cache": "2026-11-02",
@@ -801,7 +825,9 @@
     "106841577",
     "106841573",
     "106841571",
-    "106841580"
+    "106841580",
+    "106841594",
+    "106841592"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -907,7 +933,9 @@
     "sbin_03112026134649_fr_dsc.pdf",
     "rppl_03112026134447_rppl_outcome_of_bm_upload.pdf",
     "kopran_03112026134417_outcome03112026.pdf",
-    "ester_03112026134724_fssep2026.pdf"
+    "ester_03112026134724_fssep2026.pdf",
+    "sgil_03112026135424_outcome_of_bm_03112026.pdf",
+    "ajmera_03112026135429_intimation_sd.pdf"
   ],
   "archive": [
     {
@@ -3729,6 +3757,34 @@
       "filing": "https://nsearchives.nseindia.com/corporate/ESTER_03112026134724_FSSEP2026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:ESTER",
       "t": "03-Nov-2026 13:49:28"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "SGIL",
+      "c": "Synergy Green Industries Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/SGIL_03112026135424_Outcome_of_BM_03112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SGIL",
+      "t": "03-Nov-2026 13:56:07"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "AJMERA",
+      "c": "Ajmera Realty & Infra India Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/AJMERA_03112026135429_Intimation_sd.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:AJMERA",
+      "t": "03-Nov-2026 13:55:38"
     }
   ]
 }
