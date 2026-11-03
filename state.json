@@ -895,7 +895,8 @@
     "106841651",
     "106841655",
     "106841662",
-    "106841659"
+    "106841659",
+    "106841668"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1011,7 +1012,8 @@
     "nitco_03112026142208_seoutcomeofboardmeeting.pdf",
     "tfciltd_03112026141930_tfcibmoutcome3112026signed.pdf",
     "luxind_03112026142650_outcome.pdf",
-    "hikal_03112026142532_seintboardoutcomenov2026.pdf"
+    "hikal_03112026142532_seintboardoutcomenov2026.pdf",
+    "radhika_03112026142844_outcomes26fr.pdf"
   ],
   "archive": [
     {
@@ -3973,6 +3975,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/HIKAL_03112026142532_SEintBoardOutcomeNov2026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:HIKAL",
       "t": "03-Nov-2026 14:27:08"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "RADHIKAJWE",
+      "c": "Radhika Jeweltech Limited",
+      "r": "Good",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 148.6292,
+      "pat": 22.163400000000003,
+      "eps": 1.88,
+      "filing": "https://nsearchives.nseindia.com/corporate/RADHIKA_03112026142844_outcomes26fr.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:RADHIKAJWE",
+      "t": "03-Nov-2026 14:30:18"
     }
   ]
 }
