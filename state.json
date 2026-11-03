@@ -500,18 +500,6 @@
         "xbrl_try": "2026-11-03T19:52:43.549215+00:00"
       },
       {
-        "key": "106841458",
-        "seq_id": "106841458",
-        "symbol": "SURANAT&P",
-        "company": "Surana Telecom and Power Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/SURANAT_P_03112026124044_OUTCOMe.pdf",
-        "an_dt": "03-Nov-2026 12:42:00",
-        "date": "2026-11-03",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-03T18:53:16.393181+00:00"
-      },
-      {
         "key": "106841454",
         "seq_id": "106841454",
         "symbol": "NEXTMEDIA",
@@ -521,7 +509,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T18:53:18.128415+00:00"
+        "xbrl_try": "2026-11-03T19:55:00.004101+00:00"
       },
       {
         "key": "106841577",
@@ -583,18 +571,6 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-03T19:46:46.247078+00:00"
-      },
-      {
-        "key": "106841852",
-        "seq_id": "106841852",
-        "symbol": "CAMLINFINE",
-        "company": "Camlin Fine Sciences Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/CAMLINFINE_03112026154559_Outcome_of_BM_03112026.pdf",
-        "an_dt": "03-Nov-2026 15:47:20",
-        "date": "2026-11-03",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-03T18:53:18.939788+00:00"
       },
       {
         "key": "106841873",
@@ -667,18 +643,6 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-03T19:12:35.221990+00:00"
-      },
-      {
-        "key": "106842583",
-        "seq_id": "106842583",
-        "symbol": "DENORA",
-        "company": "De Nora India Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/DENORA_03112026184817_Board_outcome_Sep2026.pdf",
-        "an_dt": "03-Nov-2026 18:51:00",
-        "date": "2026-11-03",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-03T18:53:19.351432+00:00"
       },
       {
         "key": "106842648",
@@ -1291,48 +1255,6 @@
     "embdl_03112026193144_edl_outcome_bm_0311226_.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-10-31",
-      "s": "BKMINDST",
-      "c": "Bkm Industries Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/BKMINDST_31102026171733_BKM_Standalone_Results_with_Intimation_31-10-2026-S.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BKMINDST",
-      "t": "31-Oct-2026 17:23:24"
-    },
-    {
-      "d": "2026-10-31",
-      "s": "GEMAROMA",
-      "c": "Gem Aromatics Limited",
-      "r": "Positive",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 92.38,
-      "pat": 8.903,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/GEMAROMATICS2024_31102026172816_Outcome.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GEMAROMA",
-      "t": "31-Oct-2026 17:31:19"
-    },
-    {
-      "d": "2026-10-31",
-      "s": "OMPOWER",
-      "c": "Om Power Transmission Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 128.29410000000001,
-      "pat": 13.847999999999999,
-      "eps": 4.04,
-      "filing": "https://nsearchives.nseindia.com/corporate/OMPOWER_31102026172721_Outcome_31102026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:OMPOWER",
-      "t": "31-Oct-2026 17:29:29"
-    },
     {
       "d": "2026-10-31",
       "s": "NEUEON",
@@ -5547,6 +5469,51 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SERVOTECH",
       "t": "03-Nov-2026 18:37:12",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752091_03112026065320_WEB.xml"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "SURANAT&P",
+      "c": "Surana Telecom and Power Limited",
+      "r": "Positive",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 2.2391,
+      "pat": 0.2148,
+      "eps": 0.02,
+      "filing": "https://nsearchives.nseindia.com/corporate/SURANAT_P_03112026124044_OUTCOMe.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SURANAT_P",
+      "t": "03-Nov-2026 12:42:00",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752095_03112026065350_WEB.xml"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "CAMLINFINE",
+      "c": "Camlin Fine Sciences Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 491.465,
+      "pat": -29.7,
+      "eps": -1.45,
+      "filing": "https://nsearchives.nseindia.com/corporate/CAMLINFINE_03112026154559_Outcome_of_BM_03112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CAMLINFINE",
+      "t": "03-Nov-2026 15:47:20",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752154_03112026072837_WEB.xml"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "DENORA",
+      "c": "De Nora India Limited",
+      "r": "Bad",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 21.359399999999997,
+      "pat": -2.5997,
+      "eps": -4.9,
+      "filing": "https://nsearchives.nseindia.com/corporate/DENORA_03112026184817_Board_outcome_Sep2026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:DENORA",
+      "t": "03-Nov-2026 18:51:00",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752099_03112026065556_WEB.xml"
     }
   ]
 }
