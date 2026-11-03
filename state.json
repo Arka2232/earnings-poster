@@ -910,7 +910,8 @@
     "106841659",
     "106841668",
     "106841671",
-    "106841677"
+    "106841677",
+    "106841683"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1029,7 +1030,8 @@
     "hikal_03112026142532_seintboardoutcomenov2026.pdf",
     "radhika_03112026142844_outcomes26fr.pdf",
     "montecarlo_03112026143232_financial_results.pdf",
-    "mgl25_03112026143523_outcomebm03112026.pdf"
+    "mgl25_03112026143523_outcomebm03112026.pdf",
+    "archidply_03112026143636_outcome.pdf"
   ],
   "archive": [
     {
@@ -4033,6 +4035,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/MGL25_03112026143523_OutcomeBM03112026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:MGL",
       "t": "03-Nov-2026 14:36:06"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "ARCHIDPLY",
+      "c": "Archidply Industries Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 158.4591,
+      "pat": 4.5311,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/ARCHIDPLY_03112026143636_Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ARCHIDPLY",
+      "t": "03-Nov-2026 14:38:05"
     }
   ]
 }
