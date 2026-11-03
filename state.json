@@ -985,7 +985,8 @@
     "106841772",
     "106841799",
     "106841852",
-    "106841859"
+    "106841859",
+    "106841869"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1118,7 +1119,8 @@
     "gencon_03112026151211_outcome.pdf",
     "manglmcem_03112026152332_nse_bse_outcome_03_11_2026_s.pdf",
     "camlinfine_03112026154559_outcome_of_bm_03112026.pdf",
-    "neulandlab_03112026154657_seoutcome_03112026.pdf"
+    "neulandlab_03112026154657_seoutcome_03112026.pdf",
+    "8448091598_03112026155454_stxintimationoutcome03112026sd.pdf"
   ],
   "archive": [
     {
@@ -4333,6 +4335,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/NEULANDLAB_03112026154657_SEOutcome_03112026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:NEULANDLAB",
       "t": "03-Nov-2026 15:50:00"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "ASKAUTOLTD",
+      "c": "ASK Automotive Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 1555.16,
+      "pat": 132.67,
+      "eps": 5.15,
+      "filing": "https://nsearchives.nseindia.com/corporate/8448091598_03112026155454_stxintimationoutcome03112026sd.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ASKAUTOLTD",
+      "t": "03-Nov-2026 15:55:58"
     }
   ]
 }
