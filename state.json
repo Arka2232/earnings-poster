@@ -597,18 +597,6 @@
         "xbrl_try": "2026-11-03T21:15:04.729252+00:00"
       },
       {
-        "key": "106842742",
-        "seq_id": "106842742",
-        "symbol": "DAMCAPITAL",
-        "company": "Dam Capital Advisors Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/DAMCAPITAL_03112026193013_Signed.pdf",
-        "an_dt": "03-Nov-2026 19:30:23",
-        "date": "2026-11-03",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-03T20:34:55.377625+00:00"
-      },
-      {
         "key": "106842842",
         "seq_id": "106842842",
         "symbol": "ENIL",
@@ -1266,20 +1254,6 @@
     "mircelectr_03112026211111_outcomeofboardmeeting03112026signed.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-11-02",
-      "s": "DEVYANI",
-      "c": "Devyani International Limited",
-      "r": "Positive",
-      "b": "Consolidated",
-      "q": "Q1 FY27",
-      "sales": 1519.4250000000002,
-      "pat": 3.4619999999999997,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/DEVYANI_02112026115337_Outcome_02112026_Results_sd.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:DEVYANI",
-      "t": "02-Nov-2026 11:55:49"
-    },
     {
       "d": "2026-11-02",
       "s": "PKTEA",
@@ -5532,6 +5506,21 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:FLUOROCHEM",
       "t": "03-Nov-2026 14:13:33",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752275_03112026090315_WEB.xml"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "DAMCAPITAL",
+      "c": "Dam Capital Advisors Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 54.239999999999995,
+      "pat": 13.54,
+      "eps": 1.92,
+      "filing": "https://nsearchives.nseindia.com/corporate/DAMCAPITAL_03112026193013_Signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:DAMCAPITAL",
+      "t": "03-Nov-2026 19:30:23",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NBFC_INDAS_1752296_03112026091951_WEB.xml"
     }
   ]
 }
