@@ -558,19 +558,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T15:03:03.493924+00:00"
-      },
-      {
-        "key": "106841592",
-        "seq_id": "106841592",
-        "symbol": "AJMERA",
-        "company": "Ajmera Realty & Infra India Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/AJMERA_03112026135429_Intimation_sd.pdf",
-        "an_dt": "03-Nov-2026 13:55:38",
-        "date": "2026-11-03",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-03T15:03:03.921373+00:00"
+        "xbrl_try": "2026-11-03T16:04:45.875320+00:00"
       },
       {
         "key": "106841637",
@@ -666,7 +654,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T15:03:04.332091+00:00"
+        "xbrl_try": "2026-11-03T16:04:52.739179+00:00"
       },
       {
         "key": "106841736",
@@ -4393,6 +4381,21 @@
       "filing": "https://nsearchives.nseindia.com/corporate/Harsha_03112026160002_Board_Meeting_Outcome_Dated_3rd_November_2026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:HARSHA",
       "t": "03-Nov-2026 16:01:21"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "AJMERA",
+      "c": "Ajmera Realty & Infra India Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 316.96,
+      "pat": 48.47,
+      "eps": 2.29,
+      "filing": "https://nsearchives.nseindia.com/corporate/AJMERA_03112026135429_Intimation_sd.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:AJMERA",
+      "t": "03-Nov-2026 13:55:38",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751778_03112026035734_WEB.xml"
     }
   ]
 }
