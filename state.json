@@ -425,7 +425,7 @@
         "url": "https://nsearchives.nseindia.com/corporate/PATELINT_02112026155145_Outcome_of_BM_Sept2026_sd.pdf",
         "an_dt": "02-Nov-2026 15:53:28",
         "date": "2026-11-02",
-        "xbrl_try": "2026-11-03T23:59:42.466227+00:00"
+        "xbrl_try": "2026-11-04T01:01:05.481002+00:00"
       },
       {
         "key": "106839719",
@@ -437,7 +437,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T23:59:43.603819+00:00"
+        "xbrl_try": "2026-11-04T01:01:06.751352+00:00"
       },
       {
         "key": "106839796",
@@ -449,7 +449,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T23:59:45.008494+00:00"
+        "xbrl_try": "2026-11-04T01:01:08.244910+00:00"
       },
       {
         "key": "106840301",
@@ -461,7 +461,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T23:59:46.483246+00:00"
+        "xbrl_try": "2026-11-04T01:01:10.091703+00:00"
       },
       {
         "key": "106840295",
@@ -473,7 +473,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T23:59:47.777661+00:00"
+        "xbrl_try": "2026-11-04T01:01:11.628520+00:00"
       },
       {
         "key": "106840386",
@@ -485,7 +485,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T23:59:49.002520+00:00"
+        "xbrl_try": "2026-11-04T01:01:12.718319+00:00"
       },
       {
         "key": "106840511",
@@ -497,7 +497,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T23:59:50.151837+00:00"
+        "xbrl_try": "2026-11-04T01:01:13.692019+00:00"
       },
       {
         "key": "106840621",
@@ -509,7 +509,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T23:59:51.337232+00:00"
+        "xbrl_try": "2026-11-04T01:01:14.778745+00:00"
       },
       {
         "key": "106840747",
@@ -521,7 +521,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T23:59:52.503253+00:00"
+        "xbrl_try": "2026-11-04T01:01:16.401124+00:00"
       },
       {
         "key": "106841454",
@@ -533,7 +533,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T23:59:53.438693+00:00"
+        "xbrl_try": "2026-11-04T01:01:17.451546+00:00"
       },
       {
         "key": "106841577",
@@ -558,7 +558,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T23:59:54.648335+00:00"
+        "xbrl_try": "2026-11-04T01:01:18.365891+00:00"
       },
       {
         "key": "106842168",
@@ -570,7 +570,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T23:59:55.736159+00:00"
+        "xbrl_try": "2026-11-04T01:01:19.514733+00:00"
       },
       {
         "key": "106842383",
@@ -582,7 +582,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T23:59:56.584305+00:00"
+        "xbrl_try": "2026-11-04T01:01:20.340064+00:00"
       },
       {
         "key": "106842647",
@@ -594,7 +594,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T23:59:57.779624+00:00"
+        "xbrl_try": "2026-11-04T01:01:21.546296+00:00"
       },
       {
         "key": "106842850",
@@ -619,19 +619,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T23:59:58.649467+00:00"
-      },
-      {
-        "key": "106843059",
-        "seq_id": "106843059",
-        "symbol": "ALLCARGO",
-        "company": "Allcargo Logistics Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/ALLCARGO_03112026221331_SEUpload.pdf",
-        "an_dt": "03-Nov-2026 22:15:31",
-        "date": "2026-11-03",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-03T23:59:59.460237+00:00"
+        "xbrl_try": "2026-11-04T01:01:22.515930+00:00"
       },
       {
         "key": "106843295",
@@ -649,7 +637,7 @@
     "next_cache": "2026-11-03",
     "nightly_pass": "2026-11-03",
     "calendar": "2026-11-03",
-    "ipo_check": "2026-11-04 00",
+    "ipo_check": "2026-11-04 01",
     "ipo_posted": [
       "BCSSL",
       "HGSINDIALT",
@@ -1284,20 +1272,6 @@
     "lupin2_04112026004100_se_outcome_ufr_intimation.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-11-02",
-      "s": "PATINTLOG",
-      "c": "Patel Integrated Logistics Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/PATELINT_02112026155145_Outcome_of_BM_Sept2026_sd.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PATINTLOG",
-      "t": "02-Nov-2026 15:53:28"
-    },
     {
       "d": "2026-11-02",
       "s": "PETRONET",
@@ -5549,6 +5523,21 @@
       "filing": "https://nsearchives.nseindia.com/corporate/Lupin2_04112026004100_SE_Outcome_UFR_Intimation.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:LUPIN",
       "t": "04-Nov-2026 00:44:51"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "ALLCARGO",
+      "c": "Allcargo Logistics Limited",
+      "r": "Positive",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 555.0,
+      "pat": 18.0,
+      "eps": 0.11,
+      "filing": "https://nsearchives.nseindia.com/corporate/ALLCARGO_03112026221331_SEUpload.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ALLCARGO",
+      "t": "03-Nov-2026 22:15:31",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752369_04112026120350_WEB.xml"
     }
   ]
 }
