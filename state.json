@@ -549,18 +549,6 @@
         "xbrl_try": "2026-11-03T20:23:56.100429+00:00"
       },
       {
-        "key": "106841651",
-        "seq_id": "106841651",
-        "symbol": "NITCO",
-        "company": "Nitco Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/NITCO_03112026142208_SEoutcomeofboardmeeting.pdf",
-        "an_dt": "03-Nov-2026 14:23:44",
-        "date": "2026-11-03",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-03T19:30:45.731499+00:00"
-      },
-      {
         "key": "106841685",
         "seq_id": "106841685",
         "symbol": "BLS",
@@ -1038,7 +1026,8 @@
     "106842863",
     "106842877",
     "106842880",
-    "106842896"
+    "106842896",
+    "106842908"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1260,37 +1249,10 @@
     "fazethree_03112026201002_submission.pdf",
     "jyotistruc_03112026201616_final_outcome.pdf",
     "glasswall_03112026201250_2026_11_03_-_outcome_of_bm_-_final.pdf",
-    "halder_03112026202443_outcome_sep_26_merged.pdf"
+    "halder_03112026202443_outcome_sep_26_merged.pdf",
+    "speciality_03112026202714_bsenseletterdated03112026.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-10-31",
-      "s": "NEOGEN",
-      "c": "Neogen Chemicals Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 295.96,
-      "pat": 8.23,
-      "eps": 2.96,
-      "filing": "https://nsearchives.nseindia.com/corporate/NEOGEN_31102026195238_BMOutcome_31102026_Final.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:NEOGEN",
-      "t": "31-Oct-2026 19:53:51"
-    },
-    {
-      "d": "2026-10-31",
-      "s": "AURIONPRO",
-      "c": "Aurionpro Solutions Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "",
-      "sales": 414.98150000000004,
-      "pat": 150.2041,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/AURIONPRO_31102026200551_ASL_Outcome_of_the_Board_Meeting_31102026Final_sd.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:AURIONPRO",
-      "t": "31-Oct-2026 20:08:18"
-    },
     {
       "d": "2026-10-31",
       "s": "NEOGEN",
@@ -5525,6 +5487,35 @@
       "filing": "https://nsearchives.nseindia.com/corporate/HALDER_03112026202443_Outcome_Sep_26_Merged.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:HALDER",
       "t": "03-Nov-2026 20:25:55"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "SPECIALITY",
+      "c": "Speciality Restaurants Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 135.83270000000002,
+      "pat": 6.814,
+      "eps": 1.43,
+      "filing": "https://nsearchives.nseindia.com/corporate/SPECIALITY_03112026202714_BSENSELETTERDATED03112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SPECIALITY",
+      "t": "03-Nov-2026 20:30:04"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "NITCO",
+      "c": "Nitco Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 155.76829999999998,
+      "pat": -6.1746,
+      "eps": -0.24,
+      "filing": "https://nsearchives.nseindia.com/corporate/NITCO_03112026142208_SEoutcomeofboardmeeting.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:NITCO",
+      "t": "03-Nov-2026 14:23:44",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752217_03112026080855_WEB.xml"
     }
   ]
 }
