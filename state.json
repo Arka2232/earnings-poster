@@ -449,7 +449,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T16:15:26.890009+00:00"
+        "xbrl_try": "2026-11-03T17:15:54.228536+00:00"
       },
       {
         "key": "106840511",
@@ -461,7 +461,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T16:15:28.148764+00:00"
+        "xbrl_try": "2026-11-03T17:15:55.993129+00:00"
       },
       {
         "key": "106840621",
@@ -473,7 +473,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T16:15:29.024635+00:00"
+        "xbrl_try": "2026-11-03T17:15:57.039809+00:00"
       },
       {
         "key": "106840747",
@@ -485,7 +485,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T16:15:30.328456+00:00"
+        "xbrl_try": "2026-11-03T17:15:58.543235+00:00"
       },
       {
         "key": "106841447",
@@ -693,18 +693,6 @@
         "xbrl_try": "2026-11-03T17:00:45.535867+00:00"
       },
       {
-        "key": "106841923",
-        "seq_id": "106841923",
-        "symbol": "EBGNG",
-        "company": "GNG Electronics Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/GNGNSE_03112026160558_BM_Outcome.pdf",
-        "an_dt": "03-Nov-2026 16:10:04",
-        "date": "2026-11-03",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-03T16:15:34.886121+00:00"
-      },
-      {
         "key": "106841928",
         "seq_id": "106841928",
         "symbol": "SOTL",
@@ -763,6 +751,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-03T16:57:05.555732+00:00"
+      },
+      {
+        "key": "106842168",
+        "seq_id": "106842168",
+        "symbol": "ADVENTHTL",
+        "company": "Advent Hotels International Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/ADVENTHTL_03112026171215_adventoutcomeresults03112026.pdf",
+        "an_dt": "03-Nov-2026 17:12:36",
+        "date": "2026-11-03",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-03T17:16:03.457783+00:00"
       }
     ],
     "next_cache": "2026-11-02",
@@ -1055,7 +1055,8 @@
     "106842076",
     "106842095",
     "106842128",
-    "106842152"
+    "106842152",
+    "106842168"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1210,7 +1211,8 @@
     "vmart_03112026164834_finaloutcome.pdf",
     "lindeindia1_03112026165015_outcome_of_bm_03112026.pdf",
     "bajajhldng_03112026165942_bm_intimation_signed_bhil.pdf",
-    "surevin_03112026170540_bodoutcome03112026.pdf"
+    "surevin_03112026170540_bodoutcome03112026.pdf",
+    "adventhtl_03112026171215_adventoutcomeresults03112026.pdf"
   ],
   "archive": [
     {
@@ -4808,6 +4810,35 @@
       "filing": "https://nsearchives.nseindia.com/corporate/SUREVIN_03112026170540_BODOutcome03112026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:WEWIN",
       "t": "03-Nov-2026 17:07:00"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "ADVENTHTL",
+      "c": "Advent Hotels International Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/ADVENTHTL_03112026171215_adventoutcomeresults03112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ADVENTHTL",
+      "t": "03-Nov-2026 17:12:36"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "EBGNG",
+      "c": "GNG Electronics Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 624.8109999999999,
+      "pat": 56.351,
+      "eps": 4.94,
+      "filing": "https://nsearchives.nseindia.com/corporate/GNGNSE_03112026160558_BM_Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:EBGNG",
+      "t": "03-Nov-2026 16:10:04",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751831_03112026043304_WEB.xml"
     }
   ]
 }
