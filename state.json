@@ -999,7 +999,8 @@
     "106841852",
     "106841859",
     "106841869",
-    "106841873"
+    "106841873",
+    "106841886"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1134,7 +1135,8 @@
     "camlinfine_03112026154559_outcome_of_bm_03112026.pdf",
     "neulandlab_03112026154657_seoutcome_03112026.pdf",
     "8448091598_03112026155454_stxintimationoutcome03112026sd.pdf",
-    "maxind_03112026155414_outcomenov2026milsigned.pdf"
+    "maxind_03112026155414_outcomenov2026milsigned.pdf",
+    "harsha_03112026160002_board_meeting_outcome_dated_3rd_november_2026.pdf"
   ],
   "archive": [
     {
@@ -4377,6 +4379,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/MAXIND_03112026155414_OutcomeNov2026MILsigned.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:MAXIND",
       "t": "03-Nov-2026 15:57:07"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "HARSHA",
+      "c": "Harsha Engineers International Limited",
+      "r": "Good",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 4.4009,
+      "pat": 0.45030000000000003,
+      "eps": 4.95,
+      "filing": "https://nsearchives.nseindia.com/corporate/Harsha_03112026160002_Board_Meeting_Outcome_Dated_3rd_November_2026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:HARSHA",
+      "t": "03-Nov-2026 16:01:21"
     }
   ]
 }
