@@ -534,6 +534,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-03T13:05:49.863686+00:00"
+      },
+      {
+        "key": "106841557",
+        "seq_id": "106841557",
+        "symbol": "SIL",
+        "company": "Standard Industries Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/SIL_03112026133451_OUTCOME_031126.pdf",
+        "an_dt": "03-Nov-2026 13:38:06",
+        "date": "2026-11-03",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-03T13:42:01.749407+00:00"
       }
     ],
     "next_cache": "2026-11-02",
@@ -769,7 +781,9 @@
     "106841503",
     "106841525",
     "106841533",
-    "106841544"
+    "106841544",
+    "106841557",
+    "106841556"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -867,7 +881,9 @@
     "diacabs_03112026125735_outcomeofbm.pdf",
     "alkylamine_03112026131355_results.pdf",
     "deepinds_03112026132142_outcome.pdf",
-    "princepipe_03112026132925_se_outcome.pdf"
+    "princepipe_03112026132925_se_outcome.pdf",
+    "sil_03112026133451_outcome_031126.pdf",
+    "punjab_03112026133110_outcome.pdf"
   ],
   "archive": [
     {
@@ -3577,6 +3593,34 @@
       "filing": "https://nsearchives.nseindia.com/corporate/PRINCEPIPE_03112026132925_SE_Outcome.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:PRINCEPIPE",
       "t": "03-Nov-2026 13:32:02"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "SIL",
+      "c": "Standard Industries Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/SIL_03112026133451_OUTCOME_031126.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SIL",
+      "t": "03-Nov-2026 13:38:06"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "PUNJABCHEM",
+      "c": "Punjab Chemicals & Crop Protection Limited",
+      "r": "Bad",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 3.267,
+      "pat": 0.13460000000000003,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/PUNJAB_03112026133110_Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PUNJABCHEM",
+      "t": "03-Nov-2026 13:37:59"
     }
   ]
 }
