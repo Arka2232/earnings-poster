@@ -666,6 +666,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-03T15:03:04.332091+00:00"
+      },
+      {
+        "key": "106841736",
+        "seq_id": "106841736",
+        "symbol": "MINDACORP",
+        "company": "Minda Corporation Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/MINDACORP_03112026150024_BMOutcome.pdf",
+        "an_dt": "03-Nov-2026 15:00:40",
+        "date": "2026-11-03",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-03T15:05:49.170968+00:00"
       }
     ],
     "next_cache": "2026-11-02",
@@ -927,7 +939,8 @@
     "106841685",
     "106841727",
     "106841724",
-    "106841720"
+    "106841720",
+    "106841736"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1051,7 +1064,8 @@
     "bls_03112026143832_outcome_board_meeting_03112026_signed.pdf",
     "bhagchem_03112026145415_seintimation.pdf",
     "rtnindia_03112026145359_relresultsq2.pdf",
-    "edutech_03112026145238_outcome_of_bm_edutech.pdf"
+    "edutech_03112026145238_outcome_of_bm_edutech.pdf",
+    "mindacorp_03112026150024_bmoutcome.pdf"
   ],
   "archive": [
     {
@@ -4140,6 +4154,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/EDUTECH_03112026145238_Outcome_of_BM_EDUTECH.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:CPEDU",
       "t": "03-Nov-2026 14:54:14"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "MINDACORP",
+      "c": "Minda Corporation Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/MINDACORP_03112026150024_BMOutcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MINDACORP",
+      "t": "03-Nov-2026 15:00:40"
     }
   ]
 }
