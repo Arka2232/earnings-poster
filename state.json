@@ -669,18 +669,6 @@
         "xbrl_try": "2026-11-03T19:12:35.221990+00:00"
       },
       {
-        "key": "106842538",
-        "seq_id": "106842538",
-        "symbol": "SERVOTECH",
-        "company": "Servotech Renewable Power System Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/SERVOTECH_03112026183537_Financial_results.pdf",
-        "an_dt": "03-Nov-2026 18:37:12",
-        "date": "2026-11-03",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-03T18:41:20.176558+00:00"
-      },
-      {
         "key": "106842583",
         "seq_id": "106842583",
         "symbol": "DENORA",
@@ -1303,20 +1291,6 @@
     "embdl_03112026193144_edl_outcome_bm_0311226_.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-10-31",
-      "s": "BKMINDST",
-      "c": "Bkm Industries Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/BKMINDST_31102026172026_BKM_Consolidated_Results_with_Intimation_31-10-2026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BKMINDST",
-      "t": "31-Oct-2026 17:23:24"
-    },
     {
       "d": "2026-10-31",
       "s": "BKMINDST",
@@ -5558,6 +5532,21 @@
       "filing": "https://nsearchives.nseindia.com/corporate/EMBDL_03112026193144_EDL_Outcome_BM_0311226_.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:EMBDL",
       "t": "03-Nov-2026 19:37:39"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "SERVOTECH",
+      "c": "Servotech Renewable Power System Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 167.1754,
+      "pat": 9.7465,
+      "eps": 0.41,
+      "filing": "https://nsearchives.nseindia.com/corporate/SERVOTECH_03112026183537_Financial_results.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SERVOTECH",
+      "t": "03-Nov-2026 18:37:12",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752091_03112026065320_WEB.xml"
     }
   ]
 }
