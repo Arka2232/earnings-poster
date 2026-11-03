@@ -660,7 +660,7 @@
     "next_cache": "2026-11-02",
     "nightly_pass": "2026-11-02",
     "calendar": "2026-11-03",
-    "ipo_check": "2026-11-03 20",
+    "ipo_check": "2026-11-03 21",
     "ipo_posted": [
       "BCSSL",
       "HGSINDIALT",
@@ -1017,7 +1017,8 @@
     "106842896",
     "106842908",
     "106842938",
-    "106842954"
+    "106842954",
+    "106842961"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1242,23 +1243,10 @@
     "halder_03112026202443_outcome_sep_26_merged.pdf",
     "speciality_03112026202714_bsenseletterdated03112026.pdf",
     "shantigold_03112026204437_bm_outcome_03112026_sgil.pdf",
-    "authum123_03112026205231_outcomebm03112026.pdf"
+    "authum123_03112026205231_outcomebm03112026.pdf",
+    "digispice_03112026205704_intimationofoutcomeofboard_meetingfinancialresults.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-10-31",
-      "s": "ESSENTIA",
-      "c": "Integra Essentia Limited",
-      "r": "Bad",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 141.9702,
-      "pat": -0.0226,
-      "eps": -0.0,
-      "filing": "https://nsearchives.nseindia.com/corporate/INTEGRA_31102026221142_IELotcom.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ESSENTIA",
-      "t": "31-Oct-2026 22:12:57"
-    },
     {
       "d": "2026-10-31",
       "s": "PRIORITY",
@@ -5510,6 +5498,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/Authum123_03112026205231_OutcomeBM03112026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:AIIL",
       "t": "03-Nov-2026 20:53:23"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "DIGISPICE",
+      "c": "DiGiSPICE Technologies Limited",
+      "r": "Positive",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 118.60180000000001,
+      "pat": 8.8808,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/DIGISPICE_03112026205704_IntimationofOutcomeofBoard_MeetingFinancialResults.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:DIGISPICE",
+      "t": "03-Nov-2026 20:57:46"
     }
   ]
 }
