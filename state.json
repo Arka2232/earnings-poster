@@ -522,7 +522,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T20:11:04.018736+00:00"
+        "xbrl_try": "2026-11-03T21:14:30.246445+00:00"
       },
       {
         "key": "106841637",
@@ -570,7 +570,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T20:11:07.947888+00:00"
+        "xbrl_try": "2026-11-03T21:14:30.689147+00:00"
       },
       {
         "key": "106842383",
@@ -630,7 +630,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T20:11:08.635877+00:00"
+        "xbrl_try": "2026-11-03T21:14:31.422368+00:00"
       },
       {
         "key": "106842850",
@@ -655,6 +655,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-03T20:48:32.048482+00:00"
+      },
+      {
+        "key": "106842976",
+        "seq_id": "106842976",
+        "symbol": "RSYSTEMS",
+        "company": "R Systems International Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/RSYSTEMSPJ_03112026211010_RSYSTEMS_sd.pdf",
+        "an_dt": "03-Nov-2026 21:11:09",
+        "date": "2026-11-03",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-03T21:14:31.822144+00:00"
       }
     ],
     "next_cache": "2026-11-02",
@@ -1019,7 +1031,8 @@
     "106842938",
     "106842954",
     "106842961",
-    "106842964"
+    "106842964",
+    "106842976"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1246,23 +1259,10 @@
     "shantigold_03112026204437_bm_outcome_03112026_sgil.pdf",
     "authum123_03112026205231_outcomebm03112026.pdf",
     "digispice_03112026205704_intimationofoutcomeofboard_meetingfinancialresults.pdf",
-    "icccsexecutive_03112026205749_icc_bm_outcome_november_3_26_final.pdf"
+    "icccsexecutive_03112026205749_icc_bm_outcome_november_3_26_final.pdf",
+    "rsystemspj_03112026211010_rsystems_sd.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-11-01",
-      "s": "POWERGRID",
-      "c": "Power Grid Corporation of India Limited",
-      "r": "Good",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 11816.22,
-      "pat": 3866.16,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/POWERGRID1_01112026200821_BSENSEReg30FileFinal.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:POWERGRID",
-      "t": "01-Nov-2026 20:11:02"
-    },
     {
       "d": "2026-11-01",
       "s": "AVL",
@@ -5515,6 +5515,20 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:INDIANCARD",
       "t": "03-Nov-2026 20:59:14",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752255_03112026085036_WEB.xml"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "RSYSTEMS",
+      "c": "R Systems International Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/RSYSTEMSPJ_03112026211010_RSYSTEMS_sd.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:RSYSTEMS",
+      "t": "03-Nov-2026 21:11:09"
     }
   ]
 }
