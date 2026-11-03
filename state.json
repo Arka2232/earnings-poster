@@ -1070,7 +1070,8 @@
     "106842250",
     "106842260",
     "106842259",
-    "106842256"
+    "106842256",
+    "106842264"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1240,7 +1241,8 @@
     "hginfra_03112026173301_finaloutcome.pdf",
     "manipalcardsipo_03112026173448_outcome03112026.pdf",
     "20121991_03112026173721_intimation.pdf",
-    "aml_03112026173420_bmoutcome03112026aml.pdf"
+    "aml_03112026173420_bmoutcome03112026aml.pdf",
+    "pokarna_03112026173627_final_intimation_outcome_sep_2026.pdf"
   ],
   "archive": [
     {
@@ -5078,6 +5080,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/AML_03112026173420_BMOutcome03112026AML.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:ASHOKAMET",
       "t": "03-Nov-2026 17:37:02"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "POKARNA",
+      "c": "Pokarna Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 161.0967,
+      "pat": 34.2671,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/POKARNA_03112026173627_Final_Intimation_Outcome_Sep_2026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:POKARNA",
+      "t": "03-Nov-2026 17:39:04"
     }
   ]
 }
