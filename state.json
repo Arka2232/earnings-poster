@@ -546,6 +546,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-03T13:42:01.749407+00:00"
+      },
+      {
+        "key": "106841577",
+        "seq_id": "106841577",
+        "symbol": "SBIN",
+        "company": "State Bank of India",
+        "url": "https://nsearchives.nseindia.com/corporate/SBIN_03112026134649_FR_DSC.pdf",
+        "an_dt": "03-Nov-2026 13:47:53",
+        "date": "2026-11-03",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-03T13:53:12.017326+00:00"
       }
     ],
     "next_cache": "2026-11-02",
@@ -785,7 +797,10 @@
     "106841557",
     "106841556",
     "106841553",
-    "106841566"
+    "106841566",
+    "106841577",
+    "106841573",
+    "106841571"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -887,7 +902,10 @@
     "sil_03112026133451_outcome_031126.pdf",
     "punjab_03112026133110_outcome.pdf",
     "asahiindia_03112026133628_outcomenovember2026.pdf",
-    "rbz_03112026134201_signedreg33outcomeofbm03112026.pdf"
+    "rbz_03112026134201_signedreg33outcomeofbm03112026.pdf",
+    "sbin_03112026134649_fr_dsc.pdf",
+    "rppl_03112026134447_rppl_outcome_of_bm_upload.pdf",
+    "kopran_03112026134417_outcome03112026.pdf"
   ],
   "archive": [
     {
@@ -3653,6 +3671,48 @@
       "filing": "https://nsearchives.nseindia.com/corporate/RBZ_03112026134201_SignedReg33OutcomeofBM03112026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:RBZJEWEL",
       "t": "03-Nov-2026 13:44:56"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "SBIN",
+      "c": "State Bank of India",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/SBIN_03112026134649_FR_DSC.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SBIN",
+      "t": "03-Nov-2026 13:47:53"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "RPPL",
+      "c": "Rajshree Polypack Limited",
+      "r": "Good",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 102.89540000000001,
+      "pat": 5.03,
+      "eps": 0.68,
+      "filing": "https://nsearchives.nseindia.com/corporate/RPPL_03112026134447_RPPL_Outcome_of_BM_upload.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:RPPL",
+      "t": "03-Nov-2026 13:46:01"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "KOPRAN",
+      "c": "Kopran Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 211.26250000000002,
+      "pat": 4.3945,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/KOPRAN_03112026134417_outcome03112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:KOPRAN",
+      "t": "03-Nov-2026 13:45:55"
     }
   ]
 }
