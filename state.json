@@ -449,7 +449,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T14:12:54.990844+00:00"
+        "xbrl_try": "2026-11-03T15:14:57.013622+00:00"
       },
       {
         "key": "106840511",
@@ -461,7 +461,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T14:12:56.210114+00:00"
+        "xbrl_try": "2026-11-03T15:14:58.625875+00:00"
       },
       {
         "key": "106840621",
@@ -473,7 +473,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T14:12:57.392924+00:00"
+        "xbrl_try": "2026-11-03T15:14:59.533929+00:00"
       },
       {
         "key": "106840747",
@@ -485,7 +485,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T14:12:58.399808+00:00"
+        "xbrl_try": "2026-11-03T15:15:01.376742+00:00"
       },
       {
         "key": "106841447",
@@ -955,7 +955,8 @@
     "106841736",
     "106841747",
     "106841742",
-    "106841749"
+    "106841749",
+    "106841766"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1083,7 +1084,8 @@
     "mindacorp_03112026150024_bmoutcome.pdf",
     "inventure_03112026150257_outcome_kl.pdf",
     "vasconeq_03112026150147_outcome_final_sd.pdf",
-    "dtl_03112026150059_dhoot_bm_outcome_03112026_signed.pdf"
+    "dtl_03112026150059_dhoot_bm_outcome_03112026_signed.pdf",
+    "arihantsup_03112026151003_asl_outcome_bm_03112026.pdf"
   ],
   "archive": [
     {
@@ -4228,6 +4230,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/DTL_03112026150059_Dhoot_BM_Outcome_03112026_signed.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:DHOOTTRANS",
       "t": "03-Nov-2026 15:06:30"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "ARIHANTSUP",
+      "c": "Arihant Superstructures Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 22.5014,
+      "pat": 0.4625,
+      "eps": 0.11,
+      "filing": "https://nsearchives.nseindia.com/corporate/ARIHANTSUP_03112026151003_ASL_Outcome_BM_03112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ARIHANTSUP",
+      "t": "03-Nov-2026 15:11:20"
     }
   ]
 }
