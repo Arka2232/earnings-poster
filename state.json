@@ -606,6 +606,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-03T14:26:50.355542+00:00"
+      },
+      {
+        "key": "106841655",
+        "seq_id": "106841655",
+        "symbol": "TFCILTD",
+        "company": "Tourism Finance Corporation of India Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/TFCILTD_03112026141930_TFCIBMOutcome3112026Signed.pdf",
+        "an_dt": "03-Nov-2026 14:25:29",
+        "date": "2026-11-03",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-03T14:27:43.474961+00:00"
       }
     ],
     "next_cache": "2026-11-02",
@@ -856,7 +868,8 @@
     "106841613",
     "106841640",
     "106841637",
-    "106841651"
+    "106841651",
+    "106841655"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -969,7 +982,8 @@
     "sikko_03112026140006_outcome.pdf",
     "pfizer_03112026141109_seintimation_frq22027.pdf",
     "fluorochem_03112026141153_gfcl_financial_results.pdf",
-    "nitco_03112026142208_seoutcomeofboardmeeting.pdf"
+    "nitco_03112026142208_seoutcomeofboardmeeting.pdf",
+    "tfciltd_03112026141930_tfcibmoutcome3112026signed.pdf"
   ],
   "archive": [
     {
@@ -3889,6 +3903,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/NITCO_03112026142208_SEoutcomeofboardmeeting.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:NITCO",
       "t": "03-Nov-2026 14:23:44"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "TFCILTD",
+      "c": "Tourism Finance Corporation of India Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/TFCILTD_03112026141930_TFCIBMOutcome3112026Signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:TFCILTD",
+      "t": "03-Nov-2026 14:25:29"
     }
   ]
 }
