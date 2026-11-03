@@ -585,30 +585,6 @@
         "xbrl_try": "2026-11-03T18:30:43.011754+00:00"
       },
       {
-        "key": "106841655",
-        "seq_id": "106841655",
-        "symbol": "TFCILTD",
-        "company": "Tourism Finance Corporation of India Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/TFCILTD_03112026141930_TFCIBMOutcome3112026Signed.pdf",
-        "an_dt": "03-Nov-2026 14:25:29",
-        "date": "2026-11-03",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-03T17:33:09.752784+00:00"
-      },
-      {
-        "key": "106841662",
-        "seq_id": "106841662",
-        "symbol": "LUXIND",
-        "company": "Lux Industries Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/LUXIND_03112026142650_outcome.pdf",
-        "an_dt": "03-Nov-2026 14:28:04",
-        "date": "2026-11-03",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-03T17:33:10.288340+00:00"
-      },
-      {
         "key": "106841659",
         "seq_id": "106841659",
         "symbol": "HIKAL",
@@ -618,7 +594,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T17:33:11.003676+00:00"
+        "xbrl_try": "2026-11-03T18:35:02.722196+00:00"
       },
       {
         "key": "106841685",
@@ -5387,6 +5363,36 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:MANGLMCEM",
       "t": "03-Nov-2026 15:25:49",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751971_03112026055637_WEB.xml"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "TFCILTD",
+      "c": "Tourism Finance Corporation of India Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 80.1836,
+      "pat": 38.5911,
+      "eps": 0.83,
+      "filing": "https://nsearchives.nseindia.com/corporate/TFCILTD_03112026141930_TFCIBMOutcome3112026Signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:TFCILTD",
+      "t": "03-Nov-2026 14:25:29",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NBFC_INDAS_1752032_03112026062731_WEB.xml"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "LUXIND",
+      "c": "Lux Industries Limited",
+      "r": "Positive",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 718.4699999999999,
+      "pat": 23.95,
+      "eps": 7.94,
+      "filing": "https://nsearchives.nseindia.com/corporate/LUXIND_03112026142650_outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:LUXIND",
+      "t": "03-Nov-2026 14:28:04",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752010_03112026061658_WEB.xml"
     }
   ]
 }
