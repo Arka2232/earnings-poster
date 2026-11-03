@@ -549,18 +549,6 @@
         "xbrl_try": "2026-11-03T20:23:56.100429+00:00"
       },
       {
-        "key": "106841685",
-        "seq_id": "106841685",
-        "symbol": "BLS",
-        "company": "BLS International Services Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/BLS_03112026143832_Outcome_Board_meeting_03112026_Signed.pdf",
-        "an_dt": "03-Nov-2026 14:38:56",
-        "date": "2026-11-03",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-03T19:46:46.247078+00:00"
-      },
-      {
         "key": "106842168",
         "seq_id": "106842168",
         "symbol": "ADVENTHTL",
@@ -667,6 +655,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-03T20:14:53.167719+00:00"
+      },
+      {
+        "key": "106842938",
+        "seq_id": "106842938",
+        "symbol": "SHANTIGOLD",
+        "company": "Shanti Gold International Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/SHANTIGOLD_03112026204437_BM_Outcome_03112026_SGIL.pdf",
+        "an_dt": "03-Nov-2026 20:46:29",
+        "date": "2026-11-03",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-03T20:48:32.048482+00:00"
       }
     ],
     "next_cache": "2026-11-02",
@@ -1027,7 +1027,8 @@
     "106842877",
     "106842880",
     "106842896",
-    "106842908"
+    "106842908",
+    "106842938"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1250,37 +1251,10 @@
     "jyotistruc_03112026201616_final_outcome.pdf",
     "glasswall_03112026201250_2026_11_03_-_outcome_of_bm_-_final.pdf",
     "halder_03112026202443_outcome_sep_26_merged.pdf",
-    "speciality_03112026202714_bsenseletterdated03112026.pdf"
+    "speciality_03112026202714_bsenseletterdated03112026.pdf",
+    "shantigold_03112026204437_bm_outcome_03112026_sgil.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-10-31",
-      "s": "NEOGEN",
-      "c": "Neogen Chemicals Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 295.96,
-      "pat": 8.23,
-      "eps": 2.96,
-      "filing": "https://nsearchives.nseindia.com/corporate/NEOGEN_31102026203209_BMOutcome_31102026_Final.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:NEOGEN",
-      "t": "31-Oct-2026 20:32:34"
-    },
-    {
-      "d": "2026-10-31",
-      "s": "PACEDIGITK",
-      "c": "Pace Digitek Limited",
-      "r": "Positive",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 594.551,
-      "pat": 58.24400000000001,
-      "eps": 2.7,
-      "filing": "https://nsearchives.nseindia.com/corporate/PACE_31102026204622_Intimation__Board_Meeting_Outcome.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PACEDIGITK",
-      "t": "31-Oct-2026 20:47:58"
-    },
     {
       "d": "2026-10-31",
       "s": "LATENTVIEW",
@@ -5516,6 +5490,35 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:NITCO",
       "t": "03-Nov-2026 14:23:44",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752217_03112026080855_WEB.xml"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "SHANTIGOLD",
+      "c": "Shanti Gold International Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/SHANTIGOLD_03112026204437_BM_Outcome_03112026_SGIL.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SHANTIGOLD",
+      "t": "03-Nov-2026 20:46:29"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "BLS",
+      "c": "BLS International Services Limited",
+      "r": "Good",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 972.6782,
+      "pat": 201.7412,
+      "eps": 4.52,
+      "filing": "https://nsearchives.nseindia.com/corporate/BLS_03112026143832_Outcome_Board_meeting_03112026_Signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BLS",
+      "t": "03-Nov-2026 14:38:56",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752228_03112026082030_WEB.xml"
     }
   ]
 }
