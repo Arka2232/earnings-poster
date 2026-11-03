@@ -509,7 +509,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T12:45:47.820443+00:00"
+        "xbrl_try": "2026-11-03T13:47:18.573265+00:00"
       },
       {
         "key": "106841454",
@@ -521,7 +521,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T12:45:48.448584+00:00"
+        "xbrl_try": "2026-11-03T13:47:19.458209+00:00"
       },
       {
         "key": "106841503",
@@ -784,7 +784,8 @@
     "106841544",
     "106841557",
     "106841556",
-    "106841553"
+    "106841553",
+    "106841566"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -885,7 +886,8 @@
     "princepipe_03112026132925_se_outcome.pdf",
     "sil_03112026133451_outcome_031126.pdf",
     "punjab_03112026133110_outcome.pdf",
-    "asahiindia_03112026133628_outcomenovember2026.pdf"
+    "asahiindia_03112026133628_outcomenovember2026.pdf",
+    "rbz_03112026134201_signedreg33outcomeofbm03112026.pdf"
   ],
   "archive": [
     {
@@ -3637,6 +3639,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/ASAHIINDIA_03112026133628_OutcomeNovember2026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:ASAHIINDIA",
       "t": "03-Nov-2026 13:36:48"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "RBZJEWEL",
+      "c": "RBZ Jewellers Limited",
+      "r": "Bad",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 224.7127,
+      "pat": 25.48,
+      "eps": 4.1,
+      "filing": "https://nsearchives.nseindia.com/corporate/RBZ_03112026134201_SignedReg33OutcomeofBM03112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:RBZJEWEL",
+      "t": "03-Nov-2026 13:44:56"
     }
   ]
 }
