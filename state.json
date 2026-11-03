@@ -509,7 +509,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T14:48:46.992826+00:00"
+        "xbrl_try": "2026-11-03T15:50:07.782210+00:00"
       },
       {
         "key": "106841454",
@@ -521,7 +521,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T14:48:47.702873+00:00"
+        "xbrl_try": "2026-11-03T15:50:08.563016+00:00"
       },
       {
         "key": "106841503",
@@ -702,6 +702,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-03T15:27:28.984585+00:00"
+      },
+      {
+        "key": "106841852",
+        "seq_id": "106841852",
+        "symbol": "CAMLINFINE",
+        "company": "Camlin Fine Sciences Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/CAMLINFINE_03112026154559_Outcome_of_BM_03112026.pdf",
+        "an_dt": "03-Nov-2026 15:47:20",
+        "date": "2026-11-03",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-03T15:50:09.318705+00:00"
       }
     ],
     "next_cache": "2026-11-02",
@@ -970,7 +982,8 @@
     "106841749",
     "106841766",
     "106841772",
-    "106841799"
+    "106841799",
+    "106841852"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1101,7 +1114,8 @@
     "dtl_03112026150059_dhoot_bm_outcome_03112026_signed.pdf",
     "arihantsup_03112026151003_asl_outcome_bm_03112026.pdf",
     "gencon_03112026151211_outcome.pdf",
-    "manglmcem_03112026152332_nse_bse_outcome_03_11_2026_s.pdf"
+    "manglmcem_03112026152332_nse_bse_outcome_03_11_2026_s.pdf",
+    "camlinfine_03112026154559_outcome_of_bm_03112026.pdf"
   ],
   "archive": [
     {
@@ -4288,6 +4302,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/MANGLMCEM_03112026152332_NSE_BSE_OUTCOME_03_11_2026_S.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:MANGLMCEM",
       "t": "03-Nov-2026 15:25:49"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "CAMLINFINE",
+      "c": "Camlin Fine Sciences Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/CAMLINFINE_03112026154559_Outcome_of_BM_03112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CAMLINFINE",
+      "t": "03-Nov-2026 15:47:20"
     }
   ]
 }
