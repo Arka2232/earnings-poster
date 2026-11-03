@@ -727,6 +727,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-03T16:18:02.783828+00:00"
+      },
+      {
+        "key": "106841985",
+        "seq_id": "106841985",
+        "symbol": "IL&FSENGG",
+        "company": "IL&FS Engineering and Construction Company Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/IL_FSENGG_03112026162057_Outcome_letterSE.pdf",
+        "an_dt": "03-Nov-2026 16:23:06",
+        "date": "2026-11-03",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-03T16:26:08.456916+00:00"
       }
     ],
     "next_cache": "2026-11-02",
@@ -1006,7 +1018,9 @@
     "106841905",
     "106841924",
     "106841923",
-    "106841928"
+    "106841928",
+    "106841985",
+    "106841982"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1148,7 +1162,9 @@
     "medanta21_03112026160317_ghloutcomeofbmnov032026signed.pdf",
     "bigbloc_03112026160900_bsense_uafr.pdf",
     "gngnse_03112026160558_bm_outcome.pdf",
-    "sotl_03112026161117_bmoutcome.pdf"
+    "sotl_03112026161117_bmoutcome.pdf",
+    "il_fsengg_03112026162057_outcome_letterse.pdf",
+    "cosmofilms_03112026162116_outcome_03112026.pdf"
   ],
   "archive": [
     {
@@ -4549,6 +4565,34 @@
       "filing": "https://nsearchives.nseindia.com/corporate/SOTL_03112026161117_bmoutcome.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SOTL",
       "t": "03-Nov-2026 16:12:51"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "IL&FSENGG",
+      "c": "IL&FS Engineering and Construction Company Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/IL_FSENGG_03112026162057_Outcome_letterSE.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:IL_FSENGG",
+      "t": "03-Nov-2026 16:23:06"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "COSMOFIRST",
+      "c": "COSMO FIRST LIMITED",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 1387.86,
+      "pat": 98.58,
+      "eps": 37.98,
+      "filing": "https://nsearchives.nseindia.com/corporate/COSMOFILMS_03112026162116_Outcome_03112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:COSMOFIRST",
+      "t": "03-Nov-2026 16:22:16"
     }
   ]
 }
