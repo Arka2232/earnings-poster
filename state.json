@@ -1072,7 +1072,9 @@
     "106842179",
     "106842183",
     "106842197",
-    "106842191"
+    "106842191",
+    "106842206",
+    "106842204"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1232,7 +1234,9 @@
     "nacl2020_03112026171600_results_exchange_final_1.pdf",
     "sskl_03112026170922_outcome_of_bm_031126.pdf",
     "wealth_03112026172050_outcomeofbm.pdf",
-    "dgsl_03112026171630_seintimationbmoutcomeuploadedsd.pdf"
+    "dgsl_03112026171630_seintimationbmoutcomeuploadedsd.pdf",
+    "sumeetinds_03112026172225_outcomeofbm03112026.pdf",
+    "nrail_03112026172319_outcomeresults03112026.pdf"
   ],
   "archive": [
     {
@@ -4915,6 +4919,34 @@
       "filing": "https://nsearchives.nseindia.com/corporate/DGSL_03112026171630_SEIntimationBMoutcomeUploadedsd.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:DATAMATICS",
       "t": "03-Nov-2026 17:19:53"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "SUMEETINDS",
+      "c": "Sumeet Industries Limited",
+      "r": "Bad",
+      "b": "Standalone",
+      "q": "Q3 FY27",
+      "sales": 364.1764,
+      "pat": 3.7729000000000004,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/SUMEETINDS_03112026172225_OutcomeofBM03112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SUMEETINDS",
+      "t": "03-Nov-2026 17:23:52"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "NRAIL",
+      "c": "N R Agarwal Industries Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 668.8096,
+      "pat": 30.9408,
+      "eps": 18.18,
+      "filing": "https://nsearchives.nseindia.com/corporate/NRAIL_03112026172319_OutcomeResults03112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:NRAIL",
+      "t": "03-Nov-2026 17:23:41"
     }
   ]
 }
