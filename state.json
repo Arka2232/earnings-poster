@@ -389,7 +389,7 @@
         "url": "https://nsearchives.nseindia.com/corporate/PATELINT_02112026155145_Outcome_of_BM_Sept2026_sd.pdf",
         "an_dt": "02-Nov-2026 15:53:28",
         "date": "2026-11-02",
-        "xbrl_try": "2026-11-03T18:12:55.621502+00:00"
+        "xbrl_try": "2026-11-03T19:13:30.863854+00:00"
       },
       {
         "key": "106839719",
@@ -401,7 +401,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T18:12:56.818715+00:00"
+        "xbrl_try": "2026-11-03T19:13:31.909578+00:00"
       },
       {
         "key": "106839796",
@@ -413,7 +413,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T18:12:58.320393+00:00"
+        "xbrl_try": "2026-11-03T19:13:33.316637+00:00"
       },
       {
         "key": "106840301",
@@ -425,7 +425,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T18:12:59.364426+00:00"
+        "xbrl_try": "2026-11-03T19:13:34.139997+00:00"
       },
       {
         "key": "106840295",
@@ -437,7 +437,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T18:13:00.492382+00:00"
+        "xbrl_try": "2026-11-03T19:13:35.510690+00:00"
       },
       {
         "key": "106840386",
@@ -522,18 +522,6 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-03T18:53:18.128415+00:00"
-      },
-      {
-        "key": "106841503",
-        "seq_id": "106841503",
-        "symbol": "DIACABS",
-        "company": "Diamond Power Infrastructure Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/DIACABS_03112026125735_OutcomeofBM.pdf",
-        "an_dt": "03-Nov-2026 13:03:05",
-        "date": "2026-11-03",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-03T18:13:00.941979+00:00"
       },
       {
         "key": "106841577",
@@ -1114,7 +1102,8 @@
     "106842651",
     "106842648",
     "106842647",
-    "106842637"
+    "106842637",
+    "106842669"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1316,37 +1305,10 @@
     "devacce_03112026190513_se_outcome_of_board_meeting.pdf",
     "indiqube_03112026190216_indiqube.pdf",
     "rushabear_03112026190434_outcome_financials__2_.pdf",
-    "aartidrugs_03112026190146_adl.pdf"
+    "aartidrugs_03112026190146_adl.pdf",
+    "ksb_03112026190956_ksbbmoutcome03112026signedfinalupload.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-10-31",
-      "s": "EVEREADY",
-      "c": "Eveready Industries India Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 427.77,
-      "pat": 31.77,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/EVEREADY_31102026144446_SEIntimation_BM_Outcome.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:EVEREADY",
-      "t": "31-Oct-2026 14:46:58"
-    },
-    {
-      "d": "2026-10-31",
-      "s": "MUTHOOTFIN",
-      "c": "Muthoot Finance Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 9997.769,
-      "pat": 3278.002,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/MUTHOOTFIN_31102026151723_MFIN_BM_Outcome_Cover_Final-sd.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MUTHOOTFIN",
-      "t": "31-Oct-2026 15:19:14"
-    },
     {
       "d": "2026-10-31",
       "s": "ABLBL",
@@ -5570,6 +5532,35 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:BHAGCHEM",
       "t": "03-Nov-2026 14:56:26",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752121_03112026070858_WEB.xml"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "KSB",
+      "c": "Ksb Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q3 FY27",
+      "sales": 77.27,
+      "pat": 15.76,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/KSB_03112026190956_KSBBMOutcome03112026signedfinalUpload.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:KSB",
+      "t": "03-Nov-2026 19:10:08"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "DIACABS",
+      "c": "Diamond Power Infrastructure Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 1031.9038,
+      "pat": 107.8821,
+      "eps": 1.87,
+      "filing": "https://nsearchives.nseindia.com/corporate/DIACABS_03112026125735_OutcomeofBM.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:DIACABS",
+      "t": "03-Nov-2026 13:03:05",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752090_03112026065247_WEB.xml"
     }
   ]
 }
