@@ -525,18 +525,6 @@
         "xbrl_try": "2026-11-03T21:14:30.246445+00:00"
       },
       {
-        "key": "106841637",
-        "seq_id": "106841637",
-        "symbol": "FLUOROCHEM",
-        "company": "Gujarat Fluorochemicals Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/FLUOROCHEM_03112026141153_GFCL_Financial_Results.pdf",
-        "an_dt": "03-Nov-2026 14:13:33",
-        "date": "2026-11-03",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-03T20:23:56.100429+00:00"
-      },
-      {
         "key": "106842168",
         "seq_id": "106842168",
         "symbol": "ADVENTHTL",
@@ -558,7 +546,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T20:23:56.843482+00:00"
+        "xbrl_try": "2026-11-03T21:24:55.080909+00:00"
       },
       {
         "key": "106842368",
@@ -1278,21 +1266,6 @@
     "mircelectr_03112026211111_outcomeofboardmeeting03112026signed.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-11-02",
-      "s": "IGCL",
-      "c": "Indogulf Cropsciences Limited",
-      "r": "Good",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 255.778,
-      "pat": 25.683999999999997,
-      "eps": 4.26,
-      "filing": "https://nsearchives.nseindia.com/corporate/INDOGULF_02112026115457_Final_Outcome.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:IGCL",
-      "t": "02-Nov-2026 11:57:18",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751459_02112026080837_WEB.xml"
-    },
     {
       "d": "2026-11-02",
       "s": "DEVYANI",
@@ -5544,6 +5517,21 @@
       "filing": "https://nsearchives.nseindia.com/corporate/MIRCELECTR_03112026211111_OutcomeofBoardMeeting03112026signed.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:ONIDA",
       "t": "03-Nov-2026 21:15:10"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "FLUOROCHEM",
+      "c": "Gujarat Fluorochemicals Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 1760.0,
+      "pat": 240.0,
+      "eps": 22.11,
+      "filing": "https://nsearchives.nseindia.com/corporate/FLUOROCHEM_03112026141153_GFCL_Financial_Results.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:FLUOROCHEM",
+      "t": "03-Nov-2026 14:13:33",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752275_03112026090315_WEB.xml"
     }
   ]
 }
