@@ -486,6 +486,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-03T12:08:58.694765+00:00"
+      },
+      {
+        "key": "106841447",
+        "seq_id": "106841447",
+        "symbol": "GEECEE",
+        "company": "GeeCee Ventures Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/GEECEEVC12345_03112026123836_BMOUTCOMERESULTS_Signed.pdf",
+        "an_dt": "03-Nov-2026 12:38:48",
+        "date": "2026-11-03",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-03T12:42:41.755907+00:00"
       }
     ],
     "next_cache": "2026-11-02",
@@ -713,7 +725,8 @@
     "106839899",
     "106841358",
     "106841367",
-    "106841417"
+    "106841417",
+    "106841447"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -803,7 +816,8 @@
     "sumedha_02112026170159_bmoutcome2112026signed.pdf",
     "jyoticnc_nse_03112026115810_outcome_of_bm_03112026.pdf",
     "jainmetal_03112026120820_nsebseout.pdf",
-    "arfind_03112026123221_arfinoutcomeofboardmeetingsep26.pdf"
+    "arfind_03112026123221_arfinoutcomeofboardmeetingsep26.pdf",
+    "geeceevc12345_03112026123836_bmoutcomeresults_signed.pdf"
   ],
   "archive": [
     {
@@ -3401,6 +3415,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/ARFIND_03112026123221_ArfinOutcomeOfBoardMeetingSep26.PDF",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:ARFIN",
       "t": "03-Nov-2026 12:34:49"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "GEECEE",
+      "c": "GeeCee Ventures Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/GEECEEVC12345_03112026123836_BMOUTCOMERESULTS_Signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GEECEE",
+      "t": "03-Nov-2026 12:38:48"
     }
   ]
 }
