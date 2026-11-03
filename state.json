@@ -715,6 +715,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-03T15:50:09.318705+00:00"
+      },
+      {
+        "key": "106841873",
+        "seq_id": "106841873",
+        "symbol": "MAXIND",
+        "company": "Max India Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/MAXIND_03112026155414_OutcomeNov2026MILsigned.pdf",
+        "an_dt": "03-Nov-2026 15:57:07",
+        "date": "2026-11-03",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-03T15:59:36.310319+00:00"
       }
     ],
     "next_cache": "2026-11-02",
@@ -986,7 +998,8 @@
     "106841799",
     "106841852",
     "106841859",
-    "106841869"
+    "106841869",
+    "106841873"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1120,7 +1133,8 @@
     "manglmcem_03112026152332_nse_bse_outcome_03_11_2026_s.pdf",
     "camlinfine_03112026154559_outcome_of_bm_03112026.pdf",
     "neulandlab_03112026154657_seoutcome_03112026.pdf",
-    "8448091598_03112026155454_stxintimationoutcome03112026sd.pdf"
+    "8448091598_03112026155454_stxintimationoutcome03112026sd.pdf",
+    "maxind_03112026155414_outcomenov2026milsigned.pdf"
   ],
   "archive": [
     {
@@ -4349,6 +4363,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/8448091598_03112026155454_stxintimationoutcome03112026sd.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:ASKAUTOLTD",
       "t": "03-Nov-2026 15:55:58"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "MAXIND",
+      "c": "Max India Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/MAXIND_03112026155414_OutcomeNov2026MILsigned.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MAXIND",
+      "t": "03-Nov-2026 15:57:07"
     }
   ]
 }
