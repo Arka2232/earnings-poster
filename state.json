@@ -715,6 +715,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-03T16:15:34.886121+00:00"
+      },
+      {
+        "key": "106841928",
+        "seq_id": "106841928",
+        "symbol": "SOTL",
+        "company": "Savita Oil Technologies Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/SOTL_03112026161117_bmoutcome.pdf",
+        "an_dt": "03-Nov-2026 16:12:51",
+        "date": "2026-11-03",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-03T16:18:02.783828+00:00"
       }
     ],
     "next_cache": "2026-11-02",
@@ -993,7 +1005,8 @@
     "106841913",
     "106841905",
     "106841924",
-    "106841923"
+    "106841923",
+    "106841928"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1134,7 +1147,8 @@
     "seamecltd_03112026160546_outcomeofboardmeetingbsense03112026.pdf",
     "medanta21_03112026160317_ghloutcomeofbmnov032026signed.pdf",
     "bigbloc_03112026160900_bsense_uafr.pdf",
-    "gngnse_03112026160558_bm_outcome.pdf"
+    "gngnse_03112026160558_bm_outcome.pdf",
+    "sotl_03112026161117_bmoutcome.pdf"
   ],
   "archive": [
     {
@@ -4521,6 +4535,20 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:BIGBLOC",
       "t": "03-Nov-2026 16:10:16",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751788_03112026040502_WEB.xml"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "SOTL",
+      "c": "Savita Oil Technologies Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/SOTL_03112026161117_bmoutcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SOTL",
+      "t": "03-Nov-2026 16:12:51"
     }
   ]
 }
