@@ -1081,7 +1081,8 @@
     "106842637",
     "106842669",
     "106842698",
-    "106842697"
+    "106842697",
+    "106842718"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1286,23 +1287,10 @@
     "aartidrugs_03112026190146_adl.pdf",
     "ksb_03112026190956_ksbbmoutcome03112026signedfinalupload.pdf",
     "metropolis_03112026191630_signed_outcome_of_board_meeting_-_november_2026.pdf",
-    "sagardeep_03112026191638_outcome_of_bm.pdf"
+    "sagardeep_03112026191638_outcome_of_bm.pdf",
+    "suyog_03112026192208_outcomeofbm03112026.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-10-31",
-      "s": "SIGACHI",
-      "c": "Sigachi Industries Limited",
-      "r": "Weak",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 113.4849,
-      "pat": 8.9778,
-      "eps": 0.23,
-      "filing": "https://nsearchives.nseindia.com/corporate/SIGACHI_31102026154510_OutcomeofBoardmeeting311026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SIGACHI",
-      "t": "31-Oct-2026 15:46:25"
-    },
     {
       "d": "2026-10-31",
       "s": "NUCLEUS",
@@ -5543,6 +5531,20 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SANDESH",
       "t": "03-Nov-2026 18:21:31",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752075_03112026064430_WEB.xml"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "SUYOG",
+      "c": "Suyog Telematics Limited",
+      "r": "Positive",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 71.7014,
+      "pat": 15.338,
+      "eps": 13.09,
+      "filing": "https://nsearchives.nseindia.com/corporate/SUYOG_03112026192208_OutcomeofBM03112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SUYOG",
+      "t": "03-Nov-2026 19:25:02"
     }
   ]
 }
