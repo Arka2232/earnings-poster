@@ -620,6 +620,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-04T03:05:03.505226+00:00"
+      },
+      {
+        "key": "106843308",
+        "seq_id": "106843308",
+        "symbol": "BELDING",
+        "company": "Belding India Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/BELDING_04112026033012_SE_Intimation.pdf",
+        "an_dt": "04-Nov-2026 03:31:51",
+        "date": "2026-11-04",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-04T03:37:26.218683+00:00"
       }
     ],
     "next_cache": "2026-11-03",
@@ -1007,7 +1019,8 @@
     "106841627",
     "106841599",
     "106841408",
-    "106843295"
+    "106843295",
+    "106843308"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1257,23 +1270,10 @@
     "solarinds_03112026140845_outcomebm.pdf",
     "summitsec_03112026135626_outcomeofbm03112026.pdf",
     "zyduswell_03112026122955_seintimationoutcomeofbm.pdf",
-    "lupin2_04112026004100_se_outcome_ufr_intimation.pdf"
+    "lupin2_04112026004100_se_outcome_ufr_intimation.pdf",
+    "belding_04112026033012_se_intimation.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-11-02",
-      "s": "KRBL",
-      "c": "KRBL Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 17.2736,
-      "pat": 2.5893,
-      "eps": 11.31,
-      "filing": "https://nsearchives.nseindia.com/corporate/BIBHU_02112026160131_STX_REG30_Outcome_of_BM_02-11-2026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:KRBL",
-      "t": "02-Nov-2026 16:03:15"
-    },
     {
       "d": "2026-11-02",
       "s": "MEGASTAR",
@@ -5527,6 +5527,20 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:LUPIN",
       "t": "04-Nov-2026 00:44:51",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752380_04112026013306_WEB.xml"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "BELDING",
+      "c": "Belding India Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/BELDING_04112026033012_SE_Intimation.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BELDING",
+      "t": "04-Nov-2026 03:31:51"
     }
   ]
 }
