@@ -449,7 +449,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T15:14:57.013622+00:00"
+        "xbrl_try": "2026-11-03T16:15:26.890009+00:00"
       },
       {
         "key": "106840511",
@@ -461,7 +461,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T15:14:58.625875+00:00"
+        "xbrl_try": "2026-11-03T16:15:28.148764+00:00"
       },
       {
         "key": "106840621",
@@ -473,7 +473,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T15:14:59.533929+00:00"
+        "xbrl_try": "2026-11-03T16:15:29.024635+00:00"
       },
       {
         "key": "106840747",
@@ -485,7 +485,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T15:15:01.376742+00:00"
+        "xbrl_try": "2026-11-03T16:15:30.328456+00:00"
       },
       {
         "key": "106841447",
@@ -703,6 +703,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-03T15:59:36.310319+00:00"
+      },
+      {
+        "key": "106841923",
+        "seq_id": "106841923",
+        "symbol": "EBGNG",
+        "company": "GNG Electronics Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/GNGNSE_03112026160558_BM_Outcome.pdf",
+        "an_dt": "03-Nov-2026 16:10:04",
+        "date": "2026-11-03",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-03T16:15:34.886121+00:00"
       }
     ],
     "next_cache": "2026-11-02",
@@ -979,7 +991,9 @@
     "106841886",
     "106841914",
     "106841913",
-    "106841905"
+    "106841905",
+    "106841924",
+    "106841923"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1118,7 +1132,9 @@
     "harsha_03112026160002_board_meeting_outcome_dated_3rd_november_2026.pdf",
     "sigma_03112026160443_outcome_bm_03112026.pdf",
     "seamecltd_03112026160546_outcomeofboardmeetingbsense03112026.pdf",
-    "medanta21_03112026160317_ghloutcomeofbmnov032026signed.pdf"
+    "medanta21_03112026160317_ghloutcomeofbmnov032026signed.pdf",
+    "bigbloc_03112026160900_bsense_uafr.pdf",
+    "gngnse_03112026160558_bm_outcome.pdf"
   ],
   "archive": [
     {
@@ -4462,6 +4478,49 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SIGMA",
       "t": "03-Nov-2026 16:07:45",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751781_03112026040309_WEB.xml"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "BIGBLOC",
+      "c": "Bigbloc Construction Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/BIGBLOC_03112026160900_BSENSE_UAFR.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BIGBLOC",
+      "t": "03-Nov-2026 16:10:16"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "EBGNG",
+      "c": "GNG Electronics Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/GNGNSE_03112026160558_BM_Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:EBGNG",
+      "t": "03-Nov-2026 16:10:04"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "BIGBLOC",
+      "c": "Bigbloc Construction Limited",
+      "r": "Good",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 82.8607,
+      "pat": -2.7492,
+      "eps": -0.13,
+      "filing": "https://nsearchives.nseindia.com/corporate/BIGBLOC_03112026160900_BSENSE_UAFR.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BIGBLOC",
+      "t": "03-Nov-2026 16:10:16",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751788_03112026040502_WEB.xml"
     }
   ]
 }
