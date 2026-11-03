@@ -1082,7 +1082,9 @@
     "106842669",
     "106842698",
     "106842697",
-    "106842718"
+    "106842718",
+    "106842730",
+    "106842725"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1288,37 +1290,11 @@
     "ksb_03112026190956_ksbbmoutcome03112026signedfinalupload.pdf",
     "metropolis_03112026191630_signed_outcome_of_board_meeting_-_november_2026.pdf",
     "sagardeep_03112026191638_outcome_of_bm.pdf",
-    "suyog_03112026192208_outcomeofbm03112026.pdf"
+    "suyog_03112026192208_outcomeofbm03112026.pdf",
+    "endurance_03112026192319_2026_11_03_-_outcome_of_bm_-_results_-_30_09_2026.pdf",
+    "subexltd_03112026192550_outcome_of_bm_03112026.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-10-31",
-      "s": "NUCLEUS",
-      "c": "Nucleus Software Exports Limited",
-      "r": "Bad",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 2.277,
-      "pat": 0.2867,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/Nucleus_31102026155846_OUTCOME.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:NUCLEUS",
-      "t": "31-Oct-2026 15:59:32"
-    },
-    {
-      "d": "2026-10-31",
-      "s": "RAMBHAJO",
-      "c": "Advit Jewels Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/ADVIT_31102026161631_OUTCOME_OF_BOARD_MEETING.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:RAMBHAJO",
-      "t": "31-Oct-2026 16:17:57"
-    },
     {
       "d": "2026-10-31",
       "s": "MASKINVEST",
@@ -5545,6 +5521,34 @@
       "filing": "https://nsearchives.nseindia.com/corporate/SUYOG_03112026192208_OutcomeofBM03112026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SUYOG",
       "t": "03-Nov-2026 19:25:02"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "ENDURANCE",
+      "c": "Endurance Technologies Limited",
+      "r": "Good",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 4786.18,
+      "pat": 274.29,
+      "eps": 19.5,
+      "filing": "https://nsearchives.nseindia.com/corporate/ENDURANCE_03112026192319_2026_11_03_-_Outcome_of_BM_-_Results_-_30_09_2026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ENDURANCE",
+      "t": "03-Nov-2026 19:27:32"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "SUBEXLTD",
+      "c": "Subex Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 0.8559000000000001,
+      "pat": 0.1429,
+      "eps": 0.26,
+      "filing": "https://nsearchives.nseindia.com/corporate/SUBEXLTD_03112026192550_Outcome_of_BM_03112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SUBEXLTD",
+      "t": "03-Nov-2026 19:26:50"
     }
   ]
 }
