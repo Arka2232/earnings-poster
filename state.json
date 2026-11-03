@@ -712,7 +712,8 @@
     "106840824",
     "106839899",
     "106841358",
-    "106841367"
+    "106841367",
+    "106841417"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -801,7 +802,8 @@
     "suhask_02112026230534_reg30outcomewithudin02112026.pdf",
     "sumedha_02112026170159_bmoutcome2112026signed.pdf",
     "jyoticnc_nse_03112026115810_outcome_of_bm_03112026.pdf",
-    "jainmetal_03112026120820_nsebseout.pdf"
+    "jainmetal_03112026120820_nsebseout.pdf",
+    "arfind_03112026123221_arfinoutcomeofboardmeetingsep26.pdf"
   ],
   "archive": [
     {
@@ -3385,6 +3387,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/JAINMETAL_03112026120820_NSEBSEOUT.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:JAINREC",
       "t": "03-Nov-2026 12:08:52"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "ARFIN",
+      "c": "Arfin India Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 283.17990000000003,
+      "pat": 5.9693,
+      "eps": 0.35,
+      "filing": "https://nsearchives.nseindia.com/corporate/ARFIND_03112026123221_ArfinOutcomeOfBoardMeetingSep26.PDF",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ARFIN",
+      "t": "03-Nov-2026 12:34:49"
     }
   ]
 }
