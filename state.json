@@ -509,7 +509,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T16:51:38.687724+00:00"
+        "xbrl_try": "2026-11-03T17:52:41.523107+00:00"
       },
       {
         "key": "106841454",
@@ -521,7 +521,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T16:51:40.282333+00:00"
+        "xbrl_try": "2026-11-03T17:52:43.094799+00:00"
       },
       {
         "key": "106841503",
@@ -678,7 +678,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T16:51:41.027766+00:00"
+        "xbrl_try": "2026-11-03T17:52:44.000138+00:00"
       },
       {
         "key": "106841873",
@@ -715,18 +715,6 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-03T17:50:46.282699+00:00"
-      },
-      {
-        "key": "106842076",
-        "seq_id": "106842076",
-        "symbol": "VMART",
-        "company": "V-Mart Retail Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/VMART_03112026164834_FinalOutcome.pdf",
-        "an_dt": "03-Nov-2026 16:48:56",
-        "date": "2026-11-03",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-03T16:51:41.420108+00:00"
       },
       {
         "key": "106842095",
@@ -5094,6 +5082,21 @@
       "filing": "https://nsearchives.nseindia.com/corporate/POKARNA_03112026173627_Final_Intimation_Outcome_Sep_2026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:POKARNA",
       "t": "03-Nov-2026 17:39:04"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "VMART",
+      "c": "V-Mart Retail Limited",
+      "r": "Bad",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 952.99,
+      "pat": -16.34,
+      "eps": -2.06,
+      "filing": "https://nsearchives.nseindia.com/corporate/VMART_03112026164834_FinalOutcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:VMART",
+      "t": "03-Nov-2026 16:48:56",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751893_03112026051227_WEB.xml"
     }
   ]
 }
