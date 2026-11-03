@@ -497,7 +497,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T15:44:53.871085+00:00"
+        "xbrl_try": "2026-11-03T16:48:02.087736+00:00"
       },
       {
         "key": "106841458",
@@ -1013,7 +1013,8 @@
     "106842024",
     "106842042",
     "106842036",
-    "106842056"
+    "106842056",
+    "106842059"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1162,7 +1163,8 @@
     "kotharipet_03112026163206_outcomeofboardmeeting_03112026.pdf",
     "dreamfolks24_03112026163624_dfsl_outcome_bm_november_03_2026_signed.pdf",
     "yashikan_03112026163551_financial_results_30092026.pdf",
-    "rhetan_03112026164123_bmoutcome30092026.pdf"
+    "rhetan_03112026164123_bmoutcome30092026.pdf",
+    "xproindiaskd_03112026164347_results_outcome_of_bm_03112026_signed.pdf"
   ],
   "archive": [
     {
@@ -4676,6 +4678,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/RHETAN_03112026164123_BMoutcome30092026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:RHETAN",
       "t": "03-Nov-2026 16:43:05"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "XPROINDIA",
+      "c": "Xpro India Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 176.6938,
+      "pat": 7.1906,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/XPROINDIASKD_03112026164347_Results_outcome_of_BM_03112026_signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:XPROINDIA",
+      "t": "03-Nov-2026 16:44:24"
     }
   ]
 }
