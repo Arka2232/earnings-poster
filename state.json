@@ -768,7 +768,7 @@
     "next_cache": "2026-11-02",
     "nightly_pass": "2026-11-02",
     "calendar": "2026-11-03",
-    "ipo_check": "2026-11-03 17",
+    "ipo_check": "2026-11-03 18",
     "ipo_posted": [
       "BCSSL",
       "HGSINDIALT",
@@ -1073,7 +1073,8 @@
     "106842256",
     "106842264",
     "106842317",
-    "106842326"
+    "106842326",
+    "106842330"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1246,7 +1247,8 @@
     "aml_03112026173420_bmoutcome03112026aml.pdf",
     "pokarna_03112026173627_final_intimation_outcome_sep_2026.pdf",
     "compliance_abl1_03112026175122_outcome_of_bm_q2fy27__1_.pdf",
-    "mastertrustnse_03112026175244_results_mtl_merged.pdf"
+    "mastertrustnse_03112026175244_results_mtl_merged.pdf",
+    "adsl_03112026175552_finaloutcome.pdf"
   ],
   "archive": [
     {
@@ -5141,6 +5143,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/MASTERTRUSTNSE_03112026175244_Results_MTL_merged.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:MASTERTR",
       "t": "03-Nov-2026 17:56:22"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "ADSL",
+      "c": "Allied Digital Services Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 2.6532,
+      "pat": 0.1259,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/ADSL_03112026175552_FinalOutcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ADSL",
+      "t": "03-Nov-2026 17:57:36"
     }
   ]
 }
