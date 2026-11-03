@@ -800,7 +800,8 @@
     "106841566",
     "106841577",
     "106841573",
-    "106841571"
+    "106841571",
+    "106841580"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -905,7 +906,8 @@
     "rbz_03112026134201_signedreg33outcomeofbm03112026.pdf",
     "sbin_03112026134649_fr_dsc.pdf",
     "rppl_03112026134447_rppl_outcome_of_bm_upload.pdf",
-    "kopran_03112026134417_outcome03112026.pdf"
+    "kopran_03112026134417_outcome03112026.pdf",
+    "ester_03112026134724_fssep2026.pdf"
   ],
   "archive": [
     {
@@ -3713,6 +3715,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/KOPRAN_03112026134417_outcome03112026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:KOPRAN",
       "t": "03-Nov-2026 13:45:55"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "ESTER",
+      "c": "Ester Industries Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 360.1057,
+      "pat": 6.0866999999999996,
+      "eps": 0.58,
+      "filing": "https://nsearchives.nseindia.com/corporate/ESTER_03112026134724_FSSEP2026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ESTER",
+      "t": "03-Nov-2026 13:49:28"
     }
   ]
 }
