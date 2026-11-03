@@ -557,7 +557,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T13:59:13.715399+00:00"
+        "xbrl_try": "2026-11-03T15:03:03.493924+00:00"
       },
       {
         "key": "106841592",
@@ -569,7 +569,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T13:59:14.005747+00:00"
+        "xbrl_try": "2026-11-03T15:03:03.921373+00:00"
       },
       {
         "key": "106841637",
@@ -654,12 +654,24 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-03T14:42:32.735122+00:00"
+      },
+      {
+        "key": "106841727",
+        "seq_id": "106841727",
+        "symbol": "BHAGCHEM",
+        "company": "Bhagiradha Chemicals & Industries Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/BHAGCHEM_03112026145415_seintimation.pdf",
+        "an_dt": "03-Nov-2026 14:56:26",
+        "date": "2026-11-03",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-03T15:03:04.332091+00:00"
       }
     ],
     "next_cache": "2026-11-02",
     "nightly_pass": "2026-11-02",
     "calendar": "2026-11-03",
-    "ipo_check": "2026-11-03 14",
+    "ipo_check": "2026-11-03 15",
     "ipo_posted": [
       "BCSSL",
       "HGSINDIALT",
@@ -912,7 +924,10 @@
     "106841671",
     "106841677",
     "106841683",
-    "106841685"
+    "106841685",
+    "106841727",
+    "106841724",
+    "106841720"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1033,7 +1048,10 @@
     "montecarlo_03112026143232_financial_results.pdf",
     "mgl25_03112026143523_outcomebm03112026.pdf",
     "archidply_03112026143636_outcome.pdf",
-    "bls_03112026143832_outcome_board_meeting_03112026_signed.pdf"
+    "bls_03112026143832_outcome_board_meeting_03112026_signed.pdf",
+    "bhagchem_03112026145415_seintimation.pdf",
+    "rtnindia_03112026145359_relresultsq2.pdf",
+    "edutech_03112026145238_outcome_of_bm_edutech.pdf"
   ],
   "archive": [
     {
@@ -4080,6 +4098,48 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SIL",
       "t": "03-Nov-2026 13:38:06",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751692_03112026015556_WEB.xml"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "BHAGCHEM",
+      "c": "Bhagiradha Chemicals & Industries Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/BHAGCHEM_03112026145415_seintimation.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BHAGCHEM",
+      "t": "03-Nov-2026 14:56:26"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "RTNINDIA",
+      "c": "RattanIndia Enterprises Limited",
+      "r": "Positive",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 2061.6650000000004,
+      "pat": -24.029,
+      "eps": -0.18,
+      "filing": "https://nsearchives.nseindia.com/corporate/RTNINDIA_03112026145359_RELResultsQ2.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:RTNINDIA",
+      "t": "03-Nov-2026 14:55:31"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "CPEDU",
+      "c": "Career Point Edutech Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 18.8865,
+      "pat": 8.870700000000001,
+      "eps": 4.88,
+      "filing": "https://nsearchives.nseindia.com/corporate/EDUTECH_03112026145238_Outcome_of_BM_EDUTECH.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CPEDU",
+      "t": "03-Nov-2026 14:54:14"
     }
   ]
 }
