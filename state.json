@@ -618,6 +618,30 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-03T14:27:43.474961+00:00"
+      },
+      {
+        "key": "106841662",
+        "seq_id": "106841662",
+        "symbol": "LUXIND",
+        "company": "Lux Industries Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/LUXIND_03112026142650_outcome.pdf",
+        "an_dt": "03-Nov-2026 14:28:04",
+        "date": "2026-11-03",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-03T14:31:56.638436+00:00"
+      },
+      {
+        "key": "106841659",
+        "seq_id": "106841659",
+        "symbol": "HIKAL",
+        "company": "Hikal Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/HIKAL_03112026142532_SEintBoardOutcomeNov2026.pdf",
+        "an_dt": "03-Nov-2026 14:27:08",
+        "date": "2026-11-03",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-03T14:31:57.305961+00:00"
       }
     ],
     "next_cache": "2026-11-02",
@@ -869,7 +893,9 @@
     "106841640",
     "106841637",
     "106841651",
-    "106841655"
+    "106841655",
+    "106841662",
+    "106841659"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -983,7 +1009,9 @@
     "pfizer_03112026141109_seintimation_frq22027.pdf",
     "fluorochem_03112026141153_gfcl_financial_results.pdf",
     "nitco_03112026142208_seoutcomeofboardmeeting.pdf",
-    "tfciltd_03112026141930_tfcibmoutcome3112026signed.pdf"
+    "tfciltd_03112026141930_tfcibmoutcome3112026signed.pdf",
+    "luxind_03112026142650_outcome.pdf",
+    "hikal_03112026142532_seintboardoutcomenov2026.pdf"
   ],
   "archive": [
     {
@@ -3917,6 +3945,34 @@
       "filing": "https://nsearchives.nseindia.com/corporate/TFCILTD_03112026141930_TFCIBMOutcome3112026Signed.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:TFCILTD",
       "t": "03-Nov-2026 14:25:29"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "LUXIND",
+      "c": "Lux Industries Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/LUXIND_03112026142650_outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:LUXIND",
+      "t": "03-Nov-2026 14:28:04"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "HIKAL",
+      "c": "Hikal Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/HIKAL_03112026142532_SEintBoardOutcomeNov2026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:HIKAL",
+      "t": "03-Nov-2026 14:27:08"
     }
   ]
 }
