@@ -1065,7 +1065,8 @@
     "106842204",
     "106842209",
     "106842216",
-    "106842233"
+    "106842233",
+    "106842236"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1230,7 +1231,8 @@
     "nrail_03112026172319_outcomeresults03112026.pdf",
     "awfis2014_03112026172224_bm_outcome_signed.pdf",
     "gandhitube_03112026172354_outcome_of_bm_signed.pdf",
-    "asiantiles_03112026172833_seoutcomeofbm03112026.pdf"
+    "asiantiles_03112026172833_seoutcomeofbm03112026.pdf",
+    "amanta_03112026172706_outcome_of_board_meeting.pdf"
   ],
   "archive": [
     {
@@ -4998,6 +5000,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/ASIANTILES_03112026172833_SEOutcomeofBM03112026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:ASIANTILES",
       "t": "03-Nov-2026 17:30:10"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "AMANTA",
+      "c": "Amanta Healthcare Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 83.1324,
+      "pat": 4.8609,
+      "eps": 1.25,
+      "filing": "https://nsearchives.nseindia.com/corporate/AMANTA_03112026172706_Outcome_of_Board_Meeting.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:AMANTA",
+      "t": "03-Nov-2026 17:30:45"
     }
   ]
 }
