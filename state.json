@@ -497,7 +497,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T19:55:00.004101+00:00"
+        "xbrl_try": "2026-11-03T20:55:02.515994+00:00"
       },
       {
         "key": "106841577",
@@ -1016,7 +1016,8 @@
     "106842880",
     "106842896",
     "106842908",
-    "106842938"
+    "106842938",
+    "106842954"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1240,23 +1241,10 @@
     "glasswall_03112026201250_2026_11_03_-_outcome_of_bm_-_final.pdf",
     "halder_03112026202443_outcome_sep_26_merged.pdf",
     "speciality_03112026202714_bsenseletterdated03112026.pdf",
-    "shantigold_03112026204437_bm_outcome_03112026_sgil.pdf"
+    "shantigold_03112026204437_bm_outcome_03112026_sgil.pdf",
+    "authum123_03112026205231_outcomebm03112026.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-10-31",
-      "s": "MERCURYEV",
-      "c": "Mercury Ev-Tech Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 24.1347,
-      "pat": 1.6571,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/MERCURYEV_31102026220738_Outcome.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MERCURYEV",
-      "t": "31-Oct-2026 22:09:10"
-    },
     {
       "d": "2026-10-31",
       "s": "ESSENTIA",
@@ -5508,6 +5496,20 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:GEECEE",
       "t": "03-Nov-2026 12:38:48",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752241_03112026083940_WEB.xml"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "AIIL",
+      "c": "Authum Investment & Infrastructure Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 680.86,
+      "pat": 418.0,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/Authum123_03112026205231_OutcomeBM03112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:AIIL",
+      "t": "03-Nov-2026 20:53:23"
     }
   ]
 }
