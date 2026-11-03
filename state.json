@@ -1010,7 +1010,9 @@
     "106841985",
     "106841982",
     "106842012",
-    "106842024"
+    "106842024",
+    "106842042",
+    "106842036"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1156,7 +1158,9 @@
     "il_fsengg_03112026162057_outcome_letterse.pdf",
     "cosmofilms_03112026162116_outcome_03112026.pdf",
     "sedemac2007_03112026162947_20261103-outcomeofboardmeeting.pdf",
-    "kotharipet_03112026163206_outcomeofboardmeeting_03112026.pdf"
+    "kotharipet_03112026163206_outcomeofboardmeeting_03112026.pdf",
+    "dreamfolks24_03112026163624_dfsl_outcome_bm_november_03_2026_signed.pdf",
+    "yashikan_03112026163551_financial_results_30092026.pdf"
   ],
   "archive": [
     {
@@ -4628,6 +4632,34 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:MONTECARLO",
       "t": "03-Nov-2026 14:34:10",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751791_03112026040603_WEB.xml"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "DREAMFOLKS",
+      "c": "Dreamfolks Services Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 31.066000000000003,
+      "pat": -10.740000000000002,
+      "eps": -1.98,
+      "filing": "https://nsearchives.nseindia.com/corporate/DREAMFOLKS24_03112026163624_DFSL_Outcome_BM_November_03_2026_Signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:DREAMFOLKS",
+      "t": "03-Nov-2026 16:38:10"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "CHAMBLFERT",
+      "c": "Chambal Fertilizers & Chemicals Limited",
+      "r": "Good",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 6999.46,
+      "pat": 634.95,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/YASHIKAN_03112026163551_Financial_Results_30092026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CHAMBLFERT",
+      "t": "03-Nov-2026 16:36:56"
     }
   ]
 }
