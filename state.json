@@ -634,18 +634,6 @@
         "xbrl_try": "2026-11-03T22:50:48.993832+00:00"
       },
       {
-        "key": "106842981",
-        "seq_id": "106842981",
-        "symbol": "ONIDA",
-        "company": "Onida Electronics Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/MIRCELECTR_03112026211111_OutcomeofBoardMeeting03112026signed.pdf",
-        "an_dt": "03-Nov-2026 21:15:10",
-        "date": "2026-11-03",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-03T22:20:53.844691+00:00"
-      },
-      {
         "key": "106843059",
         "seq_id": "106843059",
         "symbol": "ALLCARGO",
@@ -1029,7 +1017,8 @@
     "106843034",
     "106843059",
     "106843075",
-    "106843090"
+    "106843090",
+    "106843187"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1265,39 +1254,10 @@
     "aarnav_03112026220228_afl_results_30092026signeddsc1.pdf",
     "allcargo_03112026221331_seupload.pdf",
     "fractal_03112026223034_outcome_of_bm_03112026.pdf",
-    "dnamedia_03112026224037_ufr30092026.pdf"
+    "dnamedia_03112026224037_ufr30092026.pdf",
+    "hegam_03112026231804_stex.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-11-02",
-      "s": "MOLDTKPAC",
-      "c": "Mold-Tek Packaging Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 274.2253,
-      "pat": 21.0689,
-      "eps": 3.17,
-      "filing": "https://nsearchives.nseindia.com/corporate/MOLDTKPAC_02112026135557_Final_outcome.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MOLDTKPAC",
-      "t": "02-Nov-2026 13:56:33",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751153_02112026050308_WEB.xml"
-    },
-    {
-      "d": "2026-11-02",
-      "s": "BCLIND",
-      "c": "Bcl Industries Limited",
-      "r": "OK",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 695.2785,
-      "pat": 29.2075,
-      "eps": 0.99,
-      "filing": "https://nsearchives.nseindia.com/corporate/BCLIND_02112026135252_Q2_FY27_Results.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BCLIND",
-      "t": "02-Nov-2026 13:56:10",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751243_02112026054940_WEB.xml"
-    },
     {
       "d": "2026-11-02",
       "s": "EPIGRAL",
@@ -5537,6 +5497,35 @@
       "filing": "https://nsearchives.nseindia.com/corporate/DNAMEDIA_03112026224037_UFR30092026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:DNAMEDIA",
       "t": "03-Nov-2026 22:42:12"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "HEGAM",
+      "c": "HEG Advanced Materials Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 429.94,
+      "pat": 208.89,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/HEGAM_03112026231804_STEX.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:HEGAM",
+      "t": "03-Nov-2026 23:18:33"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "ONIDA",
+      "c": "Onida Electronics Limited",
+      "r": "Bad",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 198.6337,
+      "pat": -39.846799999999995,
+      "eps": -1.05,
+      "filing": "https://nsearchives.nseindia.com/corporate/MIRCELECTR_03112026211111_OutcomeofBoardMeeting03112026signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ONIDA",
+      "t": "03-Nov-2026 21:15:10",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752348_03112026105327_WEB.xml"
     }
   ]
 }
