@@ -1100,7 +1100,8 @@
     "106842447",
     "106842532",
     "106842542",
-    "106842538"
+    "106842538",
+    "106842553"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1288,7 +1289,8 @@
     "rushil_03112026181535_finalqfr.pdf",
     "9903318000_03112026183312_finaloutcomeofboardmeeting_jgcl_03112026.pdf",
     "samhi_03112026183606_disclosure_bm_outcome03112026.pdf",
-    "servotech_03112026183537_financial_results.pdf"
+    "servotech_03112026183537_financial_results.pdf",
+    "v2retail_03112026183632_outcome.pdf"
   ],
   "archive": [
     {
@@ -5453,6 +5455,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/SERVOTECH_03112026183537_Financial_results.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SERVOTECH",
       "t": "03-Nov-2026 18:37:12"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "V2RETAIL",
+      "c": "V2 Retail Limited",
+      "r": "Good",
+      "b": "Consolidated",
+      "q": "Q4 FY28",
+      "sales": 905.5998,
+      "pat": 18.2132,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/V2RETAIL_03112026183632_Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:V2RETAIL",
+      "t": "03-Nov-2026 18:39:32"
     }
   ]
 }
