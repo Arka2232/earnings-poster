@@ -573,18 +573,6 @@
         "xbrl_try": "2026-11-03T19:30:45.731499+00:00"
       },
       {
-        "key": "106841659",
-        "seq_id": "106841659",
-        "symbol": "HIKAL",
-        "company": "Hikal Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/HIKAL_03112026142532_SEintBoardOutcomeNov2026.pdf",
-        "an_dt": "03-Nov-2026 14:27:08",
-        "date": "2026-11-03",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-03T18:35:02.722196+00:00"
-      },
-      {
         "key": "106841685",
         "seq_id": "106841685",
         "symbol": "BLS",
@@ -1098,7 +1086,8 @@
     "106842730",
     "106842725",
     "106842747",
-    "106842742"
+    "106842742",
+    "106842753"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1308,37 +1297,10 @@
     "endurance_03112026192319_2026_11_03_-_outcome_of_bm_-_results_-_30_09_2026.pdf",
     "subexltd_03112026192550_outcome_of_bm_03112026.pdf",
     "ipl_03112026193116_outcome_of_the_board_meeting.pdf",
-    "damcapital_03112026193013_signed.pdf"
+    "damcapital_03112026193013_signed.pdf",
+    "skfindia25_03112026193154_nse.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-10-31",
-      "s": "PODDARMENT",
-      "c": "Poddar Pigments Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/PODDARMENT_31102026162448_Outcome_of_Board_Meeting.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PODDARMENT",
-      "t": "31-Oct-2026 16:25:17"
-    },
-    {
-      "d": "2026-10-31",
-      "s": "BIRLACORPN",
-      "c": "Birla Corporation Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/BIRLACORP1_31102026161144_Outcome_of_BM_30092026_BCL.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BIRLACORPN",
-      "t": "31-Oct-2026 16:18:21"
-    },
     {
       "d": "2026-10-31",
       "s": "MEIL",
@@ -5565,6 +5527,35 @@
       "filing": "https://nsearchives.nseindia.com/corporate/DAMCAPITAL_03112026193013_Signed.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:DAMCAPITAL",
       "t": "03-Nov-2026 19:30:23"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "SKFINDIA",
+      "c": "SKF India Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 595.8100000000001,
+      "pat": 51.81,
+      "eps": 10.5,
+      "filing": "https://nsearchives.nseindia.com/corporate/SKFINDIA25_03112026193154_NSE.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SKFINDIA",
+      "t": "03-Nov-2026 19:32:56"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "HIKAL",
+      "c": "Hikal Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 434.2,
+      "pat": -6.1,
+      "eps": -0.49,
+      "filing": "https://nsearchives.nseindia.com/corporate/HIKAL_03112026142532_SEintBoardOutcomeNov2026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:HIKAL",
+      "t": "03-Nov-2026 14:27:08",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752083_03112026064803_WEB.xml"
     }
   ]
 }
