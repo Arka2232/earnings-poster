@@ -573,18 +573,6 @@
         "xbrl_try": "2026-11-03T23:26:33.503144+00:00"
       },
       {
-        "key": "106842183",
-        "seq_id": "106842183",
-        "symbol": "KALAMANDIR",
-        "company": "Sai Silks (Kalamandir) Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/SSKL_03112026170922_Outcome_of_BM_031126.pdf",
-        "an_dt": "03-Nov-2026 17:18:17",
-        "date": "2026-11-03",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-03T22:26:42.361812+00:00"
-      },
-      {
         "key": "106842383",
         "seq_id": "106842383",
         "symbol": "LANDSMILL",
@@ -1258,20 +1246,6 @@
     "hegam_03112026231804_stex.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-11-02",
-      "s": "EPIGRAL",
-      "c": "Epigral Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 745.39,
-      "pat": 64.42,
-      "eps": 14.93,
-      "filing": "https://nsearchives.nseindia.com/corporate/EPIGRAL_02112026135146_OutcomeBM02112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:EPIGRAL",
-      "t": "02-Nov-2026 13:52:36"
-    },
     {
       "d": "2026-11-02",
       "s": "ZUARI",
@@ -5526,6 +5500,21 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:ONIDA",
       "t": "03-Nov-2026 21:15:10",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752348_03112026105327_WEB.xml"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "KALAMANDIR",
+      "c": "Sai Silks (Kalamandir) Limited",
+      "r": "Weak",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 434.04999999999995,
+      "pat": 31.08,
+      "eps": 2.11,
+      "filing": "https://nsearchives.nseindia.com/corporate/SSKL_03112026170922_Outcome_of_BM_031126.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:KALAMANDIR",
+      "t": "03-Nov-2026 17:18:17",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752349_03112026105436_WEB.xml"
     }
   ]
 }
