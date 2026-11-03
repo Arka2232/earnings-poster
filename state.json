@@ -787,6 +787,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-03T18:19:33.861777+00:00"
+      },
+      {
+        "key": "106842453",
+        "seq_id": "106842453",
+        "symbol": "SANDESH",
+        "company": "The Sandesh Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/SANDESH_1_03112026181925_Outcome.pdf",
+        "an_dt": "03-Nov-2026 18:21:31",
+        "date": "2026-11-03",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-03T18:24:05.710171+00:00"
       }
     ],
     "next_cache": "2026-11-02",
@@ -1107,7 +1119,9 @@
     "106842406",
     "106842404",
     "106842423",
-    "106842439"
+    "106842439",
+    "106842453",
+    "106842447"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1290,7 +1304,9 @@
     "amrutanjan_03112026180931_outcome_of_bm_sd.pdf",
     "shalbyltd_03112026181002_66bmoutcome1.pdf",
     "cleducate_03112026181038_cl_outcome_of_meeting_uploadsigned.pdf",
-    "bmwventures2024_03112026181515_financials_merged.pdf"
+    "bmwventures2024_03112026181515_financials_merged.pdf",
+    "sandesh_1_03112026181925_outcome.pdf",
+    "rushil_03112026181535_finalqfr.pdf"
   ],
   "archive": [
     {
@@ -5340,6 +5356,34 @@
       "filing": "https://nsearchives.nseindia.com/corporate/BMWVENTURES2024_03112026181515_Financials_merged.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:BMWVENTLTD",
       "t": "03-Nov-2026 18:18:57"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "SANDESH",
+      "c": "The Sandesh Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/SANDESH_1_03112026181925_Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SANDESH",
+      "t": "03-Nov-2026 18:21:31"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "RUSHIL",
+      "c": "Rushil Decor Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 2953.3,
+      "pat": 100.86,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/RUSHIL_03112026181535_FINALQFR.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:RUSHIL",
+      "t": "03-Nov-2026 18:20:04"
     }
   ]
 }
