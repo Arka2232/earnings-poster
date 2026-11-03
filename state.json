@@ -582,7 +582,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T16:28:44.300756+00:00"
+        "xbrl_try": "2026-11-03T17:29:27.550760+00:00"
       },
       {
         "key": "106841655",
@@ -666,7 +666,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T16:28:44.730527+00:00"
+        "xbrl_try": "2026-11-03T17:29:28.010639+00:00"
       },
       {
         "key": "106841852",
@@ -1063,7 +1063,8 @@
     "106842191",
     "106842206",
     "106842204",
-    "106842209"
+    "106842209",
+    "106842216"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1226,7 +1227,8 @@
     "dgsl_03112026171630_seintimationbmoutcomeuploadedsd.pdf",
     "sumeetinds_03112026172225_outcomeofbm03112026.pdf",
     "nrail_03112026172319_outcomeresults03112026.pdf",
-    "awfis2014_03112026172224_bm_outcome_signed.pdf"
+    "awfis2014_03112026172224_bm_outcome_signed.pdf",
+    "gandhitube_03112026172354_outcome_of_bm_signed.pdf"
   ],
   "archive": [
     {
@@ -4966,6 +4968,20 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:IL_FSENGG",
       "t": "03-Nov-2026 16:23:06",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751830_03112026043220_WEB.xml"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "GANDHITUBE",
+      "c": "Gandhi Special Tubes Limited",
+      "r": "Good",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 58.0974,
+      "pat": 19.8955,
+      "eps": 16.48,
+      "filing": "https://nsearchives.nseindia.com/corporate/GANDHITUBE_03112026172354_Outcome_of_BM_signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GANDHITUBE",
+      "t": "03-Nov-2026 17:26:32"
     }
   ]
 }
