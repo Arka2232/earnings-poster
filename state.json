@@ -558,7 +558,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T17:04:51.462850+00:00"
+        "xbrl_try": "2026-11-03T18:05:49.740695+00:00"
       },
       {
         "key": "106841637",
@@ -763,6 +763,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-03T17:58:16.856917+00:00"
+      },
+      {
+        "key": "106842368",
+        "seq_id": "106842368",
+        "symbol": "BATAINDIA",
+        "company": "Bata India Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/BATAINDIA_03112026180005_BMOutcome_3112026_Signed.pdf",
+        "an_dt": "03-Nov-2026 18:04:13",
+        "date": "2026-11-03",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-03T18:05:50.055862+00:00"
       }
     ],
     "next_cache": "2026-11-02",
@@ -1076,7 +1088,8 @@
     "106842326",
     "106842330",
     "106842348",
-    "106842352"
+    "106842352",
+    "106842368"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1252,7 +1265,8 @@
     "mastertrustnse_03112026175244_results_mtl_merged.pdf",
     "adsl_03112026175552_finaloutcome.pdf",
     "nephrocare1_03112026175920_finaloutcomesigned.pdf",
-    "lcal_03112026175951_financial_result_sept_26.pdf"
+    "lcal_03112026175951_financial_result_sept_26.pdf",
+    "bataindia_03112026180005_bmoutcome_3112026_signed.pdf"
   ],
   "archive": [
     {
@@ -5189,6 +5203,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/LCAL_03112026175951_Financial_Result_sept_26.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:LORDSCHLO",
       "t": "03-Nov-2026 18:01:03"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "BATAINDIA",
+      "c": "Bata India Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/BATAINDIA_03112026180005_BMOutcome_3112026_Signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BATAINDIA",
+      "t": "03-Nov-2026 18:04:13"
     }
   ]
 }
