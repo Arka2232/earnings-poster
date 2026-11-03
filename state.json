@@ -681,18 +681,6 @@
         "xbrl_try": "2026-11-03T19:12:35.221990+00:00"
       },
       {
-        "key": "106842453",
-        "seq_id": "106842453",
-        "symbol": "SANDESH",
-        "company": "The Sandesh Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/SANDESH_1_03112026181925_Outcome.pdf",
-        "an_dt": "03-Nov-2026 18:21:31",
-        "date": "2026-11-03",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-03T18:24:05.710171+00:00"
-      },
-      {
         "key": "106842538",
         "seq_id": "106842538",
         "symbol": "SERVOTECH",
@@ -1301,20 +1289,6 @@
     "sagardeep_03112026191638_outcome_of_bm.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-10-31",
-      "s": "KANANIIND",
-      "c": "Kanani Industries Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/KANANIIND_31102026154006_KILBMOC31102026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:KANANIIND",
-      "t": "31-Oct-2026 15:41:08"
-    },
     {
       "d": "2026-10-31",
       "s": "SIGACHI",
@@ -5554,6 +5528,21 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:CLEDUCATE",
       "t": "03-Nov-2026 18:15:41",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752077_03112026064439_WEB.xml"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "SANDESH",
+      "c": "The Sandesh Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 144.0985,
+      "pat": -2.0031,
+      "eps": -2.65,
+      "filing": "https://nsearchives.nseindia.com/corporate/SANDESH_1_03112026181925_Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SANDESH",
+      "t": "03-Nov-2026 18:21:31",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752075_03112026064430_WEB.xml"
     }
   ]
 }
