@@ -1028,7 +1028,8 @@
     "106843028",
     "106843034",
     "106843059",
-    "106843075"
+    "106843075",
+    "106843090"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1263,23 +1264,10 @@
     "ionexchange_03112026215436_iei_sep_2026_results_for_upload.pdf",
     "aarnav_03112026220228_afl_results_30092026signeddsc1.pdf",
     "allcargo_03112026221331_seupload.pdf",
-    "fractal_03112026223034_outcome_of_bm_03112026.pdf"
+    "fractal_03112026223034_outcome_of_bm_03112026.pdf",
+    "dnamedia_03112026224037_ufr30092026.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-11-02",
-      "s": "MMP",
-      "c": "MMP Industries Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 252.68099999999998,
-      "pat": 12.1055,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/MMP_02112026134457_MMPILBM02112026Outcome.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MMP",
-      "t": "02-Nov-2026 13:46:10"
-    },
     {
       "d": "2026-11-02",
       "s": "MOLDTKPAC",
@@ -5535,6 +5523,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/FRACTAL_03112026223034_Outcome_of_BM_03112026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:FRACTAL",
       "t": "03-Nov-2026 22:31:17"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "DNAMEDIA",
+      "c": "Diligent Media Corporation Limited",
+      "r": "Positive",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 1.7183000000000002,
+      "pat": 0.1413,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/DNAMEDIA_03112026224037_UFR30092026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:DNAMEDIA",
+      "t": "03-Nov-2026 22:42:12"
     }
   ]
 }
