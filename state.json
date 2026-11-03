@@ -536,18 +536,6 @@
         "xbrl_try": "2026-11-03T14:07:02.279809+00:00"
       },
       {
-        "key": "106841557",
-        "seq_id": "106841557",
-        "symbol": "SIL",
-        "company": "Standard Industries Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/SIL_03112026133451_OUTCOME_031126.pdf",
-        "an_dt": "03-Nov-2026 13:38:06",
-        "date": "2026-11-03",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-03T13:42:01.749407+00:00"
-      },
-      {
         "key": "106841577",
         "seq_id": "106841577",
         "symbol": "SBIN",
@@ -654,6 +642,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-03T14:36:17.644281+00:00"
+      },
+      {
+        "key": "106841685",
+        "seq_id": "106841685",
+        "symbol": "BLS",
+        "company": "BLS International Services Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/BLS_03112026143832_Outcome_Board_meeting_03112026_Signed.pdf",
+        "an_dt": "03-Nov-2026 14:38:56",
+        "date": "2026-11-03",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-03T14:42:32.735122+00:00"
       }
     ],
     "next_cache": "2026-11-02",
@@ -911,7 +911,8 @@
     "106841668",
     "106841671",
     "106841677",
-    "106841683"
+    "106841683",
+    "106841685"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1031,7 +1032,8 @@
     "radhika_03112026142844_outcomes26fr.pdf",
     "montecarlo_03112026143232_financial_results.pdf",
     "mgl25_03112026143523_outcomebm03112026.pdf",
-    "archidply_03112026143636_outcome.pdf"
+    "archidply_03112026143636_outcome.pdf",
+    "bls_03112026143832_outcome_board_meeting_03112026_signed.pdf"
   ],
   "archive": [
     {
@@ -4049,6 +4051,35 @@
       "filing": "https://nsearchives.nseindia.com/corporate/ARCHIDPLY_03112026143636_Outcome.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:ARCHIDPLY",
       "t": "03-Nov-2026 14:38:05"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "BLS",
+      "c": "BLS International Services Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/BLS_03112026143832_Outcome_Board_meeting_03112026_Signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BLS",
+      "t": "03-Nov-2026 14:38:56"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "SIL",
+      "c": "Standard Industries Limited",
+      "r": "Good",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 7.7313,
+      "pat": -5.8659,
+      "eps": -0.91,
+      "filing": "https://nsearchives.nseindia.com/corporate/SIL_03112026133451_OUTCOME_031126.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SIL",
+      "t": "03-Nov-2026 13:38:06",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751692_03112026015556_WEB.xml"
     }
   ]
 }
