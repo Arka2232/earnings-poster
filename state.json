@@ -1103,7 +1103,9 @@
     "106842648",
     "106842647",
     "106842637",
-    "106842669"
+    "106842669",
+    "106842698",
+    "106842697"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1306,37 +1308,11 @@
     "indiqube_03112026190216_indiqube.pdf",
     "rushabear_03112026190434_outcome_financials__2_.pdf",
     "aartidrugs_03112026190146_adl.pdf",
-    "ksb_03112026190956_ksbbmoutcome03112026signedfinalupload.pdf"
+    "ksb_03112026190956_ksbbmoutcome03112026signedfinalupload.pdf",
+    "metropolis_03112026191630_signed_outcome_of_board_meeting_-_november_2026.pdf",
+    "sagardeep_03112026191638_outcome_of_bm.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-10-31",
-      "s": "ABLBL",
-      "c": "Aditya Birla Lifestyle Brands Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 2265.61,
-      "pat": 53.05,
-      "eps": 0.44,
-      "filing": "https://nsearchives.nseindia.com/corporate/ABLBL_31102026151419_SEIntimationOutcomeFinancialsQ2FY27.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ABLBL",
-      "t": "31-Oct-2026 15:15:33"
-    },
-    {
-      "d": "2026-10-31",
-      "s": "DLINKINDIA",
-      "c": "D-Link (India) Limited",
-      "r": "Good",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 450.7068,
-      "pat": 28.1616,
-      "eps": 7.93,
-      "filing": "https://nsearchives.nseindia.com/corporate/DLINKLEGAL_31102026151204_Results_20260930_0001.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:DLINKINDIA",
-      "t": "31-Oct-2026 15:14:03"
-    },
     {
       "d": "2026-10-31",
       "s": "ATLANTAELE",
@@ -5561,6 +5537,34 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:DIACABS",
       "t": "03-Nov-2026 13:03:05",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752090_03112026065247_WEB.xml"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "METROPOLIS",
+      "c": "Metropolis Healthcare Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 416.934,
+      "pat": 68.751,
+      "eps": 3.32,
+      "filing": "https://nsearchives.nseindia.com/corporate/METROPOLIS_03112026191630_Signed_Outcome_of_Board_Meeting_-_November_2026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:METROPOLIS",
+      "t": "03-Nov-2026 19:18:07"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "SAGARDEEP",
+      "c": "Sagardeep Alloys Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 81.9699,
+      "pat": 1.2091,
+      "eps": 0.7,
+      "filing": "https://nsearchives.nseindia.com/corporate/SAGARDEEP_03112026191638_Outcome_of_BM.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SAGARDEEP",
+      "t": "03-Nov-2026 19:17:23"
     }
   ]
 }
