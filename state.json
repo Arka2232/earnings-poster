@@ -621,18 +621,6 @@
         "xbrl_try": "2026-11-03T16:32:51.369482+00:00"
       },
       {
-        "key": "106841671",
-        "seq_id": "106841671",
-        "symbol": "MONTECARLO",
-        "company": "Monte Carlo Fashions Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/MONTECARLO_03112026143232_Financial_Results.pdf",
-        "an_dt": "03-Nov-2026 14:34:10",
-        "date": "2026-11-03",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-03T15:36:46.178310+00:00"
-      },
-      {
         "key": "106841685",
         "seq_id": "106841685",
         "symbol": "BLS",
@@ -1021,7 +1009,8 @@
     "106841928",
     "106841985",
     "106841982",
-    "106842012"
+    "106842012",
+    "106842024"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1166,7 +1155,8 @@
     "sotl_03112026161117_bmoutcome.pdf",
     "il_fsengg_03112026162057_outcome_letterse.pdf",
     "cosmofilms_03112026162116_outcome_03112026.pdf",
-    "sedemac2007_03112026162947_20261103-outcomeofboardmeeting.pdf"
+    "sedemac2007_03112026162947_20261103-outcomeofboardmeeting.pdf",
+    "kotharipet_03112026163206_outcomeofboardmeeting_03112026.pdf"
   ],
   "archive": [
     {
@@ -4609,6 +4599,35 @@
       "filing": "https://nsearchives.nseindia.com/corporate/SEDEMAC2007_03112026162947_20261103-OutcomeofBoardMeeting.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SEDEMAC",
       "t": "03-Nov-2026 16:31:34"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "KOTHARIPET",
+      "c": "Kothari Petrochemicals Limited",
+      "r": "Good",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 165.36540000000002,
+      "pat": 19.531,
+      "eps": 3.32,
+      "filing": "https://nsearchives.nseindia.com/corporate/KOTHARIPET_03112026163206_OutcomeofBoardMeeting_03112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:KOTHARIPET",
+      "t": "03-Nov-2026 16:34:30"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "MONTECARLO",
+      "c": "Monte Carlo Fashions Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 262.4,
+      "pat": 1.17,
+      "eps": 0.56,
+      "filing": "https://nsearchives.nseindia.com/corporate/MONTECARLO_03112026143232_Financial_Results.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MONTECARLO",
+      "t": "03-Nov-2026 14:34:10",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751791_03112026040603_WEB.xml"
     }
   ]
 }
