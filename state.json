@@ -767,7 +767,8 @@
     "106841454",
     "106841475",
     "106841503",
-    "106841525"
+    "106841525",
+    "106841533"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -863,7 +864,8 @@
     "nextmedia_03112026124005_nmw_board_meeting_outcome_nov_2026.pdf",
     "walimbelk_03112026124657_bfsseoutcomeofbm_3nov2026.pdf",
     "diacabs_03112026125735_outcomeofbm.pdf",
-    "alkylamine_03112026131355_results.pdf"
+    "alkylamine_03112026131355_results.pdf",
+    "deepinds_03112026132142_outcome.pdf"
   ],
   "archive": [
     {
@@ -3545,6 +3547,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/ALKYLAMINE_03112026131355_results.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:ALKYLAMINE",
       "t": "03-Nov-2026 13:16:34"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "DEEPINDS",
+      "c": "Deep Industries Limited",
+      "r": "Good",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 295.4291,
+      "pat": 81.2242,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/DEEPINDS_03112026132142_Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:DEEPINDS",
+      "t": "03-Nov-2026 13:22:40"
     }
   ]
 }
