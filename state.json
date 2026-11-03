@@ -425,7 +425,7 @@
         "url": "https://nsearchives.nseindia.com/corporate/PATELINT_02112026155145_Outcome_of_BM_Sept2026_sd.pdf",
         "an_dt": "02-Nov-2026 15:53:28",
         "date": "2026-11-02",
-        "xbrl_try": "2026-11-03T21:14:56.996024+00:00"
+        "xbrl_try": "2026-11-03T22:15:11.819489+00:00"
       },
       {
         "key": "106839719",
@@ -437,7 +437,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T21:14:58.409827+00:00"
+        "xbrl_try": "2026-11-03T22:15:13.030326+00:00"
       },
       {
         "key": "106839796",
@@ -449,7 +449,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T21:14:59.651018+00:00"
+        "xbrl_try": "2026-11-03T22:15:14.645409+00:00"
       },
       {
         "key": "106840301",
@@ -461,7 +461,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T21:15:00.511616+00:00"
+        "xbrl_try": "2026-11-03T22:15:15.455623+00:00"
       },
       {
         "key": "106840295",
@@ -473,7 +473,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T21:15:01.849679+00:00"
+        "xbrl_try": "2026-11-03T22:15:16.744981+00:00"
       },
       {
         "key": "106840386",
@@ -558,7 +558,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T21:14:30.246445+00:00"
+        "xbrl_try": "2026-11-03T22:15:17.578201+00:00"
       },
       {
         "key": "106842168",
@@ -585,18 +585,6 @@
         "xbrl_try": "2026-11-03T21:24:55.080909+00:00"
       },
       {
-        "key": "106842368",
-        "seq_id": "106842368",
-        "symbol": "BATAINDIA",
-        "company": "Bata India Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/BATAINDIA_03112026180005_BMOutcome_3112026_Signed.pdf",
-        "an_dt": "03-Nov-2026 18:04:13",
-        "date": "2026-11-03",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-03T21:14:30.689147+00:00"
-      },
-      {
         "key": "106842383",
         "seq_id": "106842383",
         "symbol": "LANDSMILL",
@@ -606,7 +594,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T21:15:02.595653+00:00"
+        "xbrl_try": "2026-11-03T22:15:22.651104+00:00"
       },
       {
         "key": "106842647",
@@ -618,31 +606,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T21:15:03.958849+00:00"
-      },
-      {
-        "key": "106842637",
-        "seq_id": "106842637",
-        "symbol": "AARTIDRUGS",
-        "company": "Aarti Drugs Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/AARTIDRUGS_03112026190146_ADL.pdf",
-        "an_dt": "03-Nov-2026 19:03:44",
-        "date": "2026-11-03",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-03T21:15:04.729252+00:00"
-      },
-      {
-        "key": "106842842",
-        "seq_id": "106842842",
-        "symbol": "ENIL",
-        "company": "Entertainment Network (India) Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/ENIL_03112026200200_ENIL20261103Reg33results.pdf",
-        "an_dt": "03-Nov-2026 20:04:49",
-        "date": "2026-11-03",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-03T21:14:31.422368+00:00"
+        "xbrl_try": "2026-11-03T22:15:23.831778+00:00"
       },
       {
         "key": "106842850",
@@ -668,18 +632,6 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-03T21:48:50.844602+00:00"
-      },
-      {
-        "key": "106842976",
-        "seq_id": "106842976",
-        "symbol": "RSYSTEMS",
-        "company": "R Systems International Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/RSYSTEMSPJ_03112026211010_RSYSTEMS_sd.pdf",
-        "an_dt": "03-Nov-2026 21:11:09",
-        "date": "2026-11-03",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-03T21:14:31.822144+00:00"
       },
       {
         "key": "106842981",
@@ -1298,63 +1250,6 @@
     "aarnav_03112026220228_afl_results_30092026signeddsc1.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-11-02",
-      "s": "MOBIKWIK",
-      "c": "One Mobikwik Systems Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 295.702,
-      "pat": 11.832,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/MOBIKWIK_02112026130451_Outcome_of_Board_Meeting.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MOBIKWIK",
-      "t": "02-Nov-2026 13:06:16"
-    },
-    {
-      "d": "2026-11-02",
-      "s": "JTLIND",
-      "c": "JTL INDUSTRIES LIMITED",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 613.7911,
-      "pat": 28.967,
-      "eps": 0.64,
-      "filing": "https://nsearchives.nseindia.com/corporate/JTLIND_02112026123402_OutcomeOfBMJTL02112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:JTLIND",
-      "t": "02-Nov-2026 12:35:54",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751384_02112026071434_WEB.xml"
-    },
-    {
-      "d": "2026-11-02",
-      "s": "PCBL",
-      "c": "PCBL Chemical Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 1694.65,
-      "pat": 80.01,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/PCBL_02112026131934_FinalBMOutcomeheldon2112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PCBL",
-      "t": "02-Nov-2026 13:21:05"
-    },
-    {
-      "d": "2026-11-02",
-      "s": "EUREKAFORB",
-      "c": "Eureka Forbes Limited",
-      "r": "Good",
-      "b": "Consolidated",
-      "q": "",
-      "sales": 888.47,
-      "pat": 74.0966,
-      "eps": 3.81,
-      "filing": "https://nsearchives.nseindia.com/corporate/SHILPAJAIN_02112026133213_Outcomeofbmrev.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:EUREKAFORB",
-      "t": "02-Nov-2026 13:32:48"
-    },
     {
       "d": "2026-11-02",
       "s": "AVONMORE",
@@ -5564,6 +5459,66 @@
       "filing": "https://nsearchives.nseindia.com/corporate/AARNAV_03112026220228_AFL_Results_30092026signedDSC1.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:AARNAV",
       "t": "03-Nov-2026 22:05:32"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "BATAINDIA",
+      "c": "Bata India Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 861.7819999999999,
+      "pat": 18.119,
+      "eps": 1.41,
+      "filing": "https://nsearchives.nseindia.com/corporate/BATAINDIA_03112026180005_BMOutcome_3112026_Signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BATAINDIA",
+      "t": "03-Nov-2026 18:04:13",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752308_03112026093720_WEB.xml"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "AARTIDRUGS",
+      "c": "Aarti Drugs Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 826.24,
+      "pat": 82.77,
+      "eps": 9.07,
+      "filing": "https://nsearchives.nseindia.com/corporate/AARTIDRUGS_03112026190146_ADL.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:AARTIDRUGS",
+      "t": "03-Nov-2026 19:03:44",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752320_03112026100252_WEB.xml"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "ENIL",
+      "c": "Entertainment Network (India) Limited",
+      "r": "Weak",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 116.7019,
+      "pat": -4.854699999999999,
+      "eps": -1.02,
+      "filing": "https://nsearchives.nseindia.com/corporate/ENIL_03112026200200_ENIL20261103Reg33results.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ENIL",
+      "t": "03-Nov-2026 20:04:49",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752326_03112026100845_WEB.xml"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "RSYSTEMS",
+      "c": "R Systems International Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 615.1999999999999,
+      "pat": 64.18299999999999,
+      "eps": 5.42,
+      "filing": "https://nsearchives.nseindia.com/corporate/RSYSTEMSPJ_03112026211010_RSYSTEMS_sd.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:RSYSTEMS",
+      "t": "03-Nov-2026 21:11:09",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752319_03112026095320_WEB.xml"
     }
   ]
 }
