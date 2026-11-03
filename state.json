@@ -1067,7 +1067,10 @@
     "106842216",
     "106842233",
     "106842236",
-    "106842250"
+    "106842250",
+    "106842260",
+    "106842259",
+    "106842256"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1234,7 +1237,10 @@
     "gandhitube_03112026172354_outcome_of_bm_signed.pdf",
     "asiantiles_03112026172833_seoutcomeofbm03112026.pdf",
     "amanta_03112026172706_outcome_of_board_meeting.pdf",
-    "hginfra_03112026173301_finaloutcome.pdf"
+    "hginfra_03112026173301_finaloutcome.pdf",
+    "manipalcardsipo_03112026173448_outcome03112026.pdf",
+    "20121991_03112026173721_intimation.pdf",
+    "aml_03112026173420_bmoutcome03112026aml.pdf"
   ],
   "archive": [
     {
@@ -5030,6 +5036,48 @@
       "filing": "https://nsearchives.nseindia.com/corporate/HGINFRA_03112026173301_FinalOutcome.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:HGINFRA",
       "t": "03-Nov-2026 17:35:42"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "MPIMANIPAL",
+      "c": "Manipal Payment and Identity Solutions Limited",
+      "r": "Good",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 430.40000000000003,
+      "pat": 80.88,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/MANIPALCARDSIPO_03112026173448_Outcome03112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MPIMANIPAL",
+      "t": "03-Nov-2026 17:37:48"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "BAIDFIN",
+      "c": "Baid Finserv Limited",
+      "r": "Positive",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 20.1567,
+      "pat": 5.199,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/20121991_03112026173721_Intimation.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BAIDFIN",
+      "t": "03-Nov-2026 17:37:43"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "ASHOKAMET",
+      "c": "Ashoka Metcast Limited",
+      "r": "Positive",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 3.6232,
+      "pat": 3.0679000000000003,
+      "eps": 1.23,
+      "filing": "https://nsearchives.nseindia.com/corporate/AML_03112026173420_BMOutcome03112026AML.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ASHOKAMET",
+      "t": "03-Nov-2026 17:37:02"
     }
   ]
 }
