@@ -657,18 +657,6 @@
         "xbrl_try": "2026-11-03T18:19:33.150170+00:00"
       },
       {
-        "key": "106842095",
-        "seq_id": "106842095",
-        "symbol": "LINDEINDIA",
-        "company": "Linde India Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/LINDEINDIA1_03112026165015_Outcome_of_BM_03112026.pdf",
-        "an_dt": "03-Nov-2026 16:52:51",
-        "date": "2026-11-03",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-03T17:58:16.154009+00:00"
-      },
-      {
         "key": "106842168",
         "seq_id": "106842168",
         "symbol": "ADVENTHTL",
@@ -691,18 +679,6 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-03T18:21:34.076520+00:00"
-      },
-      {
-        "key": "106842326",
-        "seq_id": "106842326",
-        "symbol": "MASTERTR",
-        "company": "Master Trust Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/MASTERTRUSTNSE_03112026175244_Results_MTL_merged.pdf",
-        "an_dt": "03-Nov-2026 17:56:22",
-        "date": "2026-11-03",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-03T17:58:16.856917+00:00"
       },
       {
         "key": "106842368",
@@ -1104,7 +1080,8 @@
     "106842553",
     "106842571",
     "106842581",
-    "106842583"
+    "106842583",
+    "106842594"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1296,36 +1273,10 @@
     "v2retail_03112026183632_outcome.pdf",
     "arisinfra2024_03112026183854_outcome.pdf",
     "glaxo1924_03112026184904_outcome_of_meeting.pdf",
-    "denora_03112026184817_board_outcome_sep2026.pdf"
+    "denora_03112026184817_board_outcome_sep2026.pdf",
+    "mcfl_03112026184952_outcome.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-10-30",
-      "s": "FINPIPE",
-      "c": "Finolex Industries Limited",
-      "r": "Positive",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 1093.96,
-      "pat": 115.02,
-      "eps": 1852.0,
-      "filing": "https://nsearchives.nseindia.com/corporate/FINPIPE2_30102026222631_BM_Outcome.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:FINPIPE"
-    },
-    {
-      "d": "2026-10-31",
-      "s": "SHYAMMETL",
-      "c": "Shyam Metalics and Energy Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 5960.19,
-      "pat": 510.99,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/SHYAMMETL_31102026130218_outcomeofBM.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SHYAMMETL",
-      "t": "31-Oct-2026 13:04:49"
-    },
     {
       "d": "2026-10-31",
       "s": "CPL",
@@ -5532,6 +5483,50 @@
       "filing": "https://nsearchives.nseindia.com/corporate/DENORA_03112026184817_Board_outcome_Sep2026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:DENORA",
       "t": "03-Nov-2026 18:51:00"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "MANCREDIT",
+      "c": "Mangal Credit and Fincorp Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 21.2463,
+      "pat": 4.0673,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/MCFL_03112026184952_Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MANCREDIT",
+      "t": "03-Nov-2026 18:53:49"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "LINDEINDIA",
+      "c": "Linde India Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 723.197,
+      "pat": 118.812,
+      "eps": 13.93,
+      "filing": "https://nsearchives.nseindia.com/corporate/LINDEINDIA1_03112026165015_Outcome_of_BM_03112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:LINDEINDIA",
+      "t": "03-Nov-2026 16:52:51",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752034_03112026062743_WEB.xml"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "MASTERTR",
+      "c": "Master Trust Limited",
+      "r": "Good",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 153.67,
+      "pat": 38.3,
+      "eps": 3.1,
+      "filing": "https://nsearchives.nseindia.com/corporate/MASTERTRUSTNSE_03112026175244_Results_MTL_merged.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MASTERTR",
+      "t": "03-Nov-2026 17:56:22",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NBFC_INDAS_1751984_03112026060427_WEB.xml"
     }
   ]
 }
