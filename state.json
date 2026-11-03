@@ -1085,7 +1085,8 @@
     "106842423",
     "106842439",
     "106842453",
-    "106842447"
+    "106842447",
+    "106842532"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1270,7 +1271,8 @@
     "cleducate_03112026181038_cl_outcome_of_meeting_uploadsigned.pdf",
     "bmwventures2024_03112026181515_financials_merged.pdf",
     "sandesh_1_03112026181925_outcome.pdf",
-    "rushil_03112026181535_finalqfr.pdf"
+    "rushil_03112026181535_finalqfr.pdf",
+    "9903318000_03112026183312_finaloutcomeofboardmeeting_jgcl_03112026.pdf"
   ],
   "archive": [
     {
@@ -5393,6 +5395,20 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:LUXIND",
       "t": "03-Nov-2026 14:28:04",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752010_03112026061658_WEB.xml"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "JGCHEM",
+      "c": "J.G.Chemicals Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 361.00600000000003,
+      "pat": 27.953,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/9903318000_03112026183312_FinalOutcomeOfBoardMeeting_JGCL_03112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:JGCHEM",
+      "t": "03-Nov-2026 18:35:23"
     }
   ]
 }
