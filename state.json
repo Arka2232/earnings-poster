@@ -702,7 +702,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T16:18:02.783828+00:00"
+        "xbrl_try": "2026-11-03T17:19:01.988224+00:00"
       },
       {
         "key": "106841985",
@@ -1056,7 +1056,8 @@
     "106842095",
     "106842128",
     "106842152",
-    "106842168"
+    "106842168",
+    "106842179"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1212,7 +1213,8 @@
     "lindeindia1_03112026165015_outcome_of_bm_03112026.pdf",
     "bajajhldng_03112026165942_bm_intimation_signed_bhil.pdf",
     "surevin_03112026170540_bodoutcome03112026.pdf",
-    "adventhtl_03112026171215_adventoutcomeresults03112026.pdf"
+    "adventhtl_03112026171215_adventoutcomeresults03112026.pdf",
+    "nacl2020_03112026171600_results_exchange_final_1.pdf"
   ],
   "archive": [
     {
@@ -4839,6 +4841,20 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:EBGNG",
       "t": "03-Nov-2026 16:10:04",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751831_03112026043304_WEB.xml"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "NORTHARC",
+      "c": "Northern Arc Capital Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 86870.75,
+      "pat": 12948.25,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/NACL2020_03112026171600_Results_Exchange_Final_1.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:NORTHARC",
+      "t": "03-Nov-2026 17:17:00"
     }
   ]
 }
