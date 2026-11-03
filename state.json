@@ -827,7 +827,9 @@
     "106841571",
     "106841580",
     "106841594",
-    "106841592"
+    "106841592",
+    "106841615",
+    "106841613"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -935,7 +937,9 @@
     "kopran_03112026134417_outcome03112026.pdf",
     "ester_03112026134724_fssep2026.pdf",
     "sgil_03112026135424_outcome_of_bm_03112026.pdf",
-    "ajmera_03112026135429_intimation_sd.pdf"
+    "ajmera_03112026135429_intimation_sd.pdf",
+    "gilkolkata_03112026135910_result30092026f.pdf",
+    "sikko_03112026140006_outcome.pdf"
   ],
   "archive": [
     {
@@ -3785,6 +3789,34 @@
       "filing": "https://nsearchives.nseindia.com/corporate/AJMERA_03112026135429_Intimation_sd.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:AJMERA",
       "t": "03-Nov-2026 13:55:38"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "GRAPHITE",
+      "c": "Graphite India Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q4 FY26",
+      "sales": 826.0,
+      "pat": 171.0,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/GILKOLKATA_03112026135910_RESULT30092026F.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GRAPHITE",
+      "t": "03-Nov-2026 14:02:27"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "SIKKO",
+      "c": "Sikko Industries Limited",
+      "r": "Good",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 23.2933,
+      "pat": 3.2361000000000004,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/SIKKO_03112026140006_Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SIKKO",
+      "t": "03-Nov-2026 14:01:55"
     }
   ]
 }
