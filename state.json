@@ -1046,7 +1046,8 @@
     "106842844",
     "106842842",
     "106842857",
-    "106842850"
+    "106842850",
+    "106842863"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1264,23 +1265,10 @@
     "koltepatil_03112026200441_outcomesept26signed.pdf",
     "enil_03112026200200_enil20261103reg33results.pdf",
     "sarlapoly_03112026200752_seintimation_signed.pdf",
-    "utkarshbank_03112026200635_outcomeofbm03112026.pdf"
+    "utkarshbank_03112026200635_outcomeofbm03112026.pdf",
+    "fazethree_03112026201002_submission.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-10-31",
-      "s": "IITL",
-      "c": "Industrial Investment Trust Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/IITL1_31102026184300_Results.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:IITL",
-      "t": "31-Oct-2026 18:45:40"
-    },
     {
       "d": "2026-10-31",
       "s": "QPOWER",
@@ -5528,6 +5516,20 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:INDIQUBE",
       "t": "03-Nov-2026 19:05:53",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752214_03112026080410_WEB.xml"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "FAZE3Q",
+      "c": "Faze Three Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 264.58,
+      "pat": 15.46,
+      "eps": 6.37,
+      "filing": "https://nsearchives.nseindia.com/corporate/FAZETHREE_03112026201002_Submission.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:FAZE3Q",
+      "t": "03-Nov-2026 20:13:08"
     }
   ]
 }
