@@ -1022,7 +1022,8 @@
     "106842961",
     "106842964",
     "106842976",
-    "106842981"
+    "106842981",
+    "106843007"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1251,24 +1252,10 @@
     "digispice_03112026205704_intimationofoutcomeofboard_meetingfinancialresults.pdf",
     "icccsexecutive_03112026205749_icc_bm_outcome_november_3_26_final.pdf",
     "rsystemspj_03112026211010_rsystems_sd.pdf",
-    "mircelectr_03112026211111_outcomeofboardmeeting03112026signed.pdf"
+    "mircelectr_03112026211111_outcomeofboardmeeting03112026signed.pdf",
+    "cleanmax_03112026213525_outcome031126.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-11-02",
-      "s": "PKTEA",
-      "c": "The Peria Karamalai Tea & Produce Company Limited",
-      "r": "Positive",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 9.8863,
-      "pat": -3.1771,
-      "eps": -10.26,
-      "filing": "https://nsearchives.nseindia.com/corporate/PKTEA_02112026122248_BMOUTCOME02112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PKTEA",
-      "t": "02-Nov-2026 12:26:04",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1750961_02112026123819_WEB.xml"
-    },
     {
       "d": "2026-11-02",
       "s": "CAPILLARY",
@@ -5521,6 +5508,20 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:DAMCAPITAL",
       "t": "03-Nov-2026 19:30:23",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NBFC_INDAS_1752296_03112026091951_WEB.xml"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "CLEANMAX",
+      "c": "Clean Max Enviro Energy Solutions Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 727.654,
+      "pat": 64.949,
+      "eps": 4.01,
+      "filing": "https://nsearchives.nseindia.com/corporate/CLEANMAX_03112026213525_Outcome031126.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CLEANMAX",
+      "t": "03-Nov-2026 21:39:02"
     }
   ]
 }
