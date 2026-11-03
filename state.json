@@ -956,7 +956,8 @@
     "106841747",
     "106841742",
     "106841749",
-    "106841766"
+    "106841766",
+    "106841772"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1085,7 +1086,8 @@
     "inventure_03112026150257_outcome_kl.pdf",
     "vasconeq_03112026150147_outcome_final_sd.pdf",
     "dtl_03112026150059_dhoot_bm_outcome_03112026_signed.pdf",
-    "arihantsup_03112026151003_asl_outcome_bm_03112026.pdf"
+    "arihantsup_03112026151003_asl_outcome_bm_03112026.pdf",
+    "gencon_03112026151211_outcome.pdf"
   ],
   "archive": [
     {
@@ -4244,6 +4246,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/ARIHANTSUP_03112026151003_ASL_Outcome_BM_03112026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:ARIHANTSUP",
       "t": "03-Nov-2026 15:11:20"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "GENCON",
+      "c": "Generic Engineering Construction and Projects Limited",
+      "r": "Good",
+      "b": "Consolidated",
+      "q": "Q1 FY27",
+      "sales": 52.0854,
+      "pat": 2.0244,
+      "eps": 0.36,
+      "filing": "https://nsearchives.nseindia.com/corporate/GENCON_03112026151211_Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GENCON",
+      "t": "03-Nov-2026 15:13:46"
     }
   ]
 }
