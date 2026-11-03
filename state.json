@@ -752,7 +752,8 @@
     "106841417",
     "106841447",
     "106841458",
-    "106841454"
+    "106841454",
+    "106841475"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -845,7 +846,8 @@
     "arfind_03112026123221_arfinoutcomeofboardmeetingsep26.pdf",
     "geeceevc12345_03112026123836_bmoutcomeresults_signed.pdf",
     "suranat_p_03112026124044_outcome.pdf",
-    "nextmedia_03112026124005_nmw_board_meeting_outcome_nov_2026.pdf"
+    "nextmedia_03112026124005_nmw_board_meeting_outcome_nov_2026.pdf",
+    "walimbelk_03112026124657_bfsseoutcomeofbm_3nov2026.pdf"
   ],
   "archive": [
     {
@@ -3485,6 +3487,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/NEXTMEDIA_03112026124005_NMW_Board_Meeting_Outcome_Nov_2026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:NEXTMEDIA",
       "t": "03-Nov-2026 12:41:00"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "BAJAJFINSV",
+      "c": "Bajaj Finserv Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 2005.66,
+      "pat": 1458.53,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/walimbelk_03112026124657_BFSSEOUTCOMEOFBM_3NOV2026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BAJAJFINSV",
+      "t": "03-Nov-2026 12:48:27"
     }
   ]
 }
