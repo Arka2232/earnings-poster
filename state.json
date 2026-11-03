@@ -766,7 +766,8 @@
     "106841458",
     "106841454",
     "106841475",
-    "106841503"
+    "106841503",
+    "106841525"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -861,7 +862,8 @@
     "suranat_p_03112026124044_outcome.pdf",
     "nextmedia_03112026124005_nmw_board_meeting_outcome_nov_2026.pdf",
     "walimbelk_03112026124657_bfsseoutcomeofbm_3nov2026.pdf",
-    "diacabs_03112026125735_outcomeofbm.pdf"
+    "diacabs_03112026125735_outcomeofbm.pdf",
+    "alkylamine_03112026131355_results.pdf"
   ],
   "archive": [
     {
@@ -3529,6 +3531,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/DIACABS_03112026125735_OutcomeofBM.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:DIACABS",
       "t": "03-Nov-2026 13:03:05"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "ALKYLAMINE",
+      "c": "Alkyl Amines Chemicals Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 490.95,
+      "pat": 90.09,
+      "eps": 12.74,
+      "filing": "https://nsearchives.nseindia.com/corporate/ALKYLAMINE_03112026131355_results.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ALKYLAMINE",
+      "t": "03-Nov-2026 13:16:34"
     }
   ]
 }
