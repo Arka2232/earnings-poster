@@ -1059,7 +1059,8 @@
     "106842260",
     "106842259",
     "106842256",
-    "106842264"
+    "106842264",
+    "106842317"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1230,7 +1231,8 @@
     "manipalcardsipo_03112026173448_outcome03112026.pdf",
     "20121991_03112026173721_intimation.pdf",
     "aml_03112026173420_bmoutcome03112026aml.pdf",
-    "pokarna_03112026173627_final_intimation_outcome_sep_2026.pdf"
+    "pokarna_03112026173627_final_intimation_outcome_sep_2026.pdf",
+    "compliance_abl1_03112026175122_outcome_of_bm_q2fy27__1_.pdf"
   ],
   "archive": [
     {
@@ -5097,6 +5099,20 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:VMART",
       "t": "03-Nov-2026 16:48:56",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751893_03112026051227_WEB.xml"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "ANTHEM",
+      "c": "Anthem Biosciences Limited",
+      "r": "Good",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 5940.32,
+      "pat": 2114.63,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/COMPLIANCE_ABL1_03112026175122_Outcome_of_BM_Q2FY27__1_.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ANTHEM",
+      "t": "03-Nov-2026 17:53:34"
     }
   ]
 }
