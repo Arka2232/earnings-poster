@@ -389,7 +389,7 @@
         "url": "https://nsearchives.nseindia.com/corporate/PATELINT_02112026155145_Outcome_of_BM_Sept2026_sd.pdf",
         "an_dt": "02-Nov-2026 15:53:28",
         "date": "2026-11-02",
-        "xbrl_try": "2026-11-03T17:12:45.123928+00:00"
+        "xbrl_try": "2026-11-03T18:12:55.621502+00:00"
       },
       {
         "key": "106839719",
@@ -401,7 +401,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T17:12:46.699401+00:00"
+        "xbrl_try": "2026-11-03T18:12:56.818715+00:00"
       },
       {
         "key": "106839796",
@@ -413,7 +413,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T17:12:48.287019+00:00"
+        "xbrl_try": "2026-11-03T18:12:58.320393+00:00"
       },
       {
         "key": "106840301",
@@ -425,7 +425,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T17:12:49.468076+00:00"
+        "xbrl_try": "2026-11-03T18:12:59.364426+00:00"
       },
       {
         "key": "106840295",
@@ -437,7 +437,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T17:12:51.116614+00:00"
+        "xbrl_try": "2026-11-03T18:13:00.492382+00:00"
       },
       {
         "key": "106840386",
@@ -533,7 +533,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T17:12:51.488186+00:00"
+        "xbrl_try": "2026-11-03T18:13:00.941979+00:00"
       },
       {
         "key": "106841577",
@@ -1090,7 +1090,8 @@
     "106842348",
     "106842352",
     "106842368",
-    "106842383"
+    "106842383",
+    "106842395"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1268,7 +1269,8 @@
     "nephrocare1_03112026175920_finaloutcomesigned.pdf",
     "lcal_03112026175951_financial_result_sept_26.pdf",
     "bataindia_03112026180005_bmoutcome_3112026_signed.pdf",
-    "excel_03112026180640_ilovepdf_merged__7_.pdf"
+    "excel_03112026180640_ilovepdf_merged__7_.pdf",
+    "gspltrans_03112026180812_nsebsefinancialresults.pdf"
   ],
   "archive": [
     {
@@ -5248,6 +5250,20 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:MINDACORP",
       "t": "03-Nov-2026 15:00:40",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751958_03112026055220_WEB.xml"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "GSPLTRANS",
+      "c": "GSPL Transmission Limited",
+      "r": "Good",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 289.5745,
+      "pat": 120.4391,
+      "eps": 3.85,
+      "filing": "https://nsearchives.nseindia.com/corporate/GSPLTRANS_03112026180812_NSEBSEFinancialResults.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GSPLTRANS",
+      "t": "03-Nov-2026 18:10:46"
     }
   ]
 }
