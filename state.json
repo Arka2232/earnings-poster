@@ -1040,7 +1040,9 @@
     "106842747",
     "106842742",
     "106842753",
-    "106842772"
+    "106842772",
+    "106842826",
+    "106842824"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1252,37 +1254,11 @@
     "ipl_03112026193116_outcome_of_the_board_meeting.pdf",
     "damcapital_03112026193013_signed.pdf",
     "skfindia25_03112026193154_nse.pdf",
-    "embdl_03112026193144_edl_outcome_bm_0311226_.pdf"
+    "embdl_03112026193144_edl_outcome_bm_0311226_.pdf",
+    "laxmi_03112026195702_binder_2.pdf",
+    "vijaya_03112026195557_vdcl_bm_ootcome_03112026.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-10-31",
-      "s": "NEUEON",
-      "c": "Neueon Corporation Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/NTL_31102026174051_e.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:NEUEON",
-      "t": "31-Oct-2026 17:42:12"
-    },
-    {
-      "d": "2026-10-31",
-      "s": "VISHNU",
-      "c": "Vishnu Chemicals Limited",
-      "r": "Good",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 429.5255,
-      "pat": 35.5662,
-      "eps": 5.28,
-      "filing": "https://nsearchives.nseindia.com/corporate/VISHNU_31102026174855_Outcome_BM_Sept_2026_Final_signed.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:VISHNU",
-      "t": "31-Oct-2026 17:51:04"
-    },
     {
       "d": "2026-10-31",
       "s": "GANECOS",
@@ -5514,6 +5490,34 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:DENORA",
       "t": "03-Nov-2026 18:51:00",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752099_03112026065556_WEB.xml"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "LAXMIDENTL",
+      "c": "Laxmi Dental Limited",
+      "r": "Good",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 79.52100000000002,
+      "pat": 10.036000000000001,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/LAXMI_03112026195702_Binder_2.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:LAXMIDENTL",
+      "t": "03-Nov-2026 19:58:19"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "VIJAYA",
+      "c": "Vijaya Diagnostic Centre Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 242.002,
+      "pat": 57.9246,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/VIJAYA_03112026195557_VDCL_BM_Ootcome_03112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:VIJAYA",
+      "t": "03-Nov-2026 19:57:59"
     }
   ]
 }
