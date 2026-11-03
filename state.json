@@ -726,7 +726,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T16:57:05.555732+00:00"
+        "xbrl_try": "2026-11-03T17:58:16.154009+00:00"
       },
       {
         "key": "106842168",
@@ -751,6 +751,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-03T17:21:14.904434+00:00"
+      },
+      {
+        "key": "106842326",
+        "seq_id": "106842326",
+        "symbol": "MASTERTR",
+        "company": "Master Trust Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/MASTERTRUSTNSE_03112026175244_Results_MTL_merged.pdf",
+        "an_dt": "03-Nov-2026 17:56:22",
+        "date": "2026-11-03",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-03T17:58:16.856917+00:00"
       }
     ],
     "next_cache": "2026-11-02",
@@ -1060,7 +1072,8 @@
     "106842259",
     "106842256",
     "106842264",
-    "106842317"
+    "106842317",
+    "106842326"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1232,7 +1245,8 @@
     "20121991_03112026173721_intimation.pdf",
     "aml_03112026173420_bmoutcome03112026aml.pdf",
     "pokarna_03112026173627_final_intimation_outcome_sep_2026.pdf",
-    "compliance_abl1_03112026175122_outcome_of_bm_q2fy27__1_.pdf"
+    "compliance_abl1_03112026175122_outcome_of_bm_q2fy27__1_.pdf",
+    "mastertrustnse_03112026175244_results_mtl_merged.pdf"
   ],
   "archive": [
     {
@@ -5113,6 +5127,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/COMPLIANCE_ABL1_03112026175122_Outcome_of_BM_Q2FY27__1_.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:ANTHEM",
       "t": "03-Nov-2026 17:53:34"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "MASTERTR",
+      "c": "Master Trust Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/MASTERTRUSTNSE_03112026175244_Results_MTL_merged.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MASTERTR",
+      "t": "03-Nov-2026 17:56:22"
     }
   ]
 }
