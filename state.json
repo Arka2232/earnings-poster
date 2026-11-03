@@ -449,7 +449,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T19:20:47.254458+00:00"
+        "xbrl_try": "2026-11-03T20:21:36.312135+00:00"
       },
       {
         "key": "106840511",
@@ -461,7 +461,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T19:20:48.681145+00:00"
+        "xbrl_try": "2026-11-03T20:21:37.734289+00:00"
       },
       {
         "key": "106840621",
@@ -473,7 +473,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T19:20:49.831345+00:00"
+        "xbrl_try": "2026-11-03T20:21:38.895698+00:00"
       },
       {
         "key": "106840747",
@@ -485,7 +485,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T19:20:50.776298+00:00"
+        "xbrl_try": "2026-11-03T20:21:40.548942+00:00"
       },
       {
         "key": "106841447",
@@ -573,18 +573,6 @@
         "xbrl_try": "2026-11-03T19:46:46.247078+00:00"
       },
       {
-        "key": "106841928",
-        "seq_id": "106841928",
-        "symbol": "SOTL",
-        "company": "Savita Oil Technologies Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/SOTL_03112026161117_bmoutcome.pdf",
-        "an_dt": "03-Nov-2026 16:12:51",
-        "date": "2026-11-03",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-03T19:20:51.134020+00:00"
-      },
-      {
         "key": "106842168",
         "seq_id": "106842168",
         "symbol": "ADVENTHTL",
@@ -594,7 +582,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T19:20:51.573107+00:00"
+        "xbrl_try": "2026-11-03T20:21:48.369443+00:00"
       },
       {
         "key": "106842183",
@@ -1048,7 +1036,8 @@
     "106842857",
     "106842850",
     "106842863",
-    "106842877"
+    "106842877",
+    "106842880"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1268,37 +1257,10 @@
     "sarlapoly_03112026200752_seintimation_signed.pdf",
     "utkarshbank_03112026200635_outcomeofbm03112026.pdf",
     "fazethree_03112026201002_submission.pdf",
-    "jyotistruc_03112026201616_final_outcome.pdf"
+    "jyotistruc_03112026201616_final_outcome.pdf",
+    "glasswall_03112026201250_2026_11_03_-_outcome_of_bm_-_final.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-10-31",
-      "s": "STUDDS",
-      "c": "Studds Accessories Limited",
-      "r": "Bad",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 182.46400000000003,
-      "pat": 15.502000000000002,
-      "eps": 3.94,
-      "filing": "https://nsearchives.nseindia.com/corporate/Studds1983_31102026192811_Outcome_FR_31102026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:STUDDS",
-      "t": "31-Oct-2026 19:30:15"
-    },
-    {
-      "d": "2026-10-31",
-      "s": "LGBBROSLTD",
-      "c": "LG Balakrishnan & Bros Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/LGBBROSLTD_31102026192508_LGB_Outcome_Financials30092026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:LGBBROSLTD",
-      "t": "31-Oct-2026 19:26:46"
-    },
     {
       "d": "2026-10-31",
       "s": "MHLXMIRU",
@@ -5532,6 +5494,35 @@
       "filing": "https://nsearchives.nseindia.com/corporate/JYOTISTRUC_03112026201616_Final_Outcome.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:JYOTISTRUC",
       "t": "03-Nov-2026 20:17:12"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "GLASSWALL",
+      "c": "Glass Wall Systems (India) Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 131.484,
+      "pat": 28.607,
+      "eps": 3.35,
+      "filing": "https://nsearchives.nseindia.com/corporate/GLASSWALL_03112026201250_2026_11_03_-_Outcome_of_BM_-_Final.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GLASSWALL",
+      "t": "03-Nov-2026 20:19:00"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "SOTL",
+      "c": "Savita Oil Technologies Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 1709.3921,
+      "pat": 211.858,
+      "eps": 30.9,
+      "filing": "https://nsearchives.nseindia.com/corporate/SOTL_03112026161117_bmoutcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SOTL",
+      "t": "03-Nov-2026 16:12:51",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752174_03112026074342_WEB.xml"
     }
   ]
 }
