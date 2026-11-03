@@ -739,6 +739,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-03T19:12:37.018325+00:00"
+      },
+      {
+        "key": "106842742",
+        "seq_id": "106842742",
+        "symbol": "DAMCAPITAL",
+        "company": "Dam Capital Advisors Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/DAMCAPITAL_03112026193013_Signed.pdf",
+        "an_dt": "03-Nov-2026 19:30:23",
+        "date": "2026-11-03",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-03T19:34:28.046867+00:00"
       }
     ],
     "next_cache": "2026-11-02",
@@ -1084,7 +1096,9 @@
     "106842697",
     "106842718",
     "106842730",
-    "106842725"
+    "106842725",
+    "106842747",
+    "106842742"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1292,37 +1306,11 @@
     "sagardeep_03112026191638_outcome_of_bm.pdf",
     "suyog_03112026192208_outcomeofbm03112026.pdf",
     "endurance_03112026192319_2026_11_03_-_outcome_of_bm_-_results_-_30_09_2026.pdf",
-    "subexltd_03112026192550_outcome_of_bm_03112026.pdf"
+    "subexltd_03112026192550_outcome_of_bm_03112026.pdf",
+    "ipl_03112026193116_outcome_of_the_board_meeting.pdf",
+    "damcapital_03112026193013_signed.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-10-31",
-      "s": "MASKINVEST",
-      "c": "Mask Investments Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/MASKINVEST_31102026161337_MASKBMOUTCOME31102026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MASKINVEST",
-      "t": "31-Oct-2026 16:17:08"
-    },
-    {
-      "d": "2026-10-31",
-      "s": "ZENTEC",
-      "c": "Zen Technologies Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 345.1326,
-      "pat": 101.8833,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/ZENTEC_31102026162542_BM_OC_UFR_Q2FY26.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ZENTEC",
-      "t": "31-Oct-2026 16:25:55"
-    },
     {
       "d": "2026-10-31",
       "s": "PODDARMENT",
@@ -5549,6 +5537,34 @@
       "filing": "https://nsearchives.nseindia.com/corporate/SUBEXLTD_03112026192550_Outcome_of_BM_03112026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SUBEXLTD",
       "t": "03-Nov-2026 19:26:50"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "IPL",
+      "c": "India Pesticides Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 228.71,
+      "pat": 18.42,
+      "eps": 1.6,
+      "filing": "https://nsearchives.nseindia.com/corporate/IPL_03112026193116_Outcome_of_the_Board_Meeting.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:IPL",
+      "t": "03-Nov-2026 19:31:28"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "DAMCAPITAL",
+      "c": "Dam Capital Advisors Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/DAMCAPITAL_03112026193013_Signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:DAMCAPITAL",
+      "t": "03-Nov-2026 19:30:23"
     }
   ]
 }
