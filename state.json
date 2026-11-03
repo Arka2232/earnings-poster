@@ -1027,7 +1027,8 @@
     "106843020",
     "106843028",
     "106843034",
-    "106843059"
+    "106843059",
+    "106843075"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1261,23 +1262,10 @@
     "mpslimited_03112026215301_outcome03112026.pdf",
     "ionexchange_03112026215436_iei_sep_2026_results_for_upload.pdf",
     "aarnav_03112026220228_afl_results_30092026signeddsc1.pdf",
-    "allcargo_03112026221331_seupload.pdf"
+    "allcargo_03112026221331_seupload.pdf",
+    "fractal_03112026223034_outcome_of_bm_03112026.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-11-02",
-      "s": "WONDERLA",
-      "c": "Wonderla Holidays Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 116.5702,
-      "pat": 0.0506,
-      "eps": 0.01,
-      "filing": "https://nsearchives.nseindia.com/corporate/WONDERLA_02112026133905_outcomeofBM_Results_Signed.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:WONDERLA",
-      "t": "02-Nov-2026 13:40:59"
-    },
     {
       "d": "2026-11-02",
       "s": "MMP",
@@ -5533,6 +5521,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/ALLCARGO_03112026221331_SEUpload.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:ALLCARGO",
       "t": "03-Nov-2026 22:15:31"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "FRACTAL",
+      "c": "Fractal Analytics Limited",
+      "r": "Bad",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 9.565000000000001,
+      "pat": 1.5150000000000001,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/FRACTAL_03112026223034_Outcome_of_BM_03112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:FRACTAL",
+      "t": "03-Nov-2026 22:31:17"
     }
   ]
 }
