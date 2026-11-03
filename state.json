@@ -606,7 +606,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T15:32:47.860306+00:00"
+        "xbrl_try": "2026-11-03T16:32:50.577676+00:00"
       },
       {
         "key": "106841659",
@@ -618,7 +618,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T15:32:48.541802+00:00"
+        "xbrl_try": "2026-11-03T16:32:51.369482+00:00"
       },
       {
         "key": "106841671",
@@ -1020,7 +1020,8 @@
     "106841923",
     "106841928",
     "106841985",
-    "106841982"
+    "106841982",
+    "106842012"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1164,7 +1165,8 @@
     "gngnse_03112026160558_bm_outcome.pdf",
     "sotl_03112026161117_bmoutcome.pdf",
     "il_fsengg_03112026162057_outcome_letterse.pdf",
-    "cosmofilms_03112026162116_outcome_03112026.pdf"
+    "cosmofilms_03112026162116_outcome_03112026.pdf",
+    "sedemac2007_03112026162947_20261103-outcomeofboardmeeting.pdf"
   ],
   "archive": [
     {
@@ -4593,6 +4595,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/COSMOFILMS_03112026162116_Outcome_03112026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:COSMOFIRST",
       "t": "03-Nov-2026 16:22:16"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "SEDEMAC",
+      "c": "SEDEMAC Mechatronics Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 400.64,
+      "pat": 39.18,
+      "eps": 8.87,
+      "filing": "https://nsearchives.nseindia.com/corporate/SEDEMAC2007_03112026162947_20261103-OutcomeofBoardMeeting.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SEDEMAC",
+      "t": "03-Nov-2026 16:31:34"
     }
   ]
 }
