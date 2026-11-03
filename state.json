@@ -711,7 +711,8 @@
     "106840747",
     "106840824",
     "106839899",
-    "106841358"
+    "106841358",
+    "106841367"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -799,7 +800,8 @@
     "digitide_02112026215817_digitide_outcome_02112026.pdf",
     "suhask_02112026230534_reg30outcomewithudin02112026.pdf",
     "sumedha_02112026170159_bmoutcome2112026signed.pdf",
-    "jyoticnc_nse_03112026115810_outcome_of_bm_03112026.pdf"
+    "jyoticnc_nse_03112026115810_outcome_of_bm_03112026.pdf",
+    "jainmetal_03112026120820_nsebseout.pdf"
   ],
   "archive": [
     {
@@ -3369,6 +3371,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/JYOTICNC_NSE_03112026115810_Outcome_of_BM_03112026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:JYOTICNC",
       "t": "03-Nov-2026 12:04:51"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "JAINREC",
+      "c": "Jain Resource Recycling Limited",
+      "r": "Positive",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 3336.978,
+      "pat": 90.66300000000001,
+      "eps": 2.64,
+      "filing": "https://nsearchives.nseindia.com/corporate/JAINMETAL_03112026120820_NSEBSEOUT.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:JAINREC",
+      "t": "03-Nov-2026 12:08:52"
     }
   ]
 }
