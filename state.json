@@ -497,7 +497,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-03T20:55:02.515994+00:00"
+        "xbrl_try": "2026-11-03T21:55:11.166876+00:00"
       },
       {
         "key": "106841577",
@@ -1023,7 +1023,8 @@
     "106842964",
     "106842976",
     "106842981",
-    "106843007"
+    "106843007",
+    "106843020"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1253,23 +1254,10 @@
     "icccsexecutive_03112026205749_icc_bm_outcome_november_3_26_final.pdf",
     "rsystemspj_03112026211010_rsystems_sd.pdf",
     "mircelectr_03112026211111_outcomeofboardmeeting03112026signed.pdf",
-    "cleanmax_03112026213525_outcome031126.pdf"
+    "cleanmax_03112026213525_outcome031126.pdf",
+    "mpslimited_03112026215301_outcome03112026.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-11-02",
-      "s": "CAPILLARY",
-      "c": "Capillary Technologies India Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 2713.55,
-      "pat": 219.16,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/CAPILLARY12_02112026121518_Intimation_Outcome_Board_Meeting.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CAPILLARY",
-      "t": "02-Nov-2026 12:17:07"
-    },
     {
       "d": "2026-11-02",
       "s": "UFBL",
@@ -5522,6 +5510,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/CLEANMAX_03112026213525_Outcome031126.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:CLEANMAX",
       "t": "03-Nov-2026 21:39:02"
+    },
+    {
+      "d": "2026-11-03",
+      "s": "MPSLTD",
+      "c": "MPS Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 2.2429,
+      "pat": 0.5545,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/MPSLIMITED_03112026215301_OUTCOME03112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MPSLTD",
+      "t": "03-Nov-2026 21:54:37"
     }
   ]
 }
