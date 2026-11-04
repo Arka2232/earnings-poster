@@ -2,64 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "HIKAL",
-      "c": "Hikal Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 434.2,
-      "pat": -6.1,
-      "eps": -0.49,
-      "filing": "https://nsearchives.nseindia.com/corporate/HIKAL_03112026142532_SEintBoardOutcomeNov2026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:HIKAL",
-      "t": "03-Nov-2026 14:27:08",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752083_03112026064803_WEB.xml"
-    },
-    {
-      "d": "2026-11-03",
-      "s": "RADHIKAJWE",
-      "c": "Radhika Jeweltech Limited",
-      "r": "Good",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 148.6292,
-      "pat": 22.163400000000003,
-      "eps": 1.88,
-      "filing": "https://nsearchives.nseindia.com/corporate/RADHIKA_03112026142844_outcomes26fr.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:RADHIKAJWE",
-      "t": "03-Nov-2026 14:30:18"
-    },
-    {
-      "d": "2026-11-03",
-      "s": "MONTECARLO",
-      "c": "Monte Carlo Fashions Limited",
-      "r": "Bad",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 262.4,
-      "pat": 1.17,
-      "eps": 0.56,
-      "filing": "https://nsearchives.nseindia.com/corporate/MONTECARLO_03112026143232_Financial_Results.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MONTECARLO",
-      "t": "03-Nov-2026 14:34:10",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751791_03112026040603_WEB.xml"
-    },
-    {
-      "d": "2026-11-03",
-      "s": "MGL",
-      "c": "Mahanagar Gas Limited",
-      "r": "Weak",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 2776.74,
-      "pat": 204.4,
-      "eps": 13.87,
-      "filing": "https://nsearchives.nseindia.com/corporate/MGL25_03112026143523_OutcomeBM03112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MGL",
-      "t": "03-Nov-2026 14:36:06"
-    },
-    {
-      "d": "2026-11-03",
       "s": "ARCHIDPLY",
       "c": "Archidply Industries Limited",
       "r": "Excellent",
@@ -4255,6 +4197,63 @@
       "filing": "https://nsearchives.nseindia.com/corporate/SCI1_04112026191407_Finalsd.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SCI",
       "t": "04-Nov-2026 19:19:00"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "KANSAINER",
+      "c": "Kansai Nerolac Paints Limited",
+      "r": "Good",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 2317.38,
+      "pat": 143.99,
+      "eps": 1.81,
+      "filing": "https://nsearchives.nseindia.com/corporate/KANSAINER_04112026192043_Outcome_of_Board_Meeting_-_4th_Nov_2026_signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:KANSAINER",
+      "t": "04-Nov-2026 19:21:06"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "AFCONS",
+      "c": "Afcons Infrastructure Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 2635.25,
+      "pat": 41.09,
+      "eps": 1.12,
+      "filing": "https://nsearchives.nseindia.com/corporate/AFCONS_04112026191300_Afcons_Outcome_of_the_Board_meetingdate04112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:AFCONS",
+      "t": "04-Nov-2026 19:20:55"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "GRINFRA",
+      "c": "G R Infraprojects Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q4 FY26",
+      "sales": 2325.4178,
+      "pat": 290.3025,
+      "eps": 30.25,
+      "filing": "https://nsearchives.nseindia.com/corporate/GRINFRA_04112026191744_Financial_Results_Q2_DSC04112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GRINFRA",
+      "t": "04-Nov-2026 19:20:42"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "FCSSOFT",
+      "c": "FCS Software Solutions Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 15.290099999999999,
+      "pat": 0.3291,
+      "eps": 0.0,
+      "filing": "https://nsearchives.nseindia.com/corporate/FCSSOFT_04112026171620_Outcome_of_BM_SD.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:FCSSOFT",
+      "t": "04-Nov-2026 17:18:46",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752928_04112026064135_WEB.xml"
     }
   ],
   "seen": [
@@ -4778,7 +4777,10 @@
     "106845479",
     "106845476",
     "106845472",
-    "106845496"
+    "106845496",
+    "106845509",
+    "106845506",
+    "106845503"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -5204,18 +5206,6 @@
         "xbrl_try": "2026-11-04T19:18:57.610137+00:00"
       },
       {
-        "key": "106844790",
-        "seq_id": "106844790",
-        "symbol": "FCSSOFT",
-        "company": "FCS Software Solutions Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/FCSSOFT_04112026171620_Outcome_of_BM_SD.pdf",
-        "an_dt": "04-Nov-2026 17:18:46",
-        "date": "2026-11-04",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-04T18:22:48.886794+00:00"
-      },
-      {
         "key": "106844778",
         "seq_id": "106844778",
         "symbol": "SOMANYCERA",
@@ -5225,7 +5215,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T18:22:49.250897+00:00"
+        "xbrl_try": "2026-11-04T19:23:07.761618+00:00"
       },
       {
         "key": "106844998",
@@ -6194,6 +6184,9 @@
     "platinum_04112026191251_outcome_of_board_meeting.pdf",
     "navkar9_04112026191350_outcome_with_results_with_lrr.pdf",
     "lumino123_04112026191207_outcomeofboardmeeting.pdf",
-    "sci1_04112026191407_finalsd.pdf"
+    "sci1_04112026191407_finalsd.pdf",
+    "kansainer_04112026192043_outcome_of_board_meeting_-_4th_nov_2026_signed.pdf",
+    "afcons_04112026191300_afcons_outcome_of_the_board_meetingdate04112026.pdf",
+    "grinfra_04112026191744_financial_results_q2_dsc04112026.pdf"
   ]
 }
