@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-02",
-      "s": "NARMADA",
-      "c": "Narmada Agrobase Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/NARMADA_02112026202155_Outcome_of_Board_Meeting.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:NARMADA",
-      "t": "02-Nov-2026 20:23:30"
-    },
-    {
-      "d": "2026-11-02",
       "s": "EPACKPEB",
       "c": "EPack Prefab Technologies Limited",
       "r": "Good",
@@ -4257,6 +4243,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/OSWALAGRO_04112026175250_Financial_results_final.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:OSWALAGRO",
       "t": "04-Nov-2026 17:54:42"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "ESSARSHPNG",
+      "c": "Essar Shipping Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/ESSARSHPNG_04112026175712_BM_Outcome_04112026__1_.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ESSARSHPNG",
+      "t": "04-Nov-2026 17:59:32"
     }
   ],
   "seen": [
@@ -4746,7 +4746,8 @@
     "106844932",
     "106844954",
     "106844965",
-    "106844998"
+    "106844998",
+    "106845044"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -5349,9 +5350,21 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-04T17:57:56.067308+00:00"
+      },
+      {
+        "key": "106845044",
+        "seq_id": "106845044",
+        "symbol": "ESSARSHPNG",
+        "company": "Essar Shipping Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/ESSARSHPNG_04112026175712_BM_Outcome_04112026__1_.pdf",
+        "an_dt": "04-Nov-2026 17:59:32",
+        "date": "2026-11-04",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-04T18:02:47.595199+00:00"
       }
     ],
-    "ipo_check": "2026-11-04 17",
+    "ipo_check": "2026-11-04 18",
     "ipo_posted": [
       "BCSSL",
       "HGSINDIALT",
@@ -6163,6 +6176,7 @@
     "oal_04112026173914_intimation.pdf",
     "ruchinfra_04112026174648_outcomeofboardmeetingheldon04112026.pdf",
     "apollohosp_04112026174756_se_communication_04112026_s.pdf",
-    "oswalagro_04112026175250_financial_results_final.pdf"
+    "oswalagro_04112026175250_financial_results_final.pdf",
+    "essarshpng_04112026175712_bm_outcome_04112026__1_.pdf"
   ]
 }
