@@ -1177,7 +1177,8 @@
     "106843986",
     "106843993",
     "106843995",
-    "106843994"
+    "106843994",
+    "106844000"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1465,24 +1466,10 @@
     "icil_04112026135052_outcome.pdf",
     "saksoft_04112026135307_reg30outcomeofbmnov_042026finalsigned.pdf",
     "hiralmehta_04112026135157_outcomeofboardmeeting.pdf",
-    "allcargoterminals_04112026135358_seupload.pdf"
+    "allcargoterminals_04112026135358_seupload.pdf",
+    "jyothylab_04112026135026_seintimationoutcomebm.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-11-02",
-      "s": "MOHITIND",
-      "c": "Mohit Industries Limited",
-      "r": "Bad",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 28.3052,
-      "pat": -0.37029999999999996,
-      "eps": -0.26,
-      "filing": "https://nsearchives.nseindia.com/corporate/MOHITIND_02112026180454_MILOUTCOMEBM02112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MOHITIND",
-      "t": "02-Nov-2026 18:07:11",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751334_02112026063904_WEB.xml"
-    },
     {
       "d": "2026-11-02",
       "s": "GSLSU",
@@ -5723,6 +5710,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/ALLCARGOTERMINALS_04112026135358_SEupload.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:ATL",
       "t": "04-Nov-2026 13:54:20"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "JYOTHYLAB",
+      "c": "Jyothy Labs Limited",
+      "r": "Bad",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 7.6004,
+      "pat": 0.106,
+      "eps": 0.29,
+      "filing": "https://nsearchives.nseindia.com/corporate/JYOTHYLAB_04112026135026_SEIntimationOutcomeBM.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:JYOTHYLAB",
+      "t": "04-Nov-2026 13:58:10"
     }
   ]
 }
