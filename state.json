@@ -2,21 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "BHAGCHEM",
-      "c": "Bhagiradha Chemicals & Industries Limited",
-      "r": "Positive",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 169.9159,
-      "pat": 5.4079999999999995,
-      "eps": 0.42,
-      "filing": "https://nsearchives.nseindia.com/corporate/BHAGCHEM_03112026145415_seintimation.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BHAGCHEM",
-      "t": "03-Nov-2026 14:56:26",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752121_03112026070858_WEB.xml"
-    },
-    {
-      "d": "2026-11-03",
       "s": "RTNINDIA",
       "c": "RattanIndia Enterprises Limited",
       "r": "Positive",
@@ -4254,6 +4239,20 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:EXICOM",
       "t": "04-Nov-2026 14:12:18",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753015_04112026071133_WEB.xml"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "UNIPARTS",
+      "c": "Uniparts India Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 378.51,
+      "pat": 54.426,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/Earth_2018_04112026193020_OutcomeofBoardMeeting04112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:UNIPARTS",
+      "t": "04-Nov-2026 19:31:51"
     }
   ],
   "seen": [
@@ -4781,7 +4780,8 @@
     "106845509",
     "106845506",
     "106845503",
-    "106845547"
+    "106845547",
+    "106845559"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -6177,6 +6177,7 @@
     "kansainer_04112026192043_outcome_of_board_meeting_-_4th_nov_2026_signed.pdf",
     "afcons_04112026191300_afcons_outcome_of_the_board_meetingdate04112026.pdf",
     "grinfra_04112026191744_financial_results_q2_dsc04112026.pdf",
-    "nhpc_04112026192444_stx_intimation_results_30092026.pdf"
+    "nhpc_04112026192444_stx_intimation_results_30092026.pdf",
+    "earth_2018_04112026193020_outcomeofboardmeeting04112026.pdf"
   ]
 }
