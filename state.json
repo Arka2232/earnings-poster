@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "COSMOFIRST",
-      "c": "COSMO FIRST LIMITED",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 1387.86,
-      "pat": 98.58,
-      "eps": 37.98,
-      "filing": "https://nsearchives.nseindia.com/corporate/COSMOFILMS_03112026162116_Outcome_03112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:COSMOFIRST",
-      "t": "03-Nov-2026 16:22:16"
-    },
-    {
-      "d": "2026-11-03",
       "s": "SEDEMAC",
       "c": "SEDEMAC Mechatronics Limited",
       "r": "Excellent",
@@ -4249,6 +4235,20 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SOMANYCERA",
       "t": "04-Nov-2026 17:16:46",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753087_04112026073834_WEB.xml"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "NRBBEARING",
+      "c": "NRB Bearing Limited",
+      "r": "Weak",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 3.8636000000000004,
+      "pat": 0.3624,
+      "eps": 3.66,
+      "filing": "https://nsearchives.nseindia.com/corporate/NRBBEARING1_04112026202745_Signed_NRB_Outcome_November_04_2026_for_upload.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:NRBBEARING",
+      "t": "04-Nov-2026 20:31:14"
     }
   ],
   "seen": [
@@ -4792,7 +4792,8 @@
     "106845687",
     "106845699",
     "106845707",
-    "106845714"
+    "106845714",
+    "106845733"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -4961,7 +4962,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T19:31:16.554253+00:00"
+        "xbrl_try": "2026-11-04T20:33:59.615495+00:00"
       },
       {
         "key": "106842383",
@@ -4973,7 +4974,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T19:31:17.474748+00:00"
+        "xbrl_try": "2026-11-04T20:34:00.649376+00:00"
       },
       {
         "key": "106842647",
@@ -4985,7 +4986,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T19:31:18.629726+00:00"
+        "xbrl_try": "2026-11-04T20:34:02.321890+00:00"
       },
       {
         "key": "106842850",
@@ -5010,7 +5011,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T19:31:19.528907+00:00"
+        "xbrl_try": "2026-11-04T20:34:04.167962+00:00"
       },
       {
         "key": "106843308",
@@ -5107,7 +5108,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T19:31:27.378349+00:00"
+        "xbrl_try": "2026-11-04T20:34:06.103851+00:00"
       },
       {
         "key": "106844553",
@@ -6192,6 +6193,7 @@
     "sbglp_04112026200751_bm_outcome_04112026signed.pdf",
     "entero_04112026201308_boardmeeting_outcome.pdf",
     "hytech_04112026201209_outcome_04nov2026.pdf",
-    "mazda_04112026201942_outcome_of_board_meeting_04-11-26.pdf"
+    "mazda_04112026201942_outcome_of_board_meeting_04-11-26.pdf",
+    "nrbbearing1_04112026202745_signed_nrb_outcome_november_04_2026_for_upload.pdf"
   ]
 }
