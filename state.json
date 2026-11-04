@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-02",
-      "s": "SPARC",
-      "c": "Sun Pharma Advanced Research Company Limited",
-      "r": "Positive",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 0.3003,
-      "pat": -0.2439,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/SPARC_02112026194504_OutcomeofBM02112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SPARC",
-      "t": "02-Nov-2026 19:46:12"
-    },
-    {
-      "d": "2026-11-02",
       "s": "VIVIANA",
       "c": "Viviana Power Tech Limited",
       "r": "Excellent",
@@ -4257,6 +4243,20 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:MARKSANS",
       "t": "04-Nov-2026 13:34:26",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752710_04112026051034_WEB.xml"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "RUCHINFRA",
+      "c": "Ruchi Infrastructure Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/RUCHINFRA_04112026174648_OutcomeofBoardMeetingheldon04112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:RUCHINFRA",
+      "t": "04-Nov-2026 17:47:51"
     }
   ],
   "seen": [
@@ -4743,7 +4743,8 @@
     "106844861",
     "106844858",
     "106844889",
-    "106844932"
+    "106844932",
+    "106844954"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -5322,6 +5323,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-04T17:22:21.848439+00:00"
+      },
+      {
+        "key": "106844954",
+        "seq_id": "106844954",
+        "symbol": "RUCHINFRA",
+        "company": "Ruchi Infrastructure Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/RUCHINFRA_04112026174648_OutcomeofBoardMeetingheldon04112026.pdf",
+        "an_dt": "04-Nov-2026 17:47:51",
+        "date": "2026-11-04",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-04T17:50:24.366839+00:00"
       }
     ],
     "ipo_check": "2026-11-04 17",
@@ -6133,6 +6146,7 @@
     "sanathan_04112026173106_stl_outcomeofbm.pdf",
     "patel_04112026172750_prloutcome.pdf",
     "63moons_04112026173552_financialresults04112026.pdf",
-    "oal_04112026173914_intimation.pdf"
+    "oal_04112026173914_intimation.pdf",
+    "ruchinfra_04112026174648_outcomeofboardmeetingheldon04112026.pdf"
   ]
 }
