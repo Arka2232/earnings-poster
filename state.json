@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "WEWIN",
-      "c": "WE WIN LIMITED",
-      "r": "Bad",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 24.7296,
-      "pat": 0.0046,
-      "eps": 0.0,
-      "filing": "https://nsearchives.nseindia.com/corporate/SUREVIN_03112026170540_BODOutcome03112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:WEWIN",
-      "t": "03-Nov-2026 17:07:00"
-    },
-    {
-      "d": "2026-11-03",
       "s": "ADVENTHTL",
       "c": "Advent Hotels International Limited",
       "r": "Results Filed",
@@ -4249,6 +4235,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/GALAXYSURF_04112026204444_outcomeds.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:GALAXYSURF",
       "t": "04-Nov-2026 20:48:24"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "SHUKRAPHAR",
+      "c": "Shukra Pharmaceuticals Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 44.2038,
+      "pat": 12.7119,
+      "eps": 0.29,
+      "filing": "https://nsearchives.nseindia.com/corporate/SHUKRA_04112026205115_Outcome_shukra_sw.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SHUKRAPHAR",
+      "t": "04-Nov-2026 20:52:35"
     }
   ],
   "seen": [
@@ -4800,7 +4800,8 @@
     "106845758",
     "106845757",
     "106845756",
-    "106845762"
+    "106845762",
+    "106845774"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -6172,6 +6173,7 @@
     "total_04112026204157_total_outcome_to_se_bm.pdf",
     "sadbhav_04112026204318_seloutcomeofboardmeeting04112026signed1.pdf",
     "trigyn_04112026204232_ttl_bm_outcome_with_results_04112026_-sd.pdf",
-    "galaxysurf_04112026204444_outcomeds.pdf"
+    "galaxysurf_04112026204444_outcomeds.pdf",
+    "shukra_04112026205115_outcome_shukra_sw.pdf"
   ]
 }
