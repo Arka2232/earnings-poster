@@ -2,48 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "SEDEMAC",
-      "c": "SEDEMAC Mechatronics Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 400.64,
-      "pat": 39.18,
-      "eps": 8.87,
-      "filing": "https://nsearchives.nseindia.com/corporate/SEDEMAC2007_03112026162947_20261103-OutcomeofBoardMeeting.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SEDEMAC",
-      "t": "03-Nov-2026 16:31:34"
-    },
-    {
-      "d": "2026-11-03",
-      "s": "KOTHARIPET",
-      "c": "Kothari Petrochemicals Limited",
-      "r": "Good",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 165.36540000000002,
-      "pat": 19.531,
-      "eps": 3.32,
-      "filing": "https://nsearchives.nseindia.com/corporate/KOTHARIPET_03112026163206_OutcomeofBoardMeeting_03112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:KOTHARIPET",
-      "t": "03-Nov-2026 16:34:30"
-    },
-    {
-      "d": "2026-11-03",
-      "s": "DREAMFOLKS",
-      "c": "Dreamfolks Services Limited",
-      "r": "Bad",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 31.066000000000003,
-      "pat": -10.740000000000002,
-      "eps": -1.98,
-      "filing": "https://nsearchives.nseindia.com/corporate/DREAMFOLKS24_03112026163624_DFSL_Outcome_BM_November_03_2026_Signed.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:DREAMFOLKS",
-      "t": "03-Nov-2026 16:38:10"
-    },
-    {
-      "d": "2026-11-03",
       "s": "CHAMBLFERT",
       "c": "Chambal Fertilizers & Chemicals Limited",
       "r": "Good",
@@ -4249,6 +4207,50 @@
       "filing": "https://nsearchives.nseindia.com/corporate/NRBBEARING1_04112026202745_Signed_NRB_Outcome_November_04_2026_for_upload.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:NRBBEARING",
       "t": "04-Nov-2026 20:31:14"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "ORICONENT",
+      "c": "Oricon Enterprises Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 9.9468,
+      "pat": 8.8528,
+      "eps": 0.53,
+      "filing": "https://nsearchives.nseindia.com/corporate/ORICON_04112026203125_OutcomeofBoardMeeting04112026final.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ORICONENT",
+      "t": "04-Nov-2026 20:33:32"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "KIRLOSENG",
+      "c": "Kirloskar Oil Engines Limited",
+      "r": "Weak",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 2284.04,
+      "pat": 130.31,
+      "eps": 9.04,
+      "filing": "https://nsearchives.nseindia.com/corporate/KIRLOSENG_04112026162737_SE_Outcome_Result_4Nov26.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:KIRLOSENG",
+      "t": "04-Nov-2026 16:31:05",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753149_04112026082403_WEB.xml"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "DELTAMAGNT",
+      "c": "Delta Manufacturing Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 18.182399999999998,
+      "pat": -1.4046999999999998,
+      "eps": -1.29,
+      "filing": "https://nsearchives.nseindia.com/corporate/DELTAMAGNT_04112026182906_DML.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:DELTAMAGNT",
+      "t": "04-Nov-2026 18:33:25",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753132_04112026080739_WEB.xml"
     }
   ],
   "seen": [
@@ -4793,7 +4795,8 @@
     "106845699",
     "106845707",
     "106845714",
-    "106845733"
+    "106845733",
+    "106845740"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -5059,7 +5062,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T19:38:58.787032+00:00"
+        "xbrl_try": "2026-11-04T20:40:44.787964+00:00"
       },
       {
         "key": "106844203",
@@ -5109,18 +5112,6 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-04T20:34:06.103851+00:00"
-      },
-      {
-        "key": "106844553",
-        "seq_id": "106844553",
-        "symbol": "KIRLOSENG",
-        "company": "Kirloskar Oil Engines Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/KIRLOSENG_04112026162737_SE_Outcome_Result_4Nov26.pdf",
-        "an_dt": "04-Nov-2026 16:31:05",
-        "date": "2026-11-04",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-04T19:38:59.271857+00:00"
       },
       {
         "key": "106844610",
@@ -5240,19 +5231,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T19:35:11.286731+00:00"
-      },
-      {
-        "key": "106845243",
-        "seq_id": "106845243",
-        "symbol": "DELTAMAGNT",
-        "company": "Delta Manufacturing Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/DELTAMAGNT_04112026182906_DML.pdf",
-        "an_dt": "04-Nov-2026 18:33:25",
-        "date": "2026-11-04",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-04T19:38:59.816809+00:00"
+        "xbrl_try": "2026-11-04T20:40:51.708042+00:00"
       },
       {
         "key": "106845298",
@@ -5288,7 +5267,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T19:39:00.825844+00:00"
+        "xbrl_try": "2026-11-04T20:40:56.653468+00:00"
       },
       {
         "key": "106845597",
@@ -6194,6 +6173,7 @@
     "entero_04112026201308_boardmeeting_outcome.pdf",
     "hytech_04112026201209_outcome_04nov2026.pdf",
     "mazda_04112026201942_outcome_of_board_meeting_04-11-26.pdf",
-    "nrbbearing1_04112026202745_signed_nrb_outcome_november_04_2026_for_upload.pdf"
+    "nrbbearing1_04112026202745_signed_nrb_outcome_november_04_2026_for_upload.pdf",
+    "oricon_04112026203125_outcomeofboardmeeting04112026final.pdf"
   ]
 }
