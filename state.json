@@ -2,34 +2,6 @@
   "archive": [
     {
       "d": "2026-11-02",
-      "s": "EPACKPEB",
-      "c": "EPack Prefab Technologies Limited",
-      "r": "Good",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 501.1253,
-      "pat": 29.5795,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/EPACKPREFAB_02112026202839_Outcome.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:EPACKPEB",
-      "t": "02-Nov-2026 20:30:43"
-    },
-    {
-      "d": "2026-11-02",
-      "s": "PRASOLCHEM",
-      "c": "Prasol Chemicals Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 412.56600000000003,
-      "pat": 37.975,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/8591996826_02112026203504_BMoutcome02112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PRASOLCHEM",
-      "t": "02-Nov-2026 20:36:30"
-    },
-    {
-      "d": "2026-11-02",
       "s": "VESUVIUS",
       "c": "Vesuvius India Limited",
       "r": "Positive",
@@ -4257,6 +4229,34 @@
       "filing": "https://nsearchives.nseindia.com/corporate/ESSARSHPNG_04112026175712_BM_Outcome_04112026__1_.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:ESSARSHPNG",
       "t": "04-Nov-2026 17:59:32"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "BSE",
+      "c": "BSE Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/BSE1_04112026175851_NSEINTIMATION.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BSE",
+      "t": "04-Nov-2026 18:01:51"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "KRISHIVAL",
+      "c": "Krishival Foods Limited",
+      "r": "Good",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 85.6628,
+      "pat": 6.818300000000001,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/EMPYREAN_04112026175928_Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:KRISHIVAL",
+      "t": "04-Nov-2026 18:00:28"
     }
   ],
   "seen": [
@@ -4747,7 +4747,9 @@
     "106844954",
     "106844965",
     "106844998",
-    "106845044"
+    "106845044",
+    "106845063",
+    "106845053"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -5362,6 +5364,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-04T18:02:47.595199+00:00"
+      },
+      {
+        "key": "106845063",
+        "seq_id": "106845063",
+        "symbol": "BSE",
+        "company": "BSE Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/BSE1_04112026175851_NSEINTIMATION.pdf",
+        "an_dt": "04-Nov-2026 18:01:51",
+        "date": "2026-11-04",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-04T18:05:09.990611+00:00"
       }
     ],
     "ipo_check": "2026-11-04 18",
@@ -6177,6 +6191,8 @@
     "ruchinfra_04112026174648_outcomeofboardmeetingheldon04112026.pdf",
     "apollohosp_04112026174756_se_communication_04112026_s.pdf",
     "oswalagro_04112026175250_financial_results_final.pdf",
-    "essarshpng_04112026175712_bm_outcome_04112026__1_.pdf"
+    "essarshpng_04112026175712_bm_outcome_04112026__1_.pdf",
+    "bse1_04112026175851_nseintimation.pdf",
+    "empyrean_04112026175928_outcome.pdf"
   ]
 }
