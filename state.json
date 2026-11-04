@@ -728,6 +728,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-04T13:35:50.959133+00:00"
+      },
+      {
+        "key": "106843938",
+        "seq_id": "106843938",
+        "symbol": "MARKSANS",
+        "company": "Marksans Pharma Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/MARKSANS_04112026133031_Seintimation-Results.pdf",
+        "an_dt": "04-Nov-2026 13:34:26",
+        "date": "2026-11-04",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-04T13:37:34.787839+00:00"
       }
     ],
     "next_cache": "2026-11-03",
@@ -1144,7 +1156,8 @@
     "106843920",
     "106843919",
     "106843918",
-    "106843917"
+    "106843917",
+    "106843938"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1423,24 +1436,10 @@
     "centuryply_04112026132751_se_letter__results.pdf",
     "lalpathlab_04112026132659_bmoutcome041126.pdf",
     "jtektindia_04112026132532_outcome_of_board_meeting.pdf",
-    "redtape_04112026132833_outcome_of_bm.pdf"
+    "redtape_04112026132833_outcome_of_bm.pdf",
+    "marksans_04112026133031_seintimation-results.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-11-02",
-      "s": "CLCIND",
-      "c": "CLC Industries Limited",
-      "r": "Positive",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 67.7453,
-      "pat": 0.8514999999999999,
-      "eps": 0.81,
-      "filing": "https://nsearchives.nseindia.com/corporate/SPENTEX_BVR_02112026173746_OutcomeFS.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CLCIND",
-      "t": "02-Nov-2026 17:39:13",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751339_02112026064450_WEB.xml"
-    },
     {
       "d": "2026-11-02",
       "s": "SHEMAROO",
@@ -5684,6 +5683,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/REDTAPE_04112026132833_Outcome_of_BM.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:REDTAPE",
       "t": "04-Nov-2026 13:29:29"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "MARKSANS",
+      "c": "Marksans Pharma Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/MARKSANS_04112026133031_Seintimation-Results.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MARKSANS",
+      "t": "04-Nov-2026 13:34:26"
     }
   ]
 }
