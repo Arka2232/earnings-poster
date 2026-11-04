@@ -1094,7 +1094,8 @@
     "106843810",
     "106843807",
     "106843796",
-    "106843831"
+    "106843831",
+    "106843834"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1359,23 +1360,10 @@
     "ramcoind_04112026124411_frq2_202627.pdf",
     "panamapet_04112026124405_outcome.pdf",
     "bectorfood_04112026124229_outcome_bm_4112026.pdf",
-    "steelxind_04112026125541_outcome_of_board_meeting_04112026_final_signed.pdf"
+    "steelxind_04112026125541_outcome_of_board_meeting_04112026_final_signed.pdf",
+    "sundaramclayton_04112026125755_quickresultssd.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-11-02",
-      "s": "ESDS",
-      "c": "ESDS Software Solution Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 120.94600000000001,
-      "pat": 23.191000000000003,
-      "eps": 2.11,
-      "filing": "https://nsearchives.nseindia.com/corporate/ESDS_02112026163013_ESDS_BM_Outcome_BSE_NSE_Intimation.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ESDS",
-      "t": "02-Nov-2026 16:53:51"
-    },
     {
       "d": "2026-11-02",
       "s": "FINEORG",
@@ -5625,6 +5613,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/STEELXIND_04112026125541_Outcome_of_Board_Meeting_04112026_Final_Signed.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:STEELXIND",
       "t": "04-Nov-2026 12:57:26"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "SUNCLAY",
+      "c": "Sundaram Clayton Limited",
+      "r": "Good",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 697.72,
+      "pat": -50.77,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/SUNDARAMCLAYTON_04112026125755_QUICKRESULTSSD.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SUNCLAY",
+      "t": "04-Nov-2026 12:59:15"
     }
   ]
 }
