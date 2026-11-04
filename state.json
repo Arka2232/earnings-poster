@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-02",
-      "s": "PURVA",
-      "c": "Puravankara Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 1032.5,
-      "pat": 83.74,
-      "eps": 3.42,
-      "filing": "https://nsearchives.nseindia.com/corporate/PURVA_02112026201310_SE-intimation.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PURVA",
-      "t": "02-Nov-2026 20:15:16"
-    },
-    {
-      "d": "2026-11-02",
       "s": "NARMADA",
       "c": "Narmada Agrobase Limited",
       "r": "Results Filed",
@@ -4257,6 +4243,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/APOLLOHOSP_04112026174756_SE_Communication_04112026_s.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:APOLLOHOSP",
       "t": "04-Nov-2026 17:49:17"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "OSWALAGRO",
+      "c": "Oswal Agro Mills Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/OSWALAGRO_04112026175250_Financial_results_final.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:OSWALAGRO",
+      "t": "04-Nov-2026 17:54:42"
     }
   ],
   "seen": [
@@ -4745,7 +4745,8 @@
     "106844889",
     "106844932",
     "106844954",
-    "106844965"
+    "106844965",
+    "106844998"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -5336,6 +5337,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-04T17:50:24.366839+00:00"
+      },
+      {
+        "key": "106844998",
+        "seq_id": "106844998",
+        "symbol": "OSWALAGRO",
+        "company": "Oswal Agro Mills Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/OSWALAGRO_04112026175250_Financial_results_final.pdf",
+        "an_dt": "04-Nov-2026 17:54:42",
+        "date": "2026-11-04",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-04T17:57:56.067308+00:00"
       }
     ],
     "ipo_check": "2026-11-04 17",
@@ -6149,6 +6162,7 @@
     "63moons_04112026173552_financialresults04112026.pdf",
     "oal_04112026173914_intimation.pdf",
     "ruchinfra_04112026174648_outcomeofboardmeetingheldon04112026.pdf",
-    "apollohosp_04112026174756_se_communication_04112026_s.pdf"
+    "apollohosp_04112026174756_se_communication_04112026_s.pdf",
+    "oswalagro_04112026175250_financial_results_final.pdf"
   ]
 }
