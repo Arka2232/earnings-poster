@@ -1071,7 +1071,8 @@
     "106843308",
     "106843418",
     "106843505",
-    "106843651"
+    "106843651",
+    "106843661"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1325,23 +1326,10 @@
     "belding_04112026033012_se_intimation.pdf",
     "garudaconstruction2010_04112026094801_financial_results_signed.pdf",
     "gaaml2025_04112026102248_outcome_of_bm.pdf",
-    "vintage_04112026114217_bmoutcome04112026.pdf"
+    "vintage_04112026114217_bmoutcome04112026.pdf",
+    "gabriel_04112026115003_bm_outcome_signed.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-11-02",
-      "s": "HLEGLAS",
-      "c": "HLE Glascoat Limited",
-      "r": "Positive",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 346.6542,
-      "pat": 16.0197,
-      "eps": 2.06,
-      "filing": "https://nsearchives.nseindia.com/corporate/HLEGLASCOAT_02112026160152_522215_UFR_sd_F.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:HLEGLAS",
-      "t": "02-Nov-2026 16:10:36"
-    },
     {
       "d": "2026-11-02",
       "s": "PRIMO",
@@ -5595,6 +5583,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/VINTAGE_04112026114217_BMOUTCOME04112026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:VINCOFE",
       "t": "04-Nov-2026 11:44:12"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "GABRIEL",
+      "c": "Gabriel India Limited",
+      "r": "Good",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 1607.996,
+      "pat": 123.96900000000001,
+      "eps": 6.8,
+      "filing": "https://nsearchives.nseindia.com/corporate/GABRIEL_04112026115003_BM_outcome_signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GABRIEL",
+      "t": "04-Nov-2026 11:50:43"
     }
   ]
 }
