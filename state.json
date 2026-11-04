@@ -2,49 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "DEEPINDS",
-      "c": "Deep Industries Limited",
-      "r": "Good",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 295.4291,
-      "pat": 81.2242,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/DEEPINDS_03112026132142_Outcome.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:DEEPINDS",
-      "t": "03-Nov-2026 13:22:40"
-    },
-    {
-      "d": "2026-11-03",
-      "s": "PRINCEPIPE",
-      "c": "Prince Pipes And Fittings Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q3 FY27",
-      "sales": 820.814,
-      "pat": 47.764,
-      "eps": 4.32,
-      "filing": "https://nsearchives.nseindia.com/corporate/PRINCEPIPE_03112026132925_SE_Outcome.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PRINCEPIPE",
-      "t": "03-Nov-2026 13:32:02"
-    },
-    {
-      "d": "2026-11-03",
-      "s": "SIL",
-      "c": "Standard Industries Limited",
-      "r": "Good",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 7.7313,
-      "pat": -5.8659,
-      "eps": -0.91,
-      "filing": "https://nsearchives.nseindia.com/corporate/SIL_03112026133451_OUTCOME_031126.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SIL",
-      "t": "03-Nov-2026 13:38:06",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751692_03112026015556_WEB.xml"
-    },
-    {
-      "d": "2026-11-03",
       "s": "PUNJABCHEM",
       "c": "Punjab Chemicals & Crop Protection Limited",
       "r": "Bad",
@@ -4254,6 +4211,50 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:RUCHINFRA",
       "t": "04-Nov-2026 17:47:51",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752803_04112026055341_WEB.xml"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "STEELCITY",
+      "c": "Steel City Securities Limited",
+      "r": "Good",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 16.716900000000003,
+      "pat": 4.1552999999999995,
+      "eps": 2.75,
+      "filing": "https://nsearchives.nseindia.com/corporate/STEELCITY_04112026184952_Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:STEELCITY",
+      "t": "04-Nov-2026 18:51:02"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "TRACXN",
+      "c": "Tracxn Technologies Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 21.301299999999998,
+      "pat": -4.1262,
+      "eps": -0.39,
+      "filing": "https://nsearchives.nseindia.com/corporate/TRACXN_04112026154600_Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:TRACXN",
+      "t": "04-Nov-2026 15:47:50",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752939_04112026064802_WEB.xml"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "EPL",
+      "c": "EPL Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 1567.3999999999999,
+      "pat": 110.89999999999999,
+      "eps": 3.44,
+      "filing": "https://nsearchives.nseindia.com/corporate/Sonia_Gupte_04112026164105_OutcomeOfBMSd.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:EPL",
+      "t": "04-Nov-2026 16:46:05",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752892_04112026062638_WEB.xml"
     }
   ],
   "seen": [
@@ -4765,7 +4766,8 @@
     "106845293",
     "106845321",
     "106845310",
-    "106845308"
+    "106845308",
+    "106845340"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -4995,7 +4997,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T17:53:14.816722+00:00"
+        "xbrl_try": "2026-11-04T18:53:23.330759+00:00"
       },
       {
         "key": "106843651",
@@ -5007,7 +5009,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T17:53:15.652440+00:00"
+        "xbrl_try": "2026-11-04T18:53:24.209381+00:00"
       },
       {
         "key": "106843847",
@@ -5083,18 +5085,6 @@
         "xbrl_blocked": "other-taxonomy"
       },
       {
-        "key": "106844377",
-        "seq_id": "106844377",
-        "symbol": "TRACXN",
-        "company": "Tracxn Technologies Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/TRACXN_04112026154600_Outcome.pdf",
-        "an_dt": "04-Nov-2026 15:47:50",
-        "date": "2026-11-04",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-04T17:52:45.013967+00:00"
-      },
-      {
         "key": "106844465",
         "seq_id": "106844465",
         "symbol": "CHEMPLASTS",
@@ -5143,18 +5133,6 @@
         "xbrl_try": "2026-11-04T18:37:09.327055+00:00"
       },
       {
-        "key": "106844619",
-        "seq_id": "106844619",
-        "symbol": "EPL",
-        "company": "EPL Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/Sonia_Gupte_04112026164105_OutcomeOfBMSd.pdf",
-        "an_dt": "04-Nov-2026 16:46:05",
-        "date": "2026-11-04",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-04T17:52:45.464228+00:00"
-      },
-      {
         "key": "106844610",
         "seq_id": "106844610",
         "symbol": "ASPINWALL",
@@ -5164,7 +5142,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T17:52:47.969250+00:00"
+        "xbrl_try": "2026-11-04T18:53:38.121258+00:00"
       },
       {
         "key": "106844635",
@@ -5176,7 +5154,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T17:52:48.379430+00:00"
+        "xbrl_try": "2026-11-04T18:53:38.539357+00:00"
       },
       {
         "key": "106844711",
@@ -6229,6 +6207,7 @@
     "spic_04112026183859_outcome_of_bm_04_11_2026_final.pdf",
     "satindustries_04112026184603_outcomeofboardmeetingnov042026.pdf",
     "adroitinfo_04112026184439_outcomeq227.pdf",
-    "theinvest_04112026184306_theitioutcomeofmeeting_sept26.pdf"
+    "theinvest_04112026184306_theitioutcomeofmeeting_sept26.pdf",
+    "steelcity_04112026184952_outcome.pdf"
   ]
 }
