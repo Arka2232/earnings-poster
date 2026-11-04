@@ -2,35 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "ARCHIDPLY",
-      "c": "Archidply Industries Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 158.4591,
-      "pat": 4.5311,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/ARCHIDPLY_03112026143636_Outcome.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ARCHIDPLY",
-      "t": "03-Nov-2026 14:38:05"
-    },
-    {
-      "d": "2026-11-03",
-      "s": "BLS",
-      "c": "BLS International Services Limited",
-      "r": "Good",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 972.6782,
-      "pat": 201.7412,
-      "eps": 4.52,
-      "filing": "https://nsearchives.nseindia.com/corporate/BLS_03112026143832_Outcome_Board_meeting_03112026_Signed.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BLS",
-      "t": "03-Nov-2026 14:38:56",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752228_03112026082030_WEB.xml"
-    },
-    {
-      "d": "2026-11-03",
       "s": "BHAGCHEM",
       "c": "Bhagiradha Chemicals & Industries Limited",
       "r": "Positive",
@@ -4254,6 +4225,35 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:FCSSOFT",
       "t": "04-Nov-2026 17:18:46",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752928_04112026064135_WEB.xml"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "NHPC",
+      "c": "NHPC Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 4482.55,
+      "pat": 1657.57,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/NHPC_04112026192444_STX_Intimation_Results_30092026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:NHPC",
+      "t": "04-Nov-2026 19:28:37"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "EXICOM",
+      "c": "Exicom Tele-Systems Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 276.9822,
+      "pat": 7.795299999999999,
+      "eps": 0.56,
+      "filing": "https://nsearchives.nseindia.com/corporate/EXICOM_04112026140942_outcome-signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:EXICOM",
+      "t": "04-Nov-2026 14:12:18",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753015_04112026071133_WEB.xml"
     }
   ],
   "seen": [
@@ -4780,7 +4780,8 @@
     "106845496",
     "106845509",
     "106845506",
-    "106845503"
+    "106845503",
+    "106845547"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -4949,7 +4950,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T18:28:53.713196+00:00"
+        "xbrl_try": "2026-11-04T19:31:16.554253+00:00"
       },
       {
         "key": "106842383",
@@ -4961,7 +4962,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T18:28:54.465127+00:00"
+        "xbrl_try": "2026-11-04T19:31:17.474748+00:00"
       },
       {
         "key": "106842647",
@@ -4973,7 +4974,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T18:28:55.590149+00:00"
+        "xbrl_try": "2026-11-04T19:31:18.629726+00:00"
       },
       {
         "key": "106842850",
@@ -4998,7 +4999,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T18:28:56.715361+00:00"
+        "xbrl_try": "2026-11-04T19:31:19.528907+00:00"
       },
       {
         "key": "106843308",
@@ -5047,18 +5048,6 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-04T18:42:20.667128+00:00"
-      },
-      {
-        "key": "106844039",
-        "seq_id": "106844039",
-        "symbol": "EXICOM",
-        "company": "Exicom Tele-Systems Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/EXICOM_04112026140942_outcome-signed.pdf",
-        "an_dt": "04-Nov-2026 14:12:18",
-        "date": "2026-11-04",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-04T18:28:57.479419+00:00"
       },
       {
         "key": "106844083",
@@ -5119,7 +5108,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T18:30:50.729840+00:00"
+        "xbrl_try": "2026-11-04T19:31:27.378349+00:00"
       },
       {
         "key": "106844553",
@@ -5348,7 +5337,7 @@
     "calendar": "2026-11-04",
     "recap": "2026-11-01",
     "nightly_pass": "2026-11-03",
-    "wrap": "2026-11-03",
+    "wrap": "2026-11-04",
     "next_results": {
       "symbols": [
         "63MOONS",
@@ -5568,7 +5557,7 @@
       ],
       "date": "2026-11-04"
     },
-    "fiidii": "2026-11-03",
+    "fiidii": "2026-11-04",
     "today_results": {
       "symbols": [
         "63MOONS",
@@ -6187,6 +6176,7 @@
     "sci1_04112026191407_finalsd.pdf",
     "kansainer_04112026192043_outcome_of_board_meeting_-_4th_nov_2026_signed.pdf",
     "afcons_04112026191300_afcons_outcome_of_the_board_meetingdate04112026.pdf",
-    "grinfra_04112026191744_financial_results_q2_dsc04112026.pdf"
+    "grinfra_04112026191744_financial_results_q2_dsc04112026.pdf",
+    "nhpc_04112026192444_stx_intimation_results_30092026.pdf"
   ]
 }
