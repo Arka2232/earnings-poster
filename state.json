@@ -1179,7 +1179,10 @@
     "106843995",
     "106843994",
     "106844000",
-    "106844013"
+    "106844013",
+    "106844030",
+    "106844029",
+    "106844026"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1469,51 +1472,12 @@
     "hiralmehta_04112026135157_outcomeofboardmeeting.pdf",
     "allcargoterminals_04112026135358_seupload.pdf",
     "jyothylab_04112026135026_seintimationoutcomebm.pdf",
-    "nlcindia_04112026135958_573_bm_-_outcome_04112026_signed.pdf"
+    "nlcindia_04112026135958_573_bm_-_outcome_04112026_signed.pdf",
+    "sbcl_04112026140847_outcome_04112026.pdf",
+    "varroc_04112026140654_outcomebm.pdf",
+    "hudco_04112026140744_fr_sep_2026.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-11-02",
-      "s": "IFBAGRO",
-      "c": "IFB Agro Industries Limited",
-      "r": "Good",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 6.186,
-      "pat": 0.265,
-      "eps": 28.29,
-      "filing": "https://nsearchives.nseindia.com/corporate/IFBAGRO_02112026181531_Results_021126.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:IFBAGRO",
-      "t": "02-Nov-2026 18:17:18"
-    },
-    {
-      "d": "2026-11-02",
-      "s": "GOYALALUM",
-      "c": "Goyal Aluminiums Limited",
-      "r": "Good",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 20.4223,
-      "pat": 0.3847,
-      "eps": 0.06,
-      "filing": "https://nsearchives.nseindia.com/corporate/GOYALALUM_02112026181722_Outcome_of_bm.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GOYALALUM",
-      "t": "02-Nov-2026 18:21:38"
-    },
-    {
-      "d": "2026-11-02",
-      "s": "PERNIASPOP",
-      "c": "Purple Style Labs Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 22.212000000000003,
-      "pat": 1.553,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/PURPLESTYLE_02112026181939_PSL_-_Reg_30_-_Outcome_of_Board_Meeting_Financial_Results_Q2.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PERNIASPOP",
-      "t": "02-Nov-2026 18:21:09"
-    },
     {
       "d": "2026-11-02",
       "s": "ITC",
@@ -5726,6 +5690,48 @@
       "filing": "https://nsearchives.nseindia.com/corporate/NLCINDIA_04112026135958_573_BM_-_Outcome_04112026_Signed.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:NLCINDIA",
       "t": "04-Nov-2026 14:03:05"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "SBCL",
+      "c": "Shivalik Bimetal Controls Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 197.78830000000002,
+      "pat": 34.7515,
+      "eps": 5.82,
+      "filing": "https://nsearchives.nseindia.com/corporate/SBCL_04112026140847_Outcome_04112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SBCL",
+      "t": "04-Nov-2026 14:09:23"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "VARROC",
+      "c": "Varroc Engineering Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 2947.926,
+      "pat": 33.466,
+      "eps": 2.15,
+      "filing": "https://nsearchives.nseindia.com/corporate/VARROC_04112026140654_OutcomeBM.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:VARROC",
+      "t": "04-Nov-2026 14:09:22"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "HUDCO",
+      "c": "Housing & Urban Development Corporation Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 4040.42,
+      "pat": 911.04,
+      "eps": 4.55,
+      "filing": "https://nsearchives.nseindia.com/corporate/HUDCO_04112026140744_FR_SEP_2026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:HUDCO",
+      "t": "04-Nov-2026 14:08:18"
     }
   ]
 }
