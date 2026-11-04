@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "SBIN",
-      "c": "State Bank of India",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/SBIN_03112026134649_FR_DSC.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SBIN",
-      "t": "03-Nov-2026 13:47:53"
-    },
-    {
-      "d": "2026-11-03",
       "s": "RPPL",
       "c": "Rajshree Polypack Limited",
       "r": "Good",
@@ -4255,6 +4241,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/SHRINGAR_04112026185053_SHOM_Outcome_of_BM_final.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SHRINGARMS",
       "t": "04-Nov-2026 18:54:39"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "BALKRISIND",
+      "c": "Balkrishna Industries Limited",
+      "r": "Weak",
+      "b": "Standalone",
+      "q": "Q3 FY27",
+      "sales": 3444.7,
+      "pat": 8.24,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/BALKRISIND_04112026185711_Outcome_uploaded_signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BALKRISIND",
+      "t": "04-Nov-2026 18:59:39"
     }
   ],
   "seen": [
@@ -4770,7 +4770,8 @@
     "106845340",
     "106845355",
     "106845370",
-    "106845369"
+    "106845369",
+    "106845388"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -5388,7 +5389,7 @@
         "xbrl_try": "2026-11-04T18:59:12.348491+00:00"
       }
     ],
-    "ipo_check": "2026-11-04 18",
+    "ipo_check": "2026-11-04 19",
     "ipo_posted": [
       "BCSSL",
       "HGSINDIALT",
@@ -6226,6 +6227,7 @@
     "steelcity_04112026184952_outcome.pdf",
     "hariompipes_04112026184615_outcome_of_bm_04112026_signed.pdf",
     "mayuruniq_04112026185004_obmsd04112026.pdf",
-    "shringar_04112026185053_shom_outcome_of_bm_final.pdf"
+    "shringar_04112026185053_shom_outcome_of_bm_final.pdf",
+    "balkrisind_04112026185711_outcome_uploaded_signed.pdf"
   ]
 }
