@@ -1241,7 +1241,8 @@
     "106844094",
     "106844105",
     "106844111",
-    "106844106"
+    "106844106",
+    "106844118"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1545,23 +1546,10 @@
     "sundarmfin_04112026143215_ufr30092026sd.pdf",
     "zimlab_04112026143555_outcomeofthebaordmeeting04112026.pdf",
     "sumit_04112026143601_nse.pdf",
-    "bluecoast_04112026143436_outcome_bm_04112026signed.pdf"
+    "bluecoast_04112026143436_outcome_bm_04112026signed.pdf",
+    "moldtech_04112026143810_outcomeofbm.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-11-02",
-      "s": "VALIANTLAB",
-      "c": "Valiant Laboratories Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 116.7732,
-      "pat": 0.41340000000000005,
-      "eps": 0.08,
-      "filing": "https://nsearchives.nseindia.com/corporate/VALIANT_02112026185842_BM_Outcome_Q2_FINAL.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:VALIANTLAB",
-      "t": "02-Nov-2026 18:59:44"
-    },
     {
       "d": "2026-11-02",
       "s": "PNC",
@@ -5801,6 +5789,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/BLUECOAST_04112026143436_OUTCOME_BM_04112026SIGNED.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:BLUECOAST",
       "t": "04-Nov-2026 14:37:02"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "MOLDTECH",
+      "c": "Mold-Tek Technologies Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 60.81270000000001,
+      "pat": 9.6189,
+      "eps": 3.34,
+      "filing": "https://nsearchives.nseindia.com/corporate/MOLDTECH_04112026143810_OutcomeofBM.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MOLDTECH",
+      "t": "04-Nov-2026 14:39:49"
     }
   ]
 }
