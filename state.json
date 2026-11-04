@@ -1238,7 +1238,8 @@
     "106844048",
     "106844077",
     "106844083",
-    "106844094"
+    "106844094",
+    "106844105"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1539,23 +1540,10 @@
     "sjs_04112026141255_bmoutcomeq2fy27.pdf",
     "aplltd_04112026142549_ufr.pdf",
     "stovekraft_04112026142605_ufr30092026_04november_2026.pdf",
-    "sundarmfin_04112026143215_ufr30092026sd.pdf"
+    "sundarmfin_04112026143215_ufr30092026sd.pdf",
+    "zimlab_04112026143555_outcomeofthebaordmeeting04112026.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-11-02",
-      "s": "BALAMINES",
-      "c": "Balaji Amines Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 427.7993,
-      "pat": 68.72970000000001,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/BALAMINES_02112026183657_Outcome_Final.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BALAMINES",
-      "t": "02-Nov-2026 18:39:33"
-    },
     {
       "d": "2026-11-02",
       "s": "DIVGIITTS",
@@ -5795,6 +5783,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/SUNDARMFIN_04112026143215_UFR30092026SD.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SUNDARMFIN",
       "t": "04-Nov-2026 14:33:19"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "ZIMLAB",
+      "c": "Zim Laboratories Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 104.2231,
+      "pat": -2.1414,
+      "eps": -0.4,
+      "filing": "https://nsearchives.nseindia.com/corporate/ZIMLAB_04112026143555_OutcomeoftheBaordMeeting04112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ZIMLAB",
+      "t": "04-Nov-2026 14:36:17"
     }
   ]
 }
