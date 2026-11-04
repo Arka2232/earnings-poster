@@ -1087,7 +1087,9 @@
     "106843661",
     "106843712",
     "106843746",
-    "106843755"
+    "106843755",
+    "106843768",
+    "106843766"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1345,37 +1347,11 @@
     "gabriel_04112026115003_bm_outcome_signed.pdf",
     "basfil_04112026121140_fr04112026.pdf",
     "cadilahc_04112026121711_outcomeofbm.pdf",
-    "cera_04112026122203_cerabmo14112026s.pdf"
+    "cera_04112026122203_cerabmo14112026s.pdf",
+    "saregama_04112026122952_outcome_signed.pdf",
+    "sangamind_04112026122419_covering_12_15_merged__1_.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-11-02",
-      "s": "RSL",
-      "c": "Rajputana Stainless Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/6358164770_02112026163024_RSLOutcome_of_BM02112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:RSL",
-      "t": "02-Nov-2026 16:35:39"
-    },
-    {
-      "d": "2026-11-02",
-      "s": "NDL",
-      "c": "Nandan Denim Limited",
-      "r": "Positive",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 607.9818,
-      "pat": 11.474400000000001,
-      "eps": 0.08,
-      "filing": "https://nsearchives.nseindia.com/corporate/NDL_02112026163806_result.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:NDL",
-      "t": "02-Nov-2026 16:38:52"
-    },
     {
       "d": "2026-11-02",
       "s": "BPL",
@@ -5614,6 +5590,34 @@
       "filing": "https://nsearchives.nseindia.com/corporate/CERA_04112026122203_CERABMO14112026s.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:CERA",
       "t": "04-Nov-2026 12:24:27"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "SAREGAMA",
+      "c": "Saregama India Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 3.1430000000000002,
+      "pat": 0.6417,
+      "eps": 3.37,
+      "filing": "https://nsearchives.nseindia.com/corporate/SAREGAMA_04112026122952_Outcome_signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SAREGAMA",
+      "t": "04-Nov-2026 12:31:36"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "SANGAMIND",
+      "c": "Sangam (India) Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 10.302000000000001,
+      "pat": 0.5145000000000001,
+      "eps": 10.57,
+      "filing": "https://nsearchives.nseindia.com/corporate/SANGAMIND_04112026122419_Covering_12_15_merged__1_.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SANGAMIND",
+      "t": "04-Nov-2026 12:31:07"
     }
   ]
 }
