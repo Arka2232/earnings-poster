@@ -442,7 +442,8 @@
     "106844324",
     "106844319",
     "106844344",
-    "106844377"
+    "106844377",
+    "106844437"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -1635,7 +1636,8 @@
     "lenskart_04112026153338_outcome_intimation_-_bm_dated_04112026.pdf",
     "pricolltd_04112026152908_sedisclosure.pdf",
     "jash_04112026153646_outcomejash04112026.pdf",
-    "tracxn_04112026154600_outcome.pdf"
+    "tracxn_04112026154600_outcome.pdf",
+    "nykaa_04112026160123_outcome.pdf"
   ],
   "archive": [
     {
@@ -5332,6 +5334,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/TRACXN_04112026154600_Outcome.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:TRACXN",
       "t": "04-Nov-2026 15:47:50"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "NYKAA",
+      "c": "FSN E-Commerce Ventures Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 3006.04,
+      "pat": 101.19,
+      "eps": 0.35,
+      "filing": "https://nsearchives.nseindia.com/corporate/NYKAA_04112026160123_outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:NYKAA",
+      "t": "04-Nov-2026 16:02:47"
     }
   ]
 }
