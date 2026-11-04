@@ -2,34 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "CHAMBLFERT",
-      "c": "Chambal Fertilizers & Chemicals Limited",
-      "r": "Good",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 6999.46,
-      "pat": 634.95,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/YASHIKAN_03112026163551_Financial_Results_30092026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CHAMBLFERT",
-      "t": "03-Nov-2026 16:36:56"
-    },
-    {
-      "d": "2026-11-03",
-      "s": "RHETAN",
-      "c": "Rhetan TMT Limited",
-      "r": "Positive",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 3.6317000000000004,
-      "pat": 2.9192,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/RHETAN_03112026164123_BMoutcome30092026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:RHETAN",
-      "t": "03-Nov-2026 16:43:05"
-    },
-    {
-      "d": "2026-11-03",
       "s": "XPROINDIA",
       "c": "Xpro India Limited",
       "r": "Excellent",
@@ -4251,6 +4223,34 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:DELTAMAGNT",
       "t": "04-Nov-2026 18:33:25",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753132_04112026080739_WEB.xml"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "ALLTIME",
+      "c": "All Time Plastics Limited",
+      "r": "Positive",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 174.0029,
+      "pat": 4.2171,
+      "eps": 0.64,
+      "filing": "https://nsearchives.nseindia.com/corporate/ALLTIMEPLASTICSLIMITED_04112026203428_OutcomeofBM30092026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ALLTIME",
+      "t": "04-Nov-2026 20:37:26"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "VINDHYATEL",
+      "c": "Vindhya Telelinks Limited",
+      "r": "Positive",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 837.5680000000001,
+      "pat": 57.8142,
+      "eps": 48.78,
+      "filing": "https://nsearchives.nseindia.com/corporate/VINDHYATEL_04112026202851_UnauditedFinancialResults.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:VINDHYATEL",
+      "t": "04-Nov-2026 20:35:36"
     }
   ],
   "seen": [
@@ -4796,7 +4796,9 @@
     "106845707",
     "106845714",
     "106845733",
-    "106845740"
+    "106845740",
+    "106845747",
+    "106845744"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -6174,6 +6176,8 @@
     "hytech_04112026201209_outcome_04nov2026.pdf",
     "mazda_04112026201942_outcome_of_board_meeting_04-11-26.pdf",
     "nrbbearing1_04112026202745_signed_nrb_outcome_november_04_2026_for_upload.pdf",
-    "oricon_04112026203125_outcomeofboardmeeting04112026final.pdf"
+    "oricon_04112026203125_outcomeofboardmeeting04112026final.pdf",
+    "alltimeplasticslimited_04112026203428_outcomeofbm30092026.pdf",
+    "vindhyatel_04112026202851_unauditedfinancialresults.pdf"
   ]
 }
