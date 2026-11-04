@@ -308,7 +308,8 @@
     "careerp_04112026145045_cpcap_outcome041126.pdf",
     "mapmyindia_04112026150154_mmi_bm_outcome_4_nov_2026.pdf",
     "ttl_04112026145556_fianncial_stock_exchange_sep_26.pdf",
-    "coralfinac_04112026151343_outcome_bm_04112026.pdf"
+    "coralfinac_04112026151343_outcome_bm_04112026.pdf",
+    "maxbupa_04112026152155_discl30boardmeetingoutcome04112026a.pdf"
   ],
   "archive": [
     {
@@ -3893,6 +3894,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/DCMFINSERV_02112026192033_Outcome_of_BM_signed_DCM.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:DCMFINSERV",
       "t": "02-Nov-2026 19:23:29"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "NIVABUPA",
+      "c": "Niva Bupa Health Insurance Company Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/MAXBUPA_04112026152155_Discl30Boardmeetingoutcome04112026A.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:NIVABUPA",
+      "t": "04-Nov-2026 15:24:03"
     }
   ],
   "seen": [
@@ -4330,7 +4345,8 @@
     "106844166",
     "106844199",
     "106844203",
-    "106844246"
+    "106844246",
+    "106844278"
   ],
   "digest": {
     "ipo_posted": [
@@ -4702,6 +4718,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-04T15:07:28.402678+00:00"
+      },
+      {
+        "key": "106844278",
+        "seq_id": "106844278",
+        "symbol": "NIVABUPA",
+        "company": "Niva Bupa Health Insurance Company Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/MAXBUPA_04112026152155_Discl30Boardmeetingoutcome04112026A.pdf",
+        "an_dt": "04-Nov-2026 15:24:03",
+        "date": "2026-11-04",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-04T15:28:06.022782+00:00"
       }
     ],
     "next_cache": "2026-11-03",
