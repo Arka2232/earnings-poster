@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "JAINREC",
-      "c": "Jain Resource Recycling Limited",
-      "r": "Positive",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 3336.978,
-      "pat": 90.66300000000001,
-      "eps": 2.64,
-      "filing": "https://nsearchives.nseindia.com/corporate/JAINMETAL_03112026120820_NSEBSEOUT.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:JAINREC",
-      "t": "03-Nov-2026 12:08:52"
-    },
-    {
-      "d": "2026-11-03",
       "s": "ARFIN",
       "c": "Arfin India Limited",
       "r": "Excellent",
@@ -4256,6 +4242,20 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:PRICOLLTD",
       "t": "04-Nov-2026 15:32:43",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752895_04112026062811_WEB.xml"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "AMNPLST",
+      "c": "Amines & Plasticizers Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 149.8358,
+      "pat": 8.330499999999999,
+      "eps": 1.51,
+      "filing": "https://nsearchives.nseindia.com/corporate/OMKAR_04112026184110_APL_BM_Outcome_04112026_SD.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:AMNPLST",
+      "t": "04-Nov-2026 18:42:02"
     }
   ],
   "seen": [
@@ -4760,7 +4760,8 @@
     "106845218",
     "106845234",
     "106845243",
-    "106845267"
+    "106845267",
+    "106845288"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -6205,6 +6206,7 @@
     "pel2024_04112026182631_outcome_q2_fy_2026-27_signed.pdf",
     "skfindus25_04112026181948_nse.pdf",
     "deltamagnt_04112026182906_dml.pdf",
-    "gksl2025_04112026183103_final_outcome_signed.pdf"
+    "gksl2025_04112026183103_final_outcome_signed.pdf",
+    "omkar_04112026184110_apl_bm_outcome_04112026_sd.pdf"
   ]
 }
