@@ -2,36 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "SOTL",
-      "c": "Savita Oil Technologies Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 1709.3921,
-      "pat": 211.858,
-      "eps": 30.9,
-      "filing": "https://nsearchives.nseindia.com/corporate/SOTL_03112026161117_bmoutcome.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SOTL",
-      "t": "03-Nov-2026 16:12:51",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752174_03112026074342_WEB.xml"
-    },
-    {
-      "d": "2026-11-03",
-      "s": "IL&FSENGG",
-      "c": "IL&FS Engineering and Construction Company Limited",
-      "r": "Bad",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 39.97,
-      "pat": -7.2684999999999995,
-      "eps": -0.56,
-      "filing": "https://nsearchives.nseindia.com/corporate/IL_FSENGG_03112026162057_Outcome_letterSE.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:IL_FSENGG",
-      "t": "03-Nov-2026 16:23:06",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751830_03112026043220_WEB.xml"
-    },
-    {
-      "d": "2026-11-03",
       "s": "COSMOFIRST",
       "c": "COSMO FIRST LIMITED",
       "r": "Excellent",
@@ -4250,6 +4220,35 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:PLATIND",
       "t": "04-Nov-2026 19:15:29",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753135_04112026081128_WEB.xml"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "MAZDA",
+      "c": "Mazda Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 83.17209999999999,
+      "pat": 16.1694,
+      "eps": 8.07,
+      "filing": "https://nsearchives.nseindia.com/corporate/MAZDA_04112026201942_Outcome_of_Board_Meeting_04-11-26.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MAZDA",
+      "t": "04-Nov-2026 20:21:17"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "SOMANYCERA",
+      "c": "Somany Ceramics Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 860.65,
+      "pat": 41.559999999999995,
+      "eps": 10.12,
+      "filing": "https://nsearchives.nseindia.com/corporate/SOMANYCERAMICS_04112026171354_OutcomeofBoardMeeting_04112026sd.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SOMANYCERA",
+      "t": "04-Nov-2026 17:16:46",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753087_04112026073834_WEB.xml"
     }
   ],
   "seen": [
@@ -4792,7 +4791,8 @@
     "106845673",
     "106845687",
     "106845699",
-    "106845707"
+    "106845707",
+    "106845714"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -5192,18 +5192,6 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-04T20:21:18.067820+00:00"
-      },
-      {
-        "key": "106844778",
-        "seq_id": "106844778",
-        "symbol": "SOMANYCERA",
-        "company": "Somany Ceramics Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/SOMANYCERAMICS_04112026171354_OutcomeofBoardMeeting_04112026sd.pdf",
-        "an_dt": "04-Nov-2026 17:16:46",
-        "date": "2026-11-04",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-04T19:23:07.761618+00:00"
       },
       {
         "key": "106844998",
@@ -6203,6 +6191,7 @@
     "stel_04112026195642_stel04112026upload.pdf",
     "sbglp_04112026200751_bm_outcome_04112026signed.pdf",
     "entero_04112026201308_boardmeeting_outcome.pdf",
-    "hytech_04112026201209_outcome_04nov2026.pdf"
+    "hytech_04112026201209_outcome_04nov2026.pdf",
+    "mazda_04112026201942_outcome_of_board_meeting_04-11-26.pdf"
   ]
 }
