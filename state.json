@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "ARIHANTSUP",
-      "c": "Arihant Superstructures Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 22.5014,
-      "pat": 0.4625,
-      "eps": 0.11,
-      "filing": "https://nsearchives.nseindia.com/corporate/ARIHANTSUP_03112026151003_ASL_Outcome_BM_03112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ARIHANTSUP",
-      "t": "03-Nov-2026 15:11:20"
-    },
-    {
-      "d": "2026-11-03",
       "s": "GENCON",
       "c": "Generic Engineering Construction and Projects Limited",
       "r": "Good",
@@ -4252,6 +4238,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/EXCELINDUS_04112026194326_Outcome_signed.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:EXCELINDUS",
       "t": "04-Nov-2026 19:46:41"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "TPLPLASTEH",
+      "c": "TPL Plastech Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 149.4982,
+      "pat": 8.378,
+      "eps": 1.09,
+      "filing": "https://nsearchives.nseindia.com/corporate/TPLPLASTEH_04112026194610_Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:TPLPLASTEH",
+      "t": "04-Nov-2026 19:49:23"
     }
   ],
   "seen": [
@@ -4785,7 +4785,8 @@
     "106845578",
     "106845597",
     "106845601",
-    "106845622"
+    "106845622",
+    "106845633"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -6199,6 +6200,7 @@
     "emudhra2008_04112026193412_outcome_of_board_meeting.pdf",
     "saurashtra_04112026193320_lettertoseresults3092026.pdf",
     "piind_04112026193824_resultssd.pdf",
-    "excelindus_04112026194326_outcome_signed.pdf"
+    "excelindus_04112026194326_outcome_signed.pdf",
+    "tplplasteh_04112026194610_outcome.pdf"
   ]
 }
