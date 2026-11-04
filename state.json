@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "ADSL",
-      "c": "Allied Digital Services Limited",
-      "r": "Bad",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 2.6532,
-      "pat": 0.1259,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/ADSL_03112026175552_FinalOutcome.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ADSL",
-      "t": "03-Nov-2026 17:57:36"
-    },
-    {
-      "d": "2026-11-03",
       "s": "NEPHROPLUS",
       "c": "Nephrocare Health Services Limited",
       "r": "Excellent",
@@ -4254,6 +4240,21 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:TREL",
       "t": "04-Nov-2026 21:55:02",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753275_04112026102920_WEB.xml"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "CHALET",
+      "c": "Chalet Hotels Limited",
+      "r": "Positive",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 501.996,
+      "pat": 216.255,
+      "eps": 9.88,
+      "filing": "https://nsearchives.nseindia.com/corporate/CHALET_04112026170437_OutcomeBoardMeeting04112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CHALET",
+      "t": "04-Nov-2026 17:06:14",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753271_04112026102418_WEB.xml"
     }
   ],
   "seen": [
@@ -5144,19 +5145,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T22:20:53.382711+00:00"
-      },
-      {
-        "key": "106844724",
-        "seq_id": "106844724",
-        "symbol": "CHALET",
-        "company": "Chalet Hotels Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/CHALET_04112026170437_OutcomeBoardMeeting04112026.pdf",
-        "an_dt": "04-Nov-2026 17:06:14",
-        "date": "2026-11-04",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-04T22:20:53.732044+00:00"
+        "xbrl_try": "2026-11-04T23:22:47.487392+00:00"
       },
       {
         "key": "106844729",
