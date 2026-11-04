@@ -2,34 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "ASAHIINDIA",
-      "c": "Asahi India Glass Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 14.658199999999999,
-      "pat": 1.7073,
-      "eps": 6.7,
-      "filing": "https://nsearchives.nseindia.com/corporate/ASAHIINDIA_03112026133628_OutcomeNovember2026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ASAHIINDIA",
-      "t": "03-Nov-2026 13:36:48"
-    },
-    {
-      "d": "2026-11-03",
-      "s": "RBZJEWEL",
-      "c": "RBZ Jewellers Limited",
-      "r": "Bad",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 224.7127,
-      "pat": 25.48,
-      "eps": 4.1,
-      "filing": "https://nsearchives.nseindia.com/corporate/RBZ_03112026134201_SignedReg33OutcomeofBM03112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:RBZJEWEL",
-      "t": "03-Nov-2026 13:44:56"
-    },
-    {
-      "d": "2026-11-03",
       "s": "SBIN",
       "c": "State Bank of India",
       "r": "Results Filed",
@@ -4255,6 +4227,34 @@
       "filing": "https://nsearchives.nseindia.com/corporate/hariompipes_04112026184615_Outcome_of_BM_04112026_Signed.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:HARIOMPIPE",
       "t": "04-Nov-2026 18:52:34"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "MAYURUNIQ",
+      "c": "Mayur Uniquoters Ltd",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/MAYURUNIQ_04112026185004_OBMSD04112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MAYURUNIQ",
+      "t": "04-Nov-2026 18:54:51"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "SHRINGARMS",
+      "c": "Shringar House of Mangalsutra Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 818.662,
+      "pat": 39.47200000000001,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/SHRINGAR_04112026185053_SHOM_Outcome_of_BM_final.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SHRINGARMS",
+      "t": "04-Nov-2026 18:54:39"
     }
   ],
   "seen": [
@@ -4768,7 +4768,9 @@
     "106845310",
     "106845308",
     "106845340",
-    "106845355"
+    "106845355",
+    "106845370",
+    "106845369"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -5263,7 +5265,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T17:57:56.067308+00:00"
+        "xbrl_try": "2026-11-04T18:59:11.372661+00:00"
       },
       {
         "key": "106845044",
@@ -5372,6 +5374,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-04T18:51:19.252070+00:00"
+      },
+      {
+        "key": "106845370",
+        "seq_id": "106845370",
+        "symbol": "MAYURUNIQ",
+        "company": "Mayur Uniquoters Ltd",
+        "url": "https://nsearchives.nseindia.com/corporate/MAYURUNIQ_04112026185004_OBMSD04112026.pdf",
+        "an_dt": "04-Nov-2026 18:54:51",
+        "date": "2026-11-04",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-04T18:59:12.348491+00:00"
       }
     ],
     "ipo_check": "2026-11-04 18",
@@ -6210,6 +6224,8 @@
     "adroitinfo_04112026184439_outcomeq227.pdf",
     "theinvest_04112026184306_theitioutcomeofmeeting_sept26.pdf",
     "steelcity_04112026184952_outcome.pdf",
-    "hariompipes_04112026184615_outcome_of_bm_04112026_signed.pdf"
+    "hariompipes_04112026184615_outcome_of_bm_04112026_signed.pdf",
+    "mayuruniq_04112026185004_obmsd04112026.pdf",
+    "shringar_04112026185053_shom_outcome_of_bm_final.pdf"
   ]
 }
