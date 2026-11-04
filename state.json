@@ -2,48 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "AWFIS",
-      "c": "Awfis Space Solutions Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 438.725,
-      "pat": 30.8,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/AWFIS2014_03112026172224_BM_outcome_Signed.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:AWFIS",
-      "t": "03-Nov-2026 17:24:33"
-    },
-    {
-      "d": "2026-11-03",
-      "s": "GANDHITUBE",
-      "c": "Gandhi Special Tubes Limited",
-      "r": "Good",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 58.0974,
-      "pat": 19.8955,
-      "eps": 16.48,
-      "filing": "https://nsearchives.nseindia.com/corporate/GANDHITUBE_03112026172354_Outcome_of_BM_signed.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GANDHITUBE",
-      "t": "03-Nov-2026 17:26:32"
-    },
-    {
-      "d": "2026-11-03",
-      "s": "ASIANTILES",
-      "c": "Asian Granito India Limited",
-      "r": "Bad",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 528.504,
-      "pat": 5.216799999999999,
-      "eps": 0.2,
-      "filing": "https://nsearchives.nseindia.com/corporate/ASIANTILES_03112026172833_SEOutcomeofBM03112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ASIANTILES",
-      "t": "03-Nov-2026 17:30:10"
-    },
-    {
-      "d": "2026-11-03",
       "s": "AMANTA",
       "c": "Amanta Healthcare Limited",
       "r": "Excellent",
@@ -4250,6 +4208,48 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:EMUDHRA",
       "t": "04-Nov-2026 19:34:58",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753221_04112026091008_WEB.xml"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "UNIVCABLES",
+      "c": "Universal Cables Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 1018.5689,
+      "pat": 63.8517,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/UNIVCABLES_04112026215609_Outcome_BM_04112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:UNIVCABLES",
+      "t": "04-Nov-2026 21:56:46"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "TREL",
+      "c": "Transindia Real Estate Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/TRANSINDIA_04112026215406_BM_Outcome_04112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:TREL",
+      "t": "04-Nov-2026 21:55:02"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "UNIVCABLES",
+      "c": "Universal Cables Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 1018.5689,
+      "pat": 63.8517,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/UNIVCABLES_04112026215228_Outcome_BM_04112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:UNIVCABLES",
+      "t": "04-Nov-2026 21:54:21"
     }
   ],
   "seen": [
@@ -4807,7 +4807,10 @@
     "106845780",
     "106845802",
     "106845807",
-    "106845827"
+    "106845827",
+    "106845863",
+    "106845860",
+    "106845859"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -5037,7 +5040,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T20:57:57.542324+00:00"
+        "xbrl_try": "2026-11-04T21:59:32.798804+00:00"
       },
       {
         "key": "106843651",
@@ -5049,7 +5052,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T20:57:58.215924+00:00"
+        "xbrl_try": "2026-11-04T21:59:33.394165+00:00"
       },
       {
         "key": "106843847",
@@ -5134,7 +5137,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T20:58:01.401493+00:00"
+        "xbrl_try": "2026-11-04T21:59:37.060173+00:00"
       },
       {
         "key": "106844635",
@@ -5146,7 +5149,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T20:58:01.702544+00:00"
+        "xbrl_try": "2026-11-04T21:59:37.470423+00:00"
       },
       {
         "key": "106844723",
@@ -5279,6 +5282,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-04T21:21:33.640030+00:00"
+      },
+      {
+        "key": "106845860",
+        "seq_id": "106845860",
+        "symbol": "TREL",
+        "company": "Transindia Real Estate Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/TRANSINDIA_04112026215406_BM_Outcome_04112026.pdf",
+        "an_dt": "04-Nov-2026 21:55:02",
+        "date": "2026-11-04",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-04T21:59:38.206016+00:00"
       }
     ],
     "ipo_check": "2026-11-04 21",
@@ -6161,6 +6176,9 @@
     "wanbury_04112026205135_outcome.pdf",
     "ael2012_04112026210131_aeloutcomeofbm04112026signed.pdf",
     "mel_04112026210426_20261104financialresults.pdf",
-    "chaithanya_lakshmi_esab_co_in_04112026212153_obm041126_signed.pdf"
+    "chaithanya_lakshmi_esab_co_in_04112026212153_obm041126_signed.pdf",
+    "univcables_04112026215609_outcome_bm_04112026.pdf",
+    "transindia_04112026215406_bm_outcome_04112026.pdf",
+    "univcables_04112026215228_outcome_bm_04112026.pdf"
   ]
 }
