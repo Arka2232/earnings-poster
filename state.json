@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "WEALTH",
-      "c": "Wealth First Portfolio Managers Limited",
-      "r": "Bad",
-      "b": "Standalone",
-      "q": "Q3 FY27",
-      "sales": 15.2804,
-      "pat": 5.898300000000001,
-      "eps": 5.54,
-      "filing": "https://nsearchives.nseindia.com/corporate/WEALTH_03112026172050_OutcomeOfBM.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:WEALTH",
-      "t": "03-Nov-2026 17:21:16"
-    },
-    {
-      "d": "2026-11-03",
       "s": "DATAMATICS",
       "c": "Datamatics Global Services Limited",
       "r": "Good",
@@ -4248,6 +4234,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/AEL2012_04112026210131_AELOutcomeofBM04112026signed.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:AUGMONT",
       "t": "04-Nov-2026 21:05:14"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "MAXESTATES",
+      "c": "Max Estates Limited",
+      "r": "Good",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 1709.04,
+      "pat": 1357.62,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/MEL_04112026210426_20261104FinancialResults.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MAXESTATES",
+      "t": "04-Nov-2026 21:08:39"
     }
   ],
   "seen": [
@@ -4803,7 +4803,8 @@
     "106845774",
     "106845777",
     "106845780",
-    "106845802"
+    "106845802",
+    "106845807"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -6179,6 +6180,7 @@
     "shukra_04112026205115_outcome_shukra_sw.pdf",
     "lohia2023_04112026205128_board_meeting_outcome.pdf",
     "wanbury_04112026205135_outcome.pdf",
-    "ael2012_04112026210131_aeloutcomeofbm04112026signed.pdf"
+    "ael2012_04112026210131_aeloutcomeofbm04112026signed.pdf",
+    "mel_04112026210426_20261104financialresults.pdf"
   ]
 }
