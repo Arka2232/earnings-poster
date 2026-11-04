@@ -443,7 +443,8 @@
     "106844319",
     "106844344",
     "106844377",
-    "106844437"
+    "106844437",
+    "106844457"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -712,7 +713,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T15:07:27.325140+00:00"
+        "xbrl_try": "2026-11-04T16:09:57.519125+00:00"
       },
       {
         "key": "106843917",
@@ -808,7 +809,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T15:07:28.402678+00:00"
+        "xbrl_try": "2026-11-04T16:09:58.682438+00:00"
       },
       {
         "key": "106844278",
@@ -869,6 +870,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-04T15:49:18.675767+00:00"
+      },
+      {
+        "key": "106844457",
+        "seq_id": "106844457",
+        "symbol": "KICL",
+        "company": "Kalyani Investment Company Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/KICL_04112026160006_KICL_BM_Results_04112026.pdf",
+        "an_dt": "04-Nov-2026 16:07:38",
+        "date": "2026-11-04",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-04T16:09:59.552327+00:00"
       }
     ],
     "fiidii": "2026-11-03",
@@ -1637,7 +1650,8 @@
     "pricolltd_04112026152908_sedisclosure.pdf",
     "jash_04112026153646_outcomejash04112026.pdf",
     "tracxn_04112026154600_outcome.pdf",
-    "nykaa_04112026160123_outcome.pdf"
+    "nykaa_04112026160123_outcome.pdf",
+    "kicl_04112026160006_kicl_bm_results_04112026.pdf"
   ],
   "archive": [
     {
@@ -5348,6 +5362,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/NYKAA_04112026160123_outcome.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:NYKAA",
       "t": "04-Nov-2026 16:02:47"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "KICL",
+      "c": "Kalyani Investment Company Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/KICL_04112026160006_KICL_BM_Results_04112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:KICL",
+      "t": "04-Nov-2026 16:07:38"
     }
   ]
 }
