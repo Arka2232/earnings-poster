@@ -2,63 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "ASHOKAMET",
-      "c": "Ashoka Metcast Limited",
-      "r": "Positive",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 3.6232,
-      "pat": 3.0679000000000003,
-      "eps": 1.23,
-      "filing": "https://nsearchives.nseindia.com/corporate/AML_03112026173420_BMOutcome03112026AML.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ASHOKAMET",
-      "t": "03-Nov-2026 17:37:02"
-    },
-    {
-      "d": "2026-11-03",
-      "s": "POKARNA",
-      "c": "Pokarna Limited",
-      "r": "Bad",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 161.0967,
-      "pat": 34.2671,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/POKARNA_03112026173627_Final_Intimation_Outcome_Sep_2026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:POKARNA",
-      "t": "03-Nov-2026 17:39:04"
-    },
-    {
-      "d": "2026-11-03",
-      "s": "ANTHEM",
-      "c": "Anthem Biosciences Limited",
-      "r": "Good",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 5940.32,
-      "pat": 2114.63,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/COMPLIANCE_ABL1_03112026175122_Outcome_of_BM_Q2FY27__1_.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ANTHEM",
-      "t": "03-Nov-2026 17:53:34"
-    },
-    {
-      "d": "2026-11-03",
-      "s": "MASTERTR",
-      "c": "Master Trust Limited",
-      "r": "Good",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 153.67,
-      "pat": 38.3,
-      "eps": 3.1,
-      "filing": "https://nsearchives.nseindia.com/corporate/MASTERTRUSTNSE_03112026175244_Results_MTL_merged.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MASTERTR",
-      "t": "03-Nov-2026 17:56:22",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NBFC_INDAS_1751984_03112026060427_WEB.xml"
-    },
-    {
-      "d": "2026-11-03",
       "s": "ADSL",
       "c": "Allied Digital Services Limited",
       "r": "Bad",
@@ -4251,6 +4194,66 @@
       "filing": "https://nsearchives.nseindia.com/corporate/CUMMINSIND_04112026223607_SEintimation_OutcomeFR_04112026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:CUMMINSIND",
       "t": "04-Nov-2026 22:38:38"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "VINCOFE",
+      "c": "Vintage Coffee And Beverages Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 222.9749,
+      "pat": 28.057599999999997,
+      "eps": 1.92,
+      "filing": "https://nsearchives.nseindia.com/corporate/VINTAGE_04112026114217_BMOUTCOME04112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:VINCOFE",
+      "t": "04-Nov-2026 11:44:12",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753267_04112026102214_WEB.xml"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "SHIVAMAUTO",
+      "c": "Shivam Autotech Limited",
+      "r": "Positive",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 133.54829999999998,
+      "pat": -13.844199999999999,
+      "eps": -1.05,
+      "filing": "https://nsearchives.nseindia.com/corporate/SHIVAMAUTO_04112026164546_Outcomeof116thBMSept2026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SHIVAMAUTO",
+      "t": "04-Nov-2026 16:47:55",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753291_04112026105831_WEB.xml"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "MAYURUNIQ",
+      "c": "Mayur Uniquoters Ltd",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 282.94759999999997,
+      "pat": 57.992399999999996,
+      "eps": 13.35,
+      "filing": "https://nsearchives.nseindia.com/corporate/MAYURUNIQ_04112026185004_OBMSD04112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MAYURUNIQ",
+      "t": "04-Nov-2026 18:54:51",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753286_04112026104807_WEB.xml"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "TREL",
+      "c": "Transindia Real Estate Limited",
+      "r": "Positive",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 22.68,
+      "pat": 8.219999999999999,
+      "eps": 0.33,
+      "filing": "https://nsearchives.nseindia.com/corporate/TRANSINDIA_04112026215406_BM_Outcome_04112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:TREL",
+      "t": "04-Nov-2026 21:55:02",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753275_04112026102920_WEB.xml"
     }
   ],
   "seen": [
@@ -5044,19 +5047,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T21:59:32.798804+00:00"
-      },
-      {
-        "key": "106843651",
-        "seq_id": "106843651",
-        "symbol": "VINCOFE",
-        "company": "Vintage Coffee And Beverages Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/VINTAGE_04112026114217_BMOUTCOME04112026.pdf",
-        "an_dt": "04-Nov-2026 11:44:12",
-        "date": "2026-11-04",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-04T21:59:33.394165+00:00"
+        "xbrl_try": "2026-11-04T23:03:19.338318+00:00"
       },
       {
         "key": "106843847",
@@ -5141,19 +5132,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T21:59:37.060173+00:00"
-      },
-      {
-        "key": "106844635",
-        "seq_id": "106844635",
-        "symbol": "SHIVAMAUTO",
-        "company": "Shivam Autotech Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/SHIVAMAUTO_04112026164546_Outcomeof116thBMSept2026.pdf",
-        "an_dt": "04-Nov-2026 16:47:55",
-        "date": "2026-11-04",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-04T21:59:37.470423+00:00"
+        "xbrl_try": "2026-11-04T23:03:28.564428+00:00"
       },
       {
         "key": "106844723",
@@ -5201,7 +5180,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T22:02:49.873895+00:00"
+        "xbrl_try": "2026-11-04T23:03:34.229076+00:00"
       },
       {
         "key": "106845082",
@@ -5252,18 +5231,6 @@
         "xbrl_try": "2026-11-04T22:52:46.156413+00:00"
       },
       {
-        "key": "106845370",
-        "seq_id": "106845370",
-        "symbol": "MAYURUNIQ",
-        "company": "Mayur Uniquoters Ltd",
-        "url": "https://nsearchives.nseindia.com/corporate/MAYURUNIQ_04112026185004_OBMSD04112026.pdf",
-        "an_dt": "04-Nov-2026 18:54:51",
-        "date": "2026-11-04",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-04T22:02:50.535129+00:00"
-      },
-      {
         "key": "106845707",
         "seq_id": "106845707",
         "symbol": "HTEL",
@@ -5274,18 +5241,6 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-04T22:23:00.398632+00:00"
-      },
-      {
-        "key": "106845860",
-        "seq_id": "106845860",
-        "symbol": "TREL",
-        "company": "Transindia Real Estate Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/TRANSINDIA_04112026215406_BM_Outcome_04112026.pdf",
-        "an_dt": "04-Nov-2026 21:55:02",
-        "date": "2026-11-04",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-04T21:59:38.206016+00:00"
       },
       {
         "key": "106845926",
@@ -5300,7 +5255,7 @@
         "xbrl_try": "2026-11-04T22:41:54.592389+00:00"
       }
     ],
-    "ipo_check": "2026-11-04 22",
+    "ipo_check": "2026-11-04 23",
     "ipo_posted": [
       "BCSSL",
       "HGSINDIALT",
