@@ -1108,7 +1108,9 @@
     "106843796",
     "106843831",
     "106843834",
-    "106843847"
+    "106843847",
+    "106843859",
+    "106843857"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1375,38 +1377,11 @@
     "bectorfood_04112026124229_outcome_bm_4112026.pdf",
     "steelxind_04112026125541_outcome_of_board_meeting_04112026_final_signed.pdf",
     "sundaramclayton_04112026125755_quickresultssd.pdf",
-    "quintegra_04112026125852_results_30092026_to_se.pdf"
+    "quintegra_04112026125852_results_30092026_to_se.pdf",
+    "hmvl_04112026130912_hmvloutcome.pdf",
+    "rustomjee_04112026130758_outcome_of_board_meeting_cover_letter.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-11-02",
-      "s": "HECPROJECT",
-      "c": "HEC Infra Projects Limited",
-      "r": "Good",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 43.635600000000004,
-      "pat": 2.2417,
-      "eps": 2.07,
-      "filing": "https://nsearchives.nseindia.com/corporate/HECPROJECT_02112026165501_OUTCOME_FINAL_02112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:HECPROJECT",
-      "t": "02-Nov-2026 16:57:15"
-    },
-    {
-      "d": "2026-11-02",
-      "s": "CONCOR",
-      "c": "Container Corporation of India Limited",
-      "r": "Positive",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 2378.5699999999997,
-      "pat": 353.65999999999997,
-      "eps": 4.64,
-      "filing": "https://nsearchives.nseindia.com/corporate/CONCOR_02112026170759_CONCOR_Results_300926S.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CONCOR",
-      "t": "02-Nov-2026 17:10:50",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751152_02112026050302_WEB.xml"
-    },
     {
       "d": "2026-11-02",
       "s": "AKUMS",
@@ -5640,6 +5615,34 @@
       "filing": "https://nsearchives.nseindia.com/corporate/QUINTEGRA_04112026125852_Results_30092026_to_SE.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:QUINTEGRA",
       "t": "04-Nov-2026 13:03:47"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "HMVL",
+      "c": "Hindustan Media Ventures Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 1.9658000000000002,
+      "pat": 0.5204,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/HMVL_04112026130912_HMVLoutcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:HMVL",
+      "t": "04-Nov-2026 13:09:53"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "RUSTOMJEE",
+      "c": "Keystone Realtors Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 4.9669,
+      "pat": 1.0075,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/RUSTOMJEE_04112026130758_Outcome_of_Board_Meeting_Cover_Letter.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:RUSTOMJEE",
+      "t": "04-Nov-2026 13:09:36"
     }
   ]
 }
