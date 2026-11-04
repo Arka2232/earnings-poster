@@ -2,79 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "SIKKO",
-      "c": "Sikko Industries Limited",
-      "r": "Good",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 23.2933,
-      "pat": 3.2361000000000004,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/SIKKO_03112026140006_Outcome.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SIKKO",
-      "t": "03-Nov-2026 14:01:55"
-    },
-    {
-      "d": "2026-11-03",
-      "s": "PFIZER",
-      "c": "Pfizer Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 726.86,
-      "pat": 313.25,
-      "eps": 47.09,
-      "filing": "https://nsearchives.nseindia.com/corporate/PFIZER_03112026141109_SEintimation_FRQ22027.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PFIZER",
-      "t": "03-Nov-2026 14:14:03"
-    },
-    {
-      "d": "2026-11-03",
-      "s": "FLUOROCHEM",
-      "c": "Gujarat Fluorochemicals Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 1760.0,
-      "pat": 240.0,
-      "eps": 22.11,
-      "filing": "https://nsearchives.nseindia.com/corporate/FLUOROCHEM_03112026141153_GFCL_Financial_Results.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:FLUOROCHEM",
-      "t": "03-Nov-2026 14:13:33",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752275_03112026090315_WEB.xml"
-    },
-    {
-      "d": "2026-11-03",
-      "s": "NITCO",
-      "c": "Nitco Limited",
-      "r": "Bad",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 155.76829999999998,
-      "pat": -6.1746,
-      "eps": -0.24,
-      "filing": "https://nsearchives.nseindia.com/corporate/NITCO_03112026142208_SEoutcomeofboardmeeting.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:NITCO",
-      "t": "03-Nov-2026 14:23:44",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752217_03112026080855_WEB.xml"
-    },
-    {
-      "d": "2026-11-03",
-      "s": "TFCILTD",
-      "c": "Tourism Finance Corporation of India Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 80.1836,
-      "pat": 38.5911,
-      "eps": 0.83,
-      "filing": "https://nsearchives.nseindia.com/corporate/TFCILTD_03112026141930_TFCIBMOutcome3112026Signed.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:TFCILTD",
-      "t": "03-Nov-2026 14:25:29",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NBFC_INDAS_1752032_03112026062731_WEB.xml"
-    },
-    {
-      "d": "2026-11-03",
       "s": "LUXIND",
       "c": "Lux Industries Limited",
       "r": "Positive",
@@ -4258,6 +4185,77 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:OSWALGREEN",
       "t": "04-Nov-2026 17:05:50",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752986_04112026070430_WEB.xml"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "ORIENTCER",
+      "c": "ORIENT CERATECH LIMITED",
+      "r": "Bad",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 122.015,
+      "pat": 4.3168,
+      "eps": 0.36,
+      "filing": "https://nsearchives.nseindia.com/corporate/ORIENTABRA_04112026191500_Outcome_SE.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ORIENTCER",
+      "t": "04-Nov-2026 19:16:03"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "PLATIND",
+      "c": "Platinum Industries Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/PLATINUM_04112026191251_Outcome_of_Board_Meeting.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PLATIND",
+      "t": "04-Nov-2026 19:15:29"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "NAVKARURB",
+      "c": "Navkar Urbanstructure Limited",
+      "r": "Positive",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 0.5041,
+      "pat": 0.6315999999999999,
+      "eps": 0.0056,
+      "filing": "https://nsearchives.nseindia.com/corporate/NAVKAR9_04112026191350_Outcome_with_Results_with_LRR.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:NAVKARURB",
+      "t": "04-Nov-2026 19:15:05"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "LUMINO",
+      "c": "Lumino Industries Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 661.423,
+      "pat": 53.020900000000005,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/LUMINO123_04112026191207_OutcomeofBoardMeeting.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:LUMINO",
+      "t": "04-Nov-2026 19:14:14"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "MITTAL",
+      "c": "Mittal Life Style Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 25.490199999999998,
+      "pat": 0.3534,
+      "eps": 0.01,
+      "filing": "https://nsearchives.nseindia.com/corporate/MITTAL_04112026181130_Mittal_Life_Style_Limited_NSE_Filing_30-09-2026_FINALFINAL.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MITTAL",
+      "t": "04-Nov-2026 18:13:57",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752879_04112026062010_WEB.xml"
     }
   ],
   "seen": [
@@ -4776,7 +4774,11 @@
     "106845369",
     "106845388",
     "106845397",
-    "106845390"
+    "106845390",
+    "106845481",
+    "106845479",
+    "106845476",
+    "106845472"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -5103,7 +5105,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T18:18:44.904745+00:00"
+        "xbrl_try": "2026-11-04T19:18:56.298845+00:00"
       },
       {
         "key": "106844537",
@@ -5187,7 +5189,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T18:16:36.253738+00:00"
+        "xbrl_try": "2026-11-04T19:18:56.970372+00:00"
       },
       {
         "key": "106844729",
@@ -5199,7 +5201,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T18:16:37.201320+00:00"
+        "xbrl_try": "2026-11-04T19:18:57.610137+00:00"
       },
       {
         "key": "106844790",
@@ -5271,19 +5273,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T18:16:38.031315+00:00"
-      },
-      {
-        "key": "106845147",
-        "seq_id": "106845147",
-        "symbol": "MITTAL",
-        "company": "Mittal Life Style Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/MITTAL_04112026181130_Mittal_Life_Style_Limited_NSE_Filing_30-09-2026_FINALFINAL.pdf",
-        "an_dt": "04-Nov-2026 18:13:57",
-        "date": "2026-11-04",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-04T18:16:38.953651+00:00"
+        "xbrl_try": "2026-11-04T19:18:58.575289+00:00"
       },
       {
         "key": "106845234",
@@ -5344,6 +5334,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-04T18:59:12.348491+00:00"
+      },
+      {
+        "key": "106845479",
+        "seq_id": "106845479",
+        "symbol": "PLATIND",
+        "company": "Platinum Industries Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/PLATINUM_04112026191251_Outcome_of_Board_Meeting.pdf",
+        "an_dt": "04-Nov-2026 19:15:29",
+        "date": "2026-11-04",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-04T19:19:01.771834+00:00"
       }
     ],
     "ipo_check": "2026-11-04 19",
@@ -6187,6 +6189,10 @@
     "shringar_04112026185053_shom_outcome_of_bm_final.pdf",
     "balkrisind_04112026185711_outcome_uploaded_signed.pdf",
     "pdsl_04112026190025_ltr_boardmeetingoutcome_04112026.pdf",
-    "revathiequipment_04112026185757_outcome_of_bm_041126_reil_sd.pdf"
+    "revathiequipment_04112026185757_outcome_of_bm_041126_reil_sd.pdf",
+    "orientabra_04112026191500_outcome_se.pdf",
+    "platinum_04112026191251_outcome_of_board_meeting.pdf",
+    "navkar9_04112026191350_outcome_with_results_with_lrr.pdf",
+    "lumino123_04112026191207_outcomeofboardmeeting.pdf"
   ]
 }
