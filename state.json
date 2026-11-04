@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "SUMEETINDS",
-      "c": "Sumeet Industries Limited",
-      "r": "Bad",
-      "b": "Standalone",
-      "q": "Q3 FY27",
-      "sales": 364.1764,
-      "pat": 3.7729000000000004,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/SUMEETINDS_03112026172225_OutcomeofBM03112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SUMEETINDS",
-      "t": "03-Nov-2026 17:23:52"
-    },
-    {
-      "d": "2026-11-03",
       "s": "NRAIL",
       "c": "N R Agarwal Industries Limited",
       "r": "Excellent",
@@ -4249,6 +4235,20 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SBGLP",
       "t": "04-Nov-2026 20:09:33",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753153_04112026083254_WEB.xml"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "ESABINDIA",
+      "c": "Esab India Limited",
+      "r": "Bad",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 4.2629,
+      "pat": 0.4894,
+      "eps": 31.8,
+      "filing": "https://nsearchives.nseindia.com/corporate/chaithanya_lakshmi_esab_co_in_04112026212153_OBM041126_signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ESABINDIA",
+      "t": "04-Nov-2026 21:23:26"
     }
   ],
   "seen": [
@@ -4805,7 +4805,8 @@
     "106845777",
     "106845780",
     "106845802",
-    "106845807"
+    "106845807",
+    "106845827"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -6170,6 +6171,7 @@
     "lohia2023_04112026205128_board_meeting_outcome.pdf",
     "wanbury_04112026205135_outcome.pdf",
     "ael2012_04112026210131_aeloutcomeofbm04112026signed.pdf",
-    "mel_04112026210426_20261104financialresults.pdf"
+    "mel_04112026210426_20261104financialresults.pdf",
+    "chaithanya_lakshmi_esab_co_in_04112026212153_obm041126_signed.pdf"
   ]
 }
