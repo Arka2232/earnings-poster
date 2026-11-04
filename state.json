@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "DHOOTTRANS",
-      "c": "Dhoot Transmission Limited",
-      "r": "Positive",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 1827.205,
-      "pat": 117.82400000000001,
-      "eps": 5.98,
-      "filing": "https://nsearchives.nseindia.com/corporate/DTL_03112026150059_Dhoot_BM_Outcome_03112026_signed.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:DHOOTTRANS",
-      "t": "03-Nov-2026 15:06:30"
-    },
-    {
-      "d": "2026-11-03",
       "s": "ARIHANTSUP",
       "c": "Arihant Superstructures Limited",
       "r": "Excellent",
@@ -4252,6 +4238,20 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:REDTAPE",
       "t": "04-Nov-2026 13:29:29",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752946_04112026064840_WEB.xml"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "EXCELINDUS",
+      "c": "Excel Industries Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 274.6147,
+      "pat": 26.674400000000002,
+      "eps": 21.21,
+      "filing": "https://nsearchives.nseindia.com/corporate/EXCELINDUS_04112026194326_Outcome_signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:EXCELINDUS",
+      "t": "04-Nov-2026 19:46:41"
     }
   ],
   "seen": [
@@ -4784,7 +4784,8 @@
     "106845564",
     "106845578",
     "106845597",
-    "106845601"
+    "106845601",
+    "106845622"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -5279,7 +5280,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T18:48:22.872693+00:00"
+        "xbrl_try": "2026-11-04T19:49:31.293897+00:00"
       },
       {
         "key": "106845321",
@@ -6197,6 +6198,7 @@
     "ellenbarrie2024_04112026193115_announcement_outcome_of_board_meeting_04112026.pdf",
     "emudhra2008_04112026193412_outcome_of_board_meeting.pdf",
     "saurashtra_04112026193320_lettertoseresults3092026.pdf",
-    "piind_04112026193824_resultssd.pdf"
+    "piind_04112026193824_resultssd.pdf",
+    "excelindus_04112026194326_outcome_signed.pdf"
   ]
 }
