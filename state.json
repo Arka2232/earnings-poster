@@ -315,7 +315,8 @@
     "jisldvreqs_04112026153347_se_letter_outcome_financial_results_sept2026.pdf",
     "lenskart_04112026153338_outcome_intimation_-_bm_dated_04112026.pdf",
     "pricolltd_04112026152908_sedisclosure.pdf",
-    "jash_04112026153646_outcomejash04112026.pdf"
+    "jash_04112026153646_outcomejash04112026.pdf",
+    "tracxn_04112026154600_outcome.pdf"
   ],
   "digest": {
     "ipo_posted": [
@@ -1173,6 +1174,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-04T15:39:17.230863+00:00"
+      },
+      {
+        "key": "106844377",
+        "seq_id": "106844377",
+        "symbol": "TRACXN",
+        "company": "Tracxn Technologies Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/TRACXN_04112026154600_Outcome.pdf",
+        "an_dt": "04-Nov-2026 15:47:50",
+        "date": "2026-11-04",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-04T15:49:18.675767+00:00"
       }
     ],
     "calendar": "2026-11-04",
@@ -4860,6 +4873,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/JASH_04112026153646_OUTCOMEJASH04112026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:JASH",
       "t": "04-Nov-2026 15:39:53"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "TRACXN",
+      "c": "Tracxn Technologies Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/TRACXN_04112026154600_Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:TRACXN",
+      "t": "04-Nov-2026 15:47:50"
     }
   ],
   "seen": [
@@ -5304,6 +5331,7 @@
     "106844325",
     "106844324",
     "106844319",
-    "106844344"
+    "106844344",
+    "106844377"
   ]
 }
