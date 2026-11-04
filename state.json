@@ -692,6 +692,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-04T12:16:40.718575+00:00"
+      },
+      {
+        "key": "106843847",
+        "seq_id": "106843847",
+        "symbol": "QUINTEGRA",
+        "company": "Quintegra Solutions Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/QUINTEGRA_04112026125852_Results_30092026_to_SE.pdf",
+        "an_dt": "04-Nov-2026 13:03:47",
+        "date": "2026-11-04",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-04T13:05:33.866031+00:00"
       }
     ],
     "next_cache": "2026-11-03",
@@ -1095,7 +1107,8 @@
     "106843807",
     "106843796",
     "106843831",
-    "106843834"
+    "106843834",
+    "106843847"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1361,24 +1374,10 @@
     "panamapet_04112026124405_outcome.pdf",
     "bectorfood_04112026124229_outcome_bm_4112026.pdf",
     "steelxind_04112026125541_outcome_of_board_meeting_04112026_final_signed.pdf",
-    "sundaramclayton_04112026125755_quickresultssd.pdf"
+    "sundaramclayton_04112026125755_quickresultssd.pdf",
+    "quintegra_04112026125852_results_30092026_to_se.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-11-02",
-      "s": "FINEORG",
-      "c": "Fine Organic Industries Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 729.39,
-      "pat": 152.12,
-      "eps": 49.62,
-      "filing": "https://nsearchives.nseindia.com/corporate/FINEORG_02112026165429_Outcomeofboardmeeting.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:FINEORG",
-      "t": "02-Nov-2026 16:58:17",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751236_02112026054757_WEB.xml"
-    },
     {
       "d": "2026-11-02",
       "s": "HECPROJECT",
@@ -5627,6 +5626,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/SUNDARAMCLAYTON_04112026125755_QUICKRESULTSSD.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SUNCLAY",
       "t": "04-Nov-2026 12:59:15"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "QUINTEGRA",
+      "c": "Quintegra Solutions Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/QUINTEGRA_04112026125852_Results_30092026_to_SE.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:QUINTEGRA",
+      "t": "04-Nov-2026 13:03:47"
     }
   ]
 }
