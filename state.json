@@ -4045,6 +4045,76 @@
       "filing": "https://nsearchives.nseindia.com/corporate/BINDALAGRO_04112026170227_Final_Intimation.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:OSWALGREEN",
       "t": "04-Nov-2026 17:05:50"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "INTERARCH",
+      "c": "Interarch Building Solutions Limited",
+      "r": "Positive",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 505.3833,
+      "pat": 30.6935,
+      "eps": 18.27,
+      "filing": "https://nsearchives.nseindia.com/corporate/INTERARCH1983_04112026170628_OutcomeofBM04112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:INTERARCH",
+      "t": "04-Nov-2026 17:10:33"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "JKLAKSHMI",
+      "c": "JK Lakshmi Cement Limited",
+      "r": "Bad",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 1616.92,
+      "pat": 20.88,
+      "eps": 1.68,
+      "filing": "https://nsearchives.nseindia.com/corporate/JKLASHMI_04112026170921_OUTCOME.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:JKLAKSHMI",
+      "t": "04-Nov-2026 17:10:25"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "CENTUM",
+      "c": "Centum Electronics Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 311.819,
+      "pat": 22.927000000000003,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/CENTUME_04112026165926_OutcomeofBM4112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CENTUM",
+      "t": "04-Nov-2026 17:10:11"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "ADVANCE",
+      "c": "Advance Agrolife Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/ADVANCE_04112026170920_ADVANCESECRETARIAL2026-2773.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ADVANCE",
+      "t": "04-Nov-2026 17:09:52"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "GEEKAYWIRE",
+      "c": "Geekay Wires Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/GEEKAYWIRE_04112026170236_Outcome_of_BM.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GEEKAYWIRE",
+      "t": "04-Nov-2026 17:07:22"
     }
   ],
   "seen": [
@@ -4515,7 +4585,12 @@
     "106844711",
     "106844723",
     "106844724",
-    "106844721"
+    "106844721",
+    "106844754",
+    "106844753",
+    "106844752",
+    "106844749",
+    "106844729"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -5082,6 +5157,30 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-04T17:12:19.855086+00:00"
+      },
+      {
+        "key": "106844749",
+        "seq_id": "106844749",
+        "symbol": "ADVANCE",
+        "company": "Advance Agrolife Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/ADVANCE_04112026170920_ADVANCESECRETARIAL2026-2773.pdf",
+        "an_dt": "04-Nov-2026 17:09:52",
+        "date": "2026-11-04",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-04T17:15:41.013340+00:00"
+      },
+      {
+        "key": "106844729",
+        "seq_id": "106844729",
+        "symbol": "GEEKAYWIRE",
+        "company": "Geekay Wires Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/GEEKAYWIRE_04112026170236_Outcome_of_BM.pdf",
+        "an_dt": "04-Nov-2026 17:07:22",
+        "date": "2026-11-04",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-04T17:15:41.982949+00:00"
       }
     ],
     "ipo_check": "2026-11-04 17",
@@ -5877,6 +5976,11 @@
     "ashiana_04112026170116_outcomeofbmsigned.pdf",
     "univa_04112026170410_bse_outcome_of_bm__final.pdf",
     "chalet_04112026170437_outcomeboardmeeting04112026.pdf",
-    "bindalagro_04112026170227_final_intimation.pdf"
+    "bindalagro_04112026170227_final_intimation.pdf",
+    "interarch1983_04112026170628_outcomeofbm04112026.pdf",
+    "jklashmi_04112026170921_outcome.pdf",
+    "centume_04112026165926_outcomeofbm4112026.pdf",
+    "advance_04112026170920_advancesecretarial2026-2773.pdf",
+    "geekaywire_04112026170236_outcome_of_bm.pdf"
   ]
 }
