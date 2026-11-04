@@ -557,7 +557,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T12:18:56.874674+00:00"
+        "xbrl_try": "2026-11-04T13:20:56.561073+00:00"
       },
       {
         "key": "106841454",
@@ -569,7 +569,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T12:18:57.979042+00:00"
+        "xbrl_try": "2026-11-04T13:20:57.710323+00:00"
       },
       {
         "key": "106841577",
@@ -594,7 +594,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T12:18:59.033016+00:00"
+        "xbrl_try": "2026-11-04T13:20:58.604704+00:00"
       },
       {
         "key": "106842168",
@@ -606,7 +606,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T12:18:59.975541+00:00"
+        "xbrl_try": "2026-11-04T13:20:59.991873+00:00"
       },
       {
         "key": "106842383",
@@ -618,7 +618,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T12:19:00.820967+00:00"
+        "xbrl_try": "2026-11-04T13:21:00.976028+00:00"
       },
       {
         "key": "106842647",
@@ -630,7 +630,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T12:19:02.007877+00:00"
+        "xbrl_try": "2026-11-04T13:21:02.394454+00:00"
       },
       {
         "key": "106842850",
@@ -655,7 +655,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T12:19:02.860968+00:00"
+        "xbrl_try": "2026-11-04T13:21:03.268929+00:00"
       },
       {
         "key": "106843308",
@@ -1110,7 +1110,8 @@
     "106843834",
     "106843847",
     "106843859",
-    "106843857"
+    "106843857",
+    "106843883"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1379,23 +1380,10 @@
     "sundaramclayton_04112026125755_quickresultssd.pdf",
     "quintegra_04112026125852_results_30092026_to_se.pdf",
     "hmvl_04112026130912_hmvloutcome.pdf",
-    "rustomjee_04112026130758_outcome_of_board_meeting_cover_letter.pdf"
+    "rustomjee_04112026130758_outcome_of_board_meeting_cover_letter.pdf",
+    "biocon_04112026131527_bmoutcome.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-11-02",
-      "s": "AKUMS",
-      "c": "Akums Drugs and Pharmaceuticals Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 1342.3870000000002,
-      "pat": 114.56500000000001,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/NSEAKUMS10_02112026171324_AKUMSBMOUTCOME.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:AKUMS",
-      "t": "02-Nov-2026 17:14:53"
-    },
     {
       "d": "2026-11-02",
       "s": "KRYSTAL",
@@ -5643,6 +5631,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/RUSTOMJEE_04112026130758_Outcome_of_Board_Meeting_Cover_Letter.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:RUSTOMJEE",
       "t": "04-Nov-2026 13:09:36"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "BIOCON",
+      "c": "Biocon Limited",
+      "r": "Bad",
+      "b": "Standalone",
+      "q": "Q3 FY27",
+      "sales": 6.305,
+      "pat": 1.439,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/BIOCON_04112026131527_BMOutcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BIOCON",
+      "t": "04-Nov-2026 13:19:07"
     }
   ]
 }
