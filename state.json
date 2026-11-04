@@ -703,7 +703,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T14:06:53.275422+00:00"
+        "xbrl_try": "2026-11-04T15:07:27.325140+00:00"
       },
       {
         "key": "106843917",
@@ -788,6 +788,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-04T14:32:16.788749+00:00"
+      },
+      {
+        "key": "106844203",
+        "seq_id": "106844203",
+        "symbol": "TTL",
+        "company": "T T Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/TTL_04112026145556_FIANNCIAL_STOCK_EXCHANGE_SEP_26.pdf",
+        "an_dt": "04-Nov-2026 15:03:46",
+        "date": "2026-11-04",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-04T15:07:28.402678+00:00"
       }
     ],
     "next_cache": "2026-11-03",
@@ -1234,7 +1246,8 @@
     "106844142",
     "106844168",
     "106844166",
-    "106844199"
+    "106844199",
+    "106844203"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1543,23 +1556,10 @@
     "sunilbcml_04112026144306_bcml_outcome_bm_04112026.pdf",
     "capacite_04112026145318_bm_outcome.pdf",
     "careerp_04112026145045_cpcap_outcome041126.pdf",
-    "mapmyindia_04112026150154_mmi_bm_outcome_4_nov_2026.pdf"
+    "mapmyindia_04112026150154_mmi_bm_outcome_4_nov_2026.pdf",
+    "ttl_04112026145556_fianncial_stock_exchange_sep_26.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-11-02",
-      "s": "TATAINVEST",
-      "c": "Tata Investment Corporation Limited",
-      "r": "Weak",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 122.3,
-      "pat": 115.92,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/TATAINVEST_02112026191907_SE_Int_Outcome.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:TATAINVEST",
-      "t": "02-Nov-2026 19:19:22"
-    },
     {
       "d": "2026-11-02",
       "s": "DCMFINSERV",
@@ -5800,6 +5800,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/MAPMYINDIA_04112026150154_MMI_BM_Outcome_4_Nov_2026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:MAPMYINDIA",
       "t": "04-Nov-2026 15:02:37"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "TTL",
+      "c": "T T Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/TTL_04112026145556_FIANNCIAL_STOCK_EXCHANGE_SEP_26.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:TTL",
+      "t": "04-Nov-2026 15:03:46"
     }
   ]
 }
