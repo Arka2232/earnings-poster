@@ -1057,7 +1057,8 @@
     "106841408",
     "106843295",
     "106843308",
-    "106843418"
+    "106843418",
+    "106843505"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1309,23 +1310,10 @@
     "zyduswell_03112026122955_seintimationoutcomeofbm.pdf",
     "lupin2_04112026004100_se_outcome_ufr_intimation.pdf",
     "belding_04112026033012_se_intimation.pdf",
-    "garudaconstruction2010_04112026094801_financial_results_signed.pdf"
+    "garudaconstruction2010_04112026094801_financial_results_signed.pdf",
+    "gaaml2025_04112026102248_outcome_of_bm.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-11-02",
-      "s": "MOIL",
-      "c": "MOIL Limited",
-      "r": "Weak",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 369.1328,
-      "pat": 61.7746,
-      "eps": 3.04,
-      "filing": "https://nsearchives.nseindia.com/corporate/MOIL_02112026161132_Q2_Results_2026-27.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MOIL",
-      "t": "02-Nov-2026 16:16:57"
-    },
     {
       "d": "2026-11-02",
       "s": "AAKASH",
@@ -5579,6 +5567,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/GARUDACONSTRUCTION2010_04112026094801_Financial_Results_signed.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:GARUDA",
       "t": "04-Nov-2026 09:48:16"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "GAJA",
+      "c": "Gaja Alternative Asset Management Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 13.8482,
+      "pat": 21.3406,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/GAAML2025_04112026102248_Outcome_of_Bm.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GAJA",
+      "t": "04-Nov-2026 10:23:02"
     }
   ]
 }
