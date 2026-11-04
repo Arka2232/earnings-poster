@@ -727,7 +727,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T13:37:34.787839+00:00"
+        "xbrl_try": "2026-11-04T14:40:17.873112+00:00"
       },
       {
         "key": "106843972",
@@ -1239,7 +1239,9 @@
     "106844077",
     "106844083",
     "106844094",
-    "106844105"
+    "106844105",
+    "106844111",
+    "106844106"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1541,37 +1543,11 @@
     "aplltd_04112026142549_ufr.pdf",
     "stovekraft_04112026142605_ufr30092026_04november_2026.pdf",
     "sundarmfin_04112026143215_ufr30092026sd.pdf",
-    "zimlab_04112026143555_outcomeofthebaordmeeting04112026.pdf"
+    "zimlab_04112026143555_outcomeofthebaordmeeting04112026.pdf",
+    "sumit_04112026143601_nse.pdf",
+    "bluecoast_04112026143436_outcome_bm_04112026signed.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-11-02",
-      "s": "DIVGIITTS",
-      "c": "Divgi Torqtransfer Systems Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/DIVGITTS_02112026184454_DTTS_BM_Outcome_FinalSubmission_signed_Final.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:DIVGIITTS",
-      "t": "02-Nov-2026 18:47:07"
-    },
-    {
-      "d": "2026-11-02",
-      "s": "SHREEPUSHK",
-      "c": "Shree Pushkar Chemicals & Fertilisers Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 403.48400000000004,
-      "pat": 35.717600000000004,
-      "eps": 11.05,
-      "filing": "https://nsearchives.nseindia.com/corporate/SHREEPUSHK_02112026184934_SPCFLOutcomeofBM02112026FOCR.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SHREEPUSHK",
-      "t": "02-Nov-2026 18:49:54"
-    },
     {
       "d": "2026-11-02",
       "s": "VALIANTLAB",
@@ -5797,6 +5773,34 @@
       "filing": "https://nsearchives.nseindia.com/corporate/ZIMLAB_04112026143555_OutcomeoftheBaordMeeting04112026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:ZIMLAB",
       "t": "04-Nov-2026 14:36:17"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "SUMIT",
+      "c": "Sumit Woods Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 36.616,
+      "pat": 1.9032,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/SUMIT_04112026143601_NSE.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SUMIT",
+      "t": "04-Nov-2026 14:38:16"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "BLUECOAST",
+      "c": "Blue Coast Hotels Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 0.35000000000000003,
+      "pat": -0.56,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/BLUECOAST_04112026143436_OUTCOME_BM_04112026SIGNED.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BLUECOAST",
+      "t": "04-Nov-2026 14:37:02"
     }
   ]
 }
