@@ -1157,7 +1157,8 @@
     "106843919",
     "106843918",
     "106843917",
-    "106843938"
+    "106843938",
+    "106843941"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1437,23 +1438,10 @@
     "lalpathlab_04112026132659_bmoutcome041126.pdf",
     "jtektindia_04112026132532_outcome_of_board_meeting.pdf",
     "redtape_04112026132833_outcome_of_bm.pdf",
-    "marksans_04112026133031_seintimation-results.pdf"
+    "marksans_04112026133031_seintimation-results.pdf",
+    "rolexrings_04112026133400_results.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-11-02",
-      "s": "SHEMAROO",
-      "c": "Shemaroo Entertainment Limited",
-      "r": "Positive",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 141.2485,
-      "pat": 0.2273,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/SHEMAROO_02112026173954_Outcome02112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SHEMAROO",
-      "t": "02-Nov-2026 17:44:43"
-    },
     {
       "d": "2026-11-02",
       "s": "PTC",
@@ -5697,6 +5685,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/MARKSANS_04112026133031_Seintimation-Results.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:MARKSANS",
       "t": "04-Nov-2026 13:34:26"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "ROLEXRINGS",
+      "c": "Rolex Rings Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 389.183,
+      "pat": 73.9381,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/ROLEXRINGS_04112026133400_Results.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ROLEXRINGS",
+      "t": "04-Nov-2026 13:35:29"
     }
   ]
 }
