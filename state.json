@@ -461,7 +461,7 @@
         "url": "https://nsearchives.nseindia.com/corporate/PATELINT_02112026155145_Outcome_of_BM_Sept2026_sd.pdf",
         "an_dt": "02-Nov-2026 15:53:28",
         "date": "2026-11-02",
-        "xbrl_try": "2026-11-04T11:14:46.881209+00:00"
+        "xbrl_try": "2026-11-04T12:16:36.916689+00:00"
       },
       {
         "key": "106839719",
@@ -473,7 +473,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T11:16:35.079589+00:00"
+        "xbrl_try": "2026-11-04T12:16:40.071743+00:00"
       },
       {
         "key": "106839796",
@@ -680,6 +680,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-04T11:45:38.387132+00:00"
+      },
+      {
+        "key": "106843712",
+        "seq_id": "106843712",
+        "symbol": "BASF",
+        "company": "BASF India Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/BASFIL_04112026121140_FR04112026.pdf",
+        "an_dt": "04-Nov-2026 12:13:02",
+        "date": "2026-11-04",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-04T12:16:40.718575+00:00"
       }
     ],
     "next_cache": "2026-11-03",
@@ -1072,7 +1084,8 @@
     "106843418",
     "106843505",
     "106843651",
-    "106843661"
+    "106843661",
+    "106843712"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1327,23 +1340,10 @@
     "garudaconstruction2010_04112026094801_financial_results_signed.pdf",
     "gaaml2025_04112026102248_outcome_of_bm.pdf",
     "vintage_04112026114217_bmoutcome04112026.pdf",
-    "gabriel_04112026115003_bm_outcome_signed.pdf"
+    "gabriel_04112026115003_bm_outcome_signed.pdf",
+    "basfil_04112026121140_fr04112026.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-11-02",
-      "s": "PRIMO",
-      "c": "Primo Chemicals Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/PRIMO607_02112026160657_UFR30092026Outcome.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PRIMO",
-      "t": "02-Nov-2026 16:09:47"
-    },
     {
       "d": "2026-11-02",
       "s": "WOCKPHARMA",
@@ -5597,6 +5597,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/GABRIEL_04112026115003_BM_outcome_signed.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:GABRIEL",
       "t": "04-Nov-2026 11:50:43"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "BASF",
+      "c": "BASF India Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/BASFIL_04112026121140_FR04112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BASF",
+      "t": "04-Nov-2026 12:13:02"
     }
   ]
 }
