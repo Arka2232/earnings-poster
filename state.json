@@ -1223,7 +1223,8 @@
     "106844044",
     "106844039",
     "106844035",
-    "106844048"
+    "106844048",
+    "106844077"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1521,24 +1522,10 @@
     "acrysil_04112026141200_outcome04112026.pdf",
     "exicom_04112026140942_outcome-signed.pdf",
     "thangamayl_04112026140903_outcome_of_meeting_covering_letter.pdf",
-    "sjs_04112026141255_bmoutcomeq2fy27.pdf"
+    "sjs_04112026141255_bmoutcomeq2fy27.pdf",
+    "aplltd_04112026142549_ufr.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-11-02",
-      "s": "JHS",
-      "c": "JHS Svendgaard Laboratories Limited",
-      "r": "Bad",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 21.828799999999998,
-      "pat": 0.5078,
-      "eps": 0.06,
-      "filing": "https://nsearchives.nseindia.com/corporate/JHS_02112026182640_Outcome_Final_Lab.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:JHS",
-      "t": "02-Nov-2026 18:27:54",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751318_02112026063343_WEB.xml"
-    },
     {
       "d": "2026-11-02",
       "s": "ARE&M",
@@ -5778,6 +5765,20 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:PTL",
       "t": "04-Nov-2026 13:21:53",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752470_04112026012958_WEB.xml"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "APLLTD",
+      "c": "Alembic Pharmaceuticals Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q4 FY26",
+      "sales": 2603.48,
+      "pat": 333.91,
+      "eps": 17.05,
+      "filing": "https://nsearchives.nseindia.com/corporate/APLLTD_04112026142549_UFR.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:APLLTD",
+      "t": "04-Nov-2026 14:27:25"
     }
   ]
 }
