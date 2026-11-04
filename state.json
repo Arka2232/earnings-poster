@@ -3947,6 +3947,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/SHIVAMAUTO_04112026164546_Outcomeof116thBMSept2026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SHIVAMAUTO",
       "t": "04-Nov-2026 16:47:55"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "APTUS",
+      "c": "Aptus Value Housing Finance India Limited",
+      "r": "Positive",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 424.0797,
+      "pat": 200.7191,
+      "eps": 4.01,
+      "filing": "https://nsearchives.nseindia.com/corporate/APTUS_04112026164833_AVHFIL_Board_Meeting_Outcome_November_04_2026_sd.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:APTUS",
+      "t": "04-Nov-2026 16:52:04"
     }
   ],
   "seen": [
@@ -4410,7 +4424,8 @@
     "106844597",
     "106844619",
     "106844610",
-    "106844635"
+    "106844635",
+    "106844647"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -4640,7 +4655,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T15:52:57.062767+00:00"
+        "xbrl_try": "2026-11-04T16:53:05.243976+00:00"
       },
       {
         "key": "106843651",
@@ -4652,7 +4667,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T15:52:57.969506+00:00"
+        "xbrl_try": "2026-11-04T16:53:05.885967+00:00"
       },
       {
         "key": "106843712",
@@ -5717,6 +5732,7 @@
     "torntpower_04112026164014_outcome_of_bm.pdf",
     "sonia_gupte_04112026164105_outcomeofbmsd.pdf",
     "aspinwall_04112026163756_bm_outcome__sept_2026.pdf",
-    "shivamauto_04112026164546_outcomeof116thbmsept2026.pdf"
+    "shivamauto_04112026164546_outcomeof116thbmsept2026.pdf",
+    "aptus_04112026164833_avhfil_board_meeting_outcome_november_04_2026_sd.pdf"
   ]
 }
