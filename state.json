@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "AMANTA",
-      "c": "Amanta Healthcare Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 83.1324,
-      "pat": 4.8609,
-      "eps": 1.25,
-      "filing": "https://nsearchives.nseindia.com/corporate/AMANTA_03112026172706_Outcome_of_Board_Meeting.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:AMANTA",
-      "t": "03-Nov-2026 17:30:45"
-    },
-    {
-      "d": "2026-11-03",
       "s": "HGINFRA",
       "c": "H.G. Infra Engineering Limited",
       "r": "Bad",
@@ -4250,6 +4236,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/UNIVCABLES_04112026215228_Outcome_BM_04112026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:UNIVCABLES",
       "t": "04-Nov-2026 21:54:21"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "TENNIND",
+      "c": "Tenneco Clean Air India Limited",
+      "r": "Good",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 1718.3410000000001,
+      "pat": 173.358,
+      "eps": 4.29,
+      "filing": "https://nsearchives.nseindia.com/corporate/TENNECO_04112026221229_BMOutcomeIntimation_Signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:TENNIND",
+      "t": "04-Nov-2026 22:15:13"
     }
   ],
   "seen": [
@@ -4810,7 +4810,8 @@
     "106845827",
     "106845863",
     "106845860",
-    "106845859"
+    "106845859",
+    "106845893"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -6217,6 +6218,7 @@
     "chaithanya_lakshmi_esab_co_in_04112026212153_obm041126_signed.pdf",
     "univcables_04112026215609_outcome_bm_04112026.pdf",
     "transindia_04112026215406_bm_outcome_04112026.pdf",
-    "univcables_04112026215228_outcome_bm_04112026.pdf"
+    "univcables_04112026215228_outcome_bm_04112026.pdf",
+    "tenneco_04112026221229_bmoutcomeintimation_signed.pdf"
   ]
 }
