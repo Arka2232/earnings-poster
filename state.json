@@ -697,7 +697,7 @@
     "next_cache": "2026-11-03",
     "nightly_pass": "2026-11-03",
     "calendar": "2026-11-04",
-    "ipo_check": "2026-11-04 12",
+    "ipo_check": "2026-11-04 13",
     "ipo_posted": [
       "BCSSL",
       "HGSINDIALT",
@@ -1093,7 +1093,8 @@
     "106843770",
     "106843810",
     "106843807",
-    "106843796"
+    "106843796",
+    "106843831"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1357,23 +1358,10 @@
     "blal_04112026122907_outcome_of_bm.pdf",
     "ramcoind_04112026124411_frq2_202627.pdf",
     "panamapet_04112026124405_outcome.pdf",
-    "bectorfood_04112026124229_outcome_bm_4112026.pdf"
+    "bectorfood_04112026124229_outcome_bm_4112026.pdf",
+    "steelxind_04112026125541_outcome_of_board_meeting_04112026_final_signed.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-11-02",
-      "s": "GRANULES",
-      "c": "Granules India Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 1559.9740000000002,
-      "pat": 181.837,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/GRANULES_02112026164630_NSEBSEOUTCOME.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GRANULES",
-      "t": "02-Nov-2026 16:48:27"
-    },
     {
       "d": "2026-11-02",
       "s": "ESDS",
@@ -5623,6 +5611,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/BECTORFOOD_04112026124229_OUTCOME_BM_4112026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:BECTORFOOD",
       "t": "04-Nov-2026 12:44:41"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "STEELXIND",
+      "c": "STEEL EXCHANGE INDIA LIMITED",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 343.1575,
+      "pat": 17.6234,
+      "eps": 0.14,
+      "filing": "https://nsearchives.nseindia.com/corporate/STEELXIND_04112026125541_Outcome_of_Board_Meeting_04112026_Final_Signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:STEELXIND",
+      "t": "04-Nov-2026 12:57:26"
     }
   ]
 }
