@@ -2,35 +2,6 @@
   "archive": [
     {
       "d": "2026-11-02",
-      "s": "BHARATWIRE",
-      "c": "Bharat Wire Ropes Limited",
-      "r": "Weak",
-      "b": "Standalone",
-      "q": "Q2 FY26",
-      "sales": 181.9091,
-      "pat": 17.4449,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/BHARATWIRE_02112026194046_ResultsSD.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BHARATWIRE",
-      "t": "02-Nov-2026 19:41:33"
-    },
-    {
-      "d": "2026-11-02",
-      "s": "KKCL",
-      "c": "Kewal Kiran Clothing Limited",
-      "r": "Good",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 373.0,
-      "pat": 54.0,
-      "eps": 7.84,
-      "filing": "https://nsearchives.nseindia.com/corporate/KKCL_02112026193933_Results.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:KKCL",
-      "t": "02-Nov-2026 19:43:25",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751447_02112026075620_WEB.xml"
-    },
-    {
-      "d": "2026-11-02",
       "s": "SPARC",
       "c": "Sun Pharma Advanced Research Company Limited",
       "r": "Positive",
@@ -4257,6 +4228,35 @@
       "filing": "https://nsearchives.nseindia.com/corporate/63MOONS_04112026173552_FinancialResults04112026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:63MOONS",
       "t": "04-Nov-2026 17:37:06"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "OAL",
+      "c": "Oriental Aromatics Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 314.02570000000003,
+      "pat": 10.2363,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/OAL_04112026173914_Intimation.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:OAL",
+      "t": "04-Nov-2026 17:42:57"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "MARKSANS",
+      "c": "Marksans Pharma Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 940.169,
+      "pat": 143.525,
+      "eps": 3.12,
+      "filing": "https://nsearchives.nseindia.com/corporate/MARKSANS_04112026133031_Seintimation-Results.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MARKSANS",
+      "t": "04-Nov-2026 13:34:26",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752710_04112026051034_WEB.xml"
     }
   ],
   "seen": [
@@ -4742,7 +4742,8 @@
     "106844866",
     "106844861",
     "106844858",
-    "106844889"
+    "106844889",
+    "106844932"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -5009,18 +5010,6 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-04T17:40:46.448008+00:00"
-      },
-      {
-        "key": "106843938",
-        "seq_id": "106843938",
-        "symbol": "MARKSANS",
-        "company": "Marksans Pharma Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/MARKSANS_04112026133031_Seintimation-Results.pdf",
-        "an_dt": "04-Nov-2026 13:34:26",
-        "date": "2026-11-04",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-04T16:42:51.873302+00:00"
       },
       {
         "key": "106844039",
@@ -6143,6 +6132,7 @@
     "dharmaj_04112026173146_bsenseresult04112026.pdf",
     "sanathan_04112026173106_stl_outcomeofbm.pdf",
     "patel_04112026172750_prloutcome.pdf",
-    "63moons_04112026173552_financialresults04112026.pdf"
+    "63moons_04112026173552_financialresults04112026.pdf",
+    "oal_04112026173914_intimation.pdf"
   ]
 }
