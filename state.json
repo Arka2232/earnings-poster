@@ -2,49 +2,6 @@
   "archive": [
     {
       "d": "2026-11-02",
-      "s": "KEC",
-      "c": "KEC International Limited",
-      "r": "Bad",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 5467.71,
-      "pat": 29.74,
-      "eps": 1.12,
-      "filing": "https://nsearchives.nseindia.com/corporate/KEC_02112026210430_SE_intimation_BM_outcome_Results.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:KEC",
-      "t": "02-Nov-2026 21:09:59"
-    },
-    {
-      "d": "2026-11-02",
-      "s": "FLAIR",
-      "c": "Flair Writing Industries Limited",
-      "r": "Weak",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 340.1221,
-      "pat": 42.2525,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/flair2016_02112026211618_BSE_NSE_Outcome_of_BM_Q2_FY_26-27.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:FLAIR",
-      "t": "02-Nov-2026 21:18:05"
-    },
-    {
-      "d": "2026-11-02",
-      "s": "SADBHIN",
-      "c": "Sadbhav Infrastructure Project Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 201.98999999999998,
-      "pat": 67.877,
-      "eps": 1.32,
-      "filing": "https://nsearchives.nseindia.com/corporate/SADBHIN_02112026211647_SIPLOutcomeofBoardMeeting02112026signed.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SADBHIN",
-      "t": "02-Nov-2026 21:20:01",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751521_02112026091753_WEB.xml"
-    },
-    {
-      "d": "2026-11-02",
       "s": "NATIONALUM",
       "c": "National Aluminium Company Limited",
       "r": "Excellent",
@@ -4255,6 +4212,48 @@
       "filing": "https://nsearchives.nseindia.com/corporate/CREDONSE_04112026180745_20261104_SE_Letter_BM_Results.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:MUFTI",
       "t": "04-Nov-2026 18:12:44"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "ELECTHERM",
+      "c": "Electrotherm (India) Limited",
+      "r": "Good",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 912.43,
+      "pat": -20.04,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/ELECTHERM_04112026181250_SE_Letter_-_Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ELECTHERM",
+      "t": "04-Nov-2026 18:16:13"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "GPPL",
+      "c": "Gujarat Pipavav Port Limited",
+      "r": "Positive",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 339.15200000000004,
+      "pat": 152.69000000000003,
+      "eps": 3.16,
+      "filing": "https://nsearchives.nseindia.com/corporate/GPPL_04112026181348_Results.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GPPL",
+      "t": "04-Nov-2026 18:15:45"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "KOKUYOCMLN",
+      "c": "Kokuyo Camlin Limited",
+      "r": "Bad",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 185.6444,
+      "pat": 2.5673000000000004,
+      "eps": 0.26,
+      "filing": "https://nsearchives.nseindia.com/corporate/RAVIDAMLE_04112026181009_KCLResults30092026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:KOKUYOCMLN",
+      "t": "04-Nov-2026 18:14:36"
     }
   ],
   "seen": [
@@ -4752,7 +4751,10 @@
     "106845080",
     "106845148",
     "106845147",
-    "106845143"
+    "106845143",
+    "106845159",
+    "106845155",
+    "106845150"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -6225,6 +6227,9 @@
     "marine_04112026175953_regulation_30_board_meeting_outcome.pdf",
     "aifl2020_04112026181316_outcome_of_board_meeting.pdf",
     "mittal_04112026181130_mittal_life_style_limited_nse_filing_30-09-2026_finalfinal.pdf",
-    "credonse_04112026180745_20261104_se_letter_bm_results.pdf"
+    "credonse_04112026180745_20261104_se_letter_bm_results.pdf",
+    "electherm_04112026181250_se_letter_-_outcome.pdf",
+    "gppl_04112026181348_results.pdf",
+    "ravidamle_04112026181009_kclresults30092026.pdf"
   ]
 }
