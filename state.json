@@ -2,51 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "UFO",
-      "c": "UFO Moviez India Limited",
-      "r": "Weak",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 129.4,
-      "pat": 6.41,
-      "eps": 1.65,
-      "filing": "https://nsearchives.nseindia.com/corporate/UFO_03112026164542_OutcomeofBoardMeeting03112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:UFO",
-      "t": "03-Nov-2026 16:47:49",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752074_03112026064352_WEB.xml"
-    },
-    {
-      "d": "2026-11-03",
-      "s": "VMART",
-      "c": "V-Mart Retail Limited",
-      "r": "Bad",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 952.99,
-      "pat": -16.34,
-      "eps": -2.06,
-      "filing": "https://nsearchives.nseindia.com/corporate/VMART_03112026164834_FinalOutcome.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:VMART",
-      "t": "03-Nov-2026 16:48:56",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751893_03112026051227_WEB.xml"
-    },
-    {
-      "d": "2026-11-03",
-      "s": "LINDEINDIA",
-      "c": "Linde India Limited",
-      "r": "Bad",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 723.197,
-      "pat": 118.812,
-      "eps": 13.93,
-      "filing": "https://nsearchives.nseindia.com/corporate/LINDEINDIA1_03112026165015_Outcome_of_BM_03112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:LINDEINDIA",
-      "t": "03-Nov-2026 16:52:51",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752034_03112026062743_WEB.xml"
-    },
-    {
-      "d": "2026-11-03",
       "s": "BAJAJHLDNG",
       "c": "Bajaj Holdings & Investment Limited",
       "r": "Positive",
@@ -4252,6 +4207,48 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SAURASHCEM",
       "t": "04-Nov-2026 19:39:39",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753172_04112026084122_WEB.xml"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "TOTAL",
+      "c": "Total Transport Systems Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 283.8881,
+      "pat": 7.1214,
+      "eps": 4.41,
+      "filing": "https://nsearchives.nseindia.com/corporate/TOTAL_04112026204157_TOTAL_Outcome_to_SE_BM.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:TOTAL",
+      "t": "04-Nov-2026 20:44:15"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "SADBHAV",
+      "c": "Sadbhav Engineering Limited",
+      "r": "Positive",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 226.6681,
+      "pat": 63.8694,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/SADBHAV_04112026204318_SELOutcomeofBoardMeeting04112026signed1.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SADBHAV",
+      "t": "04-Nov-2026 20:43:33"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "TRIGYN",
+      "c": "Trigyn Technologies Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 69.5641,
+      "pat": 4.8039,
+      "eps": 1.56,
+      "filing": "https://nsearchives.nseindia.com/corporate/TRIGYN_04112026204232_TTL_BM_Outcome_with_Results_04112026_-sd.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:TRIGYN",
+      "t": "04-Nov-2026 20:43:30"
     }
   ],
   "seen": [
@@ -4799,7 +4796,10 @@
     "106845733",
     "106845740",
     "106845747",
-    "106845744"
+    "106845744",
+    "106845758",
+    "106845757",
+    "106845756"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -6167,6 +6167,9 @@
     "nrbbearing1_04112026202745_signed_nrb_outcome_november_04_2026_for_upload.pdf",
     "oricon_04112026203125_outcomeofboardmeeting04112026final.pdf",
     "alltimeplasticslimited_04112026203428_outcomeofbm30092026.pdf",
-    "vindhyatel_04112026202851_unauditedfinancialresults.pdf"
+    "vindhyatel_04112026202851_unauditedfinancialresults.pdf",
+    "total_04112026204157_total_outcome_to_se_bm.pdf",
+    "sadbhav_04112026204318_seloutcomeofboardmeeting04112026signed1.pdf",
+    "trigyn_04112026204232_ttl_bm_outcome_with_results_04112026_-sd.pdf"
   ]
 }
