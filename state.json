@@ -2,21 +2,6 @@
   "archive": [
     {
       "d": "2026-11-02",
-      "s": "GSLSU",
-      "c": "Global Surfaces Limited",
-      "r": "Weak",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 59.876,
-      "pat": -5.401,
-      "eps": -1.25,
-      "filing": "https://nsearchives.nseindia.com/corporate/GLOBALSURFACES_02112026180606_outcome_Signed.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GSLSU",
-      "t": "02-Nov-2026 18:08:44",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751545_02112026100428_WEB.xml"
-    },
-    {
-      "d": "2026-11-02",
       "s": "HAPPSTMNDS",
       "c": "Happiest Minds Technologies Limited",
       "r": "Good",
@@ -4254,6 +4239,21 @@
       "filing": "https://nsearchives.nseindia.com/corporate/DELTAMAGNT_04112026182906_DML.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:DELTAMAGNT",
       "t": "04-Nov-2026 18:33:25"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "JISLJALEQS",
+      "c": "Jain Irrigation Systems Limited",
+      "r": "Good",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 1576.6599999999999,
+      "pat": 18.009999999999998,
+      "eps": 0.23,
+      "filing": "https://nsearchives.nseindia.com/corporate/JISLJALEQS_04112026152910_SE_Letter_Outcome_Financial_Results_SEPT2026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:JISLJALEQS",
+      "t": "04-Nov-2026 15:30:52",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752838_04112026060805_WEB.xml"
     }
   ],
   "seen": [
@@ -5047,7 +5047,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T17:36:42.889386+00:00"
+        "xbrl_try": "2026-11-04T18:36:59.804928+00:00"
       },
       {
         "key": "106844203",
@@ -5073,18 +5073,6 @@
         "basis": "",
         "xbrl_try": "2026-11-04T18:30:49.877922+00:00",
         "xbrl_blocked": "other-taxonomy"
-      },
-      {
-        "key": "106844310",
-        "seq_id": "106844310",
-        "symbol": "JISLJALEQS",
-        "company": "Jain Irrigation Systems Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/JISLJALEQS_04112026152910_SE_Letter_Outcome_Financial_Results_SEPT2026.pdf",
-        "an_dt": "04-Nov-2026 15:30:52",
-        "date": "2026-11-04",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-04T17:36:43.858742+00:00"
       },
       {
         "key": "106844325",
@@ -5168,7 +5156,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T17:36:44.341765+00:00"
+        "xbrl_try": "2026-11-04T18:37:09.327055+00:00"
       },
       {
         "key": "106844619",
