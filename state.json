@@ -4171,6 +4171,36 @@
       "filing": "https://nsearchives.nseindia.com/corporate/SOMANYCERAMICS_04112026171354_OutcomeofBoardMeeting_04112026sd.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SOMANYCERA",
       "t": "04-Nov-2026 17:16:46"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "BASF",
+      "c": "BASF India Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 4832.19,
+      "pat": 61.709999999999994,
+      "eps": 14.3,
+      "filing": "https://nsearchives.nseindia.com/corporate/BASFIL_04112026121140_FR04112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BASF",
+      "t": "04-Nov-2026 12:13:02",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752651_04112026044114_WEB.xml"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "CARYSIL",
+      "c": "CARYSIL LIMITED",
+      "r": "Good",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 275.72999999999996,
+      "pat": 29.009999999999998,
+      "eps": 9.97,
+      "filing": "https://nsearchives.nseindia.com/corporate/ACRYSIL_04112026141200_Outcome04112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CARYSIL",
+      "t": "04-Nov-2026 14:13:14",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752620_04112026043300_WEB.xml"
     }
   ],
   "seen": [
@@ -4734,7 +4764,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T16:24:50.550038+00:00"
+        "xbrl_try": "2026-11-04T17:26:49.355936+00:00"
       },
       {
         "key": "106840511",
@@ -4746,7 +4776,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T16:24:51.685239+00:00"
+        "xbrl_try": "2026-11-04T17:26:50.693203+00:00"
       },
       {
         "key": "106840621",
@@ -4758,7 +4788,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T16:24:52.558524+00:00"
+        "xbrl_try": "2026-11-04T17:26:51.805977+00:00"
       },
       {
         "key": "106840747",
@@ -4770,7 +4800,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T16:24:53.747020+00:00"
+        "xbrl_try": "2026-11-04T17:26:53.254741+00:00"
       },
       {
         "key": "106841454",
@@ -4782,7 +4812,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T16:24:55.163303+00:00"
+        "xbrl_try": "2026-11-04T17:26:54.844102+00:00"
       },
       {
         "key": "106841577",
@@ -4807,7 +4837,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T16:24:56.241540+00:00"
+        "xbrl_try": "2026-11-04T17:26:56.062532+00:00"
       },
       {
         "key": "106842168",
@@ -4819,7 +4849,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T16:24:57.656552+00:00"
+        "xbrl_try": "2026-11-04T17:26:57.369094+00:00"
       },
       {
         "key": "106842383",
@@ -4831,7 +4861,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T16:24:58.434652+00:00"
+        "xbrl_try": "2026-11-04T17:26:58.138261+00:00"
       },
       {
         "key": "106842647",
@@ -4843,7 +4873,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T16:24:59.800985+00:00"
+        "xbrl_try": "2026-11-04T17:26:59.476709+00:00"
       },
       {
         "key": "106842850",
@@ -4868,7 +4898,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T16:25:00.882967+00:00"
+        "xbrl_try": "2026-11-04T17:27:00.548121+00:00"
       },
       {
         "key": "106843308",
@@ -4893,18 +4923,6 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-04T16:53:05.885967+00:00"
-      },
-      {
-        "key": "106843712",
-        "seq_id": "106843712",
-        "symbol": "BASF",
-        "company": "BASF India Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/BASFIL_04112026121140_FR04112026.pdf",
-        "an_dt": "04-Nov-2026 12:13:02",
-        "date": "2026-11-04",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-04T16:25:01.849697+00:00"
       },
       {
         "key": "106843847",
@@ -4943,18 +4961,6 @@
         "xbrl_try": "2026-11-04T16:42:51.873302+00:00"
       },
       {
-        "key": "106844044",
-        "seq_id": "106844044",
-        "symbol": "CARYSIL",
-        "company": "CARYSIL LIMITED",
-        "url": "https://nsearchives.nseindia.com/corporate/ACRYSIL_04112026141200_Outcome04112026.pdf",
-        "an_dt": "04-Nov-2026 14:13:14",
-        "date": "2026-11-04",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-04T16:25:02.579170+00:00"
-      },
-      {
         "key": "106844039",
         "seq_id": "106844039",
         "symbol": "EXICOM",
@@ -4964,7 +4970,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T16:25:03.440636+00:00"
+        "xbrl_try": "2026-11-04T17:27:11.047401+00:00"
       },
       {
         "key": "106844035",
@@ -4976,7 +4982,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T16:25:04.260454+00:00"
+        "xbrl_try": "2026-11-04T17:27:11.898452+00:00"
       },
       {
         "key": "106844083",
