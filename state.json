@@ -3989,6 +3989,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/TAINWALCHM_04112026165147_Outcome4Nov26.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:TAINWALCHM",
       "t": "04-Nov-2026 16:54:23"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "ASHIANA",
+      "c": "Ashiana Housing Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/ASHIANA_04112026170116_OutcomeofBMSIGNED.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ASHIANA",
+      "t": "04-Nov-2026 17:03:51"
     }
   ],
   "seen": [
@@ -4455,7 +4469,8 @@
     "106844635",
     "106844647",
     "106844668",
-    "106844661"
+    "106844661",
+    "106844711"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -4974,6 +4989,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-04T16:51:54.724928+00:00"
+      },
+      {
+        "key": "106844711",
+        "seq_id": "106844711",
+        "symbol": "ASHIANA",
+        "company": "Ashiana Housing Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/ASHIANA_04112026170116_OutcomeofBMSIGNED.pdf",
+        "an_dt": "04-Nov-2026 17:03:51",
+        "date": "2026-11-04",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-04T17:06:50.379254+00:00"
       }
     ],
     "ipo_check": "2026-11-04 17",
@@ -5765,6 +5792,7 @@
     "shivamauto_04112026164546_outcomeof116thbmsept2026.pdf",
     "aptus_04112026164833_avhfil_board_meeting_outcome_november_04_2026_sd.pdf",
     "sbankar_04112026164938_outcomeofbm.pdf",
-    "tainwalchm_04112026165147_outcome4nov26.pdf"
+    "tainwalchm_04112026165147_outcome4nov26.pdf",
+    "ashiana_04112026170116_outcomeofbmsigned.pdf"
   ]
 }
