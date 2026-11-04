@@ -1174,7 +1174,8 @@
     "106843954",
     "106843972",
     "106843987",
-    "106843986"
+    "106843986",
+    "106843993"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1459,23 +1460,10 @@
     "mol_04112026133627_outcomeq2fy27.pdf",
     "jhanviu_04112026134315_seintimation_fs.pdf",
     "shankara_04112026135047_filing_ocr.pdf",
-    "icil_04112026135052_outcome.pdf"
+    "icil_04112026135052_outcome.pdf",
+    "saksoft_04112026135307_reg30outcomeofbmnov_042026finalsigned.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-11-02",
-      "s": "ARVINDFASN",
-      "c": "Arvind Fashions Limited",
-      "r": "Good",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 1558.83,
-      "pat": 67.62,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/ARVINDFASN_02112026175809_BMOutcomeIntimation.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ARVINDFASN",
-      "t": "02-Nov-2026 18:00:45"
-    },
     {
       "d": "2026-11-02",
       "s": "KITEX",
@@ -5718,6 +5706,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/ICIL_04112026135052_outcome.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:ICIL",
       "t": "04-Nov-2026 13:52:07"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "SAKSOFT",
+      "c": "Saksoft Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 248.6121,
+      "pat": 22.8208,
+      "eps": 2.49,
+      "filing": "https://nsearchives.nseindia.com/corporate/SAKSOFT_04112026135307_Reg30OutcomeofBMNov_042026finalsigned.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SAKSOFT",
+      "t": "04-Nov-2026 13:53:23"
     }
   ]
 }
