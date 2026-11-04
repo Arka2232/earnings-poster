@@ -2,21 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "MINDACORP",
-      "c": "Minda Corporation Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 2189.2999999999997,
-      "pat": 142.97,
-      "eps": 6.08,
-      "filing": "https://nsearchives.nseindia.com/corporate/MINDACORP_03112026150024_BMOutcome.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MINDACORP",
-      "t": "03-Nov-2026 15:00:40",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751958_03112026055220_WEB.xml"
-    },
-    {
-      "d": "2026-11-03",
       "s": "INVENTURE",
       "c": "Inventure Growth & Securities Limited",
       "r": "Excellent",
@@ -4253,6 +4238,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/EMUDHRA2008_04112026193412_Outcome_of_Board_Meeting.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:EMUDHRA",
       "t": "04-Nov-2026 19:34:58"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "SAURASHCEM",
+      "c": "Saurashtra Cement Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/Saurashtra_04112026193320_LettertoSEresults3092026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SAURASHCEM",
+      "t": "04-Nov-2026 19:39:39"
     }
   ],
   "seen": [
@@ -4783,7 +4782,8 @@
     "106845547",
     "106845559",
     "106845564",
-    "106845578"
+    "106845578",
+    "106845597"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -5339,6 +5339,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-04T19:39:00.825844+00:00"
+      },
+      {
+        "key": "106845597",
+        "seq_id": "106845597",
+        "symbol": "SAURASHCEM",
+        "company": "Saurashtra Cement Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/Saurashtra_04112026193320_LettertoSEresults3092026.pdf",
+        "an_dt": "04-Nov-2026 19:39:39",
+        "date": "2026-11-04",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-04T19:41:51.351907+00:00"
       }
     ],
     "ipo_check": "2026-11-04 19",
@@ -6194,6 +6206,7 @@
     "nhpc_04112026192444_stx_intimation_results_30092026.pdf",
     "earth_2018_04112026193020_outcomeofboardmeeting04112026.pdf",
     "ellenbarrie2024_04112026193115_announcement_outcome_of_board_meeting_04112026.pdf",
-    "emudhra2008_04112026193412_outcome_of_board_meeting.pdf"
+    "emudhra2008_04112026193412_outcome_of_board_meeting.pdf",
+    "saurashtra_04112026193320_lettertoseresults3092026.pdf"
   ]
 }
