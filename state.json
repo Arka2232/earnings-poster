@@ -2,35 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "AJMERA",
-      "c": "Ajmera Realty & Infra India Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 316.96,
-      "pat": 48.47,
-      "eps": 2.29,
-      "filing": "https://nsearchives.nseindia.com/corporate/AJMERA_03112026135429_Intimation_sd.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:AJMERA",
-      "t": "03-Nov-2026 13:55:38",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751778_03112026035734_WEB.xml"
-    },
-    {
-      "d": "2026-11-03",
-      "s": "GRAPHITE",
-      "c": "Graphite India Limited",
-      "r": "Bad",
-      "b": "Consolidated",
-      "q": "Q4 FY26",
-      "sales": 826.0,
-      "pat": 171.0,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/GILKOLKATA_03112026135910_RESULT30092026F.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GRAPHITE",
-      "t": "03-Nov-2026 14:02:27"
-    },
-    {
-      "d": "2026-11-03",
       "s": "SIKKO",
       "c": "Sikko Industries Limited",
       "r": "Good",
@@ -4257,6 +4228,36 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:ASHIANA",
       "t": "04-Nov-2026 17:03:51",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752877_04112026061910_WEB.xml"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "CHEMPLASTS",
+      "c": "Chemplast Sanmar Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 1323.21,
+      "pat": -5.45,
+      "eps": -0.34,
+      "filing": "https://nsearchives.nseindia.com/corporate/CHEMPLASTS_04112026160801_OutcomeBMFinancials04112026SD.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CHEMPLASTS",
+      "t": "04-Nov-2026 16:08:51",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752992_04112026070523_WEB.xml"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "OSWALGREEN",
+      "c": "Oswal Greentech Limited",
+      "r": "Positive",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 13.8752,
+      "pat": 8.557,
+      "eps": 0.33,
+      "filing": "https://nsearchives.nseindia.com/corporate/BINDALAGRO_04112026170227_Final_Intimation.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:OSWALGREEN",
+      "t": "04-Nov-2026 17:05:50",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752986_04112026070430_WEB.xml"
     }
   ],
   "seen": [
@@ -5029,7 +5030,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T18:13:08.700542+00:00"
+        "xbrl_try": "2026-11-04T19:14:48.748739+00:00"
       },
       {
         "key": "106843917",
@@ -5077,7 +5078,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T18:13:10.048232+00:00"
+        "xbrl_try": "2026-11-04T19:14:50.060803+00:00"
       },
       {
         "key": "106844278",
@@ -5091,18 +5092,6 @@
         "basis": "",
         "xbrl_try": "2026-11-04T18:30:49.877922+00:00",
         "xbrl_blocked": "other-taxonomy"
-      },
-      {
-        "key": "106844465",
-        "seq_id": "106844465",
-        "symbol": "CHEMPLASTS",
-        "company": "Chemplast Sanmar Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/CHEMPLASTS_04112026160801_OutcomeBMFinancials04112026SD.pdf",
-        "an_dt": "04-Nov-2026 16:08:51",
-        "date": "2026-11-04",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-04T18:13:16.223301+00:00"
       },
       {
         "key": "106844472",
@@ -5174,7 +5163,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T18:13:17.459599+00:00"
+        "xbrl_try": "2026-11-04T19:15:00.098535+00:00"
       },
       {
         "key": "106844724",
@@ -5186,19 +5175,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T18:13:17.907096+00:00"
-      },
-      {
-        "key": "106844721",
-        "seq_id": "106844721",
-        "symbol": "OSWALGREEN",
-        "company": "Oswal Greentech Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/BINDALAGRO_04112026170227_Final_Intimation.pdf",
-        "an_dt": "04-Nov-2026 17:05:50",
-        "date": "2026-11-04",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-04T18:13:18.624804+00:00"
+        "xbrl_try": "2026-11-04T19:15:00.453056+00:00"
       },
       {
         "key": "106844749",
