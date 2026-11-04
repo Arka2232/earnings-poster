@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "RTNINDIA",
-      "c": "RattanIndia Enterprises Limited",
-      "r": "Positive",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 2061.6650000000004,
-      "pat": -24.029,
-      "eps": -0.18,
-      "filing": "https://nsearchives.nseindia.com/corporate/RTNINDIA_03112026145359_RELResultsQ2.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:RTNINDIA",
-      "t": "03-Nov-2026 14:55:31"
-    },
-    {
-      "d": "2026-11-03",
       "s": "CPEDU",
       "c": "Career Point Edutech Limited",
       "r": "Excellent",
@@ -4253,6 +4239,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/Earth_2018_04112026193020_OutcomeofBoardMeeting04112026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:UNIPARTS",
       "t": "04-Nov-2026 19:31:51"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "ELLEN",
+      "c": "Ellenbarrie Industrial Gases Limited",
+      "r": "Positive",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 114.31800000000001,
+      "pat": 35.647000000000006,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/ELLENBARRIE2024_04112026193115_Announcement_Outcome_of_Board_Meeting_04112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ELLEN",
+      "t": "04-Nov-2026 19:32:49"
     }
   ],
   "seen": [
@@ -4781,7 +4781,8 @@
     "106845506",
     "106845503",
     "106845547",
-    "106845559"
+    "106845559",
+    "106845564"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -5264,7 +5265,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T18:33:28.251602+00:00"
+        "xbrl_try": "2026-11-04T19:35:11.286731+00:00"
       },
       {
         "key": "106845243",
@@ -6178,6 +6179,7 @@
     "afcons_04112026191300_afcons_outcome_of_the_board_meetingdate04112026.pdf",
     "grinfra_04112026191744_financial_results_q2_dsc04112026.pdf",
     "nhpc_04112026192444_stx_intimation_results_30092026.pdf",
-    "earth_2018_04112026193020_outcomeofboardmeeting04112026.pdf"
+    "earth_2018_04112026193020_outcomeofboardmeeting04112026.pdf",
+    "ellenbarrie2024_04112026193115_announcement_outcome_of_board_meeting_04112026.pdf"
   ]
 }
