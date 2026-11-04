@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-02",
-      "s": "DIGITIDE",
-      "c": "Digitide Solutions Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/DIGITIDE_02112026215817_Digitide_Outcome_02112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:DIGITIDE",
-      "t": "02-Nov-2026 21:59:57"
-    },
-    {
-      "d": "2026-11-02",
       "s": "TVTODAY",
       "c": "TV Today Network Limited",
       "r": "Excellent",
@@ -4255,6 +4241,20 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:THANGAMAYL",
       "t": "04-Nov-2026 14:10:55",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752884_04112026062253_WEB.xml"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "SKFINDUS",
+      "c": "SKF India (Industrial) Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/SKFINDUS25_04112026181948_NSE.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SKFINDUS",
+      "t": "04-Nov-2026 18:31:18"
     }
   ],
   "seen": [
@@ -4756,7 +4756,8 @@
     "106845159",
     "106845155",
     "106845150",
-    "106845218"
+    "106845218",
+    "106845234"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -5384,6 +5385,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-04T18:16:38.953651+00:00"
+      },
+      {
+        "key": "106845234",
+        "seq_id": "106845234",
+        "symbol": "SKFINDUS",
+        "company": "SKF India (Industrial) Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/SKFINDUS25_04112026181948_NSE.pdf",
+        "an_dt": "04-Nov-2026 18:31:18",
+        "date": "2026-11-04",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-04T18:33:28.251602+00:00"
       }
     ],
     "ipo_check": "2026-11-04 18",
@@ -6210,6 +6223,7 @@
     "electherm_04112026181250_se_letter_-_outcome.pdf",
     "gppl_04112026181348_results.pdf",
     "ravidamle_04112026181009_kclresults30092026.pdf",
-    "pel2024_04112026182631_outcome_q2_fy_2026-27_signed.pdf"
+    "pel2024_04112026182631_outcome_q2_fy_2026-27_signed.pdf",
+    "skfindus25_04112026181948_nse.pdf"
   ]
 }
