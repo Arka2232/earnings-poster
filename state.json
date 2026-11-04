@@ -2,63 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "NEXTMEDIA",
-      "c": "Next Mediaworks Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/NEXTMEDIA_03112026124005_NMW_Board_Meeting_Outcome_Nov_2026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:NEXTMEDIA",
-      "t": "03-Nov-2026 12:41:00"
-    },
-    {
-      "d": "2026-11-03",
-      "s": "BAJAJFINSV",
-      "c": "Bajaj Finserv Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 2005.66,
-      "pat": 1458.53,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/walimbelk_03112026124657_BFSSEOUTCOMEOFBM_3NOV2026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BAJAJFINSV",
-      "t": "03-Nov-2026 12:48:27"
-    },
-    {
-      "d": "2026-11-03",
-      "s": "DIACABS",
-      "c": "Diamond Power Infrastructure Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 1031.9038,
-      "pat": 107.8821,
-      "eps": 1.87,
-      "filing": "https://nsearchives.nseindia.com/corporate/DIACABS_03112026125735_OutcomeofBM.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:DIACABS",
-      "t": "03-Nov-2026 13:03:05",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752090_03112026065247_WEB.xml"
-    },
-    {
-      "d": "2026-11-03",
-      "s": "ALKYLAMINE",
-      "c": "Alkyl Amines Chemicals Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 490.95,
-      "pat": 90.09,
-      "eps": 12.74,
-      "filing": "https://nsearchives.nseindia.com/corporate/ALKYLAMINE_03112026131355_results.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ALKYLAMINE",
-      "t": "03-Nov-2026 13:16:34"
-    },
-    {
-      "d": "2026-11-03",
       "s": "DEEPINDS",
       "c": "Deep Industries Limited",
       "r": "Good",
@@ -4254,6 +4197,63 @@
       "filing": "https://nsearchives.nseindia.com/corporate/SPIC_04112026183859_Outcome_of_BM_04_11_2026_final.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SPIC",
       "t": "04-Nov-2026 18:42:54"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "AEROENTER",
+      "c": "Aeroflex Enterprises Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/SATINDUSTRIES_04112026184603_OutcomeofBoardMeetingNov042026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:AEROENTER",
+      "t": "04-Nov-2026 18:46:54"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "ADROITINFO",
+      "c": "Adroit Infotech Limited",
+      "r": "Bad",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 15.258,
+      "pat": 0.6828000000000001,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/ADROITINFO_04112026184439_OutcomeQ227.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ADROITINFO",
+      "t": "04-Nov-2026 18:45:33"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "THEINVEST",
+      "c": "The Investment Trust Of India Limited",
+      "r": "Positive",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 1.9880000000000002,
+      "pat": 0.2039,
+      "eps": 0.04,
+      "filing": "https://nsearchives.nseindia.com/corporate/THEINVEST_04112026184306_TheITIOutcomeofMeeting_Sept26.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:THEINVEST",
+      "t": "04-Nov-2026 18:45:31"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "RUCHINFRA",
+      "c": "Ruchi Infrastructure Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 16.529999999999998,
+      "pat": 3.73,
+      "eps": 0.12,
+      "filing": "https://nsearchives.nseindia.com/corporate/RUCHINFRA_04112026174648_OutcomeofBoardMeetingheldon04112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:RUCHINFRA",
+      "t": "04-Nov-2026 17:47:51",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752803_04112026055341_WEB.xml"
     }
   ],
   "seen": [
@@ -4762,7 +4762,10 @@
     "106845288",
     "106845299",
     "106845298",
-    "106845293"
+    "106845293",
+    "106845321",
+    "106845310",
+    "106845308"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -5272,18 +5275,6 @@
         "xbrl_try": "2026-11-04T18:22:49.250897+00:00"
       },
       {
-        "key": "106844954",
-        "seq_id": "106844954",
-        "symbol": "RUCHINFRA",
-        "company": "Ruchi Infrastructure Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/RUCHINFRA_04112026174648_OutcomeofBoardMeetingheldon04112026.pdf",
-        "an_dt": "04-Nov-2026 17:47:51",
-        "date": "2026-11-04",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-04T17:50:24.366839+00:00"
-      },
-      {
         "key": "106844998",
         "seq_id": "106844998",
         "symbol": "OSWALAGRO",
@@ -5390,6 +5381,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-04T18:48:22.872693+00:00"
+      },
+      {
+        "key": "106845321",
+        "seq_id": "106845321",
+        "symbol": "AEROENTER",
+        "company": "Aeroflex Enterprises Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/SATINDUSTRIES_04112026184603_OutcomeofBoardMeetingNov042026.pdf",
+        "an_dt": "04-Nov-2026 18:46:54",
+        "date": "2026-11-04",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-04T18:51:19.252070+00:00"
       }
     ],
     "ipo_check": "2026-11-04 18",
@@ -6223,6 +6226,9 @@
     "omkar_04112026184110_apl_bm_outcome_04112026_sd.pdf",
     "kims_04112026184239_outcome-final.pdf",
     "ravindra_04112026184040_intimation_file.pdf",
-    "spic_04112026183859_outcome_of_bm_04_11_2026_final.pdf"
+    "spic_04112026183859_outcome_of_bm_04_11_2026_final.pdf",
+    "satindustries_04112026184603_outcomeofboardmeetingnov042026.pdf",
+    "adroitinfo_04112026184439_outcomeq227.pdf",
+    "theinvest_04112026184306_theitioutcomeofmeeting_sept26.pdf"
   ]
 }
