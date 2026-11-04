@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "MEDANTA",
-      "c": "Global Health Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 14690.43,
-      "pat": 2191.44,
-      "eps": 8.21,
-      "filing": "https://nsearchives.nseindia.com/corporate/MEDANTA21_03112026160317_GHLOUTCOMEOFBMNOV032026SIGNED.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MEDANTA",
-      "t": "03-Nov-2026 16:06:37"
-    },
-    {
-      "d": "2026-11-03",
       "s": "BIGBLOC",
       "c": "Bigbloc Construction Limited",
       "r": "Good",
@@ -4251,6 +4237,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/SBGLP_04112026200751_BM_Outcome_04112026signed.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SBGLP",
       "t": "04-Nov-2026 20:09:33"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "ENTERO",
+      "c": "Entero Healthcare Solutions Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 114.57100000000001,
+      "pat": 19.144000000000002,
+      "eps": 4.4,
+      "filing": "https://nsearchives.nseindia.com/corporate/ENTERO_04112026201308_BoardMeeting_Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ENTERO",
+      "t": "04-Nov-2026 20:14:33"
     }
   ],
   "seen": [
@@ -4791,7 +4791,8 @@
     "106845665",
     "106845677",
     "106845673",
-    "106845687"
+    "106845687",
+    "106845699"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -5045,7 +5046,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T19:14:48.748739+00:00"
+        "xbrl_try": "2026-11-04T20:18:16.327128+00:00"
       },
       {
         "key": "106844083",
@@ -5069,7 +5070,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T19:14:50.060803+00:00"
+        "xbrl_try": "2026-11-04T20:18:17.389453+00:00"
       },
       {
         "key": "106844278",
@@ -5154,7 +5155,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T19:15:00.098535+00:00"
+        "xbrl_try": "2026-11-04T20:18:19.005505+00:00"
       },
       {
         "key": "106844724",
@@ -5166,7 +5167,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T19:15:00.453056+00:00"
+        "xbrl_try": "2026-11-04T20:18:19.428781+00:00"
       },
       {
         "key": "106844749",
@@ -6200,6 +6201,7 @@
     "webelsolar_04112026195930_bm_outcome.pdf",
     "jayagrogn1_04112026200436_outcome_bm_sep2026.pdf",
     "stel_04112026195642_stel04112026upload.pdf",
-    "sbglp_04112026200751_bm_outcome_04112026signed.pdf"
+    "sbglp_04112026200751_bm_outcome_04112026signed.pdf",
+    "entero_04112026201308_boardmeeting_outcome.pdf"
   ]
 }
