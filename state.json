@@ -2,50 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "MAXIND",
-      "c": "Max India Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 86.78999999999999,
-      "pat": -22.25,
-      "eps": -4.02,
-      "filing": "https://nsearchives.nseindia.com/corporate/MAXIND_03112026155414_OutcomeNov2026MILsigned.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MAXIND",
-      "t": "03-Nov-2026 15:57:07",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752128_03112026071103_WEB.xml"
-    },
-    {
-      "d": "2026-11-03",
-      "s": "HARSHA",
-      "c": "Harsha Engineers International Limited",
-      "r": "Good",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 4.4009,
-      "pat": 0.45030000000000003,
-      "eps": 4.95,
-      "filing": "https://nsearchives.nseindia.com/corporate/Harsha_03112026160002_Board_Meeting_Outcome_Dated_3rd_November_2026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:HARSHA",
-      "t": "03-Nov-2026 16:01:21"
-    },
-    {
-      "d": "2026-11-03",
-      "s": "SIGMA",
-      "c": "Sigma Solve Limited",
-      "r": "Bad",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 7.879099999999999,
-      "pat": 1.1267,
-      "eps": 0.11,
-      "filing": "https://nsearchives.nseindia.com/corporate/SIGMA_03112026160443_OUTCOME_BM_03112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SIGMA",
-      "t": "03-Nov-2026 16:07:45",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751781_03112026040309_WEB.xml"
-    },
-    {
-      "d": "2026-11-03",
       "s": "SEAMECLTD",
       "c": "Seamec Limited",
       "r": "Positive",
@@ -4252,6 +4208,49 @@
       "filing": "https://nsearchives.nseindia.com/corporate/WEBELSOLAR_04112026195930_BM_Outcome.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:WEBELSOLAR",
       "t": "04-Nov-2026 20:01:28"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "JAYAGROGN",
+      "c": "Jayant Agro Organics Limited",
+      "r": "Positive",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 787.3459,
+      "pat": 21.620900000000002,
+      "eps": 7.01,
+      "filing": "https://nsearchives.nseindia.com/corporate/JAYAGROGN1_04112026200436_Outcome_BM_Sep2026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:JAYAGROGN",
+      "t": "04-Nov-2026 20:05:33"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "STEL",
+      "c": "Stel Holdings Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 26.512,
+      "pat": 19.6703,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/STEL_04112026195642_STEL04112026UPLOAD.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:STEL",
+      "t": "04-Nov-2026 20:05:01"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "BSE",
+      "c": "BSE Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 1432.6599999999999,
+      "pat": 807.52,
+      "eps": 19.64,
+      "filing": "https://nsearchives.nseindia.com/corporate/BSE1_04112026175851_NSEINTIMATION.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BSE",
+      "t": "04-Nov-2026 18:01:51",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753030_04112026071644_WEB.xml"
     }
   ],
   "seen": [
@@ -4789,7 +4788,9 @@
     "106845633",
     "106845644",
     "106845643",
-    "106845665"
+    "106845665",
+    "106845677",
+    "106845673"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -5213,18 +5214,6 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-04T20:01:06.116304+00:00"
-      },
-      {
-        "key": "106845063",
-        "seq_id": "106845063",
-        "symbol": "BSE",
-        "company": "BSE Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/BSE1_04112026175851_NSEINTIMATION.pdf",
-        "an_dt": "04-Nov-2026 18:01:51",
-        "date": "2026-11-04",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-04T19:06:43.718916+00:00"
       },
       {
         "key": "106845082",
@@ -6195,6 +6184,8 @@
     "tplplasteh_04112026194610_outcome.pdf",
     "auropharma_04112026194825_ltrtosesoutcomeofbm04112026.pdf",
     "godavaribio_04112026195039_final_financials_september_2026.pdf",
-    "webelsolar_04112026195930_bm_outcome.pdf"
+    "webelsolar_04112026195930_bm_outcome.pdf",
+    "jayagrogn1_04112026200436_outcome_bm_sep2026.pdf",
+    "stel_04112026195642_stel04112026upload.pdf"
   ]
 }
