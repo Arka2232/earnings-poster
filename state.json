@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-02",
-      "s": "NATIONALUM",
-      "c": "National Aluminium Company Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 5419.44,
-      "pat": 1835.09,
-      "eps": 9.99,
-      "filing": "https://nsearchives.nseindia.com/corporate/bharatsahu_02112026213030_BM_OUTCOME.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:NATIONALUM",
-      "t": "02-Nov-2026 21:32:38"
-    },
-    {
-      "d": "2026-11-02",
       "s": "ARE&M",
       "c": "Amara Raja Energy & Mobility Limited",
       "r": "Bad",
@@ -4254,6 +4240,21 @@
       "filing": "https://nsearchives.nseindia.com/corporate/RAVIDAMLE_04112026181009_KCLResults30092026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:KOKUYOCMLN",
       "t": "04-Nov-2026 18:14:36"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "IVP",
+      "c": "IVP Limited",
+      "r": "Good",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 171.67999999999998,
+      "pat": 4.6499999999999995,
+      "eps": 4.5,
+      "filing": "https://nsearchives.nseindia.com/corporate/IVP_04112026160736_BSENSEBMOUTCOME041126.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:IVP",
+      "t": "04-Nov-2026 16:09:51",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752847_04112026061043_WEB.xml"
     }
   ],
   "seen": [
@@ -5153,18 +5154,6 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-04T18:18:44.904745+00:00"
-      },
-      {
-        "key": "106844470",
-        "seq_id": "106844470",
-        "symbol": "IVP",
-        "company": "IVP Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/IVP_04112026160736_BSENSEBMOUTCOME041126.pdf",
-        "an_dt": "04-Nov-2026 16:09:51",
-        "date": "2026-11-04",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-04T17:18:43.894788+00:00"
       },
       {
         "key": "106844537",
