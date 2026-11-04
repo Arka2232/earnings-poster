@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "NORTHARC",
-      "c": "Northern Arc Capital Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 86870.75,
-      "pat": 12948.25,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/NACL2020_03112026171600_Results_Exchange_Final_1.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:NORTHARC",
-      "t": "03-Nov-2026 17:17:00"
-    },
-    {
-      "d": "2026-11-03",
       "s": "KALAMANDIR",
       "c": "Sai Silks (Kalamandir) Limited",
       "r": "Weak",
@@ -4249,6 +4235,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/LOHIA2023_04112026205128_Board_Meeting_Outcome.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:LCL",
       "t": "04-Nov-2026 20:54:01"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "WANBURY",
+      "c": "Wanbury Limited",
+      "r": "Weak",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 18290.97,
+      "pat": 1188.23,
+      "eps": 3.4,
+      "filing": "https://nsearchives.nseindia.com/corporate/WANBURY_04112026205135_Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:WANBURY",
+      "t": "04-Nov-2026 20:55:42"
     }
   ],
   "seen": [
@@ -4802,7 +4802,8 @@
     "106845756",
     "106845762",
     "106845774",
-    "106845777"
+    "106845777",
+    "106845780"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -5032,7 +5033,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T19:56:26.119224+00:00"
+        "xbrl_try": "2026-11-04T20:57:57.542324+00:00"
       },
       {
         "key": "106843651",
@@ -5044,7 +5045,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T19:56:26.779805+00:00"
+        "xbrl_try": "2026-11-04T20:57:58.215924+00:00"
       },
       {
         "key": "106843847",
@@ -5129,7 +5130,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T19:56:28.605452+00:00"
+        "xbrl_try": "2026-11-04T20:58:01.401493+00:00"
       },
       {
         "key": "106844635",
@@ -5141,7 +5142,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T19:56:28.976511+00:00"
+        "xbrl_try": "2026-11-04T20:58:01.702544+00:00"
       },
       {
         "key": "106844723",
@@ -6176,6 +6177,7 @@
     "trigyn_04112026204232_ttl_bm_outcome_with_results_04112026_-sd.pdf",
     "galaxysurf_04112026204444_outcomeds.pdf",
     "shukra_04112026205115_outcome_shukra_sw.pdf",
-    "lohia2023_04112026205128_board_meeting_outcome.pdf"
+    "lohia2023_04112026205128_board_meeting_outcome.pdf",
+    "wanbury_04112026205135_outcome.pdf"
   ]
 }
