@@ -2,36 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "BIGBLOC",
-      "c": "Bigbloc Construction Limited",
-      "r": "Good",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 82.8607,
-      "pat": -2.7492,
-      "eps": -0.13,
-      "filing": "https://nsearchives.nseindia.com/corporate/BIGBLOC_03112026160900_BSENSE_UAFR.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BIGBLOC",
-      "t": "03-Nov-2026 16:10:16",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751788_03112026040502_WEB.xml"
-    },
-    {
-      "d": "2026-11-03",
-      "s": "EBGNG",
-      "c": "GNG Electronics Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 624.8109999999999,
-      "pat": 56.351,
-      "eps": 4.94,
-      "filing": "https://nsearchives.nseindia.com/corporate/GNGNSE_03112026160558_BM_Outcome.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:EBGNG",
-      "t": "03-Nov-2026 16:10:04",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751831_03112026043304_WEB.xml"
-    },
-    {
-      "d": "2026-11-03",
       "s": "SOTL",
       "c": "Savita Oil Technologies Limited",
       "r": "Excellent",
@@ -4251,6 +4221,35 @@
       "filing": "https://nsearchives.nseindia.com/corporate/ENTERO_04112026201308_BoardMeeting_Outcome.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:ENTERO",
       "t": "04-Nov-2026 20:14:33"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "HTEL",
+      "c": "Hy-Tech Engineers Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/HYTECH_04112026201209_Outcome_04Nov2026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:HTEL",
+      "t": "04-Nov-2026 20:19:58"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "PLATIND",
+      "c": "Platinum Industries Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 121.26599999999999,
+      "pat": 7.598,
+      "eps": 1.4,
+      "filing": "https://nsearchives.nseindia.com/corporate/PLATINUM_04112026191251_Outcome_of_Board_Meeting.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PLATIND",
+      "t": "04-Nov-2026 19:15:29",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753135_04112026081128_WEB.xml"
     }
   ],
   "seen": [
@@ -4792,7 +4791,8 @@
     "106845677",
     "106845673",
     "106845687",
-    "106845699"
+    "106845699",
+    "106845707"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -5095,7 +5095,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T19:18:56.298845+00:00"
+        "xbrl_try": "2026-11-04T20:21:16.297987+00:00"
       },
       {
         "key": "106844537",
@@ -5179,7 +5179,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T19:18:56.970372+00:00"
+        "xbrl_try": "2026-11-04T20:21:17.114117+00:00"
       },
       {
         "key": "106844729",
@@ -5191,7 +5191,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T19:18:57.610137+00:00"
+        "xbrl_try": "2026-11-04T20:21:18.067820+00:00"
       },
       {
         "key": "106844778",
@@ -5239,7 +5239,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T19:18:58.575289+00:00"
+        "xbrl_try": "2026-11-04T20:21:19.545146+00:00"
       },
       {
         "key": "106845234",
@@ -5290,18 +5290,6 @@
         "xbrl_try": "2026-11-04T20:01:07.011295+00:00"
       },
       {
-        "key": "106845479",
-        "seq_id": "106845479",
-        "symbol": "PLATIND",
-        "company": "Platinum Industries Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/PLATINUM_04112026191251_Outcome_of_Board_Meeting.pdf",
-        "an_dt": "04-Nov-2026 19:15:29",
-        "date": "2026-11-04",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-04T19:19:01.771834+00:00"
-      },
-      {
         "key": "106845578",
         "seq_id": "106845578",
         "symbol": "EMUDHRA",
@@ -5336,6 +5324,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-04T20:12:41.905271+00:00"
+      },
+      {
+        "key": "106845707",
+        "seq_id": "106845707",
+        "symbol": "HTEL",
+        "company": "Hy-Tech Engineers Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/HYTECH_04112026201209_Outcome_04Nov2026.pdf",
+        "an_dt": "04-Nov-2026 20:19:58",
+        "date": "2026-11-04",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-04T20:21:24.730076+00:00"
       }
     ],
     "ipo_check": "2026-11-04 20",
@@ -6202,6 +6202,7 @@
     "jayagrogn1_04112026200436_outcome_bm_sep2026.pdf",
     "stel_04112026195642_stel04112026upload.pdf",
     "sbglp_04112026200751_bm_outcome_04112026signed.pdf",
-    "entero_04112026201308_boardmeeting_outcome.pdf"
+    "entero_04112026201308_boardmeeting_outcome.pdf",
+    "hytech_04112026201209_outcome_04nov2026.pdf"
   ]
 }
