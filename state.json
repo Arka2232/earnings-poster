@@ -450,7 +450,8 @@
     "106844472",
     "106844470",
     "106844494",
-    "106844488"
+    "106844488",
+    "106844531"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -1687,7 +1688,8 @@
     "candc_04112026160822_candc.pdf",
     "ivp_04112026160736_bsensebmoutcome041126.pdf",
     "dollex_04112026161307_bmfinalsigned.pdf",
-    "apollotyre1_04112026161233_outcome04112026.pdf"
+    "apollotyre1_04112026161233_outcome04112026.pdf",
+    "manugraph_04112026162356_mil_bm_outcome_ufr_04112026.pdf"
   ],
   "archive": [
     {
@@ -5511,6 +5513,20 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SJS",
       "t": "04-Nov-2026 14:14:34",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752570_04112026034812_WEB.xml"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "MANUGRAPH",
+      "c": "Manugraph India Limited",
+      "r": "Good",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 16.9009,
+      "pat": 7.4644,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/MANUGRAPH_04112026162356_MIL_BM_Outcome_UFR_04112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MANUGRAPH",
+      "t": "04-Nov-2026 16:25:13"
     }
   ]
 }
