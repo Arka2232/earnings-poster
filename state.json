@@ -446,7 +446,9 @@
     "106844437",
     "106844457",
     "106844467",
-    "106844465"
+    "106844465",
+    "106844472",
+    "106844470"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -896,6 +898,30 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-04T16:11:47.127619+00:00"
+      },
+      {
+        "key": "106844472",
+        "seq_id": "106844472",
+        "symbol": "CANDC",
+        "company": "C & C Constructions Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/CANDC_04112026160822_CANDC.pdf",
+        "an_dt": "04-Nov-2026 16:10:41",
+        "date": "2026-11-04",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-04T16:16:29.738440+00:00"
+      },
+      {
+        "key": "106844470",
+        "seq_id": "106844470",
+        "symbol": "IVP",
+        "company": "IVP Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/IVP_04112026160736_BSENSEBMOUTCOME041126.pdf",
+        "an_dt": "04-Nov-2026 16:09:51",
+        "date": "2026-11-04",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-04T16:16:30.113763+00:00"
       }
     ],
     "fiidii": "2026-11-03",
@@ -1667,7 +1693,9 @@
     "nykaa_04112026160123_outcome.pdf",
     "kicl_04112026160006_kicl_bm_results_04112026.pdf",
     "orkla2025_04112026160834_signedseintimationoutcome.pdf",
-    "chemplasts_04112026160801_outcomebmfinancials04112026sd.pdf"
+    "chemplasts_04112026160801_outcomebmfinancials04112026sd.pdf",
+    "candc_04112026160822_candc.pdf",
+    "ivp_04112026160736_bsensebmoutcome041126.pdf"
   ],
   "archive": [
     {
@@ -5420,6 +5448,34 @@
       "filing": "https://nsearchives.nseindia.com/corporate/CHEMPLASTS_04112026160801_OutcomeBMFinancials04112026SD.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:CHEMPLASTS",
       "t": "04-Nov-2026 16:08:51"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "CANDC",
+      "c": "C & C Constructions Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/CANDC_04112026160822_CANDC.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CANDC",
+      "t": "04-Nov-2026 16:10:41"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "IVP",
+      "c": "IVP Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/IVP_04112026160736_BSENSEBMOUTCOME041126.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:IVP",
+      "t": "04-Nov-2026 16:09:51"
     }
   ]
 }
