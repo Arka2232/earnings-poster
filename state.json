@@ -2,21 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "LUXIND",
-      "c": "Lux Industries Limited",
-      "r": "Positive",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 718.4699999999999,
-      "pat": 23.95,
-      "eps": 7.94,
-      "filing": "https://nsearchives.nseindia.com/corporate/LUXIND_03112026142650_outcome.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:LUXIND",
-      "t": "03-Nov-2026 14:28:04",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752010_03112026061658_WEB.xml"
-    },
-    {
-      "d": "2026-11-03",
       "s": "HIKAL",
       "c": "Hikal Limited",
       "r": "Excellent",
@@ -4256,6 +4241,20 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:MITTAL",
       "t": "04-Nov-2026 18:13:57",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752879_04112026062010_WEB.xml"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "SCI",
+      "c": "Shipping Corporation Of India Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 22.9073,
+      "pat": 5.7776,
+      "eps": 12.4,
+      "filing": "https://nsearchives.nseindia.com/corporate/SCI1_04112026191407_Finalsd.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SCI",
+      "t": "04-Nov-2026 19:19:00"
     }
   ],
   "seen": [
@@ -4778,7 +4777,8 @@
     "106845481",
     "106845479",
     "106845476",
-    "106845472"
+    "106845472",
+    "106845496"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -6193,6 +6193,7 @@
     "orientabra_04112026191500_outcome_se.pdf",
     "platinum_04112026191251_outcome_of_board_meeting.pdf",
     "navkar9_04112026191350_outcome_with_results_with_lrr.pdf",
-    "lumino123_04112026191207_outcomeofboardmeeting.pdf"
+    "lumino123_04112026191207_outcomeofboardmeeting.pdf",
+    "sci1_04112026191407_finalsd.pdf"
   ]
 }
