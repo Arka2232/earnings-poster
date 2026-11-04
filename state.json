@@ -1175,7 +1175,9 @@
     "106843972",
     "106843987",
     "106843986",
-    "106843993"
+    "106843993",
+    "106843995",
+    "106843994"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1461,38 +1463,11 @@
     "jhanviu_04112026134315_seintimation_fs.pdf",
     "shankara_04112026135047_filing_ocr.pdf",
     "icil_04112026135052_outcome.pdf",
-    "saksoft_04112026135307_reg30outcomeofbmnov_042026finalsigned.pdf"
+    "saksoft_04112026135307_reg30outcomeofbmnov_042026finalsigned.pdf",
+    "hiralmehta_04112026135157_outcomeofboardmeeting.pdf",
+    "allcargoterminals_04112026135358_seupload.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-11-02",
-      "s": "KITEX",
-      "c": "Kitex Garments Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 203.0358,
-      "pat": 13.706,
-      "eps": 0.84,
-      "filing": "https://nsearchives.nseindia.com/corporate/KITEX_02112026180551_KGL_FR_Q2_FY26-27s.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:KITEX",
-      "t": "02-Nov-2026 18:06:08",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751356_02112026065555_WEB.xml"
-    },
-    {
-      "d": "2026-11-02",
-      "s": "GSFC",
-      "c": "Gujarat State Fertilizers & Chemicals Limited",
-      "r": "Bad",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 4711.35,
-      "pat": 183.08,
-      "eps": 4.6,
-      "filing": "https://nsearchives.nseindia.com/corporate/PURVIGSFC_02112026180250_results.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GSFC",
-      "t": "02-Nov-2026 18:04:55"
-    },
     {
       "d": "2026-11-02",
       "s": "MOHITIND",
@@ -5720,6 +5695,34 @@
       "filing": "https://nsearchives.nseindia.com/corporate/SAKSOFT_04112026135307_Reg30OutcomeofBMNov_042026finalsigned.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SAKSOFT",
       "t": "04-Nov-2026 13:53:23"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "UNICHEMLAB",
+      "c": "Unichem Laboratories Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 640.22,
+      "pat": 22.22,
+      "eps": 3.16,
+      "filing": "https://nsearchives.nseindia.com/corporate/HIRALMEHTA_04112026135157_OutcomeofBoardMeeting.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:UNICHEMLAB",
+      "t": "04-Nov-2026 13:54:43"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "ATL",
+      "c": "Allcargo Terminals Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 251.63,
+      "pat": 20.89,
+      "eps": 0.8,
+      "filing": "https://nsearchives.nseindia.com/corporate/ALLCARGOTERMINALS_04112026135358_SEupload.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ATL",
+      "t": "04-Nov-2026 13:54:20"
     }
   ]
 }
