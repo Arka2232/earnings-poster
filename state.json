@@ -2,50 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "MANGLMCEM",
-      "c": "Mangalam Cement Limited",
-      "r": "Bad",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 433.3576,
-      "pat": 7.4072,
-      "eps": 2.7,
-      "filing": "https://nsearchives.nseindia.com/corporate/MANGLMCEM_03112026152332_NSE_BSE_OUTCOME_03_11_2026_S.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MANGLMCEM",
-      "t": "03-Nov-2026 15:25:49",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751971_03112026055637_WEB.xml"
-    },
-    {
-      "d": "2026-11-03",
-      "s": "CAMLINFINE",
-      "c": "Camlin Fine Sciences Limited",
-      "r": "Bad",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 491.465,
-      "pat": -29.7,
-      "eps": -1.45,
-      "filing": "https://nsearchives.nseindia.com/corporate/CAMLINFINE_03112026154559_Outcome_of_BM_03112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CAMLINFINE",
-      "t": "03-Nov-2026 15:47:20",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752154_03112026072837_WEB.xml"
-    },
-    {
-      "d": "2026-11-03",
-      "s": "NEULANDLAB",
-      "c": "Neuland Laboratories Limited",
-      "r": "Bad",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 449.6569,
-      "pat": 51.625,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/NEULANDLAB_03112026154657_SEOutcome_03112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:NEULANDLAB",
-      "t": "03-Nov-2026 15:50:00"
-    },
-    {
-      "d": "2026-11-03",
       "s": "ASKAUTOLTD",
       "c": "ASK Automotive Limited",
       "r": "Excellent",
@@ -4253,6 +4209,49 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:AEROENTER",
       "t": "04-Nov-2026 18:46:54",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753103_04112026074537_WEB.xml"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "AUROPHARMA",
+      "c": "Aurobindo Pharma Limited",
+      "r": "Good",
+      "b": "Standalone",
+      "q": "Q4 FY27",
+      "sales": 3162.7900000000004,
+      "pat": 723.58,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/AUROPHARMA_04112026194825_LtrToSEsOutcomeOfBM04112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:AUROPHARMA",
+      "t": "04-Nov-2026 19:53:46"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "GODAVARIB",
+      "c": "Godavari Biorefineries Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/GODAVARIBIO_04112026195039_Final_Financials_September_2026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GODAVARIB",
+      "t": "04-Nov-2026 19:53:23"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "GODAVARIB",
+      "c": "Godavari Biorefineries Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 549.2407999999999,
+      "pat": -15.240599999999999,
+      "eps": -2.98,
+      "filing": "https://nsearchives.nseindia.com/corporate/GODAVARIBIO_04112026195039_Final_Financials_September_2026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GODAVARIB",
+      "t": "04-Nov-2026 19:53:23",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753111_04112026074857_WEB.xml"
     }
   ],
   "seen": [
@@ -4787,7 +4786,9 @@
     "106845597",
     "106845601",
     "106845622",
-    "106845633"
+    "106845633",
+    "106845644",
+    "106845643"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -5017,7 +5018,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T18:53:23.330759+00:00"
+        "xbrl_try": "2026-11-04T19:56:26.119224+00:00"
       },
       {
         "key": "106843651",
@@ -5029,7 +5030,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T18:53:24.209381+00:00"
+        "xbrl_try": "2026-11-04T19:56:26.779805+00:00"
       },
       {
         "key": "106843847",
@@ -5126,7 +5127,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T18:53:38.121258+00:00"
+        "xbrl_try": "2026-11-04T19:56:28.605452+00:00"
       },
       {
         "key": "106844635",
@@ -5138,7 +5139,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T18:53:38.539357+00:00"
+        "xbrl_try": "2026-11-04T19:56:28.976511+00:00"
       },
       {
         "key": "106844723",
@@ -6190,6 +6191,8 @@
     "saurashtra_04112026193320_lettertoseresults3092026.pdf",
     "piind_04112026193824_resultssd.pdf",
     "excelindus_04112026194326_outcome_signed.pdf",
-    "tplplasteh_04112026194610_outcome.pdf"
+    "tplplasteh_04112026194610_outcome.pdf",
+    "auropharma_04112026194825_ltrtosesoutcomeofbm04112026.pdf",
+    "godavaribio_04112026195039_final_financials_september_2026.pdf"
   ]
 }
