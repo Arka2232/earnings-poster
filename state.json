@@ -444,7 +444,9 @@
     "106844344",
     "106844377",
     "106844437",
-    "106844457"
+    "106844457",
+    "106844467",
+    "106844465"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -882,6 +884,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-04T16:09:59.552327+00:00"
+      },
+      {
+        "key": "106844465",
+        "seq_id": "106844465",
+        "symbol": "CHEMPLASTS",
+        "company": "Chemplast Sanmar Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/CHEMPLASTS_04112026160801_OutcomeBMFinancials04112026SD.pdf",
+        "an_dt": "04-Nov-2026 16:08:51",
+        "date": "2026-11-04",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-04T16:11:47.127619+00:00"
       }
     ],
     "fiidii": "2026-11-03",
@@ -1651,7 +1665,9 @@
     "jash_04112026153646_outcomejash04112026.pdf",
     "tracxn_04112026154600_outcome.pdf",
     "nykaa_04112026160123_outcome.pdf",
-    "kicl_04112026160006_kicl_bm_results_04112026.pdf"
+    "kicl_04112026160006_kicl_bm_results_04112026.pdf",
+    "orkla2025_04112026160834_signedseintimationoutcome.pdf",
+    "chemplasts_04112026160801_outcomebmfinancials04112026sd.pdf"
   ],
   "archive": [
     {
@@ -5376,6 +5392,34 @@
       "filing": "https://nsearchives.nseindia.com/corporate/KICL_04112026160006_KICL_BM_Results_04112026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:KICL",
       "t": "04-Nov-2026 16:07:38"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "ORKLAINDIA",
+      "c": "Orkla India Limited",
+      "r": "Good",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 776.1600000000001,
+      "pat": 91.42000000000002,
+      "eps": 6.7,
+      "filing": "https://nsearchives.nseindia.com/corporate/ORKLA2025_04112026160834_SIGNEDSEIntimationOUTCOME.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ORKLAINDIA",
+      "t": "04-Nov-2026 16:08:56"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "CHEMPLASTS",
+      "c": "Chemplast Sanmar Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/CHEMPLASTS_04112026160801_OutcomeBMFinancials04112026SD.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CHEMPLASTS",
+      "t": "04-Nov-2026 16:08:51"
     }
   ]
 }
