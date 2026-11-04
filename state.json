@@ -4115,6 +4115,34 @@
       "filing": "https://nsearchives.nseindia.com/corporate/GEEKAYWIRE_04112026170236_Outcome_of_BM.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:GEEKAYWIRE",
       "t": "04-Nov-2026 17:07:22"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "OMNI",
+      "c": "Omnitech Engineering Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 175.55700000000002,
+      "pat": 30.567000000000004,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/OMNITECHENG_04112026171542_OUTCOME_OF_MEETING_Q2-26-27.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:OMNI",
+      "t": "04-Nov-2026 17:16:12"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "SIS",
+      "c": "SIS LIMITED",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 4816.01,
+      "pat": 110.72,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/SIS_04112026171334_Intimation.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SIS",
+      "t": "04-Nov-2026 17:16:10"
     }
   ],
   "seen": [
@@ -4590,7 +4618,9 @@
     "106844753",
     "106844752",
     "106844749",
-    "106844729"
+    "106844729",
+    "106844773",
+    "106844772"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -5036,7 +5066,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T16:16:29.738440+00:00"
+        "xbrl_try": "2026-11-04T17:18:43.524032+00:00"
       },
       {
         "key": "106844470",
@@ -5048,7 +5078,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T16:16:30.113763+00:00"
+        "xbrl_try": "2026-11-04T17:18:43.894788+00:00"
       },
       {
         "key": "106844537",
@@ -5981,6 +6011,8 @@
     "jklashmi_04112026170921_outcome.pdf",
     "centume_04112026165926_outcomeofbm4112026.pdf",
     "advance_04112026170920_advancesecretarial2026-2773.pdf",
-    "geekaywire_04112026170236_outcome_of_bm.pdf"
+    "geekaywire_04112026170236_outcome_of_bm.pdf",
+    "omnitecheng_04112026171542_outcome_of_meeting_q2-26-27.pdf",
+    "sis_04112026171334_intimation.pdf"
   ]
 }
