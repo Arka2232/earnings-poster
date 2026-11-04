@@ -2,49 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "GLAXO",
-      "c": "GlaxoSmithKline Pharmaceuticals Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 11.8357,
-      "pat": 3.3588,
-      "eps": 19.83,
-      "filing": "https://nsearchives.nseindia.com/corporate/GLAXO1924_03112026184904_Outcome_of_Meeting.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GLAXO",
-      "t": "03-Nov-2026 18:49:15"
-    },
-    {
-      "d": "2026-11-03",
-      "s": "DENORA",
-      "c": "De Nora India Limited",
-      "r": "Bad",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 21.359399999999997,
-      "pat": -2.5997,
-      "eps": -4.9,
-      "filing": "https://nsearchives.nseindia.com/corporate/DENORA_03112026184817_Board_outcome_Sep2026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:DENORA",
-      "t": "03-Nov-2026 18:51:00",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752099_03112026065556_WEB.xml"
-    },
-    {
-      "d": "2026-11-03",
-      "s": "MANCREDIT",
-      "c": "Mangal Credit and Fincorp Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 21.2463,
-      "pat": 4.0673,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/MCFL_03112026184952_Outcome.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MANCREDIT",
-      "t": "03-Nov-2026 18:53:49"
-    },
-    {
-      "d": "2026-11-03",
       "s": "INOXINDIA",
       "c": "INOX India Limited",
       "r": "Good",
@@ -4256,6 +4213,49 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:NAVNETEDUL",
       "t": "04-Nov-2026 15:29:49",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752809_04112026055507_WEB.xml"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "ZENITHSTL",
+      "c": "Zenith Steel Pipes & Industries Limited",
+      "r": "Bad",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 11.5791,
+      "pat": 0.26940000000000003,
+      "eps": 0.02,
+      "filing": "https://nsearchives.nseindia.com/corporate/ZENITHSTL_05112026000602_Outcome_of_BM_Zenith.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ZENITHSTL",
+      "t": "05-Nov-2026 00:07:40"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "TOKYOPLAST",
+      "c": "Tokyo Plast International Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/TOKYOPLAST_04112026235505_ilovepdf_merged.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:TOKYOPLAST",
+      "t": "04-Nov-2026 23:55:57"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "TOKYOPLAST",
+      "c": "Tokyo Plast International Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 20.2867,
+      "pat": -2.3832,
+      "eps": -5.02,
+      "filing": "https://nsearchives.nseindia.com/corporate/TOKYOPLAST_04112026235505_ilovepdf_merged.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:TOKYOPLAST",
+      "t": "04-Nov-2026 23:55:57",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753317_05112026120002_WEB.xml"
     }
   ],
   "seen": [
@@ -4830,7 +4830,9 @@
     "106844304",
     "106844774",
     "106845333",
-    "106846073"
+    "106846073",
+    "106846119",
+    "106846112"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5256,7 +5258,7 @@
         "xbrl_try": "2026-11-05T00:09:29.996022+00:00"
       }
     ],
-    "ipo_check": "2026-11-04 23",
+    "ipo_check": "2026-11-05 00",
     "ipo_posted": [
       "BCSSL",
       "HGSINDIALT",
@@ -6191,6 +6193,8 @@
     "navneet26_04112026152927_financialresultsforq2fy2627finalupload.pdf",
     "neapspw_04112026171411_intimationsd.pdf",
     "softtech_04112026184851_outcome_of_bm_04112026_.pdf",
-    "svll_04112026234202_svll.pdf"
+    "svll_04112026234202_svll.pdf",
+    "zenithstl_05112026000602_outcome_of_bm_zenith.pdf",
+    "tokyoplast_04112026235505_ilovepdf_merged.pdf"
   ]
 }
