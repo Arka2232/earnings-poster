@@ -563,7 +563,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T15:34:18.302670+00:00"
+        "xbrl_try": "2026-11-04T16:35:45.293567+00:00"
       },
       {
         "key": "106844203",
@@ -599,7 +599,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T15:34:19.040976+00:00"
+        "xbrl_try": "2026-11-04T16:35:46.211812+00:00"
       },
       {
         "key": "106844325",
@@ -696,6 +696,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-04T16:30:27.082440+00:00"
+      },
+      {
+        "key": "106844553",
+        "seq_id": "106844553",
+        "symbol": "KIRLOSENG",
+        "company": "Kirloskar Oil Engines Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/KIRLOSENG_04112026162737_SE_Outcome_Result_4Nov26.pdf",
+        "an_dt": "04-Nov-2026 16:31:05",
+        "date": "2026-11-04",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-04T16:35:46.639462+00:00"
       }
     ],
     "wrap": "2026-11-03",
@@ -1375,7 +1387,9 @@
     "106844488",
     "106844531",
     "106844538",
-    "106844537"
+    "106844537",
+    "106844553",
+    "106844541"
   ],
   "archive": [
     {
@@ -5227,6 +5241,34 @@
       "filing": "https://nsearchives.nseindia.com/corporate/TIJARIA_04112026162433_SIGNED.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:TIJARIA",
       "t": "04-Nov-2026 16:27:30"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "KIRLOSENG",
+      "c": "Kirloskar Oil Engines Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/KIRLOSENG_04112026162737_SE_Outcome_Result_4Nov26.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:KIRLOSENG",
+      "t": "04-Nov-2026 16:31:05"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "SWANCORP",
+      "c": "SWAN CORP LIMITED",
+      "r": "Positive",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 1045.8880000000001,
+      "pat": 565.5438,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/SWANENERGY_04112026162441_BM_Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SWANCORP",
+      "t": "04-Nov-2026 16:28:23"
     }
   ],
   "seen_urls": [
@@ -5557,6 +5599,8 @@
     "apollotyre1_04112026161233_outcome04112026.pdf",
     "manugraph_04112026162356_mil_bm_outcome_ufr_04112026.pdf",
     "mindteck_04112026162646_34bseletteroutcomeofbmnov042026.pdf",
-    "tijaria_04112026162433_signed.pdf"
+    "tijaria_04112026162433_signed.pdf",
+    "kirloseng_04112026162737_se_outcome_result_4nov26.pdf",
+    "swanenergy_04112026162441_bm_outcome.pdf"
   ]
 }
