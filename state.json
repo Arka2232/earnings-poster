@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "SEAMECLTD",
-      "c": "Seamec Limited",
-      "r": "Positive",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 1.8362,
-      "pat": 0.8117000000000001,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/SEAMECLTD_03112026160546_OutcomeofBoardMeetingBSENSE03112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SEAMECLTD",
-      "t": "03-Nov-2026 16:07:31"
-    },
-    {
-      "d": "2026-11-03",
       "s": "MEDANTA",
       "c": "Global Health Limited",
       "r": "Excellent",
@@ -4251,6 +4237,20 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:BSE",
       "t": "04-Nov-2026 18:01:51",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753030_04112026071644_WEB.xml"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "SBGLP",
+      "c": "Suratwwala Business Group Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/SBGLP_04112026200751_BM_Outcome_04112026signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SBGLP",
+      "t": "04-Nov-2026 20:09:33"
     }
   ],
   "seen": [
@@ -4790,7 +4790,8 @@
     "106845643",
     "106845665",
     "106845677",
-    "106845673"
+    "106845673",
+    "106845687"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -5225,7 +5226,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T19:09:05.383559+00:00"
+        "xbrl_try": "2026-11-04T20:12:41.092679+00:00"
       },
       {
         "key": "106845148",
@@ -5322,6 +5323,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-04T19:41:51.351907+00:00"
+      },
+      {
+        "key": "106845687",
+        "seq_id": "106845687",
+        "symbol": "SBGLP",
+        "company": "Suratwwala Business Group Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/SBGLP_04112026200751_BM_Outcome_04112026signed.pdf",
+        "an_dt": "04-Nov-2026 20:09:33",
+        "date": "2026-11-04",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-04T20:12:41.905271+00:00"
       }
     ],
     "ipo_check": "2026-11-04 20",
@@ -6186,6 +6199,7 @@
     "godavaribio_04112026195039_final_financials_september_2026.pdf",
     "webelsolar_04112026195930_bm_outcome.pdf",
     "jayagrogn1_04112026200436_outcome_bm_sep2026.pdf",
-    "stel_04112026195642_stel04112026upload.pdf"
+    "stel_04112026195642_stel04112026upload.pdf",
+    "sbglp_04112026200751_bm_outcome_04112026signed.pdf"
   ]
 }
