@@ -287,7 +287,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T15:40:58.869762+00:00"
+        "xbrl_try": "2026-11-04T16:42:51.873302+00:00"
       },
       {
         "key": "106844044",
@@ -1390,7 +1390,8 @@
     "106844537",
     "106844553",
     "106844541",
-    "106844586"
+    "106844586",
+    "106844597"
   ],
   "archive": [
     {
@@ -5284,6 +5285,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/VIDYAWIRESLTD_04112026163517_NSE.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:VIDYAWIRES",
       "t": "04-Nov-2026 16:37:44"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "TORNTPOWER",
+      "c": "Torrent Power Limited",
+      "r": "Good",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 9801.58,
+      "pat": 837.96,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/TORNTPOWER_04112026164014_Outcome_of_BM.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:TORNTPOWER",
+      "t": "04-Nov-2026 16:40:35"
     }
   ],
   "seen_urls": [
@@ -5617,6 +5632,7 @@
     "tijaria_04112026162433_signed.pdf",
     "kirloseng_04112026162737_se_outcome_result_4nov26.pdf",
     "swanenergy_04112026162441_bm_outcome.pdf",
-    "vidyawiresltd_04112026163517_nse.pdf"
+    "vidyawiresltd_04112026163517_nse.pdf",
+    "torntpower_04112026164014_outcome_of_bm.pdf"
   ]
 }
