@@ -1086,7 +1086,8 @@
     "106843651",
     "106843661",
     "106843712",
-    "106843746"
+    "106843746",
+    "106843755"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1343,23 +1344,10 @@
     "vintage_04112026114217_bmoutcome04112026.pdf",
     "gabriel_04112026115003_bm_outcome_signed.pdf",
     "basfil_04112026121140_fr04112026.pdf",
-    "cadilahc_04112026121711_outcomeofbm.pdf"
+    "cadilahc_04112026121711_outcomeofbm.pdf",
+    "cera_04112026122203_cerabmo14112026s.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-11-02",
-      "s": "VRLLOG",
-      "c": "VRL Logistics Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 9.6192,
-      "pat": 1.0297,
-      "eps": 5.89,
-      "filing": "https://nsearchives.nseindia.com/corporate/VRLLOGI_02112026161844_OutcomeBM02112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:VRLLOG",
-      "t": "02-Nov-2026 16:25:35"
-    },
     {
       "d": "2026-11-02",
       "s": "RSL",
@@ -5612,6 +5600,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/Cadilahc_04112026121711_OutcomeofBM.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:ZYDUSLIFE",
       "t": "04-Nov-2026 12:19:04"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "CERA",
+      "c": "Cera Sanitaryware Limited",
+      "r": "Positive",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 602.9594999999999,
+      "pat": 56.1362,
+      "eps": 43.52,
+      "filing": "https://nsearchives.nseindia.com/corporate/CERA_04112026122203_CERABMO14112026s.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CERA",
+      "t": "04-Nov-2026 12:24:27"
     }
   ]
 }
