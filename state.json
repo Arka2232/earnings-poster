@@ -1056,7 +1056,8 @@
     "106841599",
     "106841408",
     "106843295",
-    "106843308"
+    "106843308",
+    "106843418"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1307,23 +1308,10 @@
     "summitsec_03112026135626_outcomeofbm03112026.pdf",
     "zyduswell_03112026122955_seintimationoutcomeofbm.pdf",
     "lupin2_04112026004100_se_outcome_ufr_intimation.pdf",
-    "belding_04112026033012_se_intimation.pdf"
+    "belding_04112026033012_se_intimation.pdf",
+    "garudaconstruction2010_04112026094801_financial_results_signed.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-11-02",
-      "s": "MEGASTAR",
-      "c": "Megastar Foods Limited",
-      "r": "Positive",
-      "b": "Consolidated",
-      "q": "Q2 FY37",
-      "sales": 137.2675,
-      "pat": 2.5293,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/MEGASTAR_02112026160232_new_outcome_signed.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MEGASTAR",
-      "t": "02-Nov-2026 16:05:09"
-    },
     {
       "d": "2026-11-02",
       "s": "MOIL",
@@ -5577,6 +5565,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/BELDING_04112026033012_SE_Intimation.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:BELDING",
       "t": "04-Nov-2026 03:31:51"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "GARUDA",
+      "c": "Garuda Construction and Engineering Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 171.5891,
+      "pat": 40.6049,
+      "eps": 437.0,
+      "filing": "https://nsearchives.nseindia.com/corporate/GARUDACONSTRUCTION2010_04112026094801_Financial_Results_signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GARUDA",
+      "t": "04-Nov-2026 09:48:16"
     }
   ]
 }
