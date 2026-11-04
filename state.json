@@ -557,7 +557,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T13:20:56.561073+00:00"
+        "xbrl_try": "2026-11-04T14:22:03.419425+00:00"
       },
       {
         "key": "106841454",
@@ -569,7 +569,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T13:20:57.710323+00:00"
+        "xbrl_try": "2026-11-04T14:22:04.228972+00:00"
       },
       {
         "key": "106841577",
@@ -594,7 +594,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T13:20:58.604704+00:00"
+        "xbrl_try": "2026-11-04T14:22:05.266643+00:00"
       },
       {
         "key": "106842168",
@@ -606,7 +606,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T13:20:59.991873+00:00"
+        "xbrl_try": "2026-11-04T14:22:06.526282+00:00"
       },
       {
         "key": "106842383",
@@ -618,7 +618,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T13:21:00.976028+00:00"
+        "xbrl_try": "2026-11-04T14:22:07.363980+00:00"
       },
       {
         "key": "106842647",
@@ -630,7 +630,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T13:21:02.394454+00:00"
+        "xbrl_try": "2026-11-04T14:22:08.692209+00:00"
       },
       {
         "key": "106842850",
@@ -655,7 +655,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T13:21:03.268929+00:00"
+        "xbrl_try": "2026-11-04T14:22:09.750801+00:00"
       },
       {
         "key": "106843308",
@@ -788,6 +788,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-04T14:19:53.035854+00:00"
+      },
+      {
+        "key": "106844048",
+        "seq_id": "106844048",
+        "symbol": "SJS",
+        "company": "S.J.S. Enterprises Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/SJS_04112026141255_BMoutcomeQ2FY27.pdf",
+        "an_dt": "04-Nov-2026 14:14:34",
+        "date": "2026-11-04",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-04T14:22:10.454062+00:00"
       }
     ],
     "next_cache": "2026-11-03",
@@ -1222,7 +1234,8 @@
     "106844045",
     "106844044",
     "106844039",
-    "106844035"
+    "106844035",
+    "106844048"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1519,23 +1532,10 @@
     "imfa_04112026141159_financial_result_q2_final.pdf",
     "acrysil_04112026141200_outcome04112026.pdf",
     "exicom_04112026140942_outcome-signed.pdf",
-    "thangamayl_04112026140903_outcome_of_meeting_covering_letter.pdf"
+    "thangamayl_04112026140903_outcome_of_meeting_covering_letter.pdf",
+    "sjs_04112026141255_bmoutcomeq2fy27.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-11-02",
-      "s": "GANESHCP",
-      "c": "Ganesh Consumer Products Limited",
-      "r": "Positive",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 226.7252,
-      "pat": 18.766199999999998,
-      "eps": 4.7,
-      "filing": "https://nsearchives.nseindia.com/corporate/GANESH_NSE_02112026181527_Outcome_of_Board_Meeting.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GANESHCP",
-      "t": "02-Nov-2026 18:22:51"
-    },
     {
       "d": "2026-11-02",
       "s": "XTRANET",
@@ -5775,6 +5775,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/THANGAMAYL_04112026140903_OUTCOME_OF_MEETING_COVERING_LETTER.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:THANGAMAYL",
       "t": "04-Nov-2026 14:10:55"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "SJS",
+      "c": "S.J.S. Enterprises Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/SJS_04112026141255_BMoutcomeQ2FY27.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SJS",
+      "t": "04-Nov-2026 14:14:34"
     }
   ]
 }
