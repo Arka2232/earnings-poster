@@ -706,18 +706,6 @@
         "xbrl_try": "2026-11-04T14:06:53.275422+00:00"
       },
       {
-        "key": "106843891",
-        "seq_id": "106843891",
-        "symbol": "PTL",
-        "company": "PTL Enterprises Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/meenakshi_cs13_gmail_com_04112026132058_PTL.pdf",
-        "an_dt": "04-Nov-2026 13:21:53",
-        "date": "2026-11-04",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-04T13:24:08.542596+00:00"
-      },
-      {
         "key": "106843917",
         "seq_id": "106843917",
         "symbol": "REDTAPE",
@@ -1536,20 +1524,6 @@
     "sjs_04112026141255_bmoutcomeq2fy27.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-11-02",
-      "s": "XTRANET",
-      "c": "Xtranet Technologies Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 109.6893,
-      "pat": 13.7154,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/XTRANET_02112026182803_Outcome_of_Meeting_of_Board_021126.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:XTRANET",
-      "t": "02-Nov-2026 18:32:06"
-    },
     {
       "d": "2026-11-02",
       "s": "JHS",
@@ -5789,6 +5763,21 @@
       "filing": "https://nsearchives.nseindia.com/corporate/SJS_04112026141255_BMoutcomeQ2FY27.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SJS",
       "t": "04-Nov-2026 14:14:34"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "PTL",
+      "c": "PTL Enterprises Limited",
+      "r": "Bad",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 16.0919,
+      "pat": 10.8431,
+      "eps": 0.82,
+      "filing": "https://nsearchives.nseindia.com/corporate/meenakshi_cs13_gmail_com_04112026132058_PTL.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PTL",
+      "t": "04-Nov-2026 13:21:53",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752470_04112026012958_WEB.xml"
     }
   ]
 }
