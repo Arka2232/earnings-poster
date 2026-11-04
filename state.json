@@ -668,6 +668,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-04T10:46:59.845246+00:00"
+      },
+      {
+        "key": "106843651",
+        "seq_id": "106843651",
+        "symbol": "VINCOFE",
+        "company": "Vintage Coffee And Beverages Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/VINTAGE_04112026114217_BMOUTCOME04112026.pdf",
+        "an_dt": "04-Nov-2026 11:44:12",
+        "date": "2026-11-04",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-04T11:45:38.387132+00:00"
       }
     ],
     "next_cache": "2026-11-03",
@@ -1058,7 +1070,8 @@
     "106843295",
     "106843308",
     "106843418",
-    "106843505"
+    "106843505",
+    "106843651"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1311,23 +1324,10 @@
     "lupin2_04112026004100_se_outcome_ufr_intimation.pdf",
     "belding_04112026033012_se_intimation.pdf",
     "garudaconstruction2010_04112026094801_financial_results_signed.pdf",
-    "gaaml2025_04112026102248_outcome_of_bm.pdf"
+    "gaaml2025_04112026102248_outcome_of_bm.pdf",
+    "vintage_04112026114217_bmoutcome04112026.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-11-02",
-      "s": "AAKASH",
-      "c": "Aakash Exploration Services Limited",
-      "r": "Bad",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 27.069000000000003,
-      "pat": -0.2811,
-      "eps": -0.03,
-      "filing": "https://nsearchives.nseindia.com/corporate/AAKASH_02112026161245_Outcome_02112026_Signed.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:AAKASH",
-      "t": "02-Nov-2026 16:14:49"
-    },
     {
       "d": "2026-11-02",
       "s": "HLEGLAS",
@@ -5581,6 +5581,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/GAAML2025_04112026102248_Outcome_of_Bm.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:GAJA",
       "t": "04-Nov-2026 10:23:02"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "VINCOFE",
+      "c": "Vintage Coffee And Beverages Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/VINTAGE_04112026114217_BMOUTCOME04112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:VINCOFE",
+      "t": "04-Nov-2026 11:44:12"
     }
   ]
 }
