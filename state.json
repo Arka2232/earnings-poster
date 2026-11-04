@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "BAJAJHLDNG",
-      "c": "Bajaj Holdings & Investment Limited",
-      "r": "Positive",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 181.73,
-      "pat": 2137.07,
-      "eps": 179.11,
-      "filing": "https://nsearchives.nseindia.com/corporate/BAJAJHLDNG_03112026165942_BM_intimation_signed_BHIL.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BAJAJHLDNG",
-      "t": "03-Nov-2026 17:02:36"
-    },
-    {
-      "d": "2026-11-03",
       "s": "WEWIN",
       "c": "WE WIN LIMITED",
       "r": "Bad",
@@ -4249,6 +4235,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/TRIGYN_04112026204232_TTL_BM_Outcome_with_Results_04112026_-sd.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:TRIGYN",
       "t": "04-Nov-2026 20:43:30"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "GALAXYSURF",
+      "c": "Galaxy Surfactants Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 1810.41,
+      "pat": 119.75,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/GALAXYSURF_04112026204444_outcomeds.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GALAXYSURF",
+      "t": "04-Nov-2026 20:48:24"
     }
   ],
   "seen": [
@@ -4799,7 +4799,8 @@
     "106845744",
     "106845758",
     "106845757",
-    "106845756"
+    "106845756",
+    "106845762"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -5246,7 +5247,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T19:49:31.293897+00:00"
+        "xbrl_try": "2026-11-04T20:51:02.052421+00:00"
       },
       {
         "key": "106845370",
@@ -6170,6 +6171,7 @@
     "vindhyatel_04112026202851_unauditedfinancialresults.pdf",
     "total_04112026204157_total_outcome_to_se_bm.pdf",
     "sadbhav_04112026204318_seloutcomeofboardmeeting04112026signed1.pdf",
-    "trigyn_04112026204232_ttl_bm_outcome_with_results_04112026_-sd.pdf"
+    "trigyn_04112026204232_ttl_bm_outcome_with_results_04112026_-sd.pdf",
+    "galaxysurf_04112026204444_outcomeds.pdf"
   ]
 }
