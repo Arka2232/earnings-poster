@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "NRAIL",
-      "c": "N R Agarwal Industries Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 668.8096,
-      "pat": 30.9408,
-      "eps": 18.18,
-      "filing": "https://nsearchives.nseindia.com/corporate/NRAIL_03112026172319_OutcomeResults03112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:NRAIL",
-      "t": "03-Nov-2026 17:23:41"
-    },
-    {
-      "d": "2026-11-03",
       "s": "AWFIS",
       "c": "Awfis Space Solutions Limited",
       "r": "Excellent",
@@ -4249,6 +4235,21 @@
       "filing": "https://nsearchives.nseindia.com/corporate/chaithanya_lakshmi_esab_co_in_04112026212153_OBM041126_signed.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:ESABINDIA",
       "t": "04-Nov-2026 21:23:26"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "EMUDHRA",
+      "c": "eMudhra Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 71.386,
+      "pat": 8.602,
+      "eps": 1.04,
+      "filing": "https://nsearchives.nseindia.com/corporate/EMUDHRA2008_04112026193412_Outcome_of_Board_Meeting.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:EMUDHRA",
+      "t": "04-Nov-2026 19:34:58",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753221_04112026091008_WEB.xml"
     }
   ],
   "seen": [
@@ -5072,7 +5073,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T20:40:44.787964+00:00"
+        "xbrl_try": "2026-11-04T21:40:59.431987+00:00"
       },
       {
         "key": "106844203",
@@ -5241,7 +5242,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T20:40:51.708042+00:00"
+        "xbrl_try": "2026-11-04T21:41:00.242327+00:00"
       },
       {
         "key": "106845298",
@@ -5266,18 +5267,6 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-04T21:02:47.901796+00:00"
-      },
-      {
-        "key": "106845578",
-        "seq_id": "106845578",
-        "symbol": "EMUDHRA",
-        "company": "eMudhra Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/EMUDHRA2008_04112026193412_Outcome_of_Board_Meeting.pdf",
-        "an_dt": "04-Nov-2026 19:34:58",
-        "date": "2026-11-04",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-04T20:40:56.653468+00:00"
       },
       {
         "key": "106845707",
