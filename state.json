@@ -4201,6 +4201,20 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:CARYSIL",
       "t": "04-Nov-2026 14:13:14",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752620_04112026043300_WEB.xml"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "JMFINANCIL",
+      "c": "JM Financial Limited",
+      "r": "Positive",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 251.31,
+      "pat": 255.93,
+      "eps": 2.68,
+      "filing": "https://nsearchives.nseindia.com/corporate/JMFINANCIL_04112026172519_OutcomeoftheBoardMeeting04112026upload.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:JMFINANCIL",
+      "t": "04-Nov-2026 17:26:27"
     }
   ],
   "seen": [
@@ -4680,7 +4694,8 @@
     "106844773",
     "106844772",
     "106844790",
-    "106844778"
+    "106844778",
+    "106844833"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -6075,6 +6090,7 @@
     "omnitecheng_04112026171542_outcome_of_meeting_q2-26-27.pdf",
     "sis_04112026171334_intimation.pdf",
     "fcssoft_04112026171620_outcome_of_bm_sd.pdf",
-    "somanyceramics_04112026171354_outcomeofboardmeeting_04112026sd.pdf"
+    "somanyceramics_04112026171354_outcomeofboardmeeting_04112026sd.pdf",
+    "jmfinancil_04112026172519_outcomeoftheboardmeeting04112026upload.pdf"
   ]
 }
