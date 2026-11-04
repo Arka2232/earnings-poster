@@ -4003,6 +4003,48 @@
       "filing": "https://nsearchives.nseindia.com/corporate/ASHIANA_04112026170116_OutcomeofBMSIGNED.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:ASHIANA",
       "t": "04-Nov-2026 17:03:51"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "UNIVAFOODS",
+      "c": "Univa Foods Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/univa_04112026170410_BSE_Outcome_of_BM__FINAL.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:UNIVAFOODS",
+      "t": "04-Nov-2026 17:06:14"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "CHALET",
+      "c": "Chalet Hotels Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/CHALET_04112026170437_OutcomeBoardMeeting04112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CHALET",
+      "t": "04-Nov-2026 17:06:14"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "OSWALGREEN",
+      "c": "Oswal Greentech Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/BINDALAGRO_04112026170227_Final_Intimation.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:OSWALGREEN",
+      "t": "04-Nov-2026 17:05:50"
     }
   ],
   "seen": [
@@ -4470,7 +4512,10 @@
     "106844647",
     "106844668",
     "106844661",
-    "106844711"
+    "106844711",
+    "106844723",
+    "106844724",
+    "106844721"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -4736,7 +4781,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T16:09:57.519125+00:00"
+        "xbrl_try": "2026-11-04T17:12:15.886101+00:00"
       },
       {
         "key": "106843917",
@@ -4820,7 +4865,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T16:09:58.682438+00:00"
+        "xbrl_try": "2026-11-04T17:12:16.851659+00:00"
       },
       {
         "key": "106844278",
@@ -4892,7 +4937,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T16:09:59.552327+00:00"
+        "xbrl_try": "2026-11-04T17:12:17.553974+00:00"
       },
       {
         "key": "106844465",
@@ -4904,7 +4949,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T16:11:47.127619+00:00"
+        "xbrl_try": "2026-11-04T17:12:18.278874+00:00"
       },
       {
         "key": "106844472",
@@ -5001,6 +5046,42 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-04T17:06:50.379254+00:00"
+      },
+      {
+        "key": "106844723",
+        "seq_id": "106844723",
+        "symbol": "UNIVAFOODS",
+        "company": "Univa Foods Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/univa_04112026170410_BSE_Outcome_of_BM__FINAL.pdf",
+        "an_dt": "04-Nov-2026 17:06:14",
+        "date": "2026-11-04",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-04T17:12:18.631121+00:00"
+      },
+      {
+        "key": "106844724",
+        "seq_id": "106844724",
+        "symbol": "CHALET",
+        "company": "Chalet Hotels Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/CHALET_04112026170437_OutcomeBoardMeeting04112026.pdf",
+        "an_dt": "04-Nov-2026 17:06:14",
+        "date": "2026-11-04",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-04T17:12:19.169604+00:00"
+      },
+      {
+        "key": "106844721",
+        "seq_id": "106844721",
+        "symbol": "OSWALGREEN",
+        "company": "Oswal Greentech Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/BINDALAGRO_04112026170227_Final_Intimation.pdf",
+        "an_dt": "04-Nov-2026 17:05:50",
+        "date": "2026-11-04",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-04T17:12:19.855086+00:00"
       }
     ],
     "ipo_check": "2026-11-04 17",
@@ -5793,6 +5874,9 @@
     "aptus_04112026164833_avhfil_board_meeting_outcome_november_04_2026_sd.pdf",
     "sbankar_04112026164938_outcomeofbm.pdf",
     "tainwalchm_04112026165147_outcome4nov26.pdf",
-    "ashiana_04112026170116_outcomeofbmsigned.pdf"
+    "ashiana_04112026170116_outcomeofbmsigned.pdf",
+    "univa_04112026170410_bse_outcome_of_bm__final.pdf",
+    "chalet_04112026170437_outcomeboardmeeting04112026.pdf",
+    "bindalagro_04112026170227_final_intimation.pdf"
   ]
 }
