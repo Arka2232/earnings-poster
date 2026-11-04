@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "ASKAUTOLTD",
-      "c": "ASK Automotive Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 1555.16,
-      "pat": 132.67,
-      "eps": 5.15,
-      "filing": "https://nsearchives.nseindia.com/corporate/8448091598_03112026155454_stxintimationoutcome03112026sd.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ASKAUTOLTD",
-      "t": "03-Nov-2026 15:55:58"
-    },
-    {
-      "d": "2026-11-03",
       "s": "MAXIND",
       "c": "Max India Limited",
       "r": "Excellent",
@@ -4252,6 +4238,20 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:GODAVARIB",
       "t": "04-Nov-2026 19:53:23",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753111_04112026074857_WEB.xml"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "WEBELSOLAR",
+      "c": "Websol Energy System Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 361.02,
+      "pat": 80.21,
+      "eps": 1.85,
+      "filing": "https://nsearchives.nseindia.com/corporate/WEBELSOLAR_04112026195930_BM_Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:WEBELSOLAR",
+      "t": "04-Nov-2026 20:01:28"
     }
   ],
   "seen": [
@@ -4788,7 +4788,8 @@
     "106845622",
     "106845633",
     "106845644",
-    "106845643"
+    "106845643",
+    "106845665"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -6193,6 +6194,7 @@
     "excelindus_04112026194326_outcome_signed.pdf",
     "tplplasteh_04112026194610_outcome.pdf",
     "auropharma_04112026194825_ltrtosesoutcomeofbm04112026.pdf",
-    "godavaribio_04112026195039_final_financials_september_2026.pdf"
+    "godavaribio_04112026195039_final_financials_september_2026.pdf",
+    "webelsolar_04112026195930_bm_outcome.pdf"
   ]
 }
