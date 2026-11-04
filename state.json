@@ -310,7 +310,8 @@
     "ttl_04112026145556_fianncial_stock_exchange_sep_26.pdf",
     "coralfinac_04112026151343_outcome_bm_04112026.pdf",
     "maxbupa_04112026152155_discl30boardmeetingoutcome04112026a.pdf",
-    "isgec_04112026152542_oc_bm411.pdf"
+    "isgec_04112026152542_oc_bm411.pdf",
+    "jisljaleqs_04112026152910_se_letter_outcome_financial_results_sept2026.pdf"
   ],
   "digest": {
     "today_results": {
@@ -879,7 +880,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T14:32:16.788749+00:00"
+        "xbrl_try": "2026-11-04T15:34:18.302670+00:00"
       },
       {
         "key": "106844203",
@@ -904,6 +905,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-04T15:28:06.022782+00:00"
+      },
+      {
+        "key": "106844310",
+        "seq_id": "106844310",
+        "symbol": "JISLJALEQS",
+        "company": "Jain Irrigation Systems Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/JISLJALEQS_04112026152910_SE_Letter_Outcome_Financial_Results_SEPT2026.pdf",
+        "an_dt": "04-Nov-2026 15:30:52",
+        "date": "2026-11-04",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-04T15:34:19.040976+00:00"
       }
     ],
     "wrap": "2026-11-03",
@@ -1575,7 +1588,8 @@
     "106844203",
     "106844246",
     "106844278",
-    "106844286"
+    "106844286",
+    "106844310"
   ],
   "archive": [
     {
@@ -5188,6 +5202,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/ISGEC_04112026152542_OC_BM411.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:ISGEC",
       "t": "04-Nov-2026 15:26:16"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "JISLJALEQS",
+      "c": "Jain Irrigation Systems Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/JISLJALEQS_04112026152910_SE_Letter_Outcome_Financial_Results_SEPT2026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:JISLJALEQS",
+      "t": "04-Nov-2026 15:30:52"
     }
   ]
 }
