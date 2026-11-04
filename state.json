@@ -461,7 +461,7 @@
         "url": "https://nsearchives.nseindia.com/corporate/PATELINT_02112026155145_Outcome_of_BM_Sept2026_sd.pdf",
         "an_dt": "02-Nov-2026 15:53:28",
         "date": "2026-11-02",
-        "xbrl_try": "2026-11-04T13:16:47.612783+00:00"
+        "xbrl_try": "2026-11-04T14:19:42.871656+00:00"
       },
       {
         "key": "106839719",
@@ -473,7 +473,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T13:16:48.625198+00:00"
+        "xbrl_try": "2026-11-04T14:19:44.207992+00:00"
       },
       {
         "key": "106839796",
@@ -485,7 +485,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T13:18:51.386504+00:00"
+        "xbrl_try": "2026-11-04T14:19:45.462197+00:00"
       },
       {
         "key": "106840301",
@@ -497,7 +497,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T13:18:52.432196+00:00"
+        "xbrl_try": "2026-11-04T14:19:46.448952+00:00"
       },
       {
         "key": "106840295",
@@ -509,7 +509,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T13:18:53.843011+00:00"
+        "xbrl_try": "2026-11-04T14:19:47.854064+00:00"
       },
       {
         "key": "106840386",
@@ -521,7 +521,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T13:18:55.103242+00:00"
+        "xbrl_try": "2026-11-04T14:19:48.558713+00:00"
       },
       {
         "key": "106840511",
@@ -533,7 +533,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T13:18:56.437113+00:00"
+        "xbrl_try": "2026-11-04T14:19:49.629521+00:00"
       },
       {
         "key": "106840621",
@@ -545,7 +545,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T13:18:57.619191+00:00"
+        "xbrl_try": "2026-11-04T14:19:50.455256+00:00"
       },
       {
         "key": "106840747",
@@ -691,7 +691,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T13:16:49.478521+00:00"
+        "xbrl_try": "2026-11-04T14:19:51.113869+00:00"
       },
       {
         "key": "106843847",
@@ -752,6 +752,42 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-04T13:48:16.172597+00:00"
+      },
+      {
+        "key": "106844044",
+        "seq_id": "106844044",
+        "symbol": "CARYSIL",
+        "company": "CARYSIL LIMITED",
+        "url": "https://nsearchives.nseindia.com/corporate/ACRYSIL_04112026141200_Outcome04112026.pdf",
+        "an_dt": "04-Nov-2026 14:13:14",
+        "date": "2026-11-04",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-04T14:19:51.783002+00:00"
+      },
+      {
+        "key": "106844039",
+        "seq_id": "106844039",
+        "symbol": "EXICOM",
+        "company": "Exicom Tele-Systems Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/EXICOM_04112026140942_outcome-signed.pdf",
+        "an_dt": "04-Nov-2026 14:12:18",
+        "date": "2026-11-04",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-04T14:19:52.443817+00:00"
+      },
+      {
+        "key": "106844035",
+        "seq_id": "106844035",
+        "symbol": "THANGAMAYL",
+        "company": "Thangamayil Jewellery Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/THANGAMAYL_04112026140903_OUTCOME_OF_MEETING_COVERING_LETTER.pdf",
+        "an_dt": "04-Nov-2026 14:10:55",
+        "date": "2026-11-04",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-04T14:19:53.035854+00:00"
       }
     ],
     "next_cache": "2026-11-03",
@@ -1182,7 +1218,11 @@
     "106844013",
     "106844030",
     "106844029",
-    "106844026"
+    "106844026",
+    "106844045",
+    "106844044",
+    "106844039",
+    "106844035"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1475,66 +1515,13 @@
     "nlcindia_04112026135958_573_bm_-_outcome_04112026_signed.pdf",
     "sbcl_04112026140847_outcome_04112026.pdf",
     "varroc_04112026140654_outcomebm.pdf",
-    "hudco_04112026140744_fr_sep_2026.pdf"
+    "hudco_04112026140744_fr_sep_2026.pdf",
+    "imfa_04112026141159_financial_result_q2_final.pdf",
+    "acrysil_04112026141200_outcome04112026.pdf",
+    "exicom_04112026140942_outcome-signed.pdf",
+    "thangamayl_04112026140903_outcome_of_meeting_covering_letter.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-11-02",
-      "s": "ITC",
-      "c": "ITC Limited",
-      "r": "Weak",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 30578.399999999998,
-      "pat": 4229.33,
-      "eps": 3.32,
-      "filing": "https://nsearchives.nseindia.com/corporate/ITC_02112026181912_SE_Results_.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ITC",
-      "t": "02-Nov-2026 18:20:16",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751357_02112026065559_WEB.xml"
-    },
-    {
-      "d": "2026-11-02",
-      "s": "KHAITANLTD",
-      "c": "Khaitan (India) Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/KHAITANLTD_02112026182414_KIL_Result_Sep_26.PDF",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:KHAITANLTD",
-      "t": "02-Nov-2026 18:25:06"
-    },
-    {
-      "d": "2026-11-02",
-      "s": "ORIENTTECH",
-      "c": "Orient Technologies Limited",
-      "r": "Bad",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 217.3542,
-      "pat": 13.6472,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/Orient97_02112026182027_Outcome_of_BM_02112026_Final_signed.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ORIENTTECH",
-      "t": "02-Nov-2026 18:24:53"
-    },
-    {
-      "d": "2026-11-02",
-      "s": "AEROPLANE",
-      "c": "Amir Chand Jagdish Kumar (Exports) Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/ACJKEL12_02112026182122_Outcome_Q2_FY2627.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:AEROPLANE",
-      "t": "02-Nov-2026 18:24:04"
-    },
     {
       "d": "2026-11-02",
       "s": "GANESHCP",
@@ -5732,6 +5719,62 @@
       "filing": "https://nsearchives.nseindia.com/corporate/HUDCO_04112026140744_FR_SEP_2026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:HUDCO",
       "t": "04-Nov-2026 14:08:18"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "IMFA",
+      "c": "Indian Metals & Ferro Alloys Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q4 FY27",
+      "sales": 968.17,
+      "pat": 148.77,
+      "eps": 27.57,
+      "filing": "https://nsearchives.nseindia.com/corporate/IMFA_04112026141159_Financial_Result_Q2_Final.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:IMFA",
+      "t": "04-Nov-2026 14:13:16"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "CARYSIL",
+      "c": "CARYSIL LIMITED",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/ACRYSIL_04112026141200_Outcome04112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CARYSIL",
+      "t": "04-Nov-2026 14:13:14"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "EXICOM",
+      "c": "Exicom Tele-Systems Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/EXICOM_04112026140942_outcome-signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:EXICOM",
+      "t": "04-Nov-2026 14:12:18"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "THANGAMAYL",
+      "c": "Thangamayil Jewellery Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/THANGAMAYL_04112026140903_OUTCOME_OF_MEETING_COVERING_LETTER.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:THANGAMAYL",
+      "t": "04-Nov-2026 14:10:55"
     }
   ]
 }
