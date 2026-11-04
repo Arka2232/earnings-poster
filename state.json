@@ -703,7 +703,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T13:05:33.866031+00:00"
+        "xbrl_try": "2026-11-04T14:06:53.275422+00:00"
       },
       {
         "key": "106843891",
@@ -1178,7 +1178,8 @@
     "106843993",
     "106843995",
     "106843994",
-    "106844000"
+    "106844000",
+    "106844013"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1467,23 +1468,10 @@
     "saksoft_04112026135307_reg30outcomeofbmnov_042026finalsigned.pdf",
     "hiralmehta_04112026135157_outcomeofboardmeeting.pdf",
     "allcargoterminals_04112026135358_seupload.pdf",
-    "jyothylab_04112026135026_seintimationoutcomebm.pdf"
+    "jyothylab_04112026135026_seintimationoutcomebm.pdf",
+    "nlcindia_04112026135958_573_bm_-_outcome_04112026_signed.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-11-02",
-      "s": "GSLSU",
-      "c": "Global Surfaces Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/GLOBALSURFACES_02112026180606_outcome_Signed.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GSLSU",
-      "t": "02-Nov-2026 18:08:44"
-    },
     {
       "d": "2026-11-02",
       "s": "IFBAGRO",
@@ -5724,6 +5712,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/JYOTHYLAB_04112026135026_SEIntimationOutcomeBM.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:JYOTHYLAB",
       "t": "04-Nov-2026 13:58:10"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "NLCINDIA",
+      "c": "NLC India Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 2690.88,
+      "pat": 1205.0,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/NLCINDIA_04112026135958_573_BM_-_Outcome_04112026_Signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:NLCINDIA",
+      "t": "04-Nov-2026 14:03:05"
     }
   ]
 }
