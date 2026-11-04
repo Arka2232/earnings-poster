@@ -1242,7 +1242,8 @@
     "106844105",
     "106844111",
     "106844106",
-    "106844118"
+    "106844118",
+    "106844142"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1547,23 +1548,10 @@
     "zimlab_04112026143555_outcomeofthebaordmeeting04112026.pdf",
     "sumit_04112026143601_nse.pdf",
     "bluecoast_04112026143436_outcome_bm_04112026signed.pdf",
-    "moldtech_04112026143810_outcomeofbm.pdf"
+    "moldtech_04112026143810_outcomeofbm.pdf",
+    "sunilbcml_04112026144306_bcml_outcome_bm_04112026.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-11-02",
-      "s": "PNC",
-      "c": "PNC Media and Entertainment Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 20.32,
-      "pat": 0.6990000000000001,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/PNC_02112026185758_Outcome_of_BM02112026ocr.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PNC",
-      "t": "02-Nov-2026 18:59:30"
-    },
     {
       "d": "2026-11-02",
       "s": "BALMLAWRIE",
@@ -5803,6 +5791,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/MOLDTECH_04112026143810_OutcomeofBM.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:MOLDTECH",
       "t": "04-Nov-2026 14:39:49"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "BALRAMCHIN",
+      "c": "Balrampur Chini Mills Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 1876.2811,
+      "pat": 102.29209999999999,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/SUNILBCML_04112026144306_BCML_Outcome_BM_04112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BALRAMCHIN",
+      "t": "04-Nov-2026 14:44:47"
     }
   ]
 }
