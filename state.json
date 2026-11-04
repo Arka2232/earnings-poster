@@ -2,35 +2,6 @@
   "archive": [
     {
       "d": "2026-11-02",
-      "s": "ARE&M",
-      "c": "Amara Raja Energy & Mobility Limited",
-      "r": "Bad",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 4108.71,
-      "pat": 152.48,
-      "eps": 8.33,
-      "filing": "https://nsearchives.nseindia.com/corporate/AMARARAJA_02112026183511_BMoutcomeQ2FY27New.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ARE_M",
-      "t": "02-Nov-2026 18:37:37",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751508_02112026085848_WEB.xml"
-    },
-    {
-      "d": "2026-11-02",
-      "s": "LLOYDSENGG",
-      "c": "LLOYDS ENGINEERING WORKS LIMITED",
-      "r": "Positive",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 593.55,
-      "pat": 43.38,
-      "eps": 0.38,
-      "filing": "https://nsearchives.nseindia.com/corporate/LSIL_02112026214210_FINANCIALSRESULTSSIGNED.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:LLOYDSENGG",
-      "t": "02-Nov-2026 21:46:31"
-    },
-    {
-      "d": "2026-11-02",
       "s": "DIGITIDE",
       "c": "Digitide Solutions Limited",
       "r": "Results Filed",
@@ -4255,6 +4226,35 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:IVP",
       "t": "04-Nov-2026 16:09:51",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752847_04112026061043_WEB.xml"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "PREMIERENE",
+      "c": "Premier Energies Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 2631.8520000000003,
+      "pat": 462.38599999999997,
+      "eps": 10.24,
+      "filing": "https://nsearchives.nseindia.com/corporate/PEL2024_04112026182631_Outcome_Q2_FY_2026-27_Signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PREMIERENE",
+      "t": "04-Nov-2026 18:28:04"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "THANGAMAYL",
+      "c": "Thangamayil Jewellery Limited",
+      "r": "Good",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 2380.87,
+      "pat": 59.449999999999996,
+      "eps": 19.13,
+      "filing": "https://nsearchives.nseindia.com/corporate/THANGAMAYL_04112026140903_OUTCOME_OF_MEETING_COVERING_LETTER.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:THANGAMAYL",
+      "t": "04-Nov-2026 14:10:55",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752884_04112026062253_WEB.xml"
     }
   ],
   "seen": [
@@ -4755,7 +4755,8 @@
     "106845143",
     "106845159",
     "106845155",
-    "106845150"
+    "106845150",
+    "106845218"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -4924,7 +4925,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T17:26:57.369094+00:00"
+        "xbrl_try": "2026-11-04T18:28:53.713196+00:00"
       },
       {
         "key": "106842383",
@@ -4936,7 +4937,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T17:26:58.138261+00:00"
+        "xbrl_try": "2026-11-04T18:28:54.465127+00:00"
       },
       {
         "key": "106842647",
@@ -4948,7 +4949,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T17:26:59.476709+00:00"
+        "xbrl_try": "2026-11-04T18:28:55.590149+00:00"
       },
       {
         "key": "106842850",
@@ -4973,7 +4974,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T17:27:00.548121+00:00"
+        "xbrl_try": "2026-11-04T18:28:56.715361+00:00"
       },
       {
         "key": "106843308",
@@ -5033,19 +5034,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T17:27:11.047401+00:00"
-      },
-      {
-        "key": "106844035",
-        "seq_id": "106844035",
-        "symbol": "THANGAMAYL",
-        "company": "Thangamayil Jewellery Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/THANGAMAYL_04112026140903_OUTCOME_OF_MEETING_COVERING_LETTER.pdf",
-        "an_dt": "04-Nov-2026 14:10:55",
-        "date": "2026-11-04",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-04T17:27:11.898452+00:00"
+        "xbrl_try": "2026-11-04T18:28:57.479419+00:00"
       },
       {
         "key": "106844083",
@@ -6219,6 +6208,7 @@
     "credonse_04112026180745_20261104_se_letter_bm_results.pdf",
     "electherm_04112026181250_se_letter_-_outcome.pdf",
     "gppl_04112026181348_results.pdf",
-    "ravidamle_04112026181009_kclresults30092026.pdf"
+    "ravidamle_04112026181009_kclresults30092026.pdf",
+    "pel2024_04112026182631_outcome_q2_fy_2026-27_signed.pdf"
   ]
 }
