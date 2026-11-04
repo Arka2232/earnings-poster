@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "MPIMANIPAL",
-      "c": "Manipal Payment and Identity Solutions Limited",
-      "r": "Good",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 430.40000000000003,
-      "pat": 80.88,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/MANIPALCARDSIPO_03112026173448_Outcome03112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MPIMANIPAL",
-      "t": "03-Nov-2026 17:37:48"
-    },
-    {
-      "d": "2026-11-03",
       "s": "BAIDFIN",
       "c": "Baid Finserv Limited",
       "r": "Positive",
@@ -4251,6 +4237,20 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:ADVANCE",
       "t": "04-Nov-2026 17:09:52",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753256_04112026100803_WEB.xml"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "AUSOMENT",
+      "c": "Ausom Enterprise Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 848.8358000000001,
+      "pat": 3.7116000000000002,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/AUSOMENT_04112026222036_Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:AUSOMENT",
+      "t": "04-Nov-2026 22:28:32"
     }
   ],
   "seen": [
@@ -4812,7 +4812,8 @@
     "106845863",
     "106845860",
     "106845859",
-    "106845893"
+    "106845893",
+    "106845909"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -4836,7 +4837,7 @@
         "url": "https://nsearchives.nseindia.com/corporate/PATELINT_02112026155145_Outcome_of_BM_Sept2026_sd.pdf",
         "an_dt": "02-Nov-2026 15:53:28",
         "date": "2026-11-02",
-        "xbrl_try": "2026-11-04T21:29:02.134623+00:00"
+        "xbrl_try": "2026-11-04T22:29:11.574097+00:00"
       },
       {
         "key": "106839719",
@@ -4848,7 +4849,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T21:29:03.525809+00:00"
+        "xbrl_try": "2026-11-04T22:29:13.169081+00:00"
       },
       {
         "key": "106839796",
@@ -6208,6 +6209,7 @@
     "univcables_04112026215609_outcome_bm_04112026.pdf",
     "transindia_04112026215406_bm_outcome_04112026.pdf",
     "univcables_04112026215228_outcome_bm_04112026.pdf",
-    "tenneco_04112026221229_bmoutcomeintimation_signed.pdf"
+    "tenneco_04112026221229_bmoutcomeintimation_signed.pdf",
+    "ausoment_04112026222036_outcome.pdf"
   ]
 }
