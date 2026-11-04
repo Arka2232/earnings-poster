@@ -2,50 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "ARFIN",
-      "c": "Arfin India Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 283.17990000000003,
-      "pat": 5.9693,
-      "eps": 0.35,
-      "filing": "https://nsearchives.nseindia.com/corporate/ARFIND_03112026123221_ArfinOutcomeOfBoardMeetingSep26.PDF",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ARFIN",
-      "t": "03-Nov-2026 12:34:49"
-    },
-    {
-      "d": "2026-11-03",
-      "s": "GEECEE",
-      "c": "GeeCee Ventures Limited",
-      "r": "Weak",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 14.4513,
-      "pat": 10.196299999999999,
-      "eps": 4.88,
-      "filing": "https://nsearchives.nseindia.com/corporate/GEECEEVC12345_03112026123836_BMOUTCOMERESULTS_Signed.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GEECEE",
-      "t": "03-Nov-2026 12:38:48",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752241_03112026083940_WEB.xml"
-    },
-    {
-      "d": "2026-11-03",
-      "s": "SURANAT&P",
-      "c": "Surana Telecom and Power Limited",
-      "r": "Positive",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 2.2391,
-      "pat": 0.2148,
-      "eps": 0.02,
-      "filing": "https://nsearchives.nseindia.com/corporate/SURANAT_P_03112026124044_OUTCOMe.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SURANAT_P",
-      "t": "03-Nov-2026 12:42:00",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752095_03112026065350_WEB.xml"
-    },
-    {
-      "d": "2026-11-03",
       "s": "NEXTMEDIA",
       "c": "Next Mediaworks Limited",
       "r": "Results Filed",
@@ -4256,6 +4212,48 @@
       "filing": "https://nsearchives.nseindia.com/corporate/OMKAR_04112026184110_APL_BM_Outcome_04112026_SD.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:AMNPLST",
       "t": "04-Nov-2026 18:42:02"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "KIMS",
+      "c": "Krishna Institute of Medical Sciences Limited",
+      "r": "Bad",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 13.444,
+      "pat": 1.1199999999999999,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/KIMS_04112026184239_Outcome-final.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:KIMS",
+      "t": "04-Nov-2026 18:43:39"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "RELTD",
+      "c": "Ravindra Energy Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/RAVINDRA_04112026184040_Intimation_File.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:RELTD",
+      "t": "04-Nov-2026 18:43:31"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "SPIC",
+      "c": "Southern Petrochemicals Industries Corporation  Limited",
+      "r": "Weak",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 995.12,
+      "pat": 47.06,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/SPIC_04112026183859_Outcome_of_BM_04_11_2026_final.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SPIC",
+      "t": "04-Nov-2026 18:42:54"
     }
   ],
   "seen": [
@@ -4761,7 +4759,10 @@
     "106845234",
     "106845243",
     "106845267",
-    "106845288"
+    "106845288",
+    "106845299",
+    "106845298",
+    "106845293"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -5377,6 +5378,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-04T18:35:46.105413+00:00"
+      },
+      {
+        "key": "106845298",
+        "seq_id": "106845298",
+        "symbol": "RELTD",
+        "company": "Ravindra Energy Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/RAVINDRA_04112026184040_Intimation_File.pdf",
+        "an_dt": "04-Nov-2026 18:43:31",
+        "date": "2026-11-04",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-04T18:48:22.872693+00:00"
       }
     ],
     "ipo_check": "2026-11-04 18",
@@ -6207,6 +6220,9 @@
     "skfindus25_04112026181948_nse.pdf",
     "deltamagnt_04112026182906_dml.pdf",
     "gksl2025_04112026183103_final_outcome_signed.pdf",
-    "omkar_04112026184110_apl_bm_outcome_04112026_sd.pdf"
+    "omkar_04112026184110_apl_bm_outcome_04112026_sd.pdf",
+    "kims_04112026184239_outcome-final.pdf",
+    "ravindra_04112026184040_intimation_file.pdf",
+    "spic_04112026183859_outcome_of_bm_04_11_2026_final.pdf"
   ]
 }
