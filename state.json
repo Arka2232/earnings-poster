@@ -2,35 +2,6 @@
   "archive": [
     {
       "d": "2026-11-02",
-      "s": "VESUVIUS",
-      "c": "Vesuvius India Limited",
-      "r": "Positive",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 566.8399999999999,
-      "pat": 57.099999999999994,
-      "eps": 2.82,
-      "filing": "https://nsearchives.nseindia.com/corporate/VESUVIUS_02112026203356_BM_Outcome_Q32026_Final.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:VESUVIUS",
-      "t": "02-Nov-2026 20:35:34",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751487_02112026084032_WEB.xml"
-    },
-    {
-      "d": "2026-11-02",
-      "s": "IDEAFORGE",
-      "c": "Ideaforge Technology Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 91.28500000000001,
-      "pat": 7.748000000000001,
-      "eps": 1.56,
-      "filing": "https://nsearchives.nseindia.com/corporate/IDEAFORGE_02112026204301_Outcome_02112026_FE.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:IDEAFORGE",
-      "t": "02-Nov-2026 20:44:31"
-    },
-    {
-      "d": "2026-11-02",
       "s": "SIGNPOST",
       "c": "Signpost India Limited",
       "r": "Good",
@@ -4257,6 +4228,34 @@
       "filing": "https://nsearchives.nseindia.com/corporate/EMPYREAN_04112026175928_Outcome.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:KRISHIVAL",
       "t": "04-Nov-2026 18:00:28"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "REPL",
+      "c": "Rudrabhishek Enterprises Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/REPL_04112026174859_Outcome_of_Board_Meeting.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:REPL",
+      "t": "04-Nov-2026 18:04:18"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "MARINE",
+      "c": "Marine Electricals (India) Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 404.648,
+      "pat": 32.0914,
+      "eps": 2.27,
+      "filing": "https://nsearchives.nseindia.com/corporate/MARINE_04112026175953_Regulation_30_Board_Meeting_Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MARINE",
+      "t": "04-Nov-2026 18:04:09"
     }
   ],
   "seen": [
@@ -4749,7 +4748,9 @@
     "106844998",
     "106845044",
     "106845063",
-    "106845053"
+    "106845053",
+    "106845082",
+    "106845080"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -5243,7 +5244,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T17:06:50.379254+00:00"
+        "xbrl_try": "2026-11-04T18:08:17.047265+00:00"
       },
       {
         "key": "106844723",
@@ -5376,6 +5377,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-04T18:05:09.990611+00:00"
+      },
+      {
+        "key": "106845082",
+        "seq_id": "106845082",
+        "symbol": "REPL",
+        "company": "Rudrabhishek Enterprises Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/REPL_04112026174859_Outcome_of_Board_Meeting.pdf",
+        "an_dt": "04-Nov-2026 18:04:18",
+        "date": "2026-11-04",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-04T18:08:17.582474+00:00"
       }
     ],
     "ipo_check": "2026-11-04 18",
@@ -6193,6 +6206,8 @@
     "oswalagro_04112026175250_financial_results_final.pdf",
     "essarshpng_04112026175712_bm_outcome_04112026__1_.pdf",
     "bse1_04112026175851_nseintimation.pdf",
-    "empyrean_04112026175928_outcome.pdf"
+    "empyrean_04112026175928_outcome.pdf",
+    "repl_04112026174859_outcome_of_board_meeting.pdf",
+    "marine_04112026175953_regulation_30_board_meeting_outcome.pdf"
   ]
 }
