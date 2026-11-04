@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "DATAMATICS",
-      "c": "Datamatics Global Services Limited",
-      "r": "Good",
-      "b": "Standalone",
-      "q": "Q1 FY27",
-      "sales": 546.64,
-      "pat": 73.58,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/DGSL_03112026171630_SEIntimationBMoutcomeUploadedsd.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:DATAMATICS",
-      "t": "03-Nov-2026 17:19:53"
-    },
-    {
-      "d": "2026-11-03",
       "s": "SUMEETINDS",
       "c": "Sumeet Industries Limited",
       "r": "Bad",
@@ -4248,6 +4234,21 @@
       "filing": "https://nsearchives.nseindia.com/corporate/MEL_04112026210426_20261104FinancialResults.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:MAXESTATES",
       "t": "04-Nov-2026 21:08:39"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "SBGLP",
+      "c": "Suratwwala Business Group Limited",
+      "r": "Weak",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 61.1727,
+      "pat": 10.376999999999999,
+      "eps": 0.59,
+      "filing": "https://nsearchives.nseindia.com/corporate/SBGLP_04112026200751_BM_Outcome_04112026signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SBGLP",
+      "t": "04-Nov-2026 20:09:33",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753153_04112026083254_WEB.xml"
     }
   ],
   "seen": [
@@ -5215,7 +5216,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T20:12:41.092679+00:00"
+        "xbrl_try": "2026-11-04T21:12:55.912428+00:00"
       },
       {
         "key": "106845148",
@@ -5276,18 +5277,6 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-04T20:40:56.653468+00:00"
-      },
-      {
-        "key": "106845687",
-        "seq_id": "106845687",
-        "symbol": "SBGLP",
-        "company": "Suratwwala Business Group Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/SBGLP_04112026200751_BM_Outcome_04112026signed.pdf",
-        "an_dt": "04-Nov-2026 20:09:33",
-        "date": "2026-11-04",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-04T20:12:41.905271+00:00"
       },
       {
         "key": "106845707",
