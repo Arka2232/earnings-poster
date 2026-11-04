@@ -2,21 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "KALAMANDIR",
-      "c": "Sai Silks (Kalamandir) Limited",
-      "r": "Weak",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 434.04999999999995,
-      "pat": 31.08,
-      "eps": 2.11,
-      "filing": "https://nsearchives.nseindia.com/corporate/SSKL_03112026170922_Outcome_of_BM_031126.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:KALAMANDIR",
-      "t": "03-Nov-2026 17:18:17",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752349_03112026105436_WEB.xml"
-    },
-    {
-      "d": "2026-11-03",
       "s": "WEALTH",
       "c": "Wealth First Portfolio Managers Limited",
       "r": "Bad",
@@ -4249,6 +4234,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/WANBURY_04112026205135_Outcome.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:WANBURY",
       "t": "04-Nov-2026 20:55:42"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "AUGMONT",
+      "c": "Augmont Enterprises Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 15835.512,
+      "pat": 160.69600000000003,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/AEL2012_04112026210131_AELOutcomeofBM04112026signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:AUGMONT",
+      "t": "04-Nov-2026 21:05:14"
     }
   ],
   "seen": [
@@ -4803,7 +4802,8 @@
     "106845762",
     "106845774",
     "106845777",
-    "106845780"
+    "106845780",
+    "106845802"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -6178,6 +6178,7 @@
     "galaxysurf_04112026204444_outcomeds.pdf",
     "shukra_04112026205115_outcome_shukra_sw.pdf",
     "lohia2023_04112026205128_board_meeting_outcome.pdf",
-    "wanbury_04112026205135_outcome.pdf"
+    "wanbury_04112026205135_outcome.pdf",
+    "ael2012_04112026210131_aeloutcomeofbm04112026signed.pdf"
   ]
 }
