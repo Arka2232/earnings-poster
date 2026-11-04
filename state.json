@@ -1231,7 +1231,9 @@
     "106844111",
     "106844106",
     "106844118",
-    "106844142"
+    "106844142",
+    "106844168",
+    "106844166"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1537,37 +1539,11 @@
     "sumit_04112026143601_nse.pdf",
     "bluecoast_04112026143436_outcome_bm_04112026signed.pdf",
     "moldtech_04112026143810_outcomeofbm.pdf",
-    "sunilbcml_04112026144306_bcml_outcome_bm_04112026.pdf"
+    "sunilbcml_04112026144306_bcml_outcome_bm_04112026.pdf",
+    "capacite_04112026145318_bm_outcome.pdf",
+    "careerp_04112026145045_cpcap_outcome041126.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-11-02",
-      "s": "KANOHAR",
-      "c": "Kanohar Electricals Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 208.5868,
-      "pat": 53.8691,
-      "eps": 7.14,
-      "filing": "https://nsearchives.nseindia.com/corporate/KANOHARNSE2026_02112026190411_Outcome_Board_Meeting_Q2.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:KANOHAR",
-      "t": "02-Nov-2026 19:11:08"
-    },
-    {
-      "d": "2026-11-02",
-      "s": "TRIVENI",
-      "c": "Triveni Engineering & Industries Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 2048.95,
-      "pat": 30.05,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/TRIVENI_02112026191629_TEIL_RESULT_SEP26.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:TRIVENI",
-      "t": "02-Nov-2026 19:18:06"
-    },
     {
       "d": "2026-11-02",
       "s": "SFL",
@@ -5794,6 +5770,34 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:REDINGTON",
       "t": "04-Nov-2026 13:44:48",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752486_04112026020726_WEB.xml"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "CAPACITE",
+      "c": "Capacit'e Infraprojects Limited",
+      "r": "Positive",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 770.9344000000001,
+      "pat": 47.5636,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/CAPACITE_04112026145318_BM_Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CAPACITE",
+      "t": "04-Nov-2026 14:53:33"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "CPCAP",
+      "c": "CP Capital Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q3 FY27",
+      "sales": 34.973000000000006,
+      "pat": 22.557,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/CAREERP_04112026145045_CPCAP_Outcome041126.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CPCAP",
+      "t": "04-Nov-2026 14:53:12"
     }
   ]
 }
