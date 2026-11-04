@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "BAIDFIN",
-      "c": "Baid Finserv Limited",
-      "r": "Positive",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 20.1567,
-      "pat": 5.199,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/20121991_03112026173721_Intimation.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BAIDFIN",
-      "t": "03-Nov-2026 17:37:43"
-    },
-    {
-      "d": "2026-11-03",
       "s": "ASHOKAMET",
       "c": "Ashoka Metcast Limited",
       "r": "Positive",
@@ -4251,6 +4237,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/AUSOMENT_04112026222036_Outcome.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:AUSOMENT",
       "t": "04-Nov-2026 22:28:32"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "CUMMINSIND",
+      "c": "Cummins India Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/CUMMINSIND_04112026223607_SEintimation_OutcomeFR_04112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CUMMINSIND",
+      "t": "04-Nov-2026 22:38:38"
     }
   ],
   "seen": [
@@ -4813,7 +4813,8 @@
     "106845860",
     "106845859",
     "106845893",
-    "106845909"
+    "106845909",
+    "106845926"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5079,7 +5080,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T21:40:59.431987+00:00"
+        "xbrl_try": "2026-11-04T22:41:52.999900+00:00"
       },
       {
         "key": "106844203",
@@ -5236,7 +5237,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T21:41:00.242327+00:00"
+        "xbrl_try": "2026-11-04T22:41:53.784675+00:00"
       },
       {
         "key": "106845298",
@@ -5285,6 +5286,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-04T21:59:38.206016+00:00"
+      },
+      {
+        "key": "106845926",
+        "seq_id": "106845926",
+        "symbol": "CUMMINSIND",
+        "company": "Cummins India Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/CUMMINSIND_04112026223607_SEintimation_OutcomeFR_04112026.pdf",
+        "an_dt": "04-Nov-2026 22:38:38",
+        "date": "2026-11-04",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-04T22:41:54.592389+00:00"
       }
     ],
     "ipo_check": "2026-11-04 22",
@@ -6210,6 +6223,7 @@
     "transindia_04112026215406_bm_outcome_04112026.pdf",
     "univcables_04112026215228_outcome_bm_04112026.pdf",
     "tenneco_04112026221229_bmoutcomeintimation_signed.pdf",
-    "ausoment_04112026222036_outcome.pdf"
+    "ausoment_04112026222036_outcome.pdf",
+    "cumminsind_04112026223607_seintimation_outcomefr_04112026.pdf"
   ]
 }
