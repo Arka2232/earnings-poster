@@ -2,50 +2,6 @@
   "archive": [
     {
       "d": "2026-11-02",
-      "s": "WALCHANNAG",
-      "c": "Walchandnagar Industries Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 93.53,
-      "pat": 0.45999999999999996,
-      "eps": 0.07,
-      "filing": "https://nsearchives.nseindia.com/corporate/WALCHANNAG_02112026205246_Outcome_and_results_merged_of_BM_WIL_02_11_2026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:WALCHANNAG",
-      "t": "02-Nov-2026 20:56:40",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751518_02112026091126_WEB.xml"
-    },
-    {
-      "d": "2026-11-02",
-      "s": "VENTIVE",
-      "c": "Ventive Hospitality Limited",
-      "r": "Bad",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 551.148,
-      "pat": 33.735,
-      "eps": 1.0,
-      "filing": "https://nsearchives.nseindia.com/corporate/VENTIVE_02112026210029_VHL_BMOutcome_02112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:VENTIVE",
-      "t": "02-Nov-2026 21:00:50",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751538_02112026094022_WEB.xml"
-    },
-    {
-      "d": "2026-11-02",
-      "s": "CHOICEIN",
-      "c": "Choice International Limited",
-      "r": "Good",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 372.867,
-      "pat": 69.47200000000001,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/CHOICE_02112026205843_upload.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CHOICEIN",
-      "t": "02-Nov-2026 21:05:23"
-    },
-    {
-      "d": "2026-11-02",
       "s": "KEC",
       "c": "KEC International Limited",
       "r": "Bad",
@@ -4257,6 +4213,48 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:KICL",
       "t": "04-Nov-2026 16:07:38",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NBFC_INDAS_1752715_04112026051226_WEB.xml"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "AIFL",
+      "c": "Ashapura Intimates Fashion Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/AIFL2020_04112026181316_Outcome_of_Board_Meeting.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:AIFL",
+      "t": "04-Nov-2026 18:14:13"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "MITTAL",
+      "c": "Mittal Life Style Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/MITTAL_04112026181130_Mittal_Life_Style_Limited_NSE_Filing_30-09-2026_FINALFINAL.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MITTAL",
+      "t": "04-Nov-2026 18:13:57"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "MUFTI",
+      "c": "Credo Brands Marketing Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 189.30100000000002,
+      "pat": 27.247000000000003,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/CREDONSE_04112026180745_20261104_SE_Letter_BM_Results.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MUFTI",
+      "t": "04-Nov-2026 18:12:44"
     }
   ],
   "seen": [
@@ -4751,7 +4749,10 @@
     "106845063",
     "106845053",
     "106845082",
-    "106845080"
+    "106845080",
+    "106845148",
+    "106845147",
+    "106845143"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -5281,7 +5282,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T17:15:41.013340+00:00"
+        "xbrl_try": "2026-11-04T18:16:36.253738+00:00"
       },
       {
         "key": "106844729",
@@ -5293,7 +5294,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T17:15:41.982949+00:00"
+        "xbrl_try": "2026-11-04T18:16:37.201320+00:00"
       },
       {
         "key": "106844790",
@@ -5378,6 +5379,30 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-04T18:08:17.582474+00:00"
+      },
+      {
+        "key": "106845148",
+        "seq_id": "106845148",
+        "symbol": "AIFL",
+        "company": "Ashapura Intimates Fashion Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/AIFL2020_04112026181316_Outcome_of_Board_Meeting.pdf",
+        "an_dt": "04-Nov-2026 18:14:13",
+        "date": "2026-11-04",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-04T18:16:38.031315+00:00"
+      },
+      {
+        "key": "106845147",
+        "seq_id": "106845147",
+        "symbol": "MITTAL",
+        "company": "Mittal Life Style Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/MITTAL_04112026181130_Mittal_Life_Style_Limited_NSE_Filing_30-09-2026_FINALFINAL.pdf",
+        "an_dt": "04-Nov-2026 18:13:57",
+        "date": "2026-11-04",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-04T18:16:38.953651+00:00"
       }
     ],
     "ipo_check": "2026-11-04 18",
@@ -6197,6 +6222,9 @@
     "bse1_04112026175851_nseintimation.pdf",
     "empyrean_04112026175928_outcome.pdf",
     "repl_04112026174859_outcome_of_board_meeting.pdf",
-    "marine_04112026175953_regulation_30_board_meeting_outcome.pdf"
+    "marine_04112026175953_regulation_30_board_meeting_outcome.pdf",
+    "aifl2020_04112026181316_outcome_of_board_meeting.pdf",
+    "mittal_04112026181130_mittal_life_style_limited_nse_filing_30-09-2026_finalfinal.pdf",
+    "credonse_04112026180745_20261104_se_letter_bm_results.pdf"
   ]
 }
