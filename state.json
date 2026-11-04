@@ -1125,7 +1125,8 @@
     "106843857",
     "106843883",
     "106843891",
-    "106843889"
+    "106843889",
+    "106843895"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1397,24 +1398,10 @@
     "rustomjee_04112026130758_outcome_of_board_meeting_cover_letter.pdf",
     "biocon_04112026131527_bmoutcome.pdf",
     "meenakshi_cs13_gmail_com_04112026132058_ptl.pdf",
-    "exideind_04112026131738_signedoutcomeofbm041126.pdf"
+    "exideind_04112026131738_signedoutcomeofbm041126.pdf",
+    "armanfin_04112026132201_financial_result_outcome_q2_2026-27.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-11-02",
-      "s": "GNFC",
-      "c": "Gujarat Narmada Valley Fertilizers and Chemicals Limited",
-      "r": "Good",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 2773.0,
-      "pat": 194.0,
-      "eps": 13.2,
-      "filing": "https://nsearchives.nseindia.com/corporate/rajeshpillai8741_02112026172634_UFRQ2H12627sign.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GNFC",
-      "t": "02-Nov-2026 17:27:32",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751187_02112026052043_WEB.xml"
-    },
     {
       "d": "2026-11-02",
       "s": "BORANA",
@@ -5660,6 +5647,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/EXIDEIND_04112026131738_signedOUTCOMEOFBM041126.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:EXIDEIND",
       "t": "04-Nov-2026 13:19:40"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "ARMANFIN",
+      "c": "Arman Financial Services Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 234.6419,
+      "pat": 51.4795,
+      "eps": 48.94,
+      "filing": "https://nsearchives.nseindia.com/corporate/ARMANFIN_04112026132201_FINANCIAL_RESULT_Outcome_Q2_2026-27.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ARMANFIN",
+      "t": "04-Nov-2026 13:23:30"
     }
   ]
 }
