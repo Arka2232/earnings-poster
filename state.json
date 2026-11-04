@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "GENCON",
-      "c": "Generic Engineering Construction and Projects Limited",
-      "r": "Good",
-      "b": "Consolidated",
-      "q": "Q1 FY27",
-      "sales": 52.0854,
-      "pat": 2.0244,
-      "eps": 0.36,
-      "filing": "https://nsearchives.nseindia.com/corporate/GENCON_03112026151211_Outcome.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GENCON",
-      "t": "03-Nov-2026 15:13:46"
-    },
-    {
-      "d": "2026-11-03",
       "s": "MANGLMCEM",
       "c": "Mangalam Cement Limited",
       "r": "Bad",
@@ -4252,6 +4238,21 @@
       "filing": "https://nsearchives.nseindia.com/corporate/TPLPLASTEH_04112026194610_Outcome.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:TPLPLASTEH",
       "t": "04-Nov-2026 19:49:23"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "AEROENTER",
+      "c": "Aeroflex Enterprises Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 249.9049,
+      "pat": 38.2355,
+      "eps": 2.27,
+      "filing": "https://nsearchives.nseindia.com/corporate/SATINDUSTRIES_04112026184603_OutcomeofBoardMeetingNov042026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:AEROENTER",
+      "t": "04-Nov-2026 18:46:54",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753103_04112026074537_WEB.xml"
     }
   ],
   "seen": [
@@ -5282,18 +5283,6 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-04T19:49:31.293897+00:00"
-      },
-      {
-        "key": "106845321",
-        "seq_id": "106845321",
-        "symbol": "AEROENTER",
-        "company": "Aeroflex Enterprises Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/SATINDUSTRIES_04112026184603_OutcomeofBoardMeetingNov042026.pdf",
-        "an_dt": "04-Nov-2026 18:46:54",
-        "date": "2026-11-04",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-04T18:51:19.252070+00:00"
       },
       {
         "key": "106845370",
