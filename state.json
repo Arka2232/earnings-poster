@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-02",
-      "s": "SHK",
-      "c": "S H Kelkar and Company Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 636.19,
-      "pat": 14.56,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/9152077850_02112026193402_SHKBMOutcome02112026signed.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SHK",
-      "t": "02-Nov-2026 19:34:14"
-    },
-    {
-      "d": "2026-11-02",
       "s": "TNPETRO",
       "c": "Tamilnadu PetroProducts Limited",
       "r": "Excellent",
@@ -4215,6 +4201,62 @@
       "filing": "https://nsearchives.nseindia.com/corporate/JMFINANCIL_04112026172519_OutcomeoftheBoardMeeting04112026upload.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:JMFINANCIL",
       "t": "04-Nov-2026 17:26:27"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "TEMPSENS",
+      "c": "Tempsens Instruments (India) Limited",
+      "r": "Good",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 1156.83,
+      "pat": 161.43,
+      "eps": 1.98,
+      "filing": "https://nsearchives.nseindia.com/corporate/TEMPSENS_04112026172824_Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:TEMPSENS",
+      "t": "04-Nov-2026 17:33:25"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "DHARMAJ",
+      "c": "Dharmaj Crop Guard Limited",
+      "r": "Weak",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 3326.21,
+      "pat": 132.061,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/DHARMAJ_04112026173146_BSENSERESULT04112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:DHARMAJ",
+      "t": "04-Nov-2026 17:33:08"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "SANATHAN",
+      "c": "Sanathan Textiles Limited",
+      "r": "Good",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 992.11,
+      "pat": 58.69,
+      "eps": 6.95,
+      "filing": "https://nsearchives.nseindia.com/corporate/SANATHAN_04112026173106_STL_OutcomeofBM.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SANATHAN",
+      "t": "04-Nov-2026 17:32:51"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "PATELRMART",
+      "c": "Patel Retail Limited",
+      "r": "Positive",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 298.60470000000004,
+      "pat": 9.9115,
+      "eps": 2.97,
+      "filing": "https://nsearchives.nseindia.com/corporate/PATEL_04112026172750_PRLOutcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PATELRMART",
+      "t": "04-Nov-2026 17:31:47"
     }
   ],
   "seen": [
@@ -4695,7 +4737,11 @@
     "106844772",
     "106844790",
     "106844778",
-    "106844833"
+    "106844833",
+    "106844869",
+    "106844866",
+    "106844861",
+    "106844858"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -5009,7 +5055,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T16:35:45.293567+00:00"
+        "xbrl_try": "2026-11-04T17:36:42.889386+00:00"
       },
       {
         "key": "106844203",
@@ -5045,7 +5091,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T16:35:46.211812+00:00"
+        "xbrl_try": "2026-11-04T17:36:43.858742+00:00"
       },
       {
         "key": "106844325",
@@ -5153,7 +5199,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T16:35:46.639462+00:00"
+        "xbrl_try": "2026-11-04T17:36:44.341765+00:00"
       },
       {
         "key": "106844619",
@@ -6091,6 +6137,10 @@
     "sis_04112026171334_intimation.pdf",
     "fcssoft_04112026171620_outcome_of_bm_sd.pdf",
     "somanyceramics_04112026171354_outcomeofboardmeeting_04112026sd.pdf",
-    "jmfinancil_04112026172519_outcomeoftheboardmeeting04112026upload.pdf"
+    "jmfinancil_04112026172519_outcomeoftheboardmeeting04112026upload.pdf",
+    "tempsens_04112026172824_outcome.pdf",
+    "dharmaj_04112026173146_bsenseresult04112026.pdf",
+    "sanathan_04112026173106_stl_outcomeofbm.pdf",
+    "patel_04112026172750_prloutcome.pdf"
   ]
 }
