@@ -1233,7 +1233,8 @@
     "106844118",
     "106844142",
     "106844168",
-    "106844166"
+    "106844166",
+    "106844199"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1541,23 +1542,10 @@
     "moldtech_04112026143810_outcomeofbm.pdf",
     "sunilbcml_04112026144306_bcml_outcome_bm_04112026.pdf",
     "capacite_04112026145318_bm_outcome.pdf",
-    "careerp_04112026145045_cpcap_outcome041126.pdf"
+    "careerp_04112026145045_cpcap_outcome041126.pdf",
+    "mapmyindia_04112026150154_mmi_bm_outcome_4_nov_2026.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-11-02",
-      "s": "SFL",
-      "c": "Sheela Foam Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 781.27,
-      "pat": 30.84,
-      "eps": 2.82,
-      "filing": "https://nsearchives.nseindia.com/corporate/SFL_02112026191543_Outcome_of_Board_Meeting.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SFL",
-      "t": "02-Nov-2026 19:17:10"
-    },
     {
       "d": "2026-11-02",
       "s": "TATAINVEST",
@@ -5798,6 +5786,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/CAREERP_04112026145045_CPCAP_Outcome041126.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:CPCAP",
       "t": "04-Nov-2026 14:53:12"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "MAPMYINDIA",
+      "c": "C.E. Info Systems Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 1.3174000000000001,
+      "pat": 0.37520000000000003,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/MAPMYINDIA_04112026150154_MMI_BM_Outcome_4_Nov_2026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MAPMYINDIA",
+      "t": "04-Nov-2026 15:02:37"
     }
   ]
 }
