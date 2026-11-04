@@ -1,48 +1,6 @@
 {
   "archive": [
     {
-      "d": "2026-11-02",
-      "s": "HAPPSTMNDS",
-      "c": "Happiest Minds Technologies Limited",
-      "r": "Good",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 6.4543,
-      "pat": 0.6219,
-      "eps": 4.13,
-      "filing": "https://nsearchives.nseindia.com/corporate/suhask_02112026230534_Reg30OutcomewithUDIN02112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:HAPPSTMNDS",
-      "t": "02-Nov-2026 23:07:39"
-    },
-    {
-      "d": "2026-11-02",
-      "s": "BIRLANU",
-      "c": "BirlaNu Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 8.8452,
-      "pat": 0.25379999999999997,
-      "eps": 12.47,
-      "filing": "https://nsearchives.nseindia.com/corporate/sumedha_02112026170159_BMOutcome2112026signed.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BIRLANU",
-      "t": "02-Nov-2026 17:04:08"
-    },
-    {
-      "d": "2026-11-03",
-      "s": "JYOTICNC",
-      "c": "Jyoti CNC Automation Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 587.53,
-      "pat": 114.89,
-      "eps": 5.05,
-      "filing": "https://nsearchives.nseindia.com/corporate/JYOTICNC_NSE_03112026115810_Outcome_of_BM_03112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:JYOTICNC",
-      "t": "03-Nov-2026 12:04:51"
-    },
-    {
       "d": "2026-11-03",
       "s": "JAINREC",
       "c": "Jain Resource Recycling Limited",
@@ -4254,6 +4212,50 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:JISLJALEQS",
       "t": "04-Nov-2026 15:30:52",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752838_04112026060805_WEB.xml"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "GKSL",
+      "c": "Gujarat Kidney And Super Speciality Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 38.0902,
+      "pat": 6.598,
+      "eps": 0.74,
+      "filing": "https://nsearchives.nseindia.com/corporate/GKSL2025_04112026183103_Final_Outcome_signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GKSL",
+      "t": "04-Nov-2026 18:38:38"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "JISLDVREQS",
+      "c": "Jain Irrigation Systems Limited",
+      "r": "Good",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 1576.6599999999999,
+      "pat": 18.009999999999998,
+      "eps": 0.23,
+      "filing": "https://nsearchives.nseindia.com/corporate/JISLDVREQS_04112026153347_SE_Letter_Outcome_Financial_Results_SEPT2026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:JISLDVREQS",
+      "t": "04-Nov-2026 15:35:03",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752853_04112026061145_WEB.xml"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "PRICOLLTD",
+      "c": "Pricol Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 1356.32,
+      "pat": 85.21,
+      "eps": 6.99,
+      "filing": "https://nsearchives.nseindia.com/corporate/PRICOLLTD_04112026152908_sedisclosure.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PRICOLLTD",
+      "t": "04-Nov-2026 15:32:43",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752895_04112026062811_WEB.xml"
     }
   ],
   "seen": [
@@ -4757,7 +4759,8 @@
     "106845150",
     "106845218",
     "106845234",
-    "106845243"
+    "106845243",
+    "106845267"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -5023,7 +5026,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T17:40:46.448008+00:00"
+        "xbrl_try": "2026-11-04T18:42:20.667128+00:00"
       },
       {
         "key": "106844039",
@@ -5073,30 +5076,6 @@
         "basis": "",
         "xbrl_try": "2026-11-04T18:30:49.877922+00:00",
         "xbrl_blocked": "other-taxonomy"
-      },
-      {
-        "key": "106844325",
-        "seq_id": "106844325",
-        "symbol": "JISLDVREQS",
-        "company": "Jain Irrigation Systems Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/JISLDVREQS_04112026153347_SE_Letter_Outcome_Financial_Results_SEPT2026.pdf",
-        "an_dt": "04-Nov-2026 15:35:03",
-        "date": "2026-11-04",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-04T17:40:47.227210+00:00"
-      },
-      {
-        "key": "106844319",
-        "seq_id": "106844319",
-        "symbol": "PRICOLLTD",
-        "company": "Pricol Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/PRICOLLTD_04112026152908_sedisclosure.pdf",
-        "an_dt": "04-Nov-2026 15:32:43",
-        "date": "2026-11-04",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-04T17:40:47.981915+00:00"
       },
       {
         "key": "106844377",
@@ -6225,6 +6204,7 @@
     "ravidamle_04112026181009_kclresults30092026.pdf",
     "pel2024_04112026182631_outcome_q2_fy_2026-27_signed.pdf",
     "skfindus25_04112026181948_nse.pdf",
-    "deltamagnt_04112026182906_dml.pdf"
+    "deltamagnt_04112026182906_dml.pdf",
+    "gksl2025_04112026183103_final_outcome_signed.pdf"
   ]
 }
