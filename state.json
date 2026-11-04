@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "ADVENTHTL",
-      "c": "Advent Hotels International Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/ADVENTHTL_03112026171215_adventoutcomeresults03112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ADVENTHTL",
-      "t": "03-Nov-2026 17:12:36"
-    },
-    {
-      "d": "2026-11-03",
       "s": "NORTHARC",
       "c": "Northern Arc Capital Limited",
       "r": "Excellent",
@@ -4249,6 +4235,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/SHUKRA_04112026205115_Outcome_shukra_sw.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SHUKRAPHAR",
       "t": "04-Nov-2026 20:52:35"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "LCL",
+      "c": "Lohia Corp Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 594.333,
+      "pat": 77.74700000000001,
+      "eps": 7.36,
+      "filing": "https://nsearchives.nseindia.com/corporate/LOHIA2023_04112026205128_Board_Meeting_Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:LCL",
+      "t": "04-Nov-2026 20:54:01"
     }
   ],
   "seen": [
@@ -4801,7 +4801,8 @@
     "106845757",
     "106845756",
     "106845762",
-    "106845774"
+    "106845774",
+    "106845777"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -6174,6 +6175,7 @@
     "sadbhav_04112026204318_seloutcomeofboardmeeting04112026signed1.pdf",
     "trigyn_04112026204232_ttl_bm_outcome_with_results_04112026_-sd.pdf",
     "galaxysurf_04112026204444_outcomeds.pdf",
-    "shukra_04112026205115_outcome_shukra_sw.pdf"
+    "shukra_04112026205115_outcome_shukra_sw.pdf",
+    "lohia2023_04112026205128_board_meeting_outcome.pdf"
   ]
 }
