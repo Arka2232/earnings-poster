@@ -2,21 +2,6 @@
   "archive": [
     {
       "d": "2026-11-02",
-      "s": "TVTODAY",
-      "c": "TV Today Network Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 194.38,
-      "pat": 7.75,
-      "eps": 1.3,
-      "filing": "https://nsearchives.nseindia.com/corporate/TVTODAY_02112026175111_Board_Meeting_Outcome_Nov2026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:TVTODAY",
-      "t": "02-Nov-2026 17:52:50",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751531_02112026093326_WEB.xml"
-    },
-    {
-      "d": "2026-11-02",
       "s": "GSLSU",
       "c": "Global Surfaces Limited",
       "r": "Weak",
@@ -4255,6 +4240,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/SKFINDUS25_04112026181948_NSE.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SKFINDUS",
       "t": "04-Nov-2026 18:31:18"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "DELTAMAGNT",
+      "c": "Delta Manufacturing Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/DELTAMAGNT_04112026182906_DML.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:DELTAMAGNT",
+      "t": "04-Nov-2026 18:33:25"
     }
   ],
   "seen": [
@@ -4757,7 +4756,8 @@
     "106845155",
     "106845150",
     "106845218",
-    "106845234"
+    "106845234",
+    "106845243"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -5397,6 +5397,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-04T18:33:28.251602+00:00"
+      },
+      {
+        "key": "106845243",
+        "seq_id": "106845243",
+        "symbol": "DELTAMAGNT",
+        "company": "Delta Manufacturing Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/DELTAMAGNT_04112026182906_DML.pdf",
+        "an_dt": "04-Nov-2026 18:33:25",
+        "date": "2026-11-04",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-04T18:35:46.105413+00:00"
       }
     ],
     "ipo_check": "2026-11-04 18",
@@ -6224,6 +6236,7 @@
     "gppl_04112026181348_results.pdf",
     "ravidamle_04112026181009_kclresults30092026.pdf",
     "pel2024_04112026182631_outcome_q2_fy_2026-27_signed.pdf",
-    "skfindus25_04112026181948_nse.pdf"
+    "skfindus25_04112026181948_nse.pdf",
+    "deltamagnt_04112026182906_dml.pdf"
   ]
 }
