@@ -2,48 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "RPPL",
-      "c": "Rajshree Polypack Limited",
-      "r": "Good",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 102.89540000000001,
-      "pat": 5.03,
-      "eps": 0.68,
-      "filing": "https://nsearchives.nseindia.com/corporate/RPPL_03112026134447_RPPL_Outcome_of_BM_upload.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:RPPL",
-      "t": "03-Nov-2026 13:46:01"
-    },
-    {
-      "d": "2026-11-03",
-      "s": "KOPRAN",
-      "c": "Kopran Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 211.26250000000002,
-      "pat": 4.3945,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/KOPRAN_03112026134417_outcome03112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:KOPRAN",
-      "t": "03-Nov-2026 13:45:55"
-    },
-    {
-      "d": "2026-11-03",
-      "s": "ESTER",
-      "c": "Ester Industries Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 360.1057,
-      "pat": 6.0866999999999996,
-      "eps": 0.58,
-      "filing": "https://nsearchives.nseindia.com/corporate/ESTER_03112026134724_FSSEP2026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ESTER",
-      "t": "03-Nov-2026 13:49:28"
-    },
-    {
-      "d": "2026-11-03",
       "s": "SGIL",
       "c": "Synergy Green Industries Limited",
       "r": "Results Filed",
@@ -4255,6 +4213,49 @@
       "filing": "https://nsearchives.nseindia.com/corporate/BALKRISIND_04112026185711_Outcome_uploaded_signed.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:BALKRISIND",
       "t": "04-Nov-2026 18:59:39"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "PDSL",
+      "c": "PDS Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 443248.2,
+      "pat": 6986.69,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/PDSL_04112026190025_Ltr_BoardMeetingOutcome_04112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PDSL",
+      "t": "04-Nov-2026 19:01:57"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "RVTH",
+      "c": "Revathi Equipment India Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 38.38,
+      "pat": 3.62,
+      "eps": 11.79,
+      "filing": "https://nsearchives.nseindia.com/corporate/REVATHIEQUIPMENT_04112026185757_Outcome_of_BM_041126_REIL_sd.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:RVTH",
+      "t": "04-Nov-2026 19:00:08"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "ESSARSHPNG",
+      "c": "Essar Shipping Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 0.04,
+      "pat": -29.549999999999997,
+      "eps": -1.43,
+      "filing": "https://nsearchives.nseindia.com/corporate/ESSARSHPNG_04112026175712_BM_Outcome_04112026__1_.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ESSARSHPNG",
+      "t": "04-Nov-2026 17:59:32",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752930_04112026064300_WEB.xml"
     }
   ],
   "seen": [
@@ -4771,7 +4772,9 @@
     "106845355",
     "106845370",
     "106845369",
-    "106845388"
+    "106845388",
+    "106845397",
+    "106845390"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -5267,18 +5270,6 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-04T18:59:11.372661+00:00"
-      },
-      {
-        "key": "106845044",
-        "seq_id": "106845044",
-        "symbol": "ESSARSHPNG",
-        "company": "Essar Shipping Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/ESSARSHPNG_04112026175712_BM_Outcome_04112026__1_.pdf",
-        "an_dt": "04-Nov-2026 17:59:32",
-        "date": "2026-11-04",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-04T18:02:47.595199+00:00"
       },
       {
         "key": "106845063",
@@ -6228,6 +6219,8 @@
     "hariompipes_04112026184615_outcome_of_bm_04112026_signed.pdf",
     "mayuruniq_04112026185004_obmsd04112026.pdf",
     "shringar_04112026185053_shom_outcome_of_bm_final.pdf",
-    "balkrisind_04112026185711_outcome_uploaded_signed.pdf"
+    "balkrisind_04112026185711_outcome_uploaded_signed.pdf",
+    "pdsl_04112026190025_ltr_boardmeetingoutcome_04112026.pdf",
+    "revathiequipment_04112026185757_outcome_of_bm_041126_reil_sd.pdf"
   ]
 }
