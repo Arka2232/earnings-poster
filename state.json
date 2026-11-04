@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-02",
-      "s": "VIVIANA",
-      "c": "Viviana Power Tech Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 117.2081,
-      "pat": 11.679100000000002,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/VIVIANA_02112026195946_OUTCOME_BM_02112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:VIVIANA",
-      "t": "02-Nov-2026 20:01:35"
-    },
-    {
-      "d": "2026-11-02",
       "s": "PURVA",
       "c": "Puravankara Limited",
       "r": "Excellent",
@@ -4257,6 +4243,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/RUCHINFRA_04112026174648_OutcomeofBoardMeetingheldon04112026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:RUCHINFRA",
       "t": "04-Nov-2026 17:47:51"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "APOLLOHOSP",
+      "c": "Apollo Hospitals Enterprise Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 76.149,
+      "pat": 4.94,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/APOLLOHOSP_04112026174756_SE_Communication_04112026_s.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:APOLLOHOSP",
+      "t": "04-Nov-2026 17:49:17"
     }
   ],
   "seen": [
@@ -4744,7 +4744,8 @@
     "106844858",
     "106844889",
     "106844932",
-    "106844954"
+    "106844954",
+    "106844965"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -5118,7 +5119,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T16:50:32.033027+00:00"
+        "xbrl_try": "2026-11-04T17:52:45.013967+00:00"
       },
       {
         "key": "106844457",
@@ -5202,7 +5203,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T16:50:32.333847+00:00"
+        "xbrl_try": "2026-11-04T17:52:45.464228+00:00"
       },
       {
         "key": "106844610",
@@ -5214,7 +5215,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T16:50:33.052082+00:00"
+        "xbrl_try": "2026-11-04T17:52:47.969250+00:00"
       },
       {
         "key": "106844635",
@@ -5226,7 +5227,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T16:51:54.724928+00:00"
+        "xbrl_try": "2026-11-04T17:52:48.379430+00:00"
       },
       {
         "key": "106844711",
@@ -6147,6 +6148,7 @@
     "patel_04112026172750_prloutcome.pdf",
     "63moons_04112026173552_financialresults04112026.pdf",
     "oal_04112026173914_intimation.pdf",
-    "ruchinfra_04112026174648_outcomeofboardmeetingheldon04112026.pdf"
+    "ruchinfra_04112026174648_outcomeofboardmeetingheldon04112026.pdf",
+    "apollohosp_04112026174756_se_communication_04112026_s.pdf"
   ]
 }
