@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-02",
-      "s": "SIGNPOST",
-      "c": "Signpost India Limited",
-      "r": "Good",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 134.5425,
-      "pat": 15.798,
-      "eps": 2.96,
-      "filing": "https://nsearchives.nseindia.com/corporate/SIGNPOST_02112026205109_SIL_SE_BM_Outcome_02112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SIGNPOST",
-      "t": "02-Nov-2026 20:51:30"
-    },
-    {
-      "d": "2026-11-02",
       "s": "WALCHANNAG",
       "c": "Walchandnagar Industries Limited",
       "r": "Excellent",
@@ -4256,6 +4242,21 @@
       "filing": "https://nsearchives.nseindia.com/corporate/MARINE_04112026175953_Regulation_30_Board_Meeting_Outcome.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:MARINE",
       "t": "04-Nov-2026 18:04:09"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "KICL",
+      "c": "Kalyani Investment Company Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 47.91,
+      "pat": 33.724,
+      "eps": 77.25,
+      "filing": "https://nsearchives.nseindia.com/corporate/KICL_04112026160006_KICL_BM_Results_04112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:KICL",
+      "t": "04-Nov-2026 16:07:38",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NBFC_INDAS_1752715_04112026051226_WEB.xml"
     }
   ],
   "seen": [
@@ -5004,7 +5005,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T17:12:15.886101+00:00"
+        "xbrl_try": "2026-11-04T18:13:08.700542+00:00"
       },
       {
         "key": "106843917",
@@ -5064,7 +5065,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T17:12:16.851659+00:00"
+        "xbrl_try": "2026-11-04T18:13:10.048232+00:00"
       },
       {
         "key": "106844278",
@@ -5127,18 +5128,6 @@
         "xbrl_try": "2026-11-04T17:52:45.013967+00:00"
       },
       {
-        "key": "106844457",
-        "seq_id": "106844457",
-        "symbol": "KICL",
-        "company": "Kalyani Investment Company Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/KICL_04112026160006_KICL_BM_Results_04112026.pdf",
-        "an_dt": "04-Nov-2026 16:07:38",
-        "date": "2026-11-04",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-04T17:12:17.553974+00:00"
-      },
-      {
         "key": "106844465",
         "seq_id": "106844465",
         "symbol": "CHEMPLASTS",
@@ -5148,7 +5137,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T17:12:18.278874+00:00"
+        "xbrl_try": "2026-11-04T18:13:16.223301+00:00"
       },
       {
         "key": "106844472",
@@ -5256,7 +5245,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T17:12:18.631121+00:00"
+        "xbrl_try": "2026-11-04T18:13:17.459599+00:00"
       },
       {
         "key": "106844724",
@@ -5268,7 +5257,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T17:12:19.169604+00:00"
+        "xbrl_try": "2026-11-04T18:13:17.907096+00:00"
       },
       {
         "key": "106844721",
@@ -5280,7 +5269,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T17:12:19.855086+00:00"
+        "xbrl_try": "2026-11-04T18:13:18.624804+00:00"
       },
       {
         "key": "106844749",
