@@ -1172,7 +1172,9 @@
     "106843938",
     "106843941",
     "106843954",
-    "106843972"
+    "106843972",
+    "106843987",
+    "106843986"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1455,38 +1457,11 @@
     "marksans_04112026133031_seintimation-results.pdf",
     "rolexrings_04112026133400_results.pdf",
     "mol_04112026133627_outcomeq2fy27.pdf",
-    "jhanviu_04112026134315_seintimation_fs.pdf"
+    "jhanviu_04112026134315_seintimation_fs.pdf",
+    "shankara_04112026135047_filing_ocr.pdf",
+    "icil_04112026135052_outcome.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-11-02",
-      "s": "UYFINCORP",
-      "c": "U. Y. Fincorp Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 66.587,
-      "pat": 22.125,
-      "eps": 1.16,
-      "filing": "https://nsearchives.nseindia.com/corporate/UYFINCORP_02112026173301_UYFL_UFR_as_on_30092026.PDF",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:UYFINCORP",
-      "t": "02-Nov-2026 17:57:07",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NBFC_INDAS_1751226_02112026054132_WEB.xml"
-    },
-    {
-      "d": "2026-11-02",
-      "s": "THOMASCOOK",
-      "c": "Thomas Cook  (India)  Limited",
-      "r": "Weak",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 1944.15,
-      "pat": 53.67000000000001,
-      "eps": 1.13,
-      "filing": "https://nsearchives.nseindia.com/corporate/THOMASCOOK_02112026175735_ResultsSept2026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:THOMASCOOK",
-      "t": "02-Nov-2026 17:59:14"
-    },
     {
       "d": "2026-11-02",
       "s": "ARVINDFASN",
@@ -5715,6 +5690,34 @@
       "filing": "https://nsearchives.nseindia.com/corporate/Jhanviu_04112026134315_SEintimation_FS.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:REDINGTON",
       "t": "04-Nov-2026 13:44:48"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "SHANKARA",
+      "c": "Shankara Building Products Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 367.46,
+      "pat": 4.53,
+      "eps": 1.87,
+      "filing": "https://nsearchives.nseindia.com/corporate/SHANKARA_04112026135047_Filing_OCR.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SHANKARA",
+      "t": "04-Nov-2026 13:52:12"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "ICIL",
+      "c": "Indo Count Industries Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 1672.6535000000001,
+      "pat": 131.8768,
+      "eps": 6.66,
+      "filing": "https://nsearchives.nseindia.com/corporate/ICIL_04112026135052_outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ICIL",
+      "t": "04-Nov-2026 13:52:07"
     }
   ]
 }
