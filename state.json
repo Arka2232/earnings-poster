@@ -730,18 +730,6 @@
         "xbrl_try": "2026-11-04T14:40:17.873112+00:00"
       },
       {
-        "key": "106843972",
-        "seq_id": "106843972",
-        "symbol": "REDINGTON",
-        "company": "Redington Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/Jhanviu_04112026134315_SEintimation_FS.pdf",
-        "an_dt": "04-Nov-2026 13:44:48",
-        "date": "2026-11-04",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-04T13:48:16.172597+00:00"
-      },
-      {
         "key": "106844044",
         "seq_id": "106844044",
         "symbol": "CARYSIL",
@@ -1552,20 +1540,6 @@
     "sunilbcml_04112026144306_bcml_outcome_bm_04112026.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-11-02",
-      "s": "BALMLAWRIE",
-      "c": "Balmer Lawrie & Company Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q1 FY27",
-      "sales": 800.3766,
-      "pat": 67.6597,
-      "eps": 3.96,
-      "filing": "https://nsearchives.nseindia.com/corporate/BALMLAWRIE_02112026185938_SE_OutcomeofBM02112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BALMLAWRIE",
-      "t": "02-Nov-2026 19:03:22"
-    },
     {
       "d": "2026-11-02",
       "s": "KANOHAR",
@@ -5805,6 +5779,21 @@
       "filing": "https://nsearchives.nseindia.com/corporate/SUNILBCML_04112026144306_BCML_Outcome_BM_04112026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:BALRAMCHIN",
       "t": "04-Nov-2026 14:44:47"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "REDINGTON",
+      "c": "Redington Limited",
+      "r": "Good",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 42946.909999999996,
+      "pat": 422.51,
+      "eps": 6.92,
+      "filing": "https://nsearchives.nseindia.com/corporate/Jhanviu_04112026134315_SEintimation_FS.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:REDINGTON",
+      "t": "04-Nov-2026 13:44:48",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752486_04112026020726_WEB.xml"
     }
   ]
 }
