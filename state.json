@@ -1089,7 +1089,8 @@
     "106843746",
     "106843755",
     "106843768",
-    "106843766"
+    "106843766",
+    "106843770"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1349,24 +1350,10 @@
     "cadilahc_04112026121711_outcomeofbm.pdf",
     "cera_04112026122203_cerabmo14112026s.pdf",
     "saregama_04112026122952_outcome_signed.pdf",
-    "sangamind_04112026122419_covering_12_15_merged__1_.pdf"
+    "sangamind_04112026122419_covering_12_15_merged__1_.pdf",
+    "blal_04112026122907_outcome_of_bm.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-11-02",
-      "s": "BPL",
-      "c": "BPL Limited",
-      "r": "Bad",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 24.4223,
-      "pat": -5.1902,
-      "eps": -1.06,
-      "filing": "https://nsearchives.nseindia.com/corporate/BPL_02112026164124_Outcome.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BPL",
-      "t": "02-Nov-2026 16:46:37",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751134_02112026044937_WEB.xml"
-    },
     {
       "d": "2026-11-02",
       "s": "BOSCH-HCIL",
@@ -5618,6 +5605,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/SANGAMIND_04112026122419_Covering_12_15_merged__1_.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SANGAMIND",
       "t": "04-Nov-2026 12:31:07"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "BLAL",
+      "c": "BEML Land Assets Limited",
+      "r": "Positive",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 0.9825,
+      "pat": 0.3799,
+      "eps": 0.09,
+      "filing": "https://nsearchives.nseindia.com/corporate/BLAL_04112026122907_OUTCOME_OF_BM.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BLAL",
+      "t": "04-Nov-2026 12:32:18"
     }
   ]
 }
