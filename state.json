@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "HGINFRA",
-      "c": "H.G. Infra Engineering Limited",
-      "r": "Bad",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 883.219,
-      "pat": 32.131,
-      "eps": 4.93,
-      "filing": "https://nsearchives.nseindia.com/corporate/HGINFRA_03112026173301_FinalOutcome.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:HGINFRA",
-      "t": "03-Nov-2026 17:35:42"
-    },
-    {
-      "d": "2026-11-03",
       "s": "MPIMANIPAL",
       "c": "Manipal Payment and Identity Solutions Limited",
       "r": "Good",
@@ -4250,6 +4236,21 @@
       "filing": "https://nsearchives.nseindia.com/corporate/TENNECO_04112026221229_BMOutcomeIntimation_Signed.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:TENNIND",
       "t": "04-Nov-2026 22:15:13"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "ADVANCE",
+      "c": "Advance Agrolife Limited",
+      "r": "Bad",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 287.15299999999996,
+      "pat": 11.793999999999999,
+      "eps": 1.84,
+      "filing": "https://nsearchives.nseindia.com/corporate/ADVANCE_04112026170920_ADVANCESECRETARIAL2026-2773.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ADVANCE",
+      "t": "04-Nov-2026 17:09:52",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753256_04112026100803_WEB.xml"
     }
   ],
   "seen": [
@@ -5114,7 +5115,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T21:21:29.670534+00:00"
+        "xbrl_try": "2026-11-04T22:22:49.627223+00:00"
       },
       {
         "key": "106844537",
@@ -5177,18 +5178,6 @@
         "xbrl_try": "2026-11-04T22:20:53.732044+00:00"
       },
       {
-        "key": "106844749",
-        "seq_id": "106844749",
-        "symbol": "ADVANCE",
-        "company": "Advance Agrolife Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/ADVANCE_04112026170920_ADVANCESECRETARIAL2026-2773.pdf",
-        "an_dt": "04-Nov-2026 17:09:52",
-        "date": "2026-11-04",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-04T21:21:30.307985+00:00"
-      },
-      {
         "key": "106844729",
         "seq_id": "106844729",
         "symbol": "GEEKAYWIRE",
@@ -5198,7 +5187,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T21:21:31.097037+00:00"
+        "xbrl_try": "2026-11-04T22:22:57.277647+00:00"
       },
       {
         "key": "106844998",
@@ -5234,7 +5223,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T21:21:32.231078+00:00"
+        "xbrl_try": "2026-11-04T22:22:58.684372+00:00"
       },
       {
         "key": "106845234",
@@ -5282,7 +5271,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-04T21:21:33.640030+00:00"
+        "xbrl_try": "2026-11-04T22:23:00.398632+00:00"
       },
       {
         "key": "106845860",
