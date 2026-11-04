@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "PUNJABCHEM",
-      "c": "Punjab Chemicals & Crop Protection Limited",
-      "r": "Bad",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 3.267,
-      "pat": 0.13460000000000003,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/PUNJAB_03112026133110_Outcome.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PUNJABCHEM",
-      "t": "03-Nov-2026 13:37:59"
-    },
-    {
-      "d": "2026-11-03",
       "s": "ASAHIINDIA",
       "c": "Asahi India Glass Limited",
       "r": "Excellent",
@@ -4255,6 +4241,20 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:EPL",
       "t": "04-Nov-2026 16:46:05",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752892_04112026062638_WEB.xml"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "HARIOMPIPE",
+      "c": "Hariom Pipe Industries Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 554.24,
+      "pat": 28.5233,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/hariompipes_04112026184615_Outcome_of_BM_04112026_Signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:HARIOMPIPE",
+      "t": "04-Nov-2026 18:52:34"
     }
   ],
   "seen": [
@@ -4767,7 +4767,8 @@
     "106845321",
     "106845310",
     "106845308",
-    "106845340"
+    "106845340",
+    "106845355"
   ],
   "digest": {
     "next_cache": "2026-11-03",
@@ -6208,6 +6209,7 @@
     "satindustries_04112026184603_outcomeofboardmeetingnov042026.pdf",
     "adroitinfo_04112026184439_outcomeq227.pdf",
     "theinvest_04112026184306_theitioutcomeofmeeting_sept26.pdf",
-    "steelcity_04112026184952_outcome.pdf"
+    "steelcity_04112026184952_outcome.pdf",
+    "hariompipes_04112026184615_outcome_of_bm_04112026_signed.pdf"
   ]
 }
