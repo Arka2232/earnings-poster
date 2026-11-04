@@ -716,6 +716,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-04T13:24:08.542596+00:00"
+      },
+      {
+        "key": "106843917",
+        "seq_id": "106843917",
+        "symbol": "REDTAPE",
+        "company": "Redtape Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/REDTAPE_04112026132833_Outcome_of_BM.pdf",
+        "an_dt": "04-Nov-2026 13:29:29",
+        "date": "2026-11-04",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-04T13:35:50.959133+00:00"
       }
     ],
     "next_cache": "2026-11-03",
@@ -1128,7 +1140,11 @@
     "106843889",
     "106843895",
     "106843899",
-    "106843903"
+    "106843903",
+    "106843920",
+    "106843919",
+    "106843918",
+    "106843917"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1403,66 +1419,13 @@
     "exideind_04112026131738_signedoutcomeofbm041126.pdf",
     "armanfin_04112026132201_financial_result_outcome_q2_2026-27.pdf",
     "ndrauto_04112026132354_se_outcome.pdf",
-    "smspharma_04112026132432_outcome_of_bm_04112026.pdf"
+    "smspharma_04112026132432_outcome_of_bm_04112026.pdf",
+    "centuryply_04112026132751_se_letter__results.pdf",
+    "lalpathlab_04112026132659_bmoutcome041126.pdf",
+    "jtektindia_04112026132532_outcome_of_board_meeting.pdf",
+    "redtape_04112026132833_outcome_of_bm.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-11-02",
-      "s": "FUSION",
-      "c": "Fusion Finance Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 485.60999999999996,
-      "pat": 86.47999999999999,
-      "eps": 5.35,
-      "filing": "https://nsearchives.nseindia.com/corporate/FUSIONHO_02112026173100_Outcome_BoardMeeting_02112026SIGN.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:FUSION",
-      "t": "02-Nov-2026 17:32:16",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NBFC_INDAS_1751386_02112026071637_WEB.xml"
-    },
-    {
-      "d": "2026-11-02",
-      "s": "BAJAJINDEF",
-      "c": "Indef Manufacturing Limited",
-      "r": "Bad",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 48.1648,
-      "pat": 3.8454,
-      "eps": 1.2,
-      "filing": "https://nsearchives.nseindia.com/corporate/BAJAJINDEF_02112026173540_outcomeofBM02112025.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BAJAJINDEF",
-      "t": "02-Nov-2026 17:37:28"
-    },
-    {
-      "d": "2026-11-02",
-      "s": "RUPA",
-      "c": "Rupa & Company Limited",
-      "r": "Good",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 320.4201,
-      "pat": 17.102,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/RUPA_02112026173120_Rupa_Outcome_02112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:RUPA",
-      "t": "02-Nov-2026 17:36:54"
-    },
-    {
-      "d": "2026-11-02",
-      "s": "TRIDENT",
-      "c": "Trident Limited",
-      "r": "Positive",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 1719.48,
-      "pat": 175.58,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/TRIDENT_02112026173929_Filing_Financial.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:TRIDENT",
-      "t": "02-Nov-2026 17:39:43"
-    },
     {
       "d": "2026-11-02",
       "s": "CLCIND",
@@ -5665,6 +5628,62 @@
       "filing": "https://nsearchives.nseindia.com/corporate/SMSPHARMA_04112026132432_Outcome_of_BM_04112026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SMSPHARMA",
       "t": "04-Nov-2026 13:26:38"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "CENTURYPLY",
+      "c": "Century Plyboards (India) Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 178004.49,
+      "pat": 10362.82,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/CENTURYPLY_04112026132751_SE_letter__results.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CENTURYPLY",
+      "t": "04-Nov-2026 13:29:48"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "LALPATHLAB",
+      "c": "Dr. Lal Path Labs Ltd.",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 8.739,
+      "pat": 1.939,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/LALPATHLAB_04112026132659_BMoutcome041126.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:LALPATHLAB",
+      "t": "04-Nov-2026 13:29:42"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "JTEKTINDIA",
+      "c": "Jtekt India Limited",
+      "r": "Positive",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 834.7425999999999,
+      "pat": 17.4814,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/JTEKTINDIA_04112026132532_Outcome_of_Board_Meeting.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:JTEKTINDIA",
+      "t": "04-Nov-2026 13:29:36"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "REDTAPE",
+      "c": "Redtape Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/REDTAPE_04112026132833_Outcome_of_BM.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:REDTAPE",
+      "t": "04-Nov-2026 13:29:29"
     }
   ]
 }
