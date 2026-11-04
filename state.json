@@ -1085,7 +1085,8 @@
     "106843505",
     "106843651",
     "106843661",
-    "106843712"
+    "106843712",
+    "106843746"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1341,24 +1342,10 @@
     "gaaml2025_04112026102248_outcome_of_bm.pdf",
     "vintage_04112026114217_bmoutcome04112026.pdf",
     "gabriel_04112026115003_bm_outcome_signed.pdf",
-    "basfil_04112026121140_fr04112026.pdf"
+    "basfil_04112026121140_fr04112026.pdf",
+    "cadilahc_04112026121711_outcomeofbm.pdf"
   ],
   "archive": [
-    {
-      "d": "2026-11-02",
-      "s": "WOCKPHARMA",
-      "c": "Wockhardt Limited",
-      "r": "Weak",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 969.0,
-      "pat": 73.0,
-      "eps": 4.85,
-      "filing": "https://nsearchives.nseindia.com/corporate/WOCKPHARMA_02112026161333_BMOutcome02112026signed.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:WOCKPHARMA",
-      "t": "02-Nov-2026 16:22:04",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751379_02112026071126_WEB.xml"
-    },
     {
       "d": "2026-11-02",
       "s": "VRLLOG",
@@ -5611,6 +5598,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/BASFIL_04112026121140_FR04112026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:BASF",
       "t": "04-Nov-2026 12:13:02"
+    },
+    {
+      "d": "2026-11-04",
+      "s": "ZYDUSLIFE",
+      "c": "Zydus Lifesciences Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q1 FY27",
+      "sales": 79.096,
+      "pat": 9.255,
+      "eps": 9.28,
+      "filing": "https://nsearchives.nseindia.com/corporate/Cadilahc_04112026121711_OutcomeofBM.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ZYDUSLIFE",
+      "t": "04-Nov-2026 12:19:04"
     }
   ]
 }
