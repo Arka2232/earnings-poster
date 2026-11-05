@@ -2,63 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "SHANTIGOLD",
-      "c": "Shanti Gold International Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/SHANTIGOLD_03112026204437_BM_Outcome_03112026_SGIL.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SHANTIGOLD",
-      "t": "03-Nov-2026 20:46:29"
-    },
-    {
-      "d": "2026-11-03",
-      "s": "AIIL",
-      "c": "Authum Investment & Infrastructure Limited",
-      "r": "Bad",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 680.86,
-      "pat": 418.0,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/Authum123_03112026205231_OutcomeBM03112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:AIIL",
-      "t": "03-Nov-2026 20:53:23"
-    },
-    {
-      "d": "2026-11-03",
-      "s": "DIGISPICE",
-      "c": "DiGiSPICE Technologies Limited",
-      "r": "Positive",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 118.60180000000001,
-      "pat": 8.8808,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/DIGISPICE_03112026205704_IntimationofOutcomeofBoard_MeetingFinancialResults.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:DIGISPICE",
-      "t": "03-Nov-2026 20:57:46"
-    },
-    {
-      "d": "2026-11-03",
-      "s": "INDIANCARD",
-      "c": "Indian Card Clothing Company Limited",
-      "r": "Weak",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 13.136299999999999,
-      "pat": 4.2863,
-      "eps": 7.21,
-      "filing": "https://nsearchives.nseindia.com/corporate/icccsexecutive_03112026205749_ICC_BM_Outcome_November_3_26_Final.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:INDIANCARD",
-      "t": "03-Nov-2026 20:59:14",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752255_03112026085036_WEB.xml"
-    },
-    {
-      "d": "2026-11-03",
       "s": "RSYSTEMS",
       "c": "R Systems International Limited",
       "r": "Excellent",
@@ -4253,6 +4196,62 @@
       "filing": "https://nsearchives.nseindia.com/corporate/SANDHAR_05112026132141_STL_BM_OUTCOME.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SANDHAR",
       "t": "05-Nov-2026 13:26:23"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "PRITIKAUTO",
+      "c": "Pritika Auto Industries Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/PRITIKAUTO_05112026132919_outcomepail05nov2026f.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PRITIKAUTO",
+      "t": "05-Nov-2026 13:30:08"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "SUVEN",
+      "c": "Suven Life Sciences Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/SUVEN_05112026132345_BMOutcome05112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SUVEN",
+      "t": "05-Nov-2026 13:29:24"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "IGARASHI",
+      "c": "Igarashi Motors India Limited",
+      "r": "Bad",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 255.43099999999998,
+      "pat": 6.766900000000001,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/IGARASHI_05112026132707_IMIBODQ2QuickResults051126SD.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:IGARASHI",
+      "t": "05-Nov-2026 13:28:49"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "TIINDIA",
+      "c": "Tube Investments of India Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/TIINDIA_05112026132513_TIINSEBSEBM.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:TIINDIA",
+      "t": "05-Nov-2026 13:27:54"
     }
   ],
   "seen": [
@@ -4858,7 +4857,11 @@
     "106846791",
     "106846805",
     "106846827",
-    "106846826"
+    "106846826",
+    "106846843",
+    "106846841",
+    "106846837",
+    "106846834"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5305,7 +5308,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T12:33:18.332829+00:00"
+        "xbrl_try": "2026-11-05T13:35:31.601561+00:00"
       },
       {
         "key": "106846403",
@@ -5317,7 +5320,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T12:34:45.752214+00:00"
+        "xbrl_try": "2026-11-05T13:35:32.267618+00:00"
       },
       {
         "key": "106846424",
@@ -5366,6 +5369,42 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T13:15:54.195442+00:00"
+      },
+      {
+        "key": "106846843",
+        "seq_id": "106846843",
+        "symbol": "PRITIKAUTO",
+        "company": "Pritika Auto Industries Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/PRITIKAUTO_05112026132919_outcomepail05nov2026f.pdf",
+        "an_dt": "05-Nov-2026 13:30:08",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T13:35:33.213955+00:00"
+      },
+      {
+        "key": "106846841",
+        "seq_id": "106846841",
+        "symbol": "SUVEN",
+        "company": "Suven Life Sciences Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/SUVEN_05112026132345_BMOutcome05112026.pdf",
+        "an_dt": "05-Nov-2026 13:29:24",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T13:35:34.065872+00:00"
+      },
+      {
+        "key": "106846834",
+        "seq_id": "106846834",
+        "symbol": "TIINDIA",
+        "company": "Tube Investments of India Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/TIINDIA_05112026132513_TIINSEBSEBM.pdf",
+        "an_dt": "05-Nov-2026 13:27:54",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T13:35:35.005148+00:00"
       }
     ],
     "ipo_check": "2026-11-05 13",
@@ -6372,6 +6411,10 @@
     "mbeng_05112026131027_outcome_f.pdf",
     "sgtl2008_05112026131559_outcomeofboardmeeting.pdf",
     "emiltd_05112026132233_intimationfsq227.pdf",
-    "sandhar_05112026132141_stl_bm_outcome.pdf"
+    "sandhar_05112026132141_stl_bm_outcome.pdf",
+    "pritikauto_05112026132919_outcomepail05nov2026f.pdf",
+    "suven_05112026132345_bmoutcome05112026.pdf",
+    "igarashi_05112026132707_imibodq2quickresults051126sd.pdf",
+    "tiindia_05112026132513_tiinsebsebm.pdf"
   ]
 }
