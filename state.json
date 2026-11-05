@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "EXIDEIND",
-      "c": "Exide Industries Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 5026.14,
-      "pat": 386.45,
-      "eps": 4.55,
-      "filing": "https://nsearchives.nseindia.com/corporate/EXIDEIND_04112026131738_signedOUTCOMEOFBM041126.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:EXIDEIND",
-      "t": "04-Nov-2026 13:19:40"
-    },
-    {
-      "d": "2026-11-04",
       "s": "ARMANFIN",
       "c": "Arman Financial Services Limited",
       "r": "Excellent",
@@ -4248,6 +4234,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/ELIN_05112026151621_outcome5112026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:ELIN",
       "t": "05-Nov-2026 15:18:48"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "HEXATRADEX",
+      "c": "Hexa Tradex Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/HEXATRADEX_05112026152650_ResultsSept2026SE.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:HEXATRADEX",
+      "t": "05-Nov-2026 15:28:06"
     }
   ],
   "seen": [
@@ -4897,7 +4897,8 @@
     "106847131",
     "106847121",
     "106847149",
-    "106847138"
+    "106847138",
+    "106847172"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5501,7 +5502,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T14:28:45.628825+00:00"
+        "xbrl_try": "2026-11-05T15:29:28.465051+00:00"
       },
       {
         "key": "106847056",
@@ -5562,6 +5563,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T15:28:00.860783+00:00"
+      },
+      {
+        "key": "106847172",
+        "seq_id": "106847172",
+        "symbol": "HEXATRADEX",
+        "company": "Hexa Tradex Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/HEXATRADEX_05112026152650_ResultsSept2026SE.pdf",
+        "an_dt": "05-Nov-2026 15:28:06",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T15:29:29.159268+00:00"
       }
     ],
     "ipo_check": "2026-11-05 15",
@@ -6612,6 +6625,7 @@
     "globe_05112026151532_outcomeofbm05112026signed.pdf",
     "retail_05112026150948_outcome_retail_final.pdf",
     "icemake_05112026151937_outcome051126.pdf",
-    "elin_05112026151621_outcome5112026.pdf"
+    "elin_05112026151621_outcome5112026.pdf",
+    "hexatradex_05112026152650_resultssept2026se.pdf"
   ]
 }
