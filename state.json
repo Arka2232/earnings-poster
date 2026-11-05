@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "BELDING",
-      "c": "Belding India Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/BELDING_04112026033012_SE_Intimation.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BELDING",
-      "t": "04-Nov-2026 03:31:51"
-    },
-    {
-      "d": "2026-11-04",
       "s": "GARUDA",
       "c": "Garuda Construction and Engineering Limited",
       "r": "Excellent",
@@ -4246,6 +4232,20 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:GEEKAYWIRE",
       "t": "04-Nov-2026 17:07:22",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753440_05112026021758_WEB.xml"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "CEMPRO",
+      "c": "Cemindia Projects Limited",
+      "r": "Good",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 2682.65,
+      "pat": 127.57,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/ITD_05112026143226_st_exch_outcome_BM_2_after_the_meeting.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CEMPRO",
+      "t": "05-Nov-2026 14:32:56"
     }
   ],
   "seen": [
@@ -4877,7 +4877,8 @@
     "106846945",
     "106846952",
     "106846966",
-    "106846982"
+    "106846982",
+    "106846988"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5313,7 +5314,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T13:35:31.601561+00:00"
+        "xbrl_try": "2026-11-05T14:35:43.119643+00:00"
       },
       {
         "key": "106846403",
@@ -5325,7 +5326,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T13:35:32.267618+00:00"
+        "xbrl_try": "2026-11-05T14:35:43.531063+00:00"
       },
       {
         "key": "106846424",
@@ -5385,7 +5386,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T13:35:33.213955+00:00"
+        "xbrl_try": "2026-11-05T14:35:44.418507+00:00"
       },
       {
         "key": "106846841",
@@ -5397,7 +5398,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T13:35:34.065872+00:00"
+        "xbrl_try": "2026-11-05T14:35:45.308818+00:00"
       },
       {
         "key": "106846834",
@@ -5409,7 +5410,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T13:35:35.005148+00:00"
+        "xbrl_try": "2026-11-05T14:35:46.120945+00:00"
       },
       {
         "key": "106846860",
@@ -6550,6 +6551,7 @@
     "polymed_05112026140848_final_outcome_signed.pdf",
     "pateleng_05112026141639_seintimationoutcomeofbm.pdf",
     "jindworld_05112026142427_outcome_of_bm_signed.pdf",
-    "kiriindus_05112026142843_bmoutcome_s.pdf"
+    "kiriindus_05112026142843_bmoutcome_s.pdf",
+    "itd_05112026143226_st_exch_outcome_bm_2_after_the_meeting.pdf"
   ]
 }
