@@ -777,7 +777,9 @@
     "106848716",
     "106848713",
     "106848727",
-    "106848725"
+    "106848725",
+    "106848770",
+    "106848767"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1431,7 +1433,9 @@
     "rashi2024_05112026200643_financial_results_q2_2026-27.pdf",
     "hcg1_05112026200746_outcome_results_05_november_2026.pdf",
     "lxchem_05112026201059_outcomebm05112026.pdf",
-    "ambicaagar_05112026200829_outcome.pdf"
+    "ambicaagar_05112026200829_outcome.pdf",
+    "mmfl_05112026202204_mmfluafr30sep2026.pdf",
+    "focus_05112026201859_outcome.pdf"
   ],
   "digest": {
     "today_results": {
@@ -2544,6 +2548,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T20:17:25.701705+00:00"
+      },
+      {
+        "key": "106848770",
+        "seq_id": "106848770",
+        "symbol": "MMFL",
+        "company": "MM Forgings Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/MMFL_05112026202204_MMFLUAFR30SEP2026.pdf",
+        "an_dt": "05-Nov-2026 20:24:17",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T20:25:51.721758+00:00"
       }
     ],
     "recap": "2026-11-01",
@@ -6688,6 +6704,34 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:IVALUE",
       "t": "05-Nov-2026 17:04:40",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1754170_05112026081131_WEB.xml"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "MMFL",
+      "c": "MM Forgings Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/MMFL_05112026202204_MMFLUAFR30SEP2026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MMFL",
+      "t": "05-Nov-2026 20:24:17"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "FOCUS",
+      "c": "Focus Lighting and Fixtures Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 58.359300000000005,
+      "pat": 2.9544,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/FOCUS_05112026201859_Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:FOCUS",
+      "t": "05-Nov-2026 20:22:31"
     }
   ]
 }
