@@ -2,34 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "BASF",
-      "c": "BASF India Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/BASFIL_04112026121140_FR04112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BASF",
-      "t": "04-Nov-2026 12:13:02"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "ZYDUSLIFE",
-      "c": "Zydus Lifesciences Limited",
-      "r": "Bad",
-      "b": "Consolidated",
-      "q": "Q1 FY27",
-      "sales": 79.096,
-      "pat": 9.255,
-      "eps": 9.28,
-      "filing": "https://nsearchives.nseindia.com/corporate/Cadilahc_04112026121711_OutcomeofBM.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ZYDUSLIFE",
-      "t": "04-Nov-2026 12:19:04"
-    },
-    {
-      "d": "2026-11-04",
       "s": "CERA",
       "c": "Cera Sanitaryware Limited",
       "r": "Positive",
@@ -4246,6 +4218,34 @@
       "filing": "https://nsearchives.nseindia.com/corporate/VEEGALAND_05112026143759_Outcome_of_BM_05112026_SD.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:VEEGALAND",
       "t": "05-Nov-2026 14:40:34"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "TEGA",
+      "c": "Tega Industries Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 4254.035,
+      "pat": -58.774,
+      "eps": -6.32,
+      "filing": "https://nsearchives.nseindia.com/corporate/TEGA_05112026145213_Intimation_Outcome_Board_Meeting_sd.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:TEGA",
+      "t": "05-Nov-2026 14:52:35"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "TEXRAIL",
+      "c": "Texmaco Rail & Engineering Limited",
+      "r": "Bad",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 863.1025999999999,
+      "pat": 2.5997000000000003,
+      "eps": 0.89,
+      "filing": "https://nsearchives.nseindia.com/corporate/TEXRAIL_05112026145026_TexRailBMOutcome05112026Signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:TEXRAIL",
+      "t": "05-Nov-2026 14:52:03"
     }
   ],
   "seen": [
@@ -4882,7 +4882,9 @@
     "106847005",
     "106847008",
     "106847014",
-    "106847013"
+    "106847013",
+    "106847040",
+    "106847039"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -6560,6 +6562,8 @@
     "saatvik_05112026143717_outcome_of_the_board_meeting_signed.pdf",
     "paintberge_05112026143719_resultsfinal051126.pdf",
     "gkwlimited_05112026144058_outcome_of_board_meeting_05112026.pdf",
-    "veegaland_05112026143759_outcome_of_bm_05112026_sd.pdf"
+    "veegaland_05112026143759_outcome_of_bm_05112026_sd.pdf",
+    "tega_05112026145213_intimation_outcome_board_meeting_sd.pdf",
+    "texrail_05112026145026_texrailbmoutcome05112026signed.pdf"
   ]
 }
