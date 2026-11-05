@@ -2,49 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "KOLTEPATIL",
-      "c": "Kolte - Patil Developers Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 3.1493,
-      "pat": 0.1469,
-      "eps": 1.66,
-      "filing": "https://nsearchives.nseindia.com/corporate/KOLTEPATIL_03112026200441_OutcomeSept26signed.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:KOLTEPATIL",
-      "t": "03-Nov-2026 20:06:58"
-    },
-    {
-      "d": "2026-11-03",
-      "s": "ENIL",
-      "c": "Entertainment Network (India) Limited",
-      "r": "Weak",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 116.7019,
-      "pat": -4.854699999999999,
-      "eps": -1.02,
-      "filing": "https://nsearchives.nseindia.com/corporate/ENIL_03112026200200_ENIL20261103Reg33results.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ENIL",
-      "t": "03-Nov-2026 20:04:49",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752326_03112026100845_WEB.xml"
-    },
-    {
-      "d": "2026-11-03",
-      "s": "SARLAPOLY",
-      "c": "Sarla Performance Fibers Limited",
-      "r": "Bad",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 112.32620000000001,
-      "pat": 11.999400000000001,
-      "eps": 1.51,
-      "filing": "https://nsearchives.nseindia.com/corporate/SARLAPOLY_03112026200752_SEIntimation_Signed.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SARLAPOLY",
-      "t": "03-Nov-2026 20:09:45"
-    },
-    {
-      "d": "2026-11-03",
       "s": "UTKARSHBNK",
       "c": "Utkarsh Small Finance Bank Limited",
       "r": "Results Filed",
@@ -4253,6 +4210,48 @@
       "filing": "https://nsearchives.nseindia.com/corporate/CAMPUSSHOES_05112026124903_OUTCOMESIGNED.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:CAMPUS",
       "t": "05-Nov-2026 12:55:55"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "FERMENTA",
+      "c": "Fermenta Biotech Limited",
+      "r": "Weak",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 11693.63,
+      "pat": 481.21,
+      "eps": 4.86,
+      "filing": "https://nsearchives.nseindia.com/corporate/FERMENTABIOTECH_05112026125550_OutcomeUFRNovember052026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:FERMENTA",
+      "t": "05-Nov-2026 12:58:27"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "BHARATFORG",
+      "c": "Bharat Forge Limited",
+      "r": "Positive",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 48699.66,
+      "pat": 2786.81,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/ANILSHINDE_05112026125610_SEIntimationOutcomeofBM_sd.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BHARATFORG",
+      "t": "05-Nov-2026 12:57:40"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "M&M",
+      "c": "Mahindra & Mahindra Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 57514.98,
+      "pat": 5166.77,
+      "eps": 41.04,
+      "filing": "https://nsearchives.nseindia.com/corporate/Pooja_05112026125638_Outcome5Nov.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:M_M",
+      "t": "05-Nov-2026 12:57:20"
     }
   ],
   "seen": [
@@ -4850,7 +4849,10 @@
     "106846717",
     "106846714",
     "106846707",
-    "106846724"
+    "106846724",
+    "106846730",
+    "106846729",
+    "106846728"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -6356,6 +6358,9 @@
     "bluejet_05112026125116_se_upload_bm.pdf",
     "htmedia_05112026125244_htmloutcomesd.pdf",
     "pvpchennai_05112026124005_outcome_of_board_meeting_-_31032026.pdf",
-    "campusshoes_05112026124903_outcomesigned.pdf"
+    "campusshoes_05112026124903_outcomesigned.pdf",
+    "fermentabiotech_05112026125550_outcomeufrnovember052026.pdf",
+    "anilshinde_05112026125610_seintimationoutcomeofbm_sd.pdf",
+    "pooja_05112026125638_outcome5nov.pdf"
   ]
 }
