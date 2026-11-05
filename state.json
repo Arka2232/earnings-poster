@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "BALKRISIND",
-      "c": "Balkrishna Industries Limited",
-      "r": "Weak",
-      "b": "Standalone",
-      "q": "Q3 FY27",
-      "sales": 3444.7,
-      "pat": 8.24,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/BALKRISIND_04112026185711_Outcome_uploaded_signed.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BALKRISIND",
-      "t": "04-Nov-2026 18:59:39"
-    },
-    {
-      "d": "2026-11-04",
       "s": "PDSL",
       "c": "PDS Limited",
       "r": "Excellent",
@@ -4265,6 +4251,20 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SINCLAIR",
       "t": "05-Nov-2026 17:46:21",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753769_05112026054644_WEB.xml"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "LINC",
+      "c": "Linc Limited",
+      "r": "Bad",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 148.441,
+      "pat": 3.3249,
+      "eps": 0.56,
+      "filing": "https://nsearchives.nseindia.com/corporate/DIPANKARDE_05112026185341_UFR_Q2_2627_S.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:LINC",
+      "t": "05-Nov-2026 18:57:02"
     }
   ],
   "seen": [
@@ -5014,7 +5014,8 @@
     "106848359",
     "106848418",
     "106848414",
-    "106848404"
+    "106848404",
+    "106848424"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -7035,6 +7036,7 @@
     "bdesai_05112026184248_outcome_of_bm_05112026.pdf",
     "prestige_05112026185402_outcomeq2fy27.pdf",
     "alpinetex_05112026185202_outcome_of_board_meeting.pdf",
-    "utlsolar2024_05112026185058_nse_bse_outcome_board_meeting_05_11_2026_final.pdf"
+    "utlsolar2024_05112026185058_nse_bse_outcome_board_meeting_05_11_2026_final.pdf",
+    "dipankarde_05112026185341_ufr_q2_2627_s.pdf"
   ]
 }
