@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "SOLARINDS",
-      "c": "Solar Industries India Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 3518.92,
-      "pat": 0.44,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/SOLARINDS_03112026140845_OutcomeBM.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SOLARINDS",
-      "t": "03-Nov-2026 14:08:59"
-    },
-    {
-      "d": "2026-11-03",
       "s": "SUMMITSEC",
       "c": "Summit Securities Limited",
       "r": "Good",
@@ -4247,6 +4233,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/POLYMED_05112026140848_FINAL_OUTCOME_SIGNED.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:POLYMED",
       "t": "05-Nov-2026 14:15:00"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "PATELENG",
+      "c": "Patel Engineering Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 1210.674,
+      "pat": 87.25200000000001,
+      "eps": 0.86,
+      "filing": "https://nsearchives.nseindia.com/corporate/PATELENG_05112026141639_SEintimationoutcomeofBM.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PATELENG",
+      "t": "05-Nov-2026 14:18:33"
     }
   ],
   "seen": [
@@ -4875,7 +4875,8 @@
     "106846931",
     "106846928",
     "106846940",
-    "106846945"
+    "106846945",
+    "106846952"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -6544,6 +6545,7 @@
     "avadhsugar_05112026140819_aselresultssg.pdf",
     "sabevents_05112026140448_outcome_sab_events_sept26.pdf",
     "ceigall_05112026140835_outcome_05112026.pdf",
-    "polymed_05112026140848_final_outcome_signed.pdf"
+    "polymed_05112026140848_final_outcome_signed.pdf",
+    "pateleng_05112026141639_seintimationoutcomeofbm.pdf"
   ]
 }
