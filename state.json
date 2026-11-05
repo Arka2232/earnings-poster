@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "KSB",
-      "c": "Ksb Limited",
-      "r": "Bad",
-      "b": "Consolidated",
-      "q": "Q3 FY27",
-      "sales": 77.27,
-      "pat": 15.76,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/KSB_03112026190956_KSBBMOutcome03112026signedfinalUpload.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:KSB",
-      "t": "03-Nov-2026 19:10:08"
-    },
-    {
-      "d": "2026-11-03",
       "s": "METROPOLIS",
       "c": "Metropolis Healthcare Limited",
       "r": "Excellent",
@@ -4254,6 +4240,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/SGLTPL_05112026120955_Board_Meeting_Outcome_Final_05112026_1.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SETL",
       "t": "05-Nov-2026 12:12:03"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "HITECH",
+      "c": "Hi-Tech Pipes Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 0.6728000000000001,
+      "pat": 27.253600000000002,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/HITECH_05112026121340_Outcome_BM_Q2H1FY27.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:HITECH",
+      "t": "05-Nov-2026 12:20:34"
     }
   ],
   "seen": [
@@ -4839,7 +4839,8 @@
     "106846424",
     "106846439",
     "106846528",
-    "106846525"
+    "106846525",
+    "106846574"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -6309,6 +6310,7 @@
     "shiprocket2011_05112026112847_board_meeting_outcome.pdf",
     "sepower_05112026114440_outcome_of_boardmeeting_05112026.pdf",
     "relcheq_05112026121240_outcome-_financialssd.pdf",
-    "sgltpl_05112026120955_board_meeting_outcome_final_05112026_1.pdf"
+    "sgltpl_05112026120955_board_meeting_outcome_final_05112026_1.pdf",
+    "hitech_05112026121340_outcome_bm_q2h1fy27.pdf"
   ]
 }
