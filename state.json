@@ -2205,7 +2205,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T19:40:34.638165+00:00"
+        "xbrl_try": "2026-11-05T20:40:52.501350+00:00"
       },
       {
         "key": "106847068",
@@ -2265,19 +2265,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T19:40:35.031725+00:00"
-      },
-      {
-        "key": "106847411",
-        "seq_id": "106847411",
-        "symbol": "WABAG",
-        "company": "VA Tech Wabag Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/VATECH_05112026162010_SI_Outcome.pdf",
-        "an_dt": "05-Nov-2026 16:25:15",
-        "date": "2026-11-05",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-05T19:40:35.378922+00:00"
+        "xbrl_try": "2026-11-05T20:40:53.017011+00:00"
       },
       {
         "key": "106847539",
@@ -2302,7 +2290,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T19:40:36.153808+00:00"
+        "xbrl_try": "2026-11-05T20:40:59.464421+00:00"
       },
       {
         "key": "106847821",
@@ -2314,7 +2302,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T19:40:36.830191+00:00"
+        "xbrl_try": "2026-11-05T20:41:00.342147+00:00"
       },
       {
         "key": "106847855",
@@ -2364,30 +2352,6 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T20:40:15.021049+00:00"
-      },
-      {
-        "key": "106848259",
-        "seq_id": "106848259",
-        "symbol": "MUKTAARTS",
-        "company": "Mukta Arts Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/MUKTAARTS_05112026183032_Intimation_of_Outcomes_Signed.pdf",
-        "an_dt": "05-Nov-2026 18:31:54",
-        "date": "2026-11-05",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-05T19:40:37.122261+00:00"
-      },
-      {
-        "key": "106848272",
-        "seq_id": "106848272",
-        "symbol": "BELLACASA",
-        "company": "Bella Casa Fashion & Retail Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/BELLACASA_05112026182519_Results051126.pdf",
-        "an_dt": "05-Nov-2026 18:33:56",
-        "date": "2026-11-05",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-05T19:40:37.416422+00:00"
       },
       {
         "key": "106848304",
@@ -2495,7 +2459,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T19:40:37.774758+00:00"
+        "xbrl_try": "2026-11-05T20:41:13.266059+00:00"
       },
       {
         "key": "106848599",
@@ -6835,6 +6799,51 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SUNDROP",
       "t": "05-Nov-2026 19:31:15",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1754096_05112026073730_WEB.xml"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "WABAG",
+      "c": "VA Tech Wabag Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 1000.1999999999999,
+      "pat": 104.5,
+      "eps": 17.58,
+      "filing": "https://nsearchives.nseindia.com/corporate/VATECH_05112026162010_SI_Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:WABAG",
+      "t": "05-Nov-2026 16:25:15",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1754222_05112026083522_WEB.xml"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "MUKTAARTS",
+      "c": "Mukta Arts Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 45.567,
+      "pat": -0.3621,
+      "eps": -0.16,
+      "filing": "https://nsearchives.nseindia.com/corporate/MUKTAARTS_05112026183032_Intimation_of_Outcomes_Signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MUKTAARTS",
+      "t": "05-Nov-2026 18:31:54",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1754171_05112026081139_WEB.xml"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "BELLACASA",
+      "c": "Bella Casa Fashion & Retail Limited",
+      "r": "Bad",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 139.40269999999998,
+      "pat": 4.0112,
+      "eps": 3.0,
+      "filing": "https://nsearchives.nseindia.com/corporate/BELLACASA_05112026182519_Results051126.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BELLACASA",
+      "t": "05-Nov-2026 18:33:56",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1754205_05112026082745_WEB.xml"
     }
   ]
 }
