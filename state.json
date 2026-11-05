@@ -770,7 +770,8 @@
     "106848599",
     "106848597",
     "106848635",
-    "106848668"
+    "106848668",
+    "106848685"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1417,7 +1418,8 @@
     "awhclp_05112026193353_awhcloutcomeofboardmeeting05112026.pdf",
     "premier_05112026193104_pl_-_outcome_september_2026_.pdf",
     "cello2023_05112026194513_bmo.pdf",
-    "jaro2024_05112026195506_covering_letter_result_q2.pdf"
+    "jaro2024_05112026195506_covering_letter_result_q2.pdf",
+    "9833315135_05112026195758_outcome_of_q2_bm_financial_results.pdf"
   ],
   "digest": {
     "today_results": {
@@ -2094,7 +2096,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T19:00:38.761281+00:00"
+        "xbrl_try": "2026-11-05T20:01:07.306861+00:00"
       },
       {
         "key": "106846401",
@@ -2130,7 +2132,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T19:00:39.976228+00:00"
+        "xbrl_try": "2026-11-05T20:01:09.176862+00:00"
       },
       {
         "key": "106846931",
@@ -2263,19 +2265,8 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T19:00:52.169153+00:00"
-      },
-      {
-        "key": "106847532",
-        "seq_id": "106847532",
-        "symbol": "TITAN",
-        "company": "Titan Company Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/TITAN_05112026165028_SEoutcomeQ227.pdf",
-        "an_dt": "05-Nov-2026 16:50:49",
-        "date": "2026-11-05",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-05T19:00:52.899019+00:00"
+        "xbrl_try": "2026-11-05T20:01:10.044755+00:00",
+        "xbrl_blocked": "other-taxonomy"
       },
       {
         "key": "106847619",
@@ -2325,30 +2316,6 @@
         "basis": "",
         "xbrl_try": "2026-11-05T18:46:20.324776+00:00",
         "xbrl_blocked": "other-taxonomy"
-      },
-      {
-        "key": "106847921",
-        "seq_id": "106847921",
-        "symbol": "ASTRAZEN",
-        "company": "AstraZeneca Pharma India Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/ASTRAZEN_05112026173929_BM_Outcome_and_Reg_30_disclosure_-_5th_Nov.pdf",
-        "an_dt": "05-Nov-2026 17:42:25",
-        "date": "2026-11-05",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-05T19:00:59.240650+00:00"
-      },
-      {
-        "key": "106847917",
-        "seq_id": "106847917",
-        "symbol": "EIEL",
-        "company": "Enviro Infra Engineers Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/ENVIRO_05112026174113_Intimation.pdf",
-        "an_dt": "05-Nov-2026 17:41:57",
-        "date": "2026-11-05",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-05T19:00:59.947454+00:00"
       },
       {
         "key": "106848036",
@@ -2815,7 +2782,7 @@
     },
     "wrap": "2026-11-05",
     "nightly_pass": "2026-11-04",
-    "ipo_check": "2026-11-05 19"
+    "ipo_check": "2026-11-05 20"
   },
   "archive": [
     {
@@ -6539,6 +6506,65 @@
       "filing": "https://nsearchives.nseindia.com/corporate/JARO2024_05112026195506_Covering_Letter_Result_Q2.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:JARO",
       "t": "05-Nov-2026 19:56:33"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "KARAMTARA",
+      "c": "Karamtara Engineering Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 1646.7360999999999,
+      "pat": 94.611,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/9833315135_05112026195758_Outcome_of_Q2_BM_Financial_Results.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:KARAMTARA",
+      "t": "05-Nov-2026 19:59:58"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "TITAN",
+      "c": "Titan Company Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 20614.0,
+      "pat": 2392.73,
+      "eps": 26.96,
+      "filing": "https://nsearchives.nseindia.com/corporate/TITAN_05112026165028_SEoutcomeQ227.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:TITAN",
+      "t": "05-Nov-2026 16:50:49",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1754035_05112026071123_WEB.xml"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "ASTRAZEN",
+      "c": "AstraZeneca Pharma India Limited",
+      "r": "Good",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 729.1,
+      "pat": 62.33,
+      "eps": 24.93,
+      "filing": "https://nsearchives.nseindia.com/corporate/ASTRAZEN_05112026173929_BM_Outcome_and_Reg_30_disclosure_-_5th_Nov.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ASTRAZEN",
+      "t": "05-Nov-2026 17:42:25",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1754139_05112026075624_WEB.xml"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "EIEL",
+      "c": "Enviro Infra Engineers Limited",
+      "r": "Weak",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 363.7697,
+      "pat": 39.4897,
+      "eps": 2.36,
+      "filing": "https://nsearchives.nseindia.com/corporate/ENVIRO_05112026174113_Intimation.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:EIEL",
+      "t": "05-Nov-2026 17:41:57",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1754128_05112026075227_WEB.xml"
     }
   ]
 }
