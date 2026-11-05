@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "SCI",
-      "c": "Shipping Corporation Of India Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 22.9073,
-      "pat": 5.7776,
-      "eps": 12.4,
-      "filing": "https://nsearchives.nseindia.com/corporate/SCI1_04112026191407_Finalsd.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SCI",
-      "t": "04-Nov-2026 19:19:00"
-    },
-    {
-      "d": "2026-11-04",
       "s": "KANSAINER",
       "c": "Kansai Nerolac Paints Limited",
       "r": "Good",
@@ -4264,6 +4250,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/SPENCERS_05112026191259_Outcome.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SPENCERS",
       "t": "05-Nov-2026 19:14:46"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "FINKURVE",
+      "c": "Finkurve Financial Services Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 89.93440000000001,
+      "pat": 9.5967,
+      "eps": 0.68,
+      "filing": "https://nsearchives.nseindia.com/corporate/FINKURVE_05112026191634_Outcome_of_BM.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:FINKURVE",
+      "t": "05-Nov-2026 19:20:37"
     }
   ],
   "seen": [
@@ -5021,7 +5021,8 @@
     "106848486",
     "106848482",
     "106848475",
-    "106848516"
+    "106848516",
+    "106848539"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -7026,6 +7027,7 @@
     "adffoods1_05112026190725_adfoutcomebm05112026.pdf",
     "ikio_05112026190448_outcomefinal05112026.pdf",
     "parashealth_05112026190023_outcome_of_bm_signed.pdf",
-    "spencers_05112026191259_outcome.pdf"
+    "spencers_05112026191259_outcome.pdf",
+    "finkurve_05112026191634_outcome_of_bm.pdf"
   ]
 }
