@@ -2,48 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "LENSKART",
-      "c": "Lenskart Solutions Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 1663.52,
-      "pat": 228.19,
-      "eps": 0.96,
-      "filing": "https://nsearchives.nseindia.com/corporate/LENSKART_04112026153338_Outcome_Intimation_-_BM_dated_04112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:LENSKART",
-      "t": "04-Nov-2026 15:34:35"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "PRICOLLTD",
-      "c": "Pricol Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/PRICOLLTD_04112026152908_sedisclosure.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PRICOLLTD",
-      "t": "04-Nov-2026 15:32:43"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "JASH",
-      "c": "Jash Engineering Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 19251.41,
-      "pat": 1453.96,
-      "eps": 2.3,
-      "filing": "https://nsearchives.nseindia.com/corporate/JASH_04112026153646_OUTCOMEJASH04112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:JASH",
-      "t": "04-Nov-2026 15:39:53"
-    },
-    {
-      "d": "2026-11-04",
       "s": "TRACXN",
       "c": "Tracxn Technologies Limited",
       "r": "Results Filed",
@@ -4252,6 +4210,48 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:ARTNIRMAN",
       "t": "05-Nov-2026 17:00:52",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753579_05112026050258_WEB.xml"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "IVALUE",
+      "c": "Ivalue Infosolutions Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/IVALUE927_05112026170146_Board_Meeting-Outcome05112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:IVALUE",
+      "t": "05-Nov-2026 17:04:40"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "GLENMARK",
+      "c": "Glenmark Pharmaceuticals Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 2475.82,
+      "pat": 434.894,
+      "eps": 15.41,
+      "filing": "https://nsearchives.nseindia.com/corporate/GLENMARK_05112026170258_SEInitmationresults.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GLENMARK",
+      "t": "05-Nov-2026 17:04:32"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "ORIENTPPR",
+      "c": "Orient Paper & Industries Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/ORIENTPPR_05112026170045_OutcomeofBM05112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ORIENTPPR",
+      "t": "05-Nov-2026 17:03:46"
     }
   ],
   "seen": [
@@ -4940,7 +4940,10 @@
     "106847549",
     "106847595",
     "106847593",
-    "106847599"
+    "106847599",
+    "106847619",
+    "106847618",
+    "106847613"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5773,6 +5776,30 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T17:02:20.303932+00:00"
+      },
+      {
+        "key": "106847619",
+        "seq_id": "106847619",
+        "symbol": "IVALUE",
+        "company": "Ivalue Infosolutions Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/IVALUE927_05112026170146_Board_Meeting-Outcome05112026.pdf",
+        "an_dt": "05-Nov-2026 17:04:40",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T17:09:19.273725+00:00"
+      },
+      {
+        "key": "106847613",
+        "seq_id": "106847613",
+        "symbol": "ORIENTPPR",
+        "company": "Orient Paper & Industries Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/ORIENTPPR_05112026170045_OutcomeofBM05112026.pdf",
+        "an_dt": "05-Nov-2026 17:03:46",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T17:09:20.008017+00:00"
       }
     ],
     "ipo_check": "2026-11-05 17",
@@ -6862,6 +6889,9 @@
     "539301_05112026165325_financialresultsh1fy27.pdf",
     "hpl_05112026165734_signedoutcomeofboardmeeting.pdf",
     "shrenik_05112026165619_board_meeting_outcome-fs-s.pdf",
-    "artnirman_05112026165801_anlfinsept2026.pdf"
+    "artnirman_05112026165801_anlfinsept2026.pdf",
+    "ivalue927_05112026170146_board_meeting-outcome05112026.pdf",
+    "glenmark_05112026170258_seinitmationresults.pdf",
+    "orientppr_05112026170045_outcomeofbm05112026.pdf"
   ]
 }
