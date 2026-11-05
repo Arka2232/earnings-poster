@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "DOLLEX",
-      "c": "Dollex Agrotech Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 77.7829,
-      "pat": 1.2811000000000001,
-      "eps": 0.32,
-      "filing": "https://nsearchives.nseindia.com/corporate/DOLLEX_04112026161307_BMfinalsigned.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:DOLLEX",
-      "t": "04-Nov-2026 16:15:48"
-    },
-    {
-      "d": "2026-11-04",
       "s": "APOLLOTYRE",
       "c": "Apollo Tyres Limited",
       "r": "Good",
@@ -4254,6 +4240,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/KRITIKA_05112026171057_Kritika_Outcome_of_BM_05112026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:KRITIKA",
       "t": "05-Nov-2026 17:15:05"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "PROTEAN",
+      "c": "Protean eGov Technologies Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/PROTEANCS_05112026170950_Intimation_BM_Outcome_Nov_5_2026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PROTEAN",
+      "t": "05-Nov-2026 17:16:20"
     }
   ],
   "seen": [
@@ -4950,7 +4950,8 @@
     "106847638",
     "106847620",
     "106847690",
-    "106847688"
+    "106847688",
+    "106847695"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5795,6 +5796,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T17:17:44.092581+00:00"
+      },
+      {
+        "key": "106847695",
+        "seq_id": "106847695",
+        "symbol": "PROTEAN",
+        "company": "Protean eGov Technologies Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/PROTEANCS_05112026170950_Intimation_BM_Outcome_Nov_5_2026.pdf",
+        "an_dt": "05-Nov-2026 17:16:20",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T17:20:24.257766+00:00"
       }
     ],
     "ipo_check": "2026-11-05 17",
@@ -6892,6 +6905,7 @@
     "shares_05112026170525_ihpoutcomeofboardmeeting05112026.pdf",
     "sahajanand_05112026165953_11_board_meeting_outcome.pdf",
     "schand_05112026171337_outcomeofboardmeeting05112026.pdf",
-    "kritika_05112026171057_kritika_outcome_of_bm_05112026.pdf"
+    "kritika_05112026171057_kritika_outcome_of_bm_05112026.pdf",
+    "proteancs_05112026170950_intimation_bm_outcome_nov_5_2026.pdf"
   ]
 }
