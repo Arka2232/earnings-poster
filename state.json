@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "FRACTAL",
-      "c": "Fractal Analytics Limited",
-      "r": "Bad",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 9.565000000000001,
-      "pat": 1.5150000000000001,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/FRACTAL_03112026223034_Outcome_of_BM_03112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:FRACTAL",
-      "t": "03-Nov-2026 22:31:17"
-    },
-    {
-      "d": "2026-11-03",
       "s": "DNAMEDIA",
       "c": "Diligent Media Corporation Limited",
       "r": "Positive",
@@ -4249,6 +4235,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/OILCOUNTUB_05112026134444_OUTCOME.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:OILCOUNTUB",
       "t": "05-Nov-2026 13:46:07"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "EMAMILTD",
+      "c": "Emami Limited",
+      "r": "Positive",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 10.876500000000002,
+      "pat": 1.455,
+      "eps": 3.3,
+      "filing": "https://nsearchives.nseindia.com/corporate/EMAMILTD2_05112026135037_BM_Outcome_Q2_FY_27_signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:EMAMILTD",
+      "t": "05-Nov-2026 13:50:48"
     }
   ],
   "seen": [
@@ -4865,7 +4865,8 @@
     "106846862",
     "106846860",
     "106846864",
-    "106846875"
+    "106846875",
+    "106846884"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -6450,6 +6451,7 @@
     "ghcltextiles_05112026134111_ghcl_textiles_outcome_31st_bm_05_11_2026_signed.pdf",
     "bconcepts_05112026133940_outcome05112026.pdf",
     "ipcalab_05112026134131_ipcaresultsandpressrelease.pdf",
-    "oilcountub_05112026134444_outcome.pdf"
+    "oilcountub_05112026134444_outcome.pdf",
+    "emamiltd2_05112026135037_bm_outcome_q2_fy_27_signed.pdf"
   ]
 }
