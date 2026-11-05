@@ -2,21 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "PTL",
-      "c": "PTL Enterprises Limited",
-      "r": "Bad",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 16.0919,
-      "pat": 10.8431,
-      "eps": 0.82,
-      "filing": "https://nsearchives.nseindia.com/corporate/meenakshi_cs13_gmail_com_04112026132058_PTL.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PTL",
-      "t": "04-Nov-2026 13:21:53",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752470_04112026012958_WEB.xml"
-    },
-    {
-      "d": "2026-11-04",
       "s": "EXIDEIND",
       "c": "Exide Industries Limited",
       "r": "Excellent",
@@ -4249,6 +4234,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/ICEMAKE_05112026151937_Outcome051126.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:ICEMAKE",
       "t": "05-Nov-2026 15:20:00"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "ELIN",
+      "c": "Elin Electronics Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/ELIN_05112026151621_outcome5112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ELIN",
+      "t": "05-Nov-2026 15:18:48"
     }
   ],
   "seen": [
@@ -4897,7 +4896,8 @@
     "106847135",
     "106847131",
     "106847121",
-    "106847149"
+    "106847149",
+    "106847138"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5550,6 +5550,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T15:24:53.701035+00:00"
+      },
+      {
+        "key": "106847138",
+        "seq_id": "106847138",
+        "symbol": "ELIN",
+        "company": "Elin Electronics Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/ELIN_05112026151621_outcome5112026.pdf",
+        "an_dt": "05-Nov-2026 15:18:48",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T15:28:00.860783+00:00"
       }
     ],
     "ipo_check": "2026-11-05 15",
@@ -6599,6 +6611,7 @@
     "insecticid_05112026151438_outcome_05112026.pdf",
     "globe_05112026151532_outcomeofbm05112026signed.pdf",
     "retail_05112026150948_outcome_retail_final.pdf",
-    "icemake_05112026151937_outcome051126.pdf"
+    "icemake_05112026151937_outcome051126.pdf",
+    "elin_05112026151621_outcome5112026.pdf"
   ]
 }
