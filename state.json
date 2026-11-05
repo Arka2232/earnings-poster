@@ -772,7 +772,8 @@
     "106848635",
     "106848668",
     "106848685",
-    "106848697"
+    "106848697",
+    "106848711"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1421,7 +1422,8 @@
     "cello2023_05112026194513_bmo.pdf",
     "jaro2024_05112026195506_covering_letter_result_q2.pdf",
     "9833315135_05112026195758_outcome_of_q2_bm_financial_results.pdf",
-    "welent_05112026200329_finalupload.pdf"
+    "welent_05112026200329_finalupload.pdf",
+    "symbiotec_05112026200536_financial_final_.pdf"
   ],
   "digest": {
     "today_results": {
@@ -6593,6 +6595,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/WELENT_05112026200329_FinalUpload.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:WELENT",
       "t": "05-Nov-2026 20:03:49"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "SYMBIOTEC",
+      "c": "Symbiotec Pharmalab Limited",
+      "r": "Good",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 220.022,
+      "pat": 48.538000000000004,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/SYMBIOTEC_05112026200536_Financial_Final_.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SYMBIOTEC",
+      "t": "05-Nov-2026 20:07:53"
     }
   ]
 }
