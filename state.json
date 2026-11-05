@@ -2,48 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "CLEANMAX",
-      "c": "Clean Max Enviro Energy Solutions Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 727.654,
-      "pat": 64.949,
-      "eps": 4.01,
-      "filing": "https://nsearchives.nseindia.com/corporate/CLEANMAX_03112026213525_Outcome031126.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CLEANMAX",
-      "t": "03-Nov-2026 21:39:02"
-    },
-    {
-      "d": "2026-11-03",
-      "s": "MPSLTD",
-      "c": "MPS Limited",
-      "r": "Bad",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 2.2429,
-      "pat": 0.5545,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/MPSLIMITED_03112026215301_OUTCOME03112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MPSLTD",
-      "t": "03-Nov-2026 21:54:37"
-    },
-    {
-      "d": "2026-11-03",
-      "s": "IONEXCHANG",
-      "c": "ION Exchange (India) Limited",
-      "r": "Positive",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 6.1573,
-      "pat": 0.114,
-      "eps": 0.927,
-      "filing": "https://nsearchives.nseindia.com/corporate/IONEXCHANGE_03112026215436_IEI_Sep_2026_results_for_upload.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:IONEXCHANG",
-      "t": "03-Nov-2026 21:58:14"
-    },
-    {
-      "d": "2026-11-03",
       "s": "AARNAV",
       "c": "Aarnav Fashions Limited",
       "r": "Bad",
@@ -4250,6 +4208,48 @@
       "filing": "https://nsearchives.nseindia.com/corporate/BUILDPRO_05112026133558_Filing_OCR.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:BUILDPRO",
       "t": "05-Nov-2026 13:36:46"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "KOTARISUG",
+      "c": "Kothari Sugars And Chemicals Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 88.954,
+      "pat": 1.0175,
+      "eps": 0.12,
+      "filing": "https://nsearchives.nseindia.com/corporate/KOTARISUG_05112026133919_OutcomeofBoardMeeting05112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:KOTARISUG",
+      "t": "05-Nov-2026 13:42:25"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "GHCLTEXTIL",
+      "c": "GHCL Textiles Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q4 FY26",
+      "sales": 445.53,
+      "pat": 35.84,
+      "eps": 3.75,
+      "filing": "https://nsearchives.nseindia.com/corporate/GHCLTEXTILES_05112026134111_GHCL_Textiles_outcome_31st_BM_05_11_2026_signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GHCLTEXTIL",
+      "t": "05-Nov-2026 13:42:11"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "BCONCEPTS",
+      "c": "Brand Concepts Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/BCONCEPTS_05112026133940_Outcome05112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BCONCEPTS",
+      "t": "05-Nov-2026 13:41:15"
     }
   ],
   "seen": [
@@ -4861,7 +4861,10 @@
     "106846837",
     "106846834",
     "106846856",
-    "106846853"
+    "106846853",
+    "106846863",
+    "106846862",
+    "106846860"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5332,7 +5335,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T12:43:10.765743+00:00"
+        "xbrl_try": "2026-11-05T13:44:18.199912+00:00"
       },
       {
         "key": "106846582",
@@ -5405,6 +5408,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T13:35:35.005148+00:00"
+      },
+      {
+        "key": "106846860",
+        "seq_id": "106846860",
+        "symbol": "BCONCEPTS",
+        "company": "Brand Concepts Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/BCONCEPTS_05112026133940_Outcome05112026.pdf",
+        "an_dt": "05-Nov-2026 13:41:15",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T13:44:19.046950+00:00"
       }
     ],
     "ipo_check": "2026-11-05 13",
@@ -6417,6 +6432,9 @@
     "igarashi_05112026132707_imibodq2quickresults051126sd.pdf",
     "tiindia_05112026132513_tiinsebsebm.pdf",
     "irb_05112026133344_irbidl_outcome_of_board_meeting.pdf",
-    "buildpro_05112026133558_filing_ocr.pdf"
+    "buildpro_05112026133558_filing_ocr.pdf",
+    "kotarisug_05112026133919_outcomeofboardmeeting05112026.pdf",
+    "ghcltextiles_05112026134111_ghcl_textiles_outcome_31st_bm_05_11_2026_signed.pdf",
+    "bconcepts_05112026133940_outcome05112026.pdf"
   ]
 }
