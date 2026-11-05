@@ -1,35 +1,6 @@
 {
   "archive": [
     {
-      "d": "2026-11-04",
-      "s": "BODALCHEM",
-      "c": "Bodal Chemicals Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 863.3739999999999,
-      "pat": 81.444,
-      "eps": 6.48,
-      "filing": "https://nsearchives.nseindia.com/corporate/BODALCHEM_03112026141031_Bodal_Chem_03_11_2026_Outcome_result.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BODALCHEM",
-      "t": "03-Nov-2026 14:15:41",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751890_03112026050750_WEB.xml"
-    },
-    {
-      "d": "2026-11-03",
-      "s": "EMCURE",
-      "c": "Emcure Pharmaceuticals Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 1667.9840000000002,
-      "pat": 248.42800000000003,
-      "eps": 13.1,
-      "filing": "https://nsearchives.nseindia.com/corporate/EMCURE_03112026134234_EPLOutcomeofBMQ2FY27.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:EMCURE",
-      "t": "03-Nov-2026 13:44:22"
-    },
-    {
       "d": "2026-11-03",
       "s": "HMAAGRO",
       "c": "HMA Agro Industries Limited",
@@ -4249,6 +4220,34 @@
       "filing": "https://nsearchives.nseindia.com/corporate/GOACARBON_05112026140206_GOACARBON_UAFR_Q2FY2627_30092026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:GOACARBON",
       "t": "05-Nov-2026 14:05:50"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "SAFARI",
+      "c": "Safari Industries (India) Limited",
+      "r": "Bad",
+      "b": "Standalone",
+      "q": "Q1 FY29",
+      "sales": 5.7983,
+      "pat": 0.17550000000000002,
+      "eps": 3.58,
+      "filing": "https://nsearchives.nseindia.com/corporate/SAFARIIND_05112026140552_BMOutcomev2.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SAFARI",
+      "t": "05-Nov-2026 14:07:37"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "PRAKASHSTL",
+      "c": "Prakash Steelage Limited",
+      "r": "Positive",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 23.4083,
+      "pat": 0.284,
+      "eps": 0.0,
+      "filing": "https://nsearchives.nseindia.com/corporate/PRAKASHSTL_05112026140505_Outcome_of_BM__1_.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PRAKASHSTL",
+      "t": "05-Nov-2026 14:06:47"
     }
   ],
   "seen": [
@@ -4870,7 +4869,9 @@
     "106846906",
     "106846904",
     "106846907",
-    "106846920"
+    "106846920",
+    "106846923",
+    "106846921"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -6484,6 +6485,8 @@
     "superspin_05112026135634_outcome_of_the_meeting.pdf",
     "birlacable_05112026135536_unauditedresults.pdf",
     "beml_05112026135743_30299-001_20261105_161537__4_files_merged_.pdf",
-    "goacarbon_05112026140206_goacarbon_uafr_q2fy2627_30092026.pdf"
+    "goacarbon_05112026140206_goacarbon_uafr_q2fy2627_30092026.pdf",
+    "safariind_05112026140552_bmoutcomev2.pdf",
+    "prakashstl_05112026140505_outcome_of_bm__1_.pdf"
   ]
 }
