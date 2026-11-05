@@ -2,34 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "NIVABUPA",
-      "c": "Niva Bupa Health Insurance Company Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/MAXBUPA_04112026152155_Discl30Boardmeetingoutcome04112026A.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:NIVABUPA",
-      "t": "04-Nov-2026 15:24:03"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "ISGEC",
-      "c": "Isgec Heavy Engineering Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 14.5658,
-      "pat": 1.1814,
-      "eps": 16.06,
-      "filing": "https://nsearchives.nseindia.com/corporate/ISGEC_04112026152542_OC_BM411.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ISGEC",
-      "t": "04-Nov-2026 15:26:16"
-    },
-    {
-      "d": "2026-11-04",
       "s": "JISLJALEQS",
       "c": "Jain Irrigation Systems Limited",
       "r": "Results Filed",
@@ -4251,6 +4223,34 @@
       "filing": "https://nsearchives.nseindia.com/corporate/539301_05112026165325_FinancialResultsH1FY27.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:ARVSMART",
       "t": "05-Nov-2026 16:53:47"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "HPL",
+      "c": "HPL Electric & Power Limited",
+      "r": "Good",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 610.8484,
+      "pat": 23.1902,
+      "eps": 3.61,
+      "filing": "https://nsearchives.nseindia.com/corporate/HPL_05112026165734_SignedOutcomeofBoardMeeting.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:HPL",
+      "t": "05-Nov-2026 16:59:54"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "SHRENIK",
+      "c": "Shrenik Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/SHRENIK_05112026165619_Board_Meeting_Outcome-FS-s.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SHRENIK",
+      "t": "05-Nov-2026 16:59:33"
     }
   ],
   "seen": [
@@ -4936,7 +4936,9 @@
     "106847532",
     "106847555",
     "106847550",
-    "106847549"
+    "106847549",
+    "106847595",
+    "106847593"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5408,7 +5410,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T16:00:47.973313+00:00"
+        "xbrl_try": "2026-11-05T17:02:19.611603+00:00"
       },
       {
         "key": "106846843",
@@ -5757,9 +5759,21 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T16:59:47.303687+00:00"
+      },
+      {
+        "key": "106847593",
+        "seq_id": "106847593",
+        "symbol": "SHRENIK",
+        "company": "Shrenik Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/SHRENIK_05112026165619_Board_Meeting_Outcome-FS-s.pdf",
+        "an_dt": "05-Nov-2026 16:59:33",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T17:02:20.303932+00:00"
       }
     ],
-    "ipo_check": "2026-11-05 16",
+    "ipo_check": "2026-11-05 17",
     "ipo_posted": [
       "BCSSL",
       "HGSINDIALT",
@@ -6843,6 +6857,8 @@
     "titan_05112026165028_seoutcomeq227.pdf",
     "vmstmtltd_05112026164950_outcomeofbm051126vms.pdf",
     "rategain_05112026165347_rg_obm_051126.pdf",
-    "539301_05112026165325_financialresultsh1fy27.pdf"
+    "539301_05112026165325_financialresultsh1fy27.pdf",
+    "hpl_05112026165734_signedoutcomeofboardmeeting.pdf",
+    "shrenik_05112026165619_board_meeting_outcome-fs-s.pdf"
   ]
 }
