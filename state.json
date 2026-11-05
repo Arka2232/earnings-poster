@@ -779,7 +779,9 @@
     "106848727",
     "106848725",
     "106848770",
-    "106848767"
+    "106848767",
+    "106848779",
+    "106848776"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1435,7 +1437,9 @@
     "lxchem_05112026201059_outcomebm05112026.pdf",
     "ambicaagar_05112026200829_outcome.pdf",
     "mmfl_05112026202204_mmfluafr30sep2026.pdf",
-    "focus_05112026201859_outcome.pdf"
+    "focus_05112026201859_outcome.pdf",
+    "muthootcaps_05112026202538_final.pdf",
+    "armeeinfotech_05112026202125_outcome_of_board_meeting__september_2026_pj_sj__1_.pdf"
   ],
   "digest": {
     "today_results": {
@@ -2160,7 +2164,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T19:28:56.471210+00:00"
+        "xbrl_try": "2026-11-05T20:30:58.874842+00:00"
       },
       {
         "key": "106846928",
@@ -2185,7 +2189,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T19:30:54.735134+00:00"
+        "xbrl_try": "2026-11-05T20:30:59.293969+00:00"
       },
       {
         "key": "106846966",
@@ -2245,7 +2249,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T19:28:56.852052+00:00"
+        "xbrl_try": "2026-11-05T20:30:59.705402+00:00"
       },
       {
         "key": "106847402",
@@ -2343,7 +2347,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T19:29:03.988607+00:00"
+        "xbrl_try": "2026-11-05T20:31:01.129659+00:00"
       },
       {
         "key": "106848206",
@@ -2463,7 +2467,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T19:29:08.432329+00:00"
+        "xbrl_try": "2026-11-05T20:31:01.611163+00:00"
       },
       {
         "key": "106848570",
@@ -2560,6 +2564,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T20:25:51.721758+00:00"
+      },
+      {
+        "key": "106848776",
+        "seq_id": "106848776",
+        "symbol": "ARMEE",
+        "company": "ArMee Infotech Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/ARMEEINFOTECH_05112026202125_Outcome_of_Board_Meeting__September_2026_PJ_SJ__1_.pdf",
+        "an_dt": "05-Nov-2026 20:26:57",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T20:31:02.377050+00:00"
       }
     ],
     "recap": "2026-11-01",
@@ -6732,6 +6748,34 @@
       "filing": "https://nsearchives.nseindia.com/corporate/FOCUS_05112026201859_Outcome.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:FOCUS",
       "t": "05-Nov-2026 20:22:31"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "MUTHOOTCAP",
+      "c": "Muthoot Capital Services Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 175.3928,
+      "pat": 4.4025,
+      "eps": 2.68,
+      "filing": "https://nsearchives.nseindia.com/corporate/MUTHOOTCAPS_05112026202538_Final.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MUTHOOTCAP",
+      "t": "05-Nov-2026 20:27:57"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "ARMEE",
+      "c": "ArMee Infotech Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/ARMEEINFOTECH_05112026202125_Outcome_of_Board_Meeting__September_2026_PJ_SJ__1_.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ARMEE",
+      "t": "05-Nov-2026 20:26:57"
     }
   ]
 }
