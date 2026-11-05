@@ -6175,54 +6175,6 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T20:55:45.043574+00:00"
-      },
-      {
-        "key": "106847402",
-        "seq_id": "106847402",
-        "symbol": "GTL",
-        "company": "GTL Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/GTLSH_05112026162034_GTL_Financial_Results_30092026.pdf",
-        "an_dt": "05-Nov-2026 16:23:53",
-        "date": "2026-11-05",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-05T20:40:53.017011+00:00"
-      },
-      {
-        "key": "106847821",
-        "seq_id": "106847821",
-        "symbol": "SHYAMCENT",
-        "company": "Shyam Century Ferrous Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/SHYAMCENT_05112026172517_SCFL_Outcome_Signed.pdf",
-        "an_dt": "05-Nov-2026 17:28:57",
-        "date": "2026-11-05",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-05T20:41:00.342147+00:00"
-      },
-      {
-        "key": "106848785",
-        "seq_id": "106848785",
-        "symbol": "TIMETECHNO",
-        "company": "Time Technoplast Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/TIMETECHNO_05112026202626_Outcome05112026.pdf",
-        "an_dt": "05-Nov-2026 20:28:44",
-        "date": "2026-11-05",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-05T20:40:20.766556+00:00"
-      },
-      {
-        "key": "106848781",
-        "seq_id": "106848781",
-        "symbol": "BAGFILMS",
-        "company": "B.A.G Films and Media Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/BAGFILMS_05112026202531_BAGFILMSOBMUFR3009202605112026.pdf",
-        "an_dt": "05-Nov-2026 20:28:08",
-        "date": "2026-11-05",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-05T20:40:21.524534+00:00"
       }
     ],
     "ipo_posted": [
