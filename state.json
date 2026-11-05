@@ -785,7 +785,8 @@
     "106848785",
     "106848781",
     "106848840",
-    "106848882"
+    "106848882",
+    "106848890"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1447,7 +1448,8 @@
     "timetechno_05112026202626_outcome05112026.pdf",
     "bagfilms_05112026202531_bagfilmsobmufr3009202605112026.pdf",
     "lemontree_05112026204533_outcome_of_board_meeting_nov_2026.pdf",
-    "gokex_05112026211849_outcome_of_bm.pdf"
+    "gokex_05112026211849_outcome_of_bm.pdf",
+    "dbr_05112026212051_outcome_financial_results.pdf"
   ],
   "digest": {
     "today_results": {
@@ -2451,7 +2453,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T20:25:51.721758+00:00"
+        "xbrl_try": "2026-11-05T21:26:07.019722+00:00"
       },
       {
         "key": "106848776",
@@ -6906,6 +6908,20 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:AMBICAAGAR",
       "t": "05-Nov-2026 20:12:38",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1754279_05112026091428_WEB.xml"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "DBREALTY",
+      "c": "Valor Estate Limited",
+      "r": "Weak",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 156.4181,
+      "pat": 8.379199999999999,
+      "eps": 0.13,
+      "filing": "https://nsearchives.nseindia.com/corporate/DBR_05112026212051_Outcome_financial_results.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:DBREALTY",
+      "t": "05-Nov-2026 21:23:43"
     }
   ]
 }
