@@ -763,7 +763,12 @@
     "106848580",
     "106848596",
     "106848595",
-    "106848583"
+    "106848583",
+    "106848611",
+    "106848608",
+    "106848601",
+    "106848599",
+    "106848597"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1403,7 +1408,12 @@
     "kavita_sundrop_05112026193013_finalintimationforoutcomeofbmnov052026.pdf",
     "hpal_05112026193017_filedfinancialresults.pdf",
     "vikran123_05112026193054_intimation_of_outcome_of_board_meeting.pdf",
-    "mfml2_05112026193130_mfmloutcomefrmerged_.pdf"
+    "mfml2_05112026193130_mfmloutcomefrmerged_.pdf",
+    "latteys_05112026193541_finalresult_30092026.pdf",
+    "jnkindia23_05112026193549_outcome_with_annexures_final.pdf",
+    "ugrocap_05112026193551_outcomeofbm05112026.pdf",
+    "awhclp_05112026193353_awhcloutcomeofboardmeeting05112026.pdf",
+    "premier_05112026193104_pl_-_outcome_september_2026_.pdf"
   ],
   "digest": {
     "today_results": {
@@ -1692,7 +1702,7 @@
         "url": "https://nsearchives.nseindia.com/corporate/PATELINT_02112026155145_Outcome_of_BM_Sept2026_sd.pdf",
         "an_dt": "02-Nov-2026 15:53:28",
         "date": "2026-11-02",
-        "xbrl_try": "2026-11-05T18:42:50.590999+00:00"
+        "xbrl_try": "2026-11-05T19:49:54.652844+00:00"
       },
       {
         "key": "106839719",
@@ -1704,7 +1714,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T18:42:52.046989+00:00"
+        "xbrl_try": "2026-11-05T19:49:55.666818+00:00"
       },
       {
         "key": "106839796",
@@ -1716,7 +1726,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T18:42:53.876530+00:00"
+        "xbrl_try": "2026-11-05T19:49:56.940727+00:00"
       },
       {
         "key": "106840301",
@@ -1728,7 +1738,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T18:42:54.946833+00:00"
+        "xbrl_try": "2026-11-05T19:49:58.249862+00:00"
       },
       {
         "key": "106840295",
@@ -1740,7 +1750,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T18:42:56.549923+00:00"
+        "xbrl_try": "2026-11-05T19:49:59.401891+00:00"
       },
       {
         "key": "106840386",
@@ -1752,7 +1762,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T18:42:57.710887+00:00"
+        "xbrl_try": "2026-11-05T19:50:00.714223+00:00"
       },
       {
         "key": "106840511",
@@ -1764,7 +1774,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T18:42:59.240854+00:00"
+        "xbrl_try": "2026-11-05T19:50:02.012987+00:00"
       },
       {
         "key": "106840621",
@@ -1776,7 +1786,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T18:43:00.457092+00:00"
+        "xbrl_try": "2026-11-05T19:50:03.209636+00:00"
       },
       {
         "key": "106840747",
@@ -1788,7 +1798,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T18:43:01.888957+00:00"
+        "xbrl_try": "2026-11-05T19:50:04.760682+00:00"
       },
       {
         "key": "106841454",
@@ -1800,7 +1810,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T18:43:04.198518+00:00"
+        "xbrl_try": "2026-11-05T19:50:06.323593+00:00"
       },
       {
         "key": "106841577",
@@ -1825,7 +1835,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T18:43:05.454111+00:00"
+        "xbrl_try": "2026-11-05T19:50:07.777864+00:00"
       },
       {
         "key": "106842168",
@@ -1837,7 +1847,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T18:43:06.868607+00:00"
+        "xbrl_try": "2026-11-05T19:50:08.895600+00:00"
       },
       {
         "key": "106842383",
@@ -1849,7 +1859,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T18:43:07.753982+00:00"
+        "xbrl_try": "2026-11-05T19:50:09.975194+00:00"
       },
       {
         "key": "106842647",
@@ -1861,7 +1871,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T18:43:09.250804+00:00"
+        "xbrl_try": "2026-11-05T19:50:10.717108+00:00"
       },
       {
         "key": "106842850",
@@ -1886,7 +1896,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T18:43:10.278298+00:00"
+        "xbrl_try": "2026-11-05T19:50:11.479448+00:00"
       },
       {
         "key": "106843308",
@@ -1898,7 +1908,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T18:43:11.790494+00:00"
+        "xbrl_try": "2026-11-05T19:50:12.554480+00:00"
       },
       {
         "key": "106843847",
@@ -1910,7 +1920,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T18:43:13.190880+00:00"
+        "xbrl_try": "2026-11-05T19:50:13.444648+00:00"
       },
       {
         "key": "106844083",
@@ -1922,7 +1932,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T18:43:14.288588+00:00"
+        "xbrl_try": "2026-11-05T19:50:14.211914+00:00"
       },
       {
         "key": "106844203",
@@ -1934,7 +1944,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T18:43:15.447151+00:00"
+        "xbrl_try": "2026-11-05T19:50:15.305234+00:00"
       },
       {
         "key": "106844278",
@@ -1959,7 +1969,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T18:43:16.620092+00:00"
+        "xbrl_try": "2026-11-05T19:50:16.357844+00:00"
       },
       {
         "key": "106844537",
@@ -1971,7 +1981,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T18:43:18.050854+00:00"
+        "xbrl_try": "2026-11-05T19:50:18.593468+00:00"
       },
       {
         "key": "106844610",
@@ -1983,7 +1993,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T18:43:20.930147+00:00"
+        "xbrl_try": "2026-11-05T19:50:22.792658+00:00"
       },
       {
         "key": "106844723",
@@ -1995,7 +2005,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T18:45:35.609667+00:00"
+        "xbrl_try": "2026-11-05T19:50:23.822397+00:00"
       },
       {
         "key": "106844998",
@@ -2007,7 +2017,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T18:45:40.116055+00:00"
+        "xbrl_try": "2026-11-05T19:50:25.471324+00:00"
       },
       {
         "key": "106845148",
@@ -2019,7 +2029,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T18:45:43.010633+00:00"
+        "xbrl_try": "2026-11-05T19:50:27.101056+00:00"
       },
       {
         "key": "106845234",
@@ -2031,7 +2041,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T18:45:49.256560+00:00"
+        "xbrl_try": "2026-11-05T19:50:28.807682+00:00"
       },
       {
         "key": "106845707",
@@ -2056,7 +2066,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T18:45:52.437163+00:00"
+        "xbrl_try": "2026-11-05T19:50:29.890780+00:00"
       },
       {
         "key": "106843992",
@@ -2068,7 +2078,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T18:45:53.671410+00:00"
+        "xbrl_try": "2026-11-05T19:50:30.988989+00:00"
       },
       {
         "key": "106846324",
@@ -2092,7 +2102,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T18:45:54.020456+00:00"
+        "xbrl_try": "2026-11-05T19:50:31.467614+00:00"
       },
       {
         "key": "106846403",
@@ -2104,7 +2114,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T18:45:54.508972+00:00"
+        "xbrl_try": "2026-11-05T19:50:31.807480+00:00"
       },
       {
         "key": "106846424",
@@ -2238,18 +2248,6 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T19:40:35.378922+00:00"
-      },
-      {
-        "key": "106847445",
-        "seq_id": "106847445",
-        "symbol": "MAITHANALL",
-        "company": "Maithan Alloys Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/MAITHANALL_05112026162730_UFRH12627.pdf",
-        "an_dt": "05-Nov-2026 16:30:01",
-        "date": "2026-11-05",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-05T18:46:10.452034+00:00"
       },
       {
         "key": "106847539",
@@ -2418,7 +2416,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T18:41:14.286093+00:00"
+        "xbrl_try": "2026-11-05T19:50:36.845274+00:00"
       },
       {
         "key": "106848342",
@@ -2430,7 +2428,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T18:46:21.190976+00:00"
+        "xbrl_try": "2026-11-05T19:50:37.585148+00:00"
       },
       {
         "key": "106848414",
@@ -2527,6 +2525,30 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T19:40:37.774758+00:00"
+      },
+      {
+        "key": "106848599",
+        "seq_id": "106848599",
+        "symbol": "AWHCL",
+        "company": "Antony Waste Handling Cell Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/AWHCLP_05112026193353_AWHCLOutcomeofBoardMeeting05112026.pdf",
+        "an_dt": "05-Nov-2026 19:37:04",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T19:50:37.874775+00:00"
+      },
+      {
+        "key": "106848597",
+        "seq_id": "106848597",
+        "symbol": "PREMIER",
+        "company": "Premier Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/PREMIER_05112026193104_PL_-_Outcome_September_2026_.pdf",
+        "an_dt": "05-Nov-2026 19:36:49",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T19:50:39.444265+00:00"
       }
     ],
     "recap": "2026-11-01",
@@ -6400,6 +6422,91 @@
       "filing": "https://nsearchives.nseindia.com/corporate/MFML2_05112026193130_MFMLOUTCOMEFRMERGED_.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:MFML",
       "t": "05-Nov-2026 19:32:25"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "LATTEYS",
+      "c": "Latteys Industries Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 35.2512,
+      "pat": 0.8682,
+      "eps": 0.15,
+      "filing": "https://nsearchives.nseindia.com/corporate/LATTEYS_05112026193541_fINALRESULT_30092026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:LATTEYS",
+      "t": "05-Nov-2026 19:39:18"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "JNKINDIA",
+      "c": "JNK India Limited",
+      "r": "OK",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 171.735,
+      "pat": 13.029,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/JNKINDIA23_05112026193549_Outcome_with_annexures_final.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:JNKINDIA",
+      "t": "05-Nov-2026 19:38:32"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "UGROCAP",
+      "c": "Ugro Capital Limited",
+      "r": "Weak",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 461.4703,
+      "pat": 37.3698,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/UGROCAP_05112026193551_OutcomeofBM05112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:UGROCAP",
+      "t": "05-Nov-2026 19:37:32"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "AWHCL",
+      "c": "Antony Waste Handling Cell Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/AWHCLP_05112026193353_AWHCLOutcomeofBoardMeeting05112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:AWHCL",
+      "t": "05-Nov-2026 19:37:04"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "PREMIER",
+      "c": "Premier Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/PREMIER_05112026193104_PL_-_Outcome_September_2026_.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PREMIER",
+      "t": "05-Nov-2026 19:36:49"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "MAITHANALL",
+      "c": "Maithan Alloys Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 556.8299999999999,
+      "pat": 83.74,
+      "eps": 27.85,
+      "filing": "https://nsearchives.nseindia.com/corporate/MAITHANALL_05112026162730_UFRH12627.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MAITHANALL",
+      "t": "05-Nov-2026 16:30:01",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1754070_05112026072532_WEB.xml"
     }
   ]
 }
