@@ -2,119 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "OAL",
-      "c": "Oriental Aromatics Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 314.02570000000003,
-      "pat": 10.2363,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/OAL_04112026173914_Intimation.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:OAL",
-      "t": "04-Nov-2026 17:42:57"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "MARKSANS",
-      "c": "Marksans Pharma Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 940.169,
-      "pat": 143.525,
-      "eps": 3.12,
-      "filing": "https://nsearchives.nseindia.com/corporate/MARKSANS_04112026133031_Seintimation-Results.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MARKSANS",
-      "t": "04-Nov-2026 13:34:26",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752710_04112026051034_WEB.xml"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "RUCHINFRA",
-      "c": "Ruchi Infrastructure Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/RUCHINFRA_04112026174648_OutcomeofBoardMeetingheldon04112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:RUCHINFRA",
-      "t": "04-Nov-2026 17:47:51"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "APOLLOHOSP",
-      "c": "Apollo Hospitals Enterprise Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 76.149,
-      "pat": 4.94,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/APOLLOHOSP_04112026174756_SE_Communication_04112026_s.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:APOLLOHOSP",
-      "t": "04-Nov-2026 17:49:17"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "OSWALAGRO",
-      "c": "Oswal Agro Mills Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/OSWALAGRO_04112026175250_Financial_results_final.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:OSWALAGRO",
-      "t": "04-Nov-2026 17:54:42"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "ESSARSHPNG",
-      "c": "Essar Shipping Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/ESSARSHPNG_04112026175712_BM_Outcome_04112026__1_.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ESSARSHPNG",
-      "t": "04-Nov-2026 17:59:32"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "BSE",
-      "c": "BSE Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/BSE1_04112026175851_NSEINTIMATION.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BSE",
-      "t": "04-Nov-2026 18:01:51"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "KRISHIVAL",
-      "c": "Krishival Foods Limited",
-      "r": "Good",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 85.6628,
-      "pat": 6.818300000000001,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/EMPYREAN_04112026175928_Outcome.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:KRISHIVAL",
-      "t": "04-Nov-2026 18:00:28"
-    },
-    {
-      "d": "2026-11-04",
       "s": "REPL",
       "c": "Rudrabhishek Enterprises Limited",
       "r": "Results Filed",
@@ -4258,6 +4145,121 @@
       "filing": "https://nsearchives.nseindia.com/corporate/VENUSPIPES_05112026181011_Outcome_of_BM_Results_Q2FY27.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:VENUSPIPES",
       "t": "05-Nov-2026 18:11:21"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "CPPLUS",
+      "c": "Aditya Infotech Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 1745.9880000000003,
+      "pat": 185.507,
+      "eps": 15.67,
+      "filing": "https://nsearchives.nseindia.com/corporate/CPPLUS_05112026181501_seintimation.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CPPLUS",
+      "t": "05-Nov-2026 18:17:38"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "DEVIT",
+      "c": "Dev Information Technology Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 62.6257,
+      "pat": 2.7375000000000003,
+      "eps": 0.52,
+      "filing": "https://nsearchives.nseindia.com/corporate/DEVIT_05112026181503_outcome_s.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:DEVIT",
+      "t": "05-Nov-2026 18:16:51"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "VIPULLTD",
+      "c": "Vipul Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/VIPULLTD_05112026181327_Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:VIPULLTD",
+      "t": "05-Nov-2026 18:16:30"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "RMCL",
+      "c": "Radha Madhav Corporation Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/RMCL_05112026181526_Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:RMCL",
+      "t": "05-Nov-2026 18:16:24"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "RHL",
+      "c": "Robust Hotels Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/ROBUSTHOTELS_05112026181345_RHLBM05112026OUTCOME.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:RHL",
+      "t": "05-Nov-2026 18:16:17"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "KRITIKA",
+      "c": "Kritika Wires Limited",
+      "r": "Weak",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 169.8542,
+      "pat": 1.0741,
+      "eps": 0.04,
+      "filing": "https://nsearchives.nseindia.com/corporate/KRITIKA_05112026171057_Kritika_Outcome_of_BM_05112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:KRITIKA",
+      "t": "05-Nov-2026 17:15:05",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753611_05112026052233_WEB.xml"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "PROTEAN",
+      "c": "Protean eGov Technologies Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 270.78,
+      "pat": 16.4,
+      "eps": 4.04,
+      "filing": "https://nsearchives.nseindia.com/corporate/PROTEANCS_05112026170950_Intimation_BM_Outcome_Nov_5_2026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PROTEAN",
+      "t": "05-Nov-2026 17:16:20",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753800_05112026055628_WEB.xml"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "VIPULLTD",
+      "c": "Vipul Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 9.03,
+      "pat": -1.6409,
+      "eps": -0.12,
+      "filing": "https://nsearchives.nseindia.com/corporate/VIPULLTD_05112026181327_Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:VIPULLTD",
+      "t": "05-Nov-2026 18:16:30",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753835_05112026060742_WEB.xml"
     }
   ],
   "seen": [
@@ -4984,7 +4986,12 @@
     "106848037",
     "106848096",
     "106848108",
-    "106848118"
+    "106848118",
+    "106848182",
+    "106848150",
+    "106848147",
+    "106848146",
+    "106848145"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5480,7 +5487,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T17:17:41.380631+00:00"
+        "xbrl_try": "2026-11-05T18:26:36.828618+00:00"
       },
       {
         "key": "106846928",
@@ -5492,7 +5499,8 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T17:17:42.194846+00:00"
+        "xbrl_try": "2026-11-05T18:26:38.166757+00:00",
+        "xbrl_blocked": "revision-differs"
       },
       {
         "key": "106846945",
@@ -5612,7 +5620,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T17:17:42.561742+00:00"
+        "xbrl_try": "2026-11-05T18:26:38.679538+00:00"
       },
       {
         "key": "106847331",
@@ -5624,7 +5632,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T17:17:43.325609+00:00"
+        "xbrl_try": "2026-11-05T18:26:39.513604+00:00"
       },
       {
         "key": "106847402",
@@ -5757,30 +5765,6 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T18:09:23.550466+00:00"
-      },
-      {
-        "key": "106847688",
-        "seq_id": "106847688",
-        "symbol": "KRITIKA",
-        "company": "Kritika Wires Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/KRITIKA_05112026171057_Kritika_Outcome_of_BM_05112026.pdf",
-        "an_dt": "05-Nov-2026 17:15:05",
-        "date": "2026-11-05",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-05T17:17:44.092581+00:00"
-      },
-      {
-        "key": "106847695",
-        "seq_id": "106847695",
-        "symbol": "PROTEAN",
-        "company": "Protean eGov Technologies Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/PROTEANCS_05112026170950_Intimation_BM_Outcome_Nov_5_2026.pdf",
-        "an_dt": "05-Nov-2026 17:16:20",
-        "date": "2026-11-05",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-05T17:20:24.257766+00:00"
       },
       {
         "key": "106847795",
@@ -5925,6 +5909,30 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T18:11:27.545913+00:00"
+      },
+      {
+        "key": "106848146",
+        "seq_id": "106848146",
+        "symbol": "RMCL",
+        "company": "Radha Madhav Corporation Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/RMCL_05112026181526_Outcome.pdf",
+        "an_dt": "05-Nov-2026 18:16:24",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T18:26:51.524446+00:00"
+      },
+      {
+        "key": "106848145",
+        "seq_id": "106848145",
+        "symbol": "RHL",
+        "company": "Robust Hotels Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/ROBUSTHOTELS_05112026181345_RHLBM05112026OUTCOME.pdf",
+        "an_dt": "05-Nov-2026 18:16:17",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T18:26:52.340504+00:00"
       }
     ],
     "ipo_check": "2026-11-05 18",
@@ -7052,6 +7060,11 @@
     "excelsoft_05112026175905_outcome05112026sd.pdf",
     "iris_05112026180604_iris_outcomebm_nov_signed.pdf",
     "ramcocem_05112026180841_results30092026.pdf",
-    "venuspipes_05112026181011_outcome_of_bm_results_q2fy27.pdf"
+    "venuspipes_05112026181011_outcome_of_bm_results_q2fy27.pdf",
+    "cpplus_05112026181501_seintimation.pdf",
+    "devit_05112026181503_outcome_s.pdf",
+    "vipulltd_05112026181327_outcome.pdf",
+    "rmcl_05112026181526_outcome.pdf",
+    "robusthotels_05112026181345_rhlbm05112026outcome.pdf"
   ]
 }
