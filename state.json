@@ -2,62 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "SUNCLAY",
-      "c": "Sundaram Clayton Limited",
-      "r": "Good",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 697.72,
-      "pat": -50.77,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/SUNDARAMCLAYTON_04112026125755_QUICKRESULTSSD.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SUNCLAY",
-      "t": "04-Nov-2026 12:59:15"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "QUINTEGRA",
-      "c": "Quintegra Solutions Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/QUINTEGRA_04112026125852_Results_30092026_to_SE.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:QUINTEGRA",
-      "t": "04-Nov-2026 13:03:47"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "HMVL",
-      "c": "Hindustan Media Ventures Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 1.9658000000000002,
-      "pat": 0.5204,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/HMVL_04112026130912_HMVLoutcome.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:HMVL",
-      "t": "04-Nov-2026 13:09:53"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "RUSTOMJEE",
-      "c": "Keystone Realtors Limited",
-      "r": "Bad",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 4.9669,
-      "pat": 1.0075,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/RUSTOMJEE_04112026130758_Outcome_of_Board_Meeting_Cover_Letter.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:RUSTOMJEE",
-      "t": "04-Nov-2026 13:09:36"
-    },
-    {
-      "d": "2026-11-04",
       "s": "BIOCON",
       "c": "Biocon Limited",
       "r": "Bad",
@@ -4249,6 +4193,62 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:CEIGALL",
       "t": "05-Nov-2026 14:12:46",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753468_05112026025714_WEB.xml"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "JAIBALAJI",
+      "c": "Jai Balaji Industries Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 1652.12,
+      "pat": 77.22,
+      "eps": 0.85,
+      "filing": "https://nsearchives.nseindia.com/corporate/JAIBALAJI_05112026151135_Outcome051126.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:JAIBALAJI",
+      "t": "05-Nov-2026 15:19:10"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "INSECTICID",
+      "c": "Insecticides (India) Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/INSECTICID_05112026151438_Outcome_05112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:INSECTICID",
+      "t": "05-Nov-2026 15:17:52"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "GLOBE",
+      "c": "GLOBE ENTERPRISES (INDIA) LIMITED",
+      "r": "Weak",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 185.90849999999998,
+      "pat": 2.9891000000000005,
+      "eps": 0.07,
+      "filing": "https://nsearchives.nseindia.com/corporate/GLOBE_05112026151532_OutcomeofBM05112026Signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GLOBE",
+      "t": "05-Nov-2026 15:16:56"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "RETAIL",
+      "c": "JHS Svendgaard Retail Ventures Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 4.1219,
+      "pat": 0.13460000000000003,
+      "eps": 0.23,
+      "filing": "https://nsearchives.nseindia.com/corporate/RETAIL_05112026150948_Outcome_Retail_FInal.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:RETAIL",
+      "t": "05-Nov-2026 15:12:07"
     }
   ],
   "seen": [
@@ -4892,7 +4892,11 @@
     "106847063",
     "106847068",
     "106847091",
-    "106847120"
+    "106847120",
+    "106847140",
+    "106847135",
+    "106847131",
+    "106847121"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5484,7 +5488,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T14:18:25.284467+00:00"
+        "xbrl_try": "2026-11-05T15:24:53.046165+00:00"
       },
       {
         "key": "106846966",
@@ -5533,6 +5537,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T15:07:36.280801+00:00"
+      },
+      {
+        "key": "106847135",
+        "seq_id": "106847135",
+        "symbol": "INSECTICID",
+        "company": "Insecticides (India) Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/INSECTICID_05112026151438_Outcome_05112026.pdf",
+        "an_dt": "05-Nov-2026 15:17:52",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T15:24:53.701035+00:00"
       }
     ],
     "ipo_check": "2026-11-05 15",
@@ -6577,6 +6593,10 @@
     "khadim_05112026145652_ufr.pdf",
     "motherson_05112026145442_financial_results.pdf",
     "vtmnse_05112026150358_outcome_of_board_meeting_for_q2_2026.pdf",
-    "nbcc_05112026151051_intimationoutcomeboardmeeting.pdf"
+    "nbcc_05112026151051_intimationoutcomeboardmeeting.pdf",
+    "jaibalaji_05112026151135_outcome051126.pdf",
+    "insecticid_05112026151438_outcome_05112026.pdf",
+    "globe_05112026151532_outcomeofbm05112026signed.pdf",
+    "retail_05112026150948_outcome_retail_final.pdf"
   ]
 }
