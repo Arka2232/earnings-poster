@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "ARMANFIN",
-      "c": "Arman Financial Services Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 234.6419,
-      "pat": 51.4795,
-      "eps": 48.94,
-      "filing": "https://nsearchives.nseindia.com/corporate/ARMANFIN_04112026132201_FINANCIAL_RESULT_Outcome_Q2_2026-27.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ARMANFIN",
-      "t": "04-Nov-2026 13:23:30"
-    },
-    {
-      "d": "2026-11-04",
       "s": "NDRAUTO",
       "c": "Ndr Auto Components Limited",
       "r": "Excellent",
@@ -4248,6 +4234,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/HEXATRADEX_05112026152650_ResultsSept2026SE.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:HEXATRADEX",
       "t": "05-Nov-2026 15:28:06"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "SCHNEIDER",
+      "c": "Schneider Electric Infrastructure Limited",
+      "r": "Bad",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 7.7912,
+      "pat": 0.2965,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/SCHNEIDER_05112026153711_SEILOutcome_FR_05112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SCHNEIDER",
+      "t": "05-Nov-2026 15:37:54"
     }
   ],
   "seen": [
@@ -4898,7 +4898,8 @@
     "106847121",
     "106847149",
     "106847138",
-    "106847172"
+    "106847172",
+    "106847209"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -6626,6 +6627,7 @@
     "retail_05112026150948_outcome_retail_final.pdf",
     "icemake_05112026151937_outcome051126.pdf",
     "elin_05112026151621_outcome5112026.pdf",
-    "hexatradex_05112026152650_resultssept2026se.pdf"
+    "hexatradex_05112026152650_resultssept2026se.pdf",
+    "schneider_05112026153711_seiloutcome_fr_05112026.pdf"
   ]
 }
