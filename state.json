@@ -2,77 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "OSWALGREEN",
-      "c": "Oswal Greentech Limited",
-      "r": "Positive",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 13.8752,
-      "pat": 8.557,
-      "eps": 0.33,
-      "filing": "https://nsearchives.nseindia.com/corporate/BINDALAGRO_04112026170227_Final_Intimation.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:OSWALGREEN",
-      "t": "04-Nov-2026 17:05:50",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752986_04112026070430_WEB.xml"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "ORIENTCER",
-      "c": "ORIENT CERATECH LIMITED",
-      "r": "Bad",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 122.015,
-      "pat": 4.3168,
-      "eps": 0.36,
-      "filing": "https://nsearchives.nseindia.com/corporate/ORIENTABRA_04112026191500_Outcome_SE.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ORIENTCER",
-      "t": "04-Nov-2026 19:16:03"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "PLATIND",
-      "c": "Platinum Industries Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/PLATINUM_04112026191251_Outcome_of_Board_Meeting.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PLATIND",
-      "t": "04-Nov-2026 19:15:29"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "NAVKARURB",
-      "c": "Navkar Urbanstructure Limited",
-      "r": "Positive",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 0.5041,
-      "pat": 0.6315999999999999,
-      "eps": 0.0056,
-      "filing": "https://nsearchives.nseindia.com/corporate/NAVKAR9_04112026191350_Outcome_with_Results_with_LRR.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:NAVKARURB",
-      "t": "04-Nov-2026 19:15:05"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "LUMINO",
-      "c": "Lumino Industries Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 661.423,
-      "pat": 53.020900000000005,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/LUMINO123_04112026191207_OutcomeofBoardMeeting.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:LUMINO",
-      "t": "04-Nov-2026 19:14:14"
-    },
-    {
-      "d": "2026-11-04",
       "s": "MITTAL",
       "c": "Mittal Life Style Limited",
       "r": "Bad",
@@ -4264,6 +4193,78 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SHRENIK",
       "t": "05-Nov-2026 16:59:33",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753820_05112026060418_WEB.xml"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "ADFFOODS",
+      "c": "ADF Foods Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/ADFFOODS1_05112026190725_ADFOutcomeBM05112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ADFFOODS",
+      "t": "05-Nov-2026 19:08:46"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "IKIO",
+      "c": "IKIO Technologies Limited",
+      "r": "Good",
+      "b": "Consolidated",
+      "q": "",
+      "sales": 208.72199999999998,
+      "pat": 12.857,
+      "eps": 1.54,
+      "filing": "https://nsearchives.nseindia.com/corporate/IKIO_05112026190448_OutcomeFinal05112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:IKIO",
+      "t": "05-Nov-2026 19:07:58"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "PARASHLTH",
+      "c": "Paras Healthcare Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 510.895,
+      "pat": 40.35,
+      "eps": 4.0,
+      "filing": "https://nsearchives.nseindia.com/corporate/PARASHEALTH_05112026190023_Outcome_of_BM_Signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PARASHLTH",
+      "t": "05-Nov-2026 19:06:52"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "THERMAX",
+      "c": "Thermax Limited",
+      "r": "Positive",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 2755.87,
+      "pat": 113.11,
+      "eps": 10.17,
+      "filing": "https://nsearchives.nseindia.com/corporate/THERMAXNSE_05112026180056_SEIntimationBMOutcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:THERMAX",
+      "t": "05-Nov-2026 18:02:05",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753918_05112026063454_WEB.xml"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "IRIS",
+      "c": "IRIS RegTech Solutions Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 38.741099999999996,
+      "pat": 1.0937,
+      "eps": 0.53,
+      "filing": "https://nsearchives.nseindia.com/corporate/IRIS_05112026180604_IRIS_OutcomeBM_Nov_signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:IRIS",
+      "t": "05-Nov-2026 18:08:29",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1754017_05112026070643_WEB.xml"
     }
   ],
   "seen": [
@@ -5017,7 +5018,10 @@
     "106848424",
     "106848446",
     "106848461",
-    "106848459"
+    "106848459",
+    "106848486",
+    "106848482",
+    "106848475"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5526,7 +5530,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T18:13:39.802993+00:00"
+        "xbrl_try": "2026-11-05T19:17:08.435989+00:00"
       },
       {
         "key": "106847091",
@@ -5538,7 +5542,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T18:13:40.290294+00:00"
+        "xbrl_try": "2026-11-05T19:17:08.751716+00:00"
       },
       {
         "key": "106847309",
@@ -5550,7 +5554,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T18:13:43.117372+00:00"
+        "xbrl_try": "2026-11-05T19:17:10.420698+00:00"
       },
       {
         "key": "106847333",
@@ -5646,7 +5650,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T18:09:23.550466+00:00"
+        "xbrl_try": "2026-11-05T19:17:10.793376+00:00"
       },
       {
         "key": "106847840",
@@ -5720,30 +5724,6 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T19:05:40.184461+00:00"
-      },
-      {
-        "key": "106848048",
-        "seq_id": "106848048",
-        "symbol": "THERMAX",
-        "company": "Thermax Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/THERMAXNSE_05112026180056_SEIntimationBMOutcome.pdf",
-        "an_dt": "05-Nov-2026 18:02:05",
-        "date": "2026-11-05",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-05T18:09:28.053949+00:00"
-      },
-      {
-        "key": "106848096",
-        "seq_id": "106848096",
-        "symbol": "IRIS",
-        "company": "IRIS RegTech Solutions Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/IRIS_05112026180604_IRIS_OutcomeBM_Nov_signed.pdf",
-        "an_dt": "05-Nov-2026 18:08:29",
-        "date": "2026-11-05",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-05T18:11:27.545913+00:00"
       },
       {
         "key": "106848146",
@@ -5864,6 +5844,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T19:01:12.167024+00:00"
+      },
+      {
+        "key": "106848486",
+        "seq_id": "106848486",
+        "symbol": "ADFFOODS",
+        "company": "ADF Foods Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/ADFFOODS1_05112026190725_ADFOutcomeBM05112026.pdf",
+        "an_dt": "05-Nov-2026 19:08:46",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T19:17:27.673391+00:00"
       }
     ],
     "ipo_check": "2026-11-05 19",
@@ -7018,6 +7010,9 @@
     "dipankarde_05112026185341_ufr_q2_2627_s.pdf",
     "rudra_05112026185655_covering_result_lrr-s.pdf",
     "bcpl_05112026190139_lr.pdf",
-    "ducon_05112026190020_results30092026.pdf"
+    "ducon_05112026190020_results30092026.pdf",
+    "adffoods1_05112026190725_adfoutcomebm05112026.pdf",
+    "ikio_05112026190448_outcomefinal05112026.pdf",
+    "parashealth_05112026190023_outcome_of_bm_signed.pdf"
   ]
 }
