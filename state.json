@@ -2,63 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "CARYSIL",
-      "c": "CARYSIL LIMITED",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/ACRYSIL_04112026141200_Outcome04112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CARYSIL",
-      "t": "04-Nov-2026 14:13:14"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "EXICOM",
-      "c": "Exicom Tele-Systems Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/EXICOM_04112026140942_outcome-signed.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:EXICOM",
-      "t": "04-Nov-2026 14:12:18"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "THANGAMAYL",
-      "c": "Thangamayil Jewellery Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/THANGAMAYL_04112026140903_OUTCOME_OF_MEETING_COVERING_LETTER.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:THANGAMAYL",
-      "t": "04-Nov-2026 14:10:55"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "SJS",
-      "c": "S.J.S. Enterprises Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 282.728,
-      "pat": 58.324999999999996,
-      "eps": 18.08,
-      "filing": "https://nsearchives.nseindia.com/corporate/SJS_04112026141255_BMoutcomeQ2FY27.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SJS",
-      "t": "04-Nov-2026 14:14:34",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752570_04112026034812_WEB.xml"
-    },
-    {
-      "d": "2026-11-04",
       "s": "APLLTD",
       "c": "Alembic Pharmaceuticals Limited",
       "r": "Excellent",
@@ -4250,6 +4193,63 @@
       "filing": "https://nsearchives.nseindia.com/corporate/VATECH_05112026162010_SI_Outcome.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:WABAG",
       "t": "05-Nov-2026 16:25:15"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "MAITHANALL",
+      "c": "Maithan Alloys Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/MAITHANALL_05112026162730_UFRH12627.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MAITHANALL",
+      "t": "05-Nov-2026 16:30:01"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "DHRUV",
+      "c": "Dhruv Consultancy Services Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/DHRUV_05112026162658_OutcomeBM05111026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:DHRUV",
+      "t": "05-Nov-2026 16:28:25"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "SIGNATURE",
+      "c": "Signatureglobal (India) Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 817.4090000000001,
+      "pat": 66.905,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/SGLOBAL_05112026162636_bmouctomesigned.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SIGNATURE",
+      "t": "05-Nov-2026 16:27:53"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "REPL",
+      "c": "Rudrabhishek Enterprises Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 13.418899999999999,
+      "pat": -0.2863,
+      "eps": -0.16,
+      "filing": "https://nsearchives.nseindia.com/corporate/REPL_04112026174859_Outcome_of_Board_Meeting.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:REPL",
+      "t": "04-Nov-2026 18:04:18",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753512_05112026033716_WEB.xml"
     }
   ],
   "seen": [
@@ -4919,7 +4919,10 @@
     "106847398",
     "106847424",
     "106847422",
-    "106847411"
+    "106847411",
+    "106847445",
+    "106847435",
+    "106847430"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -4943,7 +4946,7 @@
         "url": "https://nsearchives.nseindia.com/corporate/PATELINT_02112026155145_Outcome_of_BM_Sept2026_sd.pdf",
         "an_dt": "02-Nov-2026 15:53:28",
         "date": "2026-11-02",
-        "xbrl_try": "2026-11-05T15:32:43.889220+00:00"
+        "xbrl_try": "2026-11-05T16:35:20.339036+00:00"
       },
       {
         "key": "106839719",
@@ -4955,7 +4958,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T15:32:45.503546+00:00"
+        "xbrl_try": "2026-11-05T16:35:21.733083+00:00"
       },
       {
         "key": "106839796",
@@ -4967,7 +4970,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T15:32:47.342963+00:00"
+        "xbrl_try": "2026-11-05T16:35:23.587904+00:00"
       },
       {
         "key": "106840301",
@@ -4979,7 +4982,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T15:32:48.485946+00:00"
+        "xbrl_try": "2026-11-05T16:35:24.503546+00:00"
       },
       {
         "key": "106840295",
@@ -4991,7 +4994,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T15:32:50.096097+00:00"
+        "xbrl_try": "2026-11-05T16:35:26.361787+00:00"
       },
       {
         "key": "106840386",
@@ -5003,7 +5006,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T15:32:51.232505+00:00"
+        "xbrl_try": "2026-11-05T16:35:27.346806+00:00"
       },
       {
         "key": "106840511",
@@ -5015,7 +5018,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T15:32:52.946010+00:00"
+        "xbrl_try": "2026-11-05T16:35:28.576939+00:00"
       },
       {
         "key": "106840621",
@@ -5027,7 +5030,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T15:32:53.829175+00:00"
+        "xbrl_try": "2026-11-05T16:35:29.653637+00:00"
       },
       {
         "key": "106840747",
@@ -5039,7 +5042,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T15:32:55.385927+00:00"
+        "xbrl_try": "2026-11-05T16:35:30.978102+00:00"
       },
       {
         "key": "106841454",
@@ -5051,7 +5054,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T15:32:56.799689+00:00"
+        "xbrl_try": "2026-11-05T16:35:32.389317+00:00"
       },
       {
         "key": "106841577",
@@ -5076,7 +5079,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T15:32:57.931088+00:00"
+        "xbrl_try": "2026-11-05T16:35:33.092723+00:00"
       },
       {
         "key": "106842168",
@@ -5088,7 +5091,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T15:32:59.373843+00:00"
+        "xbrl_try": "2026-11-05T16:35:34.344923+00:00"
       },
       {
         "key": "106842383",
@@ -5100,7 +5103,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T15:33:00.115926+00:00"
+        "xbrl_try": "2026-11-05T16:35:34.985766+00:00"
       },
       {
         "key": "106842647",
@@ -5112,7 +5115,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T15:33:01.580423+00:00"
+        "xbrl_try": "2026-11-05T16:35:36.367863+00:00"
       },
       {
         "key": "106842850",
@@ -5137,7 +5140,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T15:33:02.474730+00:00"
+        "xbrl_try": "2026-11-05T16:35:37.520887+00:00"
       },
       {
         "key": "106843308",
@@ -5149,7 +5152,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T15:33:04.083932+00:00"
+        "xbrl_try": "2026-11-05T16:35:38.574501+00:00"
       },
       {
         "key": "106843847",
@@ -5161,7 +5164,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T15:33:06.439810+00:00"
+        "xbrl_try": "2026-11-05T16:35:40.160730+00:00"
       },
       {
         "key": "106844083",
@@ -5173,7 +5176,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T15:33:07.667208+00:00"
+        "xbrl_try": "2026-11-05T16:35:40.946943+00:00"
       },
       {
         "key": "106844203",
@@ -5185,7 +5188,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T15:33:09.320394+00:00"
+        "xbrl_try": "2026-11-05T16:35:42.039964+00:00"
       },
       {
         "key": "106844278",
@@ -5210,7 +5213,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T15:33:10.327272+00:00"
+        "xbrl_try": "2026-11-05T16:35:42.936790+00:00"
       },
       {
         "key": "106844537",
@@ -5222,7 +5225,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T15:33:11.853642+00:00"
+        "xbrl_try": "2026-11-05T16:35:43.924004+00:00"
       },
       {
         "key": "106844610",
@@ -5234,7 +5237,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T15:33:14.953233+00:00"
+        "xbrl_try": "2026-11-05T16:35:45.546050+00:00"
       },
       {
         "key": "106844723",
@@ -5246,7 +5249,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T15:33:16.518126+00:00"
+        "xbrl_try": "2026-11-05T16:35:46.834642+00:00"
       },
       {
         "key": "106844998",
@@ -5258,19 +5261,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T15:34:42.650681+00:00"
-      },
-      {
-        "key": "106845082",
-        "seq_id": "106845082",
-        "symbol": "REPL",
-        "company": "Rudrabhishek Enterprises Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/REPL_04112026174859_Outcome_of_Board_Meeting.pdf",
-        "an_dt": "04-Nov-2026 18:04:18",
-        "date": "2026-11-04",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-05T15:34:50.130815+00:00"
+        "xbrl_try": "2026-11-05T16:35:47.700545+00:00"
       },
       {
         "key": "106845148",
@@ -5282,7 +5273,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T15:34:52.017722+00:00"
+        "xbrl_try": "2026-11-05T16:35:52.008270+00:00"
       },
       {
         "key": "106845234",
@@ -5294,7 +5285,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T15:34:53.603619+00:00"
+        "xbrl_try": "2026-11-05T16:35:53.133624+00:00"
       },
       {
         "key": "106845707",
@@ -5319,7 +5310,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T15:34:54.547573+00:00"
+        "xbrl_try": "2026-11-05T16:35:54.090676+00:00"
       },
       {
         "key": "106843992",
@@ -5331,7 +5322,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T15:34:55.678010+00:00"
+        "xbrl_try": "2026-11-05T16:35:55.068032+00:00"
       },
       {
         "key": "106846324",
@@ -5391,7 +5382,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T15:34:56.469309+00:00"
+        "xbrl_try": "2026-11-05T16:35:55.854034+00:00"
       },
       {
         "key": "106846724",
@@ -5668,6 +5659,30 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T16:30:27.368599+00:00"
+      },
+      {
+        "key": "106847445",
+        "seq_id": "106847445",
+        "symbol": "MAITHANALL",
+        "company": "Maithan Alloys Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/MAITHANALL_05112026162730_UFRH12627.pdf",
+        "an_dt": "05-Nov-2026 16:30:01",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T16:35:56.314254+00:00"
+      },
+      {
+        "key": "106847435",
+        "seq_id": "106847435",
+        "symbol": "DHRUV",
+        "company": "Dhruv Consultancy Services Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/DHRUV_05112026162658_OutcomeBM05111026.pdf",
+        "an_dt": "05-Nov-2026 16:28:25",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T16:35:56.940922+00:00"
       }
     ],
     "ipo_check": "2026-11-05 16",
@@ -6738,6 +6753,9 @@
     "hbsl_05112026162111_outcome_of_board_meeting.pdf",
     "ahfl2021_05112026162550_final_combined_resultssd.pdf",
     "dpwires_05112026162456_outcome_qt22627_ff_1.pdf",
-    "vatech_05112026162010_si_outcome.pdf"
+    "vatech_05112026162010_si_outcome.pdf",
+    "maithanall_05112026162730_ufrh12627.pdf",
+    "dhruv_05112026162658_outcomebm05111026.pdf",
+    "sglobal_05112026162636_bmouctomesigned.pdf"
   ]
 }
