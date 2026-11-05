@@ -2,34 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "JKLAKSHMI",
-      "c": "JK Lakshmi Cement Limited",
-      "r": "Bad",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 1616.92,
-      "pat": 20.88,
-      "eps": 1.68,
-      "filing": "https://nsearchives.nseindia.com/corporate/JKLASHMI_04112026170921_OUTCOME.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:JKLAKSHMI",
-      "t": "04-Nov-2026 17:10:25"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "CENTUM",
-      "c": "Centum Electronics Limited",
-      "r": "Bad",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 311.819,
-      "pat": 22.927000000000003,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/CENTUME_04112026165926_OutcomeofBM4112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CENTUM",
-      "t": "04-Nov-2026 17:10:11"
-    },
-    {
-      "d": "2026-11-04",
       "s": "ADVANCE",
       "c": "Advance Agrolife Limited",
       "r": "Results Filed",
@@ -4255,6 +4227,34 @@
       "filing": "https://nsearchives.nseindia.com/corporate/SINCLAIRS_05112026174156_Outcome_of_Board_Meeting_05112026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SINCLAIR",
       "t": "05-Nov-2026 17:46:21"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "JUBLCPL",
+      "c": "Jubilant Agri and Consumer Products Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 589.82,
+      "pat": 17.58,
+      "eps": 11.61,
+      "filing": "https://nsearchives.nseindia.com/corporate/JACPL_05112026175114_JACPL_FR_SEPT302026_Signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:JUBLCPL",
+      "t": "05-Nov-2026 17:53:25"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "TEXINFRA",
+      "c": "Texmaco Infrastructure & Holdings Limited",
+      "r": "Positive",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 3.3813,
+      "pat": 0.2916,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/TEXINFRA2_05112026175145_SEoutcomeBM05112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:TEXINFRA",
+      "t": "05-Nov-2026 17:53:19"
     }
   ],
   "seen": [
@@ -4970,7 +4970,9 @@
     "106847963",
     "106847961",
     "106847948",
-    "106847944"
+    "106847944",
+    "106847988",
+    "106847985"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -7039,6 +7041,8 @@
     "mufin_05112026174841_bm_outcome_final.pdf",
     "pankajchawla_05112026174312_outcome_of_board_meeting-05-11-2026.pdf",
     "sula_05112026174511_se_intimation_bm_outcome_05112026.pdf",
-    "sinclairs_05112026174156_outcome_of_board_meeting_05112026.pdf"
+    "sinclairs_05112026174156_outcome_of_board_meeting_05112026.pdf",
+    "jacpl_05112026175114_jacpl_fr_sept302026_signed.pdf",
+    "texinfra2_05112026175145_seoutcomebm05112026.pdf"
   ]
 }
