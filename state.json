@@ -2,121 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "THEINVEST",
-      "c": "The Investment Trust Of India Limited",
-      "r": "Positive",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 1.9880000000000002,
-      "pat": 0.2039,
-      "eps": 0.04,
-      "filing": "https://nsearchives.nseindia.com/corporate/THEINVEST_04112026184306_TheITIOutcomeofMeeting_Sept26.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:THEINVEST",
-      "t": "04-Nov-2026 18:45:31"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "RUCHINFRA",
-      "c": "Ruchi Infrastructure Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 16.529999999999998,
-      "pat": 3.73,
-      "eps": 0.12,
-      "filing": "https://nsearchives.nseindia.com/corporate/RUCHINFRA_04112026174648_OutcomeofBoardMeetingheldon04112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:RUCHINFRA",
-      "t": "04-Nov-2026 17:47:51",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752803_04112026055341_WEB.xml"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "STEELCITY",
-      "c": "Steel City Securities Limited",
-      "r": "Good",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 16.716900000000003,
-      "pat": 4.1552999999999995,
-      "eps": 2.75,
-      "filing": "https://nsearchives.nseindia.com/corporate/STEELCITY_04112026184952_Outcome.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:STEELCITY",
-      "t": "04-Nov-2026 18:51:02"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "TRACXN",
-      "c": "Tracxn Technologies Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 21.301299999999998,
-      "pat": -4.1262,
-      "eps": -0.39,
-      "filing": "https://nsearchives.nseindia.com/corporate/TRACXN_04112026154600_Outcome.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:TRACXN",
-      "t": "04-Nov-2026 15:47:50",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752939_04112026064802_WEB.xml"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "EPL",
-      "c": "EPL Limited",
-      "r": "Bad",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 1567.3999999999999,
-      "pat": 110.89999999999999,
-      "eps": 3.44,
-      "filing": "https://nsearchives.nseindia.com/corporate/Sonia_Gupte_04112026164105_OutcomeOfBMSd.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:EPL",
-      "t": "04-Nov-2026 16:46:05",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752892_04112026062638_WEB.xml"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "HARIOMPIPE",
-      "c": "Hariom Pipe Industries Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 554.24,
-      "pat": 28.5233,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/hariompipes_04112026184615_Outcome_of_BM_04112026_Signed.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:HARIOMPIPE",
-      "t": "04-Nov-2026 18:52:34"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "MAYURUNIQ",
-      "c": "Mayur Uniquoters Ltd",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/MAYURUNIQ_04112026185004_OBMSD04112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MAYURUNIQ",
-      "t": "04-Nov-2026 18:54:51"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "SHRINGARMS",
-      "c": "Shringar House of Mangalsutra Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 818.662,
-      "pat": 39.47200000000001,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/SHRINGAR_04112026185053_SHOM_Outcome_of_BM_final.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SHRINGARMS",
-      "t": "04-Nov-2026 18:54:39"
-    },
-    {
-      "d": "2026-11-04",
       "s": "BALKRISIND",
       "c": "Balkrishna Industries Limited",
       "r": "Weak",
@@ -4263,6 +4148,123 @@
       "filing": "https://nsearchives.nseindia.com/corporate/bdesai_05112026184248_Outcome_of_BM_05112026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:GCSL",
       "t": "05-Nov-2026 18:45:29"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "PRESTIGE",
+      "c": "Prestige Estates Projects Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 20.602000000000004,
+      "pat": 2.5620000000000003,
+      "eps": 5.2,
+      "filing": "https://nsearchives.nseindia.com/corporate/PRESTIGE_05112026185402_OutcomeQ2FY27.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PRESTIGE",
+      "t": "05-Nov-2026 18:55:22"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "ALPINETEX",
+      "c": "Alpine Texworld Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/ALPINETEX_05112026185202_Outcome_of_Board_Meeting.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ALPINETEX",
+      "t": "05-Nov-2026 18:54:44"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "UTLSOLAR",
+      "c": "Fujiyama Power Systems Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/UTLSOLAR2024_05112026185058_NSE_BSE_Outcome_Board_Meeting_05_11_2026_final.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:UTLSOLAR",
+      "t": "05-Nov-2026 18:52:22"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "WINDLAS",
+      "c": "Windlas Biotech Limited",
+      "r": "Good",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 263.908,
+      "pat": 18.052,
+      "eps": 8.75,
+      "filing": "https://nsearchives.nseindia.com/corporate/WINDLAS_05112026163307_UFR_Q2_UP.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:WINDLAS",
+      "t": "05-Nov-2026 16:37:48",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753843_05112026060948_WEB.xml"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "INDIASHLTR",
+      "c": "India Shelter Finance Corporation Limited",
+      "r": "Good",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 450.3687,
+      "pat": 145.6301,
+      "eps": 13.36,
+      "filing": "https://nsearchives.nseindia.com/corporate/ISFC2010_05112026162801_Outcome_of_Board_Meeting_Intimation.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:INDIASHLTR",
+      "t": "05-Nov-2026 16:36:48",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NBFC_INDAS_1753783_05112026055125_WEB.xml"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "HCL-INSYS",
+      "c": "HCL Infosystems Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 4.13,
+      "pat": -14.94,
+      "eps": -0.45,
+      "filing": "https://nsearchives.nseindia.com/corporate/HCL-INSYS1_05112026174043_HCLI.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:HCL_INSYS",
+      "t": "05-Nov-2026 17:43:23",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753716_05112026053844_WEB.xml"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "ORIENTALTL",
+      "c": "Oriental Trimex Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 3.6702,
+      "pat": 0.38999999999999996,
+      "eps": 0.07,
+      "filing": "https://nsearchives.nseindia.com/corporate/ORIENTALTL_05112026174653_Outcome_of_BM_and_Financial_Results.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ORIENTALTL",
+      "t": "05-Nov-2026 17:50:37",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753767_05112026054629_WEB.xml"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "SINCLAIR",
+      "c": "Sinclairs Hotels Limited",
+      "r": "Positive",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 8.8004,
+      "pat": -1.2721,
+      "eps": -0.25,
+      "filing": "https://nsearchives.nseindia.com/corporate/SINCLAIRS_05112026174156_Outcome_of_Board_Meeting_05112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SINCLAIR",
+      "t": "05-Nov-2026 17:46:21",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753769_05112026054644_WEB.xml"
     }
   ],
   "seen": [
@@ -5009,7 +5011,10 @@
     "106848304",
     "106848343",
     "106848342",
-    "106848359"
+    "106848359",
+    "106848418",
+    "106848414",
+    "106848404"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5421,7 +5426,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T17:51:54.612089+00:00"
+        "xbrl_try": "2026-11-05T19:00:38.761281+00:00"
       },
       {
         "key": "106846401",
@@ -5457,7 +5462,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T17:51:56.236968+00:00"
+        "xbrl_try": "2026-11-05T19:00:39.976228+00:00"
       },
       {
         "key": "106846931",
@@ -5617,30 +5622,6 @@
         "xbrl_try": "2026-11-05T18:46:10.452034+00:00"
       },
       {
-        "key": "106847479",
-        "seq_id": "106847479",
-        "symbol": "WINDLAS",
-        "company": "Windlas Biotech Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/WINDLAS_05112026163307_UFR_Q2_UP.pdf",
-        "an_dt": "05-Nov-2026 16:37:48",
-        "date": "2026-11-05",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-05T17:51:57.167975+00:00"
-      },
-      {
-        "key": "106847472",
-        "seq_id": "106847472",
-        "symbol": "INDIASHLTR",
-        "company": "India Shelter Finance Corporation Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/ISFC2010_05112026162801_Outcome_of_Board_Meeting_Intimation.pdf",
-        "an_dt": "05-Nov-2026 16:36:48",
-        "date": "2026-11-05",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-05T17:52:04.157449+00:00"
-      },
-      {
         "key": "106847539",
         "seq_id": "106847539",
         "symbol": "GODIGIT",
@@ -5650,7 +5631,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T17:57:12.569022+00:00"
+        "xbrl_try": "2026-11-05T19:00:52.169153+00:00"
       },
       {
         "key": "106847532",
@@ -5662,7 +5643,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T17:57:13.256094+00:00"
+        "xbrl_try": "2026-11-05T19:00:52.899019+00:00"
       },
       {
         "key": "106847593",
@@ -5726,18 +5707,6 @@
         "xbrl_blocked": "other-taxonomy"
       },
       {
-        "key": "106847926",
-        "seq_id": "106847926",
-        "symbol": "HCL-INSYS",
-        "company": "HCL Infosystems Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/HCL-INSYS1_05112026174043_HCLI.pdf",
-        "an_dt": "05-Nov-2026 17:43:23",
-        "date": "2026-11-05",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-05T17:52:11.615403+00:00"
-      },
-      {
         "key": "106847921",
         "seq_id": "106847921",
         "symbol": "ASTRAZEN",
@@ -5747,7 +5716,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T17:52:12.035536+00:00"
+        "xbrl_try": "2026-11-05T19:00:59.240650+00:00"
       },
       {
         "key": "106847917",
@@ -5759,31 +5728,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T17:52:12.877100+00:00"
-      },
-      {
-        "key": "106847965",
-        "seq_id": "106847965",
-        "symbol": "ORIENTALTL",
-        "company": "Oriental Trimex Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/ORIENTALTL_05112026174653_Outcome_of_BM_and_Financial_Results.pdf",
-        "an_dt": "05-Nov-2026 17:50:37",
-        "date": "2026-11-05",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-05T17:55:17.020847+00:00"
-      },
-      {
-        "key": "106847944",
-        "seq_id": "106847944",
-        "symbol": "SINCLAIR",
-        "company": "Sinclairs Hotels Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/SINCLAIRS_05112026174156_Outcome_of_Board_Meeting_05112026.pdf",
-        "an_dt": "05-Nov-2026 17:46:21",
-        "date": "2026-11-05",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-05T17:55:24.294039+00:00"
+        "xbrl_try": "2026-11-05T19:00:59.947454+00:00"
       },
       {
         "key": "106848036",
@@ -5916,9 +5861,33 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T18:46:21.190976+00:00"
+      },
+      {
+        "key": "106848414",
+        "seq_id": "106848414",
+        "symbol": "ALPINETEX",
+        "company": "Alpine Texworld Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/ALPINETEX_05112026185202_Outcome_of_Board_Meeting.pdf",
+        "an_dt": "05-Nov-2026 18:54:44",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T19:01:11.858757+00:00"
+      },
+      {
+        "key": "106848404",
+        "seq_id": "106848404",
+        "symbol": "UTLSOLAR",
+        "company": "Fujiyama Power Systems Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/UTLSOLAR2024_05112026185058_NSE_BSE_Outcome_Board_Meeting_05_11_2026_final.pdf",
+        "an_dt": "05-Nov-2026 18:52:22",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T19:01:12.167024+00:00"
       }
     ],
-    "ipo_check": "2026-11-05 18",
+    "ipo_check": "2026-11-05 19",
     "ipo_posted": [
       "BCSSL",
       "HGSINDIALT",
@@ -7063,6 +7032,9 @@
     "paraspetro_05112026183708_outcome_of_board_meeting.pdf",
     "mangalam_05112026183714_se41.pdf",
     "praxis_05112026183636_05112026_outcome_of_bm_sg.pdf",
-    "bdesai_05112026184248_outcome_of_bm_05112026.pdf"
+    "bdesai_05112026184248_outcome_of_bm_05112026.pdf",
+    "prestige_05112026185402_outcomeq2fy27.pdf",
+    "alpinetex_05112026185202_outcome_of_board_meeting.pdf",
+    "utlsolar2024_05112026185058_nse_bse_outcome_board_meeting_05_11_2026_final.pdf"
   ]
 }
