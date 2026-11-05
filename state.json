@@ -786,7 +786,8 @@
     "106848781",
     "106848840",
     "106848882",
-    "106848890"
+    "106848890",
+    "106848901"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1449,7 +1450,8 @@
     "bagfilms_05112026202531_bagfilmsobmufr3009202605112026.pdf",
     "lemontree_05112026204533_outcome_of_board_meeting_nov_2026.pdf",
     "gokex_05112026211849_outcome_of_bm.pdf",
-    "dbr_05112026212051_outcome_financial_results.pdf"
+    "dbr_05112026212051_outcome_financial_results.pdf",
+    "powericanse_05112026213124_board_meeting_outcome.pdf"
   ],
   "digest": {
     "today_results": {
@@ -2162,7 +2164,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T20:30:58.874842+00:00"
+        "xbrl_try": "2026-11-05T21:36:52.511221+00:00"
       },
       {
         "key": "106846928",
@@ -2187,7 +2189,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T20:30:59.293969+00:00"
+        "xbrl_try": "2026-11-05T21:36:52.841735+00:00"
       },
       {
         "key": "106846966",
@@ -2235,7 +2237,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T20:30:59.705402+00:00"
+        "xbrl_try": "2026-11-05T21:36:53.201574+00:00"
       },
       {
         "key": "106847402",
@@ -2309,7 +2311,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T20:31:01.129659+00:00"
+        "xbrl_try": "2026-11-05T21:36:54.696641+00:00"
       },
       {
         "key": "106848206",
@@ -2405,7 +2407,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T20:31:01.611163+00:00"
+        "xbrl_try": "2026-11-05T21:36:55.082985+00:00"
       },
       {
         "key": "106848570",
@@ -2465,7 +2467,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T20:31:02.377050+00:00"
+        "xbrl_try": "2026-11-05T21:36:56.604531+00:00"
       },
       {
         "key": "106848785",
@@ -6922,6 +6924,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/DBR_05112026212051_Outcome_financial_results.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:DBREALTY",
       "t": "05-Nov-2026 21:23:43"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "POWERICA",
+      "c": "Powerica Limited",
+      "r": "Weak",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 847.6,
+      "pat": 70.92,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/PowericaNSE_05112026213124_Board_meeting_outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:POWERICA",
+      "t": "05-Nov-2026 21:32:16"
     }
   ]
 }
