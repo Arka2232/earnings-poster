@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "CAPACITE",
-      "c": "Capacit'e Infraprojects Limited",
-      "r": "Positive",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 770.9344000000001,
-      "pat": 47.5636,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/CAPACITE_04112026145318_BM_Outcome.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CAPACITE",
-      "t": "04-Nov-2026 14:53:33"
-    },
-    {
-      "d": "2026-11-04",
       "s": "CPCAP",
       "c": "CP Capital Limited",
       "r": "Excellent",
@@ -4251,6 +4237,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/KINGFA_05112026164250_BM_Outcome_Final.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:KINGFA",
       "t": "05-Nov-2026 16:47:49"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "GPTHEALTH",
+      "c": "GPT Healthcare Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 135.6217,
+      "pat": 15.4025,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/GPTHEALTHCARE_05112026164646_GHL-Outcome_dated_05112026_SGD.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GPTHEALTH",
+      "t": "05-Nov-2026 16:49:48"
     }
   ],
   "seen": [
@@ -4930,7 +4930,8 @@
     "106847479",
     "106847473",
     "106847472",
-    "106847520"
+    "106847520",
+    "106847528"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -6795,6 +6796,7 @@
     "windlas_05112026163307_ufr_q2_up.pdf",
     "manyavar_05112026163429_outcomeofbm05112026signed.pdf",
     "isfc2010_05112026162801_outcome_of_board_meeting_intimation.pdf",
-    "kingfa_05112026164250_bm_outcome_final.pdf"
+    "kingfa_05112026164250_bm_outcome_final.pdf",
+    "gpthealthcare_05112026164646_ghl-outcome_dated_05112026_sgd.pdf"
   ]
 }
