@@ -1,48 +1,6 @@
 {
   "archive": [
     {
-      "d": "2026-11-03",
-      "s": "HMAAGRO",
-      "c": "HMA Agro Industries Limited",
-      "r": "Good",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 2779.481,
-      "pat": 104.56700000000001,
-      "eps": 2.08,
-      "filing": "https://nsearchives.nseindia.com/corporate/HMA_03112026130454_OUTCOMEOFBMSeptemberQ22627.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:HMAAGRO",
-      "t": "03-Nov-2026 13:08:10"
-    },
-    {
-      "d": "2026-11-03",
-      "s": "INDLMETER",
-      "c": "IMP Powers Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 37.3022,
-      "pat": 7.6771,
-      "eps": 8.89,
-      "filing": "https://nsearchives.nseindia.com/corporate/INDLMETER_03112026180338_OutcomeFinal.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:INDLMETER",
-      "t": "03-Nov-2026 18:05:39"
-    },
-    {
-      "d": "2026-11-03",
-      "s": "JOCIL",
-      "c": "Jocil Limited",
-      "r": "Positive",
-      "b": "Standalone",
-      "q": "Q3 FY27",
-      "sales": 236.58970000000002,
-      "pat": 2.1745,
-      "eps": 2.45,
-      "filing": "https://nsearchives.nseindia.com/corporate/JOCIL_03112026133954_OUTCOME03112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:JOCIL",
-      "t": "03-Nov-2026 13:42:48"
-    },
-    {
       "d": "2026-11-04",
       "s": "RML",
       "c": "Rane (Madras) Limited",
@@ -4248,6 +4206,48 @@
       "filing": "https://nsearchives.nseindia.com/corporate/PRAKASHSTL_05112026140505_Outcome_of_BM__1_.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:PRAKASHSTL",
       "t": "05-Nov-2026 14:06:47"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "KRONOX",
+      "c": "Kronox Lab Sciences Limited",
+      "r": "Positive",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 26.834200000000003,
+      "pat": 6.4403,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/KRONOX_05112026140829_OUTCOME__OF_BM_05112026_OCR.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:KRONOX",
+      "t": "05-Nov-2026 14:10:01"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "AVADHSUGAR",
+      "c": "Avadh Sugar & Energy Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/AVADHSUGAR_05112026140819_aselresultssg.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:AVADHSUGAR",
+      "t": "05-Nov-2026 14:10:00"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "SABEVENTS",
+      "c": "Sab Events & Governance Now Media Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/SABEVENTS_05112026140448_Outcome_SAB_Events_Sept26.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SABEVENTS",
+      "t": "05-Nov-2026 14:09:17"
     }
   ],
   "seen": [
@@ -4871,7 +4871,10 @@
     "106846907",
     "106846920",
     "106846923",
-    "106846921"
+    "106846921",
+    "106846932",
+    "106846931",
+    "106846928"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5463,6 +5466,30 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T14:07:31.098328+00:00"
+      },
+      {
+        "key": "106846931",
+        "seq_id": "106846931",
+        "symbol": "AVADHSUGAR",
+        "company": "Avadh Sugar & Energy Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/AVADHSUGAR_05112026140819_aselresultssg.pdf",
+        "an_dt": "05-Nov-2026 14:10:00",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T14:12:06.260605+00:00"
+      },
+      {
+        "key": "106846928",
+        "seq_id": "106846928",
+        "symbol": "SABEVENTS",
+        "company": "Sab Events & Governance Now Media Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/SABEVENTS_05112026140448_Outcome_SAB_Events_Sept26.pdf",
+        "an_dt": "05-Nov-2026 14:09:17",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T14:12:07.025333+00:00"
       }
     ],
     "ipo_check": "2026-11-05 14",
@@ -6487,6 +6514,9 @@
     "beml_05112026135743_30299-001_20261105_161537__4_files_merged_.pdf",
     "goacarbon_05112026140206_goacarbon_uafr_q2fy2627_30092026.pdf",
     "safariind_05112026140552_bmoutcomev2.pdf",
-    "prakashstl_05112026140505_outcome_of_bm__1_.pdf"
+    "prakashstl_05112026140505_outcome_of_bm__1_.pdf",
+    "kronox_05112026140829_outcome__of_bm_05112026_ocr.pdf",
+    "avadhsugar_05112026140819_aselresultssg.pdf",
+    "sabevents_05112026140448_outcome_sab_events_sept26.pdf"
   ]
 }
