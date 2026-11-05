@@ -2,21 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "INDIQUBE",
-      "c": "Indiqube Spaces Limited",
-      "r": "Positive",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 471.9,
-      "pat": -5.867999999999999,
-      "eps": -0.28,
-      "filing": "https://nsearchives.nseindia.com/corporate/INDIQUBE_03112026190216_INDIQUBE.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:INDIQUBE",
-      "t": "03-Nov-2026 19:05:53",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752214_03112026080410_WEB.xml"
-    },
-    {
-      "d": "2026-11-03",
       "s": "RUSHABEAR",
       "c": "Rushabh Precision Bearings Limited",
       "r": "Results Filed",
@@ -4256,6 +4241,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/SHIPROCKET2011_05112026112847_Board_Meeting_Outcome.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SHIPROCKET",
       "t": "05-Nov-2026 11:39:45"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "SAMPANN",
+      "c": "Sampann Utpadan India Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 48.8057,
+      "pat": 2.0573,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/SEPOWER_05112026114440_Outcome_of_BoardMeeting_05112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SAMPANN",
+      "t": "05-Nov-2026 11:46:08"
     }
   ],
   "seen": [
@@ -4838,7 +4837,8 @@
     "106846382",
     "106846401",
     "106846403",
-    "106846424"
+    "106846424",
+    "106846439"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -6293,6 +6293,7 @@
     "hesterbio_05112026111348_20261105outcomeofboardmeeting.pdf",
     "cesc_05112026112827_1.pdf",
     "ramanews_05112026113050_o.pdf",
-    "shiprocket2011_05112026112847_board_meeting_outcome.pdf"
+    "shiprocket2011_05112026112847_board_meeting_outcome.pdf",
+    "sepower_05112026114440_outcome_of_boardmeeting_05112026.pdf"
   ]
 }
