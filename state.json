@@ -1,21 +1,6 @@
 {
   "archive": [
     {
-      "d": "2026-11-04",
-      "s": "RML",
-      "c": "Rane (Madras) Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 1237.1399999999999,
-      "pat": 326.68,
-      "eps": 118.2,
-      "filing": "https://nsearchives.nseindia.com/corporate/RMLCS_03112026151026_RMLUFRQ2202627_SD.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:RML",
-      "t": "03-Nov-2026 15:11:15",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752103_03112026065739_WEB.xml"
-    },
-    {
       "d": "2026-11-03",
       "s": "SANDUMA",
       "c": "Sandur Manganese & Iron Ores Limited",
@@ -4248,6 +4233,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/SABEVENTS_05112026140448_Outcome_SAB_Events_Sept26.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SABEVENTS",
       "t": "05-Nov-2026 14:09:17"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "CEIGALL",
+      "c": "Ceigall India Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/ceigall_05112026140835_Outcome_05112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CEIGALL",
+      "t": "05-Nov-2026 14:12:46"
     }
   ],
   "seen": [
@@ -4874,7 +4873,8 @@
     "106846921",
     "106846932",
     "106846931",
-    "106846928"
+    "106846928",
+    "106846940"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5381,7 +5381,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T13:15:54.195442+00:00"
+        "xbrl_try": "2026-11-05T14:16:21.635758+00:00"
       },
       {
         "key": "106846843",
@@ -5490,6 +5490,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T14:12:07.025333+00:00"
+      },
+      {
+        "key": "106846940",
+        "seq_id": "106846940",
+        "symbol": "CEIGALL",
+        "company": "Ceigall India Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/ceigall_05112026140835_Outcome_05112026.pdf",
+        "an_dt": "05-Nov-2026 14:12:46",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T14:16:21.994981+00:00"
       }
     ],
     "ipo_check": "2026-11-05 14",
@@ -6517,6 +6529,7 @@
     "prakashstl_05112026140505_outcome_of_bm__1_.pdf",
     "kronox_05112026140829_outcome__of_bm_05112026_ocr.pdf",
     "avadhsugar_05112026140819_aselresultssg.pdf",
-    "sabevents_05112026140448_outcome_sab_events_sept26.pdf"
+    "sabevents_05112026140448_outcome_sab_events_sept26.pdf",
+    "ceigall_05112026140835_outcome_05112026.pdf"
   ]
 }
