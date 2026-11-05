@@ -2,35 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "DELTAMAGNT",
-      "c": "Delta Manufacturing Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/DELTAMAGNT_04112026182906_DML.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:DELTAMAGNT",
-      "t": "04-Nov-2026 18:33:25"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "JISLJALEQS",
-      "c": "Jain Irrigation Systems Limited",
-      "r": "Good",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 1576.6599999999999,
-      "pat": 18.009999999999998,
-      "eps": 0.23,
-      "filing": "https://nsearchives.nseindia.com/corporate/JISLJALEQS_04112026152910_SE_Letter_Outcome_Financial_Results_SEPT2026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:JISLJALEQS",
-      "t": "04-Nov-2026 15:30:52",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752838_04112026060805_WEB.xml"
-    },
-    {
-      "d": "2026-11-04",
       "s": "GKSL",
       "c": "Gujarat Kidney And Super Speciality Limited",
       "r": "Excellent",
@@ -4261,6 +4232,34 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:HEXATRADEX",
       "t": "05-Nov-2026 15:28:06",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753726_05112026053952_WEB.xml"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "RNBDENIMS",
+      "c": "R&B Denims Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 149.2425,
+      "pat": 11.1943,
+      "eps": 0.22,
+      "filing": "https://nsearchives.nseindia.com/corporate/RBDENIMS_05112026183103_Outcome_of_Board_Meeting.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:RNBDENIMS",
+      "t": "05-Nov-2026 18:35:40"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "HINDCOMPOS",
+      "c": "Hindustan Composites Limited",
+      "r": "Bad",
+      "b": "Standalone",
+      "q": "Q3 FY30",
+      "sales": 0.342,
+      "pat": 2.4257,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/HINDCOMPOS_05112026182726_HCLOutcomeofbmReg30and33.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:HINDCOMPOS",
+      "t": "05-Nov-2026 18:35:25"
     }
   ],
   "seen": [
@@ -5001,7 +5000,9 @@
     "106848255",
     "106848247",
     "106848272",
-    "106848265"
+    "106848265",
+    "106848283",
+    "106848282"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -7084,6 +7085,8 @@
     "britannia1_05112026182929_outcome_of_the_board_meeting.pdf",
     "dci_05112026182837_dc_infotech_outcome_of_boardmeeting_05112026.pdf",
     "bellacasa_05112026182519_results051126.pdf",
-    "kalpatpowr_05112026183240_results.pdf"
+    "kalpatpowr_05112026183240_results.pdf",
+    "rbdenims_05112026183103_outcome_of_board_meeting.pdf",
+    "hindcompos_05112026182726_hcloutcomeofbmreg30and33.pdf"
   ]
 }
