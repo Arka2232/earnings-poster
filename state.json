@@ -2,21 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "MITTAL",
-      "c": "Mittal Life Style Limited",
-      "r": "Bad",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 25.490199999999998,
-      "pat": 0.3534,
-      "eps": 0.01,
-      "filing": "https://nsearchives.nseindia.com/corporate/MITTAL_04112026181130_Mittal_Life_Style_Limited_NSE_Filing_30-09-2026_FINALFINAL.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MITTAL",
-      "t": "04-Nov-2026 18:13:57",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752879_04112026062010_WEB.xml"
-    },
-    {
-      "d": "2026-11-04",
       "s": "SCI",
       "c": "Shipping Corporation Of India Limited",
       "r": "Excellent",
@@ -4265,6 +4250,20 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:IRIS",
       "t": "05-Nov-2026 18:08:29",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1754017_05112026070643_WEB.xml"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "SPENCERS",
+      "c": "Spencer's Retail Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/SPENCERS_05112026191259_Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SPENCERS",
+      "t": "05-Nov-2026 19:14:46"
     }
   ],
   "seen": [
@@ -5021,7 +5020,8 @@
     "106848459",
     "106848486",
     "106848482",
-    "106848475"
+    "106848475",
+    "106848516"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5856,6 +5856,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T19:17:27.673391+00:00"
+      },
+      {
+        "key": "106848516",
+        "seq_id": "106848516",
+        "symbol": "SPENCERS",
+        "company": "Spencer's Retail Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/SPENCERS_05112026191259_Outcome.pdf",
+        "an_dt": "05-Nov-2026 19:14:46",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T19:19:28.025495+00:00"
       }
     ],
     "ipo_check": "2026-11-05 19",
@@ -7013,6 +7025,7 @@
     "ducon_05112026190020_results30092026.pdf",
     "adffoods1_05112026190725_adfoutcomebm05112026.pdf",
     "ikio_05112026190448_outcomefinal05112026.pdf",
-    "parashealth_05112026190023_outcome_of_bm_signed.pdf"
+    "parashealth_05112026190023_outcome_of_bm_signed.pdf",
+    "spencers_05112026191259_outcome.pdf"
   ]
 }
