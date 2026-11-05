@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "SANGAMIND",
-      "c": "Sangam (India) Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 10.302000000000001,
-      "pat": 0.5145000000000001,
-      "eps": 10.57,
-      "filing": "https://nsearchives.nseindia.com/corporate/SANGAMIND_04112026122419_Covering_12_15_merged__1_.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SANGAMIND",
-      "t": "04-Nov-2026 12:31:07"
-    },
-    {
-      "d": "2026-11-04",
       "s": "BLAL",
       "c": "BEML Land Assets Limited",
       "r": "Positive",
@@ -4246,6 +4232,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/KHADIM_05112026145652_UFR.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:KHADIM",
       "t": "05-Nov-2026 14:58:06"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "MOTHERSON",
+      "c": "Samvardhana Motherson International Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/MOTHERSON_05112026145442_Financial_Results.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MOTHERSON",
+      "t": "05-Nov-2026 14:58:36"
     }
   ],
   "seen": [
@@ -4886,7 +4886,8 @@
     "106847040",
     "106847039",
     "106847056",
-    "106847063"
+    "106847063",
+    "106847068"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5539,6 +5540,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T14:57:54.120672+00:00"
+      },
+      {
+        "key": "106847068",
+        "seq_id": "106847068",
+        "symbol": "MOTHERSON",
+        "company": "Samvardhana Motherson International Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/MOTHERSON_05112026145442_Financial_Results.pdf",
+        "an_dt": "05-Nov-2026 14:58:36",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T15:05:04.612753+00:00"
       }
     ],
     "ipo_check": "2026-11-05 15",
@@ -6580,6 +6593,7 @@
     "tega_05112026145213_intimation_outcome_board_meeting_sd.pdf",
     "texrail_05112026145026_texrailbmoutcome05112026signed.pdf",
     "apollopipe_05112026145418_outcomeofbm05112026signed.pdf",
-    "khadim_05112026145652_ufr.pdf"
+    "khadim_05112026145652_ufr.pdf",
+    "motherson_05112026145442_financial_results.pdf"
   ]
 }
