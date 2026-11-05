@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "63MOONS",
-      "c": "63 moons technologies limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 3456.56,
-      "pat": 1200.28,
-      "eps": 2.6,
-      "filing": "https://nsearchives.nseindia.com/corporate/63MOONS_04112026173552_FinancialResults04112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:63MOONS",
-      "t": "04-Nov-2026 17:37:06"
-    },
-    {
-      "d": "2026-11-04",
       "s": "OAL",
       "c": "Oriental Aromatics Limited",
       "r": "Excellent",
@@ -4258,6 +4244,20 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:RAMCOCEM",
       "t": "05-Nov-2026 18:09:57",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753851_05112026061247_WEB.xml"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "VENUSPIPES",
+      "c": "Venus Pipes & Tubes Limited",
+      "r": "Positive",
+      "b": "Standalone",
+      "q": "Q3 FY27",
+      "sales": 361.05400000000003,
+      "pat": 26.024,
+      "eps": 12.56,
+      "filing": "https://nsearchives.nseindia.com/corporate/VENUSPIPES_05112026181011_Outcome_of_BM_Results_Q2FY27.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:VENUSPIPES",
+      "t": "05-Nov-2026 18:11:21"
     }
   ],
   "seen": [
@@ -4983,7 +4983,8 @@
     "106848044",
     "106848037",
     "106848096",
-    "106848108"
+    "106848108",
+    "106848118"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -7050,6 +7051,7 @@
     "arrowgreen_05112026180136_outcomeofboardmeeting05112026.pdf",
     "excelsoft_05112026175905_outcome05112026sd.pdf",
     "iris_05112026180604_iris_outcomebm_nov_signed.pdf",
-    "ramcocem_05112026180841_results30092026.pdf"
+    "ramcocem_05112026180841_results30092026.pdf",
+    "venuspipes_05112026181011_outcome_of_bm_results_q2fy27.pdf"
   ]
 }
