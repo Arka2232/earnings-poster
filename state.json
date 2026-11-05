@@ -784,7 +784,8 @@
     "106848776",
     "106848785",
     "106848781",
-    "106848840"
+    "106848840",
+    "106848882"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1445,7 +1446,8 @@
     "armeeinfotech_05112026202125_outcome_of_board_meeting__september_2026_pj_sj__1_.pdf",
     "timetechno_05112026202626_outcome05112026.pdf",
     "bagfilms_05112026202531_bagfilmsobmufr3009202605112026.pdf",
-    "lemontree_05112026204533_outcome_of_board_meeting_nov_2026.pdf"
+    "lemontree_05112026204533_outcome_of_board_meeting_nov_2026.pdf",
+    "gokex_05112026211849_outcome_of_bm.pdf"
   ],
   "digest": {
     "today_results": {
@@ -2198,18 +2200,6 @@
         "xbrl_try": "2026-11-05T20:40:52.501350+00:00"
       },
       {
-        "key": "106847068",
-        "seq_id": "106847068",
-        "symbol": "MOTHERSON",
-        "company": "Samvardhana Motherson International Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/MOTHERSON_05112026145442_Financial_Results.pdf",
-        "an_dt": "05-Nov-2026 14:58:36",
-        "date": "2026-11-05",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-05T20:17:19.923589+00:00"
-      },
-      {
         "key": "106847091",
         "seq_id": "106847091",
         "symbol": "VTMLTD",
@@ -2219,7 +2209,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T20:17:20.354757+00:00"
+        "xbrl_try": "2026-11-05T21:25:26.072115+00:00"
       },
       {
         "key": "106847309",
@@ -2231,7 +2221,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T20:17:21.657586+00:00"
+        "xbrl_try": "2026-11-05T21:25:27.415434+00:00"
       },
       {
         "key": "106847333",
@@ -2389,7 +2379,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T20:17:47.387424+00:00"
+        "xbrl_try": "2026-11-05T21:25:27.739753+00:00"
       },
       {
         "key": "106848516",
@@ -2401,7 +2391,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T20:20:50.107437+00:00"
+        "xbrl_try": "2026-11-05T21:25:28.457256+00:00"
       },
       {
         "key": "106848553",
@@ -2450,18 +2440,6 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T20:51:47.561003+00:00"
-      },
-      {
-        "key": "106848725",
-        "seq_id": "106848725",
-        "symbol": "AMBICAAGAR",
-        "company": "Ambica Agarbathies & Aroma industries Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/AMBICAAGAR_05112026200829_Outcome.pdf",
-        "an_dt": "05-Nov-2026 20:12:38",
-        "date": "2026-11-05",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-05T20:17:25.701705+00:00"
       },
       {
         "key": "106848770",
@@ -6884,6 +6862,50 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:WELENT",
       "t": "05-Nov-2026 20:03:49",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1754274_05112026090518_WEB.xml"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "GOKEX",
+      "c": "Gokaldas Exports Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 111279.54,
+      "pat": 4122.4,
+      "eps": 5.63,
+      "filing": "https://nsearchives.nseindia.com/corporate/GOKEX_05112026211849_Outcome_of_BM.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GOKEX",
+      "t": "05-Nov-2026 21:19:14"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "MOTHERSON",
+      "c": "Samvardhana Motherson International Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 38279.85,
+      "pat": 1217.57,
+      "eps": 1.11,
+      "filing": "https://nsearchives.nseindia.com/corporate/MOTHERSON_05112026145442_Financial_Results.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MOTHERSON",
+      "t": "05-Nov-2026 14:58:36",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1754223_05112026083544_WEB.xml"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "AMBICAAGAR",
+      "c": "Ambica Agarbathies & Aroma industries Limited",
+      "r": "Good",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 40.233,
+      "pat": 1.0671,
+      "eps": 0.57,
+      "filing": "https://nsearchives.nseindia.com/corporate/AMBICAAGAR_05112026200829_Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:AMBICAAGAR",
+      "t": "05-Nov-2026 20:12:38",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1754279_05112026091428_WEB.xml"
     }
   ]
 }
