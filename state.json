@@ -1,20 +1,6 @@
 {
   "archive": [
     {
-      "d": "2026-11-03",
-      "s": "AARNAV",
-      "c": "Aarnav Fashions Limited",
-      "r": "Bad",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 128.3651,
-      "pat": 1.6522999999999999,
-      "eps": 0.39,
-      "filing": "https://nsearchives.nseindia.com/corporate/AARNAV_03112026220228_AFL_Results_30092026signedDSC1.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:AARNAV",
-      "t": "03-Nov-2026 22:05:32"
-    },
-    {
       "d": "2026-11-04",
       "s": "ALLCARGO",
       "c": "Allcargo Logistics Limited",
@@ -4250,6 +4236,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/BCONCEPTS_05112026133940_Outcome05112026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:BCONCEPTS",
       "t": "05-Nov-2026 13:41:15"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "IPCALAB",
+      "c": "IPCA Laboratories Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 2909.94,
+      "pat": 391.54,
+      "eps": 15.84,
+      "filing": "https://nsearchives.nseindia.com/corporate/IPCALAB_05112026134131_IpcaResultsandPressRelease.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:IPCALAB",
+      "t": "05-Nov-2026 13:42:48"
     }
   ],
   "seen": [
@@ -4864,7 +4864,8 @@
     "106846853",
     "106846863",
     "106846862",
-    "106846860"
+    "106846860",
+    "106846864"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -6435,6 +6436,7 @@
     "buildpro_05112026133558_filing_ocr.pdf",
     "kotarisug_05112026133919_outcomeofboardmeeting05112026.pdf",
     "ghcltextiles_05112026134111_ghcl_textiles_outcome_31st_bm_05_11_2026_signed.pdf",
-    "bconcepts_05112026133940_outcome05112026.pdf"
+    "bconcepts_05112026133940_outcome05112026.pdf",
+    "ipcalab_05112026134131_ipcaresultsandpressrelease.pdf"
   ]
 }
