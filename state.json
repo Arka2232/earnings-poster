@@ -771,7 +771,8 @@
     "106848597",
     "106848635",
     "106848668",
-    "106848685"
+    "106848685",
+    "106848697"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1419,7 +1420,8 @@
     "premier_05112026193104_pl_-_outcome_september_2026_.pdf",
     "cello2023_05112026194513_bmo.pdf",
     "jaro2024_05112026195506_covering_letter_result_q2.pdf",
-    "9833315135_05112026195758_outcome_of_q2_bm_financial_results.pdf"
+    "9833315135_05112026195758_outcome_of_q2_bm_financial_results.pdf",
+    "welent_05112026200329_finalupload.pdf"
   ],
   "digest": {
     "today_results": {
@@ -2327,7 +2329,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T19:05:40.184461+00:00"
+        "xbrl_try": "2026-11-05T20:09:34.365863+00:00"
       },
       {
         "key": "106848146",
@@ -2411,7 +2413,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T19:01:11.858757+00:00"
+        "xbrl_try": "2026-11-05T20:09:35.797723+00:00"
       },
       {
         "key": "106848404",
@@ -2423,7 +2425,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T19:01:12.167024+00:00"
+        "xbrl_try": "2026-11-05T20:09:37.135849+00:00"
       },
       {
         "key": "106848486",
@@ -2520,6 +2522,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T19:50:39.444265+00:00"
+      },
+      {
+        "key": "106848697",
+        "seq_id": "106848697",
+        "symbol": "WELENT",
+        "company": "Welspun Enterprises Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/WELENT_05112026200329_FinalUpload.pdf",
+        "an_dt": "05-Nov-2026 20:03:49",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T20:09:37.500226+00:00"
       }
     ],
     "recap": "2026-11-01",
@@ -6565,6 +6579,20 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:EIEL",
       "t": "05-Nov-2026 17:41:57",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1754128_05112026075227_WEB.xml"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "WELENT",
+      "c": "Welspun Enterprises Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/WELENT_05112026200329_FinalUpload.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:WELENT",
+      "t": "05-Nov-2026 20:03:49"
     }
   ]
 }
