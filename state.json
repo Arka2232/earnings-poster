@@ -2,34 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "CPCAP",
-      "c": "CP Capital Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q3 FY27",
-      "sales": 34.973000000000006,
-      "pat": 22.557,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/CAREERP_04112026145045_CPCAP_Outcome041126.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CPCAP",
-      "t": "04-Nov-2026 14:53:12"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "MAPMYINDIA",
-      "c": "C.E. Info Systems Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 1.3174000000000001,
-      "pat": 0.37520000000000003,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/MAPMYINDIA_04112026150154_MMI_BM_Outcome_4_Nov_2026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MAPMYINDIA",
-      "t": "04-Nov-2026 15:02:37"
-    },
-    {
-      "d": "2026-11-04",
       "s": "TTL",
       "c": "T T Limited",
       "r": "Results Filed",
@@ -4251,6 +4223,34 @@
       "filing": "https://nsearchives.nseindia.com/corporate/GPTHEALTHCARE_05112026164646_GHL-Outcome_dated_05112026_SGD.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:GPTHEALTH",
       "t": "05-Nov-2026 16:49:48"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "GODIGIT",
+      "c": "Go Digit General Insurance Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/GODIGITGI_05112026164749_GDGIL_Outcome_of_BM_5112026_final.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GODIGIT",
+      "t": "05-Nov-2026 16:51:50"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "TITAN",
+      "c": "Titan Company Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/TITAN_05112026165028_SEoutcomeQ227.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:TITAN",
+      "t": "05-Nov-2026 16:50:49"
     }
   ],
   "seen": [
@@ -4931,7 +4931,9 @@
     "106847473",
     "106847472",
     "106847520",
-    "106847528"
+    "106847528",
+    "106847539",
+    "106847532"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5716,6 +5718,30 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T16:44:06.477750+00:00"
+      },
+      {
+        "key": "106847539",
+        "seq_id": "106847539",
+        "symbol": "GODIGIT",
+        "company": "Go Digit General Insurance Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/GODIGITGI_05112026164749_GDGIL_Outcome_of_BM_5112026_final.pdf",
+        "an_dt": "05-Nov-2026 16:51:50",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T16:57:08.484410+00:00"
+      },
+      {
+        "key": "106847532",
+        "seq_id": "106847532",
+        "symbol": "TITAN",
+        "company": "Titan Company Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/TITAN_05112026165028_SEoutcomeQ227.pdf",
+        "an_dt": "05-Nov-2026 16:50:49",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T16:57:09.409581+00:00"
       }
     ],
     "ipo_check": "2026-11-05 16",
@@ -6797,6 +6823,8 @@
     "manyavar_05112026163429_outcomeofbm05112026signed.pdf",
     "isfc2010_05112026162801_outcome_of_board_meeting_intimation.pdf",
     "kingfa_05112026164250_bm_outcome_final.pdf",
-    "gpthealthcare_05112026164646_ghl-outcome_dated_05112026_sgd.pdf"
+    "gpthealthcare_05112026164646_ghl-outcome_dated_05112026_sgd.pdf",
+    "godigitgi_05112026164749_gdgil_outcome_of_bm_5112026_final.pdf",
+    "titan_05112026165028_seoutcomeq227.pdf"
   ]
 }
