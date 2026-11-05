@@ -2,48 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "ELECTHERM",
-      "c": "Electrotherm (India) Limited",
-      "r": "Good",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 912.43,
-      "pat": -20.04,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/ELECTHERM_04112026181250_SE_Letter_-_Outcome.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ELECTHERM",
-      "t": "04-Nov-2026 18:16:13"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "GPPL",
-      "c": "Gujarat Pipavav Port Limited",
-      "r": "Positive",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 339.15200000000004,
-      "pat": 152.69000000000003,
-      "eps": 3.16,
-      "filing": "https://nsearchives.nseindia.com/corporate/GPPL_04112026181348_Results.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GPPL",
-      "t": "04-Nov-2026 18:15:45"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "KOKUYOCMLN",
-      "c": "Kokuyo Camlin Limited",
-      "r": "Bad",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 185.6444,
-      "pat": 2.5673000000000004,
-      "eps": 0.26,
-      "filing": "https://nsearchives.nseindia.com/corporate/RAVIDAMLE_04112026181009_KCLResults30092026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:KOKUYOCMLN",
-      "t": "04-Nov-2026 18:14:36"
-    },
-    {
-      "d": "2026-11-04",
       "s": "IVP",
       "c": "IVP Limited",
       "r": "Good",
@@ -4261,6 +4219,48 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:ABFRL",
       "t": "05-Nov-2026 17:27:00",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753822_05112026060435_WEB.xml"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "MUKTAARTS",
+      "c": "Mukta Arts Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/MUKTAARTS_05112026183032_Intimation_of_Outcomes_Signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MUKTAARTS",
+      "t": "05-Nov-2026 18:31:54"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "BRITANNIA",
+      "c": "Britannia Industries Limited",
+      "r": "Good",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 5597.79,
+      "pat": 725.99,
+      "eps": 29.93,
+      "filing": "https://nsearchives.nseindia.com/corporate/BRITANNIA1_05112026182929_Outcome_of_the_Board_Meeting.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BRITANNIA",
+      "t": "05-Nov-2026 18:31:23"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "DCI",
+      "c": "DC Infotech and Communication Limited",
+      "r": "Good",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 212.4812,
+      "pat": 5.804600000000001,
+      "eps": 3.46,
+      "filing": "https://nsearchives.nseindia.com/corporate/DCI_05112026182837_DC_Infotech_Outcome_of_BoardMeeting_05112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:DCI",
+      "t": "05-Nov-2026 18:30:13"
     }
   ],
   "seen": [
@@ -4996,7 +4996,10 @@
     "106848220",
     "106848213",
     "106848206",
-    "106848235"
+    "106848235",
+    "106848259",
+    "106848255",
+    "106848247"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5938,6 +5941,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T18:30:02.644689+00:00"
+      },
+      {
+        "key": "106848259",
+        "seq_id": "106848259",
+        "symbol": "MUKTAARTS",
+        "company": "Mukta Arts Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/MUKTAARTS_05112026183032_Intimation_of_Outcomes_Signed.pdf",
+        "an_dt": "05-Nov-2026 18:31:54",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T18:34:46.711631+00:00"
       }
     ],
     "ipo_check": "2026-11-05 18",
@@ -7074,6 +7089,9 @@
     "fortis_05112026182405_final.pdf",
     "orientltd_05112026182011_outcome.pdf",
     "europratik2025_05112026181514_outcome_signed.pdf",
-    "lmel_05112026182629_outcome_of_board_meeting_05112026.pdf"
+    "lmel_05112026182629_outcome_of_board_meeting_05112026.pdf",
+    "muktaarts_05112026183032_intimation_of_outcomes_signed.pdf",
+    "britannia1_05112026182929_outcome_of_the_board_meeting.pdf",
+    "dci_05112026182837_dc_infotech_outcome_of_boardmeeting_05112026.pdf"
   ]
 }
