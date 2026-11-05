@@ -2,48 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "SKFINDIA",
-      "c": "SKF India Limited",
-      "r": "Bad",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 595.8100000000001,
-      "pat": 51.81,
-      "eps": 10.5,
-      "filing": "https://nsearchives.nseindia.com/corporate/SKFINDIA25_03112026193154_NSE.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SKFINDIA",
-      "t": "03-Nov-2026 19:32:56"
-    },
-    {
-      "d": "2026-11-03",
-      "s": "EMBDL",
-      "c": "Embassy Developments Limited",
-      "r": "Positive",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 292.21,
-      "pat": 2.209,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/EMBDL_03112026193144_EDL_Outcome_BM_0311226_.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:EMBDL",
-      "t": "03-Nov-2026 19:37:39"
-    },
-    {
-      "d": "2026-11-03",
-      "s": "LAXMIDENTL",
-      "c": "Laxmi Dental Limited",
-      "r": "Good",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 79.52100000000002,
-      "pat": 10.036000000000001,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/LAXMI_03112026195702_Binder_2.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:LAXMIDENTL",
-      "t": "03-Nov-2026 19:58:19"
-    },
-    {
-      "d": "2026-11-03",
       "s": "VIJAYA",
       "c": "Vijaya Diagnostic Centre Limited",
       "r": "Excellent",
@@ -4253,6 +4211,48 @@
       "filing": "https://nsearchives.nseindia.com/corporate/MINDAIND1_05112026124457_Outcomef.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:UNOMINDA",
       "t": "05-Nov-2026 12:46:32"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "BLUEJET",
+      "c": "Blue Jet Healthcare Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 375.744,
+      "pat": 102.51700000000001,
+      "eps": 5.46,
+      "filing": "https://nsearchives.nseindia.com/corporate/BLUEJET_05112026125116_SE_Upload_BM.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BLUEJET",
+      "t": "05-Nov-2026 12:53:48"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "HTMEDIA",
+      "c": "HT Media Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 441.59,
+      "pat": 39.41,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/HTMEDIA_05112026125244_HTMLOutcomesd.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:HTMEDIA",
+      "t": "05-Nov-2026 12:53:30"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "PVP",
+      "c": "PVP Ventures Limited",
+      "r": "Weak",
+      "b": "Consolidated",
+      "q": "Q4 FY26",
+      "sales": 41.443599999999996,
+      "pat": -3.1923000000000004,
+      "eps": -0.0,
+      "filing": "https://nsearchives.nseindia.com/corporate/Pvpchennai_05112026124005_Outcome_of_Board_Meeting_-_31032026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PVP",
+      "t": "05-Nov-2026 12:52:24"
     }
   ],
   "seen": [
@@ -4846,7 +4846,10 @@
     "106846614",
     "106846672",
     "106846688",
-    "106846689"
+    "106846689",
+    "106846717",
+    "106846714",
+    "106846707"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -6336,6 +6339,9 @@
     "kamlesh_mundra_05112026122859_seresult.pdf",
     "rpsgvent_05112026123746_rvl_outcome_05112026_signed.pdf",
     "sjl_05112026124331_board_meeting_outcome.pdf",
-    "mindaind1_05112026124457_outcomef.pdf"
+    "mindaind1_05112026124457_outcomef.pdf",
+    "bluejet_05112026125116_se_upload_bm.pdf",
+    "htmedia_05112026125244_htmloutcomesd.pdf",
+    "pvpchennai_05112026124005_outcome_of_board_meeting_-_31032026.pdf"
   ]
 }
