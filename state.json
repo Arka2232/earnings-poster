@@ -2,21 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "DAMCAPITAL",
-      "c": "Dam Capital Advisors Limited",
-      "r": "Bad",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 54.239999999999995,
-      "pat": 13.54,
-      "eps": 1.92,
-      "filing": "https://nsearchives.nseindia.com/corporate/DAMCAPITAL_03112026193013_Signed.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:DAMCAPITAL",
-      "t": "03-Nov-2026 19:30:23",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NBFC_INDAS_1752296_03112026091951_WEB.xml"
-    },
-    {
-      "d": "2026-11-03",
       "s": "SKFINDIA",
       "c": "SKF India Limited",
       "r": "Bad",
@@ -4254,6 +4239,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/SJL_05112026124331_Board_Meeting_Outcome.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SHANKESH",
       "t": "05-Nov-2026 12:46:23"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "UNOMINDA",
+      "c": "UNO Minda Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 6655.42,
+      "pat": 440.81,
+      "eps": 7.27,
+      "filing": "https://nsearchives.nseindia.com/corporate/MINDAIND1_05112026124457_Outcomef.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:UNOMINDA",
+      "t": "05-Nov-2026 12:46:32"
     }
   ],
   "seen": [
@@ -4846,7 +4845,8 @@
     "106846605",
     "106846614",
     "106846672",
-    "106846688"
+    "106846688",
+    "106846689"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -6335,6 +6335,7 @@
     "9930371292_05112026123054_bmoutcomesd.pdf",
     "kamlesh_mundra_05112026122859_seresult.pdf",
     "rpsgvent_05112026123746_rvl_outcome_05112026_signed.pdf",
-    "sjl_05112026124331_board_meeting_outcome.pdf"
+    "sjl_05112026124331_board_meeting_outcome.pdf",
+    "mindaind1_05112026124457_outcomef.pdf"
   ]
 }
