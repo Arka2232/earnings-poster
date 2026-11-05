@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "GKSL",
-      "c": "Gujarat Kidney And Super Speciality Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 38.0902,
-      "pat": 6.598,
-      "eps": 0.74,
-      "filing": "https://nsearchives.nseindia.com/corporate/GKSL2025_04112026183103_Final_Outcome_signed.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GKSL",
-      "t": "04-Nov-2026 18:38:38"
-    },
-    {
-      "d": "2026-11-04",
       "s": "JISLDVREQS",
       "c": "Jain Irrigation Systems Limited",
       "r": "Good",
@@ -4260,6 +4246,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/HINDCOMPOS_05112026182726_HCLOutcomeofbmReg30and33.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:HINDCOMPOS",
       "t": "05-Nov-2026 18:35:25"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "PARASPETRO",
+      "c": "Paras Petrofils Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/PARASPETRO_05112026183708_OUTCOME_OF_BOARD_MEETING.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PARASPETRO",
+      "t": "05-Nov-2026 18:38:08"
     }
   ],
   "seen": [
@@ -5002,7 +5002,8 @@
     "106848272",
     "106848265",
     "106848283",
-    "106848282"
+    "106848282",
+    "106848304"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5944,6 +5945,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T18:36:04.871726+00:00"
+      },
+      {
+        "key": "106848304",
+        "seq_id": "106848304",
+        "symbol": "PARASPETRO",
+        "company": "Paras Petrofils Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/PARASPETRO_05112026183708_OUTCOME_OF_BOARD_MEETING.pdf",
+        "an_dt": "05-Nov-2026 18:38:08",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T18:41:14.286093+00:00"
       }
     ],
     "ipo_check": "2026-11-05 18",
@@ -7087,6 +7100,7 @@
     "bellacasa_05112026182519_results051126.pdf",
     "kalpatpowr_05112026183240_results.pdf",
     "rbdenims_05112026183103_outcome_of_board_meeting.pdf",
-    "hindcompos_05112026182726_hcloutcomeofbmreg30and33.pdf"
+    "hindcompos_05112026182726_hcloutcomeofbmreg30and33.pdf",
+    "paraspetro_05112026183708_outcome_of_board_meeting.pdf"
   ]
 }
