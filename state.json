@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "ADVANCE",
-      "c": "Advance Agrolife Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/ADVANCE_04112026170920_ADVANCESECRETARIAL2026-2773.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ADVANCE",
-      "t": "04-Nov-2026 17:09:52"
-    },
-    {
-      "d": "2026-11-04",
       "s": "GEEKAYWIRE",
       "c": "Geekay Wires Limited",
       "r": "Results Filed",
@@ -4255,6 +4241,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/TEXINFRA2_05112026175145_SEoutcomeBM05112026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:TEXINFRA",
       "t": "05-Nov-2026 17:53:19"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "IGPL",
+      "c": "IG Petrochemicals Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "",
+      "sales": 758.9634,
+      "pat": 85.00670000000001,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/IGPL_05112026174810_UFRSep2026_IGPL.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:IGPL",
+      "t": "05-Nov-2026 17:55:47"
     }
   ],
   "seen": [
@@ -4972,7 +4972,8 @@
     "106847948",
     "106847944",
     "106847988",
-    "106847985"
+    "106847985",
+    "106848008"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5732,7 +5733,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T16:57:08.484410+00:00"
+        "xbrl_try": "2026-11-05T17:57:12.569022+00:00"
       },
       {
         "key": "106847532",
@@ -5744,7 +5745,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T16:57:09.409581+00:00"
+        "xbrl_try": "2026-11-05T17:57:13.256094+00:00"
       },
       {
         "key": "106847550",
@@ -7043,6 +7044,7 @@
     "sula_05112026174511_se_intimation_bm_outcome_05112026.pdf",
     "sinclairs_05112026174156_outcome_of_board_meeting_05112026.pdf",
     "jacpl_05112026175114_jacpl_fr_sept302026_signed.pdf",
-    "texinfra2_05112026175145_seoutcomebm05112026.pdf"
+    "texinfra2_05112026175145_seoutcomebm05112026.pdf",
+    "igpl_05112026174810_ufrsep2026_igpl.pdf"
   ]
 }
