@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "ADROITINFO",
-      "c": "Adroit Infotech Limited",
-      "r": "Bad",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 15.258,
-      "pat": 0.6828000000000001,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/ADROITINFO_04112026184439_OutcomeQ227.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ADROITINFO",
-      "t": "04-Nov-2026 18:45:33"
-    },
-    {
-      "d": "2026-11-04",
       "s": "THEINVEST",
       "c": "The Investment Trust Of India Limited",
       "r": "Positive",
@@ -4263,6 +4249,20 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:GIPCL",
       "t": "05-Nov-2026 16:31:19",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753565_05112026044505_WEB.xml"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "GCSL",
+      "c": "Gretex Corporate Services Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 7560.35,
+      "pat": 714.86,
+      "eps": 1.98,
+      "filing": "https://nsearchives.nseindia.com/corporate/bdesai_05112026184248_Outcome_of_BM_05112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GCSL",
+      "t": "05-Nov-2026 18:45:29"
     }
   ],
   "seen": [
@@ -5008,7 +5008,8 @@
     "106848282",
     "106848304",
     "106848343",
-    "106848342"
+    "106848342",
+    "106848359"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -7061,6 +7062,7 @@
     "hindcompos_05112026182726_hcloutcomeofbmreg30and33.pdf",
     "paraspetro_05112026183708_outcome_of_board_meeting.pdf",
     "mangalam_05112026183714_se41.pdf",
-    "praxis_05112026183636_05112026_outcome_of_bm_sg.pdf"
+    "praxis_05112026183636_05112026_outcome_of_bm_sg.pdf",
+    "bdesai_05112026184248_outcome_of_bm_05112026.pdf"
   ]
 }
