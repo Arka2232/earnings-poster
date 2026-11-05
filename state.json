@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "NDRAUTO",
-      "c": "Ndr Auto Components Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 244.0181,
-      "pat": 19.7798,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/NDRAUTO_04112026132354_SE_outcome.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:NDRAUTO",
-      "t": "04-Nov-2026 13:24:57"
-    },
-    {
-      "d": "2026-11-04",
       "s": "SMSPHARMA",
       "c": "SMS Pharmaceuticals Limited",
       "r": "Excellent",
@@ -4248,6 +4234,21 @@
       "filing": "https://nsearchives.nseindia.com/corporate/SCHNEIDER_05112026153711_SEILOutcome_FR_05112026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SCHNEIDER",
       "t": "05-Nov-2026 15:37:54"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "BCONCEPTS",
+      "c": "Brand Concepts Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 96.208,
+      "pat": 1.0754,
+      "eps": 0.86,
+      "filing": "https://nsearchives.nseindia.com/corporate/BCONCEPTS_05112026133940_Outcome05112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BCONCEPTS",
+      "t": "05-Nov-2026 13:41:15",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753479_05112026031016_WEB.xml"
     }
   ],
   "seen": [
@@ -5359,7 +5360,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T14:44:45.669984+00:00"
+        "xbrl_try": "2026-11-05T15:44:55.108763+00:00"
       },
       {
         "key": "106846582",
@@ -5420,18 +5421,6 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T15:36:47.909589+00:00"
-      },
-      {
-        "key": "106846860",
-        "seq_id": "106846860",
-        "symbol": "BCONCEPTS",
-        "company": "Brand Concepts Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/BCONCEPTS_05112026133940_Outcome05112026.pdf",
-        "an_dt": "05-Nov-2026 13:41:15",
-        "date": "2026-11-05",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-05T14:44:46.307701+00:00"
       },
       {
         "key": "106846875",
