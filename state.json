@@ -2,34 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "JYOTISTRUC",
-      "c": "Jyoti Structures Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 243.84,
-      "pat": 15.41,
-      "eps": 0.1291,
-      "filing": "https://nsearchives.nseindia.com/corporate/JYOTISTRUC_03112026201616_Final_Outcome.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:JYOTISTRUC",
-      "t": "03-Nov-2026 20:17:12"
-    },
-    {
-      "d": "2026-11-03",
-      "s": "GLASSWALL",
-      "c": "Glass Wall Systems (India) Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 131.484,
-      "pat": 28.607,
-      "eps": 3.35,
-      "filing": "https://nsearchives.nseindia.com/corporate/GLASSWALL_03112026201250_2026_11_03_-_Outcome_of_BM_-_Final.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GLASSWALL",
-      "t": "03-Nov-2026 20:19:00"
-    },
-    {
-      "d": "2026-11-03",
       "s": "HALDER",
       "c": "Halder Venture Limited",
       "r": "Excellent",
@@ -4252,6 +4224,35 @@
       "filing": "https://nsearchives.nseindia.com/corporate/MBENG_05112026131027_Outcome_F.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:MBEL",
       "t": "05-Nov-2026 13:11:24"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "LLOYDSENT",
+      "c": "Lloyds Enterprises Limited",
+      "r": "Bad",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 100.36,
+      "pat": 5.32,
+      "eps": 0.03,
+      "filing": "https://nsearchives.nseindia.com/corporate/SGTL2008_05112026131559_OutcomeofBoardMeeting.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:LLOYDSENT",
+      "t": "05-Nov-2026 13:16:26"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "RELCHEMQ",
+      "c": "Reliance Chemotex Industries Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 118.81309999999999,
+      "pat": 4.5762,
+      "eps": 6.07,
+      "filing": "https://nsearchives.nseindia.com/corporate/RELCHEQ_05112026121240_Outcome-_Financialssd.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:RELCHEMQ",
+      "t": "05-Nov-2026 12:12:56",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753383_05112026122217_WEB.xml"
     }
   ],
   "seen": [
@@ -4854,7 +4855,8 @@
     "106846729",
     "106846728",
     "106846773",
-    "106846791"
+    "106846791",
+    "106846805"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5326,18 +5328,6 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T12:43:10.765743+00:00"
-      },
-      {
-        "key": "106846528",
-        "seq_id": "106846528",
-        "symbol": "RELCHEMQ",
-        "company": "Reliance Chemotex Industries Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/RELCHEQ_05112026121240_Outcome-_Financialssd.pdf",
-        "an_dt": "05-Nov-2026 12:12:56",
-        "date": "2026-11-05",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-05T12:16:49.131407+00:00"
       },
       {
         "key": "106846582",
@@ -6377,6 +6367,7 @@
     "anilshinde_05112026125610_seintimationoutcomeofbm_sd.pdf",
     "pooja_05112026125638_outcome5nov.pdf",
     "shilpamed_05112026130646_disclosure.pdf",
-    "mbeng_05112026131027_outcome_f.pdf"
+    "mbeng_05112026131027_outcome_f.pdf",
+    "sgtl2008_05112026131559_outcomeofboardmeeting.pdf"
   ]
 }
