@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "INOXINDIA",
-      "c": "INOX India Limited",
-      "r": "Good",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 456.48370000000006,
-      "pat": 66.5632,
-      "eps": 7.32,
-      "filing": "https://nsearchives.nseindia.com/corporate/KAMLESHS_03112026185527_OutcomeofBM03112026signed.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:INOXINDIA",
-      "t": "03-Nov-2026 18:59:25"
-    },
-    {
-      "d": "2026-11-03",
       "s": "ARVEE",
       "c": "Arvee Laboratories (India) Limited",
       "r": "Excellent",
@@ -4256,6 +4242,20 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:TOKYOPLAST",
       "t": "04-Nov-2026 23:55:57",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753317_05112026120002_WEB.xml"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "AMAGI",
+      "c": "Amagi Media Labs Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/AMAGI_05112026103310_OutcomeofBMSept2026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:AMAGI",
+      "t": "05-Nov-2026 10:34:06"
     }
   ],
   "seen": [
@@ -4832,7 +4832,8 @@
     "106845333",
     "106846073",
     "106846119",
-    "106846112"
+    "106846112",
+    "106846324"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5256,6 +5257,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T10:25:18.735496+00:00"
+      },
+      {
+        "key": "106846324",
+        "seq_id": "106846324",
+        "symbol": "AMAGI",
+        "company": "Amagi Media Labs Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/AMAGI_05112026103310_OutcomeofBMSept2026.pdf",
+        "an_dt": "05-Nov-2026 10:34:06",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T10:36:43.699193+00:00"
       }
     ],
     "ipo_check": "2026-11-05 10",
@@ -6233,6 +6246,7 @@
     "softtech_04112026184851_outcome_of_bm_04112026_.pdf",
     "svll_04112026234202_svll.pdf",
     "zenithstl_05112026000602_outcome_of_bm_zenith.pdf",
-    "tokyoplast_04112026235505_ilovepdf_merged.pdf"
+    "tokyoplast_04112026235505_ilovepdf_merged.pdf",
+    "amagi_05112026103310_outcomeofbmsept2026.pdf"
   ]
 }
