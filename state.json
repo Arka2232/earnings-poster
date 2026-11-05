@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "FAZE3Q",
-      "c": "Faze Three Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 264.58,
-      "pat": 15.46,
-      "eps": 6.37,
-      "filing": "https://nsearchives.nseindia.com/corporate/FAZETHREE_03112026201002_Submission.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:FAZE3Q",
-      "t": "03-Nov-2026 20:13:08"
-    },
-    {
-      "d": "2026-11-03",
       "s": "JYOTISTRUC",
       "c": "Jyoti Structures Limited",
       "r": "Excellent",
@@ -4252,6 +4238,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/SHILPAMED_05112026130646_Disclosure.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SHILPAMED",
       "t": "05-Nov-2026 13:07:13"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "MBEL",
+      "c": "M & B Engineering Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/MBENG_05112026131027_Outcome_F.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MBEL",
+      "t": "05-Nov-2026 13:11:24"
     }
   ],
   "seen": [
@@ -4853,7 +4853,8 @@
     "106846730",
     "106846729",
     "106846728",
-    "106846773"
+    "106846773",
+    "106846791"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5361,6 +5362,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T12:57:32.647841+00:00"
+      },
+      {
+        "key": "106846791",
+        "seq_id": "106846791",
+        "symbol": "MBEL",
+        "company": "M & B Engineering Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/MBENG_05112026131027_Outcome_F.pdf",
+        "an_dt": "05-Nov-2026 13:11:24",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T13:15:54.195442+00:00"
       }
     ],
     "ipo_check": "2026-11-05 13",
@@ -6363,6 +6376,7 @@
     "fermentabiotech_05112026125550_outcomeufrnovember052026.pdf",
     "anilshinde_05112026125610_seintimationoutcomeofbm_sd.pdf",
     "pooja_05112026125638_outcome5nov.pdf",
-    "shilpamed_05112026130646_disclosure.pdf"
+    "shilpamed_05112026130646_disclosure.pdf",
+    "mbeng_05112026131027_outcome_f.pdf"
   ]
 }
