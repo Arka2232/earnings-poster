@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "SAREGAMA",
-      "c": "Saregama India Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 3.1430000000000002,
-      "pat": 0.6417,
-      "eps": 3.37,
-      "filing": "https://nsearchives.nseindia.com/corporate/SAREGAMA_04112026122952_Outcome_signed.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SAREGAMA",
-      "t": "04-Nov-2026 12:31:36"
-    },
-    {
-      "d": "2026-11-04",
       "s": "SANGAMIND",
       "c": "Sangam (India) Limited",
       "r": "Excellent",
@@ -4246,6 +4232,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/APOLLOPIPE_05112026145418_OutcomeofBM05112026Signed.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:APOLLOPIPE",
       "t": "05-Nov-2026 14:55:57"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "KHADIM",
+      "c": "Khadim India Limited",
+      "r": "Positive",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 94.22000000000001,
+      "pat": 2.6530000000000005,
+      "eps": 1.44,
+      "filing": "https://nsearchives.nseindia.com/corporate/KHADIM_05112026145652_UFR.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:KHADIM",
+      "t": "05-Nov-2026 14:58:06"
     }
   ],
   "seen": [
@@ -4885,7 +4885,8 @@
     "106847013",
     "106847040",
     "106847039",
-    "106847056"
+    "106847056",
+    "106847063"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5369,7 +5370,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T13:58:44.248331+00:00"
+        "xbrl_try": "2026-11-05T14:59:40.725290+00:00"
       },
       {
         "key": "106846791",
@@ -6578,6 +6579,7 @@
     "veegaland_05112026143759_outcome_of_bm_05112026_sd.pdf",
     "tega_05112026145213_intimation_outcome_board_meeting_sd.pdf",
     "texrail_05112026145026_texrailbmoutcome05112026signed.pdf",
-    "apollopipe_05112026145418_outcomeofbm05112026signed.pdf"
+    "apollopipe_05112026145418_outcomeofbm05112026signed.pdf",
+    "khadim_05112026145652_ufr.pdf"
   ]
 }
