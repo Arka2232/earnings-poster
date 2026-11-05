@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "DEVX",
-      "c": "Dev Accelerator Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 80.22500000000001,
-      "pat": 5.4964,
-      "eps": 0.6,
-      "filing": "https://nsearchives.nseindia.com/corporate/DEVACCE_03112026190513_SE_Outcome_of_Board_Meeting.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:DEVX",
-      "t": "03-Nov-2026 19:06:11"
-    },
-    {
-      "d": "2026-11-03",
       "s": "INDIQUBE",
       "c": "Indiqube Spaces Limited",
       "r": "Positive",
@@ -4256,6 +4242,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/RAMANEWS_05112026113050_O.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:RAMANEWS",
       "t": "05-Nov-2026 11:31:22"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "SHIPROCKET",
+      "c": "Shiprocket Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/SHIPROCKET2011_05112026112847_Board_Meeting_Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SHIPROCKET",
+      "t": "05-Nov-2026 11:39:45"
     }
   ],
   "seen": [
@@ -4837,7 +4837,8 @@
     "106846349",
     "106846382",
     "106846401",
-    "106846403"
+    "106846403",
+    "106846424"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5297,6 +5298,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T11:33:42.192162+00:00"
+      },
+      {
+        "key": "106846424",
+        "seq_id": "106846424",
+        "symbol": "SHIPROCKET",
+        "company": "Shiprocket Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/SHIPROCKET2011_05112026112847_Board_Meeting_Outcome.pdf",
+        "an_dt": "05-Nov-2026 11:39:45",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T11:42:10.386967+00:00"
       }
     ],
     "ipo_check": "2026-11-05 11",
@@ -6279,6 +6292,7 @@
     "lgeindia_05112026105442_outcomebm.pdf",
     "hesterbio_05112026111348_20261105outcomeofboardmeeting.pdf",
     "cesc_05112026112827_1.pdf",
-    "ramanews_05112026113050_o.pdf"
+    "ramanews_05112026113050_o.pdf",
+    "shiprocket2011_05112026112847_board_meeting_outcome.pdf"
   ]
 }
