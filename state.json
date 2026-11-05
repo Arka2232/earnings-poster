@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "LALPATHLAB",
-      "c": "Dr. Lal Path Labs Ltd.",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 8.739,
-      "pat": 1.939,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/LALPATHLAB_04112026132659_BMoutcome041126.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:LALPATHLAB",
-      "t": "04-Nov-2026 13:29:42"
-    },
-    {
-      "d": "2026-11-04",
       "s": "JTEKTINDIA",
       "c": "Jtekt India Limited",
       "r": "Positive",
@@ -4250,6 +4236,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/GREENLAMAW_05112026155141_OutcomeofBMFinancialResults.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:GREENLAM",
       "t": "05-Nov-2026 15:53:58"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "BIKAJI",
+      "c": "Bikaji Foods International Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_05112026155448_69.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BIKAJI",
+      "t": "05-Nov-2026 15:56:11"
     }
   ],
   "seen": [
@@ -4902,7 +4902,8 @@
     "106847138",
     "106847172",
     "106847209",
-    "106847278"
+    "106847278",
+    "106847284"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5494,7 +5495,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T14:57:54.120672+00:00"
+        "xbrl_try": "2026-11-05T15:57:59.505200+00:00"
       },
       {
         "key": "106847068",
@@ -5555,6 +5556,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T15:29:29.159268+00:00"
+      },
+      {
+        "key": "106847284",
+        "seq_id": "106847284",
+        "symbol": "BIKAJI",
+        "company": "Bikaji Foods International Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_05112026155448_69.pdf",
+        "an_dt": "05-Nov-2026 15:56:11",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T15:58:00.206757+00:00"
       }
     ],
     "ipo_check": "2026-11-05 15",
@@ -6608,6 +6621,7 @@
     "elin_05112026151621_outcome5112026.pdf",
     "hexatradex_05112026152650_resultssept2026se.pdf",
     "schneider_05112026153711_seiloutcome_fr_05112026.pdf",
-    "greenlamaw_05112026155141_outcomeofbmfinancialresults.pdf"
+    "greenlamaw_05112026155141_outcomeofbmfinancialresults.pdf",
+    "bikajifoods_05112026155448_69.pdf"
   ]
 }
