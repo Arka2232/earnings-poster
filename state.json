@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "ARVEE",
-      "c": "Arvee Laboratories (India) Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 24.9281,
-      "pat": 2.5561000000000003,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/ARVEE_03112026185622_out.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ARVEE",
-      "t": "03-Nov-2026 18:59:14"
-    },
-    {
-      "d": "2026-11-03",
       "s": "TRANSRAILL",
       "c": "Transrail Lighting Limited",
       "r": "Good",
@@ -4256,6 +4242,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/AMAGI_05112026103310_OutcomeofBMSept2026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:AMAGI",
       "t": "05-Nov-2026 10:34:06"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "LGEINDIA",
+      "c": "LG Electronics India Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 7380.045,
+      "pat": 489.34799999999996,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/LGEINDIA_05112026105442_OutcomeBM.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:LGEINDIA",
+      "t": "05-Nov-2026 10:56:37"
     }
   ],
   "seen": [
@@ -4833,7 +4833,8 @@
     "106846073",
     "106846119",
     "106846112",
-    "106846324"
+    "106846324",
+    "106846349"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -6247,6 +6248,7 @@
     "svll_04112026234202_svll.pdf",
     "zenithstl_05112026000602_outcome_of_bm_zenith.pdf",
     "tokyoplast_04112026235505_ilovepdf_merged.pdf",
-    "amagi_05112026103310_outcomeofbmsept2026.pdf"
+    "amagi_05112026103310_outcomeofbmsept2026.pdf",
+    "lgeindia_05112026105442_outcomebm.pdf"
   ]
 }
