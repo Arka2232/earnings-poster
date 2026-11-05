@@ -2,35 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "EXICOM",
-      "c": "Exicom Tele-Systems Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 276.9822,
-      "pat": 7.795299999999999,
-      "eps": 0.56,
-      "filing": "https://nsearchives.nseindia.com/corporate/EXICOM_04112026140942_outcome-signed.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:EXICOM",
-      "t": "04-Nov-2026 14:12:18",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753015_04112026071133_WEB.xml"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "UNIPARTS",
-      "c": "Uniparts India Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 378.51,
-      "pat": 54.426,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/Earth_2018_04112026193020_OutcomeofBoardMeeting04112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:UNIPARTS",
-      "t": "04-Nov-2026 19:31:51"
-    },
-    {
-      "d": "2026-11-04",
       "s": "ELLEN",
       "c": "Ellenbarrie Industrial Gases Limited",
       "r": "Positive",
@@ -4266,6 +4237,35 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:INDOWIND",
       "t": "05-Nov-2026 19:24:24",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1754066_05112026072342_WEB.xml"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "SANSTAR",
+      "c": "Sanstar Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/SANSTAR_05112026192653_BM_Outcome_signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SANSTAR",
+      "t": "05-Nov-2026 19:28:53"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "ORIENTLTD",
+      "c": "Orient Press Limited",
+      "r": "Positive",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 30.031399999999998,
+      "pat": -0.636,
+      "eps": -0.64,
+      "filing": "https://nsearchives.nseindia.com/corporate/ORIENTLTD_05112026182011_outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ORIENTLTD",
+      "t": "05-Nov-2026 18:22:38",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753906_05112026063318_WEB.xml"
     }
   ],
   "seen": [
@@ -5026,7 +5026,8 @@
     "106848516",
     "106848539",
     "106848553",
-    "106848552"
+    "106848552",
+    "106848570"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5511,7 +5512,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T18:29:55.048015+00:00"
+        "xbrl_try": "2026-11-05T19:30:54.735134+00:00"
       },
       {
         "key": "106846966",
@@ -5731,18 +5732,6 @@
         "xbrl_try": "2026-11-05T19:29:03.988607+00:00"
       },
       {
-        "key": "106848213",
-        "seq_id": "106848213",
-        "symbol": "ORIENTLTD",
-        "company": "Orient Press Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/ORIENTLTD_05112026182011_outcome.pdf",
-        "an_dt": "05-Nov-2026 18:22:38",
-        "date": "2026-11-05",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-05T18:30:01.919607+00:00"
-      },
-      {
         "key": "106848206",
         "seq_id": "106848206",
         "symbol": "EUROPRATIK",
@@ -5752,7 +5741,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T18:30:02.644689+00:00"
+        "xbrl_try": "2026-11-05T19:30:59.339399+00:00"
       },
       {
         "key": "106848259",
@@ -5861,6 +5850,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T19:29:08.432329+00:00"
+      },
+      {
+        "key": "106848570",
+        "seq_id": "106848570",
+        "symbol": "SANSTAR",
+        "company": "Sanstar Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/SANSTAR_05112026192653_BM_Outcome_signed.pdf",
+        "an_dt": "05-Nov-2026 19:28:53",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T19:31:00.242146+00:00"
       }
     ],
     "ipo_check": "2026-11-05 19",
@@ -5873,7 +5874,7 @@
     "calendar": "2026-11-05",
     "recap": "2026-11-01",
     "nightly_pass": "2026-11-04",
-    "wrap": "2026-11-04",
+    "wrap": "2026-11-05",
     "next_results": {
       "date": "2026-11-05",
       "symbols": [
@@ -6131,7 +6132,7 @@
         "WINDLAS"
       ]
     },
-    "fiidii": "2026-11-04",
+    "fiidii": "2026-11-05",
     "today_results": {
       "date": "2026-11-05",
       "symbols": [
@@ -7022,6 +7023,7 @@
     "spencers_05112026191259_outcome.pdf",
     "finkurve_05112026191634_outcome_of_bm.pdf",
     "kalyanifrg_05112026191740_q2_fy27_outcome_of_board_meeting_-_signed.pdf",
-    "indowind_05112026192409_nseout.pdf"
+    "indowind_05112026192409_nseout.pdf",
+    "sanstar_05112026192653_bm_outcome_signed.pdf"
   ]
 }
