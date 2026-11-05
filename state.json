@@ -2,62 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "ASPINWALL",
-      "c": "Aspinwall and Company Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/ASPINWALL_04112026163756_BM_Outcome__Sept_2026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ASPINWALL",
-      "t": "04-Nov-2026 16:43:14"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "SHIVAMAUTO",
-      "c": "Shivam Autotech Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/SHIVAMAUTO_04112026164546_Outcomeof116thBMSept2026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SHIVAMAUTO",
-      "t": "04-Nov-2026 16:47:55"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "APTUS",
-      "c": "Aptus Value Housing Finance India Limited",
-      "r": "Positive",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 424.0797,
-      "pat": 200.7191,
-      "eps": 4.01,
-      "filing": "https://nsearchives.nseindia.com/corporate/APTUS_04112026164833_AVHFIL_Board_Meeting_Outcome_November_04_2026_sd.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:APTUS",
-      "t": "04-Nov-2026 16:52:04"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "ATLANTAA",
-      "c": "ATLANTAA LIMITED",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 14.6347,
-      "pat": 1.3019,
-      "eps": 0.16,
-      "filing": "https://nsearchives.nseindia.com/corporate/sbankar_04112026164938_OUTCOMEOFBM.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ATLANTAA",
-      "t": "04-Nov-2026 16:56:21"
-    },
-    {
-      "d": "2026-11-04",
       "s": "TAINWALCHM",
       "c": "Tainwala Chemical and Plastic (I) Limited",
       "r": "Weak",
@@ -4255,6 +4199,62 @@
       "filing": "https://nsearchives.nseindia.com/corporate/HINDFOODS_05112026173017_Outcome_05112026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:HNDFDS",
       "t": "05-Nov-2026 17:32:14"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "HCL-INSYS",
+      "c": "HCL Infosystems Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/HCL-INSYS1_05112026174043_HCLI.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:HCL_INSYS",
+      "t": "05-Nov-2026 17:43:23"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "ASTRAZEN",
+      "c": "AstraZeneca Pharma India Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/ASTRAZEN_05112026173929_BM_Outcome_and_Reg_30_disclosure_-_5th_Nov.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ASTRAZEN",
+      "t": "05-Nov-2026 17:42:25"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "EIEL",
+      "c": "Enviro Infra Engineers Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/ENVIRO_05112026174113_Intimation.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:EIEL",
+      "t": "05-Nov-2026 17:41:57"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "NCC",
+      "c": "NCC Limited",
+      "r": "Good",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 6014.67,
+      "pat": 198.84,
+      "eps": 2.93,
+      "filing": "https://nsearchives.nseindia.com/corporate/NCC_05112026173840_Outcome_of_the_Board_Meeting.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:NCC",
+      "t": "05-Nov-2026 17:40:44"
     }
   ],
   "seen": [
@@ -4960,7 +4960,11 @@
     "106847855",
     "106847848",
     "106847849",
-    "106847847"
+    "106847847",
+    "106847926",
+    "106847921",
+    "106847917",
+    "106847908"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5372,7 +5376,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T16:44:05.309403+00:00"
+        "xbrl_try": "2026-11-05T17:51:54.612089+00:00"
       },
       {
         "key": "106846401",
@@ -5408,7 +5412,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T16:45:07.883025+00:00"
+        "xbrl_try": "2026-11-05T17:51:56.236968+00:00"
       },
       {
         "key": "106846582",
@@ -5696,7 +5700,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T16:44:06.105315+00:00"
+        "xbrl_try": "2026-11-05T17:51:57.167975+00:00"
       },
       {
         "key": "106847472",
@@ -5708,7 +5712,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T16:44:06.477750+00:00"
+        "xbrl_try": "2026-11-05T17:52:04.157449+00:00"
       },
       {
         "key": "106847539",
@@ -5853,6 +5857,42 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T17:43:25.392007+00:00"
+      },
+      {
+        "key": "106847926",
+        "seq_id": "106847926",
+        "symbol": "HCL-INSYS",
+        "company": "HCL Infosystems Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/HCL-INSYS1_05112026174043_HCLI.pdf",
+        "an_dt": "05-Nov-2026 17:43:23",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T17:52:11.615403+00:00"
+      },
+      {
+        "key": "106847921",
+        "seq_id": "106847921",
+        "symbol": "ASTRAZEN",
+        "company": "AstraZeneca Pharma India Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/ASTRAZEN_05112026173929_BM_Outcome_and_Reg_30_disclosure_-_5th_Nov.pdf",
+        "an_dt": "05-Nov-2026 17:42:25",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T17:52:12.035536+00:00"
+      },
+      {
+        "key": "106847917",
+        "seq_id": "106847917",
+        "symbol": "EIEL",
+        "company": "Enviro Infra Engineers Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/ENVIRO_05112026174113_Intimation.pdf",
+        "an_dt": "05-Nov-2026 17:41:57",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T17:52:12.877100+00:00"
       }
     ],
     "ipo_check": "2026-11-05 17",
@@ -6959,6 +6999,10 @@
     "lic_board_05112026173201_outcomesep26sd.pdf",
     "urja_05112026172731_outcome_of_bm_signed.pdf",
     "ongc_05112026172811_fs30092026sd.pdf",
-    "hindfoods_05112026173017_outcome_05112026.pdf"
+    "hindfoods_05112026173017_outcome_05112026.pdf",
+    "hcl-insys1_05112026174043_hcli.pdf",
+    "astrazen_05112026173929_bm_outcome_and_reg_30_disclosure_-_5th_nov.pdf",
+    "enviro_05112026174113_intimation.pdf",
+    "ncc_05112026173840_outcome_of_the_board_meeting.pdf"
   ]
 }
