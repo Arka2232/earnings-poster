@@ -783,7 +783,8 @@
     "106848779",
     "106848776",
     "106848785",
-    "106848781"
+    "106848781",
+    "106848840"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1443,7 +1444,8 @@
     "muthootcaps_05112026202538_final.pdf",
     "armeeinfotech_05112026202125_outcome_of_board_meeting__september_2026_pj_sj__1_.pdf",
     "timetechno_05112026202626_outcome05112026.pdf",
-    "bagfilms_05112026202531_bagfilmsobmufr3009202605112026.pdf"
+    "bagfilms_05112026202531_bagfilmsobmufr3009202605112026.pdf",
+    "lemontree_05112026204533_outcome_of_board_meeting_nov_2026.pdf"
   ],
   "digest": {
     "today_results": {
@@ -2532,6 +2534,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T20:40:21.524534+00:00"
+      },
+      {
+        "key": "106848840",
+        "seq_id": "106848840",
+        "symbol": "LEMONTREE",
+        "company": "Lemon Tree Hotels Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/LEMONTREE_05112026204533_Outcome_of_Board_Meeting_Nov_2026.pdf",
+        "an_dt": "05-Nov-2026 20:53:06",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T20:55:45.043574+00:00"
       }
     ],
     "recap": "2026-11-01",
@@ -6850,6 +6864,20 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:AWHCL",
       "t": "05-Nov-2026 19:37:04",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1754134_05112026075431_WEB.xml"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "LEMONTREE",
+      "c": "Lemon Tree Hotels Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/LEMONTREE_05112026204533_Outcome_of_Board_Meeting_Nov_2026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:LEMONTREE",
+      "t": "05-Nov-2026 20:53:06"
     }
   ]
 }
