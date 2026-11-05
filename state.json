@@ -2,48 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "VARROC",
-      "c": "Varroc Engineering Limited",
-      "r": "Bad",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 2947.926,
-      "pat": 33.466,
-      "eps": 2.15,
-      "filing": "https://nsearchives.nseindia.com/corporate/VARROC_04112026140654_OutcomeBM.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:VARROC",
-      "t": "04-Nov-2026 14:09:22"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "HUDCO",
-      "c": "Housing & Urban Development Corporation Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 4040.42,
-      "pat": 911.04,
-      "eps": 4.55,
-      "filing": "https://nsearchives.nseindia.com/corporate/HUDCO_04112026140744_FR_SEP_2026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:HUDCO",
-      "t": "04-Nov-2026 14:08:18"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "IMFA",
-      "c": "Indian Metals & Ferro Alloys Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q4 FY27",
-      "sales": 968.17,
-      "pat": 148.77,
-      "eps": 27.57,
-      "filing": "https://nsearchives.nseindia.com/corporate/IMFA_04112026141159_Financial_Result_Q2_Final.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:IMFA",
-      "t": "04-Nov-2026 14:13:16"
-    },
-    {
-      "d": "2026-11-04",
       "s": "CARYSIL",
       "c": "CARYSIL LIMITED",
       "r": "Results Filed",
@@ -4250,6 +4208,48 @@
       "filing": "https://nsearchives.nseindia.com/corporate/HBSL_05112026162111_OUTCOME_OF_BOARD_MEETING.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:HBSL",
       "t": "05-Nov-2026 16:23:20"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "AADHARHFC",
+      "c": "Aadhar Housing Finance Limited",
+      "r": "Good",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 10.4781,
+      "pat": 3.0831,
+      "eps": 7.04,
+      "filing": "https://nsearchives.nseindia.com/corporate/AHFL2021_05112026162550_Final_Combined_resultssd.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:AADHARHFC",
+      "t": "05-Nov-2026 16:26:52"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "DPWIRES",
+      "c": "D P Wires Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q3 FY27",
+      "sales": 12271.44,
+      "pat": 443.96,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/DPWIRES_05112026162456_OUTCOME_QT22627_ff_1.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:DPWIRES",
+      "t": "05-Nov-2026 16:26:38"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "WABAG",
+      "c": "VA Tech Wabag Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/VATECH_05112026162010_SI_Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:WABAG",
+      "t": "05-Nov-2026 16:25:15"
     }
   ],
   "seen": [
@@ -4916,7 +4916,10 @@
     "106847392",
     "106847374",
     "106847402",
-    "106847398"
+    "106847398",
+    "106847424",
+    "106847422",
+    "106847411"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5496,7 +5499,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T15:29:28.465051+00:00"
+        "xbrl_try": "2026-11-05T16:30:25.319067+00:00"
       },
       {
         "key": "106847056",
@@ -5556,7 +5559,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T15:28:00.860783+00:00"
+        "xbrl_try": "2026-11-05T16:30:26.248631+00:00"
       },
       {
         "key": "106847172",
@@ -5568,7 +5571,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T15:29:29.159268+00:00"
+        "xbrl_try": "2026-11-05T16:30:26.994394+00:00"
       },
       {
         "key": "106847284",
@@ -5653,6 +5656,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T16:27:41.092350+00:00"
+      },
+      {
+        "key": "106847411",
+        "seq_id": "106847411",
+        "symbol": "WABAG",
+        "company": "VA Tech Wabag Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/VATECH_05112026162010_SI_Outcome.pdf",
+        "an_dt": "05-Nov-2026 16:25:15",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T16:30:27.368599+00:00"
       }
     ],
     "ipo_check": "2026-11-05 16",
@@ -6720,6 +6735,9 @@
     "9876964720_05112026162037_outcome05112026.pdf",
     "hexacomapril20_05112026161535_stx_outcome.pdf",
     "gtlsh_05112026162034_gtl_financial_results_30092026.pdf",
-    "hbsl_05112026162111_outcome_of_board_meeting.pdf"
+    "hbsl_05112026162111_outcome_of_board_meeting.pdf",
+    "ahfl2021_05112026162550_final_combined_resultssd.pdf",
+    "dpwires_05112026162456_outcome_qt22627_ff_1.pdf",
+    "vatech_05112026162010_si_outcome.pdf"
   ]
 }
