@@ -768,7 +768,8 @@
     "106848608",
     "106848601",
     "106848599",
-    "106848597"
+    "106848597",
+    "106848635"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1413,7 +1414,8 @@
     "jnkindia23_05112026193549_outcome_with_annexures_final.pdf",
     "ugrocap_05112026193551_outcomeofbm05112026.pdf",
     "awhclp_05112026193353_awhcloutcomeofboardmeeting05112026.pdf",
-    "premier_05112026193104_pl_-_outcome_september_2026_.pdf"
+    "premier_05112026193104_pl_-_outcome_september_2026_.pdf",
+    "cello2023_05112026194513_bmo.pdf"
   ],
   "digest": {
     "today_results": {
@@ -6507,6 +6509,20 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:MAITHANALL",
       "t": "05-Nov-2026 16:30:01",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1754070_05112026072532_WEB.xml"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "CELLO",
+      "c": "Cello World Limited",
+      "r": "Weak",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 633.1982,
+      "pat": 81.9119,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/CELLO2023_05112026194513_BMO.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CELLO",
+      "t": "05-Nov-2026 19:47:16"
     }
   ]
 }
