@@ -2,62 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "SHANKARA",
-      "c": "Shankara Building Products Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 367.46,
-      "pat": 4.53,
-      "eps": 1.87,
-      "filing": "https://nsearchives.nseindia.com/corporate/SHANKARA_04112026135047_Filing_OCR.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SHANKARA",
-      "t": "04-Nov-2026 13:52:12"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "ICIL",
-      "c": "Indo Count Industries Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 1672.6535000000001,
-      "pat": 131.8768,
-      "eps": 6.66,
-      "filing": "https://nsearchives.nseindia.com/corporate/ICIL_04112026135052_outcome.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ICIL",
-      "t": "04-Nov-2026 13:52:07"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "SAKSOFT",
-      "c": "Saksoft Limited",
-      "r": "Bad",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 248.6121,
-      "pat": 22.8208,
-      "eps": 2.49,
-      "filing": "https://nsearchives.nseindia.com/corporate/SAKSOFT_04112026135307_Reg30OutcomeofBMNov_042026finalsigned.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SAKSOFT",
-      "t": "04-Nov-2026 13:53:23"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "UNICHEMLAB",
-      "c": "Unichem Laboratories Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 640.22,
-      "pat": 22.22,
-      "eps": 3.16,
-      "filing": "https://nsearchives.nseindia.com/corporate/HIRALMEHTA_04112026135157_OutcomeofBoardMeeting.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:UNICHEMLAB",
-      "t": "04-Nov-2026 13:54:43"
-    },
-    {
-      "d": "2026-11-04",
       "s": "ATL",
       "c": "Allcargo Terminals Limited",
       "r": "Excellent",
@@ -4249,6 +4193,63 @@
       "filing": "https://nsearchives.nseindia.com/corporate/KRITINUTRIENTS_05112026160805_KNL_Outcome_05112026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:KRITINUT",
       "t": "05-Nov-2026 16:09:07"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "OPTIEMUS",
+      "c": "Optiemus Infracom Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 983.1684,
+      "pat": 21.0057,
+      "eps": 2.42,
+      "filing": "https://nsearchives.nseindia.com/corporate/OPTIEMUS_05112026161543_OILUAFR30092026AndOutcomeOfBM05112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:OPTIEMUS",
+      "t": "05-Nov-2026 16:17:34"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "MAHESHWARI",
+      "c": "Maheshwari Logistics Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/MAHESHWARI_05112026161646_OutcomeofBM05112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MAHESHWARI",
+      "t": "05-Nov-2026 16:17:05"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "ASTRAL",
+      "c": "Astral Limited",
+      "r": "Positive",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 19.883000000000003,
+      "pat": 1.2730000000000001,
+      "eps": 4.73,
+      "filing": "https://nsearchives.nseindia.com/corporate/ASTRAL_05112026161523_OutcomeofBoardMeeting.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ASTRAL",
+      "t": "05-Nov-2026 16:17:02"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "MAHESHWARI",
+      "c": "Maheshwari Logistics Limited",
+      "r": "Good",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 265.7962,
+      "pat": 4.0573999999999995,
+      "eps": 1.37,
+      "filing": "https://nsearchives.nseindia.com/corporate/MAHESHWARI_05112026161646_OutcomeofBM05112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MAHESHWARI",
+      "t": "05-Nov-2026 16:17:05",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753555_05112026042137_WEB.xml"
     }
   ],
   "seen": [
@@ -4908,7 +4909,10 @@
     "106847309",
     "106847343",
     "106847333",
-    "106847331"
+    "106847331",
+    "106847372",
+    "106847371",
+    "106847370"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -6681,6 +6685,9 @@
     "bglobal_05112026160409_bgiloutcome.pdf",
     "euro7000_05112026161009_outcome.pdf",
     "kmsugar_05112026160332_outcomeofbm.pdf",
-    "kritinutrients_05112026160805_knl_outcome_05112026.pdf"
+    "kritinutrients_05112026160805_knl_outcome_05112026.pdf",
+    "optiemus_05112026161543_oiluafr30092026andoutcomeofbm05112026.pdf",
+    "maheshwari_05112026161646_outcomeofbm05112026.pdf",
+    "astral_05112026161523_outcomeofboardmeeting.pdf"
   ]
 }
