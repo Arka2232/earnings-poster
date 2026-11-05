@@ -781,7 +781,9 @@
     "106848770",
     "106848767",
     "106848779",
-    "106848776"
+    "106848776",
+    "106848785",
+    "106848781"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1439,7 +1441,9 @@
     "mmfl_05112026202204_mmfluafr30sep2026.pdf",
     "focus_05112026201859_outcome.pdf",
     "muthootcaps_05112026202538_final.pdf",
-    "armeeinfotech_05112026202125_outcome_of_board_meeting__september_2026_pj_sj__1_.pdf"
+    "armeeinfotech_05112026202125_outcome_of_board_meeting__september_2026_pj_sj__1_.pdf",
+    "timetechno_05112026202626_outcome05112026.pdf",
+    "bagfilms_05112026202531_bagfilmsobmufr3009202605112026.pdf"
   ],
   "digest": {
     "today_results": {
@@ -2359,7 +2363,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T19:30:59.339399+00:00"
+        "xbrl_try": "2026-11-05T20:40:15.021049+00:00"
       },
       {
         "key": "106848259",
@@ -2479,19 +2483,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T19:31:00.242146+00:00"
-      },
-      {
-        "key": "106848580",
-        "seq_id": "106848580",
-        "symbol": "SUNDROP",
-        "company": "Sundrop Brands Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/Kavita_Sundrop_05112026193013_FinalIntimationforoutcomeofBMNov052026.pdf",
-        "an_dt": "05-Nov-2026 19:31:15",
-        "date": "2026-11-05",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-05T19:34:59.481582+00:00"
+        "xbrl_try": "2026-11-05T20:40:16.137876+00:00"
       },
       {
         "key": "106848595",
@@ -2576,6 +2568,30 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T20:31:02.377050+00:00"
+      },
+      {
+        "key": "106848785",
+        "seq_id": "106848785",
+        "symbol": "TIMETECHNO",
+        "company": "Time Technoplast Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/TIMETECHNO_05112026202626_Outcome05112026.pdf",
+        "an_dt": "05-Nov-2026 20:28:44",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T20:40:20.766556+00:00"
+      },
+      {
+        "key": "106848781",
+        "seq_id": "106848781",
+        "symbol": "BAGFILMS",
+        "company": "B.A.G Films and Media Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/BAGFILMS_05112026202531_BAGFILMSOBMUFR3009202605112026.pdf",
+        "an_dt": "05-Nov-2026 20:28:08",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T20:40:21.524534+00:00"
       }
     ],
     "recap": "2026-11-01",
@@ -6776,6 +6792,49 @@
       "filing": "https://nsearchives.nseindia.com/corporate/ARMEEINFOTECH_05112026202125_Outcome_of_Board_Meeting__September_2026_PJ_SJ__1_.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:ARMEE",
       "t": "05-Nov-2026 20:26:57"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "TIMETECHNO",
+      "c": "Time Technoplast Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/TIMETECHNO_05112026202626_Outcome05112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:TIMETECHNO",
+      "t": "05-Nov-2026 20:28:44"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "BAGFILMS",
+      "c": "B.A.G Films and Media Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/BAGFILMS_05112026202531_BAGFILMSOBMUFR3009202605112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BAGFILMS",
+      "t": "05-Nov-2026 20:28:08"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "SUNDROP",
+      "c": "Sundrop Brands Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 463.09,
+      "pat": 11.049999999999999,
+      "eps": 2.94,
+      "filing": "https://nsearchives.nseindia.com/corporate/Kavita_Sundrop_05112026193013_FinalIntimationforoutcomeofBMNov052026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SUNDROP",
+      "t": "05-Nov-2026 19:31:15",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1754096_05112026073730_WEB.xml"
     }
   ]
 }
