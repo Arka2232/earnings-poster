@@ -2,48 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "PANAMAPET",
-      "c": "Panama Petrochem Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 1038.0,
-      "pat": 151.59,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/PANAMAPET_04112026124405_outcome.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PANAMAPET",
-      "t": "04-Nov-2026 12:45:25"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "BECTORFOOD",
-      "c": "Mrs. Bectors Food Specialities Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 599.97,
-      "pat": 41.228,
-      "eps": 1.34,
-      "filing": "https://nsearchives.nseindia.com/corporate/BECTORFOOD_04112026124229_OUTCOME_BM_4112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BECTORFOOD",
-      "t": "04-Nov-2026 12:44:41"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "STEELXIND",
-      "c": "STEEL EXCHANGE INDIA LIMITED",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 343.1575,
-      "pat": 17.6234,
-      "eps": 0.14,
-      "filing": "https://nsearchives.nseindia.com/corporate/STEELXIND_04112026125541_Outcome_of_Board_Meeting_04112026_Final_Signed.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:STEELXIND",
-      "t": "04-Nov-2026 12:57:26"
-    },
-    {
-      "d": "2026-11-04",
       "s": "SUNCLAY",
       "c": "Sundaram Clayton Limited",
       "r": "Good",
@@ -4247,6 +4205,50 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:BEML",
       "t": "05-Nov-2026 13:59:31",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753442_05112026021941_WEB.xml"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "NBCC",
+      "c": "NBCC (India) Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 3395.7756,
+      "pat": 209.8473,
+      "eps": 0.76,
+      "filing": "https://nsearchives.nseindia.com/corporate/NBCC_05112026151051_Intimationoutcomeboardmeeting.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:NBCC",
+      "t": "05-Nov-2026 15:11:55"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "MBEL",
+      "c": "M & B Engineering Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 384.6747,
+      "pat": 29.494899999999998,
+      "eps": 5.12,
+      "filing": "https://nsearchives.nseindia.com/corporate/MBENG_05112026131027_Outcome_F.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MBEL",
+      "t": "05-Nov-2026 13:11:24",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753465_05112026025448_WEB.xml"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "CEIGALL",
+      "c": "Ceigall India Limited",
+      "r": "Weak",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 1022.4789999999999,
+      "pat": 92.167,
+      "eps": 5.29,
+      "filing": "https://nsearchives.nseindia.com/corporate/ceigall_05112026140835_Outcome_05112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CEIGALL",
+      "t": "05-Nov-2026 14:12:46",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753468_05112026025714_WEB.xml"
     }
   ],
   "seen": [
@@ -4889,7 +4891,8 @@
     "106847056",
     "106847063",
     "106847068",
-    "106847091"
+    "106847091",
+    "106847120"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5376,18 +5379,6 @@
         "xbrl_try": "2026-11-05T14:59:40.725290+00:00"
       },
       {
-        "key": "106846791",
-        "seq_id": "106846791",
-        "symbol": "MBEL",
-        "company": "M & B Engineering Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/MBENG_05112026131027_Outcome_F.pdf",
-        "an_dt": "05-Nov-2026 13:11:24",
-        "date": "2026-11-05",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-05T14:16:21.635758+00:00"
-      },
-      {
         "key": "106846843",
         "seq_id": "106846843",
         "symbol": "PRITIKAUTO",
@@ -5469,7 +5460,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T14:12:06.260605+00:00"
+        "xbrl_try": "2026-11-05T15:16:43.570821+00:00"
       },
       {
         "key": "106846928",
@@ -5481,19 +5472,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T14:12:07.025333+00:00"
-      },
-      {
-        "key": "106846940",
-        "seq_id": "106846940",
-        "symbol": "CEIGALL",
-        "company": "Ceigall India Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/ceigall_05112026140835_Outcome_05112026.pdf",
-        "an_dt": "05-Nov-2026 14:12:46",
-        "date": "2026-11-05",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-05T14:16:21.994981+00:00"
+        "xbrl_try": "2026-11-05T15:16:44.184003+00:00"
       },
       {
         "key": "106846945",
@@ -6597,6 +6576,7 @@
     "apollopipe_05112026145418_outcomeofbm05112026signed.pdf",
     "khadim_05112026145652_ufr.pdf",
     "motherson_05112026145442_financial_results.pdf",
-    "vtmnse_05112026150358_outcome_of_board_meeting_for_q2_2026.pdf"
+    "vtmnse_05112026150358_outcome_of_board_meeting_for_q2_2026.pdf",
+    "nbcc_05112026151051_intimationoutcomeboardmeeting.pdf"
   ]
 }
