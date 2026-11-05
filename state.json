@@ -2,48 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "SUMIT",
-      "c": "Sumit Woods Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 36.616,
-      "pat": 1.9032,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/SUMIT_04112026143601_NSE.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SUMIT",
-      "t": "04-Nov-2026 14:38:16"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "BLUECOAST",
-      "c": "Blue Coast Hotels Limited",
-      "r": "Bad",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 0.35000000000000003,
-      "pat": -0.56,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/BLUECOAST_04112026143436_OUTCOME_BM_04112026SIGNED.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BLUECOAST",
-      "t": "04-Nov-2026 14:37:02"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "MOLDTECH",
-      "c": "Mold-Tek Technologies Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 60.81270000000001,
-      "pat": 9.6189,
-      "eps": 3.34,
-      "filing": "https://nsearchives.nseindia.com/corporate/MOLDTECH_04112026143810_OutcomeofBM.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MOLDTECH",
-      "t": "04-Nov-2026 14:39:49"
-    },
-    {
-      "d": "2026-11-04",
       "s": "BALRAMCHIN",
       "c": "Balrampur Chini Mills Limited",
       "r": "Excellent",
@@ -4251,6 +4209,48 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SUVEN",
       "t": "05-Nov-2026 13:29:24",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753544_05112026040014_WEB.xml"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "WINDLAS",
+      "c": "Windlas Biotech Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/WINDLAS_05112026163307_UFR_Q2_UP.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:WINDLAS",
+      "t": "05-Nov-2026 16:37:48"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "MANYAVAR",
+      "c": "Vedant Fashions Limited",
+      "r": "Good",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 269.368,
+      "pat": 56.21900000000001,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/MANYAVAR_05112026163429_OutcomeofBM05112026Signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MANYAVAR",
+      "t": "05-Nov-2026 16:36:54"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "INDIASHLTR",
+      "c": "India Shelter Finance Corporation Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/ISFC2010_05112026162801_Outcome_of_Board_Meeting_Intimation.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:INDIASHLTR",
+      "t": "05-Nov-2026 16:36:48"
     }
   ],
   "seen": [
@@ -4926,7 +4926,10 @@
     "106847430",
     "106847462",
     "106847458",
-    "106847451"
+    "106847451",
+    "106847479",
+    "106847473",
+    "106847472"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5338,7 +5341,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T15:43:18.299898+00:00"
+        "xbrl_try": "2026-11-05T16:44:05.309403+00:00"
       },
       {
         "key": "106846401",
@@ -5687,6 +5690,30 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T16:41:29.737115+00:00"
+      },
+      {
+        "key": "106847479",
+        "seq_id": "106847479",
+        "symbol": "WINDLAS",
+        "company": "Windlas Biotech Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/WINDLAS_05112026163307_UFR_Q2_UP.pdf",
+        "an_dt": "05-Nov-2026 16:37:48",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T16:44:06.105315+00:00"
+      },
+      {
+        "key": "106847472",
+        "seq_id": "106847472",
+        "symbol": "INDIASHLTR",
+        "company": "India Shelter Finance Corporation Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/ISFC2010_05112026162801_Outcome_of_Board_Meeting_Intimation.pdf",
+        "an_dt": "05-Nov-2026 16:36:48",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T16:44:06.477750+00:00"
       }
     ],
     "ipo_check": "2026-11-05 16",
@@ -6763,6 +6790,9 @@
     "sglobal_05112026162636_bmouctomesigned.pdf",
     "tirupatifl_05112026163328_outcome__05_11_2026_tirupati.pdf",
     "tciexp_05112026163228_bmoutcome05112026.pdf",
-    "gipcl7868_05112026162948_gipcl_se_bm_outcome_05112026_signed.pdf"
+    "gipcl7868_05112026162948_gipcl_se_bm_outcome_05112026_signed.pdf",
+    "windlas_05112026163307_ufr_q2_up.pdf",
+    "manyavar_05112026163429_outcomeofbm05112026signed.pdf",
+    "isfc2010_05112026162801_outcome_of_board_meeting_intimation.pdf"
   ]
 }
