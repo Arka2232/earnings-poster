@@ -769,7 +769,8 @@
     "106848601",
     "106848599",
     "106848597",
-    "106848635"
+    "106848635",
+    "106848668"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1415,7 +1416,8 @@
     "ugrocap_05112026193551_outcomeofbm05112026.pdf",
     "awhclp_05112026193353_awhcloutcomeofboardmeeting05112026.pdf",
     "premier_05112026193104_pl_-_outcome_september_2026_.pdf",
-    "cello2023_05112026194513_bmo.pdf"
+    "cello2023_05112026194513_bmo.pdf",
+    "jaro2024_05112026195506_covering_letter_result_q2.pdf"
   ],
   "digest": {
     "today_results": {
@@ -6523,6 +6525,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/CELLO2023_05112026194513_BMO.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:CELLO",
       "t": "05-Nov-2026 19:47:16"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "JARO",
+      "c": "Jaro Institute of Technology Management and Research Limited",
+      "r": "Good",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 87.7412,
+      "pat": 18.541400000000003,
+      "eps": 8.48,
+      "filing": "https://nsearchives.nseindia.com/corporate/JARO2024_05112026195506_Covering_Letter_Result_Q2.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:JARO",
+      "t": "05-Nov-2026 19:56:33"
     }
   ]
 }
