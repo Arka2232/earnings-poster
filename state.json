@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "CERA",
-      "c": "Cera Sanitaryware Limited",
-      "r": "Positive",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 602.9594999999999,
-      "pat": 56.1362,
-      "eps": 43.52,
-      "filing": "https://nsearchives.nseindia.com/corporate/CERA_04112026122203_CERABMO14112026s.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CERA",
-      "t": "04-Nov-2026 12:24:27"
-    },
-    {
-      "d": "2026-11-04",
       "s": "SAREGAMA",
       "c": "Saregama India Limited",
       "r": "Excellent",
@@ -4246,6 +4232,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/TEXRAIL_05112026145026_TexRailBMOutcome05112026Signed.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:TEXRAIL",
       "t": "05-Nov-2026 14:52:03"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "APOLLOPIPE",
+      "c": "Apollo Pipes Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/APOLLOPIPE_05112026145418_OutcomeofBM05112026Signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:APOLLOPIPE",
+      "t": "05-Nov-2026 14:55:57"
     }
   ],
   "seen": [
@@ -4884,7 +4884,8 @@
     "106847014",
     "106847013",
     "106847040",
-    "106847039"
+    "106847039",
+    "106847056"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5525,6 +5526,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T14:28:45.628825+00:00"
+      },
+      {
+        "key": "106847056",
+        "seq_id": "106847056",
+        "symbol": "APOLLOPIPE",
+        "company": "Apollo Pipes Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/APOLLOPIPE_05112026145418_OutcomeofBM05112026Signed.pdf",
+        "an_dt": "05-Nov-2026 14:55:57",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T14:57:54.120672+00:00"
       }
     ],
     "ipo_check": "2026-11-05 14",
@@ -6564,6 +6577,7 @@
     "gkwlimited_05112026144058_outcome_of_board_meeting_05112026.pdf",
     "veegaland_05112026143759_outcome_of_bm_05112026_sd.pdf",
     "tega_05112026145213_intimation_outcome_board_meeting_sd.pdf",
-    "texrail_05112026145026_texrailbmoutcome05112026signed.pdf"
+    "texrail_05112026145026_texrailbmoutcome05112026signed.pdf",
+    "apollopipe_05112026145418_outcomeofbm05112026signed.pdf"
   ]
 }
