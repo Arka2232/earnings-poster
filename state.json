@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "GAJA",
-      "c": "Gaja Alternative Asset Management Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 13.8482,
-      "pat": 21.3406,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/GAAML2025_04112026102248_Outcome_of_Bm.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GAJA",
-      "t": "04-Nov-2026 10:23:02"
-    },
-    {
-      "d": "2026-11-04",
       "s": "VINCOFE",
       "c": "Vintage Coffee And Beverages Limited",
       "r": "Results Filed",
@@ -4246,6 +4232,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/SAATVIK_05112026143717_Outcome_of_the_Board_Meeting_signed.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SAATVIKGL",
       "t": "05-Nov-2026 14:37:32"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "BERGEPAINT",
+      "c": "Berger Paints (I) Limited",
+      "r": "Positive",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 2750.06,
+      "pat": 163.31,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/PAINTBERGE_05112026143719_ResultsFinal051126.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BERGEPAINT",
+      "t": "05-Nov-2026 14:38:42"
     }
   ],
   "seen": [
@@ -4879,7 +4879,8 @@
     "106846966",
     "106846982",
     "106846988",
-    "106847005"
+    "106847005",
+    "106847008"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5303,7 +5304,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T13:40:20.747698+00:00"
+        "xbrl_try": "2026-11-05T14:40:55.956120+00:00"
       },
       {
         "key": "106846401",
@@ -6554,6 +6555,7 @@
     "jindworld_05112026142427_outcome_of_bm_signed.pdf",
     "kiriindus_05112026142843_bmoutcome_s.pdf",
     "itd_05112026143226_st_exch_outcome_bm_2_after_the_meeting.pdf",
-    "saatvik_05112026143717_outcome_of_the_board_meeting_signed.pdf"
+    "saatvik_05112026143717_outcome_of_the_board_meeting_signed.pdf",
+    "paintberge_05112026143719_resultsfinal051126.pdf"
   ]
 }
