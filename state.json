@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "SUBEXLTD",
-      "c": "Subex Limited",
-      "r": "Bad",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 0.8559000000000001,
-      "pat": 0.1429,
-      "eps": 0.26,
-      "filing": "https://nsearchives.nseindia.com/corporate/SUBEXLTD_03112026192550_Outcome_of_BM_03112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SUBEXLTD",
-      "t": "03-Nov-2026 19:26:50"
-    },
-    {
-      "d": "2026-11-03",
       "s": "IPL",
       "c": "India Pesticides Limited",
       "r": "Bad",
@@ -4254,6 +4240,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/KAMLESH_MUNDRA_05112026122859_SERESULT.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:GUJALKALI",
       "t": "05-Nov-2026 12:33:36"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "RPSGVENT",
+      "c": "RPSG VENTURES LIMITED",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 3243.49,
+      "pat": 114.54,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/RPSGVENT_05112026123746_RVL_outcome_05112026_signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:RPSGVENT",
+      "t": "05-Nov-2026 12:39:59"
     }
   ],
   "seen": [
@@ -4844,7 +4844,8 @@
     "106846582",
     "106846601",
     "106846605",
-    "106846614"
+    "106846614",
+    "106846672"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -6331,6 +6332,7 @@
     "kriti_05112026122142_kiil_outcome_05112026.pdf",
     "yaari_05112026122902_ibl_bm_outcome_05112026.pdf",
     "9930371292_05112026123054_bmoutcomesd.pdf",
-    "kamlesh_mundra_05112026122859_seresult.pdf"
+    "kamlesh_mundra_05112026122859_seresult.pdf",
+    "rpsgvent_05112026123746_rvl_outcome_05112026_signed.pdf"
   ]
 }
