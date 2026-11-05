@@ -2,34 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "NLCINDIA",
-      "c": "NLC India Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 2690.88,
-      "pat": 1205.0,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/NLCINDIA_04112026135958_573_BM_-_Outcome_04112026_Signed.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:NLCINDIA",
-      "t": "04-Nov-2026 14:03:05"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "SBCL",
-      "c": "Shivalik Bimetal Controls Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 197.78830000000002,
-      "pat": 34.7515,
-      "eps": 5.82,
-      "filing": "https://nsearchives.nseindia.com/corporate/SBCL_04112026140847_Outcome_04112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SBCL",
-      "t": "04-Nov-2026 14:09:23"
-    },
-    {
-      "d": "2026-11-04",
       "s": "VARROC",
       "c": "Varroc Engineering Limited",
       "r": "Bad",
@@ -4250,6 +4222,34 @@
       "filing": "https://nsearchives.nseindia.com/corporate/HexacomApril20_05112026161535_STX_outcome.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:BHARTIHEXA",
       "t": "05-Nov-2026 16:18:13"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "GTL",
+      "c": "GTL Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/GTLSH_05112026162034_GTL_Financial_Results_30092026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GTL",
+      "t": "05-Nov-2026 16:23:53"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "HBSL",
+      "c": "HB Stockholdings Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/HBSL_05112026162111_OUTCOME_OF_BOARD_MEETING.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:HBSL",
+      "t": "05-Nov-2026 16:23:20"
     }
   ],
   "seen": [
@@ -4914,7 +4914,9 @@
     "106847371",
     "106847370",
     "106847392",
-    "106847374"
+    "106847374",
+    "106847402",
+    "106847398"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5627,6 +5629,30 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T16:16:48.800203+00:00"
+      },
+      {
+        "key": "106847402",
+        "seq_id": "106847402",
+        "symbol": "GTL",
+        "company": "GTL Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/GTLSH_05112026162034_GTL_Financial_Results_30092026.pdf",
+        "an_dt": "05-Nov-2026 16:23:53",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T16:27:40.457115+00:00"
+      },
+      {
+        "key": "106847398",
+        "seq_id": "106847398",
+        "symbol": "HBSL",
+        "company": "HB Stockholdings Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/HBSL_05112026162111_OUTCOME_OF_BOARD_MEETING.pdf",
+        "an_dt": "05-Nov-2026 16:23:20",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T16:27:41.092350+00:00"
       }
     ],
     "ipo_check": "2026-11-05 16",
@@ -6692,6 +6718,8 @@
     "maheshwari_05112026161646_outcomeofbm05112026.pdf",
     "astral_05112026161523_outcomeofboardmeeting.pdf",
     "9876964720_05112026162037_outcome05112026.pdf",
-    "hexacomapril20_05112026161535_stx_outcome.pdf"
+    "hexacomapril20_05112026161535_stx_outcome.pdf",
+    "gtlsh_05112026162034_gtl_financial_results_30092026.pdf",
+    "hbsl_05112026162111_outcome_of_board_meeting.pdf"
   ]
 }
