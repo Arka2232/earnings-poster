@@ -2,62 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "SWANCORP",
-      "c": "SWAN CORP LIMITED",
-      "r": "Positive",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 1045.8880000000001,
-      "pat": 565.5438,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/SWANENERGY_04112026162441_BM_Outcome.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SWANCORP",
-      "t": "04-Nov-2026 16:28:23"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "VIDYAWIRES",
-      "c": "Vidya Wires Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 476.88300000000004,
-      "pat": 16.483,
-      "eps": 0.77,
-      "filing": "https://nsearchives.nseindia.com/corporate/VIDYAWIRESLTD_04112026163517_NSE.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:VIDYAWIRES",
-      "t": "04-Nov-2026 16:37:44"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "TORNTPOWER",
-      "c": "Torrent Power Limited",
-      "r": "Good",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 9801.58,
-      "pat": 837.96,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/TORNTPOWER_04112026164014_Outcome_of_BM.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:TORNTPOWER",
-      "t": "04-Nov-2026 16:40:35"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "EPL",
-      "c": "EPL Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/Sonia_Gupte_04112026164105_OutcomeOfBMSd.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:EPL",
-      "t": "04-Nov-2026 16:46:05"
-    },
-    {
-      "d": "2026-11-04",
       "s": "ASPINWALL",
       "c": "Aspinwall and Company Limited",
       "r": "Results Filed",
@@ -4255,6 +4199,62 @@
       "filing": "https://nsearchives.nseindia.com/corporate/SHYAMCENT_05112026172517_SCFL_Outcome_Signed.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SHYAMCENT",
       "t": "05-Nov-2026 17:28:57"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "LICI",
+      "c": "Life Insurance Corporation Of India",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/LIC_BOARD_05112026173201_outcomesep26sd.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:LICI",
+      "t": "05-Nov-2026 17:33:27"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "URJA",
+      "c": "Urja Global Limited",
+      "r": "Good",
+      "b": "Standalone",
+      "q": "Q3 FY27",
+      "sales": 18.8558,
+      "pat": 0.8240000000000001,
+      "eps": 0.02,
+      "filing": "https://nsearchives.nseindia.com/corporate/URJA_05112026172731_Outcome_of_BM_signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:URJA",
+      "t": "05-Nov-2026 17:32:27"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "ONGC",
+      "c": "Oil & Natural Gas Corporation Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 198263.33,
+      "pat": 18534.82,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/ONGC_05112026172811_FS30092026SD.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ONGC",
+      "t": "05-Nov-2026 17:32:27"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "HNDFDS",
+      "c": "Hindustan Foods Limited",
+      "r": "Good",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 1266.01,
+      "pat": 45.02,
+      "eps": 3.71,
+      "filing": "https://nsearchives.nseindia.com/corporate/HINDFOODS_05112026173017_Outcome_05112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:HNDFDS",
+      "t": "05-Nov-2026 17:32:14"
     }
   ],
   "seen": [
@@ -4956,7 +4956,11 @@
     "106847795",
     "106847840",
     "106847830",
-    "106847821"
+    "106847821",
+    "106847855",
+    "106847848",
+    "106847849",
+    "106847847"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -4980,7 +4984,7 @@
         "url": "https://nsearchives.nseindia.com/corporate/PATELINT_02112026155145_Outcome_of_BM_Sept2026_sd.pdf",
         "an_dt": "02-Nov-2026 15:53:28",
         "date": "2026-11-02",
-        "xbrl_try": "2026-11-05T16:35:20.339036+00:00"
+        "xbrl_try": "2026-11-05T17:42:24.699024+00:00"
       },
       {
         "key": "106839719",
@@ -4992,7 +4996,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T16:35:21.733083+00:00"
+        "xbrl_try": "2026-11-05T17:42:25.868526+00:00"
       },
       {
         "key": "106839796",
@@ -5004,7 +5008,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T16:35:23.587904+00:00"
+        "xbrl_try": "2026-11-05T17:42:27.203322+00:00"
       },
       {
         "key": "106840301",
@@ -5016,7 +5020,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T16:35:24.503546+00:00"
+        "xbrl_try": "2026-11-05T17:42:28.055500+00:00"
       },
       {
         "key": "106840295",
@@ -5028,7 +5032,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T16:35:26.361787+00:00"
+        "xbrl_try": "2026-11-05T17:42:29.121250+00:00"
       },
       {
         "key": "106840386",
@@ -5040,7 +5044,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T16:35:27.346806+00:00"
+        "xbrl_try": "2026-11-05T17:42:30.044943+00:00"
       },
       {
         "key": "106840511",
@@ -5052,7 +5056,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T16:35:28.576939+00:00"
+        "xbrl_try": "2026-11-05T17:42:30.816013+00:00"
       },
       {
         "key": "106840621",
@@ -5064,7 +5068,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T16:35:29.653637+00:00"
+        "xbrl_try": "2026-11-05T17:42:31.986379+00:00"
       },
       {
         "key": "106840747",
@@ -5076,7 +5080,7 @@
         "date": "2026-11-02",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T16:35:30.978102+00:00"
+        "xbrl_try": "2026-11-05T17:42:33.127868+00:00"
       },
       {
         "key": "106841454",
@@ -5088,7 +5092,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T16:35:32.389317+00:00"
+        "xbrl_try": "2026-11-05T17:42:34.344992+00:00"
       },
       {
         "key": "106841577",
@@ -5113,7 +5117,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T16:35:33.092723+00:00"
+        "xbrl_try": "2026-11-05T17:42:35.226580+00:00"
       },
       {
         "key": "106842168",
@@ -5125,7 +5129,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T16:35:34.344923+00:00"
+        "xbrl_try": "2026-11-05T17:42:36.436776+00:00"
       },
       {
         "key": "106842383",
@@ -5137,7 +5141,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T16:35:34.985766+00:00"
+        "xbrl_try": "2026-11-05T17:42:37.096082+00:00"
       },
       {
         "key": "106842647",
@@ -5149,7 +5153,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T16:35:36.367863+00:00"
+        "xbrl_try": "2026-11-05T17:42:38.232395+00:00"
       },
       {
         "key": "106842850",
@@ -5174,7 +5178,7 @@
         "date": "2026-11-03",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T16:35:37.520887+00:00"
+        "xbrl_try": "2026-11-05T17:42:39.054116+00:00"
       },
       {
         "key": "106843308",
@@ -5186,7 +5190,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T16:35:38.574501+00:00"
+        "xbrl_try": "2026-11-05T17:42:40.609730+00:00"
       },
       {
         "key": "106843847",
@@ -5198,7 +5202,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T16:35:40.160730+00:00"
+        "xbrl_try": "2026-11-05T17:42:42.036585+00:00"
       },
       {
         "key": "106844083",
@@ -5210,7 +5214,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T16:35:40.946943+00:00"
+        "xbrl_try": "2026-11-05T17:42:43.307343+00:00"
       },
       {
         "key": "106844203",
@@ -5222,7 +5226,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T16:35:42.039964+00:00"
+        "xbrl_try": "2026-11-05T17:42:44.162425+00:00"
       },
       {
         "key": "106844278",
@@ -5247,7 +5251,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T16:35:42.936790+00:00"
+        "xbrl_try": "2026-11-05T17:42:45.095153+00:00"
       },
       {
         "key": "106844537",
@@ -5259,7 +5263,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T16:35:43.924004+00:00"
+        "xbrl_try": "2026-11-05T17:42:46.426150+00:00"
       },
       {
         "key": "106844610",
@@ -5271,7 +5275,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T16:35:45.546050+00:00"
+        "xbrl_try": "2026-11-05T17:42:48.381046+00:00"
       },
       {
         "key": "106844723",
@@ -5283,7 +5287,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T16:35:46.834642+00:00"
+        "xbrl_try": "2026-11-05T17:42:49.862453+00:00"
       },
       {
         "key": "106844998",
@@ -5295,7 +5299,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T16:35:47.700545+00:00"
+        "xbrl_try": "2026-11-05T17:42:50.635974+00:00"
       },
       {
         "key": "106845148",
@@ -5307,7 +5311,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T16:35:52.008270+00:00"
+        "xbrl_try": "2026-11-05T17:42:51.688023+00:00"
       },
       {
         "key": "106845234",
@@ -5319,7 +5323,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T16:35:53.133624+00:00"
+        "xbrl_try": "2026-11-05T17:42:52.697221+00:00"
       },
       {
         "key": "106845707",
@@ -5344,7 +5348,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T16:35:54.090676+00:00"
+        "xbrl_try": "2026-11-05T17:42:53.428088+00:00"
       },
       {
         "key": "106843992",
@@ -5356,7 +5360,7 @@
         "date": "2026-11-04",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T16:35:55.068032+00:00"
+        "xbrl_try": "2026-11-05T17:42:54.466546+00:00"
       },
       {
         "key": "106846324",
@@ -5380,7 +5384,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T16:41:19.561643+00:00"
+        "xbrl_try": "2026-11-05T17:42:54.745989+00:00"
       },
       {
         "key": "106846403",
@@ -5392,7 +5396,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T16:41:20.042709+00:00"
+        "xbrl_try": "2026-11-05T17:42:55.089553+00:00"
       },
       {
         "key": "106846424",
@@ -5416,7 +5420,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T16:35:55.854034+00:00"
+        "xbrl_try": "2026-11-05T17:43:02.130869+00:00"
       },
       {
         "key": "106846724",
@@ -5440,7 +5444,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T16:41:20.973464+00:00"
+        "xbrl_try": "2026-11-05T17:43:09.247170+00:00"
       },
       {
         "key": "106846834",
@@ -5452,7 +5456,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T16:41:28.742873+00:00"
+        "xbrl_try": "2026-11-05T17:43:09.992138+00:00"
       },
       {
         "key": "106846931",
@@ -5656,7 +5660,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T16:35:56.314254+00:00"
+        "xbrl_try": "2026-11-05T17:43:10.319627+00:00"
       },
       {
         "key": "106847435",
@@ -5668,7 +5672,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T16:35:56.940922+00:00"
+        "xbrl_try": "2026-11-05T17:43:17.307596+00:00"
       },
       {
         "key": "106847451",
@@ -5680,7 +5684,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T16:41:29.737115+00:00"
+        "xbrl_try": "2026-11-05T17:43:24.671279+00:00"
       },
       {
         "key": "106847479",
@@ -5837,6 +5841,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T17:35:08.375036+00:00"
+      },
+      {
+        "key": "106847855",
+        "seq_id": "106847855",
+        "symbol": "LICI",
+        "company": "Life Insurance Corporation Of India",
+        "url": "https://nsearchives.nseindia.com/corporate/LIC_BOARD_05112026173201_outcomesep26sd.pdf",
+        "an_dt": "05-Nov-2026 17:33:27",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T17:43:25.392007+00:00"
       }
     ],
     "ipo_check": "2026-11-05 17",
@@ -6939,6 +6955,10 @@
     "abfrl_05112026172207_se.pdf",
     "molbio_05112026172551_bm_outcome_signed.pdf",
     "hondapower_05112026172851_regulation33outcome.pdf",
-    "shyamcent_05112026172517_scfl_outcome_signed.pdf"
+    "shyamcent_05112026172517_scfl_outcome_signed.pdf",
+    "lic_board_05112026173201_outcomesep26sd.pdf",
+    "urja_05112026172731_outcome_of_bm_signed.pdf",
+    "ongc_05112026172811_fs30092026sd.pdf",
+    "hindfoods_05112026173017_outcome_05112026.pdf"
   ]
 }
