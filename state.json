@@ -2,34 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "JISLJALEQS",
-      "c": "Jain Irrigation Systems Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/JISLJALEQS_04112026152910_SE_Letter_Outcome_Financial_Results_SEPT2026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:JISLJALEQS",
-      "t": "04-Nov-2026 15:30:52"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "JISLDVREQS",
-      "c": "Jain Irrigation Systems Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/JISLDVREQS_04112026153347_SE_Letter_Outcome_Financial_Results_SEPT2026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:JISLDVREQS",
-      "t": "04-Nov-2026 15:35:03"
-    },
-    {
-      "d": "2026-11-04",
       "s": "LENSKART",
       "c": "Lenskart Solutions Limited",
       "r": "Excellent",
@@ -4251,6 +4223,35 @@
       "filing": "https://nsearchives.nseindia.com/corporate/SHRENIK_05112026165619_Board_Meeting_Outcome-FS-s.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SHRENIK",
       "t": "05-Nov-2026 16:59:33"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "ARTNIRMAN",
+      "c": "Art Nirman Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/ARTNIRMAN_05112026165801_ANLFINSEPT2026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ARTNIRMAN",
+      "t": "05-Nov-2026 17:00:52"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "ARTNIRMAN",
+      "c": "Art Nirman Limited",
+      "r": "Bad",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 4.281499999999999,
+      "pat": -0.0756,
+      "eps": -0.03,
+      "filing": "https://nsearchives.nseindia.com/corporate/ARTNIRMAN_05112026165801_ANLFINSEPT2026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ARTNIRMAN",
+      "t": "05-Nov-2026 17:00:52",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753579_05112026050258_WEB.xml"
     }
   ],
   "seen": [
@@ -4938,7 +4939,8 @@
     "106847550",
     "106847549",
     "106847595",
-    "106847593"
+    "106847593",
+    "106847599"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -6859,6 +6861,7 @@
     "rategain_05112026165347_rg_obm_051126.pdf",
     "539301_05112026165325_financialresultsh1fy27.pdf",
     "hpl_05112026165734_signedoutcomeofboardmeeting.pdf",
-    "shrenik_05112026165619_board_meeting_outcome-fs-s.pdf"
+    "shrenik_05112026165619_board_meeting_outcome-fs-s.pdf",
+    "artnirman_05112026165801_anlfinsept2026.pdf"
   ]
 }
