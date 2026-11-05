@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "CENTURYPLY",
-      "c": "Century Plyboards (India) Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 178004.49,
-      "pat": 10362.82,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/CENTURYPLY_04112026132751_SE_letter__results.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CENTURYPLY",
-      "t": "04-Nov-2026 13:29:48"
-    },
-    {
-      "d": "2026-11-04",
       "s": "LALPATHLAB",
       "c": "Dr. Lal Path Labs Ltd.",
       "r": "Excellent",
@@ -4250,6 +4236,20 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:OILCOUNTUB",
       "t": "05-Nov-2026 13:46:07",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753475_05112026030519_WEB.xml"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "GREENLAM",
+      "c": "Greenlam Industries Limited",
+      "r": "Weak",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 875.18,
+      "pat": 24.48,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/GREENLAMAW_05112026155141_OutcomeofBMFinancialResults.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GREENLAM",
+      "t": "05-Nov-2026 15:53:58"
     }
   ],
   "seen": [
@@ -4901,7 +4901,8 @@
     "106847149",
     "106847138",
     "106847172",
-    "106847209"
+    "106847209",
+    "106847278"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -6606,6 +6607,7 @@
     "icemake_05112026151937_outcome051126.pdf",
     "elin_05112026151621_outcome5112026.pdf",
     "hexatradex_05112026152650_resultssept2026se.pdf",
-    "schneider_05112026153711_seiloutcome_fr_05112026.pdf"
+    "schneider_05112026153711_seiloutcome_fr_05112026.pdf",
+    "greenlamaw_05112026155141_outcomeofbmfinancialresults.pdf"
   ]
 }
