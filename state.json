@@ -2,34 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "ATL",
-      "c": "Allcargo Terminals Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 251.63,
-      "pat": 20.89,
-      "eps": 0.8,
-      "filing": "https://nsearchives.nseindia.com/corporate/ALLCARGOTERMINALS_04112026135358_SEupload.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ATL",
-      "t": "04-Nov-2026 13:54:20"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "JYOTHYLAB",
-      "c": "Jyothy Labs Limited",
-      "r": "Bad",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 7.6004,
-      "pat": 0.106,
-      "eps": 0.29,
-      "filing": "https://nsearchives.nseindia.com/corporate/JYOTHYLAB_04112026135026_SEIntimationOutcomeBM.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:JYOTHYLAB",
-      "t": "04-Nov-2026 13:58:10"
-    },
-    {
-      "d": "2026-11-04",
       "s": "NLCINDIA",
       "c": "NLC India Limited",
       "r": "Excellent",
@@ -4250,6 +4222,34 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:MAHESHWARI",
       "t": "05-Nov-2026 16:17:05",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753555_05112026042137_WEB.xml"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "HAPPYFORGE",
+      "c": "Happy Forgings Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 500.7496,
+      "pat": 97.5106,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/9876964720_05112026162037_Outcome05112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:HAPPYFORGE",
+      "t": "05-Nov-2026 16:21:54"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "BHARTIHEXA",
+      "c": "Bharti Hexacom Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 25.818,
+      "pat": 5.6610000000000005,
+      "eps": 11.32,
+      "filing": "https://nsearchives.nseindia.com/corporate/HexacomApril20_05112026161535_STX_outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BHARTIHEXA",
+      "t": "05-Nov-2026 16:18:13"
     }
   ],
   "seen": [
@@ -4912,7 +4912,9 @@
     "106847331",
     "106847372",
     "106847371",
-    "106847370"
+    "106847370",
+    "106847392",
+    "106847374"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5480,7 +5482,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T15:24:53.046165+00:00"
+        "xbrl_try": "2026-11-05T16:25:00.861937+00:00"
       },
       {
         "key": "106846966",
@@ -5540,7 +5542,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T15:24:53.701035+00:00"
+        "xbrl_try": "2026-11-05T16:25:01.756212+00:00"
       },
       {
         "key": "106847138",
@@ -6688,6 +6690,8 @@
     "kritinutrients_05112026160805_knl_outcome_05112026.pdf",
     "optiemus_05112026161543_oiluafr30092026andoutcomeofbm05112026.pdf",
     "maheshwari_05112026161646_outcomeofbm05112026.pdf",
-    "astral_05112026161523_outcomeofboardmeeting.pdf"
+    "astral_05112026161523_outcomeofboardmeeting.pdf",
+    "9876964720_05112026162037_outcome05112026.pdf",
+    "hexacomapril20_05112026161535_stx_outcome.pdf"
   ]
 }
