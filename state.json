@@ -2,48 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "JTEKTINDIA",
-      "c": "Jtekt India Limited",
-      "r": "Positive",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 834.7425999999999,
-      "pat": 17.4814,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/JTEKTINDIA_04112026132532_Outcome_of_Board_Meeting.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:JTEKTINDIA",
-      "t": "04-Nov-2026 13:29:36"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "REDTAPE",
-      "c": "Redtape Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/REDTAPE_04112026132833_Outcome_of_BM.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:REDTAPE",
-      "t": "04-Nov-2026 13:29:29"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "MARKSANS",
-      "c": "Marksans Pharma Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/MARKSANS_04112026133031_Seintimation-Results.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MARKSANS",
-      "t": "04-Nov-2026 13:34:26"
-    },
-    {
-      "d": "2026-11-04",
       "s": "ROLEXRINGS",
       "c": "Rolex Rings Limited",
       "r": "Excellent",
@@ -4250,6 +4208,48 @@
       "filing": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_05112026155448_69.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:BIKAJI",
       "t": "05-Nov-2026 15:56:11"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "JITFINFRA",
+      "c": "JITF Infralogistics Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 1.0123,
+      "pat": 0.052300000000000006,
+      "eps": 0.02,
+      "filing": "https://nsearchives.nseindia.com/corporate/JITFINFRA_05112026160606_RESULTSREG30.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:JITFINFRA",
+      "t": "05-Nov-2026 16:06:59"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "RUBICON",
+      "c": "Rubicon Research Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/9823522970_05112026160314_RRLSEIntimationOutcomeBM05Nov2026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:RUBICON",
+      "t": "05-Nov-2026 16:06:26"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "BGLOBAL",
+      "c": "Bharatiya Global Infomedia Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/BGLOBAL_05112026160409_BGILOUTCOME.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BGLOBAL",
+      "t": "05-Nov-2026 16:05:15"
     }
   ],
   "seen": [
@@ -4903,7 +4903,10 @@
     "106847172",
     "106847209",
     "106847278",
-    "106847284"
+    "106847284",
+    "106847318",
+    "106847315",
+    "106847309"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5435,7 +5438,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T15:08:57.313061+00:00"
+        "xbrl_try": "2026-11-05T16:13:12.815017+00:00"
       },
       {
         "key": "106846931",
@@ -5507,7 +5510,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T15:05:04.612753+00:00"
+        "xbrl_try": "2026-11-05T16:13:13.475558+00:00"
       },
       {
         "key": "106847091",
@@ -5519,7 +5522,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T15:07:36.280801+00:00"
+        "xbrl_try": "2026-11-05T16:13:13.797725+00:00"
       },
       {
         "key": "106847135",
@@ -5568,6 +5571,30 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T15:58:00.206757+00:00"
+      },
+      {
+        "key": "106847315",
+        "seq_id": "106847315",
+        "symbol": "RUBICON",
+        "company": "Rubicon Research Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/9823522970_05112026160314_RRLSEIntimationOutcomeBM05Nov2026.pdf",
+        "an_dt": "05-Nov-2026 16:06:26",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T16:13:14.437344+00:00"
+      },
+      {
+        "key": "106847309",
+        "seq_id": "106847309",
+        "symbol": "BGLOBAL",
+        "company": "Bharatiya Global Infomedia Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/BGLOBAL_05112026160409_BGILOUTCOME.pdf",
+        "an_dt": "05-Nov-2026 16:05:15",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T16:13:15.051750+00:00"
       }
     ],
     "ipo_check": "2026-11-05 16",
@@ -6622,6 +6649,9 @@
     "hexatradex_05112026152650_resultssept2026se.pdf",
     "schneider_05112026153711_seiloutcome_fr_05112026.pdf",
     "greenlamaw_05112026155141_outcomeofbmfinancialresults.pdf",
-    "bikajifoods_05112026155448_69.pdf"
+    "bikajifoods_05112026155448_69.pdf",
+    "jitfinfra_05112026160606_resultsreg30.pdf",
+    "9823522970_05112026160314_rrlseintimationoutcomebm05nov2026.pdf",
+    "bglobal_05112026160409_bgiloutcome.pdf"
   ]
 }
