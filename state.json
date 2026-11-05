@@ -775,7 +775,9 @@
     "106848697",
     "106848711",
     "106848716",
-    "106848713"
+    "106848713",
+    "106848727",
+    "106848725"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1427,7 +1429,9 @@
     "welent_05112026200329_finalupload.pdf",
     "symbiotec_05112026200536_financial_final_.pdf",
     "rashi2024_05112026200643_financial_results_q2_2026-27.pdf",
-    "hcg1_05112026200746_outcome_results_05_november_2026.pdf"
+    "hcg1_05112026200746_outcome_results_05_november_2026.pdf",
+    "lxchem_05112026201059_outcomebm05112026.pdf",
+    "ambicaagar_05112026200829_outcome.pdf"
   ],
   "digest": {
     "today_results": {
@@ -2201,7 +2205,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T19:17:08.435989+00:00"
+        "xbrl_try": "2026-11-05T20:17:19.923589+00:00"
       },
       {
         "key": "106847091",
@@ -2213,7 +2217,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T19:17:08.751716+00:00"
+        "xbrl_try": "2026-11-05T20:17:20.354757+00:00"
       },
       {
         "key": "106847309",
@@ -2225,7 +2229,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T19:17:10.420698+00:00"
+        "xbrl_try": "2026-11-05T20:17:21.657586+00:00"
       },
       {
         "key": "106847333",
@@ -2275,18 +2279,6 @@
         "basis": "",
         "xbrl_try": "2026-11-05T20:01:10.044755+00:00",
         "xbrl_blocked": "other-taxonomy"
-      },
-      {
-        "key": "106847619",
-        "seq_id": "106847619",
-        "symbol": "IVALUE",
-        "company": "Ivalue Infosolutions Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/IVALUE927_05112026170146_Board_Meeting-Outcome05112026.pdf",
-        "an_dt": "05-Nov-2026 17:04:40",
-        "date": "2026-11-05",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-05T19:17:10.793376+00:00"
       },
       {
         "key": "106847840",
@@ -2540,6 +2532,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T20:09:37.500226+00:00"
+      },
+      {
+        "key": "106848725",
+        "seq_id": "106848725",
+        "symbol": "AMBICAAGAR",
+        "company": "Ambica Agarbathies & Aroma industries Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/AMBICAAGAR_05112026200829_Outcome.pdf",
+        "an_dt": "05-Nov-2026 20:12:38",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T20:17:25.701705+00:00"
       }
     ],
     "recap": "2026-11-01",
@@ -6641,6 +6645,49 @@
       "filing": "https://nsearchives.nseindia.com/corporate/HCG1_05112026200746_Outcome_Results_05_November_2026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:HCG",
       "t": "05-Nov-2026 20:09:36"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "LXCHEM",
+      "c": "Laxmi Organic Industries Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 1054.6270000000002,
+      "pat": 49.864000000000004,
+      "eps": 1.8,
+      "filing": "https://nsearchives.nseindia.com/corporate/LXCHEM_05112026201059_OutcomeBM05112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:LXCHEM",
+      "t": "05-Nov-2026 20:12:47"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "AMBICAAGAR",
+      "c": "Ambica Agarbathies & Aroma industries Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/AMBICAAGAR_05112026200829_Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:AMBICAAGAR",
+      "t": "05-Nov-2026 20:12:38"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "IVALUE",
+      "c": "Ivalue Infosolutions Limited",
+      "r": "Weak",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 191.98,
+      "pat": 23.38,
+      "eps": 4.25,
+      "filing": "https://nsearchives.nseindia.com/corporate/IVALUE927_05112026170146_Board_Meeting-Outcome05112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:IVALUE",
+      "t": "05-Nov-2026 17:04:40",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1754170_05112026081131_WEB.xml"
     }
   ]
 }
