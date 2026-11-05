@@ -2,34 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "DNAMEDIA",
-      "c": "Diligent Media Corporation Limited",
-      "r": "Positive",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 1.7183000000000002,
-      "pat": 0.1413,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/DNAMEDIA_03112026224037_UFR30092026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:DNAMEDIA",
-      "t": "03-Nov-2026 22:42:12"
-    },
-    {
-      "d": "2026-11-03",
-      "s": "HEGAM",
-      "c": "HEG Advanced Materials Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 429.94,
-      "pat": 208.89,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/HEGAM_03112026231804_STEX.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:HEGAM",
-      "t": "03-Nov-2026 23:18:33"
-    },
-    {
-      "d": "2026-11-03",
       "s": "ABINFRA",
       "c": "A B Infrabuild Limited",
       "r": "Excellent",
@@ -4249,6 +4221,34 @@
       "filing": "https://nsearchives.nseindia.com/corporate/EMAMILTD2_05112026135037_BM_Outcome_Q2_FY_27_signed.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:EMAMILTD",
       "t": "05-Nov-2026 13:50:48"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "SUPERSPIN",
+      "c": "Super Spinning Mills Limited",
+      "r": "Positive",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 1.4672999999999998,
+      "pat": 0.3379,
+      "eps": 0.06,
+      "filing": "https://nsearchives.nseindia.com/corporate/SUPERSPIN_05112026135634_Outcome_of_the_meeting.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SUPERSPIN",
+      "t": "05-Nov-2026 13:58:49"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "BIRLACABLE",
+      "c": "Birla Cable Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 35481.08,
+      "pat": 3781.12,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/BIRLACABLE_05112026135536_UnauditedResults.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BIRLACABLE",
+      "t": "05-Nov-2026 13:58:08"
     }
   ],
   "seen": [
@@ -4866,7 +4866,9 @@
     "106846860",
     "106846864",
     "106846875",
-    "106846884"
+    "106846884",
+    "106846906",
+    "106846904"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5436,7 +5438,7 @@
         "xbrl_try": "2026-11-05T13:49:47.931420+00:00"
       }
     ],
-    "ipo_check": "2026-11-05 13",
+    "ipo_check": "2026-11-05 14",
     "ipo_posted": [
       "BCSSL",
       "HGSINDIALT",
@@ -6452,6 +6454,8 @@
     "bconcepts_05112026133940_outcome05112026.pdf",
     "ipcalab_05112026134131_ipcaresultsandpressrelease.pdf",
     "oilcountub_05112026134444_outcome.pdf",
-    "emamiltd2_05112026135037_bm_outcome_q2_fy_27_signed.pdf"
+    "emamiltd2_05112026135037_bm_outcome_q2_fy_27_signed.pdf",
+    "superspin_05112026135634_outcome_of_the_meeting.pdf",
+    "birlacable_05112026135536_unauditedresults.pdf"
   ]
 }
