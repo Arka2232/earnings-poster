@@ -1,20 +1,6 @@
 {
   "archive": [
     {
-      "d": "2026-11-03",
-      "s": "AIAENG",
-      "c": "AIA Engineering Limited",
-      "r": "Weak",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 1112.7709,
-      "pat": 249.4328,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/AIAENG_03112026130540_Results.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:AIAENG",
-      "t": "03-Nov-2026 13:06:46"
-    },
-    {
       "d": "2026-11-04",
       "s": "BODALCHEM",
       "c": "Bodal Chemicals Limited",
@@ -4249,6 +4235,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/BEML_05112026135743_30299-001_20261105_161537__4_files_merged_.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:BEML",
       "t": "05-Nov-2026 13:59:31"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "GOACARBON",
+      "c": "Goa Carbon Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/GOACARBON_05112026140206_GOACARBON_UAFR_Q2FY2627_30092026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GOACARBON",
+      "t": "05-Nov-2026 14:05:50"
     }
   ],
   "seen": [
@@ -4869,7 +4869,8 @@
     "106846884",
     "106846906",
     "106846904",
-    "106846907"
+    "106846907",
+    "106846920"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5449,6 +5450,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T14:06:35.140053+00:00"
+      },
+      {
+        "key": "106846920",
+        "seq_id": "106846920",
+        "symbol": "GOACARBON",
+        "company": "Goa Carbon Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/GOACARBON_05112026140206_GOACARBON_UAFR_Q2FY2627_30092026.pdf",
+        "an_dt": "05-Nov-2026 14:05:50",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T14:07:31.098328+00:00"
       }
     ],
     "ipo_check": "2026-11-05 14",
@@ -6470,6 +6483,7 @@
     "emamiltd2_05112026135037_bm_outcome_q2_fy_27_signed.pdf",
     "superspin_05112026135634_outcome_of_the_meeting.pdf",
     "birlacable_05112026135536_unauditedresults.pdf",
-    "beml_05112026135743_30299-001_20261105_161537__4_files_merged_.pdf"
+    "beml_05112026135743_30299-001_20261105_161537__4_files_merged_.pdf",
+    "goacarbon_05112026140206_goacarbon_uafr_q2fy2627_30092026.pdf"
   ]
 }
