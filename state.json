@@ -2,34 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "CANDC",
-      "c": "C & C Constructions Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/CANDC_04112026160822_CANDC.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CANDC",
-      "t": "04-Nov-2026 16:10:41"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "IVP",
-      "c": "IVP Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/IVP_04112026160736_BSENSEBMOUTCOME041126.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:IVP",
-      "t": "04-Nov-2026 16:09:51"
-    },
-    {
-      "d": "2026-11-04",
       "s": "DOLLEX",
       "c": "Dollex Agrotech Limited",
       "r": "Excellent",
@@ -4254,6 +4226,34 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:RUBICON",
       "t": "05-Nov-2026 16:06:26",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753586_05112026050805_WEB.xml"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "SCHAND",
+      "c": "S Chand And Company Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 288.86,
+      "pat": 190.231,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/SCHAND_05112026171337_OutcomeofBoardmeeting05112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SCHAND",
+      "t": "05-Nov-2026 17:15:46"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "KRITIKA",
+      "c": "Kritika Wires Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/KRITIKA_05112026171057_Kritika_Outcome_of_BM_05112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:KRITIKA",
+      "t": "05-Nov-2026 17:15:05"
     }
   ],
   "seen": [
@@ -4948,7 +4948,9 @@
     "106847613",
     "106847648",
     "106847638",
-    "106847620"
+    "106847620",
+    "106847690",
+    "106847688"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5456,7 +5458,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T16:16:46.829799+00:00"
+        "xbrl_try": "2026-11-05T17:17:41.380631+00:00"
       },
       {
         "key": "106846928",
@@ -5468,7 +5470,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T16:16:47.616581+00:00"
+        "xbrl_try": "2026-11-05T17:17:42.194846+00:00"
       },
       {
         "key": "106846945",
@@ -5600,7 +5602,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T16:16:48.025133+00:00"
+        "xbrl_try": "2026-11-05T17:17:42.561742+00:00"
       },
       {
         "key": "106847331",
@@ -5612,7 +5614,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T16:16:48.800203+00:00"
+        "xbrl_try": "2026-11-05T17:17:43.325609+00:00"
       },
       {
         "key": "106847402",
@@ -5781,6 +5783,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T17:09:20.008017+00:00"
+      },
+      {
+        "key": "106847688",
+        "seq_id": "106847688",
+        "symbol": "KRITIKA",
+        "company": "Kritika Wires Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/KRITIKA_05112026171057_Kritika_Outcome_of_BM_05112026.pdf",
+        "an_dt": "05-Nov-2026 17:15:05",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T17:17:44.092581+00:00"
       }
     ],
     "ipo_check": "2026-11-05 17",
@@ -6876,6 +6890,8 @@
     "orientppr_05112026170045_outcomeofbm05112026.pdf",
     "fmnl1_05112026170706_outcome_bm_fmnl_20260930.pdf",
     "shares_05112026170525_ihpoutcomeofboardmeeting05112026.pdf",
-    "sahajanand_05112026165953_11_board_meeting_outcome.pdf"
+    "sahajanand_05112026165953_11_board_meeting_outcome.pdf",
+    "schand_05112026171337_outcomeofboardmeeting05112026.pdf",
+    "kritika_05112026171057_kritika_outcome_of_bm_05112026.pdf"
   ]
 }
