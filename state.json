@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "IPL",
-      "c": "India Pesticides Limited",
-      "r": "Bad",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 228.71,
-      "pat": 18.42,
-      "eps": 1.6,
-      "filing": "https://nsearchives.nseindia.com/corporate/IPL_03112026193116_Outcome_of_the_Board_Meeting.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:IPL",
-      "t": "03-Nov-2026 19:31:28"
-    },
-    {
-      "d": "2026-11-03",
       "s": "DAMCAPITAL",
       "c": "Dam Capital Advisors Limited",
       "r": "Bad",
@@ -4254,6 +4240,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/RPSGVENT_05112026123746_RVL_outcome_05112026_signed.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:RPSGVENT",
       "t": "05-Nov-2026 12:39:59"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "SHANKESH",
+      "c": "Shankesh Jewellers Limited",
+      "r": "Good",
+      "b": "Standalone",
+      "q": "Q1 FY27",
+      "sales": 556.4,
+      "pat": 25.519000000000002,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/SJL_05112026124331_Board_Meeting_Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SHANKESH",
+      "t": "05-Nov-2026 12:46:23"
     }
   ],
   "seen": [
@@ -4845,7 +4845,8 @@
     "106846601",
     "106846605",
     "106846614",
-    "106846672"
+    "106846672",
+    "106846688"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -6333,6 +6334,7 @@
     "yaari_05112026122902_ibl_bm_outcome_05112026.pdf",
     "9930371292_05112026123054_bmoutcomesd.pdf",
     "kamlesh_mundra_05112026122859_seresult.pdf",
-    "rpsgvent_05112026123746_rvl_outcome_05112026_signed.pdf"
+    "rpsgvent_05112026123746_rvl_outcome_05112026_signed.pdf",
+    "sjl_05112026124331_board_meeting_outcome.pdf"
   ]
 }
