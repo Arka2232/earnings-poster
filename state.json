@@ -1,20 +1,6 @@
 {
   "archive": [
     {
-      "d": "2026-11-03",
-      "s": "SUMMITSEC",
-      "c": "Summit Securities Limited",
-      "r": "Good",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 13038.85,
-      "pat": 9687.94,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/SUMMITSEC_03112026135626_OutcomeofBM03112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SUMMITSEC",
-      "t": "03-Nov-2026 13:57:42"
-    },
-    {
       "d": "2026-11-04",
       "s": "ZYDUSWELL",
       "c": "Zydus Wellness Limited",
@@ -4247,6 +4233,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/PATELENG_05112026141639_SEintimationoutcomeofBM.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:PATELENG",
       "t": "05-Nov-2026 14:18:33"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "JINDWORLD",
+      "c": "Jindal Worldwide Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/JINDWORLD_05112026142427_Outcome_of_BM_Signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:JINDWORLD",
+      "t": "05-Nov-2026 14:25:22"
     }
   ],
   "seen": [
@@ -4876,7 +4876,8 @@
     "106846928",
     "106846940",
     "106846945",
-    "106846952"
+    "106846952",
+    "106846966"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5516,6 +5517,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T14:18:25.284467+00:00"
+      },
+      {
+        "key": "106846966",
+        "seq_id": "106846966",
+        "symbol": "JINDWORLD",
+        "company": "Jindal Worldwide Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/JINDWORLD_05112026142427_Outcome_of_BM_Signed.pdf",
+        "an_dt": "05-Nov-2026 14:25:22",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T14:28:45.628825+00:00"
       }
     ],
     "ipo_check": "2026-11-05 14",
@@ -6546,6 +6559,7 @@
     "sabevents_05112026140448_outcome_sab_events_sept26.pdf",
     "ceigall_05112026140835_outcome_05112026.pdf",
     "polymed_05112026140848_final_outcome_signed.pdf",
-    "pateleng_05112026141639_seintimationoutcomeofbm.pdf"
+    "pateleng_05112026141639_seintimationoutcomeofbm.pdf",
+    "jindworld_05112026142427_outcome_of_bm_signed.pdf"
   ]
 }
