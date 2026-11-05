@@ -2,34 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "SANATHAN",
-      "c": "Sanathan Textiles Limited",
-      "r": "Good",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 992.11,
-      "pat": 58.69,
-      "eps": 6.95,
-      "filing": "https://nsearchives.nseindia.com/corporate/SANATHAN_04112026173106_STL_OutcomeofBM.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SANATHAN",
-      "t": "04-Nov-2026 17:32:51"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "PATELRMART",
-      "c": "Patel Retail Limited",
-      "r": "Positive",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 298.60470000000004,
-      "pat": 9.9115,
-      "eps": 2.97,
-      "filing": "https://nsearchives.nseindia.com/corporate/PATEL_04112026172750_PRLOutcome.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PATELRMART",
-      "t": "04-Nov-2026 17:31:47"
-    },
-    {
-      "d": "2026-11-04",
       "s": "63MOONS",
       "c": "63 moons technologies limited",
       "r": "Excellent",
@@ -4257,6 +4229,35 @@
       "filing": "https://nsearchives.nseindia.com/corporate/IRIS_05112026180604_IRIS_OutcomeBM_Nov_signed.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:IRIS",
       "t": "05-Nov-2026 18:08:29"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "RAMCOCEM",
+      "c": "The Ramco Cements Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/RAMCOCEM_05112026180841_results30092026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:RAMCOCEM",
+      "t": "05-Nov-2026 18:09:57"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "RAMCOCEM",
+      "c": "The Ramco Cements Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 2462.75,
+      "pat": 40.46,
+      "eps": 1.71,
+      "filing": "https://nsearchives.nseindia.com/corporate/RAMCOCEM_05112026180841_results30092026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:RAMCOCEM",
+      "t": "05-Nov-2026 18:09:57",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753851_05112026061247_WEB.xml"
     }
   ],
   "seen": [
@@ -4981,7 +4982,8 @@
     "106848048",
     "106848044",
     "106848037",
-    "106848096"
+    "106848096",
+    "106848108"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5537,7 +5539,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T17:13:20.103765+00:00"
+        "xbrl_try": "2026-11-05T18:13:39.802993+00:00"
       },
       {
         "key": "106847091",
@@ -5549,7 +5551,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T17:13:20.510487+00:00"
+        "xbrl_try": "2026-11-05T18:13:40.290294+00:00"
       },
       {
         "key": "106847135",
@@ -5597,7 +5599,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T17:13:25.901812+00:00"
+        "xbrl_try": "2026-11-05T18:13:43.117372+00:00"
       },
       {
         "key": "106847333",
@@ -7047,6 +7049,7 @@
     "thermaxnse_05112026180056_seintimationbmoutcome.pdf",
     "arrowgreen_05112026180136_outcomeofboardmeeting05112026.pdf",
     "excelsoft_05112026175905_outcome05112026sd.pdf",
-    "iris_05112026180604_iris_outcomebm_nov_signed.pdf"
+    "iris_05112026180604_iris_outcomebm_nov_signed.pdf",
+    "ramcocem_05112026180841_results30092026.pdf"
   ]
 }
