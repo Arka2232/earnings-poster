@@ -2,48 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "TTL",
-      "c": "T T Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/TTL_04112026145556_FIANNCIAL_STOCK_EXCHANGE_SEP_26.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:TTL",
-      "t": "04-Nov-2026 15:03:46"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "CORALFINAC",
-      "c": "Coral India Finance & Housing Limited",
-      "r": "Positive",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 3.9335000000000004,
-      "pat": 3.4509,
-      "eps": 0.86,
-      "filing": "https://nsearchives.nseindia.com/corporate/CORALFINAC_04112026151343_Outcome_BM_04112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CORALFINAC",
-      "t": "04-Nov-2026 15:16:18"
-    },
-    {
-      "d": "2026-11-02",
-      "s": "DCMFINSERV",
-      "c": "DCM Financial Services Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/DCMFINSERV_02112026192033_Outcome_of_BM_signed_DCM.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:DCMFINSERV",
-      "t": "02-Nov-2026 19:23:29"
-    },
-    {
-      "d": "2026-11-04",
       "s": "NIVABUPA",
       "c": "Niva Bupa Health Insurance Company Limited",
       "r": "Results Filed",
@@ -4251,6 +4209,48 @@
       "filing": "https://nsearchives.nseindia.com/corporate/TITAN_05112026165028_SEoutcomeQ227.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:TITAN",
       "t": "05-Nov-2026 16:50:49"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "VMSTMT",
+      "c": "VMS TMT Limited",
+      "r": "Weak",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 167.6523,
+      "pat": 1.7607,
+      "eps": 0.35,
+      "filing": "https://nsearchives.nseindia.com/corporate/VMSTMTLTD_05112026164950_OutcomeofBM051126VMS.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:VMSTMT",
+      "t": "05-Nov-2026 16:54:31"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "RATEGAIN",
+      "c": "Rategain Travel Technologies Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/RATEGAIN_05112026165347_RG_OBM_051126.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:RATEGAIN",
+      "t": "05-Nov-2026 16:54:03"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "ARVSMART",
+      "c": "Arvind SmartSpaces Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q3 FY27",
+      "sales": 8226.05,
+      "pat": 1185.77,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/539301_05112026165325_FinancialResultsH1FY27.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ARVSMART",
+      "t": "05-Nov-2026 16:53:47"
     }
   ],
   "seen": [
@@ -4933,7 +4933,10 @@
     "106847520",
     "106847528",
     "106847539",
-    "106847532"
+    "106847532",
+    "106847555",
+    "106847550",
+    "106847549"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5501,7 +5504,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T15:57:59.505200+00:00"
+        "xbrl_try": "2026-11-05T16:59:45.913112+00:00"
       },
       {
         "key": "106847068",
@@ -5573,7 +5576,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T15:58:00.206757+00:00"
+        "xbrl_try": "2026-11-05T16:59:46.579391+00:00"
       },
       {
         "key": "106847315",
@@ -5742,6 +5745,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T16:57:09.409581+00:00"
+      },
+      {
+        "key": "106847550",
+        "seq_id": "106847550",
+        "symbol": "RATEGAIN",
+        "company": "Rategain Travel Technologies Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/RATEGAIN_05112026165347_RG_OBM_051126.pdf",
+        "an_dt": "05-Nov-2026 16:54:03",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T16:59:47.303687+00:00"
       }
     ],
     "ipo_check": "2026-11-05 16",
@@ -6825,6 +6840,9 @@
     "kingfa_05112026164250_bm_outcome_final.pdf",
     "gpthealthcare_05112026164646_ghl-outcome_dated_05112026_sgd.pdf",
     "godigitgi_05112026164749_gdgil_outcome_of_bm_5112026_final.pdf",
-    "titan_05112026165028_seoutcomeq227.pdf"
+    "titan_05112026165028_seoutcomeq227.pdf",
+    "vmstmtltd_05112026164950_outcomeofbm051126vms.pdf",
+    "rategain_05112026165347_rg_obm_051126.pdf",
+    "539301_05112026165325_financialresultsh1fy27.pdf"
   ]
 }
