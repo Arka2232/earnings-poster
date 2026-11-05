@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "TRANSRAILL",
-      "c": "Transrail Lighting Limited",
-      "r": "Good",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 2030.22,
-      "pat": 103.94,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/TRANSRAIL_03112026185337_OutcomeBM03112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:TRANSRAILL",
-      "t": "03-Nov-2026 18:55:51"
-    },
-    {
-      "d": "2026-11-03",
       "s": "ONEPOINT",
       "c": "One Point One Solutions Limited",
       "r": "Excellent",
@@ -4256,6 +4242,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/LGEINDIA_05112026105442_OutcomeBM.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:LGEINDIA",
       "t": "05-Nov-2026 10:56:37"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "HESTERBIO",
+      "c": "Hester Biosciences Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 979.12,
+      "pat": 206.31,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/HESTERBIO_05112026111348_20261105OutcomeofBoardMeeting.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:HESTERBIO",
+      "t": "05-Nov-2026 11:15:07"
     }
   ],
   "seen": [
@@ -4834,7 +4834,8 @@
     "106846119",
     "106846112",
     "106846324",
-    "106846349"
+    "106846349",
+    "106846382"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -6249,6 +6250,7 @@
     "zenithstl_05112026000602_outcome_of_bm_zenith.pdf",
     "tokyoplast_04112026235505_ilovepdf_merged.pdf",
     "amagi_05112026103310_outcomeofbmsept2026.pdf",
-    "lgeindia_05112026105442_outcomebm.pdf"
+    "lgeindia_05112026105442_outcomebm.pdf",
+    "hesterbio_05112026111348_20261105outcomeofboardmeeting.pdf"
   ]
 }
