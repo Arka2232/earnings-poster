@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "VIJAYA",
-      "c": "Vijaya Diagnostic Centre Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 242.002,
-      "pat": 57.9246,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/VIJAYA_03112026195557_VDCL_BM_Ootcome_03112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:VIJAYA",
-      "t": "03-Nov-2026 19:57:59"
-    },
-    {
-      "d": "2026-11-03",
       "s": "KOLTEPATIL",
       "c": "Kolte - Patil Developers Limited",
       "r": "Excellent",
@@ -4253,6 +4239,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/Pvpchennai_05112026124005_Outcome_of_Board_Meeting_-_31032026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:PVP",
       "t": "05-Nov-2026 12:52:24"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "CAMPUS",
+      "c": "Campus Activewear Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/CAMPUSSHOES_05112026124903_OUTCOMESIGNED.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CAMPUS",
+      "t": "05-Nov-2026 12:55:55"
     }
   ],
   "seen": [
@@ -4849,7 +4849,8 @@
     "106846689",
     "106846717",
     "106846714",
-    "106846707"
+    "106846707",
+    "106846724"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5345,6 +5346,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T12:28:26.111150+00:00"
+      },
+      {
+        "key": "106846724",
+        "seq_id": "106846724",
+        "symbol": "CAMPUS",
+        "company": "Campus Activewear Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/CAMPUSSHOES_05112026124903_OUTCOMESIGNED.pdf",
+        "an_dt": "05-Nov-2026 12:55:55",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T12:57:32.647841+00:00"
       }
     ],
     "ipo_check": "2026-11-05 12",
@@ -6342,6 +6355,7 @@
     "mindaind1_05112026124457_outcomef.pdf",
     "bluejet_05112026125116_se_upload_bm.pdf",
     "htmedia_05112026125244_htmloutcomesd.pdf",
-    "pvpchennai_05112026124005_outcome_of_board_meeting_-_31032026.pdf"
+    "pvpchennai_05112026124005_outcome_of_board_meeting_-_31032026.pdf",
+    "campusshoes_05112026124903_outcomesigned.pdf"
   ]
 }
