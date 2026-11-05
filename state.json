@@ -2,34 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "MITTAL",
-      "c": "Mittal Life Style Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/MITTAL_04112026181130_Mittal_Life_Style_Limited_NSE_Filing_30-09-2026_FINALFINAL.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MITTAL",
-      "t": "04-Nov-2026 18:13:57"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "MUFTI",
-      "c": "Credo Brands Marketing Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 189.30100000000002,
-      "pat": 27.247000000000003,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/CREDONSE_04112026180745_20261104_SE_Letter_BM_Results.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MUFTI",
-      "t": "04-Nov-2026 18:12:44"
-    },
-    {
-      "d": "2026-11-04",
       "s": "ELECTHERM",
       "c": "Electrotherm (India) Limited",
       "r": "Good",
@@ -4260,6 +4232,35 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:INSECTICID",
       "t": "05-Nov-2026 15:17:52",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753719_05112026053904_WEB.xml"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "LEMERITE",
+      "c": "Le Merite Exports Limited",
+      "r": "Bad",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 108.94,
+      "pat": 1.6857,
+      "eps": 0.135,
+      "filing": "https://nsearchives.nseindia.com/corporate/LMEL_05112026182629_Outcome_of_Board_Meeting_05112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:LEMERITE",
+      "t": "05-Nov-2026 18:28:44"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "ABFRL",
+      "c": "Aditya Birla Fashion and Retail Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 2030.03,
+      "pat": -376.40999999999997,
+      "eps": -2.82,
+      "filing": "https://nsearchives.nseindia.com/corporate/ABFRL_05112026172207_SE.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ABFRL",
+      "t": "05-Nov-2026 17:27:00",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753822_05112026060435_WEB.xml"
     }
   ],
   "seen": [
@@ -4994,7 +4995,8 @@
     "106848145",
     "106848220",
     "106848213",
-    "106848206"
+    "106848206",
+    "106848235"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5635,7 +5637,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T17:30:23.260503+00:00"
+        "xbrl_try": "2026-11-05T18:31:58.685374+00:00"
       },
       {
         "key": "106847411",
@@ -5756,18 +5758,6 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T18:09:23.550466+00:00"
-      },
-      {
-        "key": "106847795",
-        "seq_id": "106847795",
-        "symbol": "ABFRL",
-        "company": "Aditya Birla Fashion and Retail Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/ABFRL_05112026172207_SE.pdf",
-        "an_dt": "05-Nov-2026 17:27:00",
-        "date": "2026-11-05",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-05T17:30:29.702044+00:00"
       },
       {
         "key": "106847840",
@@ -7083,6 +7073,7 @@
     "robusthotels_05112026181345_rhlbm05112026outcome.pdf",
     "fortis_05112026182405_final.pdf",
     "orientltd_05112026182011_outcome.pdf",
-    "europratik2025_05112026181514_outcome_signed.pdf"
+    "europratik2025_05112026181514_outcome_signed.pdf",
+    "lmel_05112026182629_outcome_of_board_meeting_05112026.pdf"
   ]
 }
