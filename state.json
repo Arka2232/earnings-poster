@@ -2,49 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "ROLEXRINGS",
-      "c": "Rolex Rings Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 389.183,
-      "pat": 73.9381,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/ROLEXRINGS_04112026133400_Results.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ROLEXRINGS",
-      "t": "04-Nov-2026 13:35:29"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "MOL",
-      "c": "Meghmani Organics Limited",
-      "r": "Good",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 658.2088000000001,
-      "pat": 45.3216,
-      "eps": 1.78,
-      "filing": "https://nsearchives.nseindia.com/corporate/MOL_04112026133627_OutcomeQ2FY27.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MOL",
-      "t": "04-Nov-2026 13:38:59"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "REDINGTON",
-      "c": "Redington Limited",
-      "r": "Good",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 42946.909999999996,
-      "pat": 422.51,
-      "eps": 6.92,
-      "filing": "https://nsearchives.nseindia.com/corporate/Jhanviu_04112026134315_SEintimation_FS.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:REDINGTON",
-      "t": "04-Nov-2026 13:44:48",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752486_04112026020726_WEB.xml"
-    },
-    {
-      "d": "2026-11-04",
       "s": "SHANKARA",
       "c": "Shankara Building Products Limited",
       "r": "Excellent",
@@ -4250,6 +4207,48 @@
       "filing": "https://nsearchives.nseindia.com/corporate/BGLOBAL_05112026160409_BGILOUTCOME.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:BGLOBAL",
       "t": "05-Nov-2026 16:05:15"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "JYOTIRES",
+      "c": "Jyoti Resins & Adhesives Limited",
+      "r": "Good",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 0.9767,
+      "pat": 0.18480000000000002,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/EURO7000_05112026161009_OUTCOME.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:JYOTIRES",
+      "t": "05-Nov-2026 16:11:02"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "KMSUGAR",
+      "c": "K.M.Sugar Mills Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/KMSUGAR_05112026160332_OUTCOMEOFBM.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:KMSUGAR",
+      "t": "05-Nov-2026 16:09:27"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "KRITINUT",
+      "c": "Kriti Nutrients Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/KRITINUTRIENTS_05112026160805_KNL_Outcome_05112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:KRITINUT",
+      "t": "05-Nov-2026 16:09:07"
     }
   ],
   "seen": [
@@ -4906,7 +4905,10 @@
     "106847284",
     "106847318",
     "106847315",
-    "106847309"
+    "106847309",
+    "106847343",
+    "106847333",
+    "106847331"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5450,7 +5452,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T15:16:43.570821+00:00"
+        "xbrl_try": "2026-11-05T16:16:46.829799+00:00"
       },
       {
         "key": "106846928",
@@ -5462,7 +5464,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T15:16:44.184003+00:00"
+        "xbrl_try": "2026-11-05T16:16:47.616581+00:00"
       },
       {
         "key": "106846945",
@@ -5595,6 +5597,30 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T16:13:15.051750+00:00"
+      },
+      {
+        "key": "106847333",
+        "seq_id": "106847333",
+        "symbol": "KMSUGAR",
+        "company": "K.M.Sugar Mills Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/KMSUGAR_05112026160332_OUTCOMEOFBM.pdf",
+        "an_dt": "05-Nov-2026 16:09:27",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T16:16:48.025133+00:00"
+      },
+      {
+        "key": "106847331",
+        "seq_id": "106847331",
+        "symbol": "KRITINUT",
+        "company": "Kriti Nutrients Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/KRITINUTRIENTS_05112026160805_KNL_Outcome_05112026.pdf",
+        "an_dt": "05-Nov-2026 16:09:07",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T16:16:48.800203+00:00"
       }
     ],
     "ipo_check": "2026-11-05 16",
@@ -6652,6 +6678,9 @@
     "bikajifoods_05112026155448_69.pdf",
     "jitfinfra_05112026160606_resultsreg30.pdf",
     "9823522970_05112026160314_rrlseintimationoutcomebm05nov2026.pdf",
-    "bglobal_05112026160409_bgiloutcome.pdf"
+    "bglobal_05112026160409_bgiloutcome.pdf",
+    "euro7000_05112026161009_outcome.pdf",
+    "kmsugar_05112026160332_outcomeofbm.pdf",
+    "kritinutrients_05112026160805_knl_outcome_05112026.pdf"
   ]
 }
