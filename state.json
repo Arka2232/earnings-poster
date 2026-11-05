@@ -2,64 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "BASF",
-      "c": "BASF India Limited",
-      "r": "Bad",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 4832.19,
-      "pat": 61.709999999999994,
-      "eps": 14.3,
-      "filing": "https://nsearchives.nseindia.com/corporate/BASFIL_04112026121140_FR04112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BASF",
-      "t": "04-Nov-2026 12:13:02",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752651_04112026044114_WEB.xml"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "CARYSIL",
-      "c": "CARYSIL LIMITED",
-      "r": "Good",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 275.72999999999996,
-      "pat": 29.009999999999998,
-      "eps": 9.97,
-      "filing": "https://nsearchives.nseindia.com/corporate/ACRYSIL_04112026141200_Outcome04112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CARYSIL",
-      "t": "04-Nov-2026 14:13:14",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752620_04112026043300_WEB.xml"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "JMFINANCIL",
-      "c": "JM Financial Limited",
-      "r": "Positive",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 251.31,
-      "pat": 255.93,
-      "eps": 2.68,
-      "filing": "https://nsearchives.nseindia.com/corporate/JMFINANCIL_04112026172519_OutcomeoftheBoardMeeting04112026upload.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:JMFINANCIL",
-      "t": "04-Nov-2026 17:26:27"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "TEMPSENS",
-      "c": "Tempsens Instruments (India) Limited",
-      "r": "Good",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 1156.83,
-      "pat": 161.43,
-      "eps": 1.98,
-      "filing": "https://nsearchives.nseindia.com/corporate/TEMPSENS_04112026172824_Outcome.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:TEMPSENS",
-      "t": "04-Nov-2026 17:33:25"
-    },
-    {
-      "d": "2026-11-04",
       "s": "DHARMAJ",
       "c": "Dharmaj Crop Guard Limited",
       "r": "Weak",
@@ -4258,6 +4200,63 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:RATEGAIN",
       "t": "05-Nov-2026 16:54:03",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753806_05112026055956_WEB.xml"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "THERMAX",
+      "c": "Thermax Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/THERMAXNSE_05112026180056_SEIntimationBMOutcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:THERMAX",
+      "t": "05-Nov-2026 18:02:05"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "ARROWGREEN",
+      "c": "Arrow Greentech Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 0.8545,
+      "pat": 0.2511,
+      "eps": 16.66,
+      "filing": "https://nsearchives.nseindia.com/corporate/ARROWGREEN_05112026180136_OutcomeOfBoardMeeting05112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ARROWGREEN",
+      "t": "05-Nov-2026 18:01:49"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "EXCELSOFT",
+      "c": "Excelsoft Technologies Limited",
+      "r": "Weak",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 80.899,
+      "pat": 8.275,
+      "eps": 0.72,
+      "filing": "https://nsearchives.nseindia.com/corporate/EXCELSOFT_05112026175905_Outcome05112026sd.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:EXCELSOFT",
+      "t": "05-Nov-2026 18:00:49"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "ORIENTPPR",
+      "c": "Orient Paper & Industries Limited",
+      "r": "Positive",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 183.1377,
+      "pat": -28.7529,
+      "eps": -1.35,
+      "filing": "https://nsearchives.nseindia.com/corporate/ORIENTPPR_05112026170045_OutcomeofBM05112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ORIENTPPR",
+      "t": "05-Nov-2026 17:03:46",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753829_05112026060637_WEB.xml"
     }
   ],
   "seen": [
@@ -4978,7 +4977,10 @@
     "106847985",
     "106848008",
     "106848036",
-    "106848031"
+    "106848031",
+    "106848048",
+    "106848044",
+    "106848037"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5750,19 +5752,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T17:09:19.273725+00:00"
-      },
-      {
-        "key": "106847613",
-        "seq_id": "106847613",
-        "symbol": "ORIENTPPR",
-        "company": "Orient Paper & Industries Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/ORIENTPPR_05112026170045_OutcomeofBM05112026.pdf",
-        "an_dt": "05-Nov-2026 17:03:46",
-        "date": "2026-11-05",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-05T17:09:20.008017+00:00"
+        "xbrl_try": "2026-11-05T18:09:23.550466+00:00"
       },
       {
         "key": "106847688",
@@ -5907,6 +5897,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T18:03:58.817949+00:00"
+      },
+      {
+        "key": "106848048",
+        "seq_id": "106848048",
+        "symbol": "THERMAX",
+        "company": "Thermax Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/THERMAXNSE_05112026180056_SEIntimationBMOutcome.pdf",
+        "an_dt": "05-Nov-2026 18:02:05",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T18:09:28.053949+00:00"
       }
     ],
     "ipo_check": "2026-11-05 18",
@@ -7028,6 +7030,9 @@
     "texinfra2_05112026175145_seoutcomebm05112026.pdf",
     "igpl_05112026174810_ufrsep2026_igpl.pdf",
     "dragarwals_05112026175922_outcome_se_sd.pdf",
-    "gujgasltd_05112026175818_1634secoutcomeofbm05112026.pdf"
+    "gujgasltd_05112026175818_1634secoutcomeofbm05112026.pdf",
+    "thermaxnse_05112026180056_seintimationbmoutcome.pdf",
+    "arrowgreen_05112026180136_outcomeofboardmeeting05112026.pdf",
+    "excelsoft_05112026175905_outcome05112026sd.pdf"
   ]
 }
