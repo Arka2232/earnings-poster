@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "SUYOG",
-      "c": "Suyog Telematics Limited",
-      "r": "Positive",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 71.7014,
-      "pat": 15.338,
-      "eps": 13.09,
-      "filing": "https://nsearchives.nseindia.com/corporate/SUYOG_03112026192208_OutcomeofBM03112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SUYOG",
-      "t": "03-Nov-2026 19:25:02"
-    },
-    {
-      "d": "2026-11-03",
       "s": "ENDURANCE",
       "c": "Endurance Technologies Limited",
       "r": "Good",
@@ -4254,6 +4240,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/YAARI_05112026122902_IBL_BM_Outcome_05112026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:IBULLSLTD",
       "t": "05-Nov-2026 12:30:35"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "JUNIPER",
+      "c": "Juniper Hotels Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 249.53099999999998,
+      "pat": 37.1748,
+      "eps": 1.67,
+      "filing": "https://nsearchives.nseindia.com/corporate/9930371292_05112026123054_BMOutcomeSd.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:JUNIPER",
+      "t": "05-Nov-2026 12:31:45"
     }
   ],
   "seen": [
@@ -4842,7 +4842,8 @@
     "106846525",
     "106846574",
     "106846582",
-    "106846601"
+    "106846601",
+    "106846605"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5289,7 +5290,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T11:32:31.676439+00:00"
+        "xbrl_try": "2026-11-05T12:33:18.332829+00:00"
       },
       {
         "key": "106846403",
@@ -6327,6 +6328,7 @@
     "sgltpl_05112026120955_board_meeting_outcome_final_05112026_1.pdf",
     "hitech_05112026121340_outcome_bm_q2h1fy27.pdf",
     "kriti_05112026122142_kiil_outcome_05112026.pdf",
-    "yaari_05112026122902_ibl_bm_outcome_05112026.pdf"
+    "yaari_05112026122902_ibl_bm_outcome_05112026.pdf",
+    "9930371292_05112026123054_bmoutcomesd.pdf"
   ]
 }
