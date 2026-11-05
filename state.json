@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "BALRAMCHIN",
-      "c": "Balrampur Chini Mills Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 1876.2811,
-      "pat": 102.29209999999999,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/SUNILBCML_04112026144306_BCML_Outcome_BM_04112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BALRAMCHIN",
-      "t": "04-Nov-2026 14:44:47"
-    },
-    {
-      "d": "2026-11-04",
       "s": "CAPACITE",
       "c": "Capacit'e Infraprojects Limited",
       "r": "Positive",
@@ -4251,6 +4237,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/ISFC2010_05112026162801_Outcome_of_Board_Meeting_Intimation.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:INDIASHLTR",
       "t": "05-Nov-2026 16:36:48"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "KINGFA",
+      "c": "Kingfa Science & Technology (India) Limited",
+      "r": "Good",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 723.0797,
+      "pat": 47.03060000000001,
+      "eps": 34.71,
+      "filing": "https://nsearchives.nseindia.com/corporate/KINGFA_05112026164250_BM_Outcome_Final.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:KINGFA",
+      "t": "05-Nov-2026 16:47:49"
     }
   ],
   "seen": [
@@ -4929,7 +4929,8 @@
     "106847451",
     "106847479",
     "106847473",
-    "106847472"
+    "106847472",
+    "106847520"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -6793,6 +6794,7 @@
     "gipcl7868_05112026162948_gipcl_se_bm_outcome_05112026_signed.pdf",
     "windlas_05112026163307_ufr_q2_up.pdf",
     "manyavar_05112026163429_outcomeofbm05112026signed.pdf",
-    "isfc2010_05112026162801_outcome_of_board_meeting_intimation.pdf"
+    "isfc2010_05112026162801_outcome_of_board_meeting_intimation.pdf",
+    "kingfa_05112026164250_bm_outcome_final.pdf"
   ]
 }
