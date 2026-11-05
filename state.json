@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "UTKARSHBNK",
-      "c": "Utkarsh Small Finance Bank Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/UTKARSHBANK_03112026200635_OutcomeofBM03112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:UTKARSHBNK",
-      "t": "03-Nov-2026 20:07:55"
-    },
-    {
-      "d": "2026-11-03",
       "s": "FAZE3Q",
       "c": "Faze Three Limited",
       "r": "Excellent",
@@ -4252,6 +4238,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/Pooja_05112026125638_Outcome5Nov.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:M_M",
       "t": "05-Nov-2026 12:57:20"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "SHILPAMED",
+      "c": "Shilpa Medicare Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 5.2912,
+      "pat": 0.7918000000000001,
+      "eps": 4.05,
+      "filing": "https://nsearchives.nseindia.com/corporate/SHILPAMED_05112026130646_Disclosure.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SHILPAMED",
+      "t": "05-Nov-2026 13:07:13"
     }
   ],
   "seen": [
@@ -4852,7 +4852,8 @@
     "106846724",
     "106846730",
     "106846729",
-    "106846728"
+    "106846728",
+    "106846773"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -6361,6 +6362,7 @@
     "campusshoes_05112026124903_outcomesigned.pdf",
     "fermentabiotech_05112026125550_outcomeufrnovember052026.pdf",
     "anilshinde_05112026125610_seintimationoutcomeofbm_sd.pdf",
-    "pooja_05112026125638_outcome5nov.pdf"
+    "pooja_05112026125638_outcome5nov.pdf",
+    "shilpamed_05112026130646_disclosure.pdf"
   ]
 }
