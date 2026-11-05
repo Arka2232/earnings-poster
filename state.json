@@ -2,62 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "APLLTD",
-      "c": "Alembic Pharmaceuticals Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q4 FY26",
-      "sales": 2603.48,
-      "pat": 333.91,
-      "eps": 17.05,
-      "filing": "https://nsearchives.nseindia.com/corporate/APLLTD_04112026142549_UFR.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:APLLTD",
-      "t": "04-Nov-2026 14:27:25"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "STOVEKRAFT",
-      "c": "Stove Kraft Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/STOVEKRAFT_04112026142605_UFR30092026_04November_2026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:STOVEKRAFT",
-      "t": "04-Nov-2026 14:29:03"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "SUNDARMFIN",
-      "c": "Sundaram Finance Limited",
-      "r": "Good",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 2147.47,
-      "pat": 475.07,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/SUNDARMFIN_04112026143215_UFR30092026SD.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SUNDARMFIN",
-      "t": "04-Nov-2026 14:33:19"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "ZIMLAB",
-      "c": "Zim Laboratories Limited",
-      "r": "Bad",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 104.2231,
-      "pat": -2.1414,
-      "eps": -0.4,
-      "filing": "https://nsearchives.nseindia.com/corporate/ZIMLAB_04112026143555_OutcomeoftheBaordMeeting04112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ZIMLAB",
-      "t": "04-Nov-2026 14:36:17"
-    },
-    {
-      "d": "2026-11-04",
       "s": "SUMIT",
       "c": "Sumit Woods Limited",
       "r": "Excellent",
@@ -4250,6 +4194,63 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:REPL",
       "t": "04-Nov-2026 18:04:18",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753512_05112026033716_WEB.xml"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "TIRUPATIFL",
+      "c": "Tirupati Forge Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 57.319300000000005,
+      "pat": 4.124700000000001,
+      "eps": 0.32,
+      "filing": "https://nsearchives.nseindia.com/corporate/TIRUPATIFL_05112026163328_OUTCOME__05_11_2026_TIRUPATI.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:TIRUPATIFL",
+      "t": "05-Nov-2026 16:34:42"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "TCIEXP",
+      "c": "TCI Express Limited",
+      "r": "Good",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 335.91,
+      "pat": 26.66,
+      "eps": 6.94,
+      "filing": "https://nsearchives.nseindia.com/corporate/TCIEXP_05112026163228_BMOutcome05112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:TCIEXP",
+      "t": "05-Nov-2026 16:33:16"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "GIPCL",
+      "c": "Gujarat Industries Power Company Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/Gipcl7868_05112026162948_GIPCL_SE_BM_Outcome_05112026_signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GIPCL",
+      "t": "05-Nov-2026 16:31:19"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "SUVEN",
+      "c": "Suven Life Sciences Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 1.1985999999999999,
+      "pat": -106.9421,
+      "eps": -3.77,
+      "filing": "https://nsearchives.nseindia.com/corporate/SUVEN_05112026132345_BMOutcome05112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SUVEN",
+      "t": "05-Nov-2026 13:29:24",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753544_05112026040014_WEB.xml"
     }
   ],
   "seen": [
@@ -4922,7 +4923,10 @@
     "106847411",
     "106847445",
     "106847435",
-    "106847430"
+    "106847430",
+    "106847462",
+    "106847458",
+    "106847451"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5346,7 +5350,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T15:36:44.625844+00:00"
+        "xbrl_try": "2026-11-05T16:41:19.561643+00:00"
       },
       {
         "key": "106846403",
@@ -5358,7 +5362,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T15:36:45.067548+00:00"
+        "xbrl_try": "2026-11-05T16:41:20.042709+00:00"
       },
       {
         "key": "106846424",
@@ -5406,19 +5410,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T15:36:45.962806+00:00"
-      },
-      {
-        "key": "106846841",
-        "seq_id": "106846841",
-        "symbol": "SUVEN",
-        "company": "Suven Life Sciences Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/SUVEN_05112026132345_BMOutcome05112026.pdf",
-        "an_dt": "05-Nov-2026 13:29:24",
-        "date": "2026-11-05",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-05T15:36:46.873620+00:00"
+        "xbrl_try": "2026-11-05T16:41:20.973464+00:00"
       },
       {
         "key": "106846834",
@@ -5430,7 +5422,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T15:36:47.909589+00:00"
+        "xbrl_try": "2026-11-05T16:41:28.742873+00:00"
       },
       {
         "key": "106846920",
@@ -5683,6 +5675,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T16:35:56.940922+00:00"
+      },
+      {
+        "key": "106847451",
+        "seq_id": "106847451",
+        "symbol": "GIPCL",
+        "company": "Gujarat Industries Power Company Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/Gipcl7868_05112026162948_GIPCL_SE_BM_Outcome_05112026_signed.pdf",
+        "an_dt": "05-Nov-2026 16:31:19",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T16:41:29.737115+00:00"
       }
     ],
     "ipo_check": "2026-11-05 16",
@@ -6756,6 +6760,9 @@
     "vatech_05112026162010_si_outcome.pdf",
     "maithanall_05112026162730_ufrh12627.pdf",
     "dhruv_05112026162658_outcomebm05111026.pdf",
-    "sglobal_05112026162636_bmouctomesigned.pdf"
+    "sglobal_05112026162636_bmouctomesigned.pdf",
+    "tirupatifl_05112026163328_outcome__05_11_2026_tirupati.pdf",
+    "tciexp_05112026163228_bmoutcome05112026.pdf",
+    "gipcl7868_05112026162948_gipcl_se_bm_outcome_05112026_signed.pdf"
   ]
 }
