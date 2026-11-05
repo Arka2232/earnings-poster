@@ -2,34 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "ELLEN",
-      "c": "Ellenbarrie Industrial Gases Limited",
-      "r": "Positive",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 114.31800000000001,
-      "pat": 35.647000000000006,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/ELLENBARRIE2024_04112026193115_Announcement_Outcome_of_Board_Meeting_04112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ELLEN",
-      "t": "04-Nov-2026 19:32:49"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "EMUDHRA",
-      "c": "eMudhra Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/EMUDHRA2008_04112026193412_Outcome_of_Board_Meeting.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:EMUDHRA",
-      "t": "04-Nov-2026 19:34:58"
-    },
-    {
-      "d": "2026-11-04",
       "s": "SAURASHCEM",
       "c": "Saurashtra Cement Limited",
       "r": "Results Filed",
@@ -4266,6 +4238,34 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:ORIENTLTD",
       "t": "05-Nov-2026 18:22:38",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753906_05112026063318_WEB.xml"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "GERMAN",
+      "c": "German Green Steel and Power Limited",
+      "r": "Good",
+      "b": "Standalone",
+      "q": "Q4 FY26",
+      "sales": 365.50849999999997,
+      "pat": 16.8622,
+      "eps": 3.06,
+      "filing": "https://nsearchives.nseindia.com/corporate/GERMAN2025_05112026193012_FinalOutcomeofBM_SE.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GERMAN",
+      "t": "05-Nov-2026 19:31:25"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "SUNDROP",
+      "c": "Sundrop Brands Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/Kavita_Sundrop_05112026193013_FinalIntimationforoutcomeofBMNov052026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SUNDROP",
+      "t": "05-Nov-2026 19:31:15"
     }
   ],
   "seen": [
@@ -5027,7 +5027,9 @@
     "106848539",
     "106848553",
     "106848552",
-    "106848570"
+    "106848570",
+    "106848581",
+    "106848580"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5584,7 +5586,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T18:31:58.685374+00:00"
+        "xbrl_try": "2026-11-05T19:34:58.127511+00:00"
       },
       {
         "key": "106847411",
@@ -5753,7 +5755,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T18:34:46.711631+00:00"
+        "xbrl_try": "2026-11-05T19:34:58.605325+00:00"
       },
       {
         "key": "106848272",
@@ -5862,6 +5864,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T19:31:00.242146+00:00"
+      },
+      {
+        "key": "106848580",
+        "seq_id": "106848580",
+        "symbol": "SUNDROP",
+        "company": "Sundrop Brands Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/Kavita_Sundrop_05112026193013_FinalIntimationforoutcomeofBMNov052026.pdf",
+        "an_dt": "05-Nov-2026 19:31:15",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T19:34:59.481582+00:00"
       }
     ],
     "ipo_check": "2026-11-05 19",
@@ -7024,6 +7038,8 @@
     "finkurve_05112026191634_outcome_of_bm.pdf",
     "kalyanifrg_05112026191740_q2_fy27_outcome_of_board_meeting_-_signed.pdf",
     "indowind_05112026192409_nseout.pdf",
-    "sanstar_05112026192653_bm_outcome_signed.pdf"
+    "sanstar_05112026192653_bm_outcome_signed.pdf",
+    "german2025_05112026193012_finaloutcomeofbm_se.pdf",
+    "kavita_sundrop_05112026193013_finalintimationforoutcomeofbmnov052026.pdf"
   ]
 }
