@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "SANDUMA",
-      "c": "Sandur Manganese & Iron Ores Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 1506.13,
-      "pat": 260.99,
-      "eps": 5.35,
-      "filing": "https://nsearchives.nseindia.com/corporate/SANDUR_03112026175840_Outcome_of_BM_Signed.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SANDUMA",
-      "t": "03-Nov-2026 17:59:56"
-    },
-    {
-      "d": "2026-11-03",
       "s": "SOLARINDS",
       "c": "Solar Industries India Limited",
       "r": "Excellent",
@@ -4247,6 +4233,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/ceigall_05112026140835_Outcome_05112026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:CEIGALL",
       "t": "05-Nov-2026 14:12:46"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "POLYMED",
+      "c": "Poly Medicure Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/POLYMED_05112026140848_FINAL_OUTCOME_SIGNED.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:POLYMED",
+      "t": "05-Nov-2026 14:15:00"
     }
   ],
   "seen": [
@@ -4874,7 +4874,8 @@
     "106846932",
     "106846931",
     "106846928",
-    "106846940"
+    "106846940",
+    "106846945"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5502,6 +5503,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T14:16:21.994981+00:00"
+      },
+      {
+        "key": "106846945",
+        "seq_id": "106846945",
+        "symbol": "POLYMED",
+        "company": "Poly Medicure Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/POLYMED_05112026140848_FINAL_OUTCOME_SIGNED.pdf",
+        "an_dt": "05-Nov-2026 14:15:00",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T14:18:25.284467+00:00"
       }
     ],
     "ipo_check": "2026-11-05 14",
@@ -6530,6 +6543,7 @@
     "kronox_05112026140829_outcome__of_bm_05112026_ocr.pdf",
     "avadhsugar_05112026140819_aselresultssg.pdf",
     "sabevents_05112026140448_outcome_sab_events_sept26.pdf",
-    "ceigall_05112026140835_outcome_05112026.pdf"
+    "ceigall_05112026140835_outcome_05112026.pdf",
+    "polymed_05112026140848_final_outcome_signed.pdf"
   ]
 }
