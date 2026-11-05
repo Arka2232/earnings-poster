@@ -2,63 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "REPL",
-      "c": "Rudrabhishek Enterprises Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/REPL_04112026174859_Outcome_of_Board_Meeting.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:REPL",
-      "t": "04-Nov-2026 18:04:18"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "MARINE",
-      "c": "Marine Electricals (India) Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 404.648,
-      "pat": 32.0914,
-      "eps": 2.27,
-      "filing": "https://nsearchives.nseindia.com/corporate/MARINE_04112026175953_Regulation_30_Board_Meeting_Outcome.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MARINE",
-      "t": "04-Nov-2026 18:04:09"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "KICL",
-      "c": "Kalyani Investment Company Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 47.91,
-      "pat": 33.724,
-      "eps": 77.25,
-      "filing": "https://nsearchives.nseindia.com/corporate/KICL_04112026160006_KICL_BM_Results_04112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:KICL",
-      "t": "04-Nov-2026 16:07:38",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NBFC_INDAS_1752715_04112026051226_WEB.xml"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "AIFL",
-      "c": "Ashapura Intimates Fashion Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/AIFL2020_04112026181316_Outcome_of_Board_Meeting.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:AIFL",
-      "t": "04-Nov-2026 18:14:13"
-    },
-    {
-      "d": "2026-11-04",
       "s": "MITTAL",
       "c": "Mittal Life Style Limited",
       "r": "Results Filed",
@@ -4260,6 +4203,63 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:VIPULLTD",
       "t": "05-Nov-2026 18:16:30",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753835_05112026060742_WEB.xml"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "FORTIS",
+      "c": "Fortis Healthcare Limited",
+      "r": "Good",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 27.3483,
+      "pat": 4.2326999999999995,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/FORTIS_05112026182405_final.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:FORTIS",
+      "t": "05-Nov-2026 18:24:47"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "ORIENTLTD",
+      "c": "Orient Press Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/ORIENTLTD_05112026182011_outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ORIENTLTD",
+      "t": "05-Nov-2026 18:22:38"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "EUROPRATIK",
+      "c": "Euro Pratik Sales Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/EUROPRATIK2025_05112026181514_Outcome_Signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:EUROPRATIK",
+      "t": "05-Nov-2026 18:21:13"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "INSECTICID",
+      "c": "Insecticides (India) Limited",
+      "r": "Positive",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 686.3122999999999,
+      "pat": 56.1695,
+      "eps": 19.3,
+      "filing": "https://nsearchives.nseindia.com/corporate/INSECTICID_05112026151438_Outcome_05112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:INSECTICID",
+      "t": "05-Nov-2026 15:17:52",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753719_05112026053904_WEB.xml"
     }
   ],
   "seen": [
@@ -4991,7 +4991,10 @@
     "106848150",
     "106848147",
     "106848146",
-    "106848145"
+    "106848145",
+    "106848220",
+    "106848213",
+    "106848206"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5512,7 +5515,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T17:26:38.848341+00:00"
+        "xbrl_try": "2026-11-05T18:29:55.048015+00:00"
       },
       {
         "key": "106846966",
@@ -5561,18 +5564,6 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T18:13:40.290294+00:00"
-      },
-      {
-        "key": "106847135",
-        "seq_id": "106847135",
-        "symbol": "INSECTICID",
-        "company": "Insecticides (India) Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/INSECTICID_05112026151438_Outcome_05112026.pdf",
-        "an_dt": "05-Nov-2026 15:17:52",
-        "date": "2026-11-05",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-05T17:26:39.675415+00:00"
       },
       {
         "key": "106847138",
@@ -5933,6 +5924,30 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T18:26:52.340504+00:00"
+      },
+      {
+        "key": "106848213",
+        "seq_id": "106848213",
+        "symbol": "ORIENTLTD",
+        "company": "Orient Press Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/ORIENTLTD_05112026182011_outcome.pdf",
+        "an_dt": "05-Nov-2026 18:22:38",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T18:30:01.919607+00:00"
+      },
+      {
+        "key": "106848206",
+        "seq_id": "106848206",
+        "symbol": "EUROPRATIK",
+        "company": "Euro Pratik Sales Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/EUROPRATIK2025_05112026181514_Outcome_Signed.pdf",
+        "an_dt": "05-Nov-2026 18:21:13",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T18:30:02.644689+00:00"
       }
     ],
     "ipo_check": "2026-11-05 18",
@@ -7065,6 +7080,9 @@
     "devit_05112026181503_outcome_s.pdf",
     "vipulltd_05112026181327_outcome.pdf",
     "rmcl_05112026181526_outcome.pdf",
-    "robusthotels_05112026181345_rhlbm05112026outcome.pdf"
+    "robusthotels_05112026181345_rhlbm05112026outcome.pdf",
+    "fortis_05112026182405_final.pdf",
+    "orientltd_05112026182011_outcome.pdf",
+    "europratik2025_05112026181514_outcome_signed.pdf"
   ]
 }
