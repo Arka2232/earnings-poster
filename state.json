@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "SAGARDEEP",
-      "c": "Sagardeep Alloys Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 81.9699,
-      "pat": 1.2091,
-      "eps": 0.7,
-      "filing": "https://nsearchives.nseindia.com/corporate/SAGARDEEP_03112026191638_Outcome_of_BM.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SAGARDEEP",
-      "t": "03-Nov-2026 19:17:23"
-    },
-    {
-      "d": "2026-11-03",
       "s": "SUYOG",
       "c": "Suyog Telematics Limited",
       "r": "Positive",
@@ -4254,6 +4240,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/KRITI_05112026122142_KIIL_Outcome_05112026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:KRITI",
       "t": "05-Nov-2026 12:24:06"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "IBULLSLTD",
+      "c": "Indiabulls Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 331.84,
+      "pat": 151.12,
+      "eps": 0.66,
+      "filing": "https://nsearchives.nseindia.com/corporate/YAARI_05112026122902_IBL_BM_Outcome_05112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:IBULLSLTD",
+      "t": "05-Nov-2026 12:30:35"
     }
   ],
   "seen": [
@@ -4841,7 +4841,8 @@
     "106846528",
     "106846525",
     "106846574",
-    "106846582"
+    "106846582",
+    "106846601"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -6325,6 +6326,7 @@
     "relcheq_05112026121240_outcome-_financialssd.pdf",
     "sgltpl_05112026120955_board_meeting_outcome_final_05112026_1.pdf",
     "hitech_05112026121340_outcome_bm_q2h1fy27.pdf",
-    "kriti_05112026122142_kiil_outcome_05112026.pdf"
+    "kriti_05112026122142_kiil_outcome_05112026.pdf",
+    "yaari_05112026122902_ibl_bm_outcome_05112026.pdf"
   ]
 }
