@@ -2,34 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "BLAL",
-      "c": "BEML Land Assets Limited",
-      "r": "Positive",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 0.9825,
-      "pat": 0.3799,
-      "eps": 0.09,
-      "filing": "https://nsearchives.nseindia.com/corporate/BLAL_04112026122907_OUTCOME_OF_BM.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BLAL",
-      "t": "04-Nov-2026 12:32:18"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "RAMCOIND",
-      "c": "Ramco Industries Limited",
-      "r": "Good",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 437.28,
-      "pat": 50.66,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/RAMCOIND_04112026124411_FRQ2_202627.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:RAMCOIND",
-      "t": "04-Nov-2026 12:45:58"
-    },
-    {
-      "d": "2026-11-04",
       "s": "PANAMAPET",
       "c": "Panama Petrochem Limited",
       "r": "Excellent",
@@ -4246,6 +4218,35 @@
       "filing": "https://nsearchives.nseindia.com/corporate/MOTHERSON_05112026145442_Financial_Results.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:MOTHERSON",
       "t": "05-Nov-2026 14:58:36"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "VTMLTD",
+      "c": "VTM Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/VTMNSE_05112026150358_Outcome_of_Board_Meeting_for_Q2_2026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:VTMLTD",
+      "t": "05-Nov-2026 15:05:08"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "BEML",
+      "c": "BEML Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 1191.6064999999999,
+      "pat": 33.335499999999996,
+      "eps": 4.0,
+      "filing": "https://nsearchives.nseindia.com/corporate/BEML_05112026135743_30299-001_20261105_161537__4_files_merged_.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BEML",
+      "t": "05-Nov-2026 13:59:31",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753442_05112026021941_WEB.xml"
     }
   ],
   "seen": [
@@ -4887,7 +4888,8 @@
     "106847039",
     "106847056",
     "106847063",
-    "106847068"
+    "106847068",
+    "106847091"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5446,18 +5448,6 @@
         "xbrl_try": "2026-11-05T14:50:56.458983+00:00"
       },
       {
-        "key": "106846907",
-        "seq_id": "106846907",
-        "symbol": "BEML",
-        "company": "BEML Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/BEML_05112026135743_30299-001_20261105_161537__4_files_merged_.pdf",
-        "an_dt": "05-Nov-2026 13:59:31",
-        "date": "2026-11-05",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-05T14:06:35.140053+00:00"
-      },
-      {
         "key": "106846920",
         "seq_id": "106846920",
         "symbol": "GOACARBON",
@@ -5552,6 +5542,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T15:05:04.612753+00:00"
+      },
+      {
+        "key": "106847091",
+        "seq_id": "106847091",
+        "symbol": "VTMLTD",
+        "company": "VTM Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/VTMNSE_05112026150358_Outcome_of_Board_Meeting_for_Q2_2026.pdf",
+        "an_dt": "05-Nov-2026 15:05:08",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T15:07:36.280801+00:00"
       }
     ],
     "ipo_check": "2026-11-05 15",
@@ -6594,6 +6596,7 @@
     "texrail_05112026145026_texrailbmoutcome05112026signed.pdf",
     "apollopipe_05112026145418_outcomeofbm05112026signed.pdf",
     "khadim_05112026145652_ufr.pdf",
-    "motherson_05112026145442_financial_results.pdf"
+    "motherson_05112026145442_financial_results.pdf",
+    "vtmnse_05112026150358_outcome_of_board_meeting_for_q2_2026.pdf"
   ]
 }
