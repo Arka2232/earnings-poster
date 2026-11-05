@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "ONEPOINT",
-      "c": "One Point One Solutions Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 174.9559,
-      "pat": 18.408,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/ONEPOINT_03112026185040_ONEPOINT.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ONEPOINT",
-      "t": "03-Nov-2026 18:55:10"
-    },
-    {
-      "d": "2026-11-03",
       "s": "DALMIASUG",
       "c": "Dalmia Bharat Sugar and Industries Limited",
       "r": "Excellent",
@@ -4256,6 +4242,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/HESTERBIO_05112026111348_20261105OutcomeofBoardMeeting.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:HESTERBIO",
       "t": "05-Nov-2026 11:15:07"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "CESC",
+      "c": "CESC Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/CESC_05112026112827_1.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CESC",
+      "t": "05-Nov-2026 11:29:51"
     }
   ],
   "seen": [
@@ -4835,7 +4835,8 @@
     "106846112",
     "106846324",
     "106846349",
-    "106846382"
+    "106846382",
+    "106846401"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5271,6 +5272,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T10:36:43.699193+00:00"
+      },
+      {
+        "key": "106846401",
+        "seq_id": "106846401",
+        "symbol": "CESC",
+        "company": "CESC Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/CESC_05112026112827_1.pdf",
+        "an_dt": "05-Nov-2026 11:29:51",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T11:32:31.676439+00:00"
       }
     ],
     "ipo_check": "2026-11-05 11",
@@ -6251,6 +6264,7 @@
     "tokyoplast_04112026235505_ilovepdf_merged.pdf",
     "amagi_05112026103310_outcomeofbmsept2026.pdf",
     "lgeindia_05112026105442_outcomebm.pdf",
-    "hesterbio_05112026111348_20261105outcomeofboardmeeting.pdf"
+    "hesterbio_05112026111348_20261105outcomeofboardmeeting.pdf",
+    "cesc_05112026112827_1.pdf"
   ]
 }
