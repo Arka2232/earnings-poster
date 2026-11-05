@@ -2,48 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "MINDTECK",
-      "c": "Mindteck (India) Limited",
-      "r": "Bad",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 1.055,
-      "pat": 0.1584,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/MINDTECK_04112026162646_34BSELetterOutcomeofBMNov042026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MINDTECK",
-      "t": "04-Nov-2026 16:27:34"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "TIJARIA",
-      "c": "Tijaria Polypipes Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/TIJARIA_04112026162433_SIGNED.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:TIJARIA",
-      "t": "04-Nov-2026 16:27:30"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "KIRLOSENG",
-      "c": "Kirloskar Oil Engines Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/KIRLOSENG_04112026162737_SE_Outcome_Result_4Nov26.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:KIRLOSENG",
-      "t": "04-Nov-2026 16:31:05"
-    },
-    {
-      "d": "2026-11-04",
       "s": "SWANCORP",
       "c": "SWAN CORP LIMITED",
       "r": "Positive",
@@ -4255,6 +4213,48 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:HBSL",
       "t": "05-Nov-2026 16:23:20",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NBFC_INDAS_1753612_05112026052236_WEB.xml"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "MOLBIO",
+      "c": "Molbio Diagnostics Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/MOLBIO_05112026172551_BM_Outcome_Signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MOLBIO",
+      "t": "05-Nov-2026 17:31:21"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "HONDAPOWER",
+      "c": "Honda India Power Products Limited",
+      "r": "Bad",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 2.5621,
+      "pat": 0.111,
+      "eps": 10.94,
+      "filing": "https://nsearchives.nseindia.com/corporate/HONDAPOWER_05112026172851_Regulation33Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:HONDAPOWER",
+      "t": "05-Nov-2026 17:29:59"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "SHYAMCENT",
+      "c": "Shyam Century Ferrous Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/SHYAMCENT_05112026172517_SCFL_Outcome_Signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SHYAMCENT",
+      "t": "05-Nov-2026 17:28:57"
     }
   ],
   "seen": [
@@ -4953,7 +4953,10 @@
     "106847690",
     "106847688",
     "106847695",
-    "106847795"
+    "106847795",
+    "106847840",
+    "106847830",
+    "106847821"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5497,7 +5500,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T16:30:25.319067+00:00"
+        "xbrl_try": "2026-11-05T17:35:05.483595+00:00"
       },
       {
         "key": "106847056",
@@ -5557,7 +5560,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T16:30:26.248631+00:00"
+        "xbrl_try": "2026-11-05T17:35:06.119468+00:00"
       },
       {
         "key": "106847172",
@@ -5569,7 +5572,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T16:30:26.994394+00:00"
+        "xbrl_try": "2026-11-05T17:35:06.720831+00:00"
       },
       {
         "key": "106847284",
@@ -5641,7 +5644,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T16:30:27.368599+00:00"
+        "xbrl_try": "2026-11-05T17:35:07.016777+00:00"
       },
       {
         "key": "106847445",
@@ -5810,6 +5813,30 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T17:30:29.702044+00:00"
+      },
+      {
+        "key": "106847840",
+        "seq_id": "106847840",
+        "symbol": "MOLBIO",
+        "company": "Molbio Diagnostics Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/MOLBIO_05112026172551_BM_Outcome_Signed.pdf",
+        "an_dt": "05-Nov-2026 17:31:21",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T17:35:07.741811+00:00"
+      },
+      {
+        "key": "106847821",
+        "seq_id": "106847821",
+        "symbol": "SHYAMCENT",
+        "company": "Shyam Century Ferrous Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/SHYAMCENT_05112026172517_SCFL_Outcome_Signed.pdf",
+        "an_dt": "05-Nov-2026 17:28:57",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T17:35:08.375036+00:00"
       }
     ],
     "ipo_check": "2026-11-05 17",
@@ -6909,6 +6936,9 @@
     "schand_05112026171337_outcomeofboardmeeting05112026.pdf",
     "kritika_05112026171057_kritika_outcome_of_bm_05112026.pdf",
     "proteancs_05112026170950_intimation_bm_outcome_nov_5_2026.pdf",
-    "abfrl_05112026172207_se.pdf"
+    "abfrl_05112026172207_se.pdf",
+    "molbio_05112026172551_bm_outcome_signed.pdf",
+    "hondapower_05112026172851_regulation33outcome.pdf",
+    "shyamcent_05112026172517_scfl_outcome_signed.pdf"
   ]
 }
