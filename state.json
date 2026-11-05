@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "ABINFRA",
-      "c": "A B Infrabuild Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 74.2292,
-      "pat": 4.9912,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/ABINFRA_03112026152423_Outcome.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ABINFRA",
-      "t": "03-Nov-2026 15:26:39"
-    },
-    {
-      "d": "2026-11-03",
       "s": "AIAENG",
       "c": "AIA Engineering Limited",
       "r": "Weak",
@@ -4249,6 +4235,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/BIRLACABLE_05112026135536_UnauditedResults.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:BIRLACABLE",
       "t": "05-Nov-2026 13:58:08"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "BEML",
+      "c": "BEML Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/BEML_05112026135743_30299-001_20261105_161537__4_files_merged_.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BEML",
+      "t": "05-Nov-2026 13:59:31"
     }
   ],
   "seen": [
@@ -4868,7 +4868,8 @@
     "106846875",
     "106846884",
     "106846906",
-    "106846904"
+    "106846904",
+    "106846907"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5436,6 +5437,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T13:49:47.931420+00:00"
+      },
+      {
+        "key": "106846907",
+        "seq_id": "106846907",
+        "symbol": "BEML",
+        "company": "BEML Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/BEML_05112026135743_30299-001_20261105_161537__4_files_merged_.pdf",
+        "an_dt": "05-Nov-2026 13:59:31",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T14:06:35.140053+00:00"
       }
     ],
     "ipo_check": "2026-11-05 14",
@@ -6456,6 +6469,7 @@
     "oilcountub_05112026134444_outcome.pdf",
     "emamiltd2_05112026135037_bm_outcome_q2_fy_27_signed.pdf",
     "superspin_05112026135634_outcome_of_the_meeting.pdf",
-    "birlacable_05112026135536_unauditedresults.pdf"
+    "birlacable_05112026135536_unauditedresults.pdf",
+    "beml_05112026135743_30299-001_20261105_161537__4_files_merged_.pdf"
   ]
 }
