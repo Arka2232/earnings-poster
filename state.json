@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "PDSL",
-      "c": "PDS Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 443248.2,
-      "pat": 6986.69,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/PDSL_04112026190025_Ltr_BoardMeetingOutcome_04112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:PDSL",
-      "t": "04-Nov-2026 19:01:57"
-    },
-    {
-      "d": "2026-11-04",
       "s": "RVTH",
       "c": "Revathi Equipment India Limited",
       "r": "Excellent",
@@ -4265,6 +4251,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/DIPANKARDE_05112026185341_UFR_Q2_2627_S.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:LINC",
       "t": "05-Nov-2026 18:57:02"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "RUDRA",
+      "c": "Rudra Global Infra Products Limited",
+      "r": "Bad",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 160.1542,
+      "pat": 1.8478999999999999,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/RUDRA_05112026185655_Covering_Result_LRR-S.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:RUDRA",
+      "t": "05-Nov-2026 19:01:52"
     }
   ],
   "seen": [
@@ -5015,7 +5015,8 @@
     "106848418",
     "106848414",
     "106848404",
-    "106848424"
+    "106848424",
+    "106848446"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -7037,6 +7038,7 @@
     "prestige_05112026185402_outcomeq2fy27.pdf",
     "alpinetex_05112026185202_outcome_of_board_meeting.pdf",
     "utlsolar2024_05112026185058_nse_bse_outcome_board_meeting_05_11_2026_final.pdf",
-    "dipankarde_05112026185341_ufr_q2_2627_s.pdf"
+    "dipankarde_05112026185341_ufr_q2_2627_s.pdf",
+    "rudra_05112026185655_covering_result_lrr-s.pdf"
   ]
 }
