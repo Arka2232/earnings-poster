@@ -2,34 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "APOLLOTYRE",
-      "c": "Apollo Tyres Limited",
-      "r": "Good",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 7968.150000000001,
-      "pat": 292.287,
-      "eps": 4.62,
-      "filing": "https://nsearchives.nseindia.com/corporate/APOLLOTYRE1_04112026161233_Outcome04112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:APOLLOTYRE",
-      "t": "04-Nov-2026 16:14:07"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "MANUGRAPH",
-      "c": "Manugraph India Limited",
-      "r": "Good",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 16.9009,
-      "pat": 7.4644,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/MANUGRAPH_04112026162356_MIL_BM_Outcome_UFR_04112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MANUGRAPH",
-      "t": "04-Nov-2026 16:25:13"
-    },
-    {
-      "d": "2026-11-04",
       "s": "MINDTECK",
       "c": "Mindteck (India) Limited",
       "r": "Bad",
@@ -4254,6 +4226,35 @@
       "filing": "https://nsearchives.nseindia.com/corporate/PROTEANCS_05112026170950_Intimation_BM_Outcome_Nov_5_2026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:PROTEAN",
       "t": "05-Nov-2026 17:16:20"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "ABFRL",
+      "c": "Aditya Birla Fashion and Retail Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/ABFRL_05112026172207_SE.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ABFRL",
+      "t": "05-Nov-2026 17:27:00"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "HBSL",
+      "c": "HB Stockholdings Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 0.599,
+      "pat": -3.2904999999999998,
+      "eps": -4.6,
+      "filing": "https://nsearchives.nseindia.com/corporate/HBSL_05112026162111_OUTCOME_OF_BOARD_MEETING.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:HBSL",
+      "t": "05-Nov-2026 16:23:20",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NBFC_INDAS_1753612_05112026052236_WEB.xml"
     }
   ],
   "seen": [
@@ -4951,7 +4952,8 @@
     "106847620",
     "106847690",
     "106847688",
-    "106847695"
+    "106847695",
+    "106847795"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5627,19 +5629,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T16:27:40.457115+00:00"
-      },
-      {
-        "key": "106847398",
-        "seq_id": "106847398",
-        "symbol": "HBSL",
-        "company": "HB Stockholdings Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/HBSL_05112026162111_OUTCOME_OF_BOARD_MEETING.pdf",
-        "an_dt": "05-Nov-2026 16:23:20",
-        "date": "2026-11-05",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-05T16:27:41.092350+00:00"
+        "xbrl_try": "2026-11-05T17:30:23.260503+00:00"
       },
       {
         "key": "106847411",
@@ -5808,6 +5798,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T17:20:24.257766+00:00"
+      },
+      {
+        "key": "106847795",
+        "seq_id": "106847795",
+        "symbol": "ABFRL",
+        "company": "Aditya Birla Fashion and Retail Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/ABFRL_05112026172207_SE.pdf",
+        "an_dt": "05-Nov-2026 17:27:00",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T17:30:29.702044+00:00"
       }
     ],
     "ipo_check": "2026-11-05 17",
@@ -6906,6 +6908,7 @@
     "sahajanand_05112026165953_11_board_meeting_outcome.pdf",
     "schand_05112026171337_outcomeofboardmeeting05112026.pdf",
     "kritika_05112026171057_kritika_outcome_of_bm_05112026.pdf",
-    "proteancs_05112026170950_intimation_bm_outcome_nov_5_2026.pdf"
+    "proteancs_05112026170950_intimation_bm_outcome_nov_5_2026.pdf",
+    "abfrl_05112026172207_se.pdf"
   ]
 }
