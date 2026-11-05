@@ -760,7 +760,10 @@
     "106848552",
     "106848570",
     "106848581",
-    "106848580"
+    "106848580",
+    "106848596",
+    "106848595",
+    "106848583"
   ],
   "seen_urls": [
     "moil_02112026161132_q2_results_2026-27.pdf",
@@ -1397,7 +1400,10 @@
     "indowind_05112026192409_nseout.pdf",
     "sanstar_05112026192653_bm_outcome_signed.pdf",
     "german2025_05112026193012_finaloutcomeofbm_se.pdf",
-    "kavita_sundrop_05112026193013_finalintimationforoutcomeofbmnov052026.pdf"
+    "kavita_sundrop_05112026193013_finalintimationforoutcomeofbmnov052026.pdf",
+    "hpal_05112026193017_filedfinancialresults.pdf",
+    "vikran123_05112026193054_intimation_of_outcome_of_board_meeting.pdf",
+    "mfml2_05112026193130_mfmloutcomefrmerged_.pdf"
   ],
   "digest": {
     "today_results": {
@@ -2159,7 +2165,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T18:35:55.977810+00:00"
+        "xbrl_try": "2026-11-05T19:40:34.638165+00:00"
       },
       {
         "key": "106847068",
@@ -2219,7 +2225,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T18:31:58.685374+00:00"
+        "xbrl_try": "2026-11-05T19:40:35.031725+00:00"
       },
       {
         "key": "106847411",
@@ -2231,7 +2237,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T18:36:02.942352+00:00"
+        "xbrl_try": "2026-11-05T19:40:35.378922+00:00"
       },
       {
         "key": "106847445",
@@ -2291,7 +2297,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T18:36:03.701218+00:00"
+        "xbrl_try": "2026-11-05T19:40:36.153808+00:00"
       },
       {
         "key": "106847821",
@@ -2303,7 +2309,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T18:36:04.455752+00:00"
+        "xbrl_try": "2026-11-05T19:40:36.830191+00:00"
       },
       {
         "key": "106847855",
@@ -2388,7 +2394,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T18:34:46.711631+00:00"
+        "xbrl_try": "2026-11-05T19:40:37.122261+00:00"
       },
       {
         "key": "106848272",
@@ -2400,7 +2406,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T18:36:04.871726+00:00"
+        "xbrl_try": "2026-11-05T19:40:37.416422+00:00"
       },
       {
         "key": "106848304",
@@ -2509,6 +2515,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T19:34:59.481582+00:00"
+      },
+      {
+        "key": "106848595",
+        "seq_id": "106848595",
+        "symbol": "VIKRAN",
+        "company": "Vikran Engineering Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/VIKRAN123_05112026193054_Intimation_of_outcome_of_board_meeting.pdf",
+        "an_dt": "05-Nov-2026 19:36:00",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T19:40:37.774758+00:00"
       }
     ],
     "recap": "2026-11-01",
@@ -6340,6 +6358,48 @@
       "filing": "https://nsearchives.nseindia.com/corporate/Kavita_Sundrop_05112026193013_FinalIntimationforoutcomeofBMNov052026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SUNDROP",
       "t": "05-Nov-2026 19:31:15"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "HPAL",
+      "c": "HP Adhesives Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q3 FY27",
+      "sales": 75.7636,
+      "pat": 0.6895,
+      "eps": 0.03,
+      "filing": "https://nsearchives.nseindia.com/corporate/HPAL_05112026193017_FiledFinancialResults.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:HPAL",
+      "t": "05-Nov-2026 19:36:18"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "VIKRAN",
+      "c": "Vikran Engineering Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/VIKRAN123_05112026193054_Intimation_of_outcome_of_board_meeting.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:VIKRAN",
+      "t": "05-Nov-2026 19:36:00"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "MFML",
+      "c": "Mahalaxmi Fabric Mills Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 38.1743,
+      "pat": 1.1517,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/MFML2_05112026193130_MFMLOUTCOMEFRMERGED_.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:MFML",
+      "t": "05-Nov-2026 19:32:25"
     }
   ]
 }
