@@ -2,36 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "RSYSTEMS",
-      "c": "R Systems International Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 615.1999999999999,
-      "pat": 64.18299999999999,
-      "eps": 5.42,
-      "filing": "https://nsearchives.nseindia.com/corporate/RSYSTEMSPJ_03112026211010_RSYSTEMS_sd.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:RSYSTEMS",
-      "t": "03-Nov-2026 21:11:09",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752319_03112026095320_WEB.xml"
-    },
-    {
-      "d": "2026-11-03",
-      "s": "ONIDA",
-      "c": "Onida Electronics Limited",
-      "r": "Bad",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 198.6337,
-      "pat": -39.846799999999995,
-      "eps": -1.05,
-      "filing": "https://nsearchives.nseindia.com/corporate/MIRCELECTR_03112026211111_OutcomeofBoardMeeting03112026signed.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ONIDA",
-      "t": "03-Nov-2026 21:15:10",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752348_03112026105327_WEB.xml"
-    },
-    {
-      "d": "2026-11-03",
       "s": "CLEANMAX",
       "c": "Clean Max Enviro Energy Solutions Limited",
       "r": "Excellent",
@@ -4252,6 +4222,34 @@
       "filing": "https://nsearchives.nseindia.com/corporate/TIINDIA_05112026132513_TIINSEBSEBM.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:TIINDIA",
       "t": "05-Nov-2026 13:27:54"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "IRB",
+      "c": "IRB Infrastructure Developers Limited",
+      "r": "Positive",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 1003.1030000000001,
+      "pat": 233.337,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/IRB_05112026133344_IRBIDL_Outcome_of_Board_Meeting.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:IRB",
+      "t": "05-Nov-2026 13:37:40"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "BUILDPRO",
+      "c": "Shankara Buildpro Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 2280.38,
+      "pat": 46.19,
+      "eps": 3.81,
+      "filing": "https://nsearchives.nseindia.com/corporate/BUILDPRO_05112026133558_Filing_OCR.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BUILDPRO",
+      "t": "05-Nov-2026 13:36:46"
     }
   ],
   "seen": [
@@ -4861,7 +4859,9 @@
     "106846843",
     "106846841",
     "106846837",
-    "106846834"
+    "106846834",
+    "106846856",
+    "106846853"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5296,7 +5296,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T12:38:56.223285+00:00"
+        "xbrl_try": "2026-11-05T13:40:20.747698+00:00"
       },
       {
         "key": "106846401",
@@ -6415,6 +6415,8 @@
     "pritikauto_05112026132919_outcomepail05nov2026f.pdf",
     "suven_05112026132345_bmoutcome05112026.pdf",
     "igarashi_05112026132707_imibodq2quickresults051126sd.pdf",
-    "tiindia_05112026132513_tiinsebsebm.pdf"
+    "tiindia_05112026132513_tiinsebsebm.pdf",
+    "irb_05112026133344_irbidl_outcome_of_board_meeting.pdf",
+    "buildpro_05112026133558_filing_ocr.pdf"
   ]
 }
