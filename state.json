@@ -2,65 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "RVTH",
-      "c": "Revathi Equipment India Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 38.38,
-      "pat": 3.62,
-      "eps": 11.79,
-      "filing": "https://nsearchives.nseindia.com/corporate/REVATHIEQUIPMENT_04112026185757_Outcome_of_BM_041126_REIL_sd.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:RVTH",
-      "t": "04-Nov-2026 19:00:08"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "ESSARSHPNG",
-      "c": "Essar Shipping Limited",
-      "r": "Bad",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 0.04,
-      "pat": -29.549999999999997,
-      "eps": -1.43,
-      "filing": "https://nsearchives.nseindia.com/corporate/ESSARSHPNG_04112026175712_BM_Outcome_04112026__1_.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ESSARSHPNG",
-      "t": "04-Nov-2026 17:59:32",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752930_04112026064300_WEB.xml"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "ASHIANA",
-      "c": "Ashiana Housing Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 575.68,
-      "pat": 51.03,
-      "eps": 5.09,
-      "filing": "https://nsearchives.nseindia.com/corporate/ASHIANA_04112026170116_OutcomeofBMSIGNED.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ASHIANA",
-      "t": "04-Nov-2026 17:03:51",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752877_04112026061910_WEB.xml"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "CHEMPLASTS",
-      "c": "Chemplast Sanmar Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 1323.21,
-      "pat": -5.45,
-      "eps": -0.34,
-      "filing": "https://nsearchives.nseindia.com/corporate/CHEMPLASTS_04112026160801_OutcomeBMFinancials04112026SD.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CHEMPLASTS",
-      "t": "04-Nov-2026 16:08:51",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752992_04112026070523_WEB.xml"
-    },
-    {
-      "d": "2026-11-04",
       "s": "OSWALGREEN",
       "c": "Oswal Greentech Limited",
       "r": "Positive",
@@ -4265,6 +4206,64 @@
       "filing": "https://nsearchives.nseindia.com/corporate/RUDRA_05112026185655_Covering_Result_LRR-S.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:RUDRA",
       "t": "05-Nov-2026 19:01:52"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "BCPL",
+      "c": "BCPL Railway Infrastructure Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 8502.81,
+      "pat": 128.62,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/BCPL_05112026190139_LR.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BCPL",
+      "t": "05-Nov-2026 19:03:48"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "DUCON",
+      "c": "Ducon Infratechnologies Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 10929.91,
+      "pat": 267.93,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/DUCON_05112026190020_Results30092026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:DUCON",
+      "t": "05-Nov-2026 19:03:25"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "APOLLOPIPE",
+      "c": "Apollo Pipes Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 309.64009999999996,
+      "pat": 0.6309,
+      "eps": 0.14,
+      "filing": "https://nsearchives.nseindia.com/corporate/APOLLOPIPE_05112026145418_OutcomeofBM05112026Signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:APOLLOPIPE",
+      "t": "05-Nov-2026 14:55:57",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753961_05112026064814_WEB.xml"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "SHRENIK",
+      "c": "Shrenik Limited",
+      "r": "Bad",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 5.6217,
+      "pat": -0.13169999999999998,
+      "eps": 0.0,
+      "filing": "https://nsearchives.nseindia.com/corporate/SHRENIK_05112026165619_Board_Meeting_Outcome-FS-s.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SHRENIK",
+      "t": "05-Nov-2026 16:59:33",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753820_05112026060418_WEB.xml"
     }
   ],
   "seen": [
@@ -5016,7 +5015,9 @@
     "106848414",
     "106848404",
     "106848424",
-    "106848446"
+    "106848446",
+    "106848461",
+    "106848459"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5516,18 +5517,6 @@
         "xbrl_try": "2026-11-05T18:35:55.977810+00:00"
       },
       {
-        "key": "106847056",
-        "seq_id": "106847056",
-        "symbol": "APOLLOPIPE",
-        "company": "Apollo Pipes Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/APOLLOPIPE_05112026145418_OutcomeofBM05112026Signed.pdf",
-        "an_dt": "05-Nov-2026 14:55:57",
-        "date": "2026-11-05",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-05T18:03:46.669822+00:00"
-      },
-      {
         "key": "106847068",
         "seq_id": "106847068",
         "symbol": "MOTHERSON",
@@ -5648,18 +5637,6 @@
         "xbrl_try": "2026-11-05T19:00:52.899019+00:00"
       },
       {
-        "key": "106847593",
-        "seq_id": "106847593",
-        "symbol": "SHRENIK",
-        "company": "Shrenik Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/SHRENIK_05112026165619_Board_Meeting_Outcome-FS-s.pdf",
-        "an_dt": "05-Nov-2026 16:59:33",
-        "date": "2026-11-05",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-05T18:03:58.048484+00:00"
-      },
-      {
         "key": "106847619",
         "seq_id": "106847619",
         "symbol": "IVALUE",
@@ -5742,7 +5719,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T18:03:58.817949+00:00"
+        "xbrl_try": "2026-11-05T19:05:40.184461+00:00"
       },
       {
         "key": "106848048",
@@ -7039,6 +7016,8 @@
     "alpinetex_05112026185202_outcome_of_board_meeting.pdf",
     "utlsolar2024_05112026185058_nse_bse_outcome_board_meeting_05_11_2026_final.pdf",
     "dipankarde_05112026185341_ufr_q2_2627_s.pdf",
-    "rudra_05112026185655_covering_result_lrr-s.pdf"
+    "rudra_05112026185655_covering_result_lrr-s.pdf",
+    "bcpl_05112026190139_lr.pdf",
+    "ducon_05112026190020_results30092026.pdf"
   ]
 }
