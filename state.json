@@ -2,35 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "RUSHABEAR",
-      "c": "Rushabh Precision Bearings Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/RUSHABEAR_03112026190434_outcome_financials__2_.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:RUSHABEAR",
-      "t": "03-Nov-2026 19:05:34"
-    },
-    {
-      "d": "2026-11-03",
-      "s": "AARTIDRUGS",
-      "c": "Aarti Drugs Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 826.24,
-      "pat": 82.77,
-      "eps": 9.07,
-      "filing": "https://nsearchives.nseindia.com/corporate/AARTIDRUGS_03112026190146_ADL.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:AARTIDRUGS",
-      "t": "03-Nov-2026 19:03:44",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752320_03112026100252_WEB.xml"
-    },
-    {
-      "d": "2026-11-03",
       "s": "KSB",
       "c": "Ksb Limited",
       "r": "Bad",
@@ -4255,6 +4226,34 @@
       "filing": "https://nsearchives.nseindia.com/corporate/SEPOWER_05112026114440_Outcome_of_BoardMeeting_05112026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:SAMPANN",
       "t": "05-Nov-2026 11:46:08"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "RELCHEMQ",
+      "c": "Reliance Chemotex Industries Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/RELCHEQ_05112026121240_Outcome-_Financialssd.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:RELCHEMQ",
+      "t": "05-Nov-2026 12:12:56"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "SETL",
+      "c": "Standard Engineering Technology Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 113.5176,
+      "pat": 12.4344,
+      "eps": 0.62,
+      "filing": "https://nsearchives.nseindia.com/corporate/SGLTPL_05112026120955_Board_Meeting_Outcome_Final_05112026_1.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SETL",
+      "t": "05-Nov-2026 12:12:03"
     }
   ],
   "seen": [
@@ -4838,7 +4837,9 @@
     "106846401",
     "106846403",
     "106846424",
-    "106846439"
+    "106846439",
+    "106846528",
+    "106846525"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5310,6 +5311,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T11:42:10.386967+00:00"
+      },
+      {
+        "key": "106846528",
+        "seq_id": "106846528",
+        "symbol": "RELCHEMQ",
+        "company": "Reliance Chemotex Industries Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/RELCHEQ_05112026121240_Outcome-_Financialssd.pdf",
+        "an_dt": "05-Nov-2026 12:12:56",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T12:16:49.131407+00:00"
       }
     ],
     "ipo_check": "2026-11-05 12",
@@ -6294,6 +6307,8 @@
     "cesc_05112026112827_1.pdf",
     "ramanews_05112026113050_o.pdf",
     "shiprocket2011_05112026112847_board_meeting_outcome.pdf",
-    "sepower_05112026114440_outcome_of_boardmeeting_05112026.pdf"
+    "sepower_05112026114440_outcome_of_boardmeeting_05112026.pdf",
+    "relcheq_05112026121240_outcome-_financialssd.pdf",
+    "sgltpl_05112026120955_board_meeting_outcome_final_05112026_1.pdf"
   ]
 }
