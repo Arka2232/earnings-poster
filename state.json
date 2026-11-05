@@ -1,21 +1,6 @@
 {
   "archive": [
     {
-      "d": "2026-11-04",
-      "s": "ALLCARGO",
-      "c": "Allcargo Logistics Limited",
-      "r": "Positive",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 555.0,
-      "pat": 18.0,
-      "eps": 0.11,
-      "filing": "https://nsearchives.nseindia.com/corporate/ALLCARGO_03112026221331_SEUpload.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ALLCARGO",
-      "t": "03-Nov-2026 22:15:31",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1752369_04112026120350_WEB.xml"
-    },
-    {
       "d": "2026-11-03",
       "s": "FRACTAL",
       "c": "Fractal Analytics Limited",
@@ -4250,6 +4235,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/IPCALAB_05112026134131_IpcaResultsandPressRelease.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:IPCALAB",
       "t": "05-Nov-2026 13:42:48"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "OILCOUNTUB",
+      "c": "Oil Country Tubular Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/OILCOUNTUB_05112026134444_OUTCOME.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:OILCOUNTUB",
+      "t": "05-Nov-2026 13:46:07"
     }
   ],
   "seen": [
@@ -4865,7 +4864,8 @@
     "106846863",
     "106846862",
     "106846860",
-    "106846864"
+    "106846864",
+    "106846875"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5421,6 +5421,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T13:44:19.046950+00:00"
+      },
+      {
+        "key": "106846875",
+        "seq_id": "106846875",
+        "symbol": "OILCOUNTUB",
+        "company": "Oil Country Tubular Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/OILCOUNTUB_05112026134444_OUTCOME.pdf",
+        "an_dt": "05-Nov-2026 13:46:07",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T13:49:47.931420+00:00"
       }
     ],
     "ipo_check": "2026-11-05 13",
@@ -6437,6 +6449,7 @@
     "kotarisug_05112026133919_outcomeofboardmeeting05112026.pdf",
     "ghcltextiles_05112026134111_ghcl_textiles_outcome_31st_bm_05_11_2026_signed.pdf",
     "bconcepts_05112026133940_outcome05112026.pdf",
-    "ipcalab_05112026134131_ipcaresultsandpressrelease.pdf"
+    "ipcalab_05112026134131_ipcaresultsandpressrelease.pdf",
+    "oilcountub_05112026134444_outcome.pdf"
   ]
 }
