@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "SMSPHARMA",
-      "c": "SMS Pharmaceuticals Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 316.0741,
-      "pat": 39.1347,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/SMSPHARMA_04112026132432_Outcome_of_BM_04112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SMSPHARMA",
-      "t": "04-Nov-2026 13:26:38"
-    },
-    {
-      "d": "2026-11-04",
       "s": "CENTURYPLY",
       "c": "Century Plyboards (India) Limited",
       "r": "Excellent",
@@ -4249,6 +4235,21 @@
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:BCONCEPTS",
       "t": "05-Nov-2026 13:41:15",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753479_05112026031016_WEB.xml"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "OILCOUNTUB",
+      "c": "Oil Country Tubular Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 25.1691,
+      "pat": -12.3857,
+      "eps": -2.33,
+      "filing": "https://nsearchives.nseindia.com/corporate/OILCOUNTUB_05112026134444_OUTCOME.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:OILCOUNTUB",
+      "t": "05-Nov-2026 13:46:07",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753475_05112026030519_WEB.xml"
     }
   ],
   "seen": [
@@ -5421,18 +5422,6 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T15:36:47.909589+00:00"
-      },
-      {
-        "key": "106846875",
-        "seq_id": "106846875",
-        "symbol": "OILCOUNTUB",
-        "company": "Oil Country Tubular Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/OILCOUNTUB_05112026134444_OUTCOME.pdf",
-        "an_dt": "05-Nov-2026 13:46:07",
-        "date": "2026-11-05",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-05T14:50:56.458983+00:00"
       },
       {
         "key": "106846920",
