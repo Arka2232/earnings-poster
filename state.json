@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "BIOCON",
-      "c": "Biocon Limited",
-      "r": "Bad",
-      "b": "Standalone",
-      "q": "Q3 FY27",
-      "sales": 6.305,
-      "pat": 1.439,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/BIOCON_04112026131527_BMOutcome.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:BIOCON",
-      "t": "04-Nov-2026 13:19:07"
-    },
-    {
-      "d": "2026-11-04",
       "s": "PTL",
       "c": "PTL Enterprises Limited",
       "r": "Bad",
@@ -4249,6 +4235,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/RETAIL_05112026150948_Outcome_Retail_FInal.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:RETAIL",
       "t": "05-Nov-2026 15:12:07"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "ICEMAKE",
+      "c": "Ice Make Refrigeration Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 207.37959999999998,
+      "pat": 2.7071,
+      "eps": 1.6,
+      "filing": "https://nsearchives.nseindia.com/corporate/ICEMAKE_05112026151937_Outcome051126.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ICEMAKE",
+      "t": "05-Nov-2026 15:20:00"
     }
   ],
   "seen": [
@@ -4896,7 +4896,8 @@
     "106847140",
     "106847135",
     "106847131",
-    "106847121"
+    "106847121",
+    "106847149"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -6597,6 +6598,7 @@
     "jaibalaji_05112026151135_outcome051126.pdf",
     "insecticid_05112026151438_outcome_05112026.pdf",
     "globe_05112026151532_outcomeofbm05112026signed.pdf",
-    "retail_05112026150948_outcome_retail_final.pdf"
+    "retail_05112026150948_outcome_retail_final.pdf",
+    "icemake_05112026151937_outcome051126.pdf"
   ]
 }
