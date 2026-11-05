@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-03",
-      "s": "DALMIASUG",
-      "c": "Dalmia Bharat Sugar and Industries Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 1060.81,
-      "pat": 70.61,
-      "eps": 8.72,
-      "filing": "https://nsearchives.nseindia.com/corporate/DALMIACEM_03112026185216_Outcome_of_BM.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:DALMIASUG",
-      "t": "03-Nov-2026 18:54:44"
-    },
-    {
-      "d": "2026-11-03",
       "s": "DEVX",
       "c": "Dev Accelerator Limited",
       "r": "Excellent",
@@ -4256,6 +4242,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/CESC_05112026112827_1.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:CESC",
       "t": "05-Nov-2026 11:29:51"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "RAMANEWS",
+      "c": "Shree Rama Newsprint Limited",
+      "r": "Results Filed",
+      "b": "",
+      "q": "",
+      "sales": null,
+      "pat": null,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/RAMANEWS_05112026113050_O.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:RAMANEWS",
+      "t": "05-Nov-2026 11:31:22"
     }
   ],
   "seen": [
@@ -4836,7 +4836,8 @@
     "106846324",
     "106846349",
     "106846382",
-    "106846401"
+    "106846401",
+    "106846403"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5284,6 +5285,18 @@
         "qe": "30-SEP-2026",
         "basis": "",
         "xbrl_try": "2026-11-05T11:32:31.676439+00:00"
+      },
+      {
+        "key": "106846403",
+        "seq_id": "106846403",
+        "symbol": "RAMANEWS",
+        "company": "Shree Rama Newsprint Limited",
+        "url": "https://nsearchives.nseindia.com/corporate/RAMANEWS_05112026113050_O.pdf",
+        "an_dt": "05-Nov-2026 11:31:22",
+        "date": "2026-11-05",
+        "qe": "30-SEP-2026",
+        "basis": "",
+        "xbrl_try": "2026-11-05T11:33:42.192162+00:00"
       }
     ],
     "ipo_check": "2026-11-05 11",
@@ -6265,6 +6278,7 @@
     "amagi_05112026103310_outcomeofbmsept2026.pdf",
     "lgeindia_05112026105442_outcomebm.pdf",
     "hesterbio_05112026111348_20261105outcomeofboardmeeting.pdf",
-    "cesc_05112026112827_1.pdf"
+    "cesc_05112026112827_1.pdf",
+    "ramanews_05112026113050_o.pdf"
   ]
 }
