@@ -2,76 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "TRACXN",
-      "c": "Tracxn Technologies Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/TRACXN_04112026154600_Outcome.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:TRACXN",
-      "t": "04-Nov-2026 15:47:50"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "NYKAA",
-      "c": "FSN E-Commerce Ventures Limited",
-      "r": "Excellent",
-      "b": "Standalone",
-      "q": "Q2 FY27",
-      "sales": 3006.04,
-      "pat": 101.19,
-      "eps": 0.35,
-      "filing": "https://nsearchives.nseindia.com/corporate/NYKAA_04112026160123_outcome.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:NYKAA",
-      "t": "04-Nov-2026 16:02:47"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "KICL",
-      "c": "Kalyani Investment Company Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/KICL_04112026160006_KICL_BM_Results_04112026.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:KICL",
-      "t": "04-Nov-2026 16:07:38"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "ORKLAINDIA",
-      "c": "Orkla India Limited",
-      "r": "Good",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 776.1600000000001,
-      "pat": 91.42000000000002,
-      "eps": 6.7,
-      "filing": "https://nsearchives.nseindia.com/corporate/ORKLA2025_04112026160834_SIGNEDSEIntimationOUTCOME.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:ORKLAINDIA",
-      "t": "04-Nov-2026 16:08:56"
-    },
-    {
-      "d": "2026-11-04",
-      "s": "CHEMPLASTS",
-      "c": "Chemplast Sanmar Limited",
-      "r": "Results Filed",
-      "b": "",
-      "q": "",
-      "sales": null,
-      "pat": null,
-      "eps": null,
-      "filing": "https://nsearchives.nseindia.com/corporate/CHEMPLASTS_04112026160801_OutcomeBMFinancials04112026SD.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:CHEMPLASTS",
-      "t": "04-Nov-2026 16:08:51"
-    },
-    {
-      "d": "2026-11-04",
       "s": "CANDC",
       "c": "C & C Constructions Limited",
       "r": "Results Filed",
@@ -4252,6 +4182,78 @@
       "filing": "https://nsearchives.nseindia.com/corporate/ORIENTPPR_05112026170045_OutcomeofBM05112026.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:ORIENTPPR",
       "t": "05-Nov-2026 17:03:46"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "FMNL",
+      "c": "Future Market Networks Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 18.0895,
+      "pat": 0.06480000000000001,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/FMNL1_05112026170706_Outcome_BM_FMNL_20260930.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:FMNL",
+      "t": "05-Nov-2026 17:09:01"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "INDIANHUME",
+      "c": "Indian Hume Pipe Company Limited",
+      "r": "Bad",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 286.764,
+      "pat": 22.748800000000003,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/SHARES_05112026170525_IHPOUTCOMEOFBOARDMEETING05112026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:INDIANHUME",
+      "t": "05-Nov-2026 17:07:41"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "SMT",
+      "c": "Sahajanand Medical Technologies Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 373.4101,
+      "pat": 26.4692,
+      "eps": null,
+      "filing": "https://nsearchives.nseindia.com/corporate/SAHAJANAND_05112026165953_11_Board_Meeting_Outcome.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SMT",
+      "t": "05-Nov-2026 17:04:44"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "GOACARBON",
+      "c": "Goa Carbon Limited",
+      "r": "Excellent",
+      "b": "Standalone",
+      "q": "Q2 FY27",
+      "sales": 255.0103,
+      "pat": -0.9964999999999999,
+      "eps": -1.09,
+      "filing": "https://nsearchives.nseindia.com/corporate/GOACARBON_05112026140206_GOACARBON_UAFR_Q2FY2627_30092026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GOACARBON",
+      "t": "05-Nov-2026 14:05:50",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753562_05112026043832_WEB.xml"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "RUBICON",
+      "c": "Rubicon Research Limited",
+      "r": "Excellent",
+      "b": "Consolidated",
+      "q": "Q2 FY27",
+      "sales": 576.3829999999999,
+      "pat": 90.426,
+      "eps": 5.47,
+      "filing": "https://nsearchives.nseindia.com/corporate/9823522970_05112026160314_RRLSEIntimationOutcomeBM05Nov2026.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:RUBICON",
+      "t": "05-Nov-2026 16:06:26",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753586_05112026050805_WEB.xml"
     }
   ],
   "seen": [
@@ -4943,7 +4945,10 @@
     "106847599",
     "106847619",
     "106847618",
-    "106847613"
+    "106847613",
+    "106847648",
+    "106847638",
+    "106847620"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -5442,18 +5447,6 @@
         "xbrl_try": "2026-11-05T16:41:28.742873+00:00"
       },
       {
-        "key": "106846920",
-        "seq_id": "106846920",
-        "symbol": "GOACARBON",
-        "company": "Goa Carbon Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/GOACARBON_05112026140206_GOACARBON_UAFR_Q2FY2627_30092026.pdf",
-        "an_dt": "05-Nov-2026 14:05:50",
-        "date": "2026-11-05",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-05T16:13:12.815017+00:00"
-      },
-      {
         "key": "106846931",
         "seq_id": "106846931",
         "symbol": "AVADHSUGAR",
@@ -5523,7 +5516,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T16:13:13.475558+00:00"
+        "xbrl_try": "2026-11-05T17:13:20.103765+00:00"
       },
       {
         "key": "106847091",
@@ -5535,7 +5528,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T16:13:13.797725+00:00"
+        "xbrl_try": "2026-11-05T17:13:20.510487+00:00"
       },
       {
         "key": "106847135",
@@ -5586,18 +5579,6 @@
         "xbrl_try": "2026-11-05T16:59:46.579391+00:00"
       },
       {
-        "key": "106847315",
-        "seq_id": "106847315",
-        "symbol": "RUBICON",
-        "company": "Rubicon Research Limited",
-        "url": "https://nsearchives.nseindia.com/corporate/9823522970_05112026160314_RRLSEIntimationOutcomeBM05Nov2026.pdf",
-        "an_dt": "05-Nov-2026 16:06:26",
-        "date": "2026-11-05",
-        "qe": "30-SEP-2026",
-        "basis": "",
-        "xbrl_try": "2026-11-05T16:13:14.437344+00:00"
-      },
-      {
         "key": "106847309",
         "seq_id": "106847309",
         "symbol": "BGLOBAL",
@@ -5607,7 +5588,7 @@
         "date": "2026-11-05",
         "qe": "30-SEP-2026",
         "basis": "",
-        "xbrl_try": "2026-11-05T16:13:15.051750+00:00"
+        "xbrl_try": "2026-11-05T17:13:25.901812+00:00"
       },
       {
         "key": "106847333",
@@ -6892,6 +6873,9 @@
     "artnirman_05112026165801_anlfinsept2026.pdf",
     "ivalue927_05112026170146_board_meeting-outcome05112026.pdf",
     "glenmark_05112026170258_seinitmationresults.pdf",
-    "orientppr_05112026170045_outcomeofbm05112026.pdf"
+    "orientppr_05112026170045_outcomeofbm05112026.pdf",
+    "fmnl1_05112026170706_outcome_bm_fmnl_20260930.pdf",
+    "shares_05112026170525_ihpoutcomeofboardmeeting05112026.pdf",
+    "sahajanand_05112026165953_11_board_meeting_outcome.pdf"
   ]
 }
