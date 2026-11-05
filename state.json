@@ -2,20 +2,6 @@
   "archive": [
     {
       "d": "2026-11-04",
-      "s": "GARUDA",
-      "c": "Garuda Construction and Engineering Limited",
-      "r": "Excellent",
-      "b": "Consolidated",
-      "q": "Q2 FY27",
-      "sales": 171.5891,
-      "pat": 40.6049,
-      "eps": 437.0,
-      "filing": "https://nsearchives.nseindia.com/corporate/GARUDACONSTRUCTION2010_04112026094801_Financial_Results_signed.pdf",
-      "chart": "https://www.tradingview.com/chart/?symbol=NSE:GARUDA",
-      "t": "04-Nov-2026 09:48:16"
-    },
-    {
-      "d": "2026-11-04",
       "s": "GAJA",
       "c": "Gaja Alternative Asset Management Limited",
       "r": "Excellent",
@@ -4246,6 +4232,20 @@
       "filing": "https://nsearchives.nseindia.com/corporate/ITD_05112026143226_st_exch_outcome_BM_2_after_the_meeting.pdf",
       "chart": "https://www.tradingview.com/chart/?symbol=NSE:CEMPRO",
       "t": "05-Nov-2026 14:32:56"
+    },
+    {
+      "d": "2026-11-05",
+      "s": "SAATVIKGL",
+      "c": "Saatvik Green Energy Limited",
+      "r": "Bad",
+      "b": "Consolidated",
+      "q": "Q4 FY28",
+      "sales": 902.605,
+      "pat": 20.245,
+      "eps": 1.64,
+      "filing": "https://nsearchives.nseindia.com/corporate/SAATVIK_05112026143717_Outcome_of_the_Board_Meeting_signed.pdf",
+      "chart": "https://www.tradingview.com/chart/?symbol=NSE:SAATVIKGL",
+      "t": "05-Nov-2026 14:37:32"
     }
   ],
   "seen": [
@@ -4878,7 +4878,8 @@
     "106846952",
     "106846966",
     "106846982",
-    "106846988"
+    "106846988",
+    "106847005"
   ],
   "digest": {
     "next_cache": "2026-11-04",
@@ -6552,6 +6553,7 @@
     "pateleng_05112026141639_seintimationoutcomeofbm.pdf",
     "jindworld_05112026142427_outcome_of_bm_signed.pdf",
     "kiriindus_05112026142843_bmoutcome_s.pdf",
-    "itd_05112026143226_st_exch_outcome_bm_2_after_the_meeting.pdf"
+    "itd_05112026143226_st_exch_outcome_bm_2_after_the_meeting.pdf",
+    "saatvik_05112026143717_outcome_of_the_board_meeting_signed.pdf"
   ]
 }
